@@ -1,9 +1,9 @@
 {
- "contract_version": "1.2.0",
- "run_id": "20261101T133601",
+ "contract_version": "1.3.0",
+ "run_id": "20261101T134648",
  "run_type": "manual",
  "scheduled_for": null,
- "generated_at": "2026-11-01T13:36:01+02:00",
+ "generated_at": "2026-11-01T13:46:48+02:00",
  "timezone": "Asia/Jerusalem",
  "producer": "Grok Bot (box /workspace/pilot/provider)",
  "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
@@ -76,56 +76,53 @@
    "file": "latest/game_metrics.json",
    "schema": "schemas/game_metrics.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "2026-11-01T11:45:00+02:00",
    "stale": false,
-   "sha256": "dfe4b8b101281b13de113f8294a5dcb1bdee095f5396bb0b36eb3abaca4a5b39",
+   "sha256": "f2417f94dd581281e52c38b1a61661afd38c33dc53599eab078f805f7717f66c",
    "bytes": 30145,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-01/game_metrics.json",
-   "content_unchanged_since": "2026-11-01T12:35:23+02:00"
+   "history_file": "history/2026-11-01/game_metrics.json"
   },
   "test_registry": {
    "file": "latest/test_registry.json",
    "schema": "schemas/test_registry.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "2026-11-01",
    "stale": false,
-   "sha256": "420ebcad1672a0cb08a68cec09fd01fbbdbe78aad6339936bc54e05299cb67d6",
+   "sha256": "4c5bfa3d4c0d903c3eb0a6c1e5095600cd6d90557bdd8b0fac671a3486fc89cc",
    "bytes": 1547606,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-01/test_registry.json",
-   "content_unchanged_since": "2026-11-01T12:35:23+02:00"
+   "history_file": "history/2026-11-01/test_registry.json"
   },
   "test_results": {
    "file": "latest/test_results.json",
    "schema": "schemas/test_results.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "2026-10-18..2026-11-01",
    "stale": false,
-   "sha256": "7f2a806bdcc4bac99152fce7734301288ffd1b1bb578454878f67a26dd352bfa",
+   "sha256": "daa5d1d4ad5deff5b8e99a74eb80fd58705e67c8c9529115620308bae940fb18",
    "bytes": 181769,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-01/test_results.json",
-   "content_unchanged_since": "2026-11-01T12:35:23+02:00"
+   "history_file": "history/2026-11-01/test_results.json"
   },
   "explanations_learnings_decisions": {
    "file": "latest/explanations_learnings_decisions.json",
    "schema": "schemas/explanations_learnings_decisions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "2026-11-01",
    "stale": false,
-   "sha256": "b1ed9d062dbeee9388597d5d2a3326e5f02de6c21b4660b977824ad0d5cf5ff8",
+   "sha256": "b3ac443a41130d0ae997b5e44eff1897036a30975c2854c586e2fd74991436ab",
    "bytes": 673847,
    "error": null,
    "is_final": null,
@@ -135,11 +132,11 @@
    "file": "latest/whatsapp_items.json",
    "schema": "schemas/whatsapp_items.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "2026-11-01",
    "stale": false,
-   "sha256": "7cd031210a705c2697193e10712f59778e67fdbbd71e9ce1496c9bebe444269c",
+   "sha256": "14ea414a2347165ea70289592d055035248c926a7483d0cdfadac8270a9cbb95",
    "bytes": 212845,
    "error": null,
    "is_final": null,
@@ -149,8 +146,8 @@
    "file": "latest/metric_definitions.json",
    "schema": "schemas/metric_definitions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "2026-11-01T12:05:00+02:00",
    "stale": false,
    "sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393",
@@ -164,16 +161,29 @@
    "file": "latest/glossary.json",
    "schema": "schemas/glossary.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:36:01+02:00",
-   "last_attempt_at": "2026-11-01T13:36:01+02:00",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
    "source_snapshot": "local sources as of 2026-11-01",
    "stale": false,
-   "sha256": "e446c75348da5e52ce204877f4d95da1f0f9eadb129428e93f68ccae2aff34de",
+   "sha256": "3b0054f4253ff0ce7c9b7fa66f2b84ff013e3c1a5b6ede582711b60be65c556d",
    "bytes": 93782,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-01/glossary.json",
-   "content_unchanged_since": "2026-11-01T13:31:33+02:00"
+   "history_file": "history/2026-11-01/glossary.json"
+  },
+  "open_issues": {
+   "file": "latest/open_issues.json",
+   "schema": "schemas/open_issues.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T13:46:48+02:00",
+   "last_attempt_at": "2026-11-01T13:46:48+02:00",
+   "source_snapshot": "curated from saved sources as of 2026-11-01",
+   "stale": false,
+   "sha256": "27571680d9a911d63a985fa473493d69e91bc17efd92964479d82ac946a387cf",
+   "bytes": 11273,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-01/open_issues.json"
   }
  },
  "counts": {
@@ -185,13 +195,14 @@
   "cross_studio_learnings": 4,
   "whatsapp_items": 341,
   "metric_definitions": 27,
+  "open_issues": 13,
   "glossary_concepts": 58
  },
  "layer": {
   "index": {
    "file": "index/tests_index.json",
    "schema": "schemas/tests_index.schema.json",
-   "sha256": "f047b1c35e36b31a0117e1a24bb822834bb7b897d1fa626f265d1a673ac9e941",
+   "sha256": "bf008e259efe93ba986482751e8e9849a5cf601276add76fa21a3179eb801ce5",
    "bytes": 624375,
    "tests": 662,
    "aggregate_fingerprint": "ff464975ed2e7b29300af691bc8896d35c391d4ed6f7183fda1a823ea79d05be"
@@ -204,17 +215,13 @@
   "log": "PROCESSING_LOG.md"
  },
  "change_summary": {
-  "run_at": "2026-11-01T13:36:01+02:00",
-  "baseline": "2026-11-01T13:31:33+02:00",
+  "run_at": "2026-11-01T13:46:48+02:00",
+  "baseline": "2026-11-01T13:36:01+02:00",
   "tests_added": 0,
-  "tests_updated": 1,
-  "tests_unchanged": 661,
+  "tests_updated": 0,
+  "tests_unchanged": 662,
   "tests_removed": 0,
-  "updated_detail": {
-   "DICE-1111-trail-extra-segment": [
-    "data"
-   ]
-  },
+  "updated_detail": {},
   "sections_regenerated": 0,
   "sections_reused": 3350,
   "needs_attention": [
@@ -245,28 +252,27 @@
    }
   },
   "publish": {
-   "run_at": "2026-11-01T13:36:01+02:00",
-   "baseline_published_at": "2026-11-01T13:31:33+02:00",
+   "run_at": "2026-11-01T13:46:48+02:00",
+   "baseline_published_at": "2026-11-01T13:36:01+02:00",
    "datasets_changed": [
-    "explanations_learnings_decisions",
-    "whatsapp_items"
-   ],
-   "datasets_unchanged": [
     "game_metrics",
     "test_registry",
     "test_results",
-    "metric_definitions",
-    "glossary"
+    "explanations_learnings_decisions",
+    "whatsapp_items",
+    "glossary",
+    "open_issues"
+   ],
+   "datasets_unchanged": [
+    "metric_definitions"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
-   "tests_updated": 1,
-   "tests_unchanged": 661,
+   "tests_updated": 0,
+   "tests_unchanged": 662,
    "tests_removed_kept": 0,
-   "updated_test_ids": [
-    "DICE-1111-trail-extra-segment"
-   ],
-   "detail_files_written": 1,
+   "updated_test_ids": [],
+   "detail_files_written": 0,
    "sections_regenerated": 0,
    "sections_reused": 3350,
    "needs_attention": [
@@ -286,15 +292,16 @@
  "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
  "publish": {
   "published": [
-   "explanations_learnings_decisions",
-   "whatsapp_items"
-  ],
-  "unchanged_kept": [
    "game_metrics",
    "test_registry",
    "test_results",
-   "metric_definitions",
-   "glossary"
+   "explanations_learnings_decisions",
+   "whatsapp_items",
+   "glossary",
+   "open_issues"
+  ],
+  "unchanged_kept": [
+   "metric_definitions"
   ],
   "failed": [],
   "history_dir": "history/2026-11-01/",

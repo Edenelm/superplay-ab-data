@@ -166,6 +166,14 @@ if os.path.exists(fm):
             if not os.path.isdir(q): err('_layer', f"FILE_MAP: dir missing {f['path']}")
         elif not os.path.exists(q): err('_layer', f"FILE_MAP: file missing {f['path']}")
         elif f.get('sha256') and hashlib.sha256(open(q, 'rb').read()).hexdigest() != f['sha256']: err('_layer', f"FILE_MAP: sha256 mismatch {f['path']}")
+# ---- v1.3 open_issues: referenced test_ids must exist; awaiting items need both notes ----
+oi = docs.get('open_issues')
+if oi:
+    _ids = {r['test_id'] for r in (docs.get('test_registry') or {}).get('records', [])}
+    for o in oi['items']:
+        for t in o['affected']['test_ids']:
+            if _ids and t not in _ids: err('open_issues', f"open_issues {o['id']}: unknown test_id {t}")
+    if oi['counts']['items'] != len(oi['items']): err('open_issues', 'open_issues: counts.items mismatch')
 # ---- secret scan ----
 SECRET = re.compile(r'(?i)(api[_-]?key|secret|token|password|bearer)\s*["\']?\s*[:=]\s*["\'][^"\']{12,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]{30,}|xox[bp]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}')
 for dp, _, fs in os.walk(ROOT):

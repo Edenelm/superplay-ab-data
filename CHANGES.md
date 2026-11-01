@@ -1,5 +1,21 @@
 # Changes (published)
 
+## 2026-11-01T13:46:48+02:00 (run 20261101T134648, published)
+
+- datasets changed: game_metrics, test_registry, test_results, explanations_learnings_decisions, whatsapp_items, glossary, open_issues; unchanged (file kept): metric_definitions; failed (last good kept): none
+- tests vs previous publish: +0 added, 0 updated, 662 unchanged, 0 removed from registry (files kept)
+- per-test files written: 0; explanation sections regenerated this run: 0 (reused 3350)
+- needs attention (9): see PROCESSING_LOG.md
+  - DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)
+  - DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)
+  - DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)
+  - DIS-123-mini-game-treatments: המנגנון טרם הובהר (live)
+  - DIS-125-v4-increase-by-mode: המנגנון טרם הובהר (live)
+  - DIS-125-zeus-launch: המנגנון טרם הובהר (live)
+  - DIS-125-8box-segments: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
+
 ## 2026-11-01T13:36:01+02:00 (run 20261101T133601, published)
 
 - datasets changed: explanations_learnings_decisions, whatsapp_items; unchanged (file kept): game_metrics, test_registry, test_results, metric_definitions, glossary; failed (last good kept): none

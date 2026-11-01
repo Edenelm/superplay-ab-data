@@ -6,23 +6,24 @@ skip any file whose sha256 (manifest / FILE_MAP) or test fingerprint (index) equ
 
 | Path | Size | Contains | Read when |
 |---|---|---|---|
-| `manifest.json` | 10,430 B | run metadata, per-dataset status/sha256/stale, layer pointers, change_summary | always first; compare sha256 / aggregate_fingerprint with what you cached |
+| `manifest.json` | 10,670 B | run metadata, per-dataset status/sha256/stale, layer pointers, change_summary | always first; compare sha256 / aggregate_fingerprint with what you cached |
 | `FILE_MAP.json` | 10,620 B | this map (machine-readable) | second, to find files |
 | `index/tests_index.json` | 624,375 B | one entry per test: game, name, tier, status, dates, Hebrew summary, mechanism, coverage, glossary concepts, tags he/en, flags, detail_file, fingerprint | third: filter here, then open only the detail files you need |
-| `CHANGES.md` | 5,239 B | what changed per run (tests added/updated, sections regenerated, needs attention) | when deciding what to re-read |
+| `CHANGES.md` | 6,383 B | what changed per run (tests added/updated, sections regenerated, needs attention) | when deciding what to re-read |
 | `FILE_MAP.md` | 5,702 B | this map (human-readable) | optional |
 | `PROCESSING_LOG.md` | 3,143 B | what was checked against which source version; what is still missing; accesses not retried | when a field is missing / unclear |
-| `README.md` | 1,379 B | repo readme | once |
-| `docs/CLAUDE_CODE_README.md` | 5,554 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
+| `README.md` | 1,695 B | repo readme | once |
+| `docs/CLAUDE_CODE_README.md` | 6,380 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `docs/GLOSSARY.md` | 11,037 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `docs/HQ_ACCESS.md` | 4,106 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `docs/METRIC_DEFINITIONS.md` | 28,043 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
-| `docs/data_dictionary.md` | 13,517 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
-| `history/2026-11-01` (dir, 9 files) | 3,406,064 B | copies of datasets + manifest published that day | audit / diffs over time |
+| `docs/data_dictionary.md` | 14,755 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
+| `history/2026-11-01` (dir, 10 files) | 3,417,577 B | copies of datasets + manifest published that day | audit / diffs over time |
 | `latest/explanations_learnings_decisions.json` | 673,847 B | legacy 8-question Hebrew explanations, decisions, cross-studio learnings | decisions / cross-studio learnings; per-test copies are in tests/ |
 | `latest/game_metrics.json` | 30,145 B | daily game KPIs (BigQuery) with completeness flags | game-level context |
 | `latest/glossary.json` | 93,782 B | org glossary: canonical term, aliases, per-game usage, source spellings, definition + refs, status, open question, not_same_as | to interpret terms / build tags; check not_same_as before comparing across games |
 | `latest/metric_definitions.json` | 31,265 B | metric definitions: source text, approval status, questions | before using any metric number |
+| `latest/open_issues.json` | 11,273 B | open decisions awaiting Eden / data team: topic, games, affected datasets/fields/def_ids/test_ids, Hebrew+English display note, since | to show limitations in the app; never hide data because of it |
 | `latest/test_registry.json` | 1,547,606 B | full registry (all tests, all fields) | full-data analysis; the index + per-test files are derived from it |
 | `latest/test_results.json` | 181,769 B | all results rows (append-only, revisions) | full-data analysis of results |
 | `latest/whatsapp_items.json` | 212,845 B | WhatsApp extracts with match info | source checks; per-test copies are in tests/ |
@@ -31,6 +32,7 @@ skip any file whose sha256 (manifest / FILE_MAP) or test fingerprint (index) equ
 | `schemas/glossary.schema.json` | 3,727 B | JSON Schemas (draft 2020-12) | when validating / generating types |
 | `schemas/manifest.schema.json` | 2,800 B | JSON Schemas (draft 2020-12) | when validating / generating types |
 | `schemas/metric_definitions.schema.json` | 2,396 B | JSON Schemas (draft 2020-12) | when validating / generating types |
+| `schemas/open_issues.schema.json` | 2,860 B | JSON Schemas (draft 2020-12) | when validating / generating types |
 | `schemas/test_detail.schema.json` | 11,567 B | JSON Schemas (draft 2020-12) | when validating / generating types |
 | `schemas/test_registry.schema.json` | 4,525 B | JSON Schemas (draft 2020-12) | when validating / generating types |
 | `schemas/test_results.schema.json` | 4,175 B | JSON Schemas (draft 2020-12) | when validating / generating types |
@@ -40,4 +42,4 @@ skip any file whose sha256 (manifest / FILE_MAP) or test fingerprint (index) equ
 | `tests/DICE` (dir, 291 files) | 2,582,099 B | one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates | only for tests selected from the index; skip if fingerprint unchanged |
 | `tests/DIS` (dir, 244 files) | 1,870,617 B | one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates | only for tests selected from the index; skip if fingerprint unchanged |
 | `tests/DOM` (dir, 127 files) | 1,196,576 B | one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates | only for tests selected from the index; skip if fingerprint unchanged |
-| `validate.py` | 15,338 B | validator: python3 validate.py . (exit 0 ok, 2 stale/partial, 1 errors) | after every pull |
+| `validate.py` | 15,837 B | validator: python3 validate.py . (exit 0 ok, 2 stale/partial, 1 errors) | after every pull |

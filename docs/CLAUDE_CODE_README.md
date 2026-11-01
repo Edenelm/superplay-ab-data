@@ -1,17 +1,20 @@
 # For Claude Code: consuming the CRO data feed
 
+> **You can start building the app now.** The open questions (metric definitions, HQ access, unclear Disney tests, status conflicts, the 21-day rule) do not block the build. They are published as data in `latest/open_issues.json`. Show them as limitations, and the app picks up the answers automatically when they change. Contract **v1.3.0**.
+
 The **producer** (Grok Bot) collects the data and publishes it. The **consumer** (your app) only reads. Do not write into the drop folder.
 
-## 0. Light read order (v1.2; saves tokens)
+## 0. Light read order (v1.3; saves tokens)
 1. `manifest.json`: check `layer.index.sha256` / `layer.index.aggregate_fingerprint` and per-dataset `sha256`. If all equal what you cached, stop.
 2. `FILE_MAP.json`: what each file holds, its size and sha256; when to read it.
 3. `index/tests_index.json`: filter by game / tier / is_live / has_results / coverage / tags / concepts. Compare each `fingerprint` with your cache; keep only the changed ones.
 4. `tests/<GAME>/<test_id>.json`: only for the selected tests (`detail_file`). Each holds registry + results + 6-section Hebrew explanation (statements tagged explicit_in_source / interpretation, with source_refs) + decisions + WhatsApp refs.
 5. `latest/*.json`: the full aggregates, still the basis for full-data analysis (not deprecated).
+6. `latest/open_issues.json`: open decisions (status=awaiting_decision). For each one, show `display_note_he`/`_en` next to the affected `fields` / `test_ids` / `def_ids`. Never hide data because of it.
 Use `docs/GLOSSARY.md` / `latest/glossary.json` for terms; never merge concepts listed in `not_same_as`. `CHANGES.md` lists what changed per run. Coverage `unclear` = 'המנגנון טרם הובהר': show it, do not fill it in.
 
 ## 1. Connect (GitHub data repo, read-only, server-side)
-The data lives in a **separate private GitHub repo** (suggested name `superplay-ab-data`; layout in UPDATE_CHANNEL.md). It is not active yet. Until it is, use `repo_staging/` in this pack as a fixture: it has exactly the repo layout, from a local dry run.
+The data lives in the **private GitHub repo `Edenelm/superplay-ab-data`** (branch `main`; layout in UPDATE_CHANNEL.md). It is active and is updated by normal commits only (no force push). `repo_staging/` in the provider pack is a local fixture with the same layout.
 1. Credential: `AB_DATA_READ_TOKEN` is a fine-grained PAT with **Contents: Read** on that repo only, or a GitHub App with Contents: read.
    - Keep it **server-side only** (backend, build step or serverless proxy).
    - **Never in the browser bundle, HTML, client JS or local storage.**
@@ -47,6 +50,7 @@ python3 validate.py <dir> --json                             # machine output (d
 - Show the Hebrew `tag`: source fact / explanation / hypothesis. Cross-studio learnings are hypotheses.
 - `is_live` and `has_results` are independent.
 - test_results is append-only. For each result_id, show the highest `revision`.
+- Open issues: render every `open_issues` item with status=awaiting_decision as a limitation note (e.g. a badge on the metric, or a banner on the affected test). The 21-day rule (`OI-RULE-21D`) is not defined, so never use it to end or hide a test.
 - Do not sum or compare game_metrics gross across games: `ALL.gross_comparability` needs approval. Solitaire gross is VAT-exclusive; Dice and Domino VAT treatment is undocumented.
 - `definition_status[field] == needs_approval`: show the number with a "definition pending approval" badge, or hide it. Link to the source text in metric_definitions.
 - `is_final == false`: show a "provisional" badge. Per-field detail is in `field_completeness` (`provisional_estimate` = the source says the value is usually low).
@@ -54,4 +58,4 @@ python3 validate.py <dir> --json                             # machine output (d
 - "Updated at" is `manifest.generated_at`, the actual run time. `scheduled_for` is the planned slot (null for a manual run).
 
 ## 5. Files
-`manifest.json`, `data/*.json` (incl. `metric_definitions.json`), `repo_staging/` (dry-run repo tree), `schemas/*.schema.json` (JSON Schema 2020-12), `examples/*.json` (real records), `data_dictionary.md`, `SOURCES_COVERAGE.md`, `UPDATE_CHANNEL.md`, `SECRETS_REQUIRED.md`, `METRIC_DEFINITIONS.md`, `HQ_ACCESS.md`, and `validate.py`. `tools/` holds the producer's own scripts, for reference only.
+`manifest.json`, `data/*.json` (incl. `metric_definitions.json`, `open_issues.json`), `repo_staging/` (dry-run repo tree), `schemas/*.schema.json` (JSON Schema 2020-12), `examples/*.json` (real records), `data_dictionary.md`, `SOURCES_COVERAGE.md`, `UPDATE_CHANNEL.md`, `SECRETS_REQUIRED.md`, `METRIC_DEFINITIONS.md`, `HQ_ACCESS.md`, and `validate.py`. `tools/` holds the producer's own scripts, for reference only.

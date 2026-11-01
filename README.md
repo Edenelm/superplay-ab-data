@@ -9,6 +9,9 @@ Produced by Grok Bot. Do not edit by hand.
 - `history/YYYY-MM-DD/`: copies of what was published that day (Asia/Jerusalem date of the run) + that run's manifest.
 - `schemas/`: JSON Schemas (draft 2020-12). `validate.py`: `python3 validate.py .` must exit 0 (or 2 = stale/failed dataset).
 - `docs/`: data dictionary, metric definitions (source text + approval status), HQ access notes.
+- `latest/open_issues.json`: open decisions (metric definitions, HQ access, unclear tests, status conflicts, 21-day rule). Show them as limitations; never hide data because of them.
+
+**App building can start now.** Open questions do not block it, because they are delivered as data (`open_issues`). Contract v1.3.0.
 
 Times are Asia/Jerusalem unless a field says otherwise. Source dates are not converted (see docs/METRIC_DEFINITIONS.md).
 

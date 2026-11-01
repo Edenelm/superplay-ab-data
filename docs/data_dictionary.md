@@ -1,4 +1,4 @@
-# Data dictionary — provider contract v1.2.0 (v1.2 adds the light layer; all v1.1 files and fields unchanged)
+# Data dictionary — provider contract v1.3.0 (v1.3 adds `open_issues`; v1.2 added the light layer; all earlier files and fields unchanged)
 
 **Conventions (all datasets)**
 - Files are UTF-8 JSON. Each one starts with a header: `dataset`, `contract_version`, `generated_at` (ISO 8601 with offset, Asia/Jerusalem) and `timezone`.
@@ -168,3 +168,19 @@ Source ref formats as emitted: the record's own source URL (Monday item / Sheets
 
 ### manifest additions
 `datasets.glossary`; `layer` {index{file, schema, sha256, bytes, tests, aggregate_fingerprint}, tests_dir, detail_schema, state, file_map, changes, log}; `change_summary` {tests_added/updated/unchanged/removed, sections_regenerated/reused, needs_attention, coverage, publish{… diff vs the previously published repo}}. A dataset whose content (ignoring generated_at/updated_at) is unchanged keeps its previous file and sha256 (`content_unchanged_since`).
+
+## v1.3 open_issues (additive)
+`latest/open_issues.json` (provider: `data/open_issues.json`, schema `schemas/open_issues.schema.json`): decisions and questions still waiting for Eden or the data team. The app should show them as limitations next to the affected data. **Do not hide the data because of an open issue.** Human-readable version: `DECISIONS_2026-11-01.md` (local to the provider, not published).
+
+| field | meaning |
+|---|---|
+| id | `OI-…`, stable |
+| topic | metric_definition / data_team_question / access / test_mechanism / status_conflict / rule |
+| games | affected games |
+| affected | {datasets[], fields[], def_ids[] (→ metric_definitions.def_id), test_ids[] (→ test_id; validated to exist)} |
+| status | awaiting_decision / decided / withdrawn |
+| display_note_he / display_note_en | short text to show as the limitation badge or tooltip |
+| since, since_basis | date the open item was recorded, and on what saved evidence |
+| decision_doc_ref | section in DECISIONS_<date>.md |
+
+Display rule: for each affected field/test, show `display_note_he` (or `_en`). `OI-RULE-21D`: the 21-day rule is not defined, so it must never end or hide a test; at most show a `needs_review` flag.

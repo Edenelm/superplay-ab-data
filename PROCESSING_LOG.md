@@ -1,14 +1,14 @@
 # Processing log
 
-Run 2026-11-01T13:36:01+02:00 (run_id 20261101T133601). Baseline state: 2026-11-01T13:31:33+02:00.
+Run 2026-11-01T13:46:48+02:00 (run_id 20261101T134648). Baseline state: 2026-11-01T13:36:01+02:00.
 
 ## Checked against (source versions)
 
-- `game_metrics`: {"sha256": "c194e088eeed917ccfd7facb63cb324dfa1a45a9d2d49da44297408aa199e0d3", "source_snapshot": "2026-11-01T11:45:00+02:00"}
-- `test_registry`: {"sha256": "59a7344f56092f7cbc7e471897d048ceff7ec4bc69d129c5a6fc833cf4e5eca8", "source_snapshot": "2026-11-01"}
-- `test_results`: {"sha256": "0213b19c1b35e3c7e8a3ba77e268070cb1785b24316d50ba32f23763a277848d", "source_snapshot": "2026-10-18..2026-11-01"}
-- `explanations_learnings_decisions`: {"sha256": "b1ed9d062dbeee9388597d5d2a3326e5f02de6c21b4660b977824ad0d5cf5ff8", "source_snapshot": "2026-11-01"}
-- `whatsapp_items`: {"sha256": "7cd031210a705c2697193e10712f59778e67fdbbd71e9ce1496c9bebe444269c", "source_snapshot": "2026-11-01"}
+- `game_metrics`: {"sha256": "f2417f94dd581281e52c38b1a61661afd38c33dc53599eab078f805f7717f66c", "source_snapshot": "2026-11-01T11:45:00+02:00"}
+- `test_registry`: {"sha256": "4c5bfa3d4c0d903c3eb0a6c1e5095600cd6d90557bdd8b0fac671a3486fc89cc", "source_snapshot": "2026-11-01"}
+- `test_results`: {"sha256": "daa5d1d4ad5deff5b8e99a74eb80fd58705e67c8c9529115620308bae940fb18", "source_snapshot": "2026-10-18..2026-11-01"}
+- `explanations_learnings_decisions`: {"sha256": "b3ac443a41130d0ae997b5e44eff1897036a30975c2854c586e2fd74991436ab", "source_snapshot": "2026-11-01"}
+- `whatsapp_items`: {"sha256": "14ea414a2347165ea70289592d055035248c926a7483d0cdfadac8270a9cbb95", "source_snapshot": "2026-11-01"}
 - `metric_definitions`: {"sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393", "source_snapshot": "2026-11-01T12:05:00+02:00"}
 - `curated_live_understanding`: {"sha256": "ee384cab005fa900458e9a0704482e6ea50127390dc79e1ac8b4769becc5f99f"}
 - `curated_extra_conflicts`: {"sha256": "5997998b247a1104f4ac35df2df7f0d980f7b1dc0f57e858a52acc2353769b8e", "file": "tools/curated/extra_conflicts.json"}
