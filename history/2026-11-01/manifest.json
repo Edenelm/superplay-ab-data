@@ -1,0 +1,184 @@
+{
+ "contract_version": "1.1.0",
+ "run_id": "20261101T120833",
+ "run_type": "manual",
+ "scheduled_for": null,
+ "generated_at": "2026-11-01T12:08:33+02:00",
+ "timezone": "Asia/Jerusalem",
+ "producer": "Grok Bot (box /workspace/pilot/provider)",
+ "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
+ "schedule": {
+  "planned": "Sun-Thu 08:30 Asia/Jerusalem",
+  "days": [
+   "Sun",
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "time": "08:30",
+  "active": false,
+  "next_scheduled_for_if_active": "2026-11-02T08:30:00+02:00"
+ },
+ "stale_after_hours": 26,
+ "weekend_rule": "Fri/Sat: not stale until Sun 11:00 Asia/Jerusalem (no runs Fri/Sat)",
+ "definitions": {
+  "file": "data/metric_definitions.json",
+  "documented": 8,
+  "needs_approval": 19,
+  "date_timezones": {
+   "Dice Dreams": "undocumented",
+   "Domino Dreams": "undocumented",
+   "Disney Solitaire": "UTC"
+  }
+ },
+ "completeness_rules": [
+  {
+   "rule_id": "DICE.lookback",
+   "game": "Dice Dreams",
+   "fields": "*",
+   "provisional_if": "date >= reference_day - 7",
+   "rule_basis": "source_documented",
+   "source": "dice-dreams-dbt.40_mart.user_daily_metrics_all_users table description: 'Filters: date_dim >= 2026-01-01, excludes current day data' and 'start_date var controls source lookback (default 7 days)'"
+  },
+  {
+   "rule_id": "DOM.default",
+   "game": "Domino Dreams",
+   "fields": "*",
+   "provisional_if": "date >= reference_day - 7",
+   "rule_basis": "default_assumption",
+   "source": "no refresh/late-arrival window documented for domino-dreams-dbt.prod_40_mart.user_daily_metrics (no table description); 7 days mirrors the other two games; needs approval (DOM.completeness)"
+  },
+  {
+   "rule_id": "DIS.rebuild_window",
+   "game": "Disney Solitaire",
+   "fields": "*",
+   "provisional_if": "date >= reference_day - 8",
+   "rule_basis": "source_documented",
+   "source": "solitaire-dreams-dbt.40_mart.user_daily_metrics table description: 'the last purchase_late_arrival_days + 1 (8) days on incremental runs' and 'The current UTC date is included, so the latest day is partial until the next run rebuilds it.'"
+  },
+  {
+   "rule_id": "DIS.ad_estimate",
+   "game": "Disney Solitaire",
+   "fields": [
+    "ad_revenue_usd"
+   ],
+   "provisional_if": "date >= reference_day - 3",
+   "status": "provisional_estimate",
+   "rule_basis": "source_documented",
+   "source": "solitaire-dreams-dbt.40_mart.user_daily_metrics.ad_revenue: 'The latest 1-3 days usually carry the rewarded-ad estimate (~10% low) and switch to AppLovin on a later run.'",
+   "observation": "2026-10-31 ad_revenue 4,211 vs 13,744 / 14,186 on 29-30.10 (export of 2026-11-01)"
+  }
+ ],
+ "completeness_reference_day_utc": "2026-11-01",
+ "datasets": {
+  "game_metrics": {
+   "file": "latest/game_metrics.json",
+   "schema": "schemas/game_metrics.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T12:08:33+02:00",
+   "last_attempt_at": "2026-11-01T12:08:33+02:00",
+   "source_snapshot": "2026-11-01T11:45:00+02:00",
+   "stale": false,
+   "sha256": "263547058a80b83f1aabef6169f8629476e404b5cac1c5cc3f3263702f4394a2",
+   "bytes": 30145,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-01/game_metrics.json"
+  },
+  "test_registry": {
+   "file": "latest/test_registry.json",
+   "schema": "schemas/test_registry.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T12:08:33+02:00",
+   "last_attempt_at": "2026-11-01T12:08:33+02:00",
+   "source_snapshot": "2026-11-01",
+   "stale": false,
+   "sha256": "9567e0ed37d5569b9f09342c6b669d8fbfe15865848b9abd4fea1e2b22e4b759",
+   "bytes": 1547606,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-01/test_registry.json"
+  },
+  "test_results": {
+   "file": "latest/test_results.json",
+   "schema": "schemas/test_results.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T12:08:33+02:00",
+   "last_attempt_at": "2026-11-01T12:08:33+02:00",
+   "source_snapshot": "2026-10-18..2026-11-01",
+   "stale": false,
+   "sha256": "d82cff2f4b6cac645a76aa49e9a87bdca4beb6d3806a1051e73b41c2765b0ced",
+   "bytes": 181769,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-01/test_results.json"
+  },
+  "explanations_learnings_decisions": {
+   "file": "latest/explanations_learnings_decisions.json",
+   "schema": "schemas/explanations_learnings_decisions.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T12:08:33+02:00",
+   "last_attempt_at": "2026-11-01T12:08:33+02:00",
+   "source_snapshot": "2026-11-01",
+   "stale": false,
+   "sha256": "d1df1b7c56b3c7f691d29ca61791c90072c4fa1a36ddc3b63cda7720ebf04877",
+   "bytes": 673831,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-01/explanations_learnings_decisions.json"
+  },
+  "whatsapp_items": {
+   "file": "latest/whatsapp_items.json",
+   "schema": "schemas/whatsapp_items.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T12:08:33+02:00",
+   "last_attempt_at": "2026-11-01T12:08:33+02:00",
+   "source_snapshot": "2026-11-01",
+   "stale": false,
+   "sha256": "94378a557ec11d4cb580ace946ecbe1ce86c5fb208b1f8d5eaedfc1ffdccae8d",
+   "bytes": 202742,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-01/whatsapp_items.json"
+  },
+  "metric_definitions": {
+   "file": "latest/metric_definitions.json",
+   "schema": "schemas/metric_definitions.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-01T12:08:33+02:00",
+   "last_attempt_at": "2026-11-01T12:08:33+02:00",
+   "source_snapshot": "2026-11-01T12:05:00+02:00",
+   "stale": false,
+   "sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393",
+   "bytes": 31265,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-01/metric_definitions.json"
+  }
+ },
+ "counts": {
+  "game_metrics": 9,
+  "test_registry": 662,
+  "test_results": 116,
+  "explanations": 144,
+  "decisions": 220,
+  "cross_studio_learnings": 4,
+  "whatsapp_items": 326,
+  "metric_definitions": 27
+ },
+ "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
+ "publish": {
+  "published": [
+   "game_metrics",
+   "test_registry",
+   "test_results",
+   "explanations_learnings_decisions",
+   "whatsapp_items",
+   "metric_definitions"
+  ],
+  "failed": [],
+  "history_dir": "history/2026-11-01/",
+  "retention": "keep all (no deletions)"
+ }
+}

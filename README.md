@@ -1,3 +1,17 @@
+# A/B test learning data (read-only feed)
+
+Produced by Grok Bot. Do not edit by hand.
+
+- `manifest.json`: start here. Per dataset: status (ok/failed), last_success_at, sha256, stale, is_final; run_type, scheduled_for, generated_at.
+- `latest/*.json`: last good version of each dataset (a failed dataset keeps its previous file; check manifest status).
+- `history/YYYY-MM-DD/`: copies of what was published that day (Asia/Jerusalem date of the run) + that run's manifest.
+- `schemas/`: JSON Schemas (draft 2020-12). `validate.py`: `python3 validate.py .` must exit 0 (or 2 = stale/failed dataset).
+- `docs/`: data dictionary, metric definitions (source text + approval status), HQ access notes.
+
+Times are Asia/Jerusalem unless a field says otherwise. Source dates are not converted (see docs/METRIC_DEFINITIONS.md).
+
+## Earlier README content (kept)
+
 # superplay-ab-data
 Data-only repository for the SuperPlay CRO A/B app. Written by Grok Bot (data provider), read by the app built with Claude Code.
 Contents will follow the data contract in the starter pack (manifest.json, latest/, history/, schemas/).

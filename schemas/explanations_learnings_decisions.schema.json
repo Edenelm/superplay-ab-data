@@ -1,0 +1,532 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/explanations_learnings_decisions.schema.json",
+ "title": "explanations_learnings_decisions",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "explanations",
+  "decisions",
+  "cross_studio_learnings"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "explanations_learnings_decisions"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  },
+  "timezone": {
+   "const": "Asia/Jerusalem"
+  },
+  "explanations": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "test_id",
+     "game",
+     "lang",
+     "questions",
+     "updated_at"
+    ],
+    "properties": {
+     "test_id": {
+      "type": "string"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "lang": {
+      "const": "he"
+     },
+     "questions": {
+      "type": "object",
+      "required": [
+       "what_changed",
+       "why_tested",
+       "who",
+       "what_happened",
+       "business_meaning",
+       "limitations",
+       "recommended",
+       "decided"
+      ],
+      "properties": {
+       "what_changed": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "why_tested": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "who": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "what_happened": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "business_meaning": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "limitations": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "recommended": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "decided": {
+        "type": "object",
+        "required": [
+         "text_he",
+         "tag",
+         "source_refs",
+         "null_reason"
+        ],
+        "properties": {
+         "text_he": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "tag": {
+          "enum": [
+           "source_fact",
+           "generated_explanation",
+           "hypothesis",
+           null
+          ]
+         },
+         "source_refs": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "null_reason": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       }
+      },
+      "additionalProperties": true
+     },
+     "measured_impact_ref": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  },
+  "decisions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "decision_id",
+     "test_id",
+     "game",
+     "name",
+     "sources",
+     "conflicts",
+     "verification",
+     "updated_at"
+    ],
+    "properties": {
+     "decision_id": {
+      "type": "string"
+     },
+     "test_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "name": {
+      "type": "string"
+     },
+     "whatsapp_decision_latest": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "recommended": {
+      "type": "array"
+     },
+     "board_decision": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "object",
+       "required": [
+        "type",
+        "ref"
+       ],
+       "properties": {
+        "type": {
+         "type": "string"
+        },
+        "ref": {
+         "type": "string"
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "conflicts": {
+      "type": "array"
+     },
+     "verification": {
+      "enum": [
+       "VERIFIED",
+       "MISMATCH",
+       "NOT VERIFIED"
+      ]
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  },
+  "cross_studio_learnings": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "learning_id",
+     "theme",
+     "tag",
+     "per_game_evidence",
+     "questions_before_porting_he",
+     "not_proof_of_transfer",
+     "updated_at"
+    ],
+    "properties": {
+     "learning_id": {
+      "type": "string"
+     },
+     "theme": {
+      "type": "string"
+     },
+     "tag": {
+      "const": "hypothesis"
+     },
+     "mechanism": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "conditions": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "per_game_evidence": {
+      "type": "object"
+     },
+     "questions_before_porting_he": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "not_proof_of_transfer": {
+      "const": true
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}

@@ -1,0 +1,245 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/game_metrics.schema.json",
+ "title": "game_metrics",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "records"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "game_metrics"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  },
+  "timezone": {
+   "const": "Asia/Jerusalem"
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "metric_id",
+     "game",
+     "date",
+     "date_timezone",
+     "currency",
+     "revenue_gross_usd",
+     "revenue_net_usd",
+     "ad_revenue_usd",
+     "payers",
+     "active_users_dau",
+     "period_unique_users",
+     "definition_refs",
+     "definition_status",
+     "exclusions",
+     "source",
+     "null_reasons",
+     "completeness",
+     "is_final",
+     "field_completeness",
+     "verification",
+     "updated_at"
+    ],
+    "properties": {
+     "metric_id": {
+      "type": "string",
+      "pattern": "^(DICE|DOM|DIS)-\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "date_timezone": {
+      "type": "string"
+     },
+     "currency": {
+      "const": "USD"
+     },
+     "revenue_gross_usd": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "revenue_net_usd": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "ad_revenue_usd": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "payers": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "active_users_dau": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "period_unique_users": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "users_with_any_row": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "pau_flag_users": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "definition_refs": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "definition_status": {
+      "type": "object",
+      "additionalProperties": {
+       "enum": [
+        "documented",
+        "needs_approval"
+       ]
+      }
+     },
+     "exclusions": {
+      "type": "string"
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "type",
+       "project",
+       "table",
+       "sql",
+       "run_at"
+      ],
+      "properties": {
+       "type": {
+        "const": "bigquery"
+       },
+       "project": {
+        "type": "string"
+       },
+       "table": {
+        "type": "string"
+       },
+       "sql": {
+        "type": "string"
+       },
+       "run_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+       }
+      },
+      "additionalProperties": true
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string",
+       "minLength": 3
+      }
+     },
+     "caveats": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "completeness": {
+      "enum": [
+       "final",
+       "provisional"
+      ]
+     },
+     "is_final": {
+      "type": "boolean"
+     },
+     "field_completeness": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "object",
+       "required": [
+        "status",
+        "rule_id",
+        "rule_basis"
+       ],
+       "properties": {
+        "status": {
+         "enum": [
+          "final",
+          "provisional",
+          "provisional_estimate"
+         ]
+        },
+        "rule_id": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "rule_basis": {
+         "enum": [
+          "source_documented",
+          "observed",
+          "default_assumption",
+          null
+         ]
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "verification": {
+      "enum": [
+       "VERIFIED",
+       "MISMATCH",
+       "NOT VERIFIED"
+      ]
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}

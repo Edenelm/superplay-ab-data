@@ -1,0 +1,264 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/test_registry.schema.json",
+ "title": "test_registry",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "records"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "test_registry"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  },
+  "timezone": {
+   "const": "Asia/Jerusalem"
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "test_id",
+     "game",
+     "board_item_id",
+     "name",
+     "lifecycle",
+     "is_live",
+     "has_results",
+     "sources",
+     "conflicts",
+     "verification",
+     "updated_at",
+     "null_reasons"
+    ],
+    "properties": {
+     "test_id": {
+      "type": "string",
+      "pattern": "^(DICE|DOM|DIS)-(\\d+|NOID)-[a-z0-9-]+$"
+     },
+     "legacy_keys": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "board_item_id": {
+      "type": "string"
+     },
+     "board_test_number": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "name": {
+      "type": "string"
+     },
+     "lifecycle": {
+      "enum": [
+       "has_results",
+       "live",
+       "live_with_results",
+       "backlog",
+       "completed_board_only"
+      ]
+     },
+     "board_status_raw": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "outcome_label": {
+      "enum": [
+       "success",
+       "lost",
+       "running",
+       "stopped",
+       "other",
+       null
+      ]
+     },
+     "is_live": {
+      "type": "boolean"
+     },
+     "has_results": {
+      "type": "boolean"
+     },
+     "business_question": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "hypothesis": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "change": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "audience": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "control_vs_test": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "split": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "start_date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "end_date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "phases": {
+      "type": "array"
+     },
+     "primary_kpi": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "guardrails": {
+      "type": [
+       "array",
+       "null"
+      ]
+     },
+     "tags": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "mixpanel": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "conflicts": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "type",
+        "msg"
+       ],
+       "properties": {
+        "type": {
+         "type": "string"
+        },
+        "msg": {
+         "type": "string"
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "source_links": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "label",
+        "url"
+       ],
+       "properties": {
+        "label": {
+         "type": "string"
+        },
+        "url": {
+         "type": "string",
+         "pattern": "^https://"
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "object",
+       "required": [
+        "type",
+        "ref"
+       ],
+       "properties": {
+        "type": {
+         "type": "string"
+        },
+        "ref": {
+         "type": "string"
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "verification": {
+      "enum": [
+       "VERIFIED",
+       "MISMATCH",
+       "NOT VERIFIED"
+      ]
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string",
+       "minLength": 3
+      }
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}
