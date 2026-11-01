@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-125-push-notification-increase-by-lvl",
   "legacy_keys": [
@@ -97,98 +97,127 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - Push notification increase by lvl». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים תוספת פושים לפי Level (לפני פתיחת פיצ'רים).",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - Push notification increase by lvl». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים תוספת פושים לפי Level (לפני פתיחת פיצ'רים).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935427"
+       "mp_dashboard:11564466#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "6404a29a89ac06cd",
+    "fingerprint": "2245d7d29d7aa5ec",
     "inputs": {
-     "registry:name": "ea1e6bf7e11a3ebd",
+     "curated:what": "04d4fe736902eb59",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: לא נכתב במקור | טסט: לפי דשבורד בהתאמה אפשרית ('T125 - Increase push notifications by lvl', לא שויך רשמית): מוסיפים פושים לשחקנים שנמצאים 0–10 שלבים לפני פתיחת פיצ'ר (Challenge, Puzzle, Momentum, Mega Mode, Album, Epic Mode, Chef, Legendary Mode, Magical Friend). סוג מנגנון: other",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
-      "tag": "explicit_in_source",
+      "text_he": "קונטרול: לא נכתב במקור | טסט: לפי דשבורד בהתאמה אפשרית ('T125 - Increase push notifications by lvl', לא שויך רשמית): מוסיפים פושים לשחקנים שנמצאים 0–10 שלבים לפני פתיחת פיצ'ר (Challenge, Puzzle, Momentum, Mega Mode, Album, Epic Mode, Chef, Legendary Mode, Magical Friend).",
+      "tag": "interpretation",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935427"
+       "mp_dashboard:11564466#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11564466#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "263ce29ab531269e",
+    "fingerprint": "7e5c872074729976",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "ea1e6bf7e11a3ebd",
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "b2806f59b3294213",
+     "curated:mech": "d448c0e0f65da794",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05",
+    "text_he": "קהל: 50-50 (דשבורד) | התחלה: 2026-10-05 שלב/שינוי בהרצה: התחלה 5/10 12:00 UTC (דשבורד).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05",
+      "text_he": "קהל: 50-50 (דשבורד) | התחלה: 2026-10-05",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935427"
+       "mp_dashboard:11564466#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 5/10 12:00 UTC (דשבורד).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11564466#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "892714c1fc951919",
+    "fingerprint": "187841099f1a2d94",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "dbd39fbed4d4a45d",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "d0171c46edc2e8cb",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "99d863ac6b51e81f",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935427"
+       "mp_dashboard:11564466#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם הדשבורד 'Increase push notifications by lvl' (קבוצות בשם 'V2') הוא הטסט הזה? מה מקבל הקונטרול ומה ההשערה?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "האם הדשבורד 'Increase push notifications by lvl' (קבוצות בשם 'V2') הוא הטסט הזה?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935427"
+       "mp_dashboard:11564466#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה מקבל הקונטרול ומה ההשערה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11564466#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "7e113568e83f86c4",
+    "fingerprint": "c21de9a3d9588f9b",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "0728b8b5625c1e2b",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "b69fc5d2d30a33b7",
      "expl:limitations": "87366045f2bcc5ca",
      "registry:change": "74234e98afe7498f",
@@ -201,23 +230,32 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "other",
   "mechanism_type_tag": "interpretation",
   "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "test_state": "לפי דשבורד בהתאמה אפשרית ('T125 - Increase push notifications by lvl', לא שויך רשמית): מוסיפים פושים לשחקנים שנמצאים 0–10 שלבים לפני פתיחת פיצ'ר (Challenge, Puzzle, Momentum, Mega Mode, Album, Epic Mode, Chef, Legendary Mode, Magical Friend).",
+  "audience": "50-50 (דשבורד)",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "התחלה 5/10 12:00 UTC (דשבורד)."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935427"
+    "ref": "mp_dashboard:11564466#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11564466",
+    "title": "T125 - Increase push notifications by lvl",
+    "match_check": "POSSIBLE→likely same: T125, same words reordered; group property says V2"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935427",
+    "value": "125 - Push notification increase by lvl"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-push-notification-increase-by-lvl",
@@ -304,6 +342,6 @@
  "glossary_concepts": [
   "Push"
  ],
- "content_fingerprint": "facf0dd4930f8bcfbce0f5fbf420c8f618c5a5733e1fe41ce50ed90ddb4eb3ed",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "84cb363cf1bb2c4a5828f72c7f6f6dc3796ad68b45ad77cf7d8f7b5e4f24b743",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

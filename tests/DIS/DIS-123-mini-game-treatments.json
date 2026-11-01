@@ -92,98 +92,140 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «123 - mini game treatments». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים 'treatments' למיני-גיים (לפי שם הפריט).",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «123 - mini game treatments». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים 'treatments' למיני-גיים (לפי שם הפריט).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+       "mp_dashboard:11427657#text_card[0]",
+       "mp_dashboard:11508194",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "cc724f3cd8dc492d",
+    "fingerprint": "1a46bd7904cbf5c6",
     "inputs": {
-     "registry:name": "835a5bb5b9ff614f",
+     "curated:what": "a0d8b350215c1814",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה ה-treatments שנבדקים, ומה מקבל הקונטרול? סוג מנגנון: unclear",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה ה-treatments שנבדקים, ומה מקבל הקונטרול?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+       "mp_dashboard:11427657#text_card[0]",
+       "mp_dashboard:11508194",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: unclear",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11427657#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "2bd5f08037e83ed3",
+    "fingerprint": "9ed9e61a3b69df0c",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "835a5bb5b9ff614f",
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02 שלב/שינוי בהרצה: דשבורד אפשרי שלא שויך ('T123 - Mini game segmentation'): טסט 4 סגמנטים לפי brut wins ‏(0–20/20–50/50–100/100+) מול קונטרול 3 ‏(0–40/40–80/80+), התחלה 05/08, ‏'ABORT 02/09 10:00 UTC'. זה בדיוק תאריך ההתחלה של הפריט ב-Monday. שלב/שינוי בהרצה: דשבורד אפשרי נוסף שלא שויך ('T124 - mini game treatments', נוצר 07/09/2026): בלי כרטיס טקסט.",
     "statements": [
      {
       "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+       "mp_dashboard:11427657#text_card[0]",
+       "mp_dashboard:11508194",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: דשבורד אפשרי שלא שויך ('T123 - Mini game segmentation'): טסט 4 סגמנטים לפי brut wins ‏(0–20/20–50/50–100/100+) מול קונטרול 3 ‏(0–40/40–80/80+), התחלה 05/08, ‏'ABORT 02/09 10:00 UTC'. זה בדיוק תאריך ההתחלה של הפריט ב-Monday.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11427657#text_card[0]",
+       "mp_dashboard:11508194",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: דשבורד אפשרי נוסף שלא שויך ('T124 - mini game treatments', נוצר 07/09/2026): בלי כרטיס טקסט.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11427657#text_card[0]",
+       "mp_dashboard:11508194",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "265bcfd0c9ceab18",
+    "fingerprint": "3ea70d2752d5f709",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "6be9875b5ec00706",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "93d48636859d92e3",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+       "mp_dashboard:11427657#text_card[0]",
+       "mp_dashboard:11508194"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה ה-treatments שנבדקים, ומה מקבל הקונטרול? האם הטסט הזה ממשיך את T123 Mini game segmentation, שבוטל ב-02/09?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "מה ה-treatments שנבדקים, ומה מקבל הקונטרול?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+       "mp_dashboard:11427657#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "האם הטסט הזה ממשיך את T123 Mini game segmentation, שבוטל ב-02/09?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11427657#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "fccaa39c4961dda4",
+    "fingerprint": "10df83bc9de15119",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "34a3729a47b184bf",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "c83c9da42bec0a6f",
      "registry:change": "74234e98afe7498f",
@@ -204,15 +246,31 @@
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "דשבורד אפשרי שלא שויך ('T123 - Mini game segmentation'): טסט 4 סגמנטים לפי brut wins ‏(0–20/20–50/50–100/100+) מול קונטרול 3 ‏(0–40/40–80/80+), התחלה 05/08, ‏'ABORT 02/09 10:00 UTC'. זה בדיוק תאריך ההתחלה של הפריט ב-Monday.",
+   "דשבורד אפשרי נוסף שלא שויך ('T124 - mini game treatments', נוצר 07/09/2026): בלי כרטיס טקסט."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+    "ref": "mp_dashboard:11427657#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11427657",
+    "title": "T123 - Mini game segmentation",
+    "match_check": "POSSIBLE (name differs): same game, T123; its abort date 02/09 = Monday start"
+   },
+   {
+    "ref": "mp_dashboard:11508194",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11508194",
+    "title": "T124 - mini game treatments",
+    "match_check": "POSSIBLE (number differs T124 vs 123): name matches; no text card"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935423",
+    "value": "123 - mini game treatments"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-123-mini-game-treatments",
@@ -297,6 +355,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "9a2f4cd7e474f7c32deee8c4755757517804ab6317659c3cd19625a05cb42653",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "6e8efe2d9d60438a20399e9290732e4072ad13c4de935edf011225b4312f01e1",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

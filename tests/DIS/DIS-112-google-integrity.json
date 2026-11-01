@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-112-google-integrity",
   "legacy_keys": [
@@ -98,98 +98,140 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «112 - Google Integrity». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים בדיקת Google Integrity (אמינות אפליקציה, רישיון ומכשיר) לשחקנים.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «112 - Google Integrity». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים בדיקת Google Integrity (אמינות אפליקציה, רישיון ומכשיר) לשחקנים.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998242"
+       "mp_dashboard:10919793#text_card[0]",
+       "mp_dashboard:10938909#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "9f5c6883a27065ec",
+    "fingerprint": "ada37e4a5bb4afce",
     "inputs": {
-     "registry:name": "29d721576c8eba0c",
+     "curated:what": "e1bd08664d952ecf",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: לא קיבלו כלום (שלב Tech Launch). | טסט: שלב Tech Launch: קיבלו בדיקת Google Integrity. שלב Global (03-02-2026): הבדיקה רצה בשתי הקבוצות בלי חסימה ('Real test has not started (no block)'). סוג מנגנון: other",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: לא קיבלו כלום (שלב Tech Launch). | טסט: שלב Tech Launch: קיבלו בדיקת Google Integrity. שלב Global (03-02-2026): הבדיקה רצה בשתי הקבוצות בלי חסימה ('Real test has not started (no block)').",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998242"
+       "mp_dashboard:10919793#text_card[0]",
+       "mp_dashboard:10938909#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:10919793#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "440a66b80962411d",
+    "fingerprint": "609cfde80f15f825",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "29d721576c8eba0c",
+     "curated:control": "3c07336aa51d4cb8",
+     "curated:test": "aeaf31fe37016a22",
+     "curated:mech": "d448c0e0f65da794",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-01-25",
+    "text_he": "קהל: Level ≥ 5. Tech Launch: Android בלבד, מצרים, ברזיל, ארגנטינה, פורטוגל, סרביה, צ'ילה ומקסיקו, 50/50. Global: Android + iOS | התחלה: 2026-01-25 שלב/שינוי בהרצה: Tech Launch: התחלה 25.1.2026 12:50 UTC. שלב/שינוי בהרצה: Global Launch (W/O Block): ‏03-02-2026 11:16 UTC.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-01-25",
+      "text_he": "קהל: Level ≥ 5. Tech Launch: Android בלבד, מצרים, ברזיל, ארגנטינה, פורטוגל, סרביה, צ'ילה ומקסיקו, 50/50. Global: Android + iOS | התחלה: 2026-01-25",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998242"
+       "mp_dashboard:10919793#text_card[0]",
+       "mp_dashboard:10938909#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: Tech Launch: התחלה 25.1.2026 12:50 UTC.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:10919793#text_card[0]",
+       "mp_dashboard:10938909#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: Global Launch (W/O Block): ‏03-02-2026 11:16 UTC.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:10919793#text_card[0]",
+       "mp_dashboard:10938909#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "7260f548fa934137",
+    "fingerprint": "a5d0c8037b016d0c",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "d6d7b5a403895206",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "08ad0fc1dfa1894f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "bd93607fc48911ee",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998242"
+       "mp_dashboard:10919793#text_card[0]",
+       "mp_dashboard:10938909#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם החסימה הופעלה אי פעם, ובאיזה שלב הטסט עכשיו? מה ההשערה העסקית?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "האם החסימה הופעלה אי פעם, ובאיזה שלב הטסט עכשיו?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998242"
+       "mp_dashboard:10919793#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:10919793#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "8f30c9b8146c1845",
+    "fingerprint": "869e07e86358e2af",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "02f11aa5c17587ab",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "f1ba95ff1219c1f2",
      "registry:change": "74234e98afe7498f",
@@ -202,23 +244,39 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "other",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "לא קיבלו כלום (שלב Tech Launch).",
+  "test_state": "שלב Tech Launch: קיבלו בדיקת Google Integrity. שלב Global (03-02-2026): הבדיקה רצה בשתי הקבוצות בלי חסימה ('Real test has not started (no block)').",
+  "audience": "Level ≥ 5. Tech Launch: Android בלבד, מצרים, ברזיל, ארגנטינה, פורטוגל, סרביה, צ'ילה ומקסיקו, 50/50. Global: Android + iOS",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "Tech Launch: התחלה 25.1.2026 12:50 UTC.",
+   "Global Launch (W/O Block): ‏03-02-2026 11:16 UTC."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998242"
+    "ref": "mp_dashboard:10919793#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=10919793",
+    "title": "T112 - Google Integrity Tech Launch",
+    "match_check": "same game, T112 Google Integrity, phase 1 (tech launch)"
+   },
+   {
+    "ref": "mp_dashboard:10938909#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=10938909",
+    "title": "T112 - Google Integrity Global Launch (W/O Block)",
+    "match_check": "same game, T112 Google Integrity, phase 2 (global, without block)"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998242",
+    "value": "112 - Google Integrity"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-112-google-integrity",
@@ -303,6 +361,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "3b28a2f46da504009ebea03f88419f4a37bdf099a46d163fab7de5820b6584d8",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "9baed7dc8d2b68217194772c16aaf660471a34e430b6b672c2e028de8ce336e5",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

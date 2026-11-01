@@ -95,39 +95,46 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «Live Test». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "פריט עם שם כללי ('Live Test'), בלי תאריך, בלי מספר טסט ובלי תיאור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «Live Test». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "פריט עם שם כללי ('Live Test'), בלי תאריך, בלי מספר טסט ובלי תיאור.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "1a777bf55fbeb102",
+    "fingerprint": "90b262c7c6bba850",
     "inputs": {
-     "registry:name": "c1fe02e2bbe74f08",
+     "curated:what": "34eb410cca04001a",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד. סוג מנגנון: unclear",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: unclear",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "8e05b5d2016588f8",
+    "fingerprint": "9ed9e61a3b69df0c",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "c1fe02e2bbe74f08",
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2"
     }
    },
@@ -139,42 +146,52 @@
       "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "f02d0570f8ec98fc",
+    "fingerprint": "6622899ef33a2582",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "74234e98afe7498f",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "4f53cda18c2baa0c",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Status 'Active' but no start date on the board סתירה (מהמקור): Status 'Active' but decision 'Stopped' חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד. סתירה (מהמקור): Status 'Active' but no start date on the board סתירה (מהמקור): Status 'Active' but decision 'Stopped'",
     "statements": [
+     {
+      "text_he": "מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     },
      {
       "text_he": "סתירה (מהמקור): Status 'Active' but no start date on the board",
       "tag": "explicit_in_source",
@@ -188,19 +205,12 @@
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
       ]
-     },
-     {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
-      ]
      }
     ],
-    "fingerprint": "90c6e807ffe61d57",
+    "fingerprint": "89872f154e441512",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "6f1322e4433b2575",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "b3e5b68119727ce4",
      "expl:limitations": "d60e6d0958317cd0",
      "registry:change": "74234e98afe7498f",
@@ -228,11 +238,12 @@
   ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300113387"
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300113387",
+    "value": "Live Test"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-NOID-live-test",
@@ -317,6 +328,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "68b2ef828599ba899b3607a466e0d95000da23b94883497d03b4fc7736cc52b7",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "7ef31fa0908d855c9b833b6aa3fa970345cc73e288314bbfbe7403715df641c1",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

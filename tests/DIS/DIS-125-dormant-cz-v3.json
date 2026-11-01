@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-125-dormant-cz-v3",
   "legacy_keys": [
@@ -97,98 +97,135 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - Dormant CZ V3». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים נוסחת Comfort Zone חדשה לשחקנים דורמנטים.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - Dormant CZ V3». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים נוסחת Comfort Zone חדשה לשחקנים דורמנטים.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935471"
+       "mp_dashboard:11564764#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "96ca0d3f85c16962",
+    "fingerprint": "249f5af467b66171",
     "inputs": {
-     "registry:name": "0da0a8e32fb67e29",
+     "curated:what": "aae12c6d93215a10",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: נוסחת ה-Comfort Zone הישנה. | טסט: נוסחת Comfort Zone חדשה לדורמנטים (בכרטיס נקראת 'V2'), עם הנחה על ה-CZ בהתאם ל-DSLP. סוג מנגנון: price",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: נוסחת ה-Comfort Zone הישנה. | טסט: נוסחת Comfort Zone חדשה לדורמנטים (בכרטיס נקראת 'V2'), עם הנחה על ה-CZ בהתאם ל-DSLP.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935471"
+       "mp_dashboard:11564764#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: price",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11564764#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "b9b725da407346bb",
+    "fingerprint": "05902f88ac0cc112",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "0da0a8e32fb67e29",
+     "curated:control": "e90f489b6b35ccfe",
+     "curated:test": "764340061d03e5cf",
+     "curated:mech": "262780e07de7949a",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05",
+    "text_he": "קהל: Relevant players (קוהורט בדשבורד); בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-10-05 שלב/שינוי בהרצה: התחלה 5/10/2026 10:00 UTC (דשבורד).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05",
+      "text_he": "קהל: Relevant players (קוהורט בדשבורד); בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-10-05",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11564764#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 5/10/2026 10:00 UTC (דשבורד).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935471"
+       "mp_dashboard:11564764#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "892714c1fc951919",
+    "fingerprint": "b8b8f1ce21b2fe2c",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "dbd39fbed4d4a45d",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "9f1b930fbdb09763",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "3a69abe12a966b78",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935471"
+       "mp_dashboard:11564764#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה גובה ההנחה לכל DSLP ואיך מוגדר דורמנט? מה ההשערה העסקית? סתירה: שם הפריט והדשבורד הם 'V3', אבל הכרטיס ותווית הקבוצה קוראים לנוסחת הטסט 'V2'.",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "מה גובה ההנחה לכל DSLP ואיך מוגדר דורמנט?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935471"
+       "mp_dashboard:11564764#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11564764#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: שם הפריט והדשבורד הם 'V3', אבל הכרטיס ותווית הקבוצה קוראים לנוסחת הטסט 'V2'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11564764#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "05775f891f432de2",
+    "fingerprint": "e50d16b7cd868796",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "f7f52abccf31a405",
+     "curated:conflicts": "d8c8d414c30da441",
      "registry:conflicts": "1b9071927ec0321f",
      "expl:limitations": "3243796c9f695de9",
      "registry:change": "74234e98afe7498f",
@@ -201,23 +238,34 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "price",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "נוסחת ה-Comfort Zone הישנה.",
+  "test_state": "נוסחת Comfort Zone חדשה לדורמנטים (בכרטיס נקראת 'V2'), עם הנחה על ה-CZ בהתאם ל-DSLP.",
+  "audience": "Relevant players (קוהורט בדשבורד); בערך 50/50 לפי נוסחת הקבוצות",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
-  "conflicts": [],
+  "phases": [
+   "התחלה 5/10/2026 10:00 UTC (דשבורד)."
+  ],
+  "conflicts": [
+   "שם הפריט והדשבורד הם 'V3', אבל הכרטיס ותווית הקבוצה קוראים לנוסחת הטסט 'V2'."
+  ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935471"
+    "ref": "mp_dashboard:11564764#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11564764",
+    "title": "T125 - Dormant CZ V3",
+    "match_check": "same game, T125 + Dormant CZ V3; start 5/10/2026"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935471",
+    "value": "125 - Dormant CZ V3"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-dormant-cz-v3",
@@ -303,8 +351,9 @@
  },
  "glossary_concepts": [
   "Dormants",
-  "CZ"
+  "CZ",
+  "DSLP / DFI"
  ],
- "content_fingerprint": "4d062283026f0aa0edc7176efe4fcb45c799f90e5d8d3a380c36c4a526d94fa4",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "3d6cab02a2c45319d81437d1498e5e5e980a0b7511729c5426ee51d094ff0d77",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

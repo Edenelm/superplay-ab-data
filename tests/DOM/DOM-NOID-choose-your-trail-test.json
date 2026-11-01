@@ -3,7 +3,7 @@
  "game": "Domino Dreams",
  "game_code": "DOM",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DOM-NOID-choose-your-trail-test",
   "legacy_keys": [
@@ -116,30 +116,31 @@
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה השחקן בוחר ומה מקבל הקונטרול? סוג מנגנון: unclear",
+    "text_he": "קונטרול: לא נכתב במקור | טסט: השחקן בוחר את רמת המאמץ של ה-Trail: Easy, ‏Normal או Hard, והפרסים מותאמים למאמץ. סוג מנגנון: difficulty",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה השחקן בוחר ומה מקבל הקונטרול?",
+      "text_he": "קונטרול: לא נכתב במקור | טסט: השחקן בוחר את רמת המאמץ של ה-Trail: Easy, ‏Normal או Hard, והפרסים מותאמים למאמץ.",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11589470#text_card[0]",
        "wa:wa265",
        "wa:wa276",
        "monday_name"
       ]
      },
      {
-      "text_he": "סוג מנגנון: unclear",
+      "text_he": "סוג מנגנון: difficulty",
       "tag": "interpretation",
       "source_refs": [
-       "wa:wa265"
+       "mp_dashboard:11589470#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "408cf8e37eefe81a",
+    "fingerprint": "17548996d69d0238",
     "inputs": {
      "curated:control": "74234e98afe7498f",
-     "curated:test": "74234e98afe7498f",
-     "curated:mech": "683144a12969e0fd",
+     "curated:test": "aa35856b115c79fc",
+     "curated:mech": "b700836d1c6194e6",
      "generator": "he6-v2",
      "wa:wa265": "d054714c2c7ceca0",
      "wa:wa276": "2c06662d7c350bc8"
@@ -147,12 +148,22 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-16 שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
+    "text_he": "קהל: 'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp) | התחלה: 2026-10-16 שלב/שינוי בהרצה: התחלה 16.10.2026 (דשבורד; כמו ב-Monday). שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-16",
+      "text_he": "קהל: 'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp) | התחלה: 2026-10-16",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11589470#text_card[0]",
+       "wa:wa265",
+       "wa:wa276"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 16.10.2026 (דשבורד; כמו ב-Monday).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11589470#text_card[0]",
        "wa:wa265",
        "wa:wa276",
        "monday_name"
@@ -162,21 +173,22 @@
       "text_he": "שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11589470#text_card[0]",
        "wa:wa265",
        "wa:wa276",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "e8a2f8f392b1d14d",
+    "fingerprint": "1f66eb8fe909f8a7",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "de936b9b36d6a0dd",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "74234e98afe7498f",
+     "curated:audience": "413fccda8031b061",
      "curated:trigger": "74234e98afe7498f",
-     "curated:phases": "4c4c893e02579fee",
+     "curated:phases": "ab471613ca4a92f8",
      "generator": "he6-v2",
      "wa:wa265": "d054714c2c7ceca0",
      "wa:wa276": "2c06662d7c350bc8"
@@ -206,27 +218,37 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה השחקן בוחר ומה מקבל הקונטרול? מי ה-70 ומי ה-30?",
+    "text_he": "מה מקבל הקונטרול (Trail רגיל?) איך הפרסים מותאמים לכל רמה? סתירה: אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200.",
     "statements": [
      {
-      "text_he": "מה השחקן בוחר ומה מקבל הקונטרול?",
+      "text_he": "מה מקבל הקונטרול (Trail רגיל?)",
       "tag": "explicit_in_source",
       "source_refs": [
-       "wa:wa265"
+       "mp_dashboard:11589470#text_card[0]"
       ]
      },
      {
-      "text_he": "מי ה-70 ומי ה-30?",
+      "text_he": "איך הפרסים מותאמים לכל רמה?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "wa:wa265"
+       "mp_dashboard:11589470#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11589470#text_card[0]",
+       "wa:wa265",
+       "wa:wa276",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "ec0c36e52eb81e61",
+    "fingerprint": "031772875368db9c",
     "inputs": {
-     "curated:questions": "7b36ea5583e5df22",
-     "curated:conflicts": "4f53cda18c2baa0c",
+     "curated:questions": "2b1134d0edfce85a",
+     "curated:conflicts": "a4cbb1e344c14d1d",
      "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "acd4bcaec61b80dc",
      "registry:change": "74234e98afe7498f",
@@ -241,19 +263,28 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "difficulty",
   "mechanism_type_tag": "interpretation",
   "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "test_state": "השחקן בוחר את רמת המאמץ של ה-Trail: Easy, ‏Normal או Hard, והפרסים מותאמים למאמץ.",
+  "audience": "'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp)",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
   "phases": [
+   "התחלה 16.10.2026 (דשבורד; כמו ב-Monday).",
    "split של 70/30 (WhatsApp)."
   ],
-  "conflicts": [],
+  "conflicts": [
+   "אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200."
+  ],
   "source_refs": [
+   {
+    "ref": "mp_dashboard:11589470#text_card[0]",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=11589470",
+    "title": "1591 Choose Your Trail Test",
+    "match_check": "MATCH (clearly same): same game, same name 'Choose Your Trail Test' (board adds number 1591), start 16.10.2026 = Monday start"
+   },
    {
     "ref": "wa:wa265",
     "url": null,
@@ -427,6 +458,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "f86244420126cc1922b064002855c1b052936d7cbe116868fec6e7f9640c4249",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "e478eb7454df84fef67656c854b2bc64aa3d613e713b9f92b2dcac8c7724a588",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

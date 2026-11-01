@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-118-dormant-scene-boost",
   "legacy_keys": [
@@ -96,105 +96,142 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «118 - Dormant Scene Boost». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים Scene Boost לשחקנים דורמנטים.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «118 - Dormant Scene Boost». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים Scene Boost לשחקנים דורמנטים.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
+       "mp_dashboard:11223058#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "49f596951f279aa7",
+    "fingerprint": "71c304c4c3134c35",
     "inputs": {
-     "registry:name": "6301fe8e0610ac3b",
+     "curated:what": "ec6fd596642eb77f",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: N (ללא שינוי), ‏33.23%. | טסט: Test 1 ‏(33.38%): Scene boost. Test 2 ‏(33.38%): Scene boost + הנחה על משאבים. סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: N (ללא שינוי), ‏33.23%. | טסט: Test 1 ‏(33.38%): Scene boost. Test 2 ‏(33.38%): Scene boost + הנחה על משאבים.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
+       "mp_dashboard:11223058#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11223058#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "0de12589b3704187",
+    "fingerprint": "f133938b9745f757",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "6301fe8e0610ac3b",
+     "curated:control": "086bbd2f6f579384",
+     "curated:test": "caa0cba32d8b884c",
+     "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-05-25",
+    "text_he": "קהל: סגמנט 1: DSLP 30–59; סגמנט 2: DSLP 60+ ו-NPU | התחלה: 2026-05-25 שלב/שינוי בהרצה: התחלה 26/05/2026 14:50 UTC (דשבורד; ב-Monday ‏2026-05-25).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-05-25",
+      "text_he": "קהל: סגמנט 1: DSLP 30–59; סגמנט 2: DSLP 60+ ו-NPU | התחלה: 2026-05-25",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
+       "mp_dashboard:11223058#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 26/05/2026 14:50 UTC (דשבורד; ב-Monday ‏2026-05-25).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11223058#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "cd534825b289c810",
+    "fingerprint": "644d12dd230ceeb8",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "7788c2f116853b8e",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "4589d6a83b715190",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "b45a7575297e4c44",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
+       "mp_dashboard:11223058#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Status 'Defensive Running' but end date 2026-06-01 has passed חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם הטסט הסתיים ב-30/05/2026? מה ההשערה העסקית? סתירה: הדשבורד כותב 'Effectively campaign ended on 30/05/2026', אבל ב-Monday הטסט עדיין live. סתירה (מהמקור): Status 'Defensive Running' but end date 2026-06-01 has passed",
     "statements": [
+     {
+      "text_he": "האם הטסט הסתיים ב-30/05/2026?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11223058#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11223058#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד כותב 'Effectively campaign ended on 30/05/2026', אבל ב-Monday הטסט עדיין live.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11223058#text_card[0]",
+       "monday_name"
+      ]
+     },
      {
       "text_he": "סתירה (מהמקור): Status 'Defensive Running' but end date 2026-06-01 has passed",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
       ]
-     },
-     {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
-      ]
      }
     ],
-    "fingerprint": "384e9638f7db042a",
+    "fingerprint": "14cb029f5cc8e6c0",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "1cdd698c67e9e257",
+     "curated:conflicts": "3bdc1d112224ef6a",
      "registry:conflicts": "7e6b80c794934adb",
      "expl:limitations": "7999563bfc4e02d9",
      "registry:change": "74234e98afe7498f",
@@ -207,25 +244,35 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "N (ללא שינוי), ‏33.23%.",
+  "test_state": "Test 1 ‏(33.38%): Scene boost. Test 2 ‏(33.38%): Scene boost + הנחה על משאבים.",
+  "audience": "סגמנט 1: DSLP 30–59; סגמנט 2: DSLP 60+ ו-NPU",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "התחלה 26/05/2026 14:50 UTC (דשבורד; ב-Monday ‏2026-05-25)."
+  ],
   "conflicts": [
+   "הדשבורד כותב 'Effectively campaign ended on 30/05/2026', אבל ב-Monday הטסט עדיין live.",
    "Status 'Defensive Running' but end date 2026-06-01 has passed"
   ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998239"
+    "ref": "mp_dashboard:11223058#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11223058",
+    "title": "T118 - Scene Boost for Dormants",
+    "match_check": "POSSIBLE→likely same: same game, T118, words reordered"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998239",
+    "value": "118 - Dormant Scene Boost"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-118-dormant-scene-boost",
@@ -310,8 +357,10 @@
   "updates": []
  },
  "glossary_concepts": [
-  "Dormants"
+  "NPU",
+  "Dormants",
+  "DSLP / DFI"
  ],
- "content_fingerprint": "a8341ed51ab5e945f0f148ea308ff6b21957135893a9c4bf69e732255abd8081",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "aeaa9bd37fa1c5594d944b9ce4d338311cc21622cccf8fe08a29ac388079eb54",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

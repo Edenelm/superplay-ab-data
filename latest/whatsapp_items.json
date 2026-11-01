@@ -1,7 +1,7 @@
 {
  "dataset": "whatsapp_items",
  "contract_version": "1.2.0",
- "generated_at": "2026-11-01T12:35:23+02:00",
+ "generated_at": "2026-11-01T13:31:33+02:00",
  "timezone": "Asia/Jerusalem",
  "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 30.10.2026 · images/PDFs not read",
  "caveats": {
@@ -30,6 +30,9 @@
   "history/domino_business_2026-10-05_to_2026-10-12.md": [
    "Domino Business – WhatsApp history extract 05.10.2026–12.10.2026 (read-only, captured 26.10.2026 ~13:19 Asia/Jerusalem)",
    "History on WhatsApp Web starts 05.10.2026 (\"You joined from the community\"); 01.06–04.10 not available. Numbers relayed from screen reading; NOT verified against a results tab."
+  ],
+  "whatsapp_mechanism_2026-11-01.md": [
+   "Targeted search 01/11/2026: in-chat search reaches ~28/07/26 onward; Domino from 15/10/26. Some messages truncated at 'Read more'. Sender phone numbers withheld (shown as 'sender name not shown')."
   ]
  },
  "records": [
@@ -7451,6 +7454,331 @@
    "poss": [],
    "posted": null,
    "note": null
+  },
+  {
+   "id": "wa327",
+   "game": "Disney Solitaire",
+   "group": "Disney Business",
+   "date": "2026-10-07",
+   "time": null,
+   "sender": "(sender name not shown)",
+   "test": "RV (loose hit)",
+   "decision": null,
+   "nums": [],
+   "text": "הורדנו אותו עוד עכשיו, והורדנו גם ב1+1 rv",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "issue",
+   "match": "unclear link: not linked to any test",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": "Found while searching for '124 - RV extend segment'; not linked."
+  },
+  {
+   "id": "wa328",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-07-26",
+   "time": null,
+   "sender": "Amir Harush",
+   "test": "1110 Puzzle onboarding GT V4",
+   "decision": "launched",
+   "nums": [],
+   "text": "טמפלייט חדש לפאזל אונבורדינג. טכני בלבד ללא שינויים בכלכלה, טסט המשך כתוצאה מבעיות טכניות בפאזל הקודם",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "12632001884",
+   "poss": [],
+   "posted": null,
+   "note": "Fuller capture of the launch message summarised in wa100."
+  },
+  {
+   "id": "wa329",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-08-18",
+   "time": "13:00",
+   "sender": "(sender name not shown)",
+   "test": "1110 Puzzle onboarding GT V4",
+   "decision": "deployed",
+   "nums": [],
+   "text": "פאזל GT V4 אונבורדינג החל מ-13:00 יוטיסי – הוטמע",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "decision",
+   "match": "name",
+   "board_item": "12632001884",
+   "poss": [],
+   "posted": null,
+   "note": "Conflicts with the Monday item still being live."
+  },
+  {
+   "id": "wa330",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-07-23",
+   "time": null,
+   "sender": "Daniella Emodi",
+   "test": "1109 Whammy For DT Finishers",
+   "decision": null,
+   "nums": [
+    "no segment above 5%",
+    "almost 4% Medium"
+   ],
+   "text": "אף סגמנט לא חצה 5%; כמעט 4% Medium",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "issue",
+   "match": "name",
+   "board_item": "12419621930",
+   "poss": [],
+   "posted": null,
+   "note": "Crash-indicator style sanity remark (context truncated)."
+  },
+  {
+   "id": "wa331",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-07-29",
+   "time": null,
+   "sender": "Daniella Emodi",
+   "test": "1109 Whammy For DT Finishers",
+   "decision": "launched",
+   "nums": [],
+   "text": "מטרה: האם Whammy תדחוף להשלמת DT, Trail, Weekly Goals. אוכלוסייה: השלימו 3 עצים ב-BWF או שלב 8 ב-DT או שלב 6 ב-coloring book. קונטרול 0 חשיפה",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "12419621930",
+   "poss": [],
+   "posted": null,
+   "note": "Fuller capture of wa104 ('New Whammy test'). The Mixpanel board for this phase is titled '1110 - Whammy For DT Finishers'."
+  },
+  {
+   "id": "wa332",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-08-31",
+   "time": null,
+   "sender": "Daniella Emodi",
+   "test": "1109 Whammy For DT Finishers",
+   "decision": "not deployed (another month)",
+   "nums": [
+    "Avg Daily Revenue −2.3%",
+    "Avg PU −3.0%"
+   ],
+   "text": "Avg Daily Revenue: ירידה 2.3%; Avg PU: ירידה 3.0%… ימשיך עד 02/09/26 12:00 UTC. הוחלט שלא להטמיע לחודש נוסף",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "12419621930",
+   "poss": [],
+   "posted": null,
+   "note": "Fuller capture of wa159 (adds the decision)."
+  },
+  {
+   "id": "wa333",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-08-05",
+   "time": null,
+   "sender": "Yotam Komash",
+   "test": "New PET daily req adjustment",
+   "decision": "launched",
+   "nums": [
+    "level 4 today: test 35% vs control 200%"
+   ],
+   "text": "שינוי יומי של הקשחה/הקלה בדרישה לשלב חדש לפי תאריך הגעה… שלב 4 היום – טסט 35% בלבד (במקום 200% בקונטרול)",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "possible: 'Pet dynamic requirements' (name differs; not linked)",
+   "board_item": null,
+   "poss": [
+    {
+     "name": "Pet dynamic requirements",
+     "item": "12575811713"
+    }
+   ],
+   "posted": null,
+   "note": "Fuller capture of wa113."
+  },
+  {
+   "id": "wa334",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-10-13",
+   "time": null,
+   "sender": "Yotam Komash",
+   "test": "New PET daily req adjustment",
+   "decision": null,
+   "nums": [
+    "average finisher collected 14% fewer cookies"
+   ],
+   "text": "השיג את החוויה אך במחיר פט קל יותר משמעותית. המסיים הממוצע אסף 14% פחות קוקיז",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "possible: 'Pet dynamic requirements' (name differs; not linked)",
+   "board_item": null,
+   "poss": [
+    {
+     "name": "Pet dynamic requirements",
+     "item": "12575811713"
+    }
+   ],
+   "posted": null,
+   "note": "Truncated at 'Read more'."
+  },
+  {
+   "id": "wa335",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-09-28",
+   "time": "16:02",
+   "sender": "Amir Harush",
+   "test": "1113 DREAM PASS 20 TIERS",
+   "decision": "launched",
+   "nums": [
+    "20 tiers",
+    "x2 difficulty",
+    "economy ~x1.5 prizes"
+   ],
+   "text": "20 טירים עם פי 2 בקושי (קושי זהה עד טיר 10). כלכלה בערך פי 1.5 בפרסים",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "12815062665",
+   "poss": [],
+   "posted": null,
+   "note": "Fuller capture of wa193. Conflicts with wa336 on which tiers keep control difficulty."
+  },
+  {
+   "id": "wa336",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-09-28",
+   "time": "16:09",
+   "sender": "Rotem Hadar",
+   "test": "1113 DREAM PASS 20 TIERS",
+   "decision": null,
+   "nums": [
+    "first 13 test tiers = 12 control tiers"
+   ],
+   "text": "13 טירים ראשונים בטסט בקושי של 12 בקונטרול, 20 טירים = כפול 2 מ-12 בקונטרול",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "12815062665",
+   "poss": [],
+   "posted": null,
+   "note": "Conflicts with wa335 ('identical up to tier 10')."
+  },
+  {
+   "id": "wa337",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-10-08",
+   "time": null,
+   "sender": "Aviram Superplay",
+   "test": "CZ (unspecified)",
+   "decision": "deployed",
+   "nums": [],
+   "text": "טסט CZ הוטמע, יכנס לתוקף מהריצה הבאה של הסמארט סגמנט",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "decision",
+   "match": "ambiguous: likely CZ NO MAX OFFER WEIGHT (recommendation 07/10), possibly 1104 CZ FIX; not linked",
+   "board_item": null,
+   "poss": [
+    {
+     "name": "1104 - CZ FIX",
+     "item": "12168112316"
+    }
+   ],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa338",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-10-14",
+   "time": null,
+   "sender": "Guy Perez",
+   "test": "CZ (unspecified)",
+   "decision": null,
+   "nums": [],
+   "text": "…עדיף כבר שהטסט CZ יתחיל עם מציאות אחת ונאפטם לפיה",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "issue",
+   "match": "ambiguous: CZ test not named; not linked",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa339",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-10-20",
+   "time": "16:03",
+   "sender": "Brody Tal",
+   "test": "1611 Low balance challenge PB - 10 min free entry",
+   "decision": "launched",
+   "nums": [],
+   "text": "שחקנים עם באלנס נמוך מקבלים בוסטר של free for 10 minutes מהפרוגרסבר (+ second test: quest layer moved from level 32 to 200 for new players)",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "13299839561",
+   "poss": [],
+   "posted": null,
+   "note": "Fuller capture of wa294 (whose text was empty)."
+  },
+  {
+   "id": "wa340",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-10-15",
+   "time": "13:37",
+   "sender": "Brody Tal",
+   "test": "meeting summary (Genie, Choose your trail)",
+   "decision": null,
+   "nums": [],
+   "text": "Genie – increase winrate to control baseline… Choose your trail – 70/30, decide from which level…",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "decision",
+   "match": "multi-test summary; not linked to one item",
+   "board_item": null,
+   "poss": [
+    {
+     "name": "1590 - Genie New Agenda V3",
+     "item": "13144419090"
+    },
+    {
+     "name": "Choose Your Trail Test",
+     "item": "13284955937"
+    }
+   ],
+   "posted": null,
+   "note": "Fuller capture of wa257/wa265 (truncated)."
+  },
+  {
+   "id": "wa341",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-07-01",
+   "time": null,
+   "sender": "Brody Tal",
+   "test": "1109 Whammy For DT Finishers",
+   "decision": "launched",
+   "nums": [],
+   "text": "מסיימי דיטי מקבלים וואמי… Crash Indicator תקין",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "kind": "test",
+   "match": "name",
+   "board_item": "12419621930",
+   "poss": [],
+   "posted": null,
+   "note": "Fuller capture of wa068."
   }
  ]
 }

@@ -3,7 +3,7 @@
  "game": "Dice Dreams",
  "game_code": "DICE",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "full",
  "registry": {
   "test_id": "DICE-1109-whammy-for-dt-finishers",
   "legacy_keys": [
@@ -125,136 +125,294 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «1109 - Whammy For DT Finishers». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים Whammy בנוסף (on top) לשחקנים שסיימו DT ופיצ'רים דומים.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «1109 - Whammy For DT Finishers». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים Whammy בנוסף (on top) לשחקנים שסיימו DT ופיצ'רים דומים.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332"
       ]
      }
     ],
-    "fingerprint": "aa702789b2f2235c",
+    "fingerprint": "df37091eb45fbeab",
     "inputs": {
-     "registry:name": "1c7c6e868c891001",
+     "curated:what": "4f03c322bb4dbd3d",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: ללא שינוי (0 חשיפה ל-Whammy). | טסט: Whammy בנוסף למסיימי DT. סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: ללא שינוי (0 חשיפה ל-Whammy). | טסט: Whammy בנוסף למסיימי DT.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332",
+       "mp_dashboard:11406328#text_card[0]",
+       "wa:wa341",
+       "wa:wa330"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "85d487f343546ae9",
+    "fingerprint": "3c32404fa0075baf",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "1c7c6e868c891001",
-     "generator": "he6-v2"
+     "curated:control": "0d643cf6acccb5f7",
+     "curated:test": "fc2e9b690a76e88c",
+     "curated:mech": "5acd988f38865afc",
+     "generator": "he6-v2",
+     "wa:wa331": "630f34718adb3f08",
+     "wa:wa332": "0ca8b13287e638ee",
+     "wa:wa341": "caf2b1175f7e5133",
+     "wa:wa330": "17415988d0b8552d"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+    "text_he": "קהל: v1 (1109): מסיימי DT. שלב ההרחבה (דשבורד '1110'): סיימו 3+ עצים ב-BWF, או שלב 8 ב-DT, או שלב 6 ב-Coloring Book | התחלה: לא ידוע שלב/שינוי בהרצה: v1: התחלה 30/06/2026 12:00 UTC, ‏'Ended ??/??/2026' (דשבורד 11321112). שלב/שינוי בהרצה: שלב ההרחבה (דשבורד '1110 - Whammy For DT Finishers', לא שויך רשמית): 29/07/2026 12:00 UTC עד 01/09/2026 12:00 UTC.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+      "text_he": "קהל: v1 (1109): מסיימי DT. שלב ההרחבה (דשבורד '1110'): סיימו 3+ עצים ב-BWF, או שלב 8 ב-DT, או שלב 6 ב-Coloring Book | התחלה: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: v1: התחלה 30/06/2026 12:00 UTC, ‏'Ended ??/??/2026' (דשבורד 11321112).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332",
+       "mp_dashboard:11406328#text_card[0]",
+       "wa:wa341",
+       "wa:wa330"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: שלב ההרחבה (דשבורד '1110 - Whammy For DT Finishers', לא שויך רשמית): 29/07/2026 12:00 UTC עד 01/09/2026 12:00 UTC.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332",
+       "mp_dashboard:11406328#text_card[0]",
+       "wa:wa341",
+       "wa:wa330"
       ]
      }
     ],
-    "fingerprint": "f02d0570f8ec98fc",
+    "fingerprint": "09ee10ad6b74188a",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "74234e98afe7498f",
      "registry:phases": "4f53cda18c2baa0c",
-     "generator": "he6-v2"
+     "curated:audience": "b431a7618cfb3012",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "b89b57fe5db184c2",
+     "generator": "he6-v2",
+     "wa:wa331": "630f34718adb3f08",
+     "wa:wa332": "0ca8b13287e638ee",
+     "wa:wa341": "caf2b1175f7e5133",
+     "wa:wa330": "17415988d0b8552d"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "מטרה לפי WhatsApp ‏(29/07/26): לבדוק אם Whammy ידחוף להשלמת DT, Trail ו-Weekly Goals. התנהגות יעד: השלמת DT, Trail ו-Weekly Goals",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "מטרה לפי WhatsApp ‏(29/07/26): לבדוק אם Whammy ידחוף להשלמת DT, Trail ו-Weekly Goals.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: השלמת DT, Trail ו-Weekly Goals",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "56d308b8628f02a2",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "fa8d9f94f9248631",
+     "curated:target": "9a848cf2b10d1f74",
+     "generator": "he6-v2",
+     "wa:wa331": "630f34718adb3f08",
+     "wa:wa332": "0ca8b13287e638ee",
+     "wa:wa341": "caf2b1175f7e5133",
+     "wa:wa330": "17415988d0b8552d"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "לפי WhatsApp ‏(31/08/26): Avg Daily Revenue ירד ב-2.3% ו-Avg PU ירד ב-3.0% (שינוי יחסי); 'הוחלט שלא להטמיע לחודש נוסף'. לא אומת מול לשונית תוצאות.",
+    "statements": [
+     {
+      "text_he": "לפי WhatsApp ‏(31/08/26): Avg Daily Revenue ירד ב-2.3% ו-Avg PU ירד ב-3.0% (שינוי יחסי); 'הוחלט שלא להטמיע לחודש נוסף'. לא אומת מול לשונית תוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa332"
+      ]
+     }
+    ],
+    "fingerprint": "7181bdf4362c924d",
+    "inputs": {
+     "results:": "4f53cda18c2baa0c",
+     "expl:what_happened": "a1a0ba8a709b8c3b",
+     "expl:business_meaning": "119e81b7bbc1373b",
+     "expl:decided": "4fc8c43bb05ec4f7",
+     "wa:wa332": "0ca8b13287e638ee",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Status 'Running' but no start date on the board חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם הטסט נגמר ב-01/09 או ב-02/09, ולמה הוא עדיין live? מה מקבלים ב-Whammy (סוג וגודל הפרס)? סתירה: הדשבורד של שלב 1110 כותב 'Ended 01/09/2026' ו-WhatsApp כותב 'ימשיך עד 02/09/26', אבל ב-Monday הטסט עדיין live. סתירה: מספר הטסט: הפריט ב-Monday הוא 1109, ושלב ההרחבה מתועד בדשבורד בשם '1110 - Whammy For DT Finishers'. סתירה (מהמקור): Status 'Running' but no start date on the board",
     "statements": [
+     {
+      "text_he": "האם הטסט נגמר ב-01/09 או ב-02/09, ולמה הוא עדיין live?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה מקבלים ב-Whammy (סוג וגודל הפרס)?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד של שלב 1110 כותב 'Ended 01/09/2026' ו-WhatsApp כותב 'ימשיך עד 02/09/26', אבל ב-Monday הטסט עדיין live.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332",
+       "mp_dashboard:11406328#text_card[0]",
+       "wa:wa341",
+       "wa:wa330"
+      ]
+     },
+     {
+      "text_he": "סתירה: מספר הטסט: הפריט ב-Monday הוא 1109, ושלב ההרחבה מתועד בדשבורד בשם '1110 - Whammy For DT Finishers'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11321112#text_card[0]",
+       "wa:wa331",
+       "wa:wa332",
+       "mp_dashboard:11406328#text_card[0]",
+       "wa:wa341",
+       "wa:wa330"
+      ]
+     },
      {
       "text_he": "סתירה (מהמקור): Status 'Running' but no start date on the board",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
       ]
-     },
-     {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
-      ]
      }
     ],
-    "fingerprint": "4c7ff9dc3d1e9020",
+    "fingerprint": "108b2feb8fb4ef32",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "076c05edadc71286",
+     "curated:conflicts": "7c5319ea256c5a62",
      "registry:conflicts": "ed5559c72b7c065d",
      "expl:limitations": "4109d90b0f1fae85",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
-     "generator": "he6-v2"
+     "generator": "he6-v2",
+     "wa:wa331": "630f34718adb3f08",
+     "wa:wa332": "0ca8b13287e638ee",
+     "wa:wa341": "caf2b1175f7e5133",
+     "wa:wa330": "17415988d0b8552d"
     }
    }
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא שינוי (0 חשיפה ל-Whammy).",
+  "test_state": "Whammy בנוסף למסיימי DT.",
+  "audience": "v1 (1109): מסיימי DT. שלב ההרחבה (דשבורד '1110'): סיימו 3+ עצים ב-BWF, או שלב 8 ב-DT, או שלב 6 ב-Coloring Book",
   "trigger": null,
-  "target_behaviour": null,
-  "why": null,
-  "phases": [],
+  "target_behaviour": "השלמת DT, Trail ו-Weekly Goals",
+  "why": "מטרה לפי WhatsApp ‏(29/07/26): לבדוק אם Whammy ידחוף להשלמת DT, Trail ו-Weekly Goals.",
+  "phases": [
+   "v1: התחלה 30/06/2026 12:00 UTC, ‏'Ended ??/??/2026' (דשבורד 11321112).",
+   "שלב ההרחבה (דשבורד '1110 - Whammy For DT Finishers', לא שויך רשמית): 29/07/2026 12:00 UTC עד 01/09/2026 12:00 UTC."
+  ],
   "conflicts": [
+   "הדשבורד של שלב 1110 כותב 'Ended 01/09/2026' ו-WhatsApp כותב 'ימשיך עד 02/09/26', אבל ב-Monday הטסט עדיין live.",
+   "מספר הטסט: הפריט ב-Monday הוא 1109, ושלב ההרחבה מתועד בדשבורד בשם '1110 - Whammy For DT Finishers'.",
    "Status 'Running' but no start date on the board"
   ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/9494658232/pulses/12419621930"
+    "ref": "mp_dashboard:11321112#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11321112",
+    "title": "1109 - Whammy For DT Finishers v1",
+    "match_check": "MATCH: same game, 1109 Whammy For DT Finishers (v1)"
+   },
+   {
+    "ref": "wa:wa331",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-07-29"
+   },
+   {
+    "ref": "wa:wa332",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-08-31"
+   },
+   {
+    "ref": "mp_dashboard:11406328#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11406328",
+    "title": "1110 - Whammy For DT Finishers",
+    "match_check": "POSSIBLE-strong (number 1110 vs 1109, same name): looks like the next phase; kept unlinked"
+   },
+   {
+    "ref": "wa:wa341",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-07-01"
+   },
+   {
+    "ref": "wa:wa330",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-07-23"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DICE-1109-whammy-for-dt-finishers",
@@ -379,6 +537,52 @@
    "text": "Launch",
    "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
    "match": "id+name · 100% name tokens"
+  },
+  {
+   "id": "wa330",
+   "date": "2026-07-23",
+   "kind": "issue",
+   "decision": null,
+   "nums": [
+    "no segment above 5%",
+    "almost 4% Medium"
+   ],
+   "text": "אף סגמנט לא חצה 5%; כמעט 4% Medium",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
+  },
+  {
+   "id": "wa331",
+   "date": "2026-07-29",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "מטרה: האם Whammy תדחוף להשלמת DT, Trail, Weekly Goals. אוכלוסייה: השלימו 3 עצים ב-BWF או שלב 8 ב-DT או שלב 6 ב-coloring book. קונטרול 0 חשיפה",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
+  },
+  {
+   "id": "wa332",
+   "date": "2026-08-31",
+   "kind": "test",
+   "decision": "not deployed (another month)",
+   "nums": [
+    "Avg Daily Revenue −2.3%",
+    "Avg PU −3.0%"
+   ],
+   "text": "Avg Daily Revenue: ירידה 2.3%; Avg PU: ירידה 3.0%… ימשיך עד 02/09/26 12:00 UTC. הוחלט שלא להטמיע לחודש נוסף",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
+  },
+  {
+   "id": "wa341",
+   "date": "2026-07-01",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "מסיימי דיטי מקבלים וואמי… Crash Indicator תקין",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
   }
  ],
  "monday_updates_fetched": {
@@ -387,8 +591,9 @@
   "updates": []
  },
  "glossary_concepts": [
-  "Whammy"
+  "Whammy",
+  "BWF"
  ],
- "content_fingerprint": "8b702f554f0181bfd3f73bcf15cb02ac7329a291c7990db77b466b9620b5a3cd",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "8f791a69a19af256077d5bfa716a6227d0aa283b7b003b7f07f660d451b7f4af",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

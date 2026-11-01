@@ -97,98 +97,135 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - V4$ Increase by mode». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים העלאה של V4$ לפי mode (לפי שם הפריט).",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - V4$ Increase by mode». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים העלאה של V4$ לפי mode (לפי שם הפריט).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
+       "mp_dashboard:11274501#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "48b8eedfe2820a7a",
+    "fingerprint": "f62a496daca05ab1",
     "inputs": {
-     "registry:name": "ba1dc4fddb6044cb",
+     "curated:what": "83d4449456d646f2",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה זה V4$ ומה משתנה לפי mode? סוג מנגנון: unclear",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה זה V4$ ומה משתנה לפי mode?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
+       "mp_dashboard:11274501#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: unclear",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11274501#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "00f292ee8f6dff3f",
+    "fingerprint": "9ed9e61a3b69df0c",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "ba1dc4fddb6044cb",
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05 שלב/שינוי בהרצה: דשבורד: 'Start: 5.10 10 UTC', ‏'abort: 19.10 10 UTC'.",
     "statements": [
      {
       "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-05",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
+       "mp_dashboard:11274501#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: דשבורד: 'Start: 5.10 10 UTC', ‏'abort: 19.10 10 UTC'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11274501#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "892714c1fc951919",
+    "fingerprint": "24f363f2cb02f1e6",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "dbd39fbed4d4a45d",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "be4e553b07f95958",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
+       "mp_dashboard:11274501#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה זה V4$ ומה משתנה לפי mode? האם הטסט בוטל ב-19.10? סתירה: הדשבורד כותב abort ב-19.10 (10:00 UTC), אבל ב-Monday הטסט עדיין live.",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "מה זה V4$ ומה משתנה לפי mode?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
+       "mp_dashboard:11274501#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "האם הטסט בוטל ב-19.10?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11274501#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד כותב abort ב-19.10 (10:00 UTC), אבל ב-Monday הטסט עדיין live.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11274501#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "3c2cb101e159d5ec",
+    "fingerprint": "655027702e27d33d",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "712c56e890257973",
+     "curated:conflicts": "7f731ca711da985c",
      "registry:conflicts": "6384514fce730ca3",
      "expl:limitations": "51c24c5c47b112b9",
      "registry:change": "74234e98afe7498f",
@@ -209,15 +246,26 @@
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
-  "conflicts": [],
+  "phases": [
+   "דשבורד: 'Start: 5.10 10 UTC', ‏'abort: 19.10 10 UTC'."
+  ],
+  "conflicts": [
+   "הדשבורד כותב abort ב-19.10 (10:00 UTC), אבל ב-Monday הטסט עדיין live."
+  ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
+    "ref": "mp_dashboard:11274501#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11274501",
+    "title": "T125 - V4$ increase by mode",
+    "match_check": "same game, T125 + same name"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935425",
+    "value": "125 - V4$ Increase by mode"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-v4-increase-by-mode",
@@ -302,6 +350,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "8d481beeea6cdfcd94e5b570d63e99955fb72e94eb1f9236317a4a8443e00da5",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "47068b61390fc92341ec9a81526ad42bcd11be4da597397128e4254a3ddf0f04",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

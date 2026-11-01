@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-124-rv-extend-segment",
   "legacy_keys": [
@@ -97,98 +97,135 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «124 - RV extend segment». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים שינוי בסגמנט שמקבל RV (לפי השם: הרחבה).",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «124 - RV extend segment». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים שינוי בסגמנט שמקבל RV (לפי השם: הרחבה).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935424"
+       "mp_dashboard:11501681#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "1ca744208d70cabe",
+    "fingerprint": "d4a922ea41116d05",
     "inputs": {
-     "registry:name": "0cdce8f2b9c02f5f",
+     "curated:what": "4441ed2fe4f27018",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: Test1 (קונטרול): RV ל-NPU עם DFI 60+. | טסט: Test2 (טסט): RV ל-NPU עם DFI 60+ וגם DSLP 60+. סוג מנגנון: eligibility",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: Test1 (קונטרול): RV ל-NPU עם DFI 60+. | טסט: Test2 (טסט): RV ל-NPU עם DFI 60+ וגם DSLP 60+.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935424"
+       "mp_dashboard:11501681#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: eligibility",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11501681#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "cd1b9820c293b8a0",
+    "fingerprint": "5a90e36d1ca62812",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "0cdce8f2b9c02f5f",
+     "curated:control": "b6ebc6e464f00f13",
+     "curated:test": "9558ded53e43bc38",
+     "curated:mech": "519f010c1a5bfa19",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-03",
+    "text_he": "קהל: NPU עם DFI 60+; טסט 80% / קונטרול 20%; שתי הקבוצות מקבלות RV | התחלה: 2026-09-03 שלב/שינוי בהרצה: התחלה 3.9 10:00 UTC (דשבורד).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-03",
+      "text_he": "קהל: NPU עם DFI 60+; טסט 80% / קונטרול 20%; שתי הקבוצות מקבלות RV | התחלה: 2026-09-03",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935424"
+       "mp_dashboard:11501681#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 3.9 10:00 UTC (דשבורד).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11501681#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "7863a2d4a0d02217",
+    "fingerprint": "301a1fdf176145df",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "741da315a29809e8",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "f65bc0f590bc677b",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "91f697396ac77003",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935424"
+       "mp_dashboard:11501681#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "תנאי הטסט הוא AND או OR? מה ההשערה העסקית? סתירה: לפי כרטיס הדשבורד, תנאי הטסט (DFI 60+ וגם DSLP 60+) צר יותר מהקונטרול ולא רחב יותר, בניגוד לשם 'extend segment'. השערה: אולי הכוונה הייתה OR.",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "תנאי הטסט הוא AND או OR?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935424"
+       "mp_dashboard:11501681#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11501681#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: לפי כרטיס הדשבורד, תנאי הטסט (DFI 60+ וגם DSLP 60+) צר יותר מהקונטרול ולא רחב יותר, בניגוד לשם 'extend segment'. השערה: אולי הכוונה הייתה OR.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11501681#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "35ae75c531bc49aa",
+    "fingerprint": "15631bf5f466ea5e",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "500c67790e047d01",
+     "curated:conflicts": "dfad73e2727075e9",
      "registry:conflicts": "6a4b4ba6d15d144c",
      "expl:limitations": "2a791ff703528508",
      "registry:change": "74234e98afe7498f",
@@ -201,23 +238,34 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "eligibility",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "Test1 (קונטרול): RV ל-NPU עם DFI 60+.",
+  "test_state": "Test2 (טסט): RV ל-NPU עם DFI 60+ וגם DSLP 60+.",
+  "audience": "NPU עם DFI 60+; טסט 80% / קונטרול 20%; שתי הקבוצות מקבלות RV",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
-  "conflicts": [],
+  "phases": [
+   "התחלה 3.9 10:00 UTC (דשבורד)."
+  ],
+  "conflicts": [
+   "לפי כרטיס הדשבורד, תנאי הטסט (DFI 60+ וגם DSLP 60+) צר יותר מהקונטרול ולא רחב יותר, בניגוד לשם 'extend segment'. השערה: אולי הכוונה הייתה OR."
+  ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935424"
+    "ref": "mp_dashboard:11501681#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11501681",
+    "title": "T124 - RV for extend segment",
+    "match_check": "same game, T124 + RV extend/bigger segment; board created 2026-09-03"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935424",
+    "value": "124 - RV extend segment"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-124-rv-extend-segment",
@@ -302,8 +350,10 @@
   "updates": []
  },
  "glossary_concepts": [
-  "RV"
+  "NPU",
+  "RV",
+  "DSLP / DFI"
  ],
- "content_fingerprint": "7f68f9e5e937571f8b369ee0e4f445ca531830b133b1f26093dfa2e510065d78",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "701b7893ec57568eae051e4caca4c7c3e32fb95a1b9d7bbb3f0467b01d67e10a",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

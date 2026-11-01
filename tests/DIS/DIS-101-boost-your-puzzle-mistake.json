@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "full",
  "registry": {
   "test_id": "DIS-101-boost-your-puzzle-mistake",
   "legacy_keys": [
@@ -97,98 +97,136 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «101 - Boost Your Puzzle (Mistake)». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים הכפלה של הגרנד פרייז בפאזל למי שסיים challenge. בפועל רץ עם טעות (מכאן '(Mistake)' בשם).",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «101 - Boost Your Puzzle (Mistake)». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים הכפלה של הגרנד פרייז בפאזל למי שסיים challenge. בפועל רץ עם טעות (מכאן '(Mistake)' בשם).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998245"
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "71c5bcd0ad3d12fc",
+    "fingerprint": "d798639225b39a7d",
     "inputs": {
-     "registry:name": "10a9b0838fcc5ff2",
+     "curated:what": "5e96d6e209cf5ec6",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: N (ללא שינוי). | טסט: מי שסיים את ה-challenge מקבל הכפלה של הגרנד פרייז בפאזל. בפועל, בטעות כל קבוצת הטסט קיבלה פרס כפול בכל הטירים ולא רק בגרנד. סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: N (ללא שינוי). | טסט: מי שסיים את ה-challenge מקבל הכפלה של הגרנד פרייז בפאזל. בפועל, בטעות כל קבוצת הטסט קיבלה פרס כפול בכל הטירים ולא רק בגרנד.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998245"
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:9925724#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "bed0d7ce1b39308b",
+    "fingerprint": "f83cd932a17fed94",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "10a9b0838fcc5ff2",
+     "curated:control": "96086ac911d7e670",
+     "curated:test": "2e36c92decef7350",
+     "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2025-05-19",
+    "text_he": "קהל: אחרי Level 300, שלא סיימו את הפאזל האחרון | התחלה: 2025-05-19 שלב/שינוי בהרצה: התחלה 19/05/2025 09:50 UTC (דשבורד).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2025-05-19",
+      "text_he": "קהל: אחרי Level 300, שלא סיימו את הפאזל האחרון | התחלה: 2025-05-19",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998245"
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 19/05/2025 09:50 UTC (דשבורד).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "217d25f846d066a2",
+    "fingerprint": "761ce8d01aee1475",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "4b199acd076d5b3d",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "5860b8552196f15a",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "54de613724dcd4cf",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "תוצאות צפויות לפי הדשבורד: יותר מסיימי פאזל, זמן משחק יומי, שיפור בריטנשן ובסשנים ליום. התנהגות יעד: מסיימי פאזל, זמן משחק יומי, ריטנשן, סשנים ליום",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "תוצאות צפויות לפי הדשבורד: יותר מסיימי פאזל, זמן משחק יומי, שיפור בריטנשן ובסשנים ליום.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998245"
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: מסיימי פאזל, זמן משחק יומי, ריטנשן, סשנים ליום",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "860c2a3169325cab",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "94b197971b7240ee",
+     "curated:target": "2534fa11a9d98e6c",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם הטסט עדיין רץ, או שצריך לסגור את הפריט ב-Monday? סתירה: הטסט התחיל ב-19/05/2025 ועדיין מסומן live ב-Monday, יותר משנה אחרי. אין בדשבורד תאריך סיום או החלטה.",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "האם הטסט עדיין רץ, או שצריך לסגור את הפריט ב-Monday?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998245"
+       "mp_dashboard:9925724#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: הטסט התחיל ב-19/05/2025 ועדיין מסומן live ב-Monday, יותר משנה אחרי. אין בדשבורד תאריך סיום או החלטה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:9925724#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "c5a1ed7f150c5b55",
+    "fingerprint": "e144c6f15104b247",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "cb52063ca2c93597",
+     "curated:conflicts": "60e7daef643922da",
      "registry:conflicts": "4e7f84e346a5a30a",
      "expl:limitations": "15f9cb7af4ec9055",
      "registry:change": "74234e98afe7498f",
@@ -201,23 +239,34 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "N (ללא שינוי).",
+  "test_state": "מי שסיים את ה-challenge מקבל הכפלה של הגרנד פרייז בפאזל. בפועל, בטעות כל קבוצת הטסט קיבלה פרס כפול בכל הטירים ולא רק בגרנד.",
+  "audience": "אחרי Level 300, שלא סיימו את הפאזל האחרון",
   "trigger": null,
-  "target_behaviour": null,
-  "why": null,
-  "phases": [],
-  "conflicts": [],
+  "target_behaviour": "מסיימי פאזל, זמן משחק יומי, ריטנשן, סשנים ליום",
+  "why": "תוצאות צפויות לפי הדשבורד: יותר מסיימי פאזל, זמן משחק יומי, שיפור בריטנשן ובסשנים ליום.",
+  "phases": [
+   "התחלה 19/05/2025 09:50 UTC (דשבורד)."
+  ],
+  "conflicts": [
+   "הטסט התחיל ב-19/05/2025 ועדיין מסומן live ב-Monday, יותר משנה אחרי. אין בדשבורד תאריך סיום או החלטה."
+  ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998245"
+    "ref": "mp_dashboard:9925724#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=9925724",
+    "title": "101 - Boost Your Puzzle Launch",
+    "match_check": "POSSIBLE→likely same: same game, 101 Boost Your Puzzle; card describes the mistake"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998245",
+    "value": "101 - Boost Your Puzzle (Mistake)"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-101-boost-your-puzzle-mistake",
@@ -301,7 +350,9 @@
   "item_updated_at": "2026-10-15T14:16:55Z",
   "updates": []
  },
- "glossary_concepts": [],
- "content_fingerprint": "d3bacacfe43af5298c683291edf702214f1efe2a457cb8ae3c4745e91790d2ff",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "glossary_concepts": [
+  "Level"
+ ],
+ "content_fingerprint": "13e3d41e1f60e967feaab6f3de98c801484b53957d78e6826cd7d20774aca781",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

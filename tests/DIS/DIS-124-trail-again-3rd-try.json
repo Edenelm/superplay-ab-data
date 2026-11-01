@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-124-trail-again-3rd-try",
   "legacy_keys": [
@@ -90,98 +90,135 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «124 - Trail again (3rd try 🍦)». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים שוב (ניסיון שלישי) פיצ'ר Trail.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «124 - Trail again (3rd try 🍦)». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים שוב (ניסיון שלישי) פיצ'ר Trail.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
+       "mp_dashboard:11507011#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "98101971946a9813",
+    "fingerprint": "5ef47eab8df996b1",
     "inputs": {
-     "registry:name": "0a487030053a3d6e",
+     "curated:what": "47e3ebe58796fc49",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: באירוע הראשון קיבלו Chef Trails, ובשני Cloud steps. | טסט: פיצ'ר Trail: אוספים DR1 ‏('buttery' בכרטיס) כדי לסובב חצי-גלגל ולהתקדם על אריחים בקו ישר, עם milestones ו-Final Prize. ההתקדמות בלי גלילה. כפתור מכפיל מגדיל את תוצאת הסיבוב (DR2) לפי ה-DR1 הזמין. סוג מנגנון: other",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: באירוע הראשון קיבלו Chef Trails, ובשני Cloud steps. | טסט: פיצ'ר Trail: אוספים DR1 ‏('buttery' בכרטיס) כדי לסובב חצי-גלגל ולהתקדם על אריחים בקו ישר, עם milestones ו-Final Prize. ההתקדמות בלי גלילה. כפתור מכפיל מגדיל את תוצאת הסיבוב (DR2) לפי ה-DR1 הזמין.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
+       "mp_dashboard:11507011#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11507011#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "09c1db2f75fb7265",
+    "fingerprint": "957ecfe2bf2783de",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "0a487030053a3d6e",
+     "curated:control": "eda5459ccaba94d9",
+     "curated:test": "071001d88f8a7c91",
+     "curated:mech": "d448c0e0f65da794",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-06",
+    "text_he": "קהל: Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-09-06 שלב/שינוי בהרצה: התחלה 06/09/26 10:00 UTC (כמו ב-Monday); תאריך סיום ריק. שלב/שינוי בהרצה: איטרציה 1: הבדלים גדולים בין סגמנטים. איטרציה 2: טעות במכפיל, תוקנה ב-13:00 UTC. איטרציה 3: ‏2 RC בין 17:00 ל-17:30 UTC.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-06",
+      "text_he": "קהל: Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-09-06",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11507011#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 06/09/26 10:00 UTC (כמו ב-Monday); תאריך סיום ריק.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
+       "mp_dashboard:11507011#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: איטרציה 1: הבדלים גדולים בין סגמנטים. איטרציה 2: טעות במכפיל, תוקנה ב-13:00 UTC. איטרציה 3: ‏2 RC בין 17:00 ל-17:30 UTC.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11507011#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "23fa255dfdcbb03c",
+    "fingerprint": "56effb2f5155b1c7",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "fc27d6cc5fb62501",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "81d286ceea289225",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "704e0939f494e8d4",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
+       "mp_dashboard:11507011#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה ההשערה העסקית? מה השתנה לעומת שני הניסיונות הקודמים?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "מה ההשערה העסקית?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
+       "mp_dashboard:11507011#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה השתנה לעומת שני הניסיונות הקודמים?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11507011#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "a1883b456fab79f6",
+    "fingerprint": "1c0984dbc75fbdc3",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "76a8016cfe4fc7ab",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "d69063b1e72e8ea5",
      "expl:limitations": "53a96f8f1433046f",
      "registry:change": "74234e98afe7498f",
@@ -194,23 +231,33 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "other",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "באירוע הראשון קיבלו Chef Trails, ובשני Cloud steps.",
+  "test_state": "פיצ'ר Trail: אוספים DR1 ‏('buttery' בכרטיס) כדי לסובב חצי-גלגל ולהתקדם על אריחים בקו ישר, עם milestones ו-Final Prize. ההתקדמות בלי גלילה. כפתור מכפיל מגדיל את תוצאת הסיבוב (DR2) לפי ה-DR1 הזמין.",
+  "audience": "Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "התחלה 06/09/26 10:00 UTC (כמו ב-Monday); תאריך סיום ריק.",
+   "איטרציה 1: הבדלים גדולים בין סגמנטים. איטרציה 2: טעות במכפיל, תוקנה ב-13:00 UTC. איטרציה 3: ‏2 RC בין 17:00 ל-17:30 UTC."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
+    "ref": "mp_dashboard:11507011#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11507011",
+    "title": "T124 - Trail Retest 2",
+    "match_check": "POSSIBLE (name differs): same game, T124, Trail retest 2"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935421",
+    "value": "124 - Trail again (3rd try 🍦)"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-124-trail-again-3rd-try",
@@ -297,6 +344,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "8d7b0a6efe6ab9cb6f29f73a79405613b8241df80c840574d5500e7253f3c68a",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "aa9a3cb63bff9a1a6781e8da3326bcbb75f00c858a54d61a4092e35cd80e3c5c",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

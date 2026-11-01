@@ -3,7 +3,7 @@
  "game": "Dice Dreams",
  "game_code": "DICE",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "full",
  "registry": {
   "test_id": "DICE-1110-puzzle-onboarding-gt-v4",
   "legacy_keys": [
@@ -121,126 +121,165 @@
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה ב-V4 לעומת הקונטרול? סוג מנגנון: unclear",
+    "text_he": "קונטרול: ללא שינוי. | טסט: Puzzle GT V4 חדש: עדכון לטמפלייט GT וארט חדש כדי להפחית עומס (ABTestV2(313,157,311,72,1), קמפיין טסט 92242). לפי WhatsApp ‏(26/07/26): 'טכני בלבד ללא שינויים בכלכלה, טסט המשך כתוצאה מבעיות טכניות בפאזל הקודם'. סוג מנגנון: other",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה ב-V4 לעומת הקונטרול?",
+      "text_he": "קונטרול: ללא שינוי. | טסט: Puzzle GT V4 חדש: עדכון לטמפלייט GT וארט חדש כדי להפחית עומס (ABTestV2(313,157,311,72,1), קמפיין טסט 92242). לפי WhatsApp ‏(26/07/26): 'טכני בלבד ללא שינויים בכלכלה, טסט המשך כתוצאה מבעיות טכניות בפאזל הקודם'.",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328",
+       "wa:wa329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
       ]
      },
      {
-      "text_he": "סוג מנגנון: unclear",
+      "text_he": "סוג מנגנון: other",
       "tag": "interpretation",
       "source_refs": [
-       "monday_update:5404699853"
+       "mp_dashboard:11401314#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "7515ab374efa448f",
+    "fingerprint": "7b737d9c95e092e8",
     "inputs": {
-     "curated:control": "74234e98afe7498f",
-     "curated:test": "74234e98afe7498f",
-     "curated:mech": "683144a12969e0fd",
+     "curated:control": "0e562f5caa9ae9ad",
+     "curated:test": "ab80396f0a82d355",
+     "curated:mech": "d448c0e0f65da794",
      "generator": "he6-v2",
+     "wa:wa328": "0bca0d1197e2d44d",
+     "wa:wa329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-26 שלב/שינוי בהרצה: 2026-07-26: 'we are live' (monday_update:5404699853).",
+    "text_he": "קהל: משתמשים שהתקינו אחרי תחילת הטסט (26/07/2026). בדשבורד נוסף 'update to user who install at 05/05/2026'; השערה: טעות הקלדה ל-05/08 | התחלה: 2026-07-26 שלב/שינוי בהרצה: 2026-07-26: 'we are live' (monday_update:5404699853); הדשבורד: התחלה 26/07/2026 13:00 UTC. שלב/שינוי בהרצה: לפי הדשבורד נמצאה בעיה בסמארט סגמנט ובפתיחת התוכן, ולכן מתחילים להסתכל על הטסט מ-5 באוגוסט.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-26",
+      "text_he": "קהל: משתמשים שהתקינו אחרי תחילת הטסט (26/07/2026). בדשבורד נוסף 'update to user who install at 05/05/2026'; השערה: טעות הקלדה ל-05/08 | התחלה: 2026-07-26",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328",
+       "wa:wa329"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2026-07-26: 'we are live' (monday_update:5404699853); הדשבורד: התחלה 26/07/2026 13:00 UTC.",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328",
+       "wa:wa329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
       ]
      },
      {
-      "text_he": "שלב/שינוי בהרצה: 2026-07-26: 'we are live' (monday_update:5404699853).",
+      "text_he": "שלב/שינוי בהרצה: לפי הדשבורד נמצאה בעיה בסמארט סגמנט ובפתיחת התוכן, ולכן מתחילים להסתכל על הטסט מ-5 באוגוסט.",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328",
+       "wa:wa329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "03ab000cb0b38b6b",
+    "fingerprint": "81b1b5a81f4d9848",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "05aaddfc51358e63",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "74234e98afe7498f",
+     "curated:audience": "d78785dee57a0dd3",
      "curated:trigger": "74234e98afe7498f",
-     "curated:phases": "a52250d2859c80be",
+     "curated:phases": "877fd45abffbe0b1",
      "generator": "he6-v2",
+     "wa:wa328": "0bca0d1197e2d44d",
+     "wa:wa329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "text_he": "Reason לפי הדשבורד: לבדוק אם גיימפליי מהיר יותר וארט חדש ישפרו את חוויית המשחק.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "text_he": "Reason לפי הדשבורד: לבדוק אם גיימפליי מהיר יותר וארט חדש ישפרו את חוויית המשחק.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_update:5404699853",
-       "wa:wa100"
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328"
       ]
      }
     ],
-    "fingerprint": "9432301ed167a207",
+    "fingerprint": "a28ab2b18270c833",
     "inputs": {
-     "curated:why": "74234e98afe7498f",
+     "curated:why": "a0b4b01693ddde59",
      "curated:target": "74234e98afe7498f",
      "generator": "he6-v2",
+     "wa:wa328": "0bca0d1197e2d44d",
+     "wa:wa329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה משתנה ב-V4 לעומת הקונטרול? מה זה GT בהקשר הזה? סתירה: wa:wa030 (2026-06-11, 'Test gets new GT puzzle') קודם לעלייה ב-2026-07-26; ייתכן שמתייחס לגרסה קודמת. לא שויך לשלב הזה.",
+    "text_he": "האם הטסט הוטמע ב-18/08 (ואז צריך לסגור את הפריט ב-Monday)? מה זה GT בהקשר הזה? סתירה: wa:wa030 (2026-06-11, 'Test gets new GT puzzle') קודם לעלייה ב-2026-07-26; ייתכן שמתייחס לגרסה קודמת. לא שויך לשלב הזה. סתירה: WhatsApp ‏(18/08/26 13:00): 'פאזל GT V4 אונבורדינג החל מ-13:00 יוטיסי – הוטמע', אבל ב-Monday הטסט עדיין live. בדשבורד שדה ההחלטה ריק ו-'Ended -'.",
     "statements": [
      {
-      "text_he": "מה משתנה ב-V4 לעומת הקונטרול?",
+      "text_he": "האם הטסט הוטמע ב-18/08 (ואז צריך לסגור את הפריט ב-Monday)?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_update:5404699853"
+       "mp_dashboard:11401314#text_card[0]"
       ]
      },
      {
       "text_he": "מה זה GT בהקשר הזה?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_update:5404699853"
+       "mp_dashboard:11401314#text_card[0]"
       ]
      },
      {
       "text_he": "סתירה: wa:wa030 (2026-06-11, 'Test gets new GT puzzle') קודם לעלייה ב-2026-07-26; ייתכן שמתייחס לגרסה קודמת. לא שויך לשלב הזה.",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328",
+       "wa:wa329",
+       "monday_update:5404699853",
+       "wa:wa100",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סתירה: WhatsApp ‏(18/08/26 13:00): 'פאזל GT V4 אונבורדינג החל מ-13:00 יוטיסי – הוטמע', אבל ב-Monday הטסט עדיין live. בדשבורד שדה ההחלטה ריק ו-'Ended -'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11401314#text_card[0]",
+       "wa:wa328",
+       "wa:wa329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "7301953d799c06d8",
+    "fingerprint": "fa5c5e4147549862",
     "inputs": {
-     "curated:questions": "b731934f739e6a1d",
-     "curated:conflicts": "09d7fa7c30bda118",
+     "curated:questions": "23edbe96f6f22640",
+     "curated:conflicts": "24180984c0c7ac95",
      "registry:conflicts": "1ba556567230f68e",
      "expl:limitations": "b81332ad342952a6",
      "registry:change": "74234e98afe7498f",
@@ -248,6 +287,8 @@
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
+     "wa:wa328": "0bca0d1197e2d44d",
+     "wa:wa329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
@@ -255,21 +296,41 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "other",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא שינוי.",
+  "test_state": "Puzzle GT V4 חדש: עדכון לטמפלייט GT וארט חדש כדי להפחית עומס (ABTestV2(313,157,311,72,1), קמפיין טסט 92242). לפי WhatsApp ‏(26/07/26): 'טכני בלבד ללא שינויים בכלכלה, טסט המשך כתוצאה מבעיות טכניות בפאזל הקודם'.",
+  "audience": "משתמשים שהתקינו אחרי תחילת הטסט (26/07/2026). בדשבורד נוסף 'update to user who install at 05/05/2026'; השערה: טעות הקלדה ל-05/08",
   "trigger": null,
   "target_behaviour": null,
-  "why": null,
+  "why": "Reason לפי הדשבורד: לבדוק אם גיימפליי מהיר יותר וארט חדש ישפרו את חוויית המשחק.",
   "phases": [
-   "2026-07-26: 'we are live' (monday_update:5404699853)."
+   "2026-07-26: 'we are live' (monday_update:5404699853); הדשבורד: התחלה 26/07/2026 13:00 UTC.",
+   "לפי הדשבורד נמצאה בעיה בסמארט סגמנט ובפתיחת התוכן, ולכן מתחילים להסתכל על הטסט מ-5 באוגוסט."
   ],
   "conflicts": [
-   "wa:wa030 (2026-06-11, 'Test gets new GT puzzle') קודם לעלייה ב-2026-07-26; ייתכן שמתייחס לגרסה קודמת. לא שויך לשלב הזה."
+   "wa:wa030 (2026-06-11, 'Test gets new GT puzzle') קודם לעלייה ב-2026-07-26; ייתכן שמתייחס לגרסה קודמת. לא שויך לשלב הזה.",
+   "WhatsApp ‏(18/08/26 13:00): 'פאזל GT V4 אונבורדינג החל מ-13:00 יוטיסי – הוטמע', אבל ב-Monday הטסט עדיין live. בדשבורד שדה ההחלטה ריק ו-'Ended -'."
   ],
   "source_refs": [
+   {
+    "ref": "mp_dashboard:11401314#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11401314",
+    "title": "1110 - Puzzle onboarding GT V4",
+    "match_check": "MATCH: same game, same name 1110 Puzzle onboarding GT V4, start 26/07/2026 = Monday"
+   },
+   {
+    "ref": "wa:wa328",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-07-26"
+   },
+   {
+    "ref": "wa:wa329",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-08-18"
+   },
    {
     "ref": "monday_update:5404699853",
     "url": "https://superplay.monday.com/boards/9494658232/pulses/12632001884",
@@ -432,6 +493,26 @@
    "text": "Launch",
    "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
    "match": "id+name · 100% name tokens"
+  },
+  {
+   "id": "wa328",
+   "date": "2026-07-26",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "טמפלייט חדש לפאזל אונבורדינג. טכני בלבד ללא שינויים בכלכלה, טסט המשך כתוצאה מבעיות טכניות בפאזל הקודם",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
+  },
+  {
+   "id": "wa329",
+   "date": "2026-08-18",
+   "kind": "decision",
+   "decision": "deployed",
+   "nums": [],
+   "text": "פאזל GT V4 אונבורדינג החל מ-13:00 יוטיסי – הוטמע",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
   }
  ],
  "monday_updates_fetched": {
@@ -449,8 +530,9 @@
   ]
  },
  "glossary_concepts": [
+  "Segment split notation",
   "GT"
  ],
- "content_fingerprint": "e40ec643a442a0a03cc7c5dfa475d3b0be42ef3d479fdf442628afcae2640412",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "866e70587f31032c494bad2b5f121f35be32472595f3afb1e9c2ca6f5b4b0ed4",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

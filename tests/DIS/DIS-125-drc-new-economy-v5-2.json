@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "full",
  "registry": {
   "test_id": "DIS-125-drc-new-economy-v5-2",
   "legacy_keys": [
@@ -97,98 +97,128 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - DRC New Economy V5.2». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים כלכלה חדשה ב-DRC (גרסה V5.2): מקבלים פחות ב-DRC.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - DRC New Economy V5.2». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים כלכלה חדשה ב-DRC (גרסה V5.2): מקבלים פחות ב-DRC.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+       "mp_dashboard:11543925#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "df1b3975315c727b",
+    "fingerprint": "63ba31142fe0fe2d",
     "inputs": {
-     "registry:name": "477628d06d0180ac",
+     "curated:what": "eee1bdc7c4be4fb4",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: ללא טיפול. | טסט: מקבלים פחות ב-DRC; רק לשחקנים עם balance in allowance 20+. סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: ללא טיפול. | טסט: מקבלים פחות ב-DRC; רק לשחקנים עם balance in allowance 20+.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+       "mp_dashboard:11543925#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11543925#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "e862a9f12f143c9a",
+    "fingerprint": "7d399673e8cbeb6f",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "477628d06d0180ac",
+     "curated:control": "ee81351d6a046f16",
+     "curated:test": "b8ae778e241bf0fb",
+     "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-23",
+    "text_he": "קהל: שחקנים עם balance in allowance 20+; 50/50 | התחלה: 2026-09-23 שלב/שינוי בהרצה: התחלה 23/09/2026 13:41 UTC.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-23",
+      "text_he": "קהל: שחקנים עם balance in allowance 20+; 50/50 | התחלה: 2026-09-23",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+       "mp_dashboard:11543925#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 23/09/2026 13:41 UTC.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11543925#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "5b96470bde2d3ab6",
+    "fingerprint": "ef57c121948f7c8b",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "203550de69fd3224",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "8a83c54ba3be714d",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "30b5259443da63d7",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "תוצאות צפויות לפי הדשבורד: Revenues+, PU+, FTD CVR+, CZ-. התנהגות יעד: הכנסות, PU, המרת FTD",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "תוצאות צפויות לפי הדשבורד: Revenues+, PU+, FTD CVR+, CZ-.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+       "mp_dashboard:11543925#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: הכנסות, PU, המרת FTD",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11543925#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "ac780eb68cfdbbbc",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "08f49688be91cc5f",
+     "curated:target": "f716d662bde1a3b4",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "כמה פחות מקבלים ב-DRC, ומה השתנה לעומת V5/V5.1?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "כמה פחות מקבלים ב-DRC, ומה השתנה לעומת V5/V5.1?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+       "mp_dashboard:11543925#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "966115947ec822d1",
+    "fingerprint": "b1e800f4a6260942",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "62da171fc391e828",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "1cacb9d4489cfe9b",
      "expl:limitations": "e5be3de8b464fdb6",
      "registry:change": "74234e98afe7498f",
@@ -201,23 +231,32 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא טיפול.",
+  "test_state": "מקבלים פחות ב-DRC; רק לשחקנים עם balance in allowance 20+.",
+  "audience": "שחקנים עם balance in allowance 20+; 50/50",
   "trigger": null,
-  "target_behaviour": null,
-  "why": null,
-  "phases": [],
+  "target_behaviour": "הכנסות, PU, המרת FTD",
+  "why": "תוצאות צפויות לפי הדשבורד: Revenues+, PU+, FTD CVR+, CZ-.",
+  "phases": [
+   "התחלה 23/09/2026 13:41 UTC."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+    "ref": "mp_dashboard:11543925#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11543925",
+    "title": "T125 - DRC New Economy V5.2",
+    "match_check": "same game, T125 + same name incl. V5.2; start 23/09/2026"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935476",
+    "value": "125 - DRC New Economy V5.2"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-drc-new-economy-v5-2",
@@ -304,6 +343,6 @@
  "glossary_concepts": [
   "DRC"
  ],
- "content_fingerprint": "e8ce0a4e8f3acfe41de2bc37828f518eadf920a410f54610c0d107e3e47068b3",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "78ef723488d2ed76bed586faea145fc5666944666c02a2d08c84ca0adf046a0a",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

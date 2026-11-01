@@ -124,6 +124,10 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176",
+       "wa:wa177",
+       "wa:wa179",
        "mp_dashboard_title",
        "monday_name"
       ]
@@ -136,24 +140,53 @@
       ]
      }
     ],
-    "fingerprint": "b33becc0df89246c",
+    "fingerprint": "fd73e501df03eb8b",
     "inputs": {
      "curated:control": "74234e98afe7498f",
      "curated:test": "74234e98afe7498f",
      "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2",
-     "wa:wa317": "9571c058e640b768"
+     "wa:wa317": "9571c058e640b768",
+     "wa:wa176": "91a51389314f239d",
+     "wa:wa177": "6002adac996d2cb3",
+     "wa:wa179": "b228cc52089336ac"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-15 שלב/שינוי בהרצה: 2026-10-29: 'סצנה 77 לייב החל מ-1.26 + דיפלוי לטסט של זאוס' (WhatsApp).",
+    "text_he": "קהל: 3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260 | התחלה: 2026-09-15 שלב/שינוי בהרצה: 15/09/2026 עד 29/10/2026: 'zeus Deployed/level list deployed with changes' (תיאור הדשבורד). שלב/שינוי בהרצה: 15/09/26 (WhatsApp): הטסט עלה; ה-CC הכיל שלב שגורם לקראשים (DSOG_10116_Zeus), כ-30 יוזרים; ב-16/09 הוחלף ב-DSOG_10300_Zeus. שלב/שינוי בהרצה: 2026-10-29: 'סצנה 77 לייב החל מ-1.26 + דיפלוי לטסט של זאוס' (WhatsApp).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-15",
+      "text_he": "קהל: 3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260 | התחלה: 2026-09-15",
       "tag": "explicit_in_source",
       "source_refs": [
        "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 15/09/2026 עד 29/10/2026: 'zeus Deployed/level list deployed with changes' (תיאור הדשבורד).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176",
+       "wa:wa177",
+       "wa:wa179",
+       "mp_dashboard_title",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 15/09/26 (WhatsApp): הטסט עלה; ה-CC הכיל שלב שגורם לקראשים (DSOG_10116_Zeus), כ-30 יוזרים; ב-16/09 הוחלף ב-DSOG_10300_Zeus.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176",
+       "wa:wa177",
+       "wa:wa179",
        "mp_dashboard_title",
        "monday_name"
       ]
@@ -163,22 +196,29 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176",
+       "wa:wa177",
+       "wa:wa179",
        "mp_dashboard_title",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "f11c985c6bbf49ad",
+    "fingerprint": "2edc65741befc654",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "918ad75fe37202c6",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "74234e98afe7498f",
+     "curated:audience": "d10fdade1bee4680",
      "curated:trigger": "74234e98afe7498f",
-     "curated:phases": "b48d901990fb367d",
+     "curated:phases": "1d430ee42aa3ae31",
      "generator": "he6-v2",
-     "wa:wa317": "9571c058e640b768"
+     "wa:wa317": "9571c058e640b768",
+     "wa:wa176": "91a51389314f239d",
+     "wa:wa177": "6002adac996d2cb3",
+     "wa:wa179": "b228cc52089336ac"
     }
    },
    "why": {
@@ -190,16 +230,19 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "wa:wa317",
-       "mp_dashboard_title"
+       "mp_dashboard:11526718"
       ]
      }
     ],
-    "fingerprint": "a4917b065220390e",
+    "fingerprint": "f1a835c34bad4f63",
     "inputs": {
      "curated:why": "74234e98afe7498f",
      "curated:target": "74234e98afe7498f",
      "generator": "he6-v2",
-     "wa:wa317": "9571c058e640b768"
+     "wa:wa317": "9571c058e640b768",
+     "wa:wa176": "91a51389314f239d",
+     "wa:wa177": "6002adac996d2cb3",
+     "wa:wa179": "b228cc52089336ac"
     }
    },
    "learned": {
@@ -226,7 +269,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה ההבדל בין קונטרול לטסט ב-Zeus Launch? על סמך אילו מספרים הוחלט דיפלוי?",
+    "text_he": "מה ההבדל בין קונטרול לטסט ב-Zeus Launch? על סמך אילו מספרים הוחלט דיפלוי? סתירה: הדשבורד ('T125 - Zeus Launch & Level List CC') משלב שני דברים: Zeus Launch ו-Level List CC. לא ברור אם הפריט ב-Monday מכסה את שניהם. סתירה: הדשבורד וה-WhatsApp כותבים שזאוס עבר דיפלוי ב-29/10/2026, אבל ב-Monday הטסט עדיין live.",
     "statements": [
      {
       "text_he": "מה ההבדל בין קונטרול לטסט ב-Zeus Launch?",
@@ -241,12 +284,38 @@
       "source_refs": [
        "wa:wa317"
       ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד ('T125 - Zeus Launch & Level List CC') משלב שני דברים: Zeus Launch ו-Level List CC. לא ברור אם הפריט ב-Monday מכסה את שניהם.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176",
+       "wa:wa177",
+       "wa:wa179",
+       "mp_dashboard_title",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד וה-WhatsApp כותבים שזאוס עבר דיפלוי ב-29/10/2026, אבל ב-Monday הטסט עדיין live.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa317",
+       "mp_dashboard:11526718",
+       "wa:wa176",
+       "wa:wa177",
+       "wa:wa179",
+       "mp_dashboard_title",
+       "monday_name"
+      ]
      }
     ],
-    "fingerprint": "8d1074567ab6d8a1",
+    "fingerprint": "ca60bcdfc02aee76",
     "inputs": {
      "curated:questions": "5ccfff1cd8947237",
-     "curated:conflicts": "4f53cda18c2baa0c",
+     "curated:conflicts": "35c37802a6c75ce0",
      "registry:conflicts": "667c0e17e9a609fb",
      "expl:limitations": "9ad0e840eee7baa1",
      "registry:change": "74234e98afe7498f",
@@ -254,7 +323,10 @@
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
-     "wa:wa317": "9571c058e640b768"
+     "wa:wa317": "9571c058e640b768",
+     "wa:wa176": "91a51389314f239d",
+     "wa:wa177": "6002adac996d2cb3",
+     "wa:wa179": "b228cc52089336ac"
     }
    }
   }
@@ -264,20 +336,49 @@
   "mechanism_type_tag": "interpretation",
   "control_state": null,
   "test_state": null,
-  "audience": null,
+  "audience": "3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
   "phases": [
+   "15/09/2026 עד 29/10/2026: 'zeus Deployed/level list deployed with changes' (תיאור הדשבורד).",
+   "15/09/26 (WhatsApp): הטסט עלה; ה-CC הכיל שלב שגורם לקראשים (DSOG_10116_Zeus), כ-30 יוזרים; ב-16/09 הוחלף ב-DSOG_10300_Zeus.",
    "2026-10-29: 'סצנה 77 לייב החל מ-1.26 + דיפלוי לטסט של זאוס' (WhatsApp)."
   ],
-  "conflicts": [],
+  "conflicts": [
+   "הדשבורד ('T125 - Zeus Launch & Level List CC') משלב שני דברים: Zeus Launch ו-Level List CC. לא ברור אם הפריט ב-Monday מכסה את שניהם.",
+   "הדשבורד וה-WhatsApp כותבים שזאוס עבר דיפלוי ב-29/10/2026, אבל ב-Monday הטסט עדיין live."
+  ],
   "source_refs": [
    {
     "ref": "wa:wa317",
     "url": null,
     "file": "2026-11-01.md",
     "date": "2026-10-29"
+   },
+   {
+    "ref": "mp_dashboard:11526718",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11526718",
+    "title": "T125 - Zeus Launch & Level List CC",
+    "match_check": "same game, T125 + Zeus Launch; title also includes Level List CC"
+   },
+   {
+    "ref": "wa:wa176",
+    "url": null,
+    "file": "history/disney_business_2026-09-15_to_2026-10-12.md",
+    "date": "2026-09-15"
+   },
+   {
+    "ref": "wa:wa177",
+    "url": null,
+    "file": "history/disney_business_2026-09-15_to_2026-10-12.md",
+    "date": "2026-09-16"
+   },
+   {
+    "ref": "wa:wa179",
+    "url": null,
+    "file": "history/disney_business_2026-09-15_to_2026-10-12.md",
+    "date": "2026-09-16"
    },
    {
     "ref": "mp_dashboard_title",
@@ -433,8 +534,9 @@
   "updates": []
  },
  "glossary_concepts": [
+  "Level",
   "CC"
  ],
- "content_fingerprint": "74da5b04a5e5f4cd0648fb4285a2ab6913382be9b3744a488a0be022c00ef30b",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "22bcb5f2b6fe9f8b5ab31455c182098050966ade3a90bcd60c25e91f3cdef8c9",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

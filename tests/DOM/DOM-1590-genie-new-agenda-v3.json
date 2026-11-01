@@ -135,6 +135,9 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_update:5582096004",
+       "mp_dashboard:11550442#text_card[0]",
+       "mp_dashboard:11532544",
+       "wa:wa340",
        "monday_name"
       ]
      },
@@ -146,25 +149,27 @@
       ]
      }
     ],
-    "fingerprint": "1eb4b9d213d8b1d0",
+    "fingerprint": "3c6fd4a247e27be7",
     "inputs": {
      "curated:control": "74234e98afe7498f",
      "curated:test": "74234e98afe7498f",
      "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2",
-     "monday_update:5582096004": "c251ddf18609793d"
+     "monday_update:5582096004": "c251ddf18609793d",
+     "wa:wa340": "901a5dbd74bf13a3"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-27 שלב/שינוי בהרצה: split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות).",
+    "text_he": "קהל: Level ≥ 350; טסט בערך שליש (server_user_id % 647 ≤ 213) | התחלה: 2026-09-27 שלב/שינוי בהרצה: split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות). שלב/שינוי בהרצה: 15/10/26 (WhatsApp, סיכום ישיבה): 'Genie – increase winrate to control baseline'.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-27",
+      "text_he": "קהל: Level ≥ 350; טסט בערך שליש (server_user_id % 647 ≤ 213) | התחלה: 2026-09-27",
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_update:5582096004",
-       "monday_name"
+       "mp_dashboard:11550442#text_card[0]",
+       "mp_dashboard:11532544"
       ]
      },
      {
@@ -172,21 +177,36 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_update:5582096004",
+       "mp_dashboard:11550442#text_card[0]",
+       "mp_dashboard:11532544",
+       "wa:wa340",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 15/10/26 (WhatsApp, סיכום ישיבה): 'Genie – increase winrate to control baseline'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004",
+       "mp_dashboard:11550442#text_card[0]",
+       "mp_dashboard:11532544",
+       "wa:wa340",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "fbdf7e1e4e5149ca",
+    "fingerprint": "49fb0244cce1c06c",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "655201442c2bb1e6",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "74234e98afe7498f",
+     "curated:audience": "0a9d7e454a1e4b62",
      "curated:trigger": "74234e98afe7498f",
-     "curated:phases": "e05c9b2819803999",
+     "curated:phases": "672212075eb70d31",
      "generator": "he6-v2",
-     "monday_update:5582096004": "c251ddf18609793d"
+     "monday_update:5582096004": "c251ddf18609793d",
+     "wa:wa340": "901a5dbd74bf13a3"
     }
    },
    "why": {
@@ -198,16 +218,17 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_update:5582096004",
-       "monday_name"
+       "mp_dashboard:11550442#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "1814476cb60324bf",
+    "fingerprint": "b19f6dcdd18ac502",
     "inputs": {
      "curated:why": "74234e98afe7498f",
      "curated:target": "74234e98afe7498f",
      "generator": "he6-v2",
-     "monday_update:5582096004": "c251ddf18609793d"
+     "monday_update:5582096004": "c251ddf18609793d",
+     "wa:wa340": "901a5dbd74bf13a3"
     }
    },
    "unclear": {
@@ -229,7 +250,7 @@
       ]
      }
     ],
-    "fingerprint": "66c7e8505e2c8226",
+    "fingerprint": "a5d480e15c9bb064",
     "inputs": {
      "curated:questions": "1890187945a76122",
      "curated:conflicts": "4f53cda18c2baa0c",
@@ -240,7 +261,8 @@
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
-     "monday_update:5582096004": "c251ddf18609793d"
+     "monday_update:5582096004": "c251ddf18609793d",
+     "wa:wa340": "901a5dbd74bf13a3"
     }
    }
   }
@@ -250,12 +272,13 @@
   "mechanism_type_tag": "interpretation",
   "control_state": null,
   "test_state": null,
-  "audience": null,
+  "audience": "Level ≥ 350; טסט בערך שליש (server_user_id % 647 ≤ 213)",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
   "phases": [
-   "split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות)."
+   "split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות).",
+   "15/10/26 (WhatsApp, סיכום ישיבה): 'Genie – increase winrate to control baseline'."
   ],
   "conflicts": [],
   "source_refs": [
@@ -263,6 +286,24 @@
     "ref": "monday_update:5582096004",
     "url": "https://superplay.monday.com/boards/18416650776/pulses/13144419090",
     "source_updated_at": "2026-09-27T14:33:36.000Z"
+   },
+   {
+    "ref": "mp_dashboard:11550442#text_card[0]",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=11550442",
+    "title": "1590 - Genie new agenda V3",
+    "match_check": "MATCH: same game, 1590 Genie new agenda V3; Test = server_user_id%647<=213 (~33%), level>=350"
+   },
+   {
+    "ref": "mp_dashboard:11532544",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=11532544",
+    "title": "1590 - Genie new agenda V3",
+    "match_check": "MATCH: same name and same Groups formula (economy board)"
+   },
+   {
+    "ref": "wa:wa340",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-10-15"
    },
    {
     "ref": "monday_name",
@@ -366,6 +407,6 @@
  "glossary_concepts": [
   "Genie"
  ],
- "content_fingerprint": "d9ef87d40aaeae7ca27f5eed30a89ad360c759a8424af6ffc786732944bcf0be",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "95312d52d745a780d8ac79e5d6415e40362554fbdf4a6d7fab0483681b2a74d9",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

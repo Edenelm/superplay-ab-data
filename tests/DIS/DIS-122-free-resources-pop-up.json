@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-122-free-resources-pop-up",
   "legacy_keys": [
@@ -85,98 +85,127 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «122 - Free Resources Pop up». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים פופאפ של משאבים חינם לשחקנים עם באלנס נמוך ביחס ל-mode.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «122 - Free Resources Pop up». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים פופאפ של משאבים חינם לשחקנים עם באלנס נמוך ביחס ל-mode.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+       "mp_dashboard:11395015#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "a1ddd99a65c99a75",
+    "fingerprint": "0bc0d2f742d31d90",
     "inputs": {
-     "registry:name": "8a7b760e0ed78671",
+     "curated:what": "84e5fe5f5288ec66",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: ללא טיפול. | טסט: מקבלים פופאפ של משאבים חינם. סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: ללא טיפול. | טסט: מקבלים פופאפ של משאבים חינם.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+       "mp_dashboard:11395015#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11395015#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "c820b6ba28eed4e0",
+    "fingerprint": "7fd3c0085580a52c",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "8a7b760e0ed78671",
+     "curated:control": "ee81351d6a046f16",
+     "curated:test": "cf55f5684c9a7376",
+     "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-23",
+    "text_he": "קהל: Mode > 3 ו-Balance ≤ 20, או 2 < Mode ≤ 3 ו-Balance ≤ 13, או Mode ≤ 2 ו-Balance ≤ 8 | התחלה: 2026-07-23 שלב/שינוי בהרצה: התחלה 23/07/2026 10:50 UTC (תיאור הדשבורד; כמו ב-Monday).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-23",
+      "text_he": "קהל: Mode > 3 ו-Balance ≤ 20, או 2 < Mode ≤ 3 ו-Balance ≤ 13, או Mode ≤ 2 ו-Balance ≤ 8 | התחלה: 2026-07-23",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+       "mp_dashboard:11395015#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 23/07/2026 10:50 UTC (תיאור הדשבורד; כמו ב-Monday).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11395015#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "8abcfb422b71d5ea",
+    "fingerprint": "5b013e53279f10b8",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "66a25d15723dcf5f",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "8985b3d24698680b",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "f43cda676e094fe4",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+       "mp_dashboard:11395015#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה ההשערה העסקית? אילו משאבים ובאיזו כמות?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "מה ההשערה העסקית?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+       "mp_dashboard:11395015#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "אילו משאבים ובאיזו כמות?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11395015#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "2b17c0f915470b5a",
+    "fingerprint": "5068e28e50e6e10e",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "23cbac315888917e",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "6122315f464e8228",
      "registry:change": "74234e98afe7498f",
@@ -189,23 +218,32 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא טיפול.",
+  "test_state": "מקבלים פופאפ של משאבים חינם.",
+  "audience": "Mode > 3 ו-Balance ≤ 20, או 2 < Mode ≤ 3 ו-Balance ≤ 13, או Mode ≤ 2 ו-Balance ≤ 8",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "התחלה 23/07/2026 10:50 UTC (תיאור הדשבורד; כמו ב-Monday)."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+    "ref": "mp_dashboard:11395015#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11395015",
+    "title": "T122 - Resources gift",
+    "match_check": "POSSIBLE-strong: same game, T122, same start date 23/07/2026, card text 'free resources pop up'"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998244",
+    "value": "122 - Free Resources Pop up"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-122-free-resources-pop-up",
@@ -290,6 +328,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "105432ea2181df65a5e6d024089342699dbd30fbf39aa53a3299452c4b6165fe",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "912fbe287a9a5aaa4cdeb181887ef2e7fa5d23e88d3c2df2be1079c0987f0f30",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

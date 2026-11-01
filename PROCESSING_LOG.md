@@ -1,17 +1,19 @@
 # Processing log
 
-Run 2026-11-01T12:35:23+02:00 (run_id 20261101T123523). Baseline state: 2026-11-01T12:35:23+02:00.
+Run 2026-11-01T13:31:33+02:00 (run_id 20261101T133133). Baseline state: 2026-11-01T13:31:19+02:00.
 
 ## Checked against (source versions)
 
-- `game_metrics`: {"sha256": "dfe4b8b101281b13de113f8294a5dcb1bdee095f5396bb0b36eb3abaca4a5b39", "source_snapshot": "2026-11-01T11:45:00+02:00"}
-- `test_registry`: {"sha256": "420ebcad1672a0cb08a68cec09fd01fbbdbe78aad6339936bc54e05299cb67d6", "source_snapshot": "2026-11-01"}
-- `test_results`: {"sha256": "7f2a806bdcc4bac99152fce7734301288ffd1b1bb578454878f67a26dd352bfa", "source_snapshot": "2026-10-18..2026-11-01"}
-- `explanations_learnings_decisions`: {"sha256": "dc24a1f45fb07a05cbca440ab68a4ecf495fadc97151a95c1ed754beea2ed694", "source_snapshot": "2026-11-01"}
-- `whatsapp_items`: {"sha256": "542f28b3cb436bf227c54f5ae582c4c567234d4f3b277a1363f79e8be2bc2ae4", "source_snapshot": "2026-11-01"}
+- `game_metrics`: {"sha256": "461d01c518005d28ef5ad41130a7cd8d5bf52305a71a3be38679dc63ec29f8b1", "source_snapshot": "2026-11-01T11:45:00+02:00"}
+- `test_registry`: {"sha256": "99aa6f51cb3befa822b1a421626c075d770269fd4c1b2440690e3b1ebda7ee61", "source_snapshot": "2026-11-01"}
+- `test_results`: {"sha256": "37d1e02f97536c733d3b3335228edb3967f697cbbc22199273503b79070709bf", "source_snapshot": "2026-10-18..2026-11-01"}
+- `explanations_learnings_decisions`: {"sha256": "ad3ebed339afc52ea561e1d6ee0dea5335b4d12b30332e173adfe857eb5f3844", "source_snapshot": "2026-11-01"}
+- `whatsapp_items`: {"sha256": "e4ed4733fd39e0f3948e688989b8ff54367c4204d4f78db9e56d8a4d1282a36b", "source_snapshot": "2026-11-01"}
 - `metric_definitions`: {"sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393", "source_snapshot": "2026-11-01T12:05:00+02:00"}
-- `glossary`: {"sha256": "7bafa4f855462865cfc267340d4ae4ade40c3a00cf2b04a5daa2e565a715760a", "source_snapshot": "local sources as of 2026-11-01"}
-- `curated_live_understanding`: {"sha256": "6589ba24617a9460db5b4c140401ec809757a82b4c465ec3b21e941aa9abe70d"}
+- `curated_live_understanding`: {"sha256": "ee384cab005fa900458e9a0704482e6ea50127390dc79e1ac8b4769becc5f99f"}
+- `curated_extra_conflicts`: {"sha256": "5997998b247a1104f4ac35df2df7f0d980f7b1dc0f57e858a52acc2353769b8e", "file": "tools/curated/extra_conflicts.json"}
+- `mixpanel_mechanism_pass`: {"sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213", "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"}
+- `curated_whatsapp_items_extra`: {"sha256": "fd724121bff6c39e11f84de5737aad32eafd9cbb96b3d7d17d662a27269c1c89", "file": "tools/curated/whatsapp_items_extra.json"}
 - `glossary_seed`: {"sha256": "a4cdde88e99f10918940024be505682a5986aeaad1e1f16a36e1298fcc47db58"}
 - `monday_live_fetch`: fetched 2026-11-01T12:30:00+02:00, 47 live items, 15 with updates; calls: get_board_items_page x3 (live items, includeItemDescription: no description blocks returned); get_updates x2 (47 live items, limit 10/item)
 
@@ -22,46 +24,23 @@ Run 2026-11-01T12:35:23+02:00 (run_id 20261101T123523). Baseline state: 2026-11-
 
 ## Coverage of Hebrew explanations
 
-- live: {'unclear': 32, 'partial': 14, 'full': 1}
+- live: {'full': 7, 'partial': 31, 'unclear': 9}
 - results: {'partial': 9, 'full': 19, 'unclear': 6}
 - backlog: {'stub': 581}
 
 ## Regeneration
 
-- sections regenerated: 0, reused: 3349
+- sections regenerated: 1, reused: 3349
 
 ## Still missing
 
-- DIS-125-make-any-purchase-new-seg: המנגנון טרם הובהר (live)
-- DIS-124-ays-offer-for-ftd-and: המנגנון טרם הובהר (live)
-- DICE-1104-cz-fix: המנגנון טרם הובהר (live)
-- DICE-NOID-free-dream-passs-for-churners: המנגנון טרם הובהר (live)
-- DICE-1110-puzzle-onboarding-gt-v4: המנגנון טרם הובהר (live)
 - DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)
-- DOM-NOID-choose-your-trail-test: המנגנון טרם הובהר (live)
-- DOM-1611-low-balance-challenge-pb-10: המנגנון טרם הובהר (live)
 - DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)
-- DIS-125-t125-end-of-puzzle-offer: המנגנון טרם הובהר (live)
-- DIS-124-trail-again-3rd-try: המנגנון טרם הובהר (live)
 - DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)
 - DIS-123-mini-game-treatments: המנגנון טרם הובהר (live)
-- DIS-124-rv-extend-segment: המנגנון טרם הובהר (live)
 - DIS-125-v4-increase-by-mode: המנגנון טרם הובהר (live)
-- DIS-125-push-notification-increase-by-lvl: המנגנון טרם הובהר (live)
 - DIS-125-zeus-launch: המנגנון טרם הובהר (live)
-- DIS-125-wr-v2: המנגנון טרם הובהר (live)
 - DIS-125-8box-segments: המנגנון טרם הובהר (live)
-- DIS-125-dormant-cz-v3: המנגנון טרם הובהר (live)
-- DIS-125-potion-bonus: המנגנון טרם הובהר (live)
-- DIS-125-drc-new-economy-v5-2: המנגנון טרם הובהר (live)
-- DIS-112-google-integrity: המנגנון טרם הובהר (live)
-- DIS-122-free-resources-pop-up: המנגנון טרם הובהר (live)
-- DIS-101-boost-your-puzzle-mistake: המנגנון טרם הובהר (live)
-- DICE-1109-whammy-for-dt-finishers: המנגנון טרם הובהר (live)
-- DICE-NOID-pet-dynamic-requirements: המנגנון טרם הובהר (live)
-- DICE-1109-limited-stock-launch-stock-progression: המנגנון טרם הובהר (live)
-- DIS-118-dormant-scene-boost: המנגנון טרם הובהר (live)
-- DIS-043-d01-min-price: המנגנון טרם הובהר (live)
 - DIS-NOID-live-test: המנגנון טרם הובהר (live)
 - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
 - Glossary: 31 concepts `unclear` (see docs/GLOSSARY.md, column Open question).

@@ -3,7 +3,7 @@
  "game": "Dice Dreams",
  "game_code": "DICE",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DICE-NOID-free-dream-passs-for-churners",
   "legacy_keys": [
@@ -107,12 +107,14 @@
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: איזה Dream Pass ניתן (Premium?) ומה מקבל הקונטרול? סוג מנגנון: reward",
+    "text_he": "קונטרול: ללא שינוי. | טסט: Dream Pass חינם (לפי דשבורד בהתאמה אפשרית: '1110 - About to churn - Free Dream Pass'). סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: איזה Dream Pass ניתן (Premium?) ומה מקבל הקונטרול?",
-      "tag": "explicit_in_source",
+      "text_he": "קונטרול: ללא שינוי. | טסט: Dream Pass חינם (לפי דשבורד בהתאמה אפשרית: '1110 - About to churn - Free Dream Pass').",
+      "tag": "interpretation",
       "source_refs": [
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090",
        "monday_name"
       ]
      },
@@ -120,40 +122,71 @@
       "text_he": "סוג מנגנון: reward",
       "tag": "interpretation",
       "source_refs": [
-       "monday_name"
+       "mp_dashboard:11370298#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "26bd620d7b22e658",
+    "fingerprint": "ed836b116d4a13e4",
     "inputs": {
-     "curated:control": "74234e98afe7498f",
-     "curated:test": "74234e98afe7498f",
+     "curated:control": "0e562f5caa9ae9ad",
+     "curated:test": "4386cf7ecd018e7b",
      "curated:mech": "5acd988f38865afc",
-     "generator": "he6-v2"
+     "generator": "he6-v2",
+     "wa:wa090": "a74f502fb9df1c12"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: churners (לפי שם הפריט) | התחלה: 2026-07-19",
+    "text_he": "קהל: PU עם יותר מ-30 ימים אקטיביים שמודל הנטישה מסמן 'about to churn'; קולדאון של 3 שבועות. ב-V2 בוטל ל-AD > 150 ונשאר ל-AD < 150 | התחלה: 2026-07-19 שלב/שינוי בהרצה: WhatsApp ‏19/07/2026: Launch (wa:wa090). שלב/שינוי בהרצה: דשבורד (התאמה אפשרית): התחלה 22/07/2026 13:00 UTC, ‏'Ended ??'. שלב/שינוי בהרצה: 05/10: מעבר למודל משופר, עדיין רק ל-AD < 150 (דשבורד).",
     "statements": [
      {
-      "text_he": "קהל: churners (לפי שם הפריט) | התחלה: 2026-07-19",
+      "text_he": "קהל: PU עם יותר מ-30 ימים אקטיביים שמודל הנטישה מסמן 'about to churn'; קולדאון של 3 שבועות. ב-V2 בוטל ל-AD > 150 ונשאר ל-AD < 150 | התחלה: 2026-07-19",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: WhatsApp ‏19/07/2026: Launch (wa:wa090).",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: דשבורד (התאמה אפשרית): התחלה 22/07/2026 13:00 UTC, ‏'Ended ??'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 05/10: מעבר למודל משופר, עדיין רק ל-AD < 150 (דשבורד).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "3e91d90a72e56a10",
+    "fingerprint": "dc3346dc15f92a65",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "59bbf0ef9d04ddb6",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "a9ff446a9e2653d4",
+     "curated:audience": "f253a59a45e7bbdd",
      "curated:trigger": "74234e98afe7498f",
-     "curated:phases": "4f53cda18c2baa0c",
-     "generator": "he6-v2"
+     "curated:phases": "7a7a8cfc90dc8fc5",
+     "generator": "he6-v2",
+     "wa:wa090": "a74f502fb9df1c12"
     }
    },
    "why": {
@@ -164,47 +197,59 @@
       "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name"
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090"
       ]
      }
     ],
-    "fingerprint": "427605687c83fec7",
+    "fingerprint": "608eb6b75b00ef28",
     "inputs": {
      "curated:why": "74234e98afe7498f",
      "curated:target": "74234e98afe7498f",
-     "generator": "he6-v2"
+     "generator": "he6-v2",
+     "wa:wa090": "a74f502fb9df1c12"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "איזה Dream Pass ניתן (Premium?) ומה מקבל הקונטרול? איך מוגדר churner?",
+    "text_he": "האם הדשבורד '1110 - About to churn - Free Dream Pass' הוא הטסט הזה? איזה Dream Pass ניתן (Premium?) סתירה: תאריך התחלה: 2026-07-19 ב-Monday וב-WhatsApp, מול 22/07/2026 בדשבורד.",
     "statements": [
      {
-      "text_he": "איזה Dream Pass ניתן (Premium?) ומה מקבל הקונטרול?",
+      "text_he": "האם הדשבורד '1110 - About to churn - Free Dream Pass' הוא הטסט הזה?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name"
+       "mp_dashboard:11370298#text_card[0]"
       ]
      },
      {
-      "text_he": "איך מוגדר churner?",
+      "text_he": "איזה Dream Pass ניתן (Premium?)",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11370298#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: תאריך התחלה: 2026-07-19 ב-Monday וב-WhatsApp, מול 22/07/2026 בדשבורד.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11370298#text_card[0]",
+       "wa:wa090",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "19efccd6fb7b776e",
+    "fingerprint": "881687424a790255",
     "inputs": {
-     "curated:questions": "f24c6b3b01dbe28d",
-     "curated:conflicts": "4f53cda18c2baa0c",
+     "curated:questions": "c949a388fcf767b5",
+     "curated:conflicts": "2353fa1b9ee370b7",
      "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "206435deee28453f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
-     "generator": "he6-v2"
+     "generator": "he6-v2",
+     "wa:wa090": "a74f502fb9df1c12"
     }
    }
   }
@@ -212,15 +257,33 @@
  "understanding": {
   "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": "churners (לפי שם הפריט)",
+  "control_state": "ללא שינוי.",
+  "test_state": "Dream Pass חינם (לפי דשבורד בהתאמה אפשרית: '1110 - About to churn - Free Dream Pass').",
+  "audience": "PU עם יותר מ-30 ימים אקטיביים שמודל הנטישה מסמן 'about to churn'; קולדאון של 3 שבועות. ב-V2 בוטל ל-AD > 150 ונשאר ל-AD < 150",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
-  "conflicts": [],
+  "phases": [
+   "WhatsApp ‏19/07/2026: Launch (wa:wa090).",
+   "דשבורד (התאמה אפשרית): התחלה 22/07/2026 13:00 UTC, ‏'Ended ??'.",
+   "05/10: מעבר למודל משופר, עדיין רק ל-AD < 150 (דשבורד)."
+  ],
+  "conflicts": [
+   "תאריך התחלה: 2026-07-19 ב-Monday וב-WhatsApp, מול 22/07/2026 בדשבורד."
+  ],
   "source_refs": [
+   {
+    "ref": "mp_dashboard:11370298#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11370298",
+    "title": "1110 - About to churn - Free Dream Pass",
+    "match_check": "POSSIBLE-strong: same game; Free Dream Pass to about-to-churn users; start 22/07 vs Monday 19/07; found by name search"
+   },
+   {
+    "ref": "wa:wa090",
+    "url": null,
+    "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+    "date": "2026-07-19"
+   },
    {
     "ref": "monday_name",
     "url": "https://superplay.monday.com/boards/9494658232/pulses/12575082294",
@@ -312,9 +375,11 @@
   "updates": []
  },
  "glossary_concepts": [
+  "PU",
   "Churners",
+  "AD (Active Days)",
   "Dream Pass"
  ],
- "content_fingerprint": "e1579602fe22898c4979c6e5d670155d81e75589ba6eef55cca7f9ae706a5fa3",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "db41627c68d14118d1d897e37c77e7406337e70179b4218a9a6d35bd577ae873",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

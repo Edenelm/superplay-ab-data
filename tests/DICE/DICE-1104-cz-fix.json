@@ -3,7 +3,7 @@
  "game": "Dice Dreams",
  "game_code": "DICE",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DICE-1104-cz-fix",
   "legacy_keys": [
@@ -148,12 +148,13 @@
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה התיקון ב-CZ (מה משתנה בין קונטרול לטסט)? סוג מנגנון: unclear",
+    "text_he": "קונטרול: ללא שינוי (Control ‏70%). | טסט: נוסחת cz_fix: ציון ה-CZ הסופי משלב התנהגות רכישה אחרונה עם כמה זמן עבר מהפעילות האחרונה. משתמשים עם CZ ≥ 5: ‏CZ בסיס × זמן אי-פעילות, כך שמשלמים שהפסיקו לשחק מקבלים ציון נמוך יותר בהדרגה. משתמשים עם CZ < 5: ‏CZ בסיס בלבד, בלי קנס אי-פעילות. בנוסף: משקל גבוה יותר לרכישות אחרונות, והחלקה של קפיצות יומיות לא מציאותיות. סוג מנגנון: price",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה התיקון ב-CZ (מה משתנה בין קונטרול לטסט)?",
+      "text_he": "קונטרול: ללא שינוי (Control ‏70%). | טסט: נוסחת cz_fix: ציון ה-CZ הסופי משלב התנהגות רכישה אחרונה עם כמה זמן עבר מהפעילות האחרונה. משתמשים עם CZ ≥ 5: ‏CZ בסיס × זמן אי-פעילות, כך שמשלמים שהפסיקו לשחק מקבלים ציון נמוך יותר בהדרגה. משתמשים עם CZ < 5: ‏CZ בסיס בלבד, בלי קנס אי-פעילות. בנוסף: משקל גבוה יותר לרכישות אחרונות, והחלקה של קפיצות יומיות לא מציאותיות.",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11296920#text_card[0]",
        "mp_dashboard_title",
        "wa:wa014",
        "wa:wa019",
@@ -161,18 +162,18 @@
       ]
      },
      {
-      "text_he": "סוג מנגנון: unclear",
+      "text_he": "סוג מנגנון: price",
       "tag": "interpretation",
       "source_refs": [
-       "mp_dashboard_title"
+       "mp_dashboard:11296920#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "48e4f312ce6fda95",
+    "fingerprint": "e2348c3f7c2aa0de",
     "inputs": {
-     "curated:control": "74234e98afe7498f",
-     "curated:test": "74234e98afe7498f",
-     "curated:mech": "683144a12969e0fd",
+     "curated:control": "217762b48c7f91b2",
+     "curated:test": "935bc6775ff0f975",
+     "curated:mech": "262780e07de7949a",
      "generator": "he6-v2",
      "wa:wa014": "c4e2b96be72853d1",
      "wa:wa019": "81db57e943221652",
@@ -181,31 +182,22 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-05-26 שלב/שינוי בהרצה: Phase 1: 10% טסט מול 70% קונטרול (שם דשבורד Mixpanel). שלב/שינוי בהרצה: Phase 2: 20% טסט מול 70% קונטרול (שם דשבורד). שלב/שינוי בהרצה: 2026-06-11: הרחבה ל-30% (WhatsApp; וגם דשבורד '30% Test').",
+    "text_he": "קהל: Kingdom ≥ 15. קבוצות: Control ‏70%, Test New ‏20% (מסומן גם '30%'), Test Old ‏10% | התחלה: 2026-05-26 שלב/שינוי בהרצה: Phase 1: ‏2026-05-26 12:00 UTC, טסט 10% (ותיקים) (דשבורד). שלב/שינוי בהרצה: Phase 2: ‏2026-06-22 12:00 UTC, טסט 30% (דשבורד). שלב/שינוי בהרצה: 2026-06-11: הרחבה ל-30% (WhatsApp).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-05-26",
+      "text_he": "קהל: Kingdom ≥ 15. קבוצות: Control ‏70%, Test New ‏20% (מסומן גם '30%'), Test Old ‏10% | התחלה: 2026-05-26",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11296920#text_card[0]",
        "mp_dashboard_title",
-       "wa:wa014",
-       "wa:wa019"
+       "wa:wa014"
       ]
      },
      {
-      "text_he": "שלב/שינוי בהרצה: Phase 1: 10% טסט מול 70% קונטרול (שם דשבורד Mixpanel).",
+      "text_he": "שלב/שינוי בהרצה: Phase 1: ‏2026-05-26 12:00 UTC, טסט 10% (ותיקים) (דשבורד).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "mp_dashboard_title",
-       "wa:wa014",
-       "wa:wa019",
-       "wa:wa034"
-      ]
-     },
-     {
-      "text_he": "שלב/שינוי בהרצה: Phase 2: 20% טסט מול 70% קונטרול (שם דשבורד).",
-      "tag": "explicit_in_source",
-      "source_refs": [
+       "mp_dashboard:11296920#text_card[0]",
        "mp_dashboard_title",
        "wa:wa014",
        "wa:wa019",
@@ -213,9 +205,21 @@
       ]
      },
      {
-      "text_he": "שלב/שינוי בהרצה: 2026-06-11: הרחבה ל-30% (WhatsApp; וגם דשבורד '30% Test').",
+      "text_he": "שלב/שינוי בהרצה: Phase 2: ‏2026-06-22 12:00 UTC, טסט 30% (דשבורד).",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11296920#text_card[0]",
+       "mp_dashboard_title",
+       "wa:wa014",
+       "wa:wa019",
+       "wa:wa034"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2026-06-11: הרחבה ל-30% (WhatsApp).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11296920#text_card[0]",
        "mp_dashboard_title",
        "wa:wa014",
        "wa:wa019",
@@ -223,15 +227,15 @@
       ]
      }
     ],
-    "fingerprint": "c1dfb4ba606e8d64",
+    "fingerprint": "45b6dd7535ffff27",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "9b10917f13bfa5cc",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "74234e98afe7498f",
+     "curated:audience": "ccdcbc504e5a98fc",
      "curated:trigger": "74234e98afe7498f",
-     "curated:phases": "f7ff4b4bbd772114",
+     "curated:phases": "b3046185e95e8321",
      "generator": "he6-v2",
      "wa:wa014": "c4e2b96be72853d1",
      "wa:wa019": "81db57e943221652",
@@ -263,33 +267,34 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה התיקון ב-CZ (מה משתנה בין קונטרול לטסט)? מה ההשערה? גודל הטסט 20% או 30%? סתירה: גודל הטסט בשלב 2: 20% (שם דשבורד) מול 30% (WhatsApp 2026-06-11 ודשבורד אחר). סתירה (מהמקור): Board group conflict: status 'Running' but group 'Backlog' סתירה (מהמקור): item also matches backlog rule (group 'Backlog', status 'Running')",
+    "text_he": "מה ההשערה? גודל הטסט בשלב 2: ‏20% או 30%? האם ההודעה מ-08/10/26 'טסט CZ הוטמע' (wa:wa337) מתייחסת ל-1104 CZ FIX או ל-CZ No Max Offer Weight? סתירה: גודל הטסט בשלב 2: 20% (שם דשבורד) מול 30% (WhatsApp 2026-06-11 ודשבורד אחר). סתירה (מהמקור): Board group conflict: status 'Running' but group 'Backlog' סתירה (מהמקור): item also matches backlog rule (group 'Backlog', status 'Running')",
     "statements": [
-     {
-      "text_he": "מה התיקון ב-CZ (מה משתנה בין קונטרול לטסט)?",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "mp_dashboard_title"
-      ]
-     },
      {
       "text_he": "מה ההשערה?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "mp_dashboard_title"
+       "mp_dashboard:11296920#text_card[0]"
       ]
      },
      {
-      "text_he": "גודל הטסט 20% או 30%?",
+      "text_he": "גודל הטסט בשלב 2: ‏20% או 30%?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "mp_dashboard_title"
+       "mp_dashboard:11296920#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "האם ההודעה מ-08/10/26 'טסט CZ הוטמע' (wa:wa337) מתייחסת ל-1104 CZ FIX או ל-CZ No Max Offer Weight?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11296920#text_card[0]"
       ]
      },
      {
       "text_he": "סתירה: גודל הטסט בשלב 2: 20% (שם דשבורד) מול 30% (WhatsApp 2026-06-11 ודשבורד אחר).",
       "tag": "explicit_in_source",
       "source_refs": [
+       "mp_dashboard:11296920#text_card[0]",
        "mp_dashboard_title",
        "wa:wa014",
        "wa:wa019",
@@ -311,9 +316,9 @@
       ]
      }
     ],
-    "fingerprint": "03a56f94dde96acf",
+    "fingerprint": "8848372f2d5a8be5",
     "inputs": {
-     "curated:questions": "f877f2d522db89f7",
+     "curated:questions": "37f4296bd94a46f6",
      "curated:conflicts": "031b82446a730582",
      "registry:conflicts": "97a1e12913afeecf",
      "expl:limitations": "b2b8d37b6bfedd04",
@@ -330,18 +335,18 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "price",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא שינוי (Control ‏70%).",
+  "test_state": "נוסחת cz_fix: ציון ה-CZ הסופי משלב התנהגות רכישה אחרונה עם כמה זמן עבר מהפעילות האחרונה. משתמשים עם CZ ≥ 5: ‏CZ בסיס × זמן אי-פעילות, כך שמשלמים שהפסיקו לשחק מקבלים ציון נמוך יותר בהדרגה. משתמשים עם CZ < 5: ‏CZ בסיס בלבד, בלי קנס אי-פעילות. בנוסף: משקל גבוה יותר לרכישות אחרונות, והחלקה של קפיצות יומיות לא מציאותיות.",
+  "audience": "Kingdom ≥ 15. קבוצות: Control ‏70%, Test New ‏20% (מסומן גם '30%'), Test Old ‏10%",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
   "phases": [
-   "Phase 1: 10% טסט מול 70% קונטרול (שם דשבורד Mixpanel).",
-   "Phase 2: 20% טסט מול 70% קונטרול (שם דשבורד).",
-   "2026-06-11: הרחבה ל-30% (WhatsApp; וגם דשבורד '30% Test')."
+   "Phase 1: ‏2026-05-26 12:00 UTC, טסט 10% (ותיקים) (דשבורד).",
+   "Phase 2: ‏2026-06-22 12:00 UTC, טסט 30% (דשבורד).",
+   "2026-06-11: הרחבה ל-30% (WhatsApp)."
   ],
   "conflicts": [
    "גודל הטסט בשלב 2: 20% (שם דשבורד) מול 30% (WhatsApp 2026-06-11 ודשבורד אחר).",
@@ -349,6 +354,12 @@
    "item also matches backlog rule (group 'Backlog', status 'Running')"
   ],
   "source_refs": [
+   {
+    "ref": "mp_dashboard:11296920#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11296920",
+    "title": "Duplicate of 1104 - CZ FIX (30% Test) - Old/New Users",
+    "match_check": "MATCH: same game, 1104 CZ FIX, phase 1 start 2026-05-26 = Monday start"
+   },
    {
     "ref": "mp_dashboard_title",
     "url": null,
@@ -554,6 +565,6 @@
   "CZ",
   "Phase"
  ],
- "content_fingerprint": "b48603dbf0ece344bcef3d0c5f9f165677ed89115b3dfb8f210b7ab0521f1800",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "126aa244467a816c8e2f65a945489f51fc37f2bfe5cf2465e26608f6e773007c",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

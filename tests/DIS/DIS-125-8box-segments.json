@@ -97,39 +97,48 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - 8box Segments». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים סגמנטציה חדשה ל-8box (לפי שם הפריט).",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - 8box Segments». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים סגמנטציה חדשה ל-8box (לפי שם הפריט).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
+       "mp_dashboard:11554689",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "b9c038fa66234e30",
+    "fingerprint": "bd00e23d6d27aa2b",
     "inputs": {
-     "registry:name": "95a08a7d341e9fc0",
+     "curated:what": "1194d78245f01d10",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה הסגמנטים החדשים של 8box ומה מקבל הקונטרול? סוג מנגנון: unclear",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה הסגמנטים החדשים של 8box ומה מקבל הקונטרול?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
+       "mp_dashboard:11554689",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: unclear",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11554689"
       ]
      }
     ],
-    "fingerprint": "2b0221223b57414e",
+    "fingerprint": "9ed9e61a3b69df0c",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "95a08a7d341e9fc0",
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2"
     }
    },
@@ -141,54 +150,74 @@
       "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-29",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
+       "mp_dashboard:11554689",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "ff1e17805e47f679",
+    "fingerprint": "db6f9d7d07843eff",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "7ed41c8bf8d9480f",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "4f53cda18c2baa0c",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
+       "mp_dashboard:11554689",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "מה הסגמנטים החדשים של 8box ומה מקבל הקונטרול? האם החלוקה משותפת לטסט 122? סתירה: הדשבורד 'T125 - 8Box Segmentation' מסנן לפי הפרופרטי של טסט 122 ('T122-Free Resources Gift - Goups'). או שהחלוקה משותפת ל-T122, או שהפילטר הועתק בטעות.",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "מה הסגמנטים החדשים של 8box ומה מקבל הקונטרול?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
+       "mp_dashboard:11554689"
+      ]
+     },
+     {
+      "text_he": "האם החלוקה משותפת לטסט 122?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11554689"
+      ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד 'T125 - 8Box Segmentation' מסנן לפי הפרופרטי של טסט 122 ('T122-Free Resources Gift - Goups'). או שהחלוקה משותפת ל-T122, או שהפילטר הועתק בטעות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11554689",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "12caa2b7e49fceb0",
+    "fingerprint": "e842c24f28c19223",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "7513a2570806018c",
+     "curated:conflicts": "bfc7295fa8efb90f",
      "registry:conflicts": "3800041a477e84fc",
      "expl:limitations": "317009c4db3315e7",
      "registry:change": "74234e98afe7498f",
@@ -210,14 +239,23 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [],
+  "conflicts": [
+   "הדשבורד 'T125 - 8Box Segmentation' מסנן לפי הפרופרטי של טסט 122 ('T122-Free Resources Gift - Goups'). או שהחלוקה משותפת ל-T122, או שהפילטר הועתק בטעות."
+  ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
+    "ref": "mp_dashboard:11554689",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11554689",
+    "title": "T125 - 8Box Segmentation",
+    "match_check": "same game, T125 + 8box segment(ation)"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935470",
+    "value": "125 - 8box Segments"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-8box-segments",
@@ -304,6 +342,6 @@
  "glossary_concepts": [
   "8 Box"
  ],
- "content_fingerprint": "b3373d5406315e1ec4ea534408ef2d32b45a7de100b91f28f3095691d0898301",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "1f0ab7e9a82af7db19304970423a29dfd2b55458635ac8ed5128bd37cb5e88ae",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

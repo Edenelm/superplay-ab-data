@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "full",
  "registry": {
   "test_id": "DIS-125-make-any-purchase-new-seg",
   "legacy_keys": [
@@ -137,79 +137,109 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - Make Any Purchase New Seg». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים אם מתנת המטבעות (coin gift) נקבעת גם לפי ה-CZ של השחקן, ולא רק לפי DSLP, ואם זה מעלה המרה לרכישה והכנסות.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - Make Any Purchase New Seg». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים אם מתנת המטבעות (coin gift) נקבעת גם לפי ה-CZ של השחקן, ולא רק לפי DSLP, ואם זה מעלה המרה לרכישה והכנסות.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
+       "mp_dashboard:11513821#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "0cc9a9a2b7d58a51",
+    "fingerprint": "28e82bed68b42a60",
     "inputs": {
-     "registry:name": "37289f462384f621",
+     "curated:what": "0ba77ba96012986d",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: ללא שינוי: מתנה לפי DSLP בלבד, בערך של עמודת CZ 0–5 לכולם. | טסט: מתנה לפי DSLP × CZ (4×4 = 16 סגמנטים; מדרגות CZ ‏0–5/5–10/10–20/20+). למשל DSLP 0–1 ימים: 2/3/4/5; DSLP 2–3: 3/5/6/7; DSLP 4–6: 3/7/9/10. רק העלאה של כמות המטבעות לפי CZ. סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: ללא שינוי: מתנה לפי DSLP בלבד, בערך של עמודת CZ 0–5 לכולם. | טסט: מתנה לפי DSLP × CZ (4×4 = 16 סגמנטים; מדרגות CZ ‏0–5/5–10/10–20/20+). למשל DSLP 0–1 ימים: 2/3/4/5; DSLP 2–3: 3/5/6/7; DSLP 4–6: 3/7/9/10. רק העלאה של כמות המטבעות לפי CZ.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
+       "mp_dashboard:11513821#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11513821#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "d3a2f3926cca445b",
+    "fingerprint": "d6781bfee6bf124f",
     "inputs": {
-     "registry:change": "92c4d89c1f00d574",
-     "registry:control_vs_test": "fc1da59e80561a46",
-     "registry:name": "37289f462384f621",
+     "curated:control": "9c382b3090c66e84",
+     "curated:test": "6596d30517f4c7cd",
+     "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-09",
+    "text_he": "קהל: Level ≥ 160, App Version ≥ 1.14.3, DFI ≥ 30; קונטרול 50% / טסט 50% | התחלה: 2026-09-09 שלב/שינוי בהרצה: התחלה 09/09/2026 09:00 UTC; תאריך סיום ריק בכרטיס.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-09",
+      "text_he": "קהל: Level ≥ 160, App Version ≥ 1.14.3, DFI ≥ 30; קונטרול 50% / טסט 50% | התחלה: 2026-09-09",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
+       "mp_dashboard:11513821#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 09/09/2026 09:00 UTC; תאריך סיום ריק בכרטיס.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11513821#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "02e719f255332402",
+    "fingerprint": "26077fba84ca942a",
     "inputs": {
      "registry:audience": "fc1da59e80561a46",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "deab17f5c24dfc69",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "f127b4ff662e43e3",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "fb337a834651b3c9",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "לפי כרטיס הדשבורד: לבדוק אם התאמת המתנה ליכולת ההוצאה של השחקן מעלה המרה לרכישה והכנסות, לעומת ערך ה-CZ האחיד 0–5 שכולם מקבלים היום. התנהגות יעד: המרה לרכישה והכנסות",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "לפי כרטיס הדשבורד: לבדוק אם התאמת המתנה ליכולת ההוצאה של השחקן מעלה המרה לרכישה והכנסות, לעומת ערך ה-CZ האחיד 0–5 שכולם מקבלים היום.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
+       "mp_dashboard:11513821#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: המרה לרכישה והכנסות",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11513821#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "4d9f76a9e88031e1",
+    "fingerprint": "998e7cadc807015d",
     "inputs": {
-     "registry:hypothesis": "fc1da59e80561a46",
-     "registry:business_question": "fc1da59e80561a46",
+     "curated:why": "68ad86c505370a7d",
+     "curated:target": "d1e7dd6e04b05d4f",
      "generator": "he6-v2"
     }
    },
@@ -236,27 +266,27 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Board note questions status: “status?” חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "אילו רכישות נחשבות 'Make Any Purchase' לצורך המתנה? סתירה (מהמקור): Board note questions status: “status?”",
     "statements": [
+     {
+      "text_he": "אילו רכישות נחשבות 'Make Any Purchase' לצורך המתנה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11513821#text_card[0]"
+      ]
+     },
      {
       "text_he": "סתירה (מהמקור): Board note questions status: “status?”",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
       ]
-     },
-     {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
-      ]
      }
     ],
-    "fingerprint": "2d8062702b78468b",
+    "fingerprint": "4aa4d5082ff04f10",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "358344a24ed2611a",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "9b0029a3819dc6e5",
      "expl:limitations": "c4a8e248a8c303b4",
      "registry:change": "92c4d89c1f00d574",
@@ -269,25 +299,34 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא שינוי: מתנה לפי DSLP בלבד, בערך של עמודת CZ 0–5 לכולם.",
+  "test_state": "מתנה לפי DSLP × CZ (4×4 = 16 סגמנטים; מדרגות CZ ‏0–5/5–10/10–20/20+). למשל DSLP 0–1 ימים: 2/3/4/5; DSLP 2–3: 3/5/6/7; DSLP 4–6: 3/7/9/10. רק העלאה של כמות המטבעות לפי CZ.",
+  "audience": "Level ≥ 160, App Version ≥ 1.14.3, DFI ≥ 30; קונטרול 50% / טסט 50%",
   "trigger": null,
-  "target_behaviour": null,
-  "why": null,
-  "phases": [],
+  "target_behaviour": "המרה לרכישה והכנסות",
+  "why": "לפי כרטיס הדשבורד: לבדוק אם התאמת המתנה ליכולת ההוצאה של השחקן מעלה המרה לרכישה והכנסות, לעומת ערך ה-CZ האחיד 0–5 שכולם מקבלים היום.",
+  "phases": [
+   "התחלה 09/09/2026 09:00 UTC; תאריך סיום ריק בכרטיס."
+  ],
   "conflicts": [
    "Board note questions status: “status?”"
   ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935472"
+    "ref": "mp_dashboard:11513821#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11513821",
+    "title": "T125 - Make Any Purchase New Seg",
+    "match_check": "same game (Disney 3205636), T125 + same name; card start 09/09/2026"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935472",
+    "value": "125 - Make Any Purchase New Seg"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-make-any-purchase-new-seg",
@@ -381,7 +420,11 @@
   "item_updated_at": "2026-11-01T09:03:12Z",
   "updates": []
  },
- "glossary_concepts": [],
- "content_fingerprint": "b242762010c3f34e468a0733f37f844e976ee320c779490e3e2df02d3d403282",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "glossary_concepts": [
+  "Revenue",
+  "CZ",
+  "DSLP / DFI"
+ ],
+ "content_fingerprint": "b49f2be85c8a46264556a76049848976b4d87459ee0f7a6f3ae4330430b0137c",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

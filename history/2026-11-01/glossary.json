@@ -1,7 +1,7 @@
 {
  "dataset": "glossary",
  "contract_version": "1.2.0",
- "generated_at": "2026-11-01T12:35:23+02:00",
+ "generated_at": "2026-11-01T13:31:33+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "canonical_name = the org term as written in sources; no invented translations",
@@ -97,7 +97,7 @@
     "FTD offer"
    ],
    "source_spellings": {
-    "FTD": 46,
+    "FTD": 48,
     "FTDs": 1
    },
    "per_game": {
@@ -123,12 +123,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 3,
+     "tests_with_term": 4,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "124 - AYS offer for FTD and dormant",
-      "Have 5 Tiers of Discounts Instead of 4 (FTD and Default stays the same)",
-      "121 - Pity and ES Protocol v2 - (from lvl 200, if retention 1/3/7 is the same or lower or FTD rate decrese)"
+      "043 - D01 Min Price",
+      "Have 5 Tiers of Discounts Instead of 4 (FTD and Default stays the same)"
      ]
     }
    },
@@ -302,14 +302,15 @@
     "payers"
    ],
    "source_spellings": {
-    "PU": 26
+    "PU": 28
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 1,
-     "whatsapp_items_with_term": 21,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 22,
      "example_names": [
+      "Free Dream Passs for churners",
       "Album end period - push hard to FU only the PU"
      ]
     },
@@ -351,6 +352,7 @@
     "payments"
    ],
    "usage_refs": [
+    "test:DICE-NOID-free-dream-passs-for-churners",
     "test:DICE-NOID-album-end-period-push-hard"
    ]
   },
@@ -363,7 +365,7 @@
     "לא-משלמים"
    ],
    "source_spellings": {
-    "NPU": 3
+    "NPU": 10
    },
    "per_game": {
     "DICE": {
@@ -382,10 +384,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 1,
+     "tests_with_term": 5,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "flat sale for NPU/dormant players"
+      "124 - AYS offer for FTD and dormant",
+      "120 - RV 8box with purchase V2",
+      "124 - RV extend segment"
      ]
     }
    },
@@ -409,7 +413,11 @@
     "population"
    ],
    "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and",
     "test:DOM-1460-rv-mania-v2",
+    "test:DIS-120-rv-8box-with-purchase-v2",
+    "test:DIS-124-rv-extend-segment",
+    "test:DIS-118-dormant-scene-boost",
     "test:DIS-NOID-flat-sale-for-npu-dormant"
    ]
   },
@@ -638,14 +646,14 @@
    ],
    "source_spellings": {
     "revenue": 55,
-    "Revenue": 24,
-    "הכנסות": 1
+    "Revenue": 25,
+    "הכנסות": 2
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 4,
-     "whatsapp_items_with_term": 61,
+     "whatsapp_items_with_term": 62,
      "example_names": [
       "199 - DTC from 1st purchase (Android) stripe",
       "1113 - limited stock offer recomp",
@@ -663,10 +671,12 @@
      ]
     },
     "DIS": {
-     "used": false,
-     "tests_with_term": 0,
+     "used": true,
+     "tests_with_term": 1,
      "whatsapp_items_with_term": 0,
-     "example_names": []
+     "example_names": [
+      "125 - Make Any Purchase New Seg"
+     ]
     }
    },
    "monday_updates_with_term": 0,
@@ -696,8 +706,8 @@
     "test:DICE-1113-limited-stock-offer-recomp",
     "test:DOM-1550-inflation-of-wild-cost",
     "test:DOM-1533-daily-calendar-session-extension",
-    "test:DICE-1109-remove-android-dtc",
-    "test:DICE-197-dtc-from-1st-purchase-apple"
+    "test:DIS-125-make-any-purchase-new-seg",
+    "test:DICE-1109-remove-android-dtc"
    ]
   },
   {
@@ -853,9 +863,9 @@
     "back from churn"
    ],
    "source_spellings": {
-    "churn": 8,
+    "churn": 10,
     "Churn": 5,
-    "churners": 3,
+    "churners": 2,
     "Churned": 2,
     "churned": 1
    },
@@ -926,17 +936,17 @@
    "kind": "mechanism",
    "aliases": [],
    "source_spellings": {
-    "CZ": 37
+    "CZ": 52
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 11,
-     "whatsapp_items_with_term": 6,
+     "tests_with_term": 12,
+     "whatsapp_items_with_term": 8,
      "example_names": [
       "1113 - limited stock offer recomp",
       "1104 - CZ FIX",
-      "Extra CZ Formula –based on Daily Spend Pricing"
+      "1109 - limited stock launch, stock progression test"
      ]
     },
     "DOM": {
@@ -951,12 +961,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 9,
+     "tests_with_term": 11,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "125 - Dormant CZ V3",
-      "Segmented Store Sale (Very High value on items above CZ)",
-      "Max Price CZ Formula in Expensive Offers"
+      "125 - Make Any Purchase New Seg",
+      "T125 End Of Puzzle Offer",
+      "125 - Dormant CZ V3"
      ]
     }
    },
@@ -987,11 +997,11 @@
    ],
    "usage_refs": [
     "test:DICE-1113-limited-stock-offer-recomp",
+    "test:DIS-125-make-any-purchase-new-seg",
     "test:DICE-1104-cz-fix",
+    "test:DIS-125-t125-end-of-puzzle-offer",
     "test:DIS-125-dormant-cz-v3",
-    "test:DICE-NOID-extra-cz-formula-based-on",
-    "test:DICE-NOID-new-cz-formula-now-with",
-    "test:DICE-NOID-mix-between-current-cz-formula"
+    "test:DICE-1109-limited-stock-launch-stock-progression"
    ]
   },
   {
@@ -1071,7 +1081,7 @@
     "RV segment"
    ],
    "source_spellings": {
-    "RV": 36
+    "RV": 41
    },
    "per_game": {
     "DICE": {
@@ -1453,8 +1463,8 @@
     "קינגדום"
    ],
    "source_spellings": {
+    "K40": 5,
     "K2": 5,
-    "K40": 4,
     "K110+": 4,
     "K199": 3,
     "K94": 3,
@@ -1469,7 +1479,7 @@
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 11,
+     "tests_with_term": 12,
      "whatsapp_items_with_term": 14,
      "example_names": [
       "1113 - limited stock offer recomp",
@@ -1516,8 +1526,8 @@
     "test:DICE-1106-remove-ad-from-segmentation",
     "test:DICE-1105-increase-default-max-bet-for",
     "test:DICE-1113-x2-ticks-per-hour-k199",
-    "test:DICE-NOID-protocol-trail-with-presets-k10",
-    "test:DICE-NOID-first-oor-oocoins-after-k2"
+    "test:DICE-1109-limited-stock-launch-stock-progression",
+    "test:DICE-NOID-protocol-trail-with-presets-k10"
    ]
   },
   {
@@ -1530,19 +1540,19 @@
     "Active Days"
    ],
    "source_spellings": {
-    "AD": 4,
+    "AD": 6,
     "AD240+": 2,
     "AD30+": 1
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 4,
+     "tests_with_term": 5,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "1102 - FTD High Maturity",
       "1106 - Remove AD from Segmentation",
-      "1110 - RV purchase penalty"
+      "Free Dream Passs for churners"
      ]
     },
     "DOM": {
@@ -1586,6 +1596,7 @@
    "usage_refs": [
     "test:DICE-1102-ftd-high-maturity",
     "test:DICE-1106-remove-ad-from-segmentation",
+    "test:DICE-NOID-free-dream-passs-for-churners",
     "test:DICE-1110-rv-purchase-penalty",
     "test:DICE-NOID-rps-ad-echad"
    ]
@@ -1602,15 +1613,15 @@
     "level 250": 3,
     "level 30": 3,
     "level 350": 3,
+    "level 32": 3,
+    "Level 20": 3,
+    "Level 40": 2,
     "level 40": 2,
     "Level 30": 2,
     "level 10": 2,
     "level 74": 2,
-    "level 32": 2,
     "Level 32": 2,
-    "Level 200": 2,
-    "Level 6": 2,
-    "level 200": 2
+    "Level 200": 2
    },
    "per_game": {
     "DICE": {
@@ -1624,7 +1635,7 @@
     "DOM": {
      "used": true,
      "tests_with_term": 10,
-     "whatsapp_items_with_term": 5,
+     "whatsapp_items_with_term": 6,
      "example_names": [
       "1551 Scrolling Under 250",
       "1494 - Romantic Treats",
@@ -1633,12 +1644,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 13,
+     "tests_with_term": 16,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "041 - Starter Pack to Level 75",
-      "Level 20 (pb unlock) gurantee win",
-      "Earlier mode multiplier teaser (currently lvl 85)"
+      "125 - Zeus Launch",
+      "101 - Boost Your Puzzle (Mistake)"
      ]
     }
    },
@@ -1741,7 +1752,7 @@
     "8 בוקס"
    ],
    "source_spellings": {
-    "8box": 5,
+    "8box": 7,
     "8 Box": 4,
     "8Box": 2,
     "8 בוקס": 2,
@@ -1811,7 +1822,7 @@
    "kind": "offer",
    "aliases": [],
    "source_spellings": {
-    "Starter Pack": 3,
+    "Starter Pack": 5,
     "starter pack": 3
    },
    "per_game": {
@@ -1833,11 +1844,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 2,
+     "tests_with_term": 3,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "041 - Starter Pack to Level 75",
-      "111 - Starter Pack"
+      "111 - Starter Pack",
+      "043 - D01 Min Price"
      ]
     }
    },
@@ -1864,6 +1876,7 @@
     "test:DIS-041-starter-pack-to-level-75",
     "test:DIS-111-starter-pack",
     "test:DOM-NOID-ftd-offer-add-a-20",
+    "test:DIS-043-d01-min-price",
     "test:DICE-NOID-give-bigger-starter-pack-at"
    ]
   },
@@ -1877,7 +1890,7 @@
     "dreampass"
    ],
    "source_spellings": {
-    "Dream Pass": 5,
+    "Dream Pass": 7,
     "DP": 5,
     "dreampass": 4,
     "dream pass": 3,
@@ -1952,13 +1965,13 @@
     "recomp"
    ],
    "source_spellings": {
-    "Trail": 31
+    "Trail": 37
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 23,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": [
       "Trail Weekend Recomp",
       "Protocol Trail with presets K10-K40 with segs based on kingdom",
@@ -2275,7 +2288,7 @@
    "kind": "feature",
    "aliases": [],
    "source_spellings": {
-    "DRC": 4
+    "DRC": 7
    },
    "per_game": {
     "DICE": {
@@ -2667,8 +2680,8 @@
     "Weekly tasks"
    ],
    "source_spellings": {
+    "Weekly Goals": 7,
     "weekly goals": 7,
-    "Weekly Goals": 6,
     "Weekly tasks": 3,
     "Weekly goals": 2,
     "Weekly Tasks": 1
@@ -2677,7 +2690,7 @@
     "DICE": {
      "used": true,
      "tests_with_term": 8,
-     "whatsapp_items_with_term": 3,
+     "whatsapp_items_with_term": 4,
      "example_names": [
       "1108 - Weekly Goals PB Points Distribution Change",
       "weekly goals controlled progression",
@@ -2736,7 +2749,7 @@
    "kind": "feature",
    "aliases": [],
    "source_spellings": {
-    "Genie": 4
+    "Genie": 5
    },
    "per_game": {
     "DICE": {
@@ -2748,7 +2761,7 @@
     "DOM": {
      "used": true,
      "tests_with_term": 1,
-     "whatsapp_items_with_term": 1,
+     "whatsapp_items_with_term": 2,
      "example_names": [
       "1590 - Genie New Agenda V3"
      ]
@@ -2787,13 +2800,13 @@
    "kind": "feature",
    "aliases": [],
    "source_spellings": {
-    "Whammy": 4
+    "Whammy": 8
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 2,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": [
       "1109 - Whammy For DT Finishers",
       "Whammy vs. Fortune Wheel - in Extra Layer"
@@ -3046,7 +3059,7 @@
    "kind": "mechanism",
    "aliases": [],
    "source_spellings": {
-    "WR": 6
+    "WR": 9
    },
    "per_game": {
     "DICE": {
@@ -3172,7 +3185,7 @@
    ],
    "source_spellings": {
     "OOR": 5,
-    "OOC": 3,
+    "OOC": 4,
     "OOCoins": 1,
     "OOTE": 1
    },
@@ -3197,9 +3210,10 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 2,
+     "tests_with_term": 3,
      "whatsapp_items_with_term": 0,
      "example_names": [
+      "124 - AYS offer for FTD and dormant",
       "OOC Offer with pressure for Dormant users",
       "low balance booster + OOC offer"
      ]
@@ -3229,12 +3243,12 @@
     "eligibility"
    ],
    "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and",
     "test:DICE-NOID-first-oor-oocoins-after-k2",
     "test:DICE-NOID-auto-practice-mode-instead-of",
     "test:DICE-NOID-add-cooldown-disable-oor-placement",
     "test:DICE-NOID-betmania-pb-multiplier-for-oor",
-    "test:DICE-NOID-more-pb-boosters-on-oor",
-    "test:DOM-NOID-remove-dp-pop-up-when"
+    "test:DICE-NOID-more-pb-boosters-on-oor"
    ]
   },
   {
@@ -3244,7 +3258,7 @@
    "aliases": [],
    "source_spellings": {
     "Low balance": 3,
-    "low balance": 3,
+    "low balance": 2,
     "Low Balance": 1
    },
    "per_game": {
@@ -3307,8 +3321,8 @@
     "DFI"
    ],
    "source_spellings": {
-    "DSLP": 2,
-    "DFI": 2
+    "DSLP": 14,
+    "DFI": 7
    },
    "per_game": {
     "DICE": {
@@ -3325,12 +3339,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 3,
+     "tests_with_term": 9,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "Segmented Sale by DSLP",
-      "Comeback Pack V2 (lower DSLP/DFI and add segments)",
-      "Change discount group transition logic - DFI<20"
+      "125 - Make Any Purchase New Seg",
+      "124 - AYS offer for FTD and dormant",
+      "120 - RV 8box with purchase V2"
      ]
     }
    },
@@ -3352,9 +3366,12 @@
     "population"
    ],
    "usage_refs": [
-    "test:DIS-NOID-segmented-sale-by-dslp",
-    "test:DIS-NOID-comeback-pack-v2-lower-dslp",
-    "test:DIS-NOID-change-discount-group-transition-logic"
+    "test:DIS-125-make-any-purchase-new-seg",
+    "test:DIS-124-ays-offer-for-ftd-and",
+    "test:DIS-120-rv-8box-with-purchase-v2",
+    "test:DIS-124-rv-extend-segment",
+    "test:DIS-125-dormant-cz-v3",
+    "test:DIS-118-dormant-scene-boost"
    ]
   },
   {
@@ -3366,13 +3383,17 @@
     "fn_ABTest(...)",
     "seg_TEST:"
    ],
-   "source_spellings": {},
+   "source_spellings": {
+    "ABTestV2(": 1
+   },
    "per_game": {
     "DICE": {
-     "used": false,
-     "tests_with_term": 0,
+     "used": true,
+     "tests_with_term": 1,
      "whatsapp_items_with_term": 0,
-     "example_names": []
+     "example_names": [
+      "1110 - Puzzle onboarding GT V4"
+     ]
     },
     "DOM": {
      "used": false,
@@ -3400,7 +3421,9 @@
    "topics": [],
    "tags_he": [],
    "tags_en": [],
-   "usage_refs": []
+   "usage_refs": [
+    "test:DICE-1110-puzzle-onboarding-gt-v4"
+   ]
   },
   {
    "concept_id": "Phase",
@@ -3525,7 +3548,8 @@
    ],
    "source_spellings": {
     "Push": 6,
-    "push": 2
+    "push": 3,
+    "פוש": 2
    },
    "per_game": {
     "DICE": {
@@ -3687,13 +3711,13 @@
    "kind": "abbreviation",
    "aliases": [],
    "source_spellings": {
-    "GT": 4
+    "GT": 7
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 1,
-     "whatsapp_items_with_term": 1,
+     "whatsapp_items_with_term": 2,
      "example_names": [
       "1110 - Puzzle onboarding GT V4"
      ]
@@ -3738,17 +3762,17 @@
    "kind": "feature",
    "aliases": [],
    "source_spellings": {
-    "BWF": 5
+    "BWF": 7
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 5,
-     "whatsapp_items_with_term": 0,
+     "tests_with_term": 6,
+     "whatsapp_items_with_term": 1,
      "example_names": [
+      "1109 - Whammy For DT Finishers",
       "BWF Bot Difficulty Segmentation Test",
-      "Increase BWF economy (Increase golf stick curve & difficulty in high tiers)",
-      "BWF -Out of DRs – Show DT Offer or Not"
+      "Increase BWF economy (Increase golf stick curve & difficulty in high tiers)"
      ]
     },
     "DOM": {
@@ -3785,6 +3809,7 @@
     "difficulty"
    ],
    "usage_refs": [
+    "test:DICE-1109-whammy-for-dt-finishers",
     "test:DICE-NOID-bwf-bot-difficulty-segmentation-test",
     "test:DICE-NOID-increase-bwf-economy-increase-golf",
     "test:DICE-NOID-bwf-out-of-drs-show",

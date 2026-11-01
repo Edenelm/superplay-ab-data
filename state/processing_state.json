@@ -1,37 +1,45 @@
 {
- "generated_at": "2026-11-01T12:35:23+02:00",
- "run_id": "20261101T123523",
+ "generated_at": "2026-11-01T13:31:33+02:00",
+ "run_id": "20261101T133133",
  "source_versions": {
   "game_metrics": {
-   "sha256": "dfe4b8b101281b13de113f8294a5dcb1bdee095f5396bb0b36eb3abaca4a5b39",
+   "sha256": "461d01c518005d28ef5ad41130a7cd8d5bf52305a71a3be38679dc63ec29f8b1",
    "source_snapshot": "2026-11-01T11:45:00+02:00"
   },
   "test_registry": {
-   "sha256": "420ebcad1672a0cb08a68cec09fd01fbbdbe78aad6339936bc54e05299cb67d6",
+   "sha256": "99aa6f51cb3befa822b1a421626c075d770269fd4c1b2440690e3b1ebda7ee61",
    "source_snapshot": "2026-11-01"
   },
   "test_results": {
-   "sha256": "7f2a806bdcc4bac99152fce7734301288ffd1b1bb578454878f67a26dd352bfa",
+   "sha256": "37d1e02f97536c733d3b3335228edb3967f697cbbc22199273503b79070709bf",
    "source_snapshot": "2026-10-18..2026-11-01"
   },
   "explanations_learnings_decisions": {
-   "sha256": "dc24a1f45fb07a05cbca440ab68a4ecf495fadc97151a95c1ed754beea2ed694",
+   "sha256": "ad3ebed339afc52ea561e1d6ee0dea5335b4d12b30332e173adfe857eb5f3844",
    "source_snapshot": "2026-11-01"
   },
   "whatsapp_items": {
-   "sha256": "542f28b3cb436bf227c54f5ae582c4c567234d4f3b277a1363f79e8be2bc2ae4",
+   "sha256": "e4ed4733fd39e0f3948e688989b8ff54367c4204d4f78db9e56d8a4d1282a36b",
    "source_snapshot": "2026-11-01"
   },
   "metric_definitions": {
    "sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393",
    "source_snapshot": "2026-11-01T12:05:00+02:00"
   },
-  "glossary": {
-   "sha256": "7bafa4f855462865cfc267340d4ae4ade40c3a00cf2b04a5daa2e565a715760a",
-   "source_snapshot": "local sources as of 2026-11-01"
-  },
   "curated_live_understanding": {
-   "sha256": "6589ba24617a9460db5b4c140401ec809757a82b4c465ec3b21e941aa9abe70d"
+   "sha256": "ee384cab005fa900458e9a0704482e6ea50127390dc79e1ac8b4769becc5f99f"
+  },
+  "curated_extra_conflicts": {
+   "sha256": "5997998b247a1104f4ac35df2df7f0d980f7b1dc0f57e858a52acc2353769b8e",
+   "file": "tools/curated/extra_conflicts.json"
+  },
+  "mixpanel_mechanism_pass": {
+   "sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213",
+   "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"
+  },
+  "curated_whatsapp_items_extra": {
+   "sha256": "fd724121bff6c39e11f84de5737aad32eafd9cbb96b3d7d17d662a27269c1c89",
+   "file": "tools/curated/whatsapp_items_extra.json"
   },
   "glossary_seed": {
    "sha256": "a4cdde88e99f10918940024be505682a5986aeaad1e1f16a36e1298fcc47db58"
@@ -108,7 +116,7 @@
   }
  ],
  "regeneration": {
-  "sections_regenerated": 0,
+  "sections_regenerated": 1,
   "sections_reused": 3349
  },
  "tests": {
@@ -302,17 +310,17 @@
    ]
   },
   "DIS-125-make-any-purchase-new-seg": {
-   "fingerprint": "b242762010c3f34e468a0733f37f844e976ee320c779490e3e2df02d3d403282",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "b49f2be85c8a46264556a76049848976b4d87459ee0f7a6f3ae4330430b0137c",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "0cc9a9a2b7d58a51",
-    "what_changes": "d3a2f3926cca445b",
-    "who_when": "02e719f255332402",
-    "why": "4d9f76a9e88031e1",
+    "what_tested": "28e82bed68b42a60",
+    "what_changes": "d6781bfee6bf124f",
+    "who_when": "26077fba84ca942a",
+    "why": "998e7cadc807015d",
     "learned": "f4e930a03b1dfd1c",
-    "unclear": "2d8062702b78468b"
+    "unclear": "4aa4d5082ff04f10"
    },
-   "coverage": "unclear",
+   "coverage": "full",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -323,17 +331,17 @@
    ]
   },
   "DIS-124-ays-offer-for-ftd-and": {
-   "fingerprint": "f2313936f6f6a08b21d737ed0159ac89af58c1ff8984ac52e0ba6ff9c2f1daba",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "4f9a08987b11631648d42e1b5dd159065c935c4392ec7e7b4c1a8eb55e2dc79b",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "b6d55b55b7d0c90a",
-    "what_changes": "954aa5c8e2e1a596",
-    "who_when": "20d1b8241a1ee96b",
-    "why": "4d9f76a9e88031e1",
+    "what_tested": "98675a53cb362c3f",
+    "what_changes": "3e2f81b55182c0c9",
+    "who_when": "b7165c9e0287d921",
+    "why": "427605687c83fec7",
     "learned": "1992b8463731a568",
-    "unclear": "d8b67ae37ca6d9b1"
+    "unclear": "e8a3839303c5f6cc"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -892,16 +900,16 @@
    ]
   },
   "DICE-1104-cz-fix": {
-   "fingerprint": "b48603dbf0ece344bcef3d0c5f9f165677ed89115b3dfb8f210b7ab0521f1800",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "126aa244467a816c8e2f65a945489f51fc37f2bfe5cf2465e26608f6e773007c",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "ce207add9d52f369",
-    "what_changes": "48e4f312ce6fda95",
-    "who_when": "c1dfb4ba606e8d64",
+    "what_changes": "e2348c3f7c2aa0de",
+    "who_when": "45b6dd7535ffff27",
     "why": "3c8090119a6e3475",
-    "unclear": "03a56f94dde96acf"
+    "unclear": "8848372f2d5a8be5"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -972,35 +980,36 @@
    ]
   },
   "DICE-NOID-free-dream-passs-for-churners": {
-   "fingerprint": "e1579602fe22898c4979c6e5d670155d81e75589ba6eef55cca7f9ae706a5fa3",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "db41627c68d14118d1d897e37c77e7406337e70179b4218a9a6d35bd577ae873",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "49e857333e6a61cf",
-    "what_changes": "26bd620d7b22e658",
-    "who_when": "3e91d90a72e56a10",
-    "why": "427605687c83fec7",
-    "unclear": "19efccd6fb7b776e"
+    "what_changes": "ed836b116d4a13e4",
+    "who_when": "dc3346dc15f92a65",
+    "why": "608eb6b75b00ef28",
+    "unclear": "881687424a790255"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
     "expl",
     "generator",
-    "registry"
+    "registry",
+    "wa"
    ]
   },
   "DICE-1110-puzzle-onboarding-gt-v4": {
-   "fingerprint": "e40ec643a442a0a03cc7c5dfa475d3b0be42ef3d479fdf442628afcae2640412",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "866e70587f31032c494bad2b5f121f35be32472595f3afb1e9c2ca6f5b4b0ed4",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "d97f90be3bc84773",
-    "what_changes": "7515ab374efa448f",
-    "who_when": "03ab000cb0b38b6b",
-    "why": "9432301ed167a207",
-    "unclear": "7301953d799c06d8"
+    "what_changes": "7b737d9c95e092e8",
+    "who_when": "81b1b5a81f4d9848",
+    "why": "a28ab2b18270c833",
+    "unclear": "fa5c5e4147549862"
    },
-   "coverage": "unclear",
+   "coverage": "full",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1137,14 +1146,14 @@
    ]
   },
   "DOM-1590-genie-new-agenda-v3": {
-   "fingerprint": "d9ef87d40aaeae7ca27f5eed30a89ad360c759a8424af6ffc786732944bcf0be",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "95312d52d745a780d8ac79e5d6415e40362554fbdf4a6d7fab0483681b2a74d9",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "a42a05bec2369ea9",
-    "what_changes": "1eb4b9d213d8b1d0",
-    "who_when": "fbdf7e1e4e5149ca",
-    "why": "1814476cb60324bf",
-    "unclear": "66c7e8505e2c8226"
+    "what_changes": "3c6fd4a247e27be7",
+    "who_when": "49fb0244cce1c06c",
+    "why": "b19f6dcdd18ac502",
+    "unclear": "a5d480e15c9bb064"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1153,7 +1162,8 @@
     "expl",
     "generator",
     "monday_update",
-    "registry"
+    "registry",
+    "wa"
    ]
   },
   "DOM-1581-1581-dtc-remove-for-android": {
@@ -1177,16 +1187,16 @@
    ]
   },
   "DOM-NOID-choose-your-trail-test": {
-   "fingerprint": "f86244420126cc1922b064002855c1b052936d7cbe116868fec6e7f9640c4249",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "e478eb7454df84fef67656c854b2bc64aa3d613e713b9f92b2dcac8c7724a588",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "402909b3c7be43b6",
-    "what_changes": "408cf8e37eefe81a",
-    "who_when": "e8a2f8f392b1d14d",
+    "what_changes": "17548996d69d0238",
+    "who_when": "1f66eb8fe909f8a7",
     "why": "5b12852203dab070",
-    "unclear": "ec0c36e52eb81e61"
+    "unclear": "031772875368db9c"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1217,16 +1227,16 @@
    ]
   },
   "DOM-1611-low-balance-challenge-pb-10": {
-   "fingerprint": "37f33eeda0507c1b1a2d30586e69db04d8aa33e47941456c4506f5e3440861d2",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "2c4f2d34a852e86c8382dbca803830f77c6c1fa57998de692c0f9efdd68b98e5",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "53651b9420012e53",
-    "what_changes": "812aa75d9a2a6eee",
-    "who_when": "6512d273d57e27a9",
-    "why": "bf371f86d3621db2",
-    "unclear": "4edb8b839c878789"
+    "what_changes": "21f00d5e981e962f",
+    "who_when": "ef67639430072d9c",
+    "why": "eabb01863daac302",
+    "unclear": "cfec7b1bcb9e95bf"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1257,14 +1267,14 @@
    ]
   },
   "DOM-1621-1621-trail-runner-v2": {
-   "fingerprint": "96746fcad022410dee68390925c3ea0f065222b84b46288c40e934833fe49b0e",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "ee715055508192cc4ff0298531f744a07b8626e3ee01f63d93a4965d6ec5e60c",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "95bc734acf867ab1",
-    "what_changes": "1a89236cd658aae9",
-    "who_when": "d1761c8420e5d333",
-    "why": "2f12e35cc420874f",
-    "unclear": "f7696beb10753d97"
+    "what_tested": "719c8cab0d0d5001",
+    "what_changes": "7748f1c23d7e527b",
+    "who_when": "10d5c3c763b77ab7",
+    "why": "0d931d2115bd7dac",
+    "unclear": "48dfb458087fb155"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1272,7 +1282,8 @@
     "curated",
     "expl",
     "generator",
-    "registry"
+    "registry",
+    "wa"
    ]
   },
   "DOM-1621-1621-8-box-from-2": {
@@ -1296,16 +1307,16 @@
    ]
   },
   "DIS-125-t125-end-of-puzzle-offer": {
-   "fingerprint": "5a004696bead2368deaf161b7d4f8d20e0797c63dcf7b68df4d09070dcafc125",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "837e8ab8d8672b363b051752081b52c445584a4610b36f5333d715b4dd54b6e6",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "b172850704a9ffb3",
-    "what_changes": "82538dac52849305",
-    "who_when": "a3a90f997ef72ceb",
-    "why": "2f12e35cc420874f",
-    "unclear": "9d23b69b1a996523"
+    "what_tested": "9033892eda2df8ea",
+    "what_changes": "63fd9db719e2d346",
+    "who_when": "c2fe155847c08385",
+    "why": "427605687c83fec7",
+    "unclear": "4deba7bafe8b7046"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1315,16 +1326,16 @@
    ]
   },
   "DIS-124-trail-again-3rd-try": {
-   "fingerprint": "8d7b0a6efe6ab9cb6f29f73a79405613b8241df80c840574d5500e7253f3c68a",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "aa9a3cb63bff9a1a6781e8da3326bcbb75f00c858a54d61a4092e35cd80e3c5c",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "98101971946a9813",
-    "what_changes": "09c1db2f75fb7265",
-    "who_when": "23fa255dfdcbb03c",
-    "why": "2f12e35cc420874f",
-    "unclear": "a1883b456fab79f6"
+    "what_tested": "5ef47eab8df996b1",
+    "what_changes": "957ecfe2bf2783de",
+    "who_when": "56effb2f5155b1c7",
+    "why": "427605687c83fec7",
+    "unclear": "1c0984dbc75fbdc3"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1334,14 +1345,14 @@
    ]
   },
   "DIS-120-rv-8box-with-purchase-v2": {
-   "fingerprint": "83ab1a9858f59afe9990bc5b42a7f000de94568d012050480acaaab4b9f51809",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "0fad4f5c3e4a05d01d1d9cf7167228e8bfd9bb7510242c011ee161c22aee98b4",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "96954b249117b17d",
-    "what_changes": "162a763efebbea65",
-    "who_when": "fec2c05b335751aa",
-    "why": "2f12e35cc420874f",
-    "unclear": "a2bdf0bfb6e60807"
+    "what_tested": "cb227c6b1c1a55da",
+    "what_changes": "9ed9e61a3b69df0c",
+    "who_when": "f4295806beedd286",
+    "why": "427605687c83fec7",
+    "unclear": "d344f116aec55362"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1353,14 +1364,14 @@
    ]
   },
   "DIS-123-mini-game-treatments": {
-   "fingerprint": "9a2f4cd7e474f7c32deee8c4755757517804ab6317659c3cd19625a05cb42653",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "6e8efe2d9d60438a20399e9290732e4072ad13c4de935edf011225b4312f01e1",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "cc724f3cd8dc492d",
-    "what_changes": "2bd5f08037e83ed3",
-    "who_when": "265bcfd0c9ceab18",
-    "why": "2f12e35cc420874f",
-    "unclear": "fccaa39c4961dda4"
+    "what_tested": "1a46bd7904cbf5c6",
+    "what_changes": "9ed9e61a3b69df0c",
+    "who_when": "3ea70d2752d5f709",
+    "why": "427605687c83fec7",
+    "unclear": "10df83bc9de15119"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1372,16 +1383,16 @@
    ]
   },
   "DIS-124-rv-extend-segment": {
-   "fingerprint": "7f68f9e5e937571f8b369ee0e4f445ca531830b133b1f26093dfa2e510065d78",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "701b7893ec57568eae051e4caca4c7c3e32fb95a1b9d7bbb3f0467b01d67e10a",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "1ca744208d70cabe",
-    "what_changes": "cd1b9820c293b8a0",
-    "who_when": "7863a2d4a0d02217",
-    "why": "2f12e35cc420874f",
-    "unclear": "35ae75c531bc49aa"
+    "what_tested": "d4a922ea41116d05",
+    "what_changes": "5a90e36d1ca62812",
+    "who_when": "301a1fdf176145df",
+    "why": "427605687c83fec7",
+    "unclear": "15631bf5f466ea5e"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1391,14 +1402,14 @@
    ]
   },
   "DIS-125-v4-increase-by-mode": {
-   "fingerprint": "8d481beeea6cdfcd94e5b570d63e99955fb72e94eb1f9236317a4a8443e00da5",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "47068b61390fc92341ec9a81526ad42bcd11be4da597397128e4254a3ddf0f04",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "48b8eedfe2820a7a",
-    "what_changes": "00f292ee8f6dff3f",
-    "who_when": "892714c1fc951919",
-    "why": "2f12e35cc420874f",
-    "unclear": "3c2cb101e159d5ec"
+    "what_tested": "f62a496daca05ab1",
+    "what_changes": "9ed9e61a3b69df0c",
+    "who_when": "24f363f2cb02f1e6",
+    "why": "427605687c83fec7",
+    "unclear": "655027702e27d33d"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1410,16 +1421,16 @@
    ]
   },
   "DIS-125-push-notification-increase-by-lvl": {
-   "fingerprint": "facf0dd4930f8bcfbce0f5fbf420c8f618c5a5733e1fe41ce50ed90ddb4eb3ed",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "84cb363cf1bb2c4a5828f72c7f6f6dc3796ad68b45ad77cf7d8f7b5e4f24b743",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "6404a29a89ac06cd",
-    "what_changes": "263ce29ab531269e",
-    "who_when": "892714c1fc951919",
-    "why": "2f12e35cc420874f",
-    "unclear": "7e113568e83f86c4"
+    "what_tested": "2245d7d29d7aa5ec",
+    "what_changes": "7e5c872074729976",
+    "who_when": "187841099f1a2d94",
+    "why": "427605687c83fec7",
+    "unclear": "c21de9a3d9588f9b"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1429,15 +1440,15 @@
    ]
   },
   "DIS-125-zeus-launch": {
-   "fingerprint": "74da5b04a5e5f4cd0648fb4285a2ab6913382be9b3744a488a0be022c00ef30b",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "22bcb5f2b6fe9f8b5ab31455c182098050966ade3a90bcd60c25e91f3cdef8c9",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "5e1886be2f0350a7",
-    "what_changes": "b33becc0df89246c",
-    "who_when": "f11c985c6bbf49ad",
-    "why": "a4917b065220390e",
+    "what_changes": "fd73e501df03eb8b",
+    "who_when": "2edc65741befc654",
+    "why": "f1a835c34bad4f63",
     "learned": "ec60b675c6655f2a",
-    "unclear": "8d1074567ab6d8a1"
+    "unclear": "ca60bcdfc02aee76"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1451,16 +1462,16 @@
    ]
   },
   "DIS-125-wr-v2": {
-   "fingerprint": "be4f18c84f218dd33484ad06d45661c5b4b74cbf0ba22038aa87c4febd3ded92",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "3752863e0c11659353227cf3c1bb0e005510bc27e75d53136d783d6b58b9fe8e",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "45be421adcbabe2c",
-    "what_changes": "0dc90ba2da8a1da9",
-    "who_when": "0ee805cdcb43fc10",
-    "why": "2f12e35cc420874f",
-    "unclear": "85a9eb73dada9fbd"
+    "what_tested": "376edeac2a07b552",
+    "what_changes": "5edac7640901d9bc",
+    "who_when": "b6cd74bf97efaf48",
+    "why": "427605687c83fec7",
+    "unclear": "bd5c28da8f16c171"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1470,14 +1481,14 @@
    ]
   },
   "DIS-125-8box-segments": {
-   "fingerprint": "b3373d5406315e1ec4ea534408ef2d32b45a7de100b91f28f3095691d0898301",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "1f0ab7e9a82af7db19304970423a29dfd2b55458635ac8ed5128bd37cb5e88ae",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "b9c038fa66234e30",
-    "what_changes": "2b0221223b57414e",
-    "who_when": "ff1e17805e47f679",
-    "why": "2f12e35cc420874f",
-    "unclear": "12caa2b7e49fceb0"
+    "what_tested": "bd00e23d6d27aa2b",
+    "what_changes": "9ed9e61a3b69df0c",
+    "who_when": "db6f9d7d07843eff",
+    "why": "427605687c83fec7",
+    "unclear": "e842c24f28c19223"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1489,16 +1500,16 @@
    ]
   },
   "DIS-125-dormant-cz-v3": {
-   "fingerprint": "4d062283026f0aa0edc7176efe4fcb45c799f90e5d8d3a380c36c4a526d94fa4",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "3d6cab02a2c45319d81437d1498e5e5e980a0b7511729c5426ee51d094ff0d77",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "96ca0d3f85c16962",
-    "what_changes": "b9b725da407346bb",
-    "who_when": "892714c1fc951919",
-    "why": "2f12e35cc420874f",
-    "unclear": "05775f891f432de2"
+    "what_tested": "249f5af467b66171",
+    "what_changes": "05902f88ac0cc112",
+    "who_when": "b8b8f1ce21b2fe2c",
+    "why": "427605687c83fec7",
+    "unclear": "e50d16b7cd868796"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1508,16 +1519,16 @@
    ]
   },
   "DIS-125-potion-bonus": {
-   "fingerprint": "59103aa487750ce38c226470cb0a7f7325cc8a7e870abe29c48a40acf5124b25",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "63fd565c1b8f932bfcda781a7ac1d3a068579a058df67dda4950ee5f77d3bb9f",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "73ab8bc7b5b961e9",
-    "what_changes": "a7a1c3d5467290ea",
-    "who_when": "1ca0532359140abc",
-    "why": "2f12e35cc420874f",
-    "unclear": "9567814fce71c9c2"
+    "what_tested": "d131c8ab113ea07c",
+    "what_changes": "6aa43b9d5c02bfd2",
+    "who_when": "3141ffd572303da3",
+    "why": "427605687c83fec7",
+    "unclear": "10ad8ad3af5853c3"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1527,16 +1538,16 @@
    ]
   },
   "DIS-125-drc-new-economy-v5-2": {
-   "fingerprint": "e8ce0a4e8f3acfe41de2bc37828f518eadf920a410f54610c0d107e3e47068b3",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "78ef723488d2ed76bed586faea145fc5666944666c02a2d08c84ca0adf046a0a",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "df1b3975315c727b",
-    "what_changes": "e862a9f12f143c9a",
-    "who_when": "5b96470bde2d3ab6",
-    "why": "2f12e35cc420874f",
-    "unclear": "966115947ec822d1"
+    "what_tested": "63ba31142fe0fe2d",
+    "what_changes": "7d399673e8cbeb6f",
+    "who_when": "ef57c121948f7c8b",
+    "why": "ac780eb68cfdbbbc",
+    "unclear": "b1e800f4a6260942"
    },
-   "coverage": "unclear",
+   "coverage": "full",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1546,16 +1557,16 @@
    ]
   },
   "DIS-112-google-integrity": {
-   "fingerprint": "3b28a2f46da504009ebea03f88419f4a37bdf099a46d163fab7de5820b6584d8",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "9baed7dc8d2b68217194772c16aaf660471a34e430b6b672c2e028de8ce336e5",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "9f5c6883a27065ec",
-    "what_changes": "440a66b80962411d",
-    "who_when": "7260f548fa934137",
-    "why": "2f12e35cc420874f",
-    "unclear": "8f30c9b8146c1845"
+    "what_tested": "ada37e4a5bb4afce",
+    "what_changes": "609cfde80f15f825",
+    "who_when": "a5d0c8037b016d0c",
+    "why": "427605687c83fec7",
+    "unclear": "869e07e86358e2af"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1565,16 +1576,16 @@
    ]
   },
   "DIS-122-free-resources-pop-up": {
-   "fingerprint": "105432ea2181df65a5e6d024089342699dbd30fbf39aa53a3299452c4b6165fe",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "912fbe287a9a5aaa4cdeb181887ef2e7fa5d23e88d3c2df2be1079c0987f0f30",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "a1ddd99a65c99a75",
-    "what_changes": "c820b6ba28eed4e0",
-    "who_when": "8abcfb422b71d5ea",
-    "why": "2f12e35cc420874f",
-    "unclear": "2b17c0f915470b5a"
+    "what_tested": "0bc0d2f742d31d90",
+    "what_changes": "7fd3c0085580a52c",
+    "who_when": "5b013e53279f10b8",
+    "why": "427605687c83fec7",
+    "unclear": "5068e28e50e6e10e"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1584,16 +1595,16 @@
    ]
   },
   "DIS-101-boost-your-puzzle-mistake": {
-   "fingerprint": "d3bacacfe43af5298c683291edf702214f1efe2a457cb8ae3c4745e91790d2ff",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "13e3d41e1f60e967feaab6f3de98c801484b53957d78e6826cd7d20774aca781",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "71c5bcd0ad3d12fc",
-    "what_changes": "bed0d7ce1b39308b",
-    "who_when": "217d25f846d066a2",
-    "why": "2f12e35cc420874f",
-    "unclear": "c5a1ed7f150c5b55"
+    "what_tested": "d798639225b39a7d",
+    "what_changes": "f83cd932a17fed94",
+    "who_when": "761ce8d01aee1475",
+    "why": "860c2a3169325cab",
+    "unclear": "e144c6f15104b247"
    },
-   "coverage": "unclear",
+   "coverage": "full",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1603,41 +1614,45 @@
    ]
   },
   "DICE-1109-whammy-for-dt-finishers": {
-   "fingerprint": "8b702f554f0181bfd3f73bcf15cb02ac7329a291c7990db77b466b9620b5a3cd",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "8f791a69a19af256077d5bfa716a6227d0aa283b7b003b7f07f660d451b7f4af",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "aa702789b2f2235c",
-    "what_changes": "85d487f343546ae9",
-    "who_when": "f02d0570f8ec98fc",
-    "why": "2f12e35cc420874f",
-    "unclear": "4c7ff9dc3d1e9020"
+    "what_tested": "df37091eb45fbeab",
+    "what_changes": "3c32404fa0075baf",
+    "who_when": "09ee10ad6b74188a",
+    "why": "56d308b8628f02a2",
+    "learned": "7181bdf4362c924d",
+    "unclear": "108b2feb8fb4ef32"
    },
-   "coverage": "unclear",
+   "coverage": "full",
    "tier": "live",
    "checked_against": [
     "curated",
     "expl",
     "generator",
-    "registry"
+    "registry",
+    "results",
+    "wa"
    ]
   },
   "DICE-NOID-pet-dynamic-requirements": {
-   "fingerprint": "9934e023b0e79c3330fa61aa021c93566734fc15b19d0d298674ec820ce5dc5f",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "aacbe820a61e790f9e498c7b177d0ebabccd94cd55300c3cfb3a08d317d15bd9",
+   "last_changed_at": "2026-11-01T13:31:33+02:00",
    "sections": {
-    "what_tested": "3e5e3915a614a3db",
-    "what_changes": "2012c9b4dbdd58cb",
-    "who_when": "f02d0570f8ec98fc",
-    "why": "2f12e35cc420874f",
-    "unclear": "671d019b02c86311"
+    "what_tested": "a047c1d7187a2977",
+    "what_changes": "768a81c15fac2e1b",
+    "who_when": "7bc5485c2fa32762",
+    "why": "ca2786aca3a2a132",
+    "unclear": "002da6a845d4e03b"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
     "expl",
     "generator",
-    "registry"
+    "registry",
+    "wa"
    ]
   },
   "DICE-NOID-dream-pass-reward-rush": {
@@ -1661,16 +1676,16 @@
    ]
   },
   "DICE-1109-limited-stock-launch-stock-progression": {
-   "fingerprint": "f7d28f025351072b775cbfcac8b76616fcb8d0838bccf4f77a750a3685339de6",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "7a02ddc8c5ab5e876aee51820d14fe3e3a62e5166f4bad10ec838dd57983afb7",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "26dd736cebb9e159",
-    "what_changes": "5ab1456b33996f4e",
-    "who_when": "8b8e7a12787fba69",
-    "why": "2f12e35cc420874f",
-    "unclear": "8053aea6e3f0a159"
+    "what_tested": "c6cfd7849abfd0b3",
+    "what_changes": "ef2025b3cb0d834c",
+    "who_when": "2d102c57bf947ff3",
+    "why": "427605687c83fec7",
+    "unclear": "aae6e292ac877e45"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1680,16 +1695,16 @@
    ]
   },
   "DIS-118-dormant-scene-boost": {
-   "fingerprint": "a8341ed51ab5e945f0f148ea308ff6b21957135893a9c4bf69e732255abd8081",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "aeaa9bd37fa1c5594d944b9ce4d338311cc21622cccf8fe08a29ac388079eb54",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "49f596951f279aa7",
-    "what_changes": "0de12589b3704187",
-    "who_when": "cd534825b289c810",
-    "why": "2f12e35cc420874f",
-    "unclear": "384e9638f7db042a"
+    "what_tested": "71c304c4c3134c35",
+    "what_changes": "f133938b9745f757",
+    "who_when": "644d12dd230ceeb8",
+    "why": "427605687c83fec7",
+    "unclear": "14cb029f5cc8e6c0"
    },
-   "coverage": "unclear",
+   "coverage": "partial",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1699,16 +1714,16 @@
    ]
   },
   "DIS-043-d01-min-price": {
-   "fingerprint": "8b19a476352347a680baed64e73035421461d8e5f306eb86452d406ec9f5cbd8",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "d944665ad6ec32a559a308cbb4fd169025c0fc53ba3266edd0dc51a911146654",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "f707c1d3a245df83",
-    "what_changes": "abc85d0f2ee55c01",
-    "who_when": "e59edb746d89b7fe",
-    "why": "2f12e35cc420874f",
-    "unclear": "c8edbbeab3a1abb9"
+    "what_tested": "fc8b4620989dfd85",
+    "what_changes": "069f3db19a35861f",
+    "who_when": "5496a17a40095bdd",
+    "why": "b87e035e7c8eb664",
+    "unclear": "bf829665a0933668"
    },
-   "coverage": "unclear",
+   "coverage": "full",
    "tier": "live",
    "checked_against": [
     "curated",
@@ -1718,14 +1733,14 @@
    ]
   },
   "DIS-NOID-live-test": {
-   "fingerprint": "68b2ef828599ba899b3607a466e0d95000da23b94883497d03b4fc7736cc52b7",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "7ef31fa0908d855c9b833b6aa3fa970345cc73e288314bbfbe7403715df641c1",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "1a777bf55fbeb102",
-    "what_changes": "8e05b5d2016588f8",
-    "who_when": "f02d0570f8ec98fc",
-    "why": "2f12e35cc420874f",
-    "unclear": "90c6e807ffe61d57"
+    "what_tested": "90b262c7c6bba850",
+    "what_changes": "9ed9e61a3b69df0c",
+    "who_when": "6622899ef33a2582",
+    "why": "427605687c83fec7",
+    "unclear": "89872f154e441512"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -1737,14 +1752,14 @@
    ]
   },
   "DIS-NOID-live-test-2": {
-   "fingerprint": "c37140c24cb315bb9ee2da510e3e70b3cbc72f58870b2e6d24ae821d12e47493",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "0b3f972f831f9c845cb812ff954c0508ac433ec99708f22dc806e9ea46c0c14f",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
-    "what_tested": "ea7d5af12f5aedd7",
-    "what_changes": "b0a4b2e0e314fa5e",
-    "who_when": "f02d0570f8ec98fc",
-    "why": "2f12e35cc420874f",
-    "unclear": "bd579b014e438dcf"
+    "what_tested": "90b262c7c6bba850",
+    "what_changes": "9ed9e61a3b69df0c",
+    "who_when": "6622899ef33a2582",
+    "why": "427605687c83fec7",
+    "unclear": "6338bdcd5d2c954b"
    },
    "coverage": "unclear",
    "tier": "live",
@@ -12453,20 +12468,21 @@
    ]
   },
   "DICE-NOID-dp-20-tiers": {
-   "fingerprint": "06262d8e4a38289d381ba7a5967083c5b6c88b9b8df1142313f2450ef4ed8666",
-   "last_changed_at": "2026-11-01T12:35:23+02:00",
+   "fingerprint": "4e2e9fb4cac056f987e5be37365d7b68b2b8386b627e7874997a838f0770d320",
+   "last_changed_at": "2026-11-01T13:31:19+02:00",
    "sections": {
     "what_tested": "5f14d4347ad26b26",
     "what_changes": "88e431c34705f773",
     "who_when": "0e5b16bb0aa9152d",
     "why": "2f12e35cc420874f",
-    "unclear": "1994bba0c3b49b89"
+    "unclear": "80d1048a3f7a5649"
    },
    "coverage": "stub",
    "tier": "backlog",
    "checked_against": [
     "curated",
     "expl",
+    "extra",
     "generator",
     "registry"
    ]

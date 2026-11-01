@@ -3,7 +3,7 @@
  "game": "Dice Dreams",
  "game_code": "DICE",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DICE-1109-limited-stock-launch-stock-progression",
   "legacy_keys": [
@@ -93,105 +93,142 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «1109 - limited stock launch, stock progression test». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים השקה של הצעה עם מלאי מוגבל (limited stock), ואיך קצב ירידת המלאי מוצג.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «1109 - limited stock launch, stock progression test». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים השקה של הצעה עם מלאי מוגבל (limited stock), ואיך קצב ירידת המלאי מוצג.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
+       "mp_dashboard:11329098#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "26dd736cebb9e159",
+    "fingerprint": "c6cfd7849abfd0b3",
     "inputs": {
-     "registry:name": "50abbb758c890b77",
+     "curated:what": "ab0d6d70787ebddf",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: Agenda: מתחיל לאט, קצב ההתקדמות עולה, הרבע האחרון מתחיל נמוך (20,50,90,100). | טסט: Agenda: מתחיל מהר, קצב ההתקדמות יורד, הרבע האחרון מתחיל 50% מעל הקונטרול (40,65,85,100). סוג מנגנון: other",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
-      "tag": "explicit_in_source",
+      "text_he": "קונטרול: Agenda: מתחיל לאט, קצב ההתקדמות עולה, הרבע האחרון מתחיל נמוך (20,50,90,100). | טסט: Agenda: מתחיל מהר, קצב ההתקדמות יורד, הרבע האחרון מתחיל 50% מעל הקונטרול (40,65,85,100).",
+      "tag": "interpretation",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
+       "mp_dashboard:11329098#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11329098#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "5ab1456b33996f4e",
+    "fingerprint": "ef2025b3cb0d834c",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "50abbb758c890b77",
+     "curated:control": "2e126cc9f0d7f798",
+     "curated:test": "6c603531058e8537",
+     "curated:mech": "d448c0e0f65da794",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-03",
+    "text_he": "קהל: maturity K40D60; פוקוס Pet; הצעה ב-CZ 1.6; מלאי התחלתי 2377; משך בפועל 30 דקות, בלי טיימר גלוי | התחלה: 2026-07-03 שלב/שינוי בהרצה: Live: ‏4/7/2026 00:00–20:30, קמפיין 91076 (דשבורד 'limited stock launch (03/07)', התאמה אפשרית).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-03",
+      "text_he": "קהל: maturity K40D60; פוקוס Pet; הצעה ב-CZ 1.6; מלאי התחלתי 2377; משך בפועל 30 דקות, בלי טיימר גלוי | התחלה: 2026-07-03",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11329098#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: Live: ‏4/7/2026 00:00–20:30, קמפיין 91076 (דשבורד 'limited stock launch (03/07)', התאמה אפשרית).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
+       "mp_dashboard:11329098#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "8b8e7a12787fba69",
+    "fingerprint": "2d102c57bf947ff3",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "3552915e1a8c1146",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "e9684815d0f3a1b3",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "b2ec848b7b13305a",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
+       "mp_dashboard:11329098#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Status 'Running' but end date 2026-07-04 has passed חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם 'limited stock launch (03/07)' הוא הטסט הזה? מה ההשערה העסקית? סתירה: לפי הדשבורד זה היה קמפיין של יום אחד (4/7/2026), אבל ב-Monday הטסט עדיין live. סתירה (מהמקור): Status 'Running' but end date 2026-07-04 has passed",
     "statements": [
+     {
+      "text_he": "האם 'limited stock launch (03/07)' הוא הטסט הזה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11329098#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11329098#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: לפי הדשבורד זה היה קמפיין של יום אחד (4/7/2026), אבל ב-Monday הטסט עדיין live.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11329098#text_card[0]",
+       "monday_name"
+      ]
+     },
      {
       "text_he": "סתירה (מהמקור): Status 'Running' but end date 2026-07-04 has passed",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
       ]
-     },
-     {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
-      ]
      }
     ],
-    "fingerprint": "8053aea6e3f0a159",
+    "fingerprint": "aae6e292ac877e45",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "2ed0cdb460a7683e",
+     "curated:conflicts": "2b6b4089513ddd41",
      "registry:conflicts": "a7465d13be70ddcf",
      "expl:limitations": "e824a733dfa3ceb4",
      "registry:change": "74234e98afe7498f",
@@ -204,25 +241,35 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "other",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "Agenda: מתחיל לאט, קצב ההתקדמות עולה, הרבע האחרון מתחיל נמוך (20,50,90,100).",
+  "test_state": "Agenda: מתחיל מהר, קצב ההתקדמות יורד, הרבע האחרון מתחיל 50% מעל הקונטרול (40,65,85,100).",
+  "audience": "maturity K40D60; פוקוס Pet; הצעה ב-CZ 1.6; מלאי התחלתי 2377; משך בפועל 30 דקות, בלי טיימר גלוי",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "Live: ‏4/7/2026 00:00–20:30, קמפיין 91076 (דשבורד 'limited stock launch (03/07)', התאמה אפשרית)."
+  ],
   "conflicts": [
+   "לפי הדשבורד זה היה קמפיין של יום אחד (4/7/2026), אבל ב-Monday הטסט עדיין live.",
    "Status 'Running' but end date 2026-07-04 has passed"
   ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/9494658232/pulses/12406508067"
+    "ref": "mp_dashboard:11329098#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11329098",
+    "title": "limited stock launch (03/07)",
+    "match_check": "POSSIBLE-strong: same game; limited stock launch, stock progression agendas Control vs Test; title date 03/07 = Monday start; found by name search"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/12406508067",
+    "value": "1109 - limited stock launch, stock progression test"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DICE-1109-limited-stock-launch-stock-progression",
@@ -306,7 +353,10 @@
   "item_updated_at": "2026-09-10T07:33:51Z",
   "updates": []
  },
- "glossary_concepts": [],
- "content_fingerprint": "f7d28f025351072b775cbfcac8b76616fcb8d0838bccf4f77a750a3685339de6",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "glossary_concepts": [
+  "CZ",
+  "K (Kingdom)"
+ ],
+ "content_fingerprint": "7a02ddc8c5ab5e876aee51820d14fe3e3a62e5166f4bad10ec838dd57983afb7",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

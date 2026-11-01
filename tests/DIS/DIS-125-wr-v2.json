@@ -3,7 +3,7 @@
  "game": "Disney Solitaire",
  "game_code": "DIS",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DIS-125-wr-v2",
   "legacy_keys": [
@@ -90,98 +90,127 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - WR V2 *». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים הורדה של WR (גרסה 2) בשתי עוצמות.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - WR V2 *». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים הורדה של WR (גרסה 2) בשתי עוצמות.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
+       "mp_dashboard:11526317#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "45be421adcbabe2c",
+    "fingerprint": "376edeac2a07b552",
     "inputs": {
-     "registry:name": "9cbae130cddf91aa",
+     "curated:what": "78b3601347a272a3",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: ללא שינוי. | טסט: T1 Mild: הורדה מתונה ב-WR ‏(-3%) מהניסיון ה-5, עם הקלות, ו-+5% מאמץ בטיר האחרון של Momentum. T2 Aggressive: הורדה גבוהה יותר ב-WR ‏(-6%) מהניסיון ה-5. סוג מנגנון: difficulty",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "text_he": "קונטרול: ללא שינוי. | טסט: T1 Mild: הורדה מתונה ב-WR ‏(-3%) מהניסיון ה-5, עם הקלות, ו-+5% מאמץ בטיר האחרון של Momentum. T2 Aggressive: הורדה גבוהה יותר ב-WR ‏(-6%) מהניסיון ה-5.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
+       "mp_dashboard:11526317#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: difficulty",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11526317#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "0dc90ba2da8a1da9",
+    "fingerprint": "5edac7640901d9bc",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "9cbae130cddf91aa",
+     "curated:control": "0e562f5caa9ae9ad",
+     "curated:test": "ad0e1aa8cc34baaf",
+     "curated:mech": "b700836d1c6194e6",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-15",
+    "text_he": "קהל: Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות | התחלה: 2026-09-15 שלב/שינוי בהרצה: T2 Aggressive בוטל ב-28/09/2026; הדשבורד מסנן עכשיו T1 Mild מול Control.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-15",
+      "text_he": "קהל: Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות | התחלה: 2026-09-15",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11526317#text_card[0]",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: T2 Aggressive בוטל ב-28/09/2026; הדשבורד מסנן עכשיו T1 Mild מול Control.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
+       "mp_dashboard:11526317#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "0ee805cdcb43fc10",
+    "fingerprint": "b6cd74bf97efaf48",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "918ad75fe37202c6",
      "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "608ba3e3d2555c35",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "1cbd15b362bfe9cf",
      "generator": "he6-v2"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
+       "mp_dashboard:11526317#text_card[0]",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "427605687c83fec7",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם -3%/-6% הם שינוי יחסי (%) או נקודות אחוז (pp)? מה ההשערה העסקית?",
     "statements": [
      {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "text_he": "האם -3%/-6% הם שינוי יחסי (%) או נקודות אחוז (pp)?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
+       "mp_dashboard:11526317#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11526317#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "85a9eb73dada9fbd",
+    "fingerprint": "bd5c28da8f16c171",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "3f0ca3f5ed5ad3b7",
+     "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "25747ff23bb25fde",
      "expl:limitations": "59410672f1405b55",
      "registry:change": "74234e98afe7498f",
@@ -194,23 +223,32 @@
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "difficulty",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "ללא שינוי.",
+  "test_state": "T1 Mild: הורדה מתונה ב-WR ‏(-3%) מהניסיון ה-5, עם הקלות, ו-+5% מאמץ בטיר האחרון של Momentum. T2 Aggressive: הורדה גבוהה יותר ב-WR ‏(-6%) מהניסיון ה-5.",
+  "audience": "Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "T2 Aggressive בוטל ב-28/09/2026; הדשבורד מסנן עכשיו T1 Mild מול Control."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
+    "ref": "mp_dashboard:11526317#text_card[0]",
+    "url": "https://mixpanel.com/project/3205636/app/boards#id=11526317",
+    "title": "T125 - WR V2",
+    "match_check": "same game, T125 + WR V2 (name equal)"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935469",
+    "value": "125 - WR V2 *"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DIS-125-wr-v2",
@@ -297,6 +335,6 @@
  "glossary_concepts": [
   "WR"
  ],
- "content_fingerprint": "be4f18c84f218dd33484ad06d45661c5b4b74cbf0ba22038aa87c4febd3ded92",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "3752863e0c11659353227cf3c1bb0e005510bc27e75d53136d783d6b58b9fe8e",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

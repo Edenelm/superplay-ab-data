@@ -3,7 +3,7 @@
  "game": "Domino Dreams",
  "game_code": "DOM",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DOM-1611-low-balance-challenge-pb-10",
   "legacy_keys": [
@@ -120,56 +120,71 @@
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה זה PB ב-Domino ומה מקבל הקונטרול? סוג מנגנון: eligibility",
+    "text_he": "קונטרול: לא נכתב במקור | טסט: שחקנים עם באלנס נמוך מקבלים בוסטר 'free for 10 minutes' מהפרוגרס בר (WhatsApp ‏20/10/26). סוג מנגנון: reward",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה זה PB ב-Domino ומה מקבל הקונטרול?",
+      "text_he": "קונטרול: לא נכתב במקור | טסט: שחקנים עם באלנס נמוך מקבלים בוסטר 'free for 10 minutes' מהפרוגרס בר (WhatsApp ‏20/10/26).",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name",
-       "wa:wa294"
+       "mp_dashboard:11595722#text_card[0]",
+       "wa:wa339",
+       "wa:wa294",
+       "monday_name"
       ]
      },
      {
-      "text_he": "סוג מנגנון: eligibility",
+      "text_he": "סוג מנגנון: reward",
       "tag": "interpretation",
       "source_refs": [
-       "monday_name"
+       "mp_dashboard:11595722#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "812aa75d9a2a6eee",
+    "fingerprint": "21f00d5e981e962f",
     "inputs": {
      "curated:control": "74234e98afe7498f",
-     "curated:test": "74234e98afe7498f",
-     "curated:mech": "519f010c1a5bfa19",
+     "curated:test": "db169d987f59ac60",
+     "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2",
+     "wa:wa339": "0d18a9a179d9a4ae",
      "wa:wa294": "1ffd87481a9cf43a"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: שחקנים ב-low balance (לפי שם הפריט) | טריגר: low balance | התחלה: 2026-10-19",
+    "text_he": "קהל: שחקנים עם באלנס נמוך ב-coin allowance (דשבורד) | טריגר: low balance | התחלה: 2026-10-19 שלב/שינוי בהרצה: התחלה 20.10 (דשבורד); ב-Monday ‏2026-10-19.",
     "statements": [
      {
-      "text_he": "קהל: שחקנים ב-low balance (לפי שם הפריט) | טריגר: low balance | התחלה: 2026-10-19",
-      "tag": "interpretation",
+      "text_he": "קהל: שחקנים עם באלנס נמוך ב-coin allowance (דשבורד) | טריגר: low balance | התחלה: 2026-10-19",
+      "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name",
+       "mp_dashboard:11595722#text_card[0]",
+       "wa:wa339",
        "wa:wa294"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחלה 20.10 (דשבורד); ב-Monday ‏2026-10-19.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11595722#text_card[0]",
+       "wa:wa339",
+       "wa:wa294",
+       "monday_name"
       ]
      }
     ],
-    "fingerprint": "6512d273d57e27a9",
+    "fingerprint": "ef67639430072d9c",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "61341b09a3c76a1d",
      "registry:phases": "4f53cda18c2baa0c",
-     "curated:audience": "886d7eff749972bd",
+     "curated:audience": "e99a9fe4284b32a9",
      "curated:trigger": "33a740ed300c508e",
-     "curated:phases": "4f53cda18c2baa0c",
+     "curated:phases": "65c83e142697e97a",
      "generator": "he6-v2",
+     "wa:wa339": "0d18a9a179d9a4ae",
      "wa:wa294": "1ffd87481a9cf43a"
     }
    },
@@ -181,41 +196,42 @@
       "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name",
-       "wa:wa294"
+       "mp_dashboard:11595722#text_card[0]",
+       "wa:wa339"
       ]
      }
     ],
-    "fingerprint": "bf371f86d3621db2",
+    "fingerprint": "eabb01863daac302",
     "inputs": {
      "curated:why": "74234e98afe7498f",
      "curated:target": "74234e98afe7498f",
      "generator": "he6-v2",
+     "wa:wa339": "0d18a9a179d9a4ae",
      "wa:wa294": "1ffd87481a9cf43a"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה זה PB ב-Domino ומה מקבל הקונטרול? מה סף ה-low balance?",
+    "text_he": "מה מקבל הקונטרול? מה סף ה-low balance, ומה זה PB ב-Domino?",
     "statements": [
      {
-      "text_he": "מה זה PB ב-Domino ומה מקבל הקונטרול?",
+      "text_he": "מה מקבל הקונטרול?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name"
+       "mp_dashboard:11595722#text_card[0]"
       ]
      },
      {
-      "text_he": "מה סף ה-low balance?",
+      "text_he": "מה סף ה-low balance, ומה זה PB ב-Domino?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "monday_name"
+       "mp_dashboard:11595722#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "4edb8b839c878789",
+    "fingerprint": "cfec7b1bcb9e95bf",
     "inputs": {
-     "curated:questions": "63408f1bcd27848f",
+     "curated:questions": "e5edf378e5475877",
      "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "c70c73cd1522ae01",
      "expl:limitations": "88b6ac1ced8b9c31",
@@ -224,33 +240,48 @@
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
+     "wa:wa339": "0d18a9a179d9a4ae",
      "wa:wa294": "1ffd87481a9cf43a"
     }
    }
   }
  },
  "understanding": {
-  "mechanism_type": "eligibility",
+  "mechanism_type": "reward",
   "mechanism_type_tag": "interpretation",
   "control_state": null,
-  "test_state": null,
-  "audience": "שחקנים ב-low balance (לפי שם הפריט)",
+  "test_state": "שחקנים עם באלנס נמוך מקבלים בוסטר 'free for 10 minutes' מהפרוגרס בר (WhatsApp ‏20/10/26).",
+  "audience": "שחקנים עם באלנס נמוך ב-coin allowance (דשבורד)",
   "trigger": "low balance",
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "התחלה 20.10 (דשבורד); ב-Monday ‏2026-10-19."
+  ],
   "conflicts": [],
   "source_refs": [
    {
-    "ref": "monday_name",
-    "url": "https://superplay.monday.com/boards/18416650776/pulses/13299839561",
-    "value": "1611 - Low balance challenge PB - 10 min free entry"
+    "ref": "mp_dashboard:11595722#text_card[0]",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=11595722",
+    "title": "1611 - Low balance challenge PB - 10 min free entry",
+    "match_check": "MATCH: same game, same name 1611"
+   },
+   {
+    "ref": "wa:wa339",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-10-20"
    },
    {
     "ref": "wa:wa294",
     "url": null,
     "file": "2026-10-26.md",
     "date": "2026-10-20"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13299839561",
+    "value": "1611 - Low balance challenge PB - 10 min free entry"
    }
   ],
   "curated": true
@@ -378,6 +409,16 @@
    "text": "—",
    "file": "2026-10-26.md",
    "match": "name · 83% name tokens"
+  },
+  {
+   "id": "wa339",
+   "date": "2026-10-20",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "שחקנים עם באלנס נמוך מקבלים בוסטר של free for 10 minutes מהפרוגרסבר (+ second test: quest layer moved from level 32 to 200 for new players)",
+   "file": "whatsapp_mechanism_2026-11-01.md",
+   "match": "name"
   }
  ],
  "monday_updates_fetched": {
@@ -389,6 +430,6 @@
   "PB",
   "Low balance"
  ],
- "content_fingerprint": "37f33eeda0507c1b1a2d30586e69db04d8aa33e47941456c4506f5e3440861d2",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "2c4f2d34a852e86c8382dbca803830f77c6c1fa57998de692c0f9efdd68b98e5",
+ "last_changed_at": "2026-11-01T13:31:19+02:00"
 }

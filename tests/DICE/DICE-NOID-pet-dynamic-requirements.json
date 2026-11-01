@@ -3,7 +3,7 @@
  "game": "Dice Dreams",
  "game_code": "DICE",
  "tier": "live",
- "coverage": "unclear",
+ "coverage": "partial",
  "registry": {
   "test_id": "DICE-NOID-pet-dynamic-requirements",
   "legacy_keys": [
@@ -91,136 +91,213 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «Pet dynamic requirements». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "בודקים דרישות דינמיות ב-Pet: דרישת העוגיות (cookies) לשלב משתנה כל יום לפי מתי השחקן הגיע לשלב.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «Pet dynamic requirements». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "בודקים דרישות דינמיות ב-Pet: דרישת העוגיות (cookies) לשלב משתנה כל יום לפי מתי השחקן הגיע לשלב.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333",
+       "wa:wa334"
       ]
      }
     ],
-    "fingerprint": "3e5e3915a614a3db",
+    "fingerprint": "a047c1d7187a2977",
     "inputs": {
-     "registry:name": "1600a85bef4c4ea1",
+     "curated:what": "da2a56f39b18d019",
      "generator": "he6-v2"
     }
    },
    "what_changes": {
     "label_he": "מה משתנה",
-    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "text_he": "קונטרול: כרגיל: שינויים דרסטיים בדרישה כל יומיים. | טסט: שינוי כל יום, אבל קל יותר. לפי WhatsApp ‏(05/08/26): 'שלב 4 היום – טסט 35% בלבד (במקום 200% בקונטרול)'. סוג מנגנון: difficulty",
     "statements": [
      {
-      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
-      "tag": "explicit_in_source",
+      "text_he": "קונטרול: כרגיל: שינויים דרסטיים בדרישה כל יומיים. | טסט: שינוי כל יום, אבל קל יותר. לפי WhatsApp ‏(05/08/26): 'שלב 4 היום – טסט 35% בלבד (במקום 200% בקונטרול)'.",
+      "tag": "interpretation",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333",
+       "wa:wa334"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: difficulty",
+      "tag": "interpretation",
+      "source_refs": [
+       "mp_dashboard:11338495#text_card[0]"
       ]
      }
     ],
-    "fingerprint": "2012c9b4dbdd58cb",
+    "fingerprint": "768a81c15fac2e1b",
     "inputs": {
-     "registry:change": "74234e98afe7498f",
-     "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "1600a85bef4c4ea1",
-     "generator": "he6-v2"
+     "curated:control": "f0e6843b5e5f4c43",
+     "curated:test": "222ff57f438d6b0c",
+     "curated:mech": "b700836d1c6194e6",
+     "generator": "he6-v2",
+     "wa:wa333": "ba7827cae6ee7d3c",
+     "wa:wa334": "32e66c03379e5b18"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+    "text_he": "קהל: Kingdom ≥ 15 (פילטר בדשבורד) | התחלה: לא ידוע שלב/שינוי בהרצה: דשבורד (התאמה אפשרית, 'New PET daily req adjustment'): התחלה 03/08/2026, ‏'Ended 12/10'. שלב/שינוי בהרצה: WhatsApp ‏13/10/26 (בטסט 'New PET daily req adjustment', התאמה אפשרית, לא שויך): 'השיג את החוויה אך במחיר פט קל יותר משמעותית. המסיים הממוצע אסף 14% פחות קוקיז' (ההודעה נקטעה; לא אומת מול לשונית תוצאות).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+      "text_he": "קהל: Kingdom ≥ 15 (פילטר בדשבורד) | התחלה: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333",
+       "wa:wa334"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: דשבורד (התאמה אפשרית, 'New PET daily req adjustment'): התחלה 03/08/2026, ‏'Ended 12/10'.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333",
+       "wa:wa334"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: WhatsApp ‏13/10/26 (בטסט 'New PET daily req adjustment', התאמה אפשרית, לא שויך): 'השיג את החוויה אך במחיר פט קל יותר משמעותית. המסיים הממוצע אסף 14% פחות קוקיז' (ההודעה נקטעה; לא אומת מול לשונית תוצאות).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333",
+       "wa:wa334"
       ]
      }
     ],
-    "fingerprint": "f02d0570f8ec98fc",
+    "fingerprint": "7bc5485c2fa32762",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "74234e98afe7498f",
      "registry:phases": "4f53cda18c2baa0c",
-     "generator": "he6-v2"
+     "curated:audience": "a2f0a265fb439958",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "bfbb7178bd0e1474",
+     "generator": "he6-v2",
+     "wa:wa333": "ba7827cae6ee7d3c",
+     "wa:wa334": "32e66c03379e5b18"
     }
    },
    "why": {
     "label_he": "למה",
-    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
     "statements": [
      {
-      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333"
       ]
      }
     ],
-    "fingerprint": "2f12e35cc420874f",
+    "fingerprint": "ca2786aca3a2a132",
     "inputs": {
-     "registry:hypothesis": "74234e98afe7498f",
-     "registry:business_question": "74234e98afe7498f",
-     "generator": "he6-v2"
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa333": "ba7827cae6ee7d3c",
+     "wa:wa334": "32e66c03379e5b18"
     }
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Status 'Running' but no start date on the board חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "האם 'New PET daily req adjustment' (קוהורט '1110 - dynamic req') הוא הטסט הזה? מה ההשערה העסקית? סתירה: הדשבורד כותב 'Ended 12/10', אבל ב-Monday הטסט עדיין live. סתירה (מהמקור): Status 'Running' but no start date on the board",
     "statements": [
+     {
+      "text_he": "האם 'New PET daily req adjustment' (קוהורט '1110 - dynamic req') הוא הטסט הזה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11338495#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה העסקית?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11338495#text_card[0]"
+      ]
+     },
+     {
+      "text_he": "סתירה: הדשבורד כותב 'Ended 12/10', אבל ב-Monday הטסט עדיין live.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "mp_dashboard:11338495#text_card[0]",
+       "wa:wa333",
+       "wa:wa334"
+      ]
+     },
      {
       "text_he": "סתירה (מהמקור): Status 'Running' but no start date on the board",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
       ]
-     },
-     {
-      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
-      ]
      }
     ],
-    "fingerprint": "671d019b02c86311",
+    "fingerprint": "002da6a845d4e03b",
     "inputs": {
-     "curated:questions": "74234e98afe7498f",
-     "curated:conflicts": "74234e98afe7498f",
+     "curated:questions": "44f0b61883c01618",
+     "curated:conflicts": "83273897bfc67bc1",
      "registry:conflicts": "7dd802d211653841",
      "expl:limitations": "05ff7658e36d2d2e",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
-     "generator": "he6-v2"
+     "generator": "he6-v2",
+     "wa:wa333": "ba7827cae6ee7d3c",
+     "wa:wa334": "32e66c03379e5b18"
     }
    }
   }
  },
  "understanding": {
-  "mechanism_type": "unclear",
+  "mechanism_type": "difficulty",
   "mechanism_type_tag": "interpretation",
-  "control_state": null,
-  "test_state": null,
-  "audience": null,
+  "control_state": "כרגיל: שינויים דרסטיים בדרישה כל יומיים.",
+  "test_state": "שינוי כל יום, אבל קל יותר. לפי WhatsApp ‏(05/08/26): 'שלב 4 היום – טסט 35% בלבד (במקום 200% בקונטרול)'.",
+  "audience": "Kingdom ≥ 15 (פילטר בדשבורד)",
   "trigger": null,
   "target_behaviour": null,
   "why": null,
-  "phases": [],
+  "phases": [
+   "דשבורד (התאמה אפשרית, 'New PET daily req adjustment'): התחלה 03/08/2026, ‏'Ended 12/10'.",
+   "WhatsApp ‏13/10/26 (בטסט 'New PET daily req adjustment', התאמה אפשרית, לא שויך): 'השיג את החוויה אך במחיר פט קל יותר משמעותית. המסיים הממוצע אסף 14% פחות קוקיז' (ההודעה נקטעה; לא אומת מול לשונית תוצאות)."
+  ],
   "conflicts": [
+   "הדשבורד כותב 'Ended 12/10', אבל ב-Monday הטסט עדיין live.",
    "Status 'Running' but no start date on the board"
   ],
   "source_refs": [
    {
-    "ref": "monday_item",
-    "url": "https://superplay.monday.com/boards/9494658232/pulses/12575811713"
+    "ref": "mp_dashboard:11338495#text_card[0]",
+    "url": "https://mixpanel.com/project/2036368/app/boards#id=11338495",
+    "title": "1110 - New PET daily req adjustment",
+    "match_check": "POSSIBLE-strong: same game; cohort '1110 - dynamic req' / property '1110 - dynamic req pet'; found by name search"
+   },
+   {
+    "ref": "wa:wa333",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-08-05"
+   },
+   {
+    "ref": "wa:wa334",
+    "url": null,
+    "file": "whatsapp_mechanism_2026-11-01.md",
+    "date": "2026-10-13"
    }
   ],
-  "curated": false
+  "curated": true
  },
  "explanation_legacy_8q": {
   "test_id": "DICE-NOID-pet-dynamic-requirements",
@@ -314,6 +391,6 @@
   ]
  },
  "glossary_concepts": [],
- "content_fingerprint": "9934e023b0e79c3330fa61aa021c93566734fc15b19d0d298674ec820ce5dc5f",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "aacbe820a61e790f9e498c7b177d0ebabccd94cd55300c3cfb3a08d317d15bd9",
+ "last_changed_at": "2026-11-01T13:31:33+02:00"
 }
