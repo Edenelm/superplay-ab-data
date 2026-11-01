@@ -331,7 +331,7 @@
      "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
      "date": "2026-09-03",
      "time": "16:26",
-     "sender": "+972 54-696-8953",
+     "sender": "שולח לא מזוהה",
      "item_id": "wa165"
     },
     {
@@ -387,6 +387,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "e6f3f8f70f06c4a5ab2f7a82f85146e7eac4fdf43d68899d44717af8a6ed9c67",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "c67b6d780f7a49bcb9d8413e723c0035b45d30e5149844ac9e83e1b758276443",
+ "last_changed_at": "2026-11-01T13:36:01+02:00"
 }

@@ -173,6 +173,21 @@ for dp, _, fs in os.walk(ROOT):
         if f.endswith(('.json', '.md', '.py', '.js', '.sh', '.txt')) and f != 'validate.py':
             t = open(os.path.join(dp, f), encoding='utf-8', errors='ignore').read()
             if SECRET.search(t): err('_files', f'secret-like string in {os.path.relpath(os.path.join(dp, f), ROOT)}')
+# ---- phone-number scan (publish blocker): no Israeli/international phone number may appear in any published file ----
+PHONE = re.compile(r'(?<![\w+])\+\d{1,3}[\s\-.]?\(?\d{1,4}\)?(?:[\s\-.]?\d{2,4}){2,4}(?![\w])'
+                   r'|(?<![\w.+])(?:972[\s\-]?|0)(?:5\d|7\d|[2-489])[\s\-]?\d{3}[\s\-]?\d{4}(?![\w])')
+SKIP_DIRS = {'.git', 'tools', 'repo_staging', 'node_modules', '__pycache__'}  # tools/ and repo_staging/ are local-only (never published)
+_ph = 0
+for dp, ds, fs in os.walk(ROOT):
+    ds[:] = [d for d in ds if d not in SKIP_DIRS]
+    rel = os.path.relpath(dp, ROOT)
+    for f in fs:
+        if rel == 'state' and f != 'processing_state.json': continue  # only state/processing_state.json is published
+        q = os.path.join(dp, f)
+        if f.endswith(('.zip', '.png', '.jpg', '.pdf')): continue
+        t = open(q, encoding='utf-8', errors='ignore').read()
+        hits = [m.group(0) for m in PHONE.finditer(t) if 9 <= len(re.sub(r'\D', '', m.group(0))) <= 15]
+        if hits: _ph += len(hits); err('_files', f'phone-number pattern in {os.path.relpath(q, ROOT)} ({len(hits)} hit(s); masked: ' + ', '.join('…' + re.sub(r'\D', '', h)[-2:] for h in hits[:3]) + ')')
 report = {'root': ROOT, 'checked_at': NOW.isoformat(timespec='seconds'), 'errors': errors, 'warnings': warnings,
           'datasets': {k: v.get('_computed') for k, v in man['datasets'].items()}, 'counts': man.get('counts'),
           'dataset_errors': DS_ERR, 'datasets_passed': [k for k in man['datasets'] if k not in DS_ERR],

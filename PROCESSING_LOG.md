@@ -1,14 +1,14 @@
 # Processing log
 
-Run 2026-11-01T13:31:33+02:00 (run_id 20261101T133133). Baseline state: 2026-11-01T13:31:19+02:00.
+Run 2026-11-01T13:36:01+02:00 (run_id 20261101T133601). Baseline state: 2026-11-01T13:31:33+02:00.
 
 ## Checked against (source versions)
 
-- `game_metrics`: {"sha256": "461d01c518005d28ef5ad41130a7cd8d5bf52305a71a3be38679dc63ec29f8b1", "source_snapshot": "2026-11-01T11:45:00+02:00"}
-- `test_registry`: {"sha256": "99aa6f51cb3befa822b1a421626c075d770269fd4c1b2440690e3b1ebda7ee61", "source_snapshot": "2026-11-01"}
-- `test_results`: {"sha256": "37d1e02f97536c733d3b3335228edb3967f697cbbc22199273503b79070709bf", "source_snapshot": "2026-10-18..2026-11-01"}
-- `explanations_learnings_decisions`: {"sha256": "ad3ebed339afc52ea561e1d6ee0dea5335b4d12b30332e173adfe857eb5f3844", "source_snapshot": "2026-11-01"}
-- `whatsapp_items`: {"sha256": "e4ed4733fd39e0f3948e688989b8ff54367c4204d4f78db9e56d8a4d1282a36b", "source_snapshot": "2026-11-01"}
+- `game_metrics`: {"sha256": "c194e088eeed917ccfd7facb63cb324dfa1a45a9d2d49da44297408aa199e0d3", "source_snapshot": "2026-11-01T11:45:00+02:00"}
+- `test_registry`: {"sha256": "59a7344f56092f7cbc7e471897d048ceff7ec4bc69d129c5a6fc833cf4e5eca8", "source_snapshot": "2026-11-01"}
+- `test_results`: {"sha256": "0213b19c1b35e3c7e8a3ba77e268070cb1785b24316d50ba32f23763a277848d", "source_snapshot": "2026-10-18..2026-11-01"}
+- `explanations_learnings_decisions`: {"sha256": "b1ed9d062dbeee9388597d5d2a3326e5f02de6c21b4660b977824ad0d5cf5ff8", "source_snapshot": "2026-11-01"}
+- `whatsapp_items`: {"sha256": "7cd031210a705c2697193e10712f59778e67fdbbd71e9ce1496c9bebe444269c", "source_snapshot": "2026-11-01"}
 - `metric_definitions`: {"sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393", "source_snapshot": "2026-11-01T12:05:00+02:00"}
 - `curated_live_understanding`: {"sha256": "ee384cab005fa900458e9a0704482e6ea50127390dc79e1ac8b4769becc5f99f"}
 - `curated_extra_conflicts`: {"sha256": "5997998b247a1104f4ac35df2df7f0d980f7b1dc0f57e858a52acc2353769b8e", "file": "tools/curated/extra_conflicts.json"}
@@ -30,7 +30,7 @@ Run 2026-11-01T13:31:33+02:00 (run_id 20261101T133133). Baseline state: 2026-11-
 
 ## Regeneration
 
-- sections regenerated: 1, reused: 3349
+- sections regenerated: 0, reused: 3350
 
 ## Still missing
 

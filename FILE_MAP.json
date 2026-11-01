@@ -12,14 +12,14 @@
   {
    "path": "manifest.json",
    "kind": "file",
-   "bytes": 11584,
+   "bytes": 10430,
    "contains": "run metadata, per-dataset status/sha256/stale, layer pointers, change_summary",
    "read_when": "always first; compare sha256 / aggregate_fingerprint with what you cached"
   },
   {
    "path": "FILE_MAP.json",
    "kind": "file",
-   "bytes": 10316,
+   "bytes": 10620,
    "contains": "this map (machine-readable)",
    "read_when": "second, to find files"
   },
@@ -29,20 +29,20 @@
    "bytes": 624375,
    "contains": "one entry per test: game, name, tier, status, dates, Hebrew summary, mechanism, coverage, glossary concepts, tags he/en, flags, detail_file, fingerprint",
    "read_when": "third: filter here, then open only the detail files you need",
-   "sha256": "2cea1f8b1b1834f3034f01f9db7504839e4b01e572d7a8cb26f6d7f2e80335da"
+   "sha256": "f047b1c35e36b31a0117e1a24bb822834bb7b897d1fa626f265d1a673ac9e941"
   },
   {
    "path": "CHANGES.md",
    "kind": "file",
-   "bytes": 4065,
+   "bytes": 5239,
    "contains": "what changed per run (tests added/updated, sections regenerated, needs attention)",
    "read_when": "when deciding what to re-read",
-   "sha256": "397e67bf3fe30ab8172a086e2bd5b82054b5f845c3b6a3fbfd69be872fa89cc4"
+   "sha256": "8cca411af1c785bd92bbf8d3ee6ddd87657e7065e512030515953fd8a50c580e"
   },
   {
    "path": "FILE_MAP.md",
    "kind": "file",
-   "bytes": 5550,
+   "bytes": 5702,
    "contains": "this map (human-readable)",
    "read_when": "optional"
   },
@@ -52,7 +52,7 @@
    "bytes": 3143,
    "contains": "what was checked against which source version; what is still missing; accesses not retried",
    "read_when": "when a field is missing / unclear",
-   "sha256": "73956c14f0d3dcbd2ead5e12b767e438270da6784ff334ca7543cfcf99b03b7e"
+   "sha256": "453c14c7ddddacd78cd133547dd60a97684035f928c6bd2ecd2e868001ba2d7c"
   },
   {
    "path": "README.md",
@@ -76,7 +76,7 @@
    "bytes": 11037,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
    "read_when": "reference",
-   "sha256": "46a7361a560b4bf3b8197d69dbbb69af18430b2cfe263583156001d2e994c45a"
+   "sha256": "85fc2917f07296130f56a49c5e53df7002ad07c37a9acecc093bc15fa7fe142b"
   },
   {
    "path": "docs/HQ_ACCESS.md",
@@ -106,17 +106,17 @@
    "path": "history/2026-11-01",
    "kind": "dir",
    "files": 9,
-   "bytes": 3407186,
+   "bytes": 3406064,
    "contains": "copies of datasets + manifest published that day",
    "read_when": "audit / diffs over time"
   },
   {
    "path": "latest/explanations_learnings_decisions.json",
    "kind": "file",
-   "bytes": 673831,
+   "bytes": 673847,
    "contains": "legacy 8-question Hebrew explanations, decisions, cross-studio learnings",
    "read_when": "decisions / cross-studio learnings; per-test copies are in tests/",
-   "sha256": "dc24a1f45fb07a05cbca440ab68a4ecf495fadc97151a95c1ed754beea2ed694"
+   "sha256": "b1ed9d062dbeee9388597d5d2a3326e5f02de6c21b4660b977824ad0d5cf5ff8"
   },
   {
    "path": "latest/game_metrics.json",
@@ -161,10 +161,10 @@
   {
    "path": "latest/whatsapp_items.json",
    "kind": "file",
-   "bytes": 212829,
+   "bytes": 212845,
    "contains": "WhatsApp extracts with match info",
    "read_when": "source checks; per-test copies are in tests/",
-   "sha256": "e4ed4733fd39e0f3948e688989b8ff54367c4204d4f78db9e56d8a4d1282a36b"
+   "sha256": "7cd031210a705c2697193e10712f59778e67fdbbd71e9ce1496c9bebe444269c"
   },
   {
    "path": "schemas/explanations_learnings_decisions.schema.json",
@@ -252,13 +252,13 @@
    "bytes": 351021,
    "contains": "per-test fingerprints per section, source versions, not-retried accesses",
    "read_when": "by the producer for incremental runs; consumers rarely need it",
-   "sha256": "1b45249f035d4ec5c99559494c3e8e9e68571f14d332981387b2467a112ef551"
+   "sha256": "0cb7e70088e9cb33e6fbfff8cf5572a18d60c17080d6ad4acf8162d2359d4574"
   },
   {
    "path": "tests/DICE",
    "kind": "dir",
    "files": 291,
-   "bytes": 2582091,
+   "bytes": 2582099,
    "contains": "one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates",
    "read_when": "only for tests selected from the index; skip if fingerprint unchanged"
   },
@@ -281,10 +281,10 @@
   {
    "path": "validate.py",
    "kind": "file",
-   "bytes": 14151,
+   "bytes": 15338,
    "contains": "validator: python3 validate.py . (exit 0 ok, 2 stale/partial, 1 errors)",
    "read_when": "after every pull",
-   "sha256": "4e77c02339b1341d122c66a0d4727b58fe18b67328d3136d9679b3f813cfba47"
+   "sha256": "5612bbe24f0d62acad6418cafe138758d3b02a55d71a6e5819306e2832309dc2"
   }
  ]
 }

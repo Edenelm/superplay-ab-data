@@ -1,9 +1,9 @@
 {
  "contract_version": "1.2.0",
- "run_id": "20261101T133133",
+ "run_id": "20261101T133601",
  "run_type": "manual",
  "scheduled_for": null,
- "generated_at": "2026-11-01T13:31:33+02:00",
+ "generated_at": "2026-11-01T13:36:01+02:00",
  "timezone": "Asia/Jerusalem",
  "producer": "Grok Bot (box /workspace/pilot/provider)",
  "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
@@ -76,8 +76,8 @@
    "file": "latest/game_metrics.json",
    "schema": "schemas/game_metrics.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "2026-11-01T11:45:00+02:00",
    "stale": false,
    "sha256": "dfe4b8b101281b13de113f8294a5dcb1bdee095f5396bb0b36eb3abaca4a5b39",
@@ -91,8 +91,8 @@
    "file": "latest/test_registry.json",
    "schema": "schemas/test_registry.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "2026-11-01",
    "stale": false,
    "sha256": "420ebcad1672a0cb08a68cec09fd01fbbdbe78aad6339936bc54e05299cb67d6",
@@ -106,8 +106,8 @@
    "file": "latest/test_results.json",
    "schema": "schemas/test_results.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "2026-10-18..2026-11-01",
    "stale": false,
    "sha256": "7f2a806bdcc4bac99152fce7734301288ffd1b1bb578454878f67a26dd352bfa",
@@ -121,27 +121,26 @@
    "file": "latest/explanations_learnings_decisions.json",
    "schema": "schemas/explanations_learnings_decisions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "2026-11-01",
    "stale": false,
-   "sha256": "dc24a1f45fb07a05cbca440ab68a4ecf495fadc97151a95c1ed754beea2ed694",
-   "bytes": 673831,
+   "sha256": "b1ed9d062dbeee9388597d5d2a3326e5f02de6c21b4660b977824ad0d5cf5ff8",
+   "bytes": 673847,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-01/explanations_learnings_decisions.json",
-   "content_unchanged_since": "2026-11-01T12:35:23+02:00"
+   "history_file": "history/2026-11-01/explanations_learnings_decisions.json"
   },
   "whatsapp_items": {
    "file": "latest/whatsapp_items.json",
    "schema": "schemas/whatsapp_items.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "2026-11-01",
    "stale": false,
-   "sha256": "e4ed4733fd39e0f3948e688989b8ff54367c4204d4f78db9e56d8a4d1282a36b",
-   "bytes": 212829,
+   "sha256": "7cd031210a705c2697193e10712f59778e67fdbbd71e9ce1496c9bebe444269c",
+   "bytes": 212845,
    "error": null,
    "is_final": null,
    "history_file": "history/2026-11-01/whatsapp_items.json"
@@ -150,8 +149,8 @@
    "file": "latest/metric_definitions.json",
    "schema": "schemas/metric_definitions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "2026-11-01T12:05:00+02:00",
    "stale": false,
    "sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393",
@@ -165,15 +164,16 @@
    "file": "latest/glossary.json",
    "schema": "schemas/glossary.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-01T13:31:33+02:00",
-   "last_attempt_at": "2026-11-01T13:31:33+02:00",
+   "last_success_at": "2026-11-01T13:36:01+02:00",
+   "last_attempt_at": "2026-11-01T13:36:01+02:00",
    "source_snapshot": "local sources as of 2026-11-01",
    "stale": false,
    "sha256": "e446c75348da5e52ce204877f4d95da1f0f9eadb129428e93f68ccae2aff34de",
    "bytes": 93782,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-01/glossary.json"
+   "history_file": "history/2026-11-01/glossary.json",
+   "content_unchanged_since": "2026-11-01T13:31:33+02:00"
   }
  },
  "counts": {
@@ -191,10 +191,10 @@
   "index": {
    "file": "index/tests_index.json",
    "schema": "schemas/tests_index.schema.json",
-   "sha256": "2cea1f8b1b1834f3034f01f9db7504839e4b01e572d7a8cb26f6d7f2e80335da",
+   "sha256": "f047b1c35e36b31a0117e1a24bb822834bb7b897d1fa626f265d1a673ac9e941",
    "bytes": 624375,
    "tests": 662,
-   "aggregate_fingerprint": "93a86a69b2fd0f6ac46509307be70e522d4ebc023b1781ae0bf93392b6e80d0d"
+   "aggregate_fingerprint": "ff464975ed2e7b29300af691bc8896d35c391d4ed6f7183fda1a823ea79d05be"
   },
   "tests_dir": "tests/<GAME>/<test_id>.json",
   "detail_schema": "schemas/test_detail.schema.json",
@@ -204,19 +204,19 @@
   "log": "PROCESSING_LOG.md"
  },
  "change_summary": {
-  "run_at": "2026-11-01T13:31:33+02:00",
-  "baseline": "2026-11-01T13:31:19+02:00",
+  "run_at": "2026-11-01T13:36:01+02:00",
+  "baseline": "2026-11-01T13:31:33+02:00",
   "tests_added": 0,
   "tests_updated": 1,
   "tests_unchanged": 661,
   "tests_removed": 0,
   "updated_detail": {
-   "DICE-NOID-pet-dynamic-requirements": [
-    "who_when"
+   "DICE-1111-trail-extra-segment": [
+    "data"
    ]
   },
-  "sections_regenerated": 1,
-  "sections_reused": 3349,
+  "sections_regenerated": 0,
+  "sections_reused": 3350,
   "needs_attention": [
    "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
    "DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)",
@@ -245,62 +245,30 @@
    }
   },
   "publish": {
-   "run_at": "2026-11-01T13:31:33+02:00",
-   "baseline_published_at": "2026-11-01T12:35:23+02:00",
+   "run_at": "2026-11-01T13:36:01+02:00",
+   "baseline_published_at": "2026-11-01T13:31:33+02:00",
    "datasets_changed": [
-    "whatsapp_items",
-    "glossary"
+    "explanations_learnings_decisions",
+    "whatsapp_items"
    ],
    "datasets_unchanged": [
     "game_metrics",
     "test_registry",
     "test_results",
-    "explanations_learnings_decisions",
-    "metric_definitions"
+    "metric_definitions",
+    "glossary"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
-   "tests_updated": 33,
-   "tests_unchanged": 629,
+   "tests_updated": 1,
+   "tests_unchanged": 661,
    "tests_removed_kept": 0,
    "updated_test_ids": [
-    "DIS-125-make-any-purchase-new-seg",
-    "DIS-124-ays-offer-for-ftd-and",
-    "DICE-1104-cz-fix",
-    "DICE-NOID-free-dream-passs-for-churners",
-    "DICE-1110-puzzle-onboarding-gt-v4",
-    "DOM-1590-genie-new-agenda-v3",
-    "DOM-NOID-choose-your-trail-test",
-    "DOM-1611-low-balance-challenge-pb-10",
-    "DOM-1621-1621-trail-runner-v2",
-    "DIS-125-t125-end-of-puzzle-offer",
-    "DIS-124-trail-again-3rd-try",
-    "DIS-120-rv-8box-with-purchase-v2",
-    "DIS-123-mini-game-treatments",
-    "DIS-124-rv-extend-segment",
-    "DIS-125-v4-increase-by-mode",
-    "DIS-125-push-notification-increase-by-lvl",
-    "DIS-125-zeus-launch",
-    "DIS-125-wr-v2",
-    "DIS-125-8box-segments",
-    "DIS-125-dormant-cz-v3",
-    "DIS-125-potion-bonus",
-    "DIS-125-drc-new-economy-v5-2",
-    "DIS-112-google-integrity",
-    "DIS-122-free-resources-pop-up",
-    "DIS-101-boost-your-puzzle-mistake",
-    "DICE-1109-whammy-for-dt-finishers",
-    "DICE-NOID-pet-dynamic-requirements",
-    "DICE-1109-limited-stock-launch-stock-progression",
-    "DIS-118-dormant-scene-boost",
-    "DIS-043-d01-min-price",
-    "DIS-NOID-live-test",
-    "DIS-NOID-live-test-2",
-    "DICE-NOID-dp-20-tiers"
+    "DICE-1111-trail-extra-segment"
    ],
-   "detail_files_written": 33,
-   "sections_regenerated": 1,
-   "sections_reused": 3349,
+   "detail_files_written": 1,
+   "sections_regenerated": 0,
+   "sections_reused": 3350,
    "needs_attention": [
     "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
     "DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)",
@@ -318,15 +286,15 @@
  "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
  "publish": {
   "published": [
-   "whatsapp_items",
-   "glossary"
+   "explanations_learnings_decisions",
+   "whatsapp_items"
   ],
   "unchanged_kept": [
    "game_metrics",
    "test_registry",
    "test_results",
-   "explanations_learnings_decisions",
-   "metric_definitions"
+   "metric_definitions",
+   "glossary"
   ],
   "failed": [],
   "history_dir": "history/2026-11-01/",

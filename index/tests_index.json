@@ -1,12 +1,12 @@
 {
  "dataset": "tests_index",
  "contract_version": "1.2.0",
- "generated_at": "2026-11-01T13:31:33+02:00",
+ "generated_at": "2026-11-01T13:36:01+02:00",
  "timezone": "Asia/Jerusalem",
  "source_version": {
-  "test_registry_sha256": "99aa6f51cb3befa822b1a421626c075d770269fd4c1b2440690e3b1ebda7ee61",
-  "glossary_sha256": "e446c75348da5e52ce204877f4d95da1f0f9eadb129428e93f68ccae2aff34de",
-  "aggregate_fingerprint": "93a86a69b2fd0f6ac46509307be70e522d4ebc023b1781ae0bf93392b6e80d0d"
+  "test_registry_sha256": "59a7344f56092f7cbc7e471897d048ceff7ec4bc69d129c5a6fc833cf4e5eca8",
+  "glossary_sha256": "7d1bd760021a43ccd0c28cf89bed4ffdb2cad9bf1a8d60fbf560542bcfe68cb1",
+  "aggregate_fingerprint": "ff464975ed2e7b29300af691bc8896d35c391d4ed6f7183fda1a823ea79d05be"
  },
  "how_to_use": "filter entries here, then open only detail_file for the tests you need; skip a test whose fingerprint did not change since your last read",
  "counts": {
@@ -20697,8 +20697,8 @@
     "conflict"
    ],
    "detail_file": "tests/DICE/DICE-1111-trail-extra-segment.json",
-   "fingerprint": "e6f3f8f70f06c4a5",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "c67b6d780f7a49bc",
+   "last_changed_at": "2026-11-01T13:36:01+02:00"
   },
   {
    "test_id": "DICE-NOID-steal-the-deal",
