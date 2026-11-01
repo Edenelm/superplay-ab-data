@@ -1,0 +1,478 @@
+{
+ "test_id": "DOM-NOID-ftd-offer-add-a-20",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DOM-NOID-ftd-offer-add-a-20",
+  "legacy_keys": [
+   "dom_ftd20",
+   "live_13210931762"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13210931762",
+  "board_test_number": "—",
+  "name": "FTD Offer - Add a $20 price point & 2 New STD Offers",
+  "lifecycle": "live_with_results",
+  "board_status_raw": "Status: Live",
+  "outcome_label": "running",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": true,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "n/a",
+  "change": "Update 2026-10-05: test sees $3/$5/$20 from level 10 (stock 2, until 2 buys or level 74), $20 FTD buyers get a $25 STD offer; control sees $3/$5/$7 until level 30 or a purchase",
+  "audience": "n/a",
+  "control_vs_test": "see change",
+  "split": null,
+  "start_date": "2026-10-07",
+  "end_date": "live",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "none",
+   "board_link": "https://mixpanel.com/s/cYfFs",
+   "dashboards": [],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "No results link on the board. Domino Dreams AB Tests Results (29 tabs) has no tab with this ID + name.",
+  "live_status_raw": "Live"
+ },
+ "results": [
+  {
+   "test_id": "DOM-NOID-ftd-offer-add-a-20",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": true,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-10-07",
+    "end": "live",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "supersedes": null,
+   "result_id": "DOM-NOID-ftd-offer-add-a-20::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13210931762",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "303ad7adf420e43d"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים הצעת FTD עם נקודת מחיר של $20 ושתי הצעות STD חדשות.",
+    "statements": [
+     {
+      "text_he": "בודקים הצעת FTD עם נקודת מחיר של $20 ושתי הצעות STD חדשות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5606314044",
+       "wa:wa221"
+      ]
+     }
+    ],
+    "fingerprint": "1adc8d7ffab1a429",
+    "inputs": {
+     "curated:what": "0220ba5b36bbd769",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: שלוש נקודות מחיר $3/$5/$7; ההצעה זמינה עד Level 30 או עד רכישה (המוקדם מביניהם); הצעת STD ב-$20. | טסט: ההצעה נפתחת ב-Level 10; שלוש נקודות מחיר $3/$5/$20; ערך ה-Starter Pack 'מאוזן ופחות נדיב'; stock של 2; נגמרת אחרי 2 רכישות או ב-Level 74; מי שקנה את ה-$20 מקבל STD ב-$25, השאר STD ב-$20. סוג מנגנון: price",
+    "statements": [
+     {
+      "text_he": "קונטרול: שלוש נקודות מחיר $3/$5/$7; ההצעה זמינה עד Level 30 או עד רכישה (המוקדם מביניהם); הצעת STD ב-$20. | טסט: ההצעה נפתחת ב-Level 10; שלוש נקודות מחיר $3/$5/$20; ערך ה-Starter Pack 'מאוזן ופחות נדיב'; stock של 2; נגמרת אחרי 2 רכישות או ב-Level 74; מי שקנה את ה-$20 מקבל STD ב-$25, השאר STD ב-$20.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5606314044",
+       "wa:wa221"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: price",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5606314044"
+      ]
+     }
+    ],
+    "fingerprint": "ffec18614387693e",
+    "inputs": {
+     "curated:control": "f74977851572db1f",
+     "curated:test": "f20e247be5083c27",
+     "curated:mech": "262780e07de7949a",
+     "generator": "he6-v2",
+     "monday_update:5606314044": "79c6567269a6d3dd",
+     "wa:wa221": "8fe2dc7b72fc176f"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: שחקני FTD offer בקבוצת הטסט | טריגר: הגעה ל-Level 10 (בטסט) | התחלה: 2026-10-07",
+    "statements": [
+     {
+      "text_he": "קהל: שחקני FTD offer בקבוצת הטסט | טריגר: הגעה ל-Level 10 (בטסט) | התחלה: 2026-10-07",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5606314044",
+       "wa:wa221"
+      ]
+     }
+    ],
+    "fingerprint": "ac110e764733dd11",
+    "inputs": {
+     "registry:audience": "fc1da59e80561a46",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "76d1562084b80ede",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "ba0996a32053f97f",
+     "curated:trigger": "14b1c22ae6ea5b0c",
+     "curated:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2",
+     "monday_update:5606314044": "79c6567269a6d3dd",
+     "wa:wa221": "8fe2dc7b72fc176f"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו. התנהגות יעד: רכישה ראשונה (FTD) ורכישה שנייה (STD) במחיר גבוה יותר",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5606314044",
+       "wa:wa221"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: רכישה ראשונה (FTD) ורכישה שנייה (STD) במחיר גבוה יותר",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5606314044",
+       "wa:wa221"
+      ]
+     }
+    ],
+    "fingerprint": "58570336ceff54ef",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "b085d84ef90ebf81",
+     "generator": "he6-v2",
+     "monday_update:5606314044": "79c6567269a6d3dd",
+     "wa:wa221": "8fe2dc7b72fc176f"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+      ]
+     }
+    ],
+    "fingerprint": "63d005a5a4958d3d",
+    "inputs": {
+     "results:": "95b64dbe1cb8f08a",
+     "expl:what_happened": "2de1086bc0ca3e01",
+     "expl:business_meaning": "bca396b0bb2833ef",
+     "expl:decided": "2ae8c074ad58afa2",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה ההשערה העסקית ומה ה-KPI הראשי? נקודת המחיר העליונה בטסט היא $20 או $15? סתירה: נקודת המחיר העליונה בטסט: $20 בעדכון Monday (2026-10-05, monday_update:5606314044) מול $15 ב-WhatsApp (2026-10-07, wa:wa221: 'test $3/$5/$15 (stock 2) → STD $20, or $25 after $15').",
+    "statements": [
+     {
+      "text_he": "מה ההשערה העסקית ומה ה-KPI הראשי?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5606314044"
+      ]
+     },
+     {
+      "text_he": "נקודת המחיר העליונה בטסט היא $20 או $15?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5606314044"
+      ]
+     },
+     {
+      "text_he": "סתירה: נקודת המחיר העליונה בטסט: $20 בעדכון Monday (2026-10-05, monday_update:5606314044) מול $15 ב-WhatsApp (2026-10-07, wa:wa221: 'test $3/$5/$15 (stock 2) → STD $20, or $25 after $15').",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5606314044",
+       "wa:wa221"
+      ]
+     }
+    ],
+    "fingerprint": "540cd74237fb74af",
+    "inputs": {
+     "curated:questions": "b3f5e0abb383ec5c",
+     "curated:conflicts": "d2861cabfe6b8787",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "be8618a0dacf54c9",
+     "registry:change": "8014a859761ba931",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:audience": "fc1da59e80561a46",
+     "registry:hypothesis": "fc1da59e80561a46",
+     "generator": "he6-v2",
+     "monday_update:5606314044": "79c6567269a6d3dd",
+     "wa:wa221": "8fe2dc7b72fc176f"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "price",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "שלוש נקודות מחיר $3/$5/$7; ההצעה זמינה עד Level 30 או עד רכישה (המוקדם מביניהם); הצעת STD ב-$20.",
+  "test_state": "ההצעה נפתחת ב-Level 10; שלוש נקודות מחיר $3/$5/$20; ערך ה-Starter Pack 'מאוזן ופחות נדיב'; stock של 2; נגמרת אחרי 2 רכישות או ב-Level 74; מי שקנה את ה-$20 מקבל STD ב-$25, השאר STD ב-$20.",
+  "audience": "שחקני FTD offer בקבוצת הטסט",
+  "trigger": "הגעה ל-Level 10 (בטסט)",
+  "target_behaviour": "רכישה ראשונה (FTD) ורכישה שנייה (STD) במחיר גבוה יותר",
+  "why": null,
+  "phases": [],
+  "conflicts": [
+   "נקודת המחיר העליונה בטסט: $20 בעדכון Monday (2026-10-05, monday_update:5606314044) מול $15 ב-WhatsApp (2026-10-07, wa:wa221: 'test $3/$5/$15 (stock 2) → STD $20, or $25 after $15')."
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_update:5606314044",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13210931762",
+    "source_updated_at": "2026-10-05T19:06:23.000Z"
+   },
+   {
+    "ref": "wa:wa221",
+    "url": null,
+    "file": "history/domino_business_2026-10-05_to_2026-10-12.md",
+    "date": "2026-10-07"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-NOID-ftd-offer-add-a-20",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Update 2026-10-05: test sees $3/$5/$20 from level 10 (stock 2, until 2 buys or level 74), $20 FTD buyers get a $25 STD offer; control sees $3/$5/$7 until level 30 or a purchase",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): n/a · חלוקה: see change",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): No results data on the board.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'רץ' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): insufficient — no metrics",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762",
+     "history/domino_business_2026-10-05_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-NOID-ftd-offer-add-a-20::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13210931762",
+   "test_id": "DOM-NOID-ftd-offer-add-a-20",
+   "game": "Domino Dreams",
+   "name": "FTD Offer - Add a $20 price point & 2 New STD Offers",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Live",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa221"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/domino_business_2026-10-05_to_2026-10-12.md",
+     "date": "2026-10-07",
+     "time": "21:42",
+     "sender": "רתם חשדי",
+     "item_id": "wa221"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13210931762"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa221",
+   "date": "2026-10-07",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "Control FTD 3PO $3/$5/$7 → STD $20 2h; test $3/$5/$15 (stock 2) → STD $20, or $25 after $15; FTD gone at level 74 or 2 purchases; mixpanel.com/s/1aOdcQ",
+   "file": "history/domino_business_2026-10-05_to_2026-10-12.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-12T09:39:22Z",
+  "updates": [
+   {
+    "update_id": "5606314044",
+    "created_at": "2026-10-05T19:06:23.000Z",
+    "updated_at": "2026-10-05T19:06:23.000Z",
+    "creator": "Elin Lisyansky",
+    "text": "Test Group\n\n* The offer becomes available to the player at Level 10.\n* The player sees three price points: $3, $5, and $20.\n* The Starter Pack value will be more balanced and less generous\n* The offer has a stock of 2 and expires either:\n\n* After the player purchases it twice, or\n* When the player reaches Level 74,\nwhichever happens first.\n\n* A player who purchases the $20 FTD offer will receive the STD Offer at $25.\n* Players who purchase any other FTD offer will receive the STD Offer at $20, the same as in the Control Group.\n\nControl Group\n-------------\n\n* The player sees the same three price points: $3, $5, and $7\n\n* The offer remains available until:\n\n* The player reaches Level 30, or\n* The player makes a purchase,\nwhichever happens first.\n\n* The STD Offer remains priced at $20 for these players.",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "FTD",
+  "STD",
+  "Level",
+  "Starter Pack"
+ ],
+ "content_fingerprint": "3bdc9fe3eb95cf388366765e25e59bae34bf19ac2653de0d7895aa2f11070ef7",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

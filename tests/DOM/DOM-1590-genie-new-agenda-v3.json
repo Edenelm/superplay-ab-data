@@ -1,0 +1,371 @@
+{
+ "test_id": "DOM-1590-genie-new-agenda-v3",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DOM-1590-genie-new-agenda-v3",
+  "legacy_keys": [
+   "live_13144419090"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13144419090",
+  "board_test_number": "1590",
+  "name": "1590 - Genie New Agenda V3",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-09-27",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/project/2735821/app/boards#id=11550442",
+   "dashboards": [
+    {
+     "id": 11550442,
+     "title": "1590 - Genie new agenda V3",
+     "modified": "2026-10-29",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11550442"
+    }
+   ],
+   "possible": [
+    {
+     "id": 11532544,
+     "title": "1590 - Genie new agenda V3",
+     "modified": "2026-10-02",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11532544"
+    },
+    {
+     "id": 11545814,
+     "title": "1581 - genie new agenda & pity",
+     "modified": "2026-09-29",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11545814"
+    }
+   ],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13144419090"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=11550442"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13144419090"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים Agenda חדשה (V3) ל-Genie.",
+    "statements": [
+     {
+      "text_he": "בודקים Agenda חדשה (V3) ל-Genie.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004",
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "a42a05bec2369ea9",
+    "inputs": {
+     "curated:what": "2ac25250c24a9670",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה ב-Agenda V3 לעומת הקונטרול? סוג מנגנון: unclear",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה ב-Agenda V3 לעומת הקונטרול?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: unclear",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5582096004"
+      ]
+     }
+    ],
+    "fingerprint": "1eb4b9d213d8b1d0",
+    "inputs": {
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "683144a12969e0fd",
+     "generator": "he6-v2",
+     "monday_update:5582096004": "c251ddf18609793d"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-27 שלב/שינוי בהרצה: split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות).",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-27",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004",
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "fbdf7e1e4e5149ca",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "655201442c2bb1e6",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "e05c9b2819803999",
+     "generator": "he6-v2",
+     "monday_update:5582096004": "c251ddf18609793d"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004",
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "1814476cb60324bf",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5582096004": "c251ddf18609793d"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה משתנה ב-Agenda V3 לעומת הקונטרול? למי ולמה?",
+    "statements": [
+     {
+      "text_he": "מה משתנה ב-Agenda V3 לעומת הקונטרול?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004"
+      ]
+     },
+     {
+      "text_he": "למי ולמה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5582096004"
+      ]
+     }
+    ],
+    "fingerprint": "66c7e8505e2c8226",
+    "inputs": {
+     "curated:questions": "1890187945a76122",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "4e63b8fec6d8e568",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5582096004": "c251ddf18609793d"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [
+   "split: Test fn_ABTest(647,0,213,...) מול Control fn_ABTest(647,214,646,...), כלומר בערך שליש טסט (פרשנות)."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_update:5582096004",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13144419090",
+    "source_updated_at": "2026-09-27T14:33:36.000Z"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13144419090",
+    "value": "1590 - Genie New Agenda V3"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1590-genie-new-agenda-v3",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1590 - Genie New Agenda V3",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13144419090"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13144419090"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Live",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13144419090"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-09-27T14:33:56Z",
+  "updates": [
+   {
+    "update_id": "5582096004",
+    "created_at": "2026-09-27T14:33:36.000Z",
+    "updated_at": "2026-09-27T14:33:36.000Z",
+    "creator": "Yakov Yakov",
+    "text": "Test:\nfn_ABTest(647,0,213,0,1)\n\nControl:\nfn_ABTest(647,214,646,0,-1)\n\n@Brody Tal",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "Genie"
+ ],
+ "content_fingerprint": "d9ef87d40aaeae7ca27f5eed30a89ad360c759a8424af6ffc786732944bcf0be",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,0 +1,295 @@
+{
+ "test_id": "DIS-122-free-resources-pop-up",
+ "game": "Disney Solitaire",
+ "game_code": "DIS",
+ "tier": "live",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DIS-122-free-resources-pop-up",
+  "legacy_keys": [
+   "live_13299998244"
+  ],
+  "game": "Disney Solitaire",
+  "board_item_id": "13299998244",
+  "board_test_number": "122",
+  "name": "122 - Free Resources Pop up",
+  "lifecycle": "live",
+  "board_status_raw": "Defensive Running",
+  "board_group": "🟢 Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-07-23",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "none",
+   "board_link": null,
+   "dashboards": [],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «122 - Free Resources Pop up». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «122 - Free Resources Pop up». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+      ]
+     }
+    ],
+    "fingerprint": "a1ddd99a65c99a75",
+    "inputs": {
+     "registry:name": "8a7b760e0ed78671",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+      ]
+     }
+    ],
+    "fingerprint": "c820b6ba28eed4e0",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "8a7b760e0ed78671",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-23",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-07-23",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+      ]
+     }
+    ],
+    "fingerprint": "8abcfb422b71d5ea",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "66a25d15723dcf5f",
+     "registry:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+      ]
+     }
+    ],
+    "fingerprint": "2b17c0f915470b5a",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "6122315f464e8228",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DIS-122-free-resources-pop-up",
+  "game": "Disney Solitaire",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 122 - Free Resources Pop up",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Defensive Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299998244"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-15T14:16:55Z",
+  "updates": []
+ },
+ "glossary_concepts": [],
+ "content_fingerprint": "105432ea2181df65a5e6d024089342699dbd30fbf39aa53a3299452c4b6165fe",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

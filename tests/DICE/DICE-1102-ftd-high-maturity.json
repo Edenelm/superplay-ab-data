@@ -1,0 +1,678 @@
+{
+ "test_id": "DICE-1102-ftd-high-maturity",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DICE-1102-ftd-high-maturity",
+  "legacy_keys": [
+   "dice1102"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "18362841141",
+  "board_test_number": "1102",
+  "name": "1102 - FTD High Maturity",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Aborted · driver: revenue down despite FTD lift (Eden)",
+  "outcome_label": "lost",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "Can a special high-value offer convert highly engaged players who never paid?",
+  "hypothesis": "Board update 2025-11-06: “Convert the uncorvertables … convert highly engaged users for the first time and hopefully they will keep paying after”",
+  "change": "Board update options: a special $1 high-value offer, or all offers at $1 (update 2025-11-13: “Do it on top of every other offer. ‘Once in a lifetime deal’”). Which option ran is not stated.",
+  "audience": "Board update: AD240+ players who never paid (“46% of AD240+ DAU never paid - 180K DAU”) · Tab A3: 'All Players' (no filter stated)",
+  "control_vs_test": "Control vs Test (split not stated)",
+  "split": null,
+  "start_date": "2026-01-25",
+  "end_date": "board: empty · tab A1: 3/3/2026",
+  "phases": [],
+  "primary_kpi": "Board Type: FTD. Tab: FTD Rate (row 12, with P-Value column), FTD count (row 15)",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Results tab: 1102 - FTD High Maturity",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/18362841141"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/18362841141"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity"
+   }
+  ],
+  "verification": "VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "ID 1102 + name = tab A1; start 25/1/2026 (A1) = board start 2026-01-25; board Data Summary links gid 151164956 = this tab. Board end date empty, tab A1 gives 3/3/2026. Audience: board update targets never-payers AD240+, tab labels the block 'All Players' without a filter → caveat."
+ },
+ "results": [
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m01",
+   "metric": "Gross Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$362,123",
+     "value": 362123.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$360,577",
+     "value": 360577.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.43,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −0.13%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B4:F4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ec6a5222218f12da"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m02",
+   "metric": "Net Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$350,604",
+     "value": 350604.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$349,842",
+     "value": 349842.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.22,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.08%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B5:F5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "5a09333769002096"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m03",
+   "metric": "Avg DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "169,710",
+     "value": 169710.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "167,835",
+     "value": 167835.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.1,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B9:D9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "dc47132d4a2548b1"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m04",
+   "metric": "Paying Users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1,825",
+     "value": 1825.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "2,470",
+     "value": 2470.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 35.34,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 34.80%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B11:F11"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "bff02d27412d74e4"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m05",
+   "metric": "FTD Rate",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "0.68%",
+     "value": 0.68,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "0.91%",
+     "value": 0.91,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 33.82,
+   "abs_diff_pp": 0.23,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · G12 'P-Value' 0.99 · +0.23 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B12:G12"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ba5c0df4dceaa97f"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m06",
+   "metric": "FTD (count)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "909",
+     "value": 909.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1,234",
+     "value": 1234.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 35.75,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B15:D15"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "0b02c21431000be4"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «1102 - FTD High Maturity»: Can a special high-value offer convert highly engaged players who never paid?",
+    "statements": [
+     {
+      "text_he": "בודקים את «1102 - FTD High Maturity»: Can a special high-value offer convert highly engaged players who never paid?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     }
+    ],
+    "fingerprint": "3aba73f64b3b01a2",
+    "inputs": {
+     "registry:name": "5f877844d49570cd",
+     "registry:business_question": "294f9045a1986341",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Board update options: a special $1 high-value offer, or all offers at $1 (update 2025-11-13: “Do it on top of every other offer. ‘Once in a lifetime deal’”). Which option ran is not stated. | קונטרול מול טסט: Control vs Test (split not stated) סוג מנגנון: price (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Board update options: a special $1 high-value offer, or all offers at $1 (update 2025-11-13: “Do it on top of every other offer. ‘Once in a lifetime deal’”). Which option ran is not stated. | קונטרול מול טסט: Control vs Test (split not stated)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: price (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     }
+    ],
+    "fingerprint": "436c42438a1adc15",
+    "inputs": {
+     "registry:change": "e70e7424508a428c",
+     "registry:control_vs_test": "f19b04ad63553660",
+     "registry:name": "5f877844d49570cd",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Board update: AD240+ players who never paid (“46% of AD240+ DAU never paid - 180K DAU”) · Tab A3: 'All Players' (no filter stated) | התחלה: 2026-01-25, סיום: board: empty · tab A1: 3/3/2026",
+    "statements": [
+     {
+      "text_he": "קהל: Board update: AD240+ players who never paid (“46% of AD240+ DAU never paid - 180K DAU”) · Tab A3: 'All Players' (no filter stated) | התחלה: 2026-01-25, סיום: board: empty · tab A1: 3/3/2026",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     }
+    ],
+    "fingerprint": "a0991d0e9b1d4738",
+    "inputs": {
+     "registry:audience": "4fdada09f6725be8",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "d6d7b5a403895206",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "6b316e9e68ac4cbd",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Board update 2025-11-06: “Convert the uncorvertables … convert highly engaged users for the first time and hopefully they will keep paying after”",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Board update 2025-11-06: “Convert the uncorvertables … convert highly engaged users for the first time and hopefully they will keep paying after”",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     }
+    ],
+    "fingerprint": "756172510a6dbf75",
+    "inputs": {
+     "registry:hypothesis": "e50438c9654a8a49",
+     "registry:business_question": "294f9045a1986341",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): FTD Rate 0.68% → 0.91% (+33.82%, B12:D12); FTD count 909 → 1,234 (+35.75%, B15:D15); Paying Users +35.34% (diff-to-diff 34.80%, B11:F11); 461 test offers bought (C14). Interpretation (confirmed by Eden 2026-10-18): registry Aborted; driver = revenue down despite the FTD lift (Gross Revenues −0.43%, B4:D4). הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Status: Aborted · driver: revenue down despite FTD lift (Eden)",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): FTD Rate 0.68% → 0.91% (+33.82%, B12:D12); FTD count 909 → 1,234 (+35.75%, B15:D15); Paying Users +35.34% (diff-to-diff 34.80%, B11:F11); 461 test offers bought (C14). Interpretation (confirmed by Eden 2026-10-18): registry Aborted; driver = revenue down despite the FTD lift (Gross Revenues −0.43%, B4:D4).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     },
+     {
+      "text_he": "בבורד: Status: Aborted · driver: revenue down despite FTD lift (Eden)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     }
+    ],
+    "fingerprint": "ea2e00b53fd21355",
+    "inputs": {
+     "results:": "0845897e8eae0e25",
+     "expl:what_happened": "eda5956dedd90a6d",
+     "expl:business_meaning": "a477001ea9fca385",
+     "expl:decided": "e682b4f4f05aff0d",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+    "statements": [
+     {
+      "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+      ]
+     }
+    ],
+    "fingerprint": "c3ef96b38fe9311f",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "f41ed6ad6884c8e6",
+     "registry:change": "e70e7424508a428c",
+     "registry:control_vs_test": "f19b04ad63553660",
+     "registry:audience": "4fdada09f6725be8",
+     "registry:hypothesis": "e50438c9654a8a49",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "price",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "Control vs Test (split not stated)",
+  "test_state": "Board update options: a special $1 high-value offer, or all offers at $1 (update 2025-11-13: “Do it on top of every other offer. ‘Once in a lifetime deal’”). Which option ran is not stated.",
+  "audience": "Board update: AD240+ players who never paid (“46% of AD240+ DAU never paid - 180K DAU”) · Tab A3: 'All Players' (no filter stated)",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Board update 2025-11-06: “Convert the uncorvertables … convert highly engaged users for the first time and hopefully they will keep paying after”",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1102-ftd-high-maturity",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Board update options: a special $1 high-value offer, or all offers at $1 (update 2025-11-13: “Do it on top of every other offer. ‘Once in a lifetime deal’”). Which option ran is not stated.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): Can a special high-value offer convert highly engaged players who never paid?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Board update: AD240+ players who never paid (“46% of AD240+ DAU never paid - 180K DAU”) · Tab A3: 'All Players' (no filter stated) · חלוקה: Control vs Test (split not stated)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): FTD Rate 0.68% → 0.91% (+33.82%, B12:D12); FTD count 909 → 1,234 (+35.75%, B15:D15); Paying Users +35.34% (diff-to-diff 34.80%, B11:F11); 461 test offers bought (C14). Interpretation (confirmed by Eden 2026-10-18): registry Aborted; driver = revenue down despite the FTD lift (Gross Revenues −0.43%, B4:D4).",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Aborted · driver: revenue down despite FTD lift (Eden)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18362841141",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DICE-1102-ftd-high-maturity::m01",
+   "DICE-1102-ftd-high-maturity::m02",
+   "DICE-1102-ftd-high-maturity::m03",
+   "DICE-1102-ftd-high-maturity::m04",
+   "DICE-1102-ftd-high-maturity::m05",
+   "DICE-1102-ftd-high-maturity::m06"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "FTD",
+  "DAU",
+  "AD (Active Days)"
+ ],
+ "content_fingerprint": "d0f7ca4e41ca71061f5d24212d04dbe9940a7f78a0ee267cf7996533085d597b",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,0 +1,812 @@
+{
+ "test_id": "DICE-1109-remove-android-dtc",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DICE-1109-remove-android-dtc",
+  "legacy_keys": [
+   "dice1109"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "12479317112",
+  "board_test_number": "1109",
+  "name": "1109 - Remove Android DTC",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Done · Decision: Not implemented",
+  "outcome_label": "lost",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "What happens to revenue and payer conversion on Android if the DTC (web) purchase flow is removed?",
+  "hypothesis": "Board Test Goal: “Remove the DTC purchase flow for Android users to assess its impact on monetization and compliance…”",
+  "change": "DTC purchase flow removed for Android users (test group)",
+  "audience": "Android · tab splits All Players / New Players",
+  "control_vs_test": "Unique users B4 147,500 vs C4 36,722 (split not stated)",
+  "split": null,
+  "start_date": "board: empty · tab A1: 08/7/26",
+  "end_date": "tab A1: 21/7/26",
+  "phases": [],
+  "primary_kpi": "Board KPI: ARPDAU, DTC conversion rate (Android), Android payer rate. Tab has FTD and paying users; no 'DTC conversion rate' row.",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1109 is used by 3 board items in Dice Dreams: DICE-1109-whammy-for-dt-finishers, DICE-1109-limited-stock-launch-stock-progression"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Results tab: 1109 - Remove DTC Android",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/12479317112"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/12479317112"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android"
+   }
+  ],
+  "verification": "VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "ID 1109 matches tab '1109 - Remove DTC Android' (word order differs); board Data Summary links gid 1553004359 = this tab. Board has no dates (auto-brief warned about it); tab A1 gives 08/7/26–21/7/26. KPI: board's 'DTC conversion rate' is not a row in the tab."
+ },
+ "results": [
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m01",
+   "metric": "Avg Daily Gross Rev · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$158,800",
+     "value": 158800.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$154,500",
+     "value": 154500.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.71,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.59%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B5:F5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "1f4b5c36af279c0d"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m02",
+   "metric": "Avg Daily Net Rev · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$115,336",
+     "value": 115336.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$109,901",
+     "value": 109901.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -4.71,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −1.31%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B6:F6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d3fe9518358a03fe"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m03",
+   "metric": "Avg Daily Paying Users · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "8,163",
+     "value": 8163.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "8,311",
+     "value": 8311.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.81,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 1.01%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B9:F9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "90d5d55eb53caeee"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m04",
+   "metric": "FTD · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "5.04%",
+     "value": 5.04,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "5.30%",
+     "value": 5.3,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5.16,
+   "abs_diff_pp": 0.26,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.26 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B10:F10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "88b7c9d0e521f9b9"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m05",
+   "metric": "Avg Daily Gross Rev · new",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$4,809",
+     "value": 4809.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$4,471",
+     "value": 4471.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -7.03,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B13:D13"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d10f1dbd6f9061c6"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m06",
+   "metric": "Avg PAU · new",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1,012",
+     "value": 1012.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1,047",
+     "value": 1047.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 3.46,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B16:D16"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "0273796d72be273d"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m07",
+   "metric": "FTD · new players",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "8.64%",
+     "value": 8.64,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "9.34%",
+     "value": 9.34,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 8.1,
+   "abs_diff_pp": 0.7,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.70 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B18:D18"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "39bed67af347a2cb"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «1109 - Remove Android DTC»: What happens to revenue and payer conversion on Android if the DTC (web) purchase flow is removed?",
+    "statements": [
+     {
+      "text_he": "בודקים את «1109 - Remove Android DTC»: What happens to revenue and payer conversion on Android if the DTC (web) purchase flow is removed?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     }
+    ],
+    "fingerprint": "12ce9ebed4dc6d94",
+    "inputs": {
+     "registry:name": "53a61fe5614ee806",
+     "registry:business_question": "228ac40d710f8b9d",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): DTC purchase flow removed for Android users (test group) | קונטרול מול טסט: Unique users B4 147,500 vs C4 36,722 (split not stated) סוג מנגנון: eligibility (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): DTC purchase flow removed for Android users (test group) | קונטרול מול טסט: Unique users B4 147,500 vs C4 36,722 (split not stated)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: eligibility (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     }
+    ],
+    "fingerprint": "11a1afe0724a5c80",
+    "inputs": {
+     "registry:change": "dbecea6ee6fe8e88",
+     "registry:control_vs_test": "0110761799032172",
+     "registry:name": "53a61fe5614ee806",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Android · tab splits All Players / New Players | התחלה: board: empty · tab A1: 08/7/26, סיום: tab A1: 21/7/26",
+    "statements": [
+     {
+      "text_he": "קהל: Android · tab splits All Players / New Players | התחלה: board: empty · tab A1: 08/7/26, סיום: tab A1: 21/7/26",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     }
+    ],
+    "fingerprint": "ed5e6f3864126859",
+    "inputs": {
+     "registry:audience": "a0e4c64acea76260",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "efd6a1683024f19e",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "ba79b4407954e0c5",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Board Test Goal: “Remove the DTC purchase flow for Android users to assess its impact on monetization and compliance…”",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Board Test Goal: “Remove the DTC purchase flow for Android users to assess its impact on monetization and compliance…”",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     }
+    ],
+    "fingerprint": "638b1d8e118bccc1",
+    "inputs": {
+     "registry:hypothesis": "211528fd00dc8032",
+     "registry:business_question": "228ac40d710f8b9d",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): New players: FTD 8.64% → 9.34% (+8.10%, B18:D18) but Avg Daily Gross Revenues −7.03% (B13:D13). All players: FTD +5.16% (B10:D10), Net Revenues −4.71% (diff-to-diff −1.31%, B6:F6). Update 2026-07-23: “Abort. For new users we see that the FTD and Retention is much better without DTC. Think about giving DTC to them only after the 4th purchase.” הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Status: Done · Decision: Not implemented · החלטה אחרונה ב-WhatsApp: abort (recommended)",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): New players: FTD 8.64% → 9.34% (+8.10%, B18:D18) but Avg Daily Gross Revenues −7.03% (B13:D13). All players: FTD +5.16% (B10:D10), Net Revenues −4.71% (diff-to-diff −1.31%, B6:F6). Update 2026-07-23: “Abort. For new users we see that the FTD and Retention is much better without DTC. Think about giving DTC to them only after the 4th purchase.”",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     },
+     {
+      "text_he": "בבורד: Status: Done · Decision: Not implemented · החלטה אחרונה ב-WhatsApp: abort (recommended)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+       "history/dice_business_2026-06-01_to_2026-10-12.md",
+       "history/dice_business_2026-06-01_to_2026-10-12.md",
+       "https://superplay.monday.com/boards/9494658232/pulses/12479317112"
+      ]
+     }
+    ],
+    "fingerprint": "27625004646b61a8",
+    "inputs": {
+     "results:": "5a1a6859ccf2226a",
+     "expl:what_happened": "55304f7b0666b1a9",
+     "expl:business_meaning": "94637285a8fdf7fb",
+     "expl:decided": "18b263b92b82dec7",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+    "statements": [
+     {
+      "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+      ]
+     }
+    ],
+    "fingerprint": "c3a54f5fddac6052",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "9db52322ea8c9445",
+     "expl:limitations": "b6e63a0e2a3e0308",
+     "registry:change": "dbecea6ee6fe8e88",
+     "registry:control_vs_test": "0110761799032172",
+     "registry:audience": "a0e4c64acea76260",
+     "registry:hypothesis": "211528fd00dc8032",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "eligibility",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "Unique users B4 147,500 vs C4 36,722 (split not stated)",
+  "test_state": "DTC purchase flow removed for Android users (test group)",
+  "audience": "Android · tab splits All Players / New Players",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Board Test Goal: “Remove the DTC purchase flow for Android users to assess its impact on monetization and compliance…”",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1109-remove-android-dtc",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): DTC purchase flow removed for Android users (test group)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): What happens to revenue and payer conversion on Android if the DTC (web) purchase flow is removed?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Android · tab splits All Players / New Players · חלוקה: Unique users B4 147,500 vs C4 36,722 (split not stated)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): New players: FTD 8.64% → 9.34% (+8.10%, B18:D18) but Avg Daily Gross Revenues −7.03% (B13:D13). All players: FTD +5.16% (B10:D10), Net Revenues −4.71% (diff-to-diff −1.31%, B6:F6). Update 2026-07-23: “Abort. For new users we see that the FTD and Retention is much better without DTC. Think about giving DTC to them only after the 4th purchase.”",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": "המלצה שנכתבה ב-WhatsApp: abort (recommended)",
+    "tag": "source_fact",
+    "source_refs": [
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112"
+    ],
+    "null_reason": null
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Done · Decision: Not implemented · החלטה אחרונה ב-WhatsApp: abort (recommended)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/12479317112"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DICE-1109-remove-android-dtc::m01",
+   "DICE-1109-remove-android-dtc::m02",
+   "DICE-1109-remove-android-dtc::m03",
+   "DICE-1109-remove-android-dtc::m04",
+   "DICE-1109-remove-android-dtc::m05",
+   "DICE-1109-remove-android-dtc::m06",
+   "DICE-1109-remove-android-dtc::m07"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_12479317112",
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "name": "1109 - Remove Android DTC",
+   "whatsapp_decision_latest": "abort (recommended)",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [
+    "abort (recommended)"
+   ],
+   "board_decision": "Not implemented",
+   "board_status": "Done",
+   "numbers_quoted": [],
+   "first_seen": "2026-07-08",
+   "last_seen": "2026-07-21",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa081",
+    "wa095"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-07-08",
+     "time": "18:27",
+     "sender": "Brody Tal",
+     "item_id": "wa081"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-07-21",
+     "time": "08:34",
+     "sender": "Guy",
+     "item_id": "wa095"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/12479317112"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa081",
+   "date": "2026-07-08",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "Launch control 80/test 20",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "id+name · 100% name tokens"
+  },
+  {
+   "id": "wa095",
+   "date": "2026-07-21",
+   "kind": "test",
+   "decision": "abort (recommended)",
+   "nums": [],
+   "text": "No expected Google fee; wants to abort",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Revenue",
+  "DTC"
+ ],
+ "content_fingerprint": "260bf948d5801cb819d2849c7bc26dc423f7499f6c6bbb685e57277783187a1f",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,0 +1,352 @@
+{
+ "test_id": "DIS-124-15-20-coins-in-dtc",
+ "game": "Disney Solitaire",
+ "game_code": "DIS",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DIS-124-15-20-coins-in-dtc",
+  "legacy_keys": [
+   "wab_13300028363"
+  ],
+  "game": "Disney Solitaire",
+  "board_item_id": "13300028363",
+  "board_test_number": null,
+  "name": "124 - +15%/+20% Coins in DTC",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Deployed",
+  "board_group": "✅ Decided – Deployed",
+  "board_decision_raw": "Deploy",
+  "board_category": "deploy",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-08-20",
+  "end_date": "2026-10-12",
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «124 - +15%/+20% Coins in DTC». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «124 - +15%/+20% Coins in DTC». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+      ]
+     }
+    ],
+    "fingerprint": "bb7256d62a69f281",
+    "inputs": {
+     "registry:name": "fa0bc97ea5bbf5f4",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+      ]
+     }
+    ],
+    "fingerprint": "015c838e2c0f4ed2",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "fa0bc97ea5bbf5f4",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-08-20, סיום: 2026-10-12",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-08-20, סיום: 2026-10-12",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+      ]
+     }
+    ],
+    "fingerprint": "e32d484f11d6b8cf",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "72f77110b4688097",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "1778f9f78b725912",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+      ]
+     }
+    ],
+    "fingerprint": "11b56a8cfa331c1f",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "96c0096746c862bb",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DIS-124-15-20-coins-in-dtc",
+  "game": "Disney Solitaire",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): \"גרוס: +2.06%\"; \"נט: +2.22%\"; \"משלמים: +1.58%\"",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300028363",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Deployed · החלטה אחרונה ב-WhatsApp: deploy",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300028363",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13300028363",
+   "test_id": "DIS-124-15-20-coins-in-dtc",
+   "game": "Disney Solitaire",
+   "name": "124 - +15%/+20% Coins in DTC",
+   "whatsapp_decision_latest": "deploy",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": "Deploy",
+   "board_status": "Deployed",
+   "numbers_quoted": [
+    "\"גרוס: +2.06%\"",
+    "\"נט: +2.22%\"",
+    "\"משלמים: +1.58%\""
+   ],
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "conflicts": [
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result \"גרוס: +2.06%\"; \"נט: +2.22%\"; \"משלמים: +1.58%\" — no result on the board (results/summary columns empty) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa234"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-12",
+     "time": "14:20",
+     "sender": "Regev Superplay",
+     "item_id": "wa234"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa234",
+   "date": "2026-10-12",
+   "kind": "test",
+   "decision": "deploy",
+   "nums": [
+    "\"גרוס: +2.06%\"",
+    "\"נט: +2.22%\"",
+    "\"משלמים: +1.58%\""
+   ],
+   "text": "deploy; \"גרוס: +2.06%, נט: +2.22%, משלמים: +1.58%\"",
+   "file": "2026-10-26.md",
+   "match": "id+name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "DTC"
+ ],
+ "content_fingerprint": "dd57be76a584474ad3044c3bd252b7991b31e61b59c3aa290015d3cd14d2fd30",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

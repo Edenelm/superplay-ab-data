@@ -1,0 +1,336 @@
+{
+ "test_id": "DOM-NOID-reduce-popups-for-back-from",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DOM-NOID-reduce-popups-for-back-from",
+  "legacy_keys": [
+   "wab_13147108648"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13147108648",
+  "board_test_number": null,
+  "name": "Reduce Popups for Back from Churn",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Aborted",
+  "board_group": "Completed",
+  "board_decision_raw": null,
+  "board_category": "stopped",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-09-17",
+  "end_date": "2026-10-11",
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «Reduce Popups for Back from Churn». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «Reduce Popups for Back from Churn». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+      ]
+     }
+    ],
+    "fingerprint": "47e744c484a4aae4",
+    "inputs": {
+     "registry:name": "c505f8bc95898374",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+      ]
+     }
+    ],
+    "fingerprint": "445af7a748ebe792",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "c505f8bc95898374",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-17, סיום: 2026-10-11",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-17, סיום: 2026-10-11",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+      ]
+     }
+    ],
+    "fingerprint": "d53eb6e1f58b96f0",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "7adde3ab68e3a013",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "bf253a0ae8de03aa",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+      ]
+     }
+    ],
+    "fingerprint": "e71225d7838e72e4",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "2da286f3f37412f6",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-NOID-reduce-popups-for-back-from",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13147108648",
+     "history/domino_business_2026-10-05_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: abort",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13147108648",
+     "history/domino_business_2026-10-05_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13147108648",
+   "test_id": "DOM-NOID-reduce-popups-for-back-from",
+   "game": "Domino Dreams",
+   "name": "Reduce Popups for Back from Churn",
+   "whatsapp_decision_latest": "abort",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Aborted",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-08",
+   "last_seen": "2026-10-08",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa223"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/domino_business_2026-10-05_to_2026-10-12.md",
+     "date": "2026-10-08",
+     "time": "13:11",
+     "sender": "Brody Tal",
+     "item_id": "wa223"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13147108648"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa223",
+   "date": "2026-10-08",
+   "kind": "test",
+   "decision": "abort",
+   "nums": [],
+   "text": "Shorter time to game, but loss/neutral on other metrics for soft & deep churn; negative mainly for short churn (<5 days); aborted Monday; since then test beats control ~10% in money [image not read x2]",
+   "file": "history/domino_business_2026-10-05_to_2026-10-12.md",
+   "match": "manual link (reviewed): board 'Reduce Popups for Back from Churn' (Brody Tal, 17.09–11.10, Aborted, 'Lost in revenue') is the churner pop-up test the 08.10 message reports; 'Remove DP pop up when try to enter level but OOC' is an unstarted Dream Pass backlog idea"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Churners"
+ ],
+ "content_fingerprint": "5c30c48d09bb89dac8c92f5152977c548a2c7dfb8731b7edde2fbf795c98c775",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

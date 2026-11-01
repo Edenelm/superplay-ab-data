@@ -1,0 +1,394 @@
+{
+ "test_id": "DOM-1611-low-balance-challenge-pb-10",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DOM-1611-low-balance-challenge-pb-10",
+  "legacy_keys": [
+   "live_13299839561"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13299839561",
+  "board_test_number": "1611",
+  "name": "1611 - Low balance challenge PB - 10 min free entry",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-19",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/1wreWC",
+   "dashboards": [
+    {
+     "id": 11595722,
+     "title": "1611 - Low balance challenge PB - 10 min free entry",
+     "modified": "2026-10-20",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11595722"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1611 is used by 3 board items in Domino Dreams: DOM-1611-weekly-tasks-harder-tasks, DOM-1611-move-quest-from-level-32"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13299839561"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/1wreWC"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13299839561"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים כניסה חינם של 10 דקות ל-PB לשחקנים ב-low balance (לפי שם הפריט).",
+    "statements": [
+     {
+      "text_he": "בודקים כניסה חינם של 10 דקות ל-PB לשחקנים ב-low balance (לפי שם הפריט).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa294"
+      ]
+     }
+    ],
+    "fingerprint": "53651b9420012e53",
+    "inputs": {
+     "curated:what": "068899b1581d53ef",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה זה PB ב-Domino ומה מקבל הקונטרול? סוג מנגנון: eligibility",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה זה PB ב-Domino ומה מקבל הקונטרול?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa294"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: eligibility",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "812aa75d9a2a6eee",
+    "inputs": {
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "519f010c1a5bfa19",
+     "generator": "he6-v2",
+     "wa:wa294": "1ffd87481a9cf43a"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: שחקנים ב-low balance (לפי שם הפריט) | טריגר: low balance | התחלה: 2026-10-19",
+    "statements": [
+     {
+      "text_he": "קהל: שחקנים ב-low balance (לפי שם הפריט) | טריגר: low balance | התחלה: 2026-10-19",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name",
+       "wa:wa294"
+      ]
+     }
+    ],
+    "fingerprint": "6512d273d57e27a9",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "61341b09a3c76a1d",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "886d7eff749972bd",
+     "curated:trigger": "33a740ed300c508e",
+     "curated:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2",
+     "wa:wa294": "1ffd87481a9cf43a"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa294"
+      ]
+     }
+    ],
+    "fingerprint": "bf371f86d3621db2",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa294": "1ffd87481a9cf43a"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה זה PB ב-Domino ומה מקבל הקונטרול? מה סף ה-low balance?",
+    "statements": [
+     {
+      "text_he": "מה זה PB ב-Domino ומה מקבל הקונטרול?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "מה סף ה-low balance?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "4edb8b839c878789",
+    "inputs": {
+     "curated:questions": "63408f1bcd27848f",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "c70c73cd1522ae01",
+     "expl:limitations": "88b6ac1ced8b9c31",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa294": "1ffd87481a9cf43a"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "eligibility",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": "שחקנים ב-low balance (לפי שם הפריט)",
+  "trigger": "low balance",
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13299839561",
+    "value": "1611 - Low balance challenge PB - 10 min free entry"
+   },
+   {
+    "ref": "wa:wa294",
+    "url": null,
+    "file": "2026-10-26.md",
+    "date": "2026-10-20"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1611-low-balance-challenge-pb-10",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1611 - Low balance challenge PB - 10 min free entry",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13299839561"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13299839561"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13299839561",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13299839561"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13299839561",
+   "test_id": "DOM-1611-low-balance-challenge-pb-10",
+   "game": "Domino Dreams",
+   "name": "1611 - Low balance challenge PB - 10 min free entry",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Live",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa294"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-20",
+     "time": "16:03",
+     "sender": "Brody Tal",
+     "item_id": "wa294"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13299839561"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa294",
+   "date": "2026-10-20",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "—",
+   "file": "2026-10-26.md",
+   "match": "name · 83% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-19T14:04:27Z",
+  "updates": []
+ },
+ "glossary_concepts": [
+  "PB",
+  "Low balance"
+ ],
+ "content_fingerprint": "37f33eeda0507c1b1a2d30586e69db04d8aa33e47941456c4506f5e3440861d2",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

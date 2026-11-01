@@ -1,0 +1,353 @@
+{
+ "test_id": "DIS-115-make-any-purchase",
+ "game": "Disney Solitaire",
+ "game_code": "DIS",
+ "tier": "results",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DIS-115-make-any-purchase",
+  "legacy_keys": [
+   "dis115"
+  ],
+  "game": "Disney Solitaire",
+  "board_item_id": "13300044117",
+  "board_test_number": "115",
+  "name": "115 - Make any purchase",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Deployed · Decision: Deploy",
+  "outcome_label": "success",
+  "outcome_rule": "Disney: DISOUT map (Deploy/Partial Deploy→success, Reject→lost, Stopped→stopped, Pending→running)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "n/a",
+  "change": "n/a",
+  "audience": "n/a",
+  "control_vs_test": "n/a",
+  "split": null,
+  "start_date": "2026-03-04",
+  "end_date": "2026-03-30",
+  "phases": [],
+  "primary_kpi": "n/a",
+  "guardrails": null,
+  "tags": [
+   "Purchase (name only)"
+  ],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "results link missing from registry import; no results data available"
+ },
+ "results": [
+  {
+   "test_id": "DIS-115-make-any-purchase",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-04",
+    "end": "2026-03-30",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "supersedes": null,
+   "result_id": "DIS-115-make-any-purchase::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Deploy (status Deployed). Decision summary / notes on board: empty.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300044117",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "e32128f4e880ed87"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «115 - Make any purchase». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «115 - Make any purchase». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+      ]
+     }
+    ],
+    "fingerprint": "ddb9c4f032de351d",
+    "inputs": {
+     "registry:name": "d6459a12516ad40f",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+      ]
+     }
+    ],
+    "fingerprint": "a271677aa8b1a84c",
+    "inputs": {
+     "registry:change": "fc1da59e80561a46",
+     "registry:control_vs_test": "fc1da59e80561a46",
+     "registry:name": "d6459a12516ad40f",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-03-04, סיום: 2026-03-30",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-03-04, סיום: 2026-03-30",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+      ]
+     }
+    ],
+    "fingerprint": "8f21d390d4b70ed1",
+    "inputs": {
+     "registry:audience": "fc1da59e80561a46",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "a9f8c4cdaef06e3d",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "867e1b23ae6577ad",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+      ]
+     }
+    ],
+    "fingerprint": "4d9f76a9e88031e1",
+    "inputs": {
+     "registry:hypothesis": "fc1da59e80561a46",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+      ]
+     }
+    ],
+    "fingerprint": "6acecf1d166a08a7",
+    "inputs": {
+     "results:": "80471a9e6d551bab",
+     "expl:what_happened": "4f8d21276cbcf55d",
+     "expl:business_meaning": "80b1c58498c3f616",
+     "expl:decided": "167386fbe00f6315",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+      ]
+     }
+    ],
+    "fingerprint": "c5189c9aeb1a9115",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "d0be5a42009ec709",
+     "registry:change": "fc1da59e80561a46",
+     "registry:control_vs_test": "fc1da59e80561a46",
+     "registry:audience": "fc1da59e80561a46",
+     "registry:hypothesis": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DIS-115-make-any-purchase",
+  "game": "Disney Solitaire",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): n/a · חלוקה: n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Registry decision: Deploy (status Deployed). Decision summary / notes on board: empty.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): insufficient — no metrics. results link missing from registry import; no results data available",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Deployed · Decision: Deploy",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300044117"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DIS-115-make-any-purchase::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [],
+ "content_fingerprint": "f2fcd3b1a4bfaa13a511cf9e444addfe8468949dc39c01dee88aed66adf071a7",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

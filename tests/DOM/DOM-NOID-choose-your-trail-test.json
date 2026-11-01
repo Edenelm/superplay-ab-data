@@ -1,0 +1,432 @@
+{
+ "test_id": "DOM-NOID-choose-your-trail-test",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DOM-NOID-choose-your-trail-test",
+  "legacy_keys": [
+   "live_13284955937"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13284955937",
+  "board_test_number": "—",
+  "name": "Choose Your Trail Test",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-16",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "possible",
+   "board_link": "https://mixpanel.com/s/2kVLtd",
+   "dashboards": [],
+   "possible": [
+    {
+     "id": 11589470,
+     "title": "1591 Choose Your Trail Test",
+     "modified": "2026-10-27",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11589470"
+    }
+   ],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/2kVLtd"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים Choose Your Trail.",
+    "statements": [
+     {
+      "text_he": "בודקים Choose Your Trail.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265",
+       "wa:wa276",
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "402909b3c7be43b6",
+    "inputs": {
+     "curated:what": "a7832b16db10a25b",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה השחקן בוחר ומה מקבל הקונטרול? סוג מנגנון: unclear",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה השחקן בוחר ומה מקבל הקונטרול?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265",
+       "wa:wa276",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: unclear",
+      "tag": "interpretation",
+      "source_refs": [
+       "wa:wa265"
+      ]
+     }
+    ],
+    "fingerprint": "408cf8e37eefe81a",
+    "inputs": {
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "74234e98afe7498f",
+     "curated:mech": "683144a12969e0fd",
+     "generator": "he6-v2",
+     "wa:wa265": "d054714c2c7ceca0",
+     "wa:wa276": "2c06662d7c350bc8"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-16 שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-16",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265",
+       "wa:wa276",
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265",
+       "wa:wa276",
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "e8a2f8f392b1d14d",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "de936b9b36d6a0dd",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "4c4c893e02579fee",
+     "generator": "he6-v2",
+     "wa:wa265": "d054714c2c7ceca0",
+     "wa:wa276": "2c06662d7c350bc8"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265",
+       "wa:wa276"
+      ]
+     }
+    ],
+    "fingerprint": "5b12852203dab070",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa265": "d054714c2c7ceca0",
+     "wa:wa276": "2c06662d7c350bc8"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה השחקן בוחר ומה מקבל הקונטרול? מי ה-70 ומי ה-30?",
+    "statements": [
+     {
+      "text_he": "מה השחקן בוחר ומה מקבל הקונטרול?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265"
+      ]
+     },
+     {
+      "text_he": "מי ה-70 ומי ה-30?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "wa:wa265"
+      ]
+     }
+    ],
+    "fingerprint": "ec0c36e52eb81e61",
+    "inputs": {
+     "curated:questions": "7b36ea5583e5df22",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "acd4bcaec61b80dc",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa265": "d054714c2c7ceca0",
+     "wa:wa276": "2c06662d7c350bc8"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [
+   "split של 70/30 (WhatsApp)."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "wa:wa265",
+    "url": null,
+    "file": "2026-10-26.md",
+    "date": "2026-10-15"
+   },
+   {
+    "ref": "wa:wa276",
+    "url": null,
+    "file": "2026-10-26.md",
+    "date": "2026-10-16"
+   },
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13284955937",
+    "value": "Choose Your Trail Test"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-NOID-choose-your-trail-test",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: Choose Your Trail Test",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: possible",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13284955937",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13284955937",
+   "test_id": "DOM-NOID-choose-your-trail-test",
+   "game": "Domino Dreams",
+   "name": "Choose Your Trail Test",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Live",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa265",
+    "wa276"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-15",
+     "time": "13:37",
+     "sender": "Brody Tal",
+     "item_id": "wa265"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-16",
+     "time": "13:43",
+     "sender": "רתם חשדי",
+     "item_id": "wa276"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa265",
+   "date": "2026-10-15",
+   "kind": "test",
+   "decision": null,
+   "nums": [],
+   "text": "Choose your trail 70/30",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa276",
+   "date": "2026-10-16",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "70/30",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-19T08:42:14Z",
+  "updates": []
+ },
+ "glossary_concepts": [
+  "Trail"
+ ],
+ "content_fingerprint": "f86244420126cc1922b064002855c1b052936d7cbe116868fec6e7f9640c4249",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

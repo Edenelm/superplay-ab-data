@@ -1,0 +1,632 @@
+{
+ "test_id": "DOM-1382-ftd-store-test",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DOM-1382-ftd-store-test",
+  "legacy_keys": [
+   "dom1382b"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12213160374",
+  "board_test_number": "1382",
+  "name": "1382 - FTD Store Test",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Aborted",
+  "outcome_label": "lost",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "Does a visibly improved store offer (2x coins, original amount crossed out) raise FTD conversion and FTD value for new users?",
+  "hypothesis": "Doc 'Test Description': increase FTD conversion rate and lead to more valuable FTDs",
+  "change": "Doc: test group saw the enhanced 2x coin store offer with visual anchoring; control saw the standard store offer",
+  "audience": "Doc: new users who had not yet made their FTD, 'born' during the test period; sale events temporarily replaced the FTD offer for all users",
+  "control_vs_test": "Test (2x offer) vs Control (standard store offer); split not stated",
+  "split": null,
+  "start_date": "2025-03-11",
+  "end_date": "2025-04-16",
+  "phases": [],
+  "primary_kpi": "Doc objectives: FTD CVR, FTD value, downstream monetization",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1382 is used by 2 board items in Domino Dreams: DOM-1382-ftd-store-all-bundles-high"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Analysis doc: 1382 - FTD Store Test",
+    "url": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12213160374"
+   },
+   {
+    "label": "Mixpanel (board link, needs login)",
+    "url": "https://mixpanel.com/s/3RAXn1"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12213160374"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "Doc '1382 - FTD Store Test' matches board ID + name. Dates: not stated in the doc (board 2025-03-11 → 2025-04-16). Arms: board has no treatment field, so they cannot be compared. → NOT VERIFIED. The doc is linked only from this item, not from '1382 - FTD Store - All bundles high value until FTD'."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m01",
+   "metric": "FTD CVR",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.12,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › FTD"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "fa894e43d198f813"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m02",
+   "metric": "FTD Avg Price",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 6.31,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › FTD"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3fbee8db3b9b35ae"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m03",
+   "metric": "ARPU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › Revenue"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3b50fc6dab5beed4"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m04",
+   "metric": "Continued purchases avg price",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.84,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › Revenue"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "75b670413f6b43f7"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m05",
+   "metric": "FTDs made via store",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 7,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Source & Transaction Behavior"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "6e22dfe1329b1803"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «1382 - FTD Store Test»: Does a visibly improved store offer (2x coins, original amount crossed out) raise FTD conversion and FTD value for new users?",
+    "statements": [
+     {
+      "text_he": "בודקים את «1382 - FTD Store Test»: Does a visibly improved store offer (2x coins, original amount crossed out) raise FTD conversion and FTD value for new users?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     }
+    ],
+    "fingerprint": "eb40f6530152ffea",
+    "inputs": {
+     "registry:name": "57575b06f0ae204e",
+     "registry:business_question": "638d46211f295c8c",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Doc: test group saw the enhanced 2x coin store offer with visual anchoring; control saw the standard store offer | קונטרול מול טסט: Test (2x offer) vs Control (standard store offer); split not stated סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Doc: test group saw the enhanced 2x coin store offer with visual anchoring; control saw the standard store offer | קונטרול מול טסט: Test (2x offer) vs Control (standard store offer); split not stated",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     }
+    ],
+    "fingerprint": "7e5be2330e827f2b",
+    "inputs": {
+     "registry:change": "357dea399324deec",
+     "registry:control_vs_test": "4c843efca1d6c3b1",
+     "registry:name": "57575b06f0ae204e",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Doc: new users who had not yet made their FTD, 'born' during the test period; sale events temporarily replaced the FTD offer for all users | התחלה: 2025-03-11, סיום: 2025-04-16",
+    "statements": [
+     {
+      "text_he": "קהל: Doc: new users who had not yet made their FTD, 'born' during the test period; sale events temporarily replaced the FTD offer for all users | התחלה: 2025-03-11, סיום: 2025-04-16",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     }
+    ],
+    "fingerprint": "97e2257f74bd9c05",
+    "inputs": {
+     "registry:audience": "e3b41ee76e9d57b1",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "b933da3e1f242979",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "089e30bb7363dbb1",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Doc 'Test Description': increase FTD conversion rate and lead to more valuable FTDs",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Doc 'Test Description': increase FTD conversion rate and lead to more valuable FTDs",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     }
+    ],
+    "fingerprint": "f73add0cc4a0f77f",
+    "inputs": {
+     "registry:hypothesis": "b1b3f1a50be665d9",
+     "registry:business_question": "638d46211f295c8c",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): Doc 'Key Results': FTD CVR +1.12% uplift; FTD Avg Price +6.31%; ARPU −2% in the test group; continued purchases avg price only +1.84%; +7% more FTDs via store. 'Summary & Recommendation': fewer follow-up purchases, negative long-term monetization → do not move forward; reconsider the CZ strategy for new users. הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Status: Aborted",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): Doc 'Key Results': FTD CVR +1.12% uplift; FTD Avg Price +6.31%; ARPU −2% in the test group; continued purchases avg price only +1.84%; +7% more FTDs via store. 'Summary & Recommendation': fewer follow-up purchases, negative long-term monetization → do not move forward; reconsider the CZ strategy for new users.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     },
+     {
+      "text_he": "בבורד: Status: Aborted",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     }
+    ],
+    "fingerprint": "d24da54eac7c64eb",
+    "inputs": {
+     "results:": "10b43e4d690600a7",
+     "expl:what_happened": "99eb401751979c30",
+     "expl:business_meaning": "4a681cf520a101de",
+     "expl:decided": "db4b08477b6a3bff",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+    "statements": [
+     {
+      "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+       "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+      ]
+     }
+    ],
+    "fingerprint": "2c859c4b7719669c",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "d7311ce8cae1e292",
+     "expl:limitations": "f9114fc6dcb5bb03",
+     "registry:change": "357dea399324deec",
+     "registry:control_vs_test": "4c843efca1d6c3b1",
+     "registry:audience": "e3b41ee76e9d57b1",
+     "registry:hypothesis": "b1b3f1a50be665d9",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "Test (2x offer) vs Control (standard store offer); split not stated",
+  "test_state": "Doc: test group saw the enhanced 2x coin store offer with visual anchoring; control saw the standard store offer",
+  "audience": "Doc: new users who had not yet made their FTD, 'born' during the test period; sale events temporarily replaced the FTD offer for all users",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Doc 'Test Description': increase FTD conversion rate and lead to more valuable FTDs",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1382-ftd-store-test",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Doc: test group saw the enhanced 2x coin store offer with visual anchoring; control saw the standard store offer",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): Does a visibly improved store offer (2x coins, original amount crossed out) raise FTD conversion and FTD value for new users?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Doc: new users who had not yet made their FTD, 'born' during the test period; sale events temporarily replaced the FTD offer for all users · חלוקה: Test (2x offer) vs Control (standard store offer); split not stated",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Doc 'Key Results': FTD CVR +1.12% uplift; FTD Avg Price +6.31%; ARPU −2% in the test group; continued purchases avg price only +1.84%; +7% more FTDs via store. 'Summary & Recommendation': fewer follow-up purchases, negative long-term monetization → do not move forward; reconsider the CZ strategy for new users.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Aborted",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12213160374",
+     "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1382-ftd-store-test::m01",
+   "DOM-1382-ftd-store-test::m02",
+   "DOM-1382-ftd-store-test::m03",
+   "DOM-1382-ftd-store-test::m04",
+   "DOM-1382-ftd-store-test::m05"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "FTD"
+ ],
+ "content_fingerprint": "42750bfd7749274a8b977f92ed2ca99bca356f50ac34630d5c6ad0d1a3994120",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

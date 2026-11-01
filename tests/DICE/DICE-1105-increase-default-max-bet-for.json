@@ -1,0 +1,362 @@
+{
+ "test_id": "DICE-1105-increase-default-max-bet-for",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DICE-1105-increase-default-max-bet-for",
+  "legacy_keys": [
+   "live_11744178109"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "11744178109",
+  "board_test_number": "1105",
+  "name": "1105 - Increase Default Max Bet for K110+",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-04-14",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "none",
+   "board_link": "https://mixpanel.com/s/2WyQ4b",
+   "dashboards": [],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11744178109"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/2WyQ4b"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/11744178109"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים העלאה של ה-default max bet לשחקנים ב-K110+.",
+    "statements": [
+     {
+      "text_he": "בודקים העלאה של ה-default max bet לשחקנים ב-K110+.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5097764134",
+       "monday_update:5097853969"
+      ]
+     }
+    ],
+    "fingerprint": "f3c2e1bf072b383c",
+    "inputs": {
+     "curated:what": "c431bebac7f21c0c",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: ה-default max מעל K110+ הוא 100. | טסט: default max של 200 (הצעה של Saar, ואישור 'Do it'). סוג מנגנון: other",
+    "statements": [
+     {
+      "text_he": "קונטרול: ה-default max מעל K110+ הוא 100. | טסט: default max של 200 (הצעה של Saar, ואישור 'Do it').",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5097764134",
+       "monday_update:5097853969"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5097764134"
+      ]
+     }
+    ],
+    "fingerprint": "90c82716123c0068",
+    "inputs": {
+     "curated:control": "f72138f4012643e3",
+     "curated:test": "1f8f53cadcdb2784",
+     "curated:mech": "d448c0e0f65da794",
+     "generator": "he6-v2",
+     "monday_update:5097764134": "19d5fbdedee70370",
+     "monday_update:5097853969": "c99fedaedbc03ab3"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: שחקנים ב-K110+ | התחלה: 2026-04-14",
+    "statements": [
+     {
+      "text_he": "קהל: שחקנים ב-K110+ | התחלה: 2026-04-14",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5097764134",
+       "monday_update:5097853969"
+      ]
+     }
+    ],
+    "fingerprint": "ce04592f414e861d",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "27a322232276602a",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "216f372a512ea13c",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2",
+     "monday_update:5097764134": "19d5fbdedee70370",
+     "monday_update:5097853969": "c99fedaedbc03ab3"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ב-Balance<2400, 85% מהמשתמשים באוכלוסייה מטילים לפחות פעם אחת ב-100 ומעלה (30% מהאירועים). התנהגות יעד: הימור ברירת מחדל גבוה יותר",
+    "statements": [
+     {
+      "text_he": "ב-Balance<2400, 85% מהמשתמשים באוכלוסייה מטילים לפחות פעם אחת ב-100 ומעלה (30% מהאירועים).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5097764134",
+       "monday_update:5097853969"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: הימור ברירת מחדל גבוה יותר",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5097764134",
+       "monday_update:5097853969"
+      ]
+     }
+    ],
+    "fingerprint": "c7ddbe9992062f1d",
+    "inputs": {
+     "curated:why": "6e13202ff806b643",
+     "curated:target": "f8e0f120e8f07514",
+     "generator": "he6-v2",
+     "monday_update:5097764134": "19d5fbdedee70370",
+     "monday_update:5097853969": "c99fedaedbc03ab3"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "האם 200 הוא הערך שעלה בפועל? מה ה-split ומה ה-KPI?",
+    "statements": [
+     {
+      "text_he": "האם 200 הוא הערך שעלה בפועל?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5097764134"
+      ]
+     },
+     {
+      "text_he": "מה ה-split ומה ה-KPI?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5097764134"
+      ]
+     }
+    ],
+    "fingerprint": "6366f51748181ecb",
+    "inputs": {
+     "curated:questions": "a90dfb6551cc60c9",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "b5b098fbd1bf039d",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5097764134": "19d5fbdedee70370",
+     "monday_update:5097853969": "c99fedaedbc03ab3"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "ה-default max מעל K110+ הוא 100.",
+  "test_state": "default max של 200 (הצעה של Saar, ואישור 'Do it').",
+  "audience": "שחקנים ב-K110+",
+  "trigger": null,
+  "target_behaviour": "הימור ברירת מחדל גבוה יותר",
+  "why": "ב-Balance<2400, 85% מהמשתמשים באוכלוסייה מטילים לפחות פעם אחת ב-100 ומעלה (30% מהאירועים).",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_update:5097764134",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11744178109",
+    "source_updated_at": "2026-04-14T12:48:48.000Z"
+   },
+   {
+    "ref": "monday_update:5097853969",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11744178109",
+    "source_updated_at": "2026-04-14T13:13:52.000Z"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1105-increase-default-max-bet-for",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1105 - Increase Default Max Bet for K110+",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11744178109"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11744178109"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11744178109"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-04-24T13:12:14Z",
+  "updates": [
+   {
+    "update_id": "5097853969",
+    "created_at": "2026-04-14T13:13:52.000Z",
+    "updated_at": "2026-04-14T13:13:52.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "Do it @Saar Haghi",
+    "replies": []
+   },
+   {
+    "update_id": "5097764134",
+    "created_at": "2026-04-14T12:48:48.000Z",
+    "updated_at": "2026-04-14T12:48:48.000Z",
+    "creator": "Saar Haghi",
+    "text": "the max default above K110 + is 100.\nsuggest to change to 200.\n\n\nBalance<2400\n\n85% of the users in this population roll at least once at 100 or above.\n30% of the events.",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "K (Kingdom)",
+  "Max Bet"
+ ],
+ "content_fingerprint": "cc7d8e9c0d06283ad2090eca1fd343be8945829bb0beb505c4f2bf8d3a27957a",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

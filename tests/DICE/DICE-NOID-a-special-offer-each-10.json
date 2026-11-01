@@ -1,0 +1,425 @@
+{
+ "test_id": "DICE-NOID-a-special-offer-each-10",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DICE-NOID-a-special-offer-each-10",
+  "legacy_keys": [
+   "wab_11636655344"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "11636655344",
+  "board_test_number": null,
+  "name": "A Special Offer each 10 Kingdoms - Bonus Kingdom style",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Aborted",
+  "board_group": "Completed",
+  "board_decision_raw": null,
+  "board_category": "stopped",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": null,
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «A Special Offer each 10 Kingdoms - Bonus Kingdom style». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «A Special Offer each 10 Kingdoms - Bonus Kingdom style». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+      ]
+     }
+    ],
+    "fingerprint": "b6cec68a930888f9",
+    "inputs": {
+     "registry:name": "994173303fc2a538",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+      ]
+     }
+    ],
+    "fingerprint": "0926e41074db9ad0",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "994173303fc2a538",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+      ]
+     }
+    ],
+    "fingerprint": "0e5b16bb0aa9152d",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "74234e98afe7498f",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+      ]
+     }
+    ],
+    "fingerprint": "72fe3a0ede279675",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "5e3ab64988d90809",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-NOID-a-special-offer-each-10",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): Revenue −0.66%; payers −0.26%; DAU +0.18%; payers +0.46%; revenue +0.59%; FTD −1.12%; offer purchases −32%",
+    "tag": "source_fact",
+    "source_refs": [
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11636655344",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: not deploy",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11636655344",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_11636655344",
+   "test_id": "DICE-NOID-a-special-offer-each-10",
+   "game": "Dice Dreams",
+   "name": "A Special Offer each 10 Kingdoms - Bonus Kingdom style",
+   "whatsapp_decision_latest": "not deploy",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Aborted",
+   "numbers_quoted": [
+    "Revenue −0.66%",
+    "payers −0.26%",
+    "DAU +0.18%",
+    "payers +0.46%",
+    "revenue +0.59%",
+    "FTD −1.12%",
+    "offer purchases −32%"
+   ],
+   "first_seen": "2026-06-10",
+   "last_seen": "2026-07-19",
+   "conflicts": [
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result DAU +0.18%; payers +0.46%; revenue +0.59%; FTD −1.12%; offer purchases −32%; Revenue −0.66%; payers −0.26% — no result on the board (results/summary columns empty) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa026",
+    "wa059",
+    "wa063",
+    "wa088"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-06-10",
+     "time": "17:46",
+     "sender": "Amir Harush",
+     "item_id": "wa026"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-06-25",
+     "time": "12:47",
+     "sender": "Aviram Superplay",
+     "item_id": "wa059"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-06-28",
+     "time": "13:33",
+     "sender": "Amir Harush",
+     "item_id": "wa063"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-07-19",
+     "time": "14:51",
+     "sender": "Amir Harush",
+     "item_id": "wa088"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/11636655344"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa026",
+   "date": "2026-06-10",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "Launched 2 cz vs 1.5 cz control",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 75% name tokens"
+  },
+  {
+   "id": "wa059",
+   "date": "2026-06-25",
+   "kind": "test",
+   "decision": null,
+   "nums": [],
+   "text": "1108 bonus kingdom offer: insignificant",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa063",
+   "date": "2026-06-28",
+   "kind": "test",
+   "decision": "deploy",
+   "nums": [
+    "DAU +0.18%",
+    "payers +0.46%",
+    "revenue +0.59%",
+    "FTD −1.12%",
+    "offer purchases −32%"
+   ],
+   "text": "10/06–28/06. DAU +0.18%, payers +0.46%, revenue +0.59%; FTD −1.12%; offer purchases −32%",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa088",
+   "date": "2026-07-19",
+   "kind": "test",
+   "decision": "not deploy",
+   "nums": [
+    "Revenue −0.66%",
+    "payers −0.26%"
+   ],
+   "text": "07/07–19/07. Revenue −0.66%, payers −0.26%",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 75% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [],
+ "content_fingerprint": "17d17f1f027b0674c04a12424697e0a9adc566850bfb3d2b8825c143f80a088d",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

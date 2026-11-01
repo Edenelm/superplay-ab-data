@@ -1,0 +1,396 @@
+{
+ "test_id": "DICE-NOID-whammy-vs-fortune-wheel-in",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DICE-NOID-whammy-vs-fortune-wheel-in",
+  "legacy_keys": [
+   "wab_12993932905"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "12993932905",
+  "board_test_number": null,
+  "name": "Whammy vs. Fortune Wheel - in Extra Layer",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Done",
+  "board_group": "Completed",
+  "board_decision_raw": "Not implemented",
+  "board_category": "lost",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-12",
+  "end_date": "2026-10-14",
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «Whammy vs. Fortune Wheel - in Extra Layer». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «Whammy vs. Fortune Wheel - in Extra Layer». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+      ]
+     }
+    ],
+    "fingerprint": "7604d79761c78959",
+    "inputs": {
+     "registry:name": "90f9eace027a2ec5",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+      ]
+     }
+    ],
+    "fingerprint": "6bed1fdfcfe65b1f",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "90f9eace027a2ec5",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-12, סיום: 2026-10-14",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-12, סיום: 2026-10-14",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+      ]
+     }
+    ],
+    "fingerprint": "354d284f4b9143fc",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "1778f9f78b725912",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "ffabbde475be33a5",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+      ]
+     }
+    ],
+    "fingerprint": "82a42cf7228ef818",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "650096de4f10f51f",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-NOID-whammy-vs-fortune-wheel-in",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): payers \"+1.37%\"; revenue \"−1.58%\"; payout −7.93%",
+    "tag": "source_fact",
+    "source_refs": [
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12993932905",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/12993932905",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_12993932905",
+   "test_id": "DICE-NOID-whammy-vs-fortune-wheel-in",
+   "game": "Dice Dreams",
+   "name": "Whammy vs. Fortune Wheel - in Extra Layer",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": "Not implemented",
+   "board_status": "Done",
+   "numbers_quoted": [
+    "payers \"+1.37%\"",
+    "revenue \"−1.58%\"",
+    "payout −7.93%"
+   ],
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-20",
+   "conflicts": [
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result payers \"+1.37%\"; revenue \"−1.58%\"; payout −7.93% — no result on the board (results/summary columns empty) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa239",
+    "wa246",
+    "wa298"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-10-12",
+     "time": "18:28",
+     "sender": "Daniella Emodi",
+     "item_id": "wa239"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-13",
+     "time": null,
+     "sender": "Amir Harush/Yotam Komash",
+     "item_id": "wa246"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-20",
+     "time": "19:24",
+     "sender": "Daniella Emodi",
+     "item_id": "wa298"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/12993932905"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa239",
+   "date": "2026-10-12",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "Launch",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 75% name tokens"
+  },
+  {
+   "id": "wa246",
+   "date": "2026-10-13",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "K90+, until 14/10 12:00 UTC",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa298",
+   "date": "2026-10-20",
+   "kind": "test",
+   "decision": null,
+   "nums": [
+    "payers \"+1.37%\"",
+    "revenue \"−1.58%\"",
+    "payout −7.93%"
+   ],
+   "text": "payers \"+1.37%\", revenue \"−1.58%\", payout −7.93%; crash indicator up",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Whammy"
+ ],
+ "content_fingerprint": "3a8a59feb86eae9e34cf358bb3e9fa2dcd5afa76d4a33d0b7b47dadee1948734",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

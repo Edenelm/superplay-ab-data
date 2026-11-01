@@ -115,6 +115,56 @@
     },
     "additionalProperties": true
    }
+  },
+  "layer": {
+   "type": "object",
+   "required": [
+    "index",
+    "tests_dir",
+    "state"
+   ],
+   "properties": {
+    "index": {
+     "type": "object",
+     "required": [
+      "file",
+      "sha256",
+      "bytes",
+      "tests"
+     ],
+     "properties": {
+      "file": {
+       "type": "string"
+      },
+      "sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      }
+     },
+     "additionalProperties": true
+    }
+   },
+   "additionalProperties": true
+  },
+  "change_summary": {
+   "type": "object",
+   "required": [
+    "run_at",
+    "tests_added",
+    "tests_updated",
+    "tests_unchanged",
+    "tests_removed",
+    "needs_attention"
+   ],
+   "properties": {
+    "needs_attention": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "additionalProperties": true
   }
  },
  "additionalProperties": true

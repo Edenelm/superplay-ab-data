@@ -1,0 +1,565 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/test_detail.schema.json",
+ "title": "test_detail",
+ "type": "object",
+ "required": [
+  "test_id",
+  "game",
+  "game_code",
+  "tier",
+  "coverage",
+  "registry",
+  "results",
+  "explanation_he",
+  "understanding",
+  "decisions",
+  "whatsapp",
+  "glossary_concepts",
+  "content_fingerprint",
+  "last_changed_at"
+ ],
+ "properties": {
+  "test_id": {
+   "type": "string",
+   "pattern": "^(DICE|DOM|DIS)-(\\d+|NOID)-[a-z0-9-]+$"
+  },
+  "game": {
+   "enum": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ]
+  },
+  "game_code": {
+   "enum": [
+    "DICE",
+    "DOM",
+    "DIS"
+   ]
+  },
+  "tier": {
+   "enum": [
+    "live",
+    "results",
+    "backlog"
+   ]
+  },
+  "coverage": {
+   "enum": [
+    "full",
+    "partial",
+    "unclear",
+    "stub"
+   ]
+  },
+  "registry": {
+   "type": "object"
+  },
+  "results": {
+   "type": "array"
+  },
+  "explanation_he": {
+   "type": "object",
+   "required": [
+    "structure",
+    "sections"
+   ],
+   "properties": {
+    "structure": {
+     "type": "array"
+    },
+    "sections": {
+     "type": "object",
+     "required": [
+      "what_tested",
+      "what_changes",
+      "who_when",
+      "why",
+      "unclear"
+     ],
+     "properties": {
+      "what_tested": {
+       "type": "object",
+       "required": [
+        "label_he",
+        "text_he",
+        "statements",
+        "fingerprint",
+        "inputs"
+       ],
+       "properties": {
+        "label_he": {
+         "enum": [
+          "מה בודקים",
+          "מה משתנה",
+          "למי ומתי",
+          "למה",
+          "מה למדנו",
+          "מה עדיין לא ברור"
+         ]
+        },
+        "text_he": {
+         "type": "string"
+        },
+        "statements": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": [
+           "text_he",
+           "tag",
+           "source_refs"
+          ],
+          "properties": {
+           "text_he": {
+            "type": "string",
+            "minLength": 3
+           },
+           "tag": {
+            "enum": [
+             "explicit_in_source",
+             "interpretation"
+            ]
+           },
+           "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+             "type": "string"
+            }
+           }
+          },
+          "additionalProperties": true
+         }
+        },
+        "fingerprint": {
+         "type": "string",
+         "pattern": "^[0-9a-f]{16}$"
+        },
+        "inputs": {
+         "type": "object",
+         "additionalProperties": {
+          "type": "string"
+         }
+        }
+       },
+       "additionalProperties": true
+      },
+      "what_changes": {
+       "type": "object",
+       "required": [
+        "label_he",
+        "text_he",
+        "statements",
+        "fingerprint",
+        "inputs"
+       ],
+       "properties": {
+        "label_he": {
+         "enum": [
+          "מה בודקים",
+          "מה משתנה",
+          "למי ומתי",
+          "למה",
+          "מה למדנו",
+          "מה עדיין לא ברור"
+         ]
+        },
+        "text_he": {
+         "type": "string"
+        },
+        "statements": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": [
+           "text_he",
+           "tag",
+           "source_refs"
+          ],
+          "properties": {
+           "text_he": {
+            "type": "string",
+            "minLength": 3
+           },
+           "tag": {
+            "enum": [
+             "explicit_in_source",
+             "interpretation"
+            ]
+           },
+           "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+             "type": "string"
+            }
+           }
+          },
+          "additionalProperties": true
+         }
+        },
+        "fingerprint": {
+         "type": "string",
+         "pattern": "^[0-9a-f]{16}$"
+        },
+        "inputs": {
+         "type": "object",
+         "additionalProperties": {
+          "type": "string"
+         }
+        }
+       },
+       "additionalProperties": true
+      },
+      "who_when": {
+       "type": "object",
+       "required": [
+        "label_he",
+        "text_he",
+        "statements",
+        "fingerprint",
+        "inputs"
+       ],
+       "properties": {
+        "label_he": {
+         "enum": [
+          "מה בודקים",
+          "מה משתנה",
+          "למי ומתי",
+          "למה",
+          "מה למדנו",
+          "מה עדיין לא ברור"
+         ]
+        },
+        "text_he": {
+         "type": "string"
+        },
+        "statements": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": [
+           "text_he",
+           "tag",
+           "source_refs"
+          ],
+          "properties": {
+           "text_he": {
+            "type": "string",
+            "minLength": 3
+           },
+           "tag": {
+            "enum": [
+             "explicit_in_source",
+             "interpretation"
+            ]
+           },
+           "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+             "type": "string"
+            }
+           }
+          },
+          "additionalProperties": true
+         }
+        },
+        "fingerprint": {
+         "type": "string",
+         "pattern": "^[0-9a-f]{16}$"
+        },
+        "inputs": {
+         "type": "object",
+         "additionalProperties": {
+          "type": "string"
+         }
+        }
+       },
+       "additionalProperties": true
+      },
+      "why": {
+       "type": "object",
+       "required": [
+        "label_he",
+        "text_he",
+        "statements",
+        "fingerprint",
+        "inputs"
+       ],
+       "properties": {
+        "label_he": {
+         "enum": [
+          "מה בודקים",
+          "מה משתנה",
+          "למי ומתי",
+          "למה",
+          "מה למדנו",
+          "מה עדיין לא ברור"
+         ]
+        },
+        "text_he": {
+         "type": "string"
+        },
+        "statements": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": [
+           "text_he",
+           "tag",
+           "source_refs"
+          ],
+          "properties": {
+           "text_he": {
+            "type": "string",
+            "minLength": 3
+           },
+           "tag": {
+            "enum": [
+             "explicit_in_source",
+             "interpretation"
+            ]
+           },
+           "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+             "type": "string"
+            }
+           }
+          },
+          "additionalProperties": true
+         }
+        },
+        "fingerprint": {
+         "type": "string",
+         "pattern": "^[0-9a-f]{16}$"
+        },
+        "inputs": {
+         "type": "object",
+         "additionalProperties": {
+          "type": "string"
+         }
+        }
+       },
+       "additionalProperties": true
+      },
+      "learned": {
+       "type": "object",
+       "required": [
+        "label_he",
+        "text_he",
+        "statements",
+        "fingerprint",
+        "inputs"
+       ],
+       "properties": {
+        "label_he": {
+         "enum": [
+          "מה בודקים",
+          "מה משתנה",
+          "למי ומתי",
+          "למה",
+          "מה למדנו",
+          "מה עדיין לא ברור"
+         ]
+        },
+        "text_he": {
+         "type": "string"
+        },
+        "statements": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": [
+           "text_he",
+           "tag",
+           "source_refs"
+          ],
+          "properties": {
+           "text_he": {
+            "type": "string",
+            "minLength": 3
+           },
+           "tag": {
+            "enum": [
+             "explicit_in_source",
+             "interpretation"
+            ]
+           },
+           "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+             "type": "string"
+            }
+           }
+          },
+          "additionalProperties": true
+         }
+        },
+        "fingerprint": {
+         "type": "string",
+         "pattern": "^[0-9a-f]{16}$"
+        },
+        "inputs": {
+         "type": "object",
+         "additionalProperties": {
+          "type": "string"
+         }
+        }
+       },
+       "additionalProperties": true
+      },
+      "unclear": {
+       "type": "object",
+       "required": [
+        "label_he",
+        "text_he",
+        "statements",
+        "fingerprint",
+        "inputs"
+       ],
+       "properties": {
+        "label_he": {
+         "enum": [
+          "מה בודקים",
+          "מה משתנה",
+          "למי ומתי",
+          "למה",
+          "מה למדנו",
+          "מה עדיין לא ברור"
+         ]
+        },
+        "text_he": {
+         "type": "string"
+        },
+        "statements": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": [
+           "text_he",
+           "tag",
+           "source_refs"
+          ],
+          "properties": {
+           "text_he": {
+            "type": "string",
+            "minLength": 3
+           },
+           "tag": {
+            "enum": [
+             "explicit_in_source",
+             "interpretation"
+            ]
+           },
+           "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+             "type": "string"
+            }
+           }
+          },
+          "additionalProperties": true
+         }
+        },
+        "fingerprint": {
+         "type": "string",
+         "pattern": "^[0-9a-f]{16}$"
+        },
+        "inputs": {
+         "type": "object",
+         "additionalProperties": {
+          "type": "string"
+         }
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "additionalProperties": false
+    }
+   },
+   "additionalProperties": true
+  },
+  "understanding": {
+   "type": "object",
+   "required": [
+    "mechanism_type",
+    "mechanism_type_tag",
+    "control_state",
+    "test_state",
+    "audience",
+    "trigger",
+    "target_behaviour",
+    "why",
+    "phases",
+    "conflicts",
+    "source_refs",
+    "curated"
+   ],
+   "properties": {
+    "mechanism_type": {
+     "enum": [
+      "price",
+      "reward",
+      "difficulty",
+      "timing",
+      "eligibility",
+      "display",
+      "other",
+      "unclear"
+     ]
+    },
+    "mechanism_type_tag": {
+     "const": "interpretation"
+    }
+   },
+   "additionalProperties": true
+  },
+  "explanation_legacy_8q": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "decisions": {
+   "type": "array"
+  },
+  "whatsapp": {
+   "type": "array"
+  },
+  "monday_updates_fetched": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "glossary_concepts": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "content_fingerprint": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "last_changed_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  }
+ },
+ "additionalProperties": true
+}

@@ -1,7 +1,7 @@
 {
  "dataset": "game_metrics",
- "contract_version": "1.1.0",
- "generated_at": "2026-11-01T12:08:33+02:00",
+ "contract_version": "1.2.0",
+ "generated_at": "2026-11-01T12:35:23+02:00",
  "timezone": "Asia/Jerusalem",
  "records": [
   {
@@ -81,7 +81,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DICE-2026-10-30",
@@ -160,7 +160,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DICE-2026-10-31",
@@ -239,7 +239,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DOM-2026-10-29",
@@ -323,7 +323,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DOM-2026-10-30",
@@ -407,7 +407,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DOM-2026-10-31",
@@ -491,7 +491,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DIS-2026-10-29",
@@ -572,7 +572,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DIS-2026-10-30",
@@ -653,7 +653,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   },
   {
    "metric_id": "DIS-2026-10-31",
@@ -734,7 +734,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T12:08:33+02:00"
+   "updated_at": "2026-11-01T12:35:23+02:00"
   }
  ]
 }

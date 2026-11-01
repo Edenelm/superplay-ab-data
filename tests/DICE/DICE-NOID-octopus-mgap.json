@@ -1,0 +1,222 @@
+{
+ "test_id": "DICE-NOID-octopus-mgap",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DICE-NOID-octopus-mgap",
+  "legacy_keys": [
+   "bl_11526598541"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "11526598541",
+  "board_test_number": null,
+  "name": "Octopus MGAP",
+  "lifecycle": "backlog",
+  "board_status_raw": null,
+  "board_group": "Backlog",
+  "backlog_substatus": {
+   "Backlog Status": "Backlog"
+  },
+  "owners": {
+   "Idea Owner": "Saar Haghi, Noam Banon",
+   "Analyst": "Aviram Shwarzbard"
+  },
+  "priority": null,
+  "planned": null,
+  "due": null,
+  "added_date": "2026-03-17",
+  "type": null,
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": null,
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/backlog_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "backlog snapshot captures name/group/status/owners/dates only",
+   "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
+   "change": "backlog snapshot captures name/group/status/owners/dates only",
+   "audience": "backlog snapshot captures name/group/status/owners/dates only",
+   "control_vs_test": "backlog snapshot captures name/group/status/owners/dates only",
+   "split": "backlog snapshot captures name/group/status/owners/dates only",
+   "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
+   "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
+   "outcome_label": "not started"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «Octopus MGAP». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «Octopus MGAP». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+      ]
+     }
+    ],
+    "fingerprint": "979b6c2f90d6f7db",
+    "inputs": {
+     "registry:name": "2eb8d0b38f787020",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+      ]
+     }
+    ],
+    "fingerprint": "49d3c9fb83bc7e0d",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "2eb8d0b38f787020",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+      ]
+     }
+    ],
+    "fingerprint": "0e5b16bb0aa9152d",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "74234e98afe7498f",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+      ]
+     }
+    ],
+    "fingerprint": "ba971aca3e191892",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "74234e98afe7498f",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11526598541"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": null,
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [],
+ "content_fingerprint": "18708c2021dc00c625135a6d0b9f83e023a492472e1a3ee80760807271b80391",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

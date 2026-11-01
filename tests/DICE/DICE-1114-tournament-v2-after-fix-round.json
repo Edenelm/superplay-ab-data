@@ -1,0 +1,368 @@
+{
+ "test_id": "DICE-1114-tournament-v2-after-fix-round",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-1114-tournament-v2-after-fix-round",
+  "legacy_keys": [
+   "live_13384095320"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "13384095320",
+  "board_test_number": "1114",
+  "name": "1114 - Tournament V2 After Fix Round",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-26",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/6k05o",
+   "dashboards": [
+    {
+     "id": 11609221,
+     "title": "1114 - Tournament V2 After Fix Round",
+     "modified": "2026-10-29",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11609221"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1114 is used by 2 board items in Dice Dreams: DICE-1114-duel-time-easier-bots"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13384095320"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/6k05o"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/13384095320"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים ש-Tournament V2 משחזר את הטורנירים הישנים.",
+    "statements": [
+     {
+      "text_he": "בודקים ש-Tournament V2 משחזר את הטורנירים הישנים.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     }
+    ],
+    "fingerprint": "1c8a4d33e64ab78c",
+    "inputs": {
+     "curated:what": "cc4768b8509c395d",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: הטורנירים הישנים. | טסט: טורנירים V2. סוג מנגנון: other",
+    "statements": [
+     {
+      "text_he": "קונטרול: הטורנירים הישנים. | טסט: טורנירים V2.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     }
+    ],
+    "fingerprint": "fec44c391437ab62",
+    "inputs": {
+     "curated:control": "a3f857f25a4363a5",
+     "curated:test": "82e01c5a1be58a34",
+     "curated:mech": "d448c0e0f65da794",
+     "generator": "he6-v2",
+     "monday_update:5663891148": "e9ed42d03908861b"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-26 שלב/שינוי בהרצה: 'שובו של טסט': היה סבב קודם לפני תיקון (After Fix Round). שלב/שינוי בהרצה: התחיל 26/10/2026 07:00 UTC; split של ABTestV2(383,0,191) מול (383,192,382), בערך 50/50 (פרשנות).",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-26",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 'שובו של טסט': היה סבב קודם לפני תיקון (After Fix Round).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחיל 26/10/2026 07:00 UTC; split של ABTestV2(383,0,191) מול (383,192,382), בערך 50/50 (פרשנות).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     }
+    ],
+    "fingerprint": "8f6cb75772b55847",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "dca4a87c4d365552",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "1c5751d054bd1a0f",
+     "generator": "he6-v2",
+     "monday_update:5663891148": "e9ed42d03908861b"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "לוודא שאנחנו יודעים לשחזר את הטורנירים הישנים בעולם של V2. כשזה יצליח יעלו טסטים ליכולות החדשות. התנהגות יעד: נקודת פתיחה דומה לטורנירים הישנים",
+    "statements": [
+     {
+      "text_he": "לוודא שאנחנו יודעים לשחזר את הטורנירים הישנים בעולם של V2. כשזה יצליח יעלו טסטים ליכולות החדשות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: נקודת פתיחה דומה לטורנירים הישנים",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     }
+    ],
+    "fingerprint": "90f1142ce094fea1",
+    "inputs": {
+     "curated:why": "c845ef05d041dc83",
+     "curated:target": "6fcc87eebe2e8329",
+     "generator": "he6-v2",
+     "monday_update:5663891148": "e9ed42d03908861b"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה נכשל בסבב הקודם ותוקן? מה הסף ל'זהה לישן'?",
+    "statements": [
+     {
+      "text_he": "מה נכשל בסבב הקודם ותוקן?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     },
+     {
+      "text_he": "מה הסף ל'זהה לישן'?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5663891148"
+      ]
+     }
+    ],
+    "fingerprint": "845e8be5692d6815",
+    "inputs": {
+     "curated:questions": "2876f17d219ac265",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "60119f80f6f4e6c7",
+     "expl:limitations": "5cdaf0a9433a4ebf",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5663891148": "e9ed42d03908861b"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "הטורנירים הישנים.",
+  "test_state": "טורנירים V2.",
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": "נקודת פתיחה דומה לטורנירים הישנים",
+  "why": "לוודא שאנחנו יודעים לשחזר את הטורנירים הישנים בעולם של V2. כשזה יצליח יעלו טסטים ליכולות החדשות.",
+  "phases": [
+   "'שובו של טסט': היה סבב קודם לפני תיקון (After Fix Round).",
+   "התחיל 26/10/2026 07:00 UTC; split של ABTestV2(383,0,191) מול (383,192,382), בערך 50/50 (פרשנות)."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_update:5663891148",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13384095320",
+    "source_updated_at": "2026-10-26T12:50:44.000Z"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1114-tournament-v2-after-fix-round",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1114 - Tournament V2 After Fix Round",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13384095320"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13384095320"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13384095320"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-26T12:51:48Z",
+  "updates": [
+   {
+    "update_id": "5663891148",
+    "created_at": "2026-10-26T12:50:44.000Z",
+    "updated_at": "2026-10-26T12:50:44.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "שובו של טסט Tournament V2 After Fix Round\n\nקבוצת הקונטרול מקבל את הטורנירים הישנים.\n\nקבוצת הטסט מקבלת טורנירים V2.\n\nמטרת הטסט היא לראות שאנחנו יודעים להתחקות אחר הטורנירים הישנים גם בעולם של V2. כאשר נצליח, נעלה עם טסטים כדי לבחון את היכולת החדשות.\n\nדשבורד - https://mixpanel.com/s/6k05o\n\nתודה רבה לכל העמלים על הדבר\n\n\n\nDescription: We want to replicate the old tournament using the new V2 tournament\n\nReason: To make sure we start from a similar starting point\n\nDistribution:\n\nControl - No treatment -\n\nseg_TEST:1114_Tournament_V2_After_Fix_Round;Group:1 - ABTestV2(383,0,191,359,0)\n\nTest - Tournament v2-\n\nseg_TEST:1114_Tournament_V2_After_Fix_Round;Group:2 - ABTestV2(383,192,382,359,1)\n\nTimeline:\n\n*Started on 26/010/2026, 7:00 AM UTC",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "Tournament"
+ ],
+ "content_fingerprint": "0be9bdebed2c756374d279a4b5dd261a662c9764084d31fcf868b35cc7d6f92f",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,0 +1,458 @@
+{
+ "test_id": "DICE-1113-x2-ticks-per-hour-k199",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-1113-x2-ticks-per-hour-k199",
+  "legacy_keys": [
+   "live_13101807895"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "13101807895",
+  "board_test_number": "1113",
+  "name": "1113 - X2 Ticks Per Hour K199 and under",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": "Kingdoms 1–199",
+  "audience_source": "update 2026-09-23",
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-09-23",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/2BdvxG",
+   "dashboards": [
+    {
+     "id": 11542811,
+     "title": "1113 - X2 Ticks Per Hour K199 and under",
+     "modified": "2026-10-14",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11542811"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1113 is used by 2 board items in Dice Dreams: DICE-1113-limited-stock-offer-recomp"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/2BdvxG"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים קיצור של טיימר הרולים החינמיים לשחקנים בקינגדום 1-199.",
+    "statements": [
+     {
+      "text_he": "בודקים קיצור של טיימר הרולים החינמיים לשחקנים בקינגדום 1-199.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139",
+       "wa:wa185"
+      ]
+     }
+    ],
+    "fingerprint": "61c962117458bf92",
+    "inputs": {
+     "curated:what": "8867f212b3883f30",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: טיימר של שעה לקבלת רולים חינמיים. | טסט: טיימר של חצי שעה, ובכל איטרציה אותה כמות רולים. סוג מנגנון: timing",
+    "statements": [
+     {
+      "text_he": "קונטרול: טיימר של שעה לקבלת רולים חינמיים. | טסט: טיימר של חצי שעה, ובכל איטרציה אותה כמות רולים.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139",
+       "wa:wa185"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: timing",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5573100614"
+      ]
+     }
+    ],
+    "fingerprint": "a6744f4f25f6953c",
+    "inputs": {
+     "curated:control": "28ed4c4e9ee858be",
+     "curated:test": "5a8c5a9c2c307198",
+     "curated:mech": "d1dccf9ad95a7892",
+     "generator": "he6-v2",
+     "monday_update:5573100614": "a370f6019ae6bd94",
+     "monday_update:5567879139": "7cfbba2b0c06652f",
+     "wa:wa185": "05f5935f538fc836"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: קינגדום 1 עד 199 (K199 and under) | טריגר: טיימר רולים חינמיים | התחלה: 2026-09-23 שלב/שינוי בהרצה: 2026-09-23: באותו בוקר הוטמע טסט זהה עבור K200 ומעלה; הטסט הזה הוא ההמשך ל-K1-199.",
+    "statements": [
+     {
+      "text_he": "קהל: קינגדום 1 עד 199 (K199 and under) | טריגר: טיימר רולים חינמיים | התחלה: 2026-09-23",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139",
+       "wa:wa185"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2026-09-23: באותו בוקר הוטמע טסט זהה עבור K200 ומעלה; הטסט הזה הוא ההמשך ל-K1-199.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139",
+       "wa:wa185"
+      ]
+     }
+    ],
+    "fingerprint": "511ae88a0e5ffa3c",
+    "inputs": {
+     "registry:audience": "ef67b51683415579",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "203550de69fd3224",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "5550324c51d99076",
+     "curated:trigger": "b087db1918c454ed",
+     "curated:phases": "addbd9c73125a50c",
+     "generator": "he6-v2",
+     "monday_update:5573100614": "a370f6019ae6bd94",
+     "monday_update:5567879139": "7cfbba2b0c06652f",
+     "wa:wa185": "05f5935f538fc836"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו. התנהגות יעד: יותר רולים חינמיים לשעה",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: יותר רולים חינמיים לשעה",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139"
+      ]
+     }
+    ],
+    "fingerprint": "cc89aeb58e99fd83",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "f0c811f60f03b662",
+     "generator": "he6-v2",
+     "monday_update:5573100614": "a370f6019ae6bd94",
+     "monday_update:5567879139": "7cfbba2b0c06652f",
+     "wa:wa185": "05f5935f538fc836"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה ההשערה וה-KPI? טווח האוכלוסייה K1-199 או K15-200? סתירה: 2026-09-22: 'Next test K15 - 200' מול העלייה בפועל ל-K1-199 (2026-09-23).",
+    "statements": [
+     {
+      "text_he": "מה ההשערה וה-KPI?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614"
+      ]
+     },
+     {
+      "text_he": "טווח האוכלוסייה K1-199 או K15-200?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614"
+      ]
+     },
+     {
+      "text_he": "סתירה: 2026-09-22: 'Next test K15 - 200' מול העלייה בפועל ל-K1-199 (2026-09-23).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5573100614",
+       "monday_update:5567879139",
+       "wa:wa185"
+      ]
+     }
+    ],
+    "fingerprint": "d348a22e1db37713",
+    "inputs": {
+     "curated:questions": "b8ffcbdd5fb7bbd4",
+     "curated:conflicts": "43dc7d2ccf8fc02e",
+     "registry:conflicts": "edce94350383cace",
+     "expl:limitations": "a3e8541da9e6bf52",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "ef67b51683415579",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5573100614": "a370f6019ae6bd94",
+     "monday_update:5567879139": "7cfbba2b0c06652f",
+     "wa:wa185": "05f5935f538fc836"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "timing",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "טיימר של שעה לקבלת רולים חינמיים.",
+  "test_state": "טיימר של חצי שעה, ובכל איטרציה אותה כמות רולים.",
+  "audience": "קינגדום 1 עד 199 (K199 and under)",
+  "trigger": "טיימר רולים חינמיים",
+  "target_behaviour": "יותר רולים חינמיים לשעה",
+  "why": null,
+  "phases": [
+   "2026-09-23: באותו בוקר הוטמע טסט זהה עבור K200 ומעלה; הטסט הזה הוא ההמשך ל-K1-199."
+  ],
+  "conflicts": [
+   "2026-09-22: 'Next test K15 - 200' מול העלייה בפועל ל-K1-199 (2026-09-23)."
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_update:5573100614",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
+    "source_updated_at": "2026-09-23T18:14:33.000Z"
+   },
+   {
+    "ref": "monday_update:5567879139",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
+    "source_updated_at": "2026-09-22T12:21:33.000Z"
+   },
+   {
+    "ref": "wa:wa185",
+    "url": null,
+    "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+    "date": "2026-09-23"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1113-x2-ticks-per-hour-k199",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1113 - X2 Ticks Per Hour K199 and under",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Kingdoms 1–199",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13101807895",
+   "test_id": "DICE-1113-x2-ticks-per-hour-k199",
+   "game": "Dice Dreams",
+   "name": "1113 - X2 Ticks Per Hour K199 and under",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Running",
+   "numbers_quoted": [],
+   "first_seen": "2026-09-23",
+   "last_seen": "2026-09-23",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa185"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-09-23",
+     "time": "21:19",
+     "sender": "Aviram Superplay",
+     "item_id": "wa185"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa185",
+   "date": "2026-09-23",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "Launches",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-09-23T18:16:12Z",
+  "updates": [
+   {
+    "update_id": "5573100614",
+    "created_at": "2026-09-23T18:14:33.000Z",
+    "updated_at": "2026-09-23T18:14:33.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "חוב מחילוף יום - עלינו עם טסט X2 Ticks Per Hour K199 and under\n\nבהמשך להטמעה מהבוקר לטסט זהה עבור K200 ומעלה, הטסט מקצר את הטיימר לקבלת רולים חינמיים משעה לחצי שעה (מקבלים את אותה כמות רולים כל איטרציה). רק הפעם הטסט עבור קינגדום 1 עד 199.\n\nדשבורד - https://mixpanel.com/s/3tFxjD\n\nתודה לעמית וסהר על הביצוע",
+    "replies": []
+   },
+   {
+    "update_id": "5567879139",
+    "created_at": "2026-09-22T12:21:33.000Z",
+    "updated_at": "2026-09-22T12:21:33.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "Next test K15 - 200\n\nDo it after summary @Amit Pontch @Aviram Shwarzbard",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "K (Kingdom)",
+  "Rolls / Ticks"
+ ],
+ "content_fingerprint": "29e23ee832d3afa9dae71b5080798ecaf15435cfedea29f4c22912b028222d9f",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

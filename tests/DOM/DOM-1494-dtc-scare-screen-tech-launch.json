@@ -1,0 +1,392 @@
+{
+ "test_id": "DOM-1494-dtc-scare-screen-tech-launch",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DOM-1494-dtc-scare-screen-tech-launch",
+  "legacy_keys": [
+   "dom1494dtc"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12211652511",
+  "board_test_number": "1494",
+  "name": "1494- DTC Scare Screen Tech Launch",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Deployed",
+  "outcome_label": "success",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "Measure the impact of the Google popup on user behavior and conversion in the DTC flow",
+  "change": "Test (20%): Google warning before Stripe checkout · Control (80%): straight to Stripe",
+  "audience": "Android DTC",
+  "control_vs_test": "see change",
+  "split": null,
+  "start_date": "2026-02-23",
+  "end_date": "2026-02-26",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "mismatch_board_vs_tab",
+    "msg": "Mixpanel dashboard '1494- DTC Scare Screen 20/50' (board's own link, id 10992915): prime 787 = board prime 787; created 2026-02-23 = board start; new/old cutoff 2026-02-23T14:21. ARMS DISAGREE: board says Test 20% / Control 80%; dashboard Groups property (named '1500- DTC Scare Screen 20/50 - Groups') = Test server_user_id % 787 ≤ 157 (~20%), Control > 393 (~50%). A separate dashboard '1500- DTC Scare Screen 50/50' (id 10990622) also exists. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Gross Rev (Adj)' (88517320), 'PU (Adj)' (88517322), 'FTD CVR' (88517350)."
+   },
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1494 is used by 2 board items in Domino Dreams: DOM-1494-romantic-treats"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Mixpanel: 1494- DTC Scare Screen 20/50",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+   },
+   {
+    "label": "Mixpanel: 1500- DTC Scare Screen 50/50 (related)",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10990622"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+   },
+   {
+    "label": "Mixpanel report: Gross Rev (Adj) (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88517320"
+   },
+   {
+    "label": "Mixpanel report: PU (Adj) (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88517322"
+   },
+   {
+    "label": "Mixpanel report: FTD CVR (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88517350"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+   }
+  ],
+  "verification": "MISMATCH",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "Mixpanel dashboard '1494- DTC Scare Screen 20/50' (board's own link, id 10992915): prime 787 = board prime 787; created 2026-02-23 = board start; new/old cutoff 2026-02-23T14:21. ARMS DISAGREE: board says Test 20% / Control 80%; dashboard Groups property (named '1500- DTC Scare Screen 20/50 - Groups') = Test server_user_id % 787 ≤ 157 (~20%), Control > 393 (~50%). A separate dashboard '1500- DTC Scare Screen 50/50' (id 10990622) also exists. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Gross Rev (Adj)' (88517320), 'PU (Adj)' (88517322), 'FTD CVR' (88517350)."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1494-dtc-scare-screen-tech-launch",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-02-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "supersedes": null,
+   "result_id": "DOM-1494-dtc-scare-screen-tech-launch::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211652511",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "efd05ac13ec00516"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «1494- DTC Scare Screen Tech Launch». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «1494- DTC Scare Screen Tech Launch». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     }
+    ],
+    "fingerprint": "8d42f44b88962a90",
+    "inputs": {
+     "registry:name": "c3c190d0cd5115d9",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Test (20%): Google warning before Stripe checkout · Control (80%): straight to Stripe | קונטרול מול טסט: see change סוג מנגנון: display (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Test (20%): Google warning before Stripe checkout · Control (80%): straight to Stripe | קונטרול מול טסט: see change",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: display (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     }
+    ],
+    "fingerprint": "3ceb518c2ca660b1",
+    "inputs": {
+     "registry:change": "61643d595e78f4fd",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:name": "c3c190d0cd5115d9",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Android DTC | התחלה: 2026-02-23, סיום: 2026-02-26",
+    "statements": [
+     {
+      "text_he": "קהל: Android DTC | התחלה: 2026-02-23, סיום: 2026-02-26",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     }
+    ],
+    "fingerprint": "caf92c6135a2a6a0",
+    "inputs": {
+     "registry:audience": "c9802df6ad68356e",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "d9159fa7528d1306",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "b80a42e7690039d5",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Measure the impact of the Google popup on user behavior and conversion in the DTC flow",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Measure the impact of the Google popup on user behavior and conversion in the DTC flow",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     }
+    ],
+    "fingerprint": "65d97e4163c632a3",
+    "inputs": {
+     "registry:hypothesis": "3991819705d3c9b4",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     }
+    ],
+    "fingerprint": "de412078e6a4c18a",
+    "inputs": {
+     "results:": "95da4d546a85c25d",
+     "expl:what_happened": "60d306e6a19f8ac2",
+     "expl:business_meaning": "f688097505ad9823",
+     "expl:decided": "7ea51b7fb33da43b",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "סתירה (מהמקור): Mixpanel dashboard '1494- DTC Scare Screen 20/50' (board's own link, id 10992915): prime 787 = board prime 787; created 2026-02-23 = board start; new/old cutoff 2026-02-23T14:21. ARMS DISAGREE: board says Test 20% / Control 80%; dashboard Groups property (named '1500- DTC Scare Screen 20/50 - Groups') = Test server_user_id % 787 ≤ 157 (~20%), Control > 393 (~50%). A separate dashboard '1500- DTC Scare Screen 50/50' (id 10990622) also exists. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Gross Rev (Adj)' (88517320), 'PU (Adj)' (88517322), 'FTD CVR' (88517350).",
+    "statements": [
+     {
+      "text_he": "סתירה (מהמקור): Mixpanel dashboard '1494- DTC Scare Screen 20/50' (board's own link, id 10992915): prime 787 = board prime 787; created 2026-02-23 = board start; new/old cutoff 2026-02-23T14:21. ARMS DISAGREE: board says Test 20% / Control 80%; dashboard Groups property (named '1500- DTC Scare Screen 20/50 - Groups') = Test server_user_id % 787 ≤ 157 (~20%), Control > 393 (~50%). A separate dashboard '1500- DTC Scare Screen 50/50' (id 10990622) also exists. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Gross Rev (Adj)' (88517320), 'PU (Adj)' (88517322), 'FTD CVR' (88517350).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+      ]
+     }
+    ],
+    "fingerprint": "0f805f40f7a764db",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "c20e964ec61f177c",
+     "expl:limitations": "ebd9205c384d73d2",
+     "registry:change": "61643d595e78f4fd",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:audience": "c9802df6ad68356e",
+     "registry:hypothesis": "3991819705d3c9b4",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "display",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "see change",
+  "test_state": "Test (20%): Google warning before Stripe checkout · Control (80%): straight to Stripe",
+  "audience": "Android DTC",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Measure the impact of the Google popup on user behavior and conversion in the DTC flow",
+  "phases": [],
+  "conflicts": [
+   "Mixpanel dashboard '1494- DTC Scare Screen 20/50' (board's own link, id 10992915): prime 787 = board prime 787; created 2026-02-23 = board start; new/old cutoff 2026-02-23T14:21. ARMS DISAGREE: board says Test 20% / Control 80%; dashboard Groups property (named '1500- DTC Scare Screen 20/50 - Groups') = Test server_user_id % 787 ≤ 157 (~20%), Control > 393 (~50%). A separate dashboard '1500- DTC Scare Screen 50/50' (id 10990622) also exists. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Gross Rev (Adj)' (88517320), 'PU (Adj)' (88517322), 'FTD CVR' (88517350)."
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10992915"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1494-dtc-scare-screen-tech-launch",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Test (20%): Google warning before Stripe checkout · Control (80%): straight to Stripe",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Android DTC · חלוקה: see change",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): No results data on the board.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "יש אי-התאמה בין הבורד ללשונית. הערת ראיות (מהמקור): insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Deployed",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211652511"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1494-dtc-scare-screen-tech-launch::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "MISMATCH"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "DTC",
+  "Scare Screen"
+ ],
+ "content_fingerprint": "4a496c03c5ac1bb44542e0f23bfe9841c00fdac2d520bfaf25990afcd6cc1404",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

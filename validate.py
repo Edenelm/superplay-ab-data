@@ -3,7 +3,7 @@
 Usage: python3 validate.py [PROVIDER_DIR] [--now ISO8601] [--json]
 Exit codes: 0 = OK, 1 = contract/schema errors, 2 = OK but stale or a dataset status != ok.
 --json report includes dataset_errors{dataset: [...]} and datasets_passed (used by tools/assemble_repo.py to publish per dataset).
-'_manifest' / '_files' errors are global and block publishing entirely.
+'_manifest' / '_files' / '_layer' errors are global and block publishing entirely.
 Uses the `jsonschema` package if installed; otherwise a built-in subset validator (type, required, properties,
 additionalProperties, items, enum, const, pattern, minimum, minItems, minLength). No network, no secrets."""
 import json, os, re, sys, hashlib, datetime
@@ -129,6 +129,43 @@ for g in docs.get('game_metrics', {}).get('records', []):
         for k, ref in (g.get('definition_refs') or {}).items():
             if ref not in MDEFS: err('game_metrics', f"{g['metric_id']}: definition_refs.{k} -> unknown {ref}")
             elif g['definition_status'].get(k) != MDEFS[ref]['status']: err('game_metrics', f"{g['metric_id']}: definition_status.{k} out of date")
+# ---- v1.2 light layer (glossary, tests_index, per-test files, FILE_MAP) — errors are global ('_layer') ----
+gl = docs.get('glossary')
+if gl:
+    for c in gl['concepts']:
+        if c['status'] == 'unclear' and not c.get('question'): err('glossary', f"glossary {c['concept_id']}: unclear without question")
+        if c.get('definition_he') and not c.get('definition_refs'): err('glossary', f"glossary {c['concept_id']}: definition without refs")
+LY = man.get('layer')
+if LY:
+    ip = os.path.join(ROOT, LY['index']['file'])
+    if not os.path.exists(ip): err('_layer', 'layer: index file missing')
+    else:
+        ib = open(ip, 'rb').read()
+        if hashlib.sha256(ib).hexdigest() != LY['index']['sha256']: err('_layer', 'layer: index sha256 mismatch')
+        idx = json.loads(ib)
+        for e in schema_validate(idx, load('schemas/tests_index.schema.json'), 'tests_index')[:20]: err('_layer', e)
+        dsch = load('schemas/test_detail.schema.json')
+        if reg and {x['test_id'] for x in idx['tests']} != idset: err('_layer', 'layer: index test ids differ from test_registry')
+        for x in idx['tests']:
+            dp = os.path.join(ROOT, x['detail_file'])
+            if not os.path.exists(dp): err('_layer', f"layer: missing {x['detail_file']}"); continue
+            d = json.load(open(dp, encoding='utf-8'))
+            for e in schema_validate(d, dsch, x['detail_file'])[:5]: err('_layer', e)
+            body = {k: v for k, v in d.items() if k not in ('content_fingerprint', 'last_changed_at')}
+            if hashlib.sha256(json.dumps(body, ensure_ascii=False, sort_keys=True).encode()).hexdigest() != d.get('content_fingerprint'): err('_layer', f"layer: {x['detail_file']} content_fingerprint mismatch")
+            if d.get('content_fingerprint', '')[:16] != x['fingerprint']: err('_layer', f"layer: {x['test_id']} index fingerprint != detail file")
+            for sn, sec in (d.get('explanation_he') or {}).get('sections', {}).items():
+                for st in sec.get('statements', []):
+                    if st['text_he'].startswith('המנגנון טרם הובהר') and 'שאלה' not in st['text_he']: err('_layer', f"layer: {x['test_id']}.{sn}: 'טרם הובהר' without the open question")
+            if 'learned' in d.get('explanation_he', {}).get('sections', {}) and not (x['has_results'] or d.get('whatsapp')): err('_layer', f"layer: {x['test_id']}: 'מה למדנו' without results or WhatsApp source")
+fm = os.path.join(ROOT, 'FILE_MAP.json')
+if os.path.exists(fm):
+    for f in json.load(open(fm, encoding='utf-8')).get('files', []):
+        q = os.path.join(ROOT, f['path'])
+        if f.get('kind') == 'dir': 
+            if not os.path.isdir(q): err('_layer', f"FILE_MAP: dir missing {f['path']}")
+        elif not os.path.exists(q): err('_layer', f"FILE_MAP: file missing {f['path']}")
+        elif f.get('sha256') and hashlib.sha256(open(q, 'rb').read()).hexdigest() != f['sha256']: err('_layer', f"FILE_MAP: sha256 mismatch {f['path']}")
 # ---- secret scan ----
 SECRET = re.compile(r'(?i)(api[_-]?key|secret|token|password|bearer)\s*["\']?\s*[:=]\s*["\'][^"\']{12,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]{30,}|xox[bp]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}')
 for dp, _, fs in os.walk(ROOT):

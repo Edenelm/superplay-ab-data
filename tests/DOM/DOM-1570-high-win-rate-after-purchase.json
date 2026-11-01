@@ -1,0 +1,624 @@
+{
+ "test_id": "DOM-1570-high-win-rate-after-purchase",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DOM-1570-high-win-rate-after-purchase",
+  "legacy_keys": [
+   "dom1570"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12944811758",
+  "board_test_number": "1570",
+  "name": "1570 - High Win Rate After Purchase",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Completed - Update Status · Type: Core/Economy",
+  "outcome_label": "other",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "Does a higher win rate right after a purchase move players faster from FTD to repeat purchases?",
+  "hypothesis": "Update 2026-09-01: “increase win rate after purchase”",
+  "change": "Higher win rate (pity) after a purchase",
+  "audience": "Board: empty · tab segments: users after 4TD (H3) vs under 4TD (N3) before the test",
+  "control_vs_test": "fn_ABTest(197,0,98,…) test vs (197,99,196,…) control (update 2026-09-03)",
+  "split": null,
+  "start_date": "2026-09-03",
+  "end_date": "2026-09-22",
+  "phases": [],
+  "primary_kpi": "Not designated. Tab 'Primary KPIs': Revenues, DAU, PAU, PU",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Results tab: 1570 - High Win Rate After Purchase",
+    "url": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12944811758"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12944811758"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase"
+   }
+  ],
+  "verification": "VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "ID + name = tab; board Analysis Summary links gid 1751061117 = this tab; end 2026-09-22 = H1 'closed 22/09/26'. Board Test Results text says FTD users showed a positive trend but slower move to STD — tab has no explicit FTD-only segment; the closest is the under-4TD block (N–P)."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m01",
+   "metric": "Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$6,104,714",
+     "value": 6104714.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$6,132,454",
+     "value": 6132454.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.45,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test 0.22% · DiD 0.23%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "B4:F4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "b6816555c015ee03"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m02",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "19,937",
+     "value": 19937.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "20,056",
+     "value": 20056.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test 1.04% · DiD −0.44%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "B7:F7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "18304d287825f581"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m03",
+   "metric": "Time between FTD and STD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1.1D",
+     "value": 1.1,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1.1D",
+     "value": 1.1,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.67,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test −3.80% · DiD 3.13%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "B14:F14"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "acbee2026fbd15be"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m04",
+   "metric": "Revenues · under 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$650,219",
+     "value": 650219.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$658,099",
+     "value": 658099.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.21,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "N6:P6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a30295fd449a1fa8"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m05",
+   "metric": "PU · under 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "3,052",
+     "value": 3052.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "3,027",
+     "value": 3027.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.82,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "N9:P9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "81eb7f7b41905d25"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «1570 - High Win Rate After Purchase»: Does a higher win rate right after a purchase move players faster from FTD to repeat purchases?",
+    "statements": [
+     {
+      "text_he": "בודקים את «1570 - High Win Rate After Purchase»: Does a higher win rate right after a purchase move players faster from FTD to repeat purchases?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     }
+    ],
+    "fingerprint": "78b63ef433aab0e1",
+    "inputs": {
+     "registry:name": "c37f3c47ec233533",
+     "registry:business_question": "833584173b5ce8de",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Higher win rate (pity) after a purchase | קונטרול מול טסט: fn_ABTest(197,0,98,…) test vs (197,99,196,…) control (update 2026-09-03) סוג מנגנון: difficulty (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Higher win rate (pity) after a purchase | קונטרול מול טסט: fn_ABTest(197,0,98,…) test vs (197,99,196,…) control (update 2026-09-03)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: difficulty (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     }
+    ],
+    "fingerprint": "9970b0ee8cfb77b9",
+    "inputs": {
+     "registry:change": "d11f8b1b0a5c6468",
+     "registry:control_vs_test": "d5d871b24bbe668b",
+     "registry:name": "c37f3c47ec233533",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Board: empty · tab segments: users after 4TD (H3) vs under 4TD (N3) before the test | התחלה: 2026-09-03, סיום: 2026-09-22",
+    "statements": [
+     {
+      "text_he": "קהל: Board: empty · tab segments: users after 4TD (H3) vs under 4TD (N3) before the test | התחלה: 2026-09-03, סיום: 2026-09-22",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     }
+    ],
+    "fingerprint": "765e3d33a13d564a",
+    "inputs": {
+     "registry:audience": "d44aa557f515d797",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "741da315a29809e8",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "9ae0631fc55f60fe",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Update 2026-09-01: “increase win rate after purchase”",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Update 2026-09-01: “increase win rate after purchase”",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     }
+    ],
+    "fingerprint": "9ff8efe8fbb18143",
+    "inputs": {
+     "registry:hypothesis": "3963568265b6c6d1",
+     "registry:business_question": "833584173b5ce8de",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): All: Revenues +0.45% (DiD 0.23%, B4:F4), PU +0.60% (DiD −0.44%, B7:F7), Time between FTD and STD DiD +3.13% (B14:F14). Under-4TD: Revenues +1.21% (N6:P6), PU −0.82% (N9:P9). Update 2026-09-28: pity bug on genie tier 3 → run again. הבדיקה מסווגת כ'other' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Status: Completed - Update Status · Type: Core/Economy",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): All: Revenues +0.45% (DiD 0.23%, B4:F4), PU +0.60% (DiD −0.44%, B7:F7), Time between FTD and STD DiD +3.13% (B14:F14). Under-4TD: Revenues +1.21% (N6:P6), PU −0.82% (N9:P9). Update 2026-09-28: pity bug on genie tier 3 → run again.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'other' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     },
+     {
+      "text_he": "בבורד: Status: Completed - Update Status · Type: Core/Economy",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     }
+    ],
+    "fingerprint": "9e49268e336aeb46",
+    "inputs": {
+     "results:": "6a4dd5daddb5fb0b",
+     "expl:what_happened": "abf227dce3c538ca",
+     "expl:business_meaning": "b01e83290c88f998",
+     "expl:decided": "a34061593bff1aa8",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No significance → directional. Board notes the population was small due to the bug.",
+    "statements": [
+     {
+      "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No significance → directional. Board notes the population was small due to the bug.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+       "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+      ]
+     }
+    ],
+    "fingerprint": "ca8571f0e90621ae",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "6a6ad641787d476a",
+     "registry:change": "d11f8b1b0a5c6468",
+     "registry:control_vs_test": "d5d871b24bbe668b",
+     "registry:audience": "d44aa557f515d797",
+     "registry:hypothesis": "3963568265b6c6d1",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "difficulty",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "fn_ABTest(197,0,98,…) test vs (197,99,196,…) control (update 2026-09-03)",
+  "test_state": "Higher win rate (pity) after a purchase",
+  "audience": "Board: empty · tab segments: users after 4TD (H3) vs under 4TD (N3) before the test",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Update 2026-09-01: “increase win rate after purchase”",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1570-high-win-rate-after-purchase",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Higher win rate (pity) after a purchase",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): Does a higher win rate right after a purchase move players faster from FTD to repeat purchases?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Board: empty · tab segments: users after 4TD (H3) vs under 4TD (N3) before the test · חלוקה: fn_ABTest(197,0,98,…) test vs (197,99,196,…) control (update 2026-09-03)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): All: Revenues +0.45% (DiD 0.23%, B4:F4), PU +0.60% (DiD −0.44%, B7:F7), Time between FTD and STD DiD +3.13% (B14:F14). Under-4TD: Revenues +1.21% (N6:P6), PU −0.82% (N9:P9). Update 2026-09-28: pity bug on genie tier 3 → run again.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'other' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No significance → directional. Board notes the population was small due to the bug.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Completed - Update Status · Type: Core/Economy",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12944811758",
+     "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1570-high-win-rate-after-purchase::m01",
+   "DOM-1570-high-win-rate-after-purchase::m02",
+   "DOM-1570-high-win-rate-after-purchase::m03",
+   "DOM-1570-high-win-rate-after-purchase::m04",
+   "DOM-1570-high-win-rate-after-purchase::m05"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "FTD",
+  "Pity"
+ ],
+ "content_fingerprint": "e4c683f7aff6e411e5fc1a164cc354d8b106f981d2133205d29d36c705513e89",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

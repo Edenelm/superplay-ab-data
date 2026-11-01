@@ -1,0 +1,406 @@
+{
+ "test_id": "DOM-NOID-weekly-tasks",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DOM-NOID-weekly-tasks",
+  "legacy_keys": [
+   "wab_13237082308"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13237082308",
+  "board_test_number": null,
+  "name": "Weekly Tasks",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Deployed",
+  "board_group": "Completed",
+  "board_decision_raw": null,
+  "board_category": "deploy",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-12",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "board_live_group",
+    "msg": "Status 'Deployed' but no end date (start 2026-10-12)"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «Weekly Tasks». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «Weekly Tasks». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+      ]
+     }
+    ],
+    "fingerprint": "e3cb9ce5783fc9b5",
+    "inputs": {
+     "registry:name": "a22284fb617149cb",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+      ]
+     }
+    ],
+    "fingerprint": "e7460cc10e24f46a",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "a22284fb617149cb",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-12, סיום: לא ידוע",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-12, סיום: לא ידוע",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+      ]
+     }
+    ],
+    "fingerprint": "5b349c44430c97c5",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "1778f9f78b725912",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "סתירה (מהמקור): Status 'Deployed' but no end date (start 2026-10-12) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "סתירה (מהמקור): Status 'Deployed' but no end date (start 2026-10-12)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+      ]
+     },
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+      ]
+     }
+    ],
+    "fingerprint": "feaddd37b7b2886b",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "895ba7c94e66bd1a",
+     "expl:limitations": "97b24a806feedfc9",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [
+   "Status 'Deployed' but no end date (start 2026-10-12)"
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-NOID-weekly-tasks",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): \"יש ניחוח חיובי בכסף, בדאו ומעלה את הזמן משחק ב5%!\"",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13237082308",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Deployed · החלטה אחרונה ב-WhatsApp: deploy",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13237082308",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13237082308",
+   "test_id": "DOM-NOID-weekly-tasks",
+   "game": "Domino Dreams",
+   "name": "Weekly Tasks",
+   "whatsapp_decision_latest": "deploy",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Deployed",
+   "numbers_quoted": [
+    "\"יש ניחוח חיובי בכסף, בדאו ומעלה את הזמן משחק ב5%!\""
+   ],
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-19",
+   "conflicts": [
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result \"יש ניחוח חיובי בכסף, בדאו ומעלה את הזמן משחק ב5%!\" — no result on the board (numbers not in board text) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa231",
+    "wa244",
+    "wa285"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-12",
+     "time": "12:49",
+     "sender": "Roy Ambar",
+     "item_id": "wa231"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-13",
+     "time": "16:06",
+     "sender": "Brody Tal",
+     "item_id": "wa244"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-19",
+     "time": "14:49",
+     "sender": "Brody Tal",
+     "item_id": "wa285"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13237082308"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa231",
+   "date": "2026-10-12",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "80% of users level 40+",
+   "file": "2026-10-26.md",
+   "match": "name · exact name"
+  },
+  {
+   "id": "wa244",
+   "date": "2026-10-13",
+   "kind": "test",
+   "decision": null,
+   "nums": [
+    "\"יש ניחוח חיובי בכסף, בדאו ומעלה את הזמן משחק ב5%!\""
+   ],
+   "text": "control 20% / test 80%; \"יש ניחוח חיובי בכסף, בדאו ומעלה את הזמן משחק ב5%!\"",
+   "file": "2026-10-26.md",
+   "match": "name · exact name"
+  },
+  {
+   "id": "wa285",
+   "date": "2026-10-19",
+   "kind": "test",
+   "decision": "deploy",
+   "nums": [],
+   "text": "full rollout, \"עשה ממש טוב בכסף ובדאו\"",
+   "file": "2026-10-26.md",
+   "match": "name · exact name"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Weekly Goals"
+ ],
+ "content_fingerprint": "9148152b91d52960c203d8f5781fbfb3ebc9de999d5218ad466f4b25a29c37d1",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

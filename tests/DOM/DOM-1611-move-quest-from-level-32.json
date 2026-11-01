@@ -1,0 +1,394 @@
+{
+ "test_id": "DOM-1611-move-quest-from-level-32",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DOM-1611-move-quest-from-level-32",
+  "legacy_keys": [
+   "live_13326086414"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13326086414",
+  "board_test_number": "1611",
+  "name": "1611 - Move quest from level 32 to 200 (FTUE)",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-20",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/project/2735821/view/3271901/app/boards#id=11608929&filters=%7E%28%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Special*20Player%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27%21special_player%29%7E_B%7E%28label%7E%27special_player_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27special_player_status%29%7E_C%7E%28label%7E%27deactivated%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27deactivated%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27DEFINED*28*20_A*20*29*0aor*20*0aDEFINED*28*20_B*20*29*20*0aor*20*0a*20_C*20*20*3d*3d*20*22True*22%7Eis_superadmin%7Efalse%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Excluded*20User%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27people%29%7EcustomPropertyId%7E%275579573%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Excluded*20User%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27user%29%7E%28customPropertyId%7E%27114057%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Suspected*20Fraudulent*20Purchase%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27event%29%7E%28defaultEmpty%7Efalse%7EfilterOperator%7E%27does*20not*20equal%7EfilterValue%7E%28%7E%27Israel%7E%27Romania%29%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%27mp_country_code%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27event%7EactiveValue%7E%28%7E%27Israel%7E%27Romania%29%29%7E%28customPropertyId%7E%275918681%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27is*20set%7EjoinPropertyType%7E%27string%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%271611*20-*20Move*20quest*20from*20level*2032*20to*20200*20Groups%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27user%29%7E%28resourceType%7E%27user%7EpropertyName%7E%27create_time%7EpropertyObjectKey%7Enull%7EpropertyDefaultType%7E%27datetime%7EpropertyType%7E%27datetime%7EfilterOperator%7E%27since%7EfilterValue%7E%28type%7E%27since%7Efrom%7E%272026-10-20T10*3a00*3a00%7EexclusionOffset%7Enull%29%7ElimitValues%7Efalse%7EdefaultEmpty%7Efalse%29%29",
+   "dashboards": [
+    {
+     "id": 11608929,
+     "title": "1611 - Move quest from level 32 to 200 (FTUE)",
+     "modified": "2026-10-30",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11608929"
+    }
+   ],
+   "possible": [
+    {
+     "id": 11598193,
+     "title": "OLD - 1611 - Move quest from level 32 to 200 (no sanity tile, safe to delete)",
+     "modified": "2026-10-20",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11598193"
+    }
+   ],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1611 is used by 3 board items in Domino Dreams: DOM-1611-weekly-tasks-harder-tasks, DOM-1611-low-balance-challenge-pb-10"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13326086414"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/project/2735821/view/3271901/app/boards#id=11608929&filters=%7E%28%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Special*20Player%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27%21special_player%29%7E_B%7E%28label%7E%27special_player_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27special_player_status%29%7E_C%7E%28label%7E%27deactivated%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27deactivated%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27DEFINED*28*20_A*20*29*0aor*20*0aDEFINED*28*20_B*20*29*20*0aor*20*0a*20_C*20*20*3d*3d*20*22True*22%7Eis_superadmin%7Efalse%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Excluded*20User%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27people%29%7EcustomPropertyId%7E%275579573%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Excluded*20User%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27user%29%7E%28customPropertyId%7E%27114057%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Suspected*20Fraudulent*20Purchase%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27event%29%7E%28defaultEmpty%7Efalse%7EfilterOperator%7E%27does*20not*20equal%7EfilterValue%7E%28%7E%27Israel%7E%27Romania%29%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%27mp_country_code%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27event%7EactiveValue%7E%28%7E%27Israel%7E%27Romania%29%29%7E%28customPropertyId%7E%275918681%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27is*20set%7EjoinPropertyType%7E%27string%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%271611*20-*20Move*20quest*20from*20level*2032*20to*20200*20Groups%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27user%29%7E%28resourceType%7E%27user%7EpropertyName%7E%27create_time%7EpropertyObjectKey%7Enull%7EpropertyDefaultType%7E%27datetime%7EpropertyType%7E%27datetime%7EfilterOperator%7E%27since%7EfilterValue%7E%28type%7E%27since%7Efrom%7E%272026-10-20T10*3a00*3a00%7EexclusionOffset%7Enull%29%7ElimitValues%7Efalse%7EdefaultEmpty%7Efalse%29%29"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13326086414"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים העברה של ה-quest מ-Level 32 ל-Level 200 (FTUE).",
+    "statements": [
+     {
+      "text_he": "בודקים העברה של ה-quest מ-Level 32 ל-Level 200 (FTUE).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa295"
+      ]
+     }
+    ],
+    "fingerprint": "ddbd7fd7afa46d31",
+    "inputs": {
+     "curated:what": "9fae76981852b7d0",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: quest ב-Level 32 (לפי שם הפריט). | טסט: quest ב-Level 200 (לפי שם הפריט). סוג מנגנון: timing",
+    "statements": [
+     {
+      "text_he": "קונטרול: quest ב-Level 32 (לפי שם הפריט). | טסט: quest ב-Level 200 (לפי שם הפריט).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa295"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: timing",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "58af8056da751a7b",
+    "inputs": {
+     "curated:control": "0b9d3932fe5e3889",
+     "curated:test": "ce20d385d5c0754d",
+     "curated:mech": "d1dccf9ad95a7892",
+     "generator": "he6-v2",
+     "wa:wa295": "1ffd87481a9cf43a"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: FTUE | התחלה: 2026-10-20",
+    "statements": [
+     {
+      "text_he": "קהל: FTUE | התחלה: 2026-10-20",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa295"
+      ]
+     }
+    ],
+    "fingerprint": "96015909e098a578",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "29f81dedb1b691c8",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "9baa60688b2e1934",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2",
+     "wa:wa295": "1ffd87481a9cf43a"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa295"
+      ]
+     }
+    ],
+    "fingerprint": "971572f7a0c08d37",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa295": "1ffd87481a9cf43a"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "איזה quest מועבר ומה ההשערה?",
+    "statements": [
+     {
+      "text_he": "איזה quest מועבר ומה ההשערה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "a0720229e53be713",
+    "inputs": {
+     "curated:questions": "b4cf687e1fa0628c",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "9b059f65e2a9314d",
+     "expl:limitations": "3d87e46ab1bb4997",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa295": "1ffd87481a9cf43a"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "timing",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "quest ב-Level 32 (לפי שם הפריט).",
+  "test_state": "quest ב-Level 200 (לפי שם הפריט).",
+  "audience": "FTUE",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13326086414",
+    "value": "1611 - Move quest from level 32 to 200 (FTUE)"
+   },
+   {
+    "ref": "wa:wa295",
+    "url": null,
+    "file": "2026-10-26.md",
+    "date": "2026-10-20"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1611-move-quest-from-level-32",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1611 - Move quest from level 32 to 200 (FTUE)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13326086414"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13326086414"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13326086414",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13326086414"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13326086414",
+   "test_id": "DOM-1611-move-quest-from-level-32",
+   "game": "Domino Dreams",
+   "name": "1611 - Move quest from level 32 to 200 (FTUE)",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Live",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa295"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-20",
+     "time": "16:03",
+     "sender": "Brody Tal",
+     "item_id": "wa295"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13326086414"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa295",
+   "date": "2026-10-20",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "—",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-25T09:10:33Z",
+  "updates": []
+ },
+ "glossary_concepts": [
+  "FTUE",
+  "Level"
+ ],
+ "content_fingerprint": "5f59bc78e1b111f72bfedd8bbff8da7dca0ff49c8ccff3fb82a689a7af36fe88",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

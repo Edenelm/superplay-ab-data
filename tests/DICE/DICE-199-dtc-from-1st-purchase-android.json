@@ -1,0 +1,797 @@
+{
+ "test_id": "DICE-199-dtc-from-1st-purchase-android",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "results",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-199-dtc-from-1st-purchase-android",
+  "legacy_keys": [
+   "dice199"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "18382788139",
+  "board_test_number": "199",
+  "name": "199 - DTC from 1st purchase (Android) stripe",
+  "lifecycle": "has_results",
+  "board_status_raw": "Done / Implemented",
+  "outcome_label": "success",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "Does allowing web (DTC/Stripe) purchase from the 1st purchase affect conversion and revenue for new Android players?",
+  "hypothesis": "Not stated on board. Update: “Users in test group will have DTC purchase enabled from 1st purchase”",
+  "change": "DTC (Stripe) purchase enabled from the 1st purchase (BO campaign 77509)",
+  "audience": "Tab: New Players, android - US · Board: empty",
+  "control_vs_test": "Control vs Test (split not stated)",
+  "split": null,
+  "start_date": "2025-11-18",
+  "end_date": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+  "phases": [],
+  "primary_kpi": "Not designated. p-values shown only for FTD Rate and FTD to 4TD",
+  "guardrails": null,
+  "tags": [
+   "First purchase / FTD",
+   "DTC",
+   "New players",
+   "Retention"
+  ],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Results tab: 199 - DTC 1st Purchase (anrodid)",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/18382788139"
+   },
+   {
+    "label": "Mixpanel",
+    "url": "https://mixpanel.com/s/2l2ntq"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/18382788139"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)"
+   }
+  ],
+  "verification": "VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "ID 199 and change match tab title A1; start date matches (A3); end differs (14/01/2026 vs 2026-01-18); board link has no gid, tab found by name + content; '1111 - DTC Android 4th Purchase' is a different test (ruled out)."
+ },
+ "results": [
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m01",
+   "metric": "Gross Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$770,836",
+     "value": 770836.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$785,496",
+     "value": 785496.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.9,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B6:D6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "689ad4eea1637c17"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m02",
+   "metric": "Net Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$615,438",
+     "value": 615438.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$641,752",
+     "value": 641752.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.28,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B8:D8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "e118feca38508352"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m03",
+   "metric": "Net IAP Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$524,176",
+     "value": 524176.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$548,405",
+     "value": 548405.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.62,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B12:D12"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "8b86a31c8474b823"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m04",
+   "metric": "FTD Rate",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "7.76%",
+     "value": 7.76,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "7.75%",
+     "value": 7.75,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.13,
+   "abs_diff_pp": -0.01,
+   "uncertainty": {
+    "p_value": 0.16,
+    "ci": null,
+    "note": "% (rel) · p=0.16 · −0.01 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B15:E15"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract"
+   },
+   "record_hash": "f2a9a0ef11e406ab"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m05",
+   "metric": "FTD to 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "37.23%",
+     "value": 37.23,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "36.93%",
+     "value": 36.93,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.81,
+   "abs_diff_pp": -0.3,
+   "uncertainty": {
+    "p_value": 0.31,
+    "ci": null,
+    "note": "% (rel) · p=0.31 · −0.30 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B16:E16"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract"
+   },
+   "record_hash": "063b324983d7d654"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m06",
+   "metric": "DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "102,979",
+     "value": 102979.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "104,805",
+     "value": 104805.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.77,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B18:D18"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d36400612d5fb031"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m07",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "16,106",
+     "value": 16106.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "16,158",
+     "value": 16158.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.32,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B20:D20"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "23220fef7cc0424c"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m08",
+   "metric": "Retention D30",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "11.26%",
+     "value": 11.26,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "11.01%",
+     "value": 11.01,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.22,
+   "abs_diff_pp": -0.25,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · −0.25 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B28:D28"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "260f8920fea7a0df"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «199 - DTC from 1st purchase (Android) stripe»: Does allowing web (DTC/Stripe) purchase from the 1st purchase affect conversion and revenue for new Android players?",
+    "statements": [
+     {
+      "text_he": "בודקים את «199 - DTC from 1st purchase (Android) stripe»: Does allowing web (DTC/Stripe) purchase from the 1st purchase affect conversion and revenue for new Android players?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     }
+    ],
+    "fingerprint": "a5d347e47057526f",
+    "inputs": {
+     "registry:name": "0e59c0dbd1778b6d",
+     "registry:business_question": "87e74f403ac17c07",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): DTC (Stripe) purchase enabled from the 1st purchase (BO campaign 77509) | קונטרול מול טסט: Control vs Test (split not stated) סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): DTC (Stripe) purchase enabled from the 1st purchase (BO campaign 77509) | קונטרול מול טסט: Control vs Test (split not stated)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     }
+    ],
+    "fingerprint": "9c8824874d2dac10",
+    "inputs": {
+     "registry:change": "e7f5bba19338eced",
+     "registry:control_vs_test": "f19b04ad63553660",
+     "registry:name": "0e59c0dbd1778b6d",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Tab: New Players, android - US · Board: empty | התחלה: 2025-11-18, סיום: 2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "statements": [
+     {
+      "text_he": "קהל: Tab: New Players, android - US · Board: empty | התחלה: 2025-11-18, סיום: 2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     }
+    ],
+    "fingerprint": "a8297b2feeddd7cb",
+    "inputs": {
+     "registry:audience": "227f285269280b5d",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "219abb68f6ff4dcc",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "eddd85d8a365961f",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור; השאלה העסקית: Does allowing web (DTC/Stripe) purchase from the 1st purchase affect conversion and revenue for new Android players?.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור; השאלה העסקית: Does allowing web (DTC/Stripe) purchase from the 1st purchase affect conversion and revenue for new Android players?.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     }
+    ],
+    "fingerprint": "3a5bc48df8af63b8",
+    "inputs": {
+     "registry:hypothesis": "2cc486a60079c7c7",
+     "registry:business_question": "87e74f403ac17c07",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): Revenue up (Net +4.28%, Net IAP +4.62%); FTD Rate flat (7.76% → 7.75%, p=0.16). הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Done / Implemented",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): Revenue up (Net +4.28%, Net IAP +4.62%); FTD Rate flat (7.76% → 7.75%, p=0.16).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     },
+     {
+      "text_he": "בבורד: Done / Implemented",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     }
+    ],
+    "fingerprint": "21c001cd1c00ad55",
+    "inputs": {
+     "results:": "32b1f663cbbb69b9",
+     "expl:what_happened": "27628068eafeade8",
+     "expl:business_meaning": "91cde068d73d0799",
+     "expl:decided": "a3165da6154de979",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change. חסר במקור: מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     },
+     {
+      "text_he": "חסר במקור: מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+      ]
+     }
+    ],
+    "fingerprint": "d6be0ede8e31fb47",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "10f06cc2b157b67d",
+     "registry:change": "e7f5bba19338eced",
+     "registry:control_vs_test": "f19b04ad63553660",
+     "registry:audience": "227f285269280b5d",
+     "registry:hypothesis": "2cc486a60079c7c7",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "Control vs Test (split not stated)",
+  "test_state": "DTC (Stripe) purchase enabled from the 1st purchase (BO campaign 77509)",
+  "audience": "Tab: New Players, android - US · Board: empty",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-199-dtc-from-1st-purchase-android",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): DTC (Stripe) purchase enabled from the 1st purchase (BO campaign 77509)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): Does allowing web (DTC/Stripe) purchase from the 1st purchase affect conversion and revenue for new Android players?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Tab: New Players, android - US · Board: empty · חלוקה: Control vs Test (split not stated)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Revenue up (Net +4.28%, Net IAP +4.62%); FTD Rate flat (7.76% → 7.75%, p=0.16).",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Done / Implemented",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18382788139",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DICE-199-dtc-from-1st-purchase-android::m01",
+   "DICE-199-dtc-from-1st-purchase-android::m02",
+   "DICE-199-dtc-from-1st-purchase-android::m03",
+   "DICE-199-dtc-from-1st-purchase-android::m04",
+   "DICE-199-dtc-from-1st-purchase-android::m05",
+   "DICE-199-dtc-from-1st-purchase-android::m06",
+   "DICE-199-dtc-from-1st-purchase-android::m07",
+   "DICE-199-dtc-from-1st-purchase-android::m08"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Revenue",
+  "DTC"
+ ],
+ "content_fingerprint": "b352f625b2fdf232dff9f5d82374a06389110f897898e88a9f1151983c5acbb3",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

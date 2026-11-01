@@ -1,0 +1,382 @@
+{
+ "test_id": "DOM-1501-duel-vs-tournament-onboarding",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DOM-1501-duel-vs-tournament-onboarding",
+  "legacy_keys": [
+   "dom1501duel"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12211730082",
+  "board_test_number": "1501",
+  "name": "1501 - Duel vs. Tournament Onboarding",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Completed - Update Status",
+  "outcome_label": "other",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "Opening the Duel instead of the Tournament in an onboarding way at Level 40 will increase retention and FTD",
+  "change": "Test (50%): Duel · Control (50%): Tournament",
+  "audience": "Users who installed since 2/24/2026 and reached level 40",
+  "control_vs_test": "see change",
+  "split": null,
+  "start_date": "2026-02-24",
+  "end_date": "2026-04-01",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "mismatch_board_vs_tab",
+    "msg": "Mixpanel dashboard '1501 - Duel vs. Tournament Onboarding' (id 10985039): name matches; Groups % 521 ≤ 260 Test / > 260 Control (~50/50) = board 50/50 and prime 521; level ≥ 40 = board population. DATES DISAGREE: dashboard range 2026-03-12 → 2026-04-10 vs board 2026-02-24 → 2026-04-01. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Revenue' (88443190), 'FTD CVR - Metric' (88494818)."
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Mixpanel: 1501 - Duel vs. Tournament Onboarding",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+   },
+   {
+    "label": "Mixpanel report: Revenue (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88443190"
+   },
+   {
+    "label": "Mixpanel report: FTD CVR - Metric (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88494818"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+   }
+  ],
+  "verification": "MISMATCH",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "Mixpanel dashboard '1501 - Duel vs. Tournament Onboarding' (id 10985039): name matches; Groups % 521 ≤ 260 Test / > 260 Control (~50/50) = board 50/50 and prime 521; level ≥ 40 = board population. DATES DISAGREE: dashboard range 2026-03-12 → 2026-04-10 vs board 2026-02-24 → 2026-04-01. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Revenue' (88443190), 'FTD CVR - Metric' (88494818)."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1501-duel-vs-tournament-onboarding",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-24",
+    "end": "2026-04-01",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "supersedes": null,
+   "result_id": "DOM-1501-duel-vs-tournament-onboarding::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211730082",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "0772820d2d38361f"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «1501 - Duel vs. Tournament Onboarding». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «1501 - Duel vs. Tournament Onboarding». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     }
+    ],
+    "fingerprint": "4efdc7b7e15c27cd",
+    "inputs": {
+     "registry:name": "ab94b419b4112822",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Test (50%): Duel · Control (50%): Tournament | קונטרול מול טסט: see change סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Test (50%): Duel · Control (50%): Tournament | קונטרול מול טסט: see change",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     }
+    ],
+    "fingerprint": "8f824f875d30c6e0",
+    "inputs": {
+     "registry:change": "94d90902c2ee6488",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:name": "ab94b419b4112822",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Users who installed since 2/24/2026 and reached level 40 | התחלה: 2026-02-24, סיום: 2026-04-01",
+    "statements": [
+     {
+      "text_he": "קהל: Users who installed since 2/24/2026 and reached level 40 | התחלה: 2026-02-24, סיום: 2026-04-01",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     }
+    ],
+    "fingerprint": "107e75a4d657e2bd",
+    "inputs": {
+     "registry:audience": "8433539169853634",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "3276d55f798fd5aa",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "43f55f901fde58f5",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Opening the Duel instead of the Tournament in an onboarding way at Level 40 will increase retention and FTD",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Opening the Duel instead of the Tournament in an onboarding way at Level 40 will increase retention and FTD",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     }
+    ],
+    "fingerprint": "9b359086018f71fd",
+    "inputs": {
+     "registry:hypothesis": "23fc43bf94a67f6c",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     }
+    ],
+    "fingerprint": "afde4d7cef6a0033",
+    "inputs": {
+     "results:": "a28ad65af0640828",
+     "expl:what_happened": "d7cfcc9f692922f8",
+     "expl:business_meaning": "72045e9c936cca02",
+     "expl:decided": "1427c295194dffd1",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "סתירה (מהמקור): Mixpanel dashboard '1501 - Duel vs. Tournament Onboarding' (id 10985039): name matches; Groups % 521 ≤ 260 Test / > 260 Control (~50/50) = board 50/50 and prime 521; level ≥ 40 = board population. DATES DISAGREE: dashboard range 2026-03-12 → 2026-04-10 vs board 2026-02-24 → 2026-04-01. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Revenue' (88443190), 'FTD CVR - Metric' (88494818).",
+    "statements": [
+     {
+      "text_he": "סתירה (מהמקור): Mixpanel dashboard '1501 - Duel vs. Tournament Onboarding' (id 10985039): name matches; Groups % 521 ≤ 260 Test / > 260 Control (~50/50) = board 50/50 and prime 521; level ≥ 40 = board population. DATES DISAGREE: dashboard range 2026-03-12 → 2026-04-10 vs board 2026-02-24 → 2026-04-01. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Revenue' (88443190), 'FTD CVR - Metric' (88494818).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+      ]
+     }
+    ],
+    "fingerprint": "61d6d9b05bfd0b42",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "1d92ccb8ab06c8dd",
+     "expl:limitations": "850b8529efe42e86",
+     "registry:change": "94d90902c2ee6488",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:audience": "8433539169853634",
+     "registry:hypothesis": "23fc43bf94a67f6c",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "see change",
+  "test_state": "Test (50%): Duel · Control (50%): Tournament",
+  "audience": "Users who installed since 2/24/2026 and reached level 40",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Opening the Duel instead of the Tournament in an onboarding way at Level 40 will increase retention and FTD",
+  "phases": [],
+  "conflicts": [
+   "Mixpanel dashboard '1501 - Duel vs. Tournament Onboarding' (id 10985039): name matches; Groups % 521 ≤ 260 Test / > 260 Control (~50/50) = board 50/50 and prime 521; level ≥ 40 = board population. DATES DISAGREE: dashboard range 2026-03-12 → 2026-04-10 vs board 2026-02-24 → 2026-04-01. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Revenue' (88443190), 'FTD CVR - Metric' (88494818)."
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10985039"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1501-duel-vs-tournament-onboarding",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Test (50%): Duel · Control (50%): Tournament",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Users who installed since 2/24/2026 and reached level 40 · חלוקה: see change",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): No results data on the board.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'other' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "יש אי-התאמה בין הבורד ללשונית. הערת ראיות (מהמקור): insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Completed - Update Status",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730082"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1501-duel-vs-tournament-onboarding::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "MISMATCH"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "FTD",
+  "Level",
+  "Duel",
+  "Tournament"
+ ],
+ "content_fingerprint": "e2e06b77826af3c6b449fdd1c14b82c4459066e02f4d347d9b5211693917ffd7",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

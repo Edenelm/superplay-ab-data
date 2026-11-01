@@ -1,0 +1,400 @@
+{
+ "test_id": "DOM-1611-weekly-tasks-harder-tasks",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DOM-1611-weekly-tasks-harder-tasks",
+  "legacy_keys": [
+   "live_13323321333"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13323321333",
+  "board_test_number": "1611",
+  "name": "1611 - Weekly tasks harder tasks",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-19",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/project/2735821/view/3271901/app/boards#id=11595668&filters=%7E%28%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Special*20Player%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27%21special_player%29%7E_B%7E%28label%7E%27special_player_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27special_player_status%29%7E_C%7E%28label%7E%27deactivated%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27deactivated%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27DEFINED*28*20_A*20*29*0aor*20*0aDEFINED*28*20_B*20*29*20*0aor*20*0a*20_C*20*20*3d*3d*20*22True*22%7Eis_superadmin%7Efalse%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Excluded*20User%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27people%7EuserInfo%7E%28email%7E%27Itayk*40superplay.co%7Eid%7E4083187%7Ename%7E%27Itay*20Karlin%29%29%7EcustomPropertyId%7E%275579573%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Excluded*20User%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27user%29%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Event*20Name%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27%21event_name%29%7E_B%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Purchase*20SKU%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27purchase_sku%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27*22STRIPE*22*20IN*20*20_A*20%7Eis_superadmin%7Etrue%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Is*20DTC*20Purchase%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%27purchase_sku%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27events%7EuserInfo%7E%28email%7E%27gil.h*40superplay.co%7Eid%7E4751908%7Ename%7E%27Gil*20*20Harari%29%29%7EcustomPropertyId%7E%275796710%7EjoinPropertyType%7E%27boolean%7Elabel%7E%27Is*20DTC*20Purchase%7EpropertyDefaultType%7E%27boolean%7EresourceType%7E%27event%7Etype%7E%27boolean%7Evalue%7E%27Is*20DTC*20Purchase%29%7E_C%7E%28label%7E%27GAID_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27GAID_status%29%7E_D%7E%28label%7E%27external*20order*20id%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27external*20order*20id%29%7E_E%7E%28label%7E%27Purchase*20SKU%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27purchase_sku%29%7E_F%7E%28label%7E%27IDFA_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27IDFA_status%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27*20_A*20*3d*22purchase*20completed*22*20AND*0a*0a*20_B*20*20*3d*20FALSE*0aAND*0a*0a*28*0a*28*28DEFINED*28*20_C*20*29*29*20AND*20*28NOT*20*22GPA.*22*20IN*20*20_D*20*29*20AND*20*28NOT*20*28*28*22STRIPE*22*20IN*20*20_E*20*29*20AND*20*28*20_D*20*20*3d*3d*20UNDEFINED*29*29*29*29*0a*0aOR*0a*0a*28*28DEFINED*28*20_F*20*29*29*20AND*20*28LEN*28*20_D*20*29*20*3e*3d*2017*29*29*0a*29%7Eis_superadmin%7Efalse%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Suspected*20Fraudulent*20Purchase%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%27GAID_status%7E%27purchase_method%7E%27purchase_sku%7E%27IDFA_status%7E%27%21event_name%7E%27external*20order*20id%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27events%7EuserInfo%7E%28email%7E%27Itayk*40superplay.co%7Eid%7E4083187%7Ename%7E%27Itay*20Karlin%29%29%7EcustomPropertyId%7E%27114057%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Suspected*20Fraudulent*20Purchase%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27event%29%7E%28defaultEmpty%7Efalse%7EfilterOperator%7E%27does*20not*20equal%7EfilterValue%7E%28%7E%27Israel%7E%27Romania%29%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%27mp_country_code%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27event%7EactiveValue%7E%28%7E%27Israel%7E%27Romania%29%29%7E%28customPropertyId%7E%275918145%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27is*20set%7EjoinPropertyType%7E%27string%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%271611*20-*20Weekly*20tasks*20harder*20tasks*20Groups%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27user%29%29",
+   "dashboards": [
+    {
+     "id": 11595668,
+     "title": "1611 - Weekly tasks harder tasks",
+     "modified": "2026-10-19",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11595668"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1611 is used by 3 board items in Domino Dreams: DOM-1611-low-balance-challenge-pb-10, DOM-1611-move-quest-from-level-32"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13323321333"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/project/2735821/view/3271901/app/boards#id=11595668&filters=%7E%28%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Special*20Player%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27%21special_player%29%7E_B%7E%28label%7E%27special_player_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27special_player_status%29%7E_C%7E%28label%7E%27deactivated%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27user%7Etype%7E%27string%7Evalue%7E%27deactivated%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27DEFINED*28*20_A*20*29*0aor*20*0aDEFINED*28*20_B*20*29*20*0aor*20*0a*20_C*20*20*3d*3d*20*22True*22%7Eis_superadmin%7Efalse%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Excluded*20User%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27people%7EuserInfo%7E%28email%7E%27Itayk*40superplay.co%7Eid%7E4083187%7Ename%7E%27Itay*20Karlin%29%29%7EcustomPropertyId%7E%275579573%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Excluded*20User%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27user%29%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Event*20Name%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27%21event_name%29%7E_B%7E%28customProperty%7E%28allow_staff_override%7Efalse%7EcanUpdateBasic%7Etrue%7Ecan_share%7Etrue%7EcomposedProperties%7E%28_A%7E%28label%7E%27Purchase*20SKU%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27purchase_sku%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27*22STRIPE*22*20IN*20*20_A*20%7Eis_superadmin%7Etrue%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Is*20DTC*20Purchase%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%27purchase_sku%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27events%7EuserInfo%7E%28email%7E%27gil.h*40superplay.co%7Eid%7E4751908%7Ename%7E%27Gil*20*20Harari%29%29%7EcustomPropertyId%7E%275796710%7EjoinPropertyType%7E%27boolean%7Elabel%7E%27Is*20DTC*20Purchase%7EpropertyDefaultType%7E%27boolean%7EresourceType%7E%27event%7Etype%7E%27boolean%7Evalue%7E%27Is*20DTC*20Purchase%29%7E_C%7E%28label%7E%27GAID_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27GAID_status%29%7E_D%7E%28label%7E%27external*20order*20id%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27external*20order*20id%29%7E_E%7E%28label%7E%27Purchase*20SKU%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27purchase_sku%29%7E_F%7E%28label%7E%27IDFA_status%7EpropertyDefaultType%7E%27string%7EresourceType%7E%27event%7Etype%7E%27string%7Evalue%7E%27IDFA_status%29%29%7Edescription%7E%27%7EdisplayFormula%7E%27*20_A*20*3d*22purchase*20completed*22*20AND*0a*0a*20_B*20*20*3d*20FALSE*0aAND*0a*0a*28*0a*28*28DEFINED*28*20_C*20*29*29*20AND*20*28NOT*20*22GPA.*22*20IN*20*20_D*20*29*20AND*20*28NOT*20*28*28*22STRIPE*22*20IN*20*20_E*20*29*20AND*20*28*20_D*20*20*3d*3d*20UNDEFINED*29*29*29*29*0a*0aOR*0a*0a*28*28DEFINED*28*20_F*20*29*29*20AND*20*28LEN*28*20_D*20*29*20*3e*3d*2017*29*29*0a*29%7Eis_superadmin%7Efalse%7EjoinPropertyType%7E%27boolean%7EmappedDataGroupId%7Enull%7Ename%7E%27Suspected*20Fraudulent*20Purchase%7Epre_populated_entity_id%7Enull%7EpropertyType%7E%27boolean%7EreferencedBy%7E%28%7E%29%7EreferencedDirectlyBy%7E%28%7E%29%7EreferencedRawEventProperties%7E%28%7E%27GAID_status%7E%27purchase_method%7E%27purchase_sku%7E%27IDFA_status%7E%27%21event_name%7E%27external*20order*20id%29%7EreferencesBorrowedProperty%7Efalse%7EresourceType%7E%27events%7EuserInfo%7E%28email%7E%27Itayk*40superplay.co%7Eid%7E4083187%7Ename%7E%27Itay*20Karlin%29%29%7EcustomPropertyId%7E%27114057%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27false%7EfilterValue%7Efalse%7EjoinPropertyType%7E%27boolean%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27boolean%7EpropertyName%7E%27Suspected*20Fraudulent*20Purchase%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27boolean%7EresourceType%7E%27event%29%7E%28defaultEmpty%7Efalse%7EfilterOperator%7E%27does*20not*20equal%7EfilterValue%7E%28%7E%27Israel%7E%27Romania%29%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%27mp_country_code%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27event%7EactiveValue%7E%28%7E%27Israel%7E%27Romania%29%29%7E%28customPropertyId%7E%275918145%7EdefaultEmpty%7Efalse%7EfilterOperator%7E%27is*20set%7EjoinPropertyType%7E%27string%7ElimitValues%7Efalse%7EpropertyDefaultType%7E%27string%7EpropertyName%7E%271611*20-*20Weekly*20tasks*20harder*20tasks*20Groups%7EpropertyObjectKey%7Enull%7EpropertyType%7E%27string%7EresourceType%7E%27user%29%29"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13323321333"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים משימות קשות יותר ב-Weekly tasks.",
+    "statements": [
+     {
+      "text_he": "בודקים משימות קשות יותר ב-Weekly tasks.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa286"
+      ]
+     }
+    ],
+    "fingerprint": "e562518a9988d922",
+    "inputs": {
+     "curated:what": "28b4e571f0d7b7a0",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: לא נכתב במקור | טסט: משימות Weekly קשות יותר (שם הפריט + WhatsApp). סוג מנגנון: difficulty",
+    "statements": [
+     {
+      "text_he": "קונטרול: לא נכתב במקור | טסט: משימות Weekly קשות יותר (שם הפריט + WhatsApp).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa286"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: difficulty",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "627584db63f6e9ff",
+    "inputs": {
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "0b2b6d73b5294692",
+     "curated:mech": "b700836d1c6194e6",
+     "generator": "he6-v2",
+     "wa:wa286": "1127af604fb4733e"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-19",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-19",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa286"
+      ]
+     }
+    ],
+    "fingerprint": "6fdaa711cb70ac7e",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "61341b09a3c76a1d",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2",
+     "wa:wa286": "1127af604fb4733e"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "wa:wa286"
+      ]
+     }
+    ],
+    "fingerprint": "f04ec5c83122c8b5",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa286": "1127af604fb4733e"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אילו משימות הוקשו ובכמה? האם התגמול השתנה? מה ההשערה?",
+    "statements": [
+     {
+      "text_he": "אילו משימות הוקשו ובכמה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "האם התגמול השתנה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "5565a8ad8155e8f7",
+    "inputs": {
+     "curated:questions": "090dd667da9205e6",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "5b698ac3860dbd78",
+     "expl:limitations": "252c58fe4b9eddb8",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "wa:wa286": "1127af604fb4733e"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "difficulty",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": "משימות Weekly קשות יותר (שם הפריט + WhatsApp).",
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13323321333",
+    "value": "1611 - Weekly tasks harder tasks"
+   },
+   {
+    "ref": "wa:wa286",
+    "url": null,
+    "file": "2026-10-26.md",
+    "date": "2026-10-19"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1611-weekly-tasks-harder-tasks",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1611 - Weekly tasks harder tasks",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13323321333"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13323321333"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13323321333",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13323321333"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13323321333",
+   "test_id": "DOM-1611-weekly-tasks-harder-tasks",
+   "game": "Domino Dreams",
+   "name": "1611 - Weekly tasks harder tasks",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Live",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa286"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-19",
+     "time": "14:49",
+     "sender": "Brody Tal",
+     "item_id": "wa286"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13323321333"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa286",
+   "date": "2026-10-19",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "new harder-tasks test today",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-19T11:34:04Z",
+  "updates": []
+ },
+ "glossary_concepts": [
+  "Weekly Goals"
+ ],
+ "content_fingerprint": "a0cf5d17fba023647a9610db2685560f720314a79d7c86f770e15ad2c75ea63a",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

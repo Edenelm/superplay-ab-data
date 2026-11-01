@@ -1,0 +1,358 @@
+{
+ "test_id": "DOM-1581-1581-dtc-remove-for-android",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DOM-1581-1581-dtc-remove-for-android",
+  "legacy_keys": [
+   "live_13179408516"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13179408516",
+  "board_test_number": "1581",
+  "name": "1581 DTC Remove For Android",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-01",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/2aYanw",
+   "dashboards": [
+    {
+     "id": 11559528,
+     "title": "1581 DTC Remove For Android",
+     "modified": "2026-10-18",
+     "url": "https://mixpanel.com/project/2735821/app/boards#id=11559528"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13179408516"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/2aYanw"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים הסרה של DTC באנדרואיד (לפי שם הפריט).",
+    "statements": [
+     {
+      "text_he": "בודקים הסרה של DTC באנדרואיד (לפי שם הפריט).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "monday_update:5604208697"
+      ]
+     }
+    ],
+    "fingerprint": "e559572503694862",
+    "inputs": {
+     "curated:what": "483a9a2203822a16",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: לא נכתב במקור | טסט: DTC מוסר באנדרואיד (לפי שם הפריט בלבד). סוג מנגנון: eligibility",
+    "statements": [
+     {
+      "text_he": "קונטרול: לא נכתב במקור | טסט: DTC מוסר באנדרואיד (לפי שם הפריט בלבד).",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name",
+       "monday_update:5604208697"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: eligibility",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "95fda161e32bbe77",
+    "inputs": {
+     "curated:control": "74234e98afe7498f",
+     "curated:test": "e32c895fb6112009",
+     "curated:mech": "519f010c1a5bfa19",
+     "generator": "he6-v2",
+     "monday_update:5604208697": "c76a35d88be370dc"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Android | התחלה: 2026-10-01 שלב/שינוי בהרצה: 2026-10-05: בקשה לפילוח משתמשים חדשים מול ותיקים (monday_update:5604208697).",
+    "statements": [
+     {
+      "text_he": "קהל: Android | התחלה: 2026-10-01",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "monday_update:5604208697"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2026-10-05: בקשה לפילוח משתמשים חדשים מול ותיקים (monday_update:5604208697).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "monday_update:5604208697"
+      ]
+     }
+    ],
+    "fingerprint": "80273688e530e8a8",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "857dc79ced1b65cc",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "166fc7fd58ee2d02",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "7dfb3bdcec72426c",
+     "generator": "he6-v2",
+     "monday_update:5604208697": "c76a35d88be370dc"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name",
+       "monday_update:5604208697"
+      ]
+     }
+    ],
+    "fingerprint": "fab81d15ba68afc0",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5604208697": "c76a35d88be370dc"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה בדיוק מוסר (כל ה-DTC או מסך/הצעה מסוימים) ולאיזה אחוז? מה ההשערה?",
+    "statements": [
+     {
+      "text_he": "מה בדיוק מוסר (כל ה-DTC או מסך/הצעה מסוימים) ולאיזה אחוז?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     },
+     {
+      "text_he": "מה ההשערה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_name"
+      ]
+     }
+    ],
+    "fingerprint": "fa0b6be0000d44dd",
+    "inputs": {
+     "curated:questions": "b082afc83bbbff12",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "de1d77d77141f964",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5604208697": "c76a35d88be370dc"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "eligibility",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": "DTC מוסר באנדרואיד (לפי שם הפריט בלבד).",
+  "audience": "Android",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [
+   "2026-10-05: בקשה לפילוח משתמשים חדשים מול ותיקים (monday_update:5604208697)."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_name",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+    "value": "1581 DTC Remove For Android"
+   },
+   {
+    "ref": "monday_update:5604208697",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+    "source_updated_at": "2026-10-05T12:03:37.000Z"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1581-1581-dtc-remove-for-android",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1581 DTC Remove For Android",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13179408516"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13179408516"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Live",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13179408516"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-26T12:42:16Z",
+  "updates": [
+   {
+    "update_id": "5604208697",
+    "created_at": "2026-10-05T12:03:37.000Z",
+    "updated_at": "2026-10-05T12:03:37.000Z",
+    "creator": "Brody Tal",
+    "text": "@Rotem Hashdi  plase add new vs old users",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "DTC"
+ ],
+ "content_fingerprint": "49ea30dd8047cf2b3e97e0e98bc5cbd9c0db2f59cb9aaaad882cc2a8aba131c6",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,0 +1,235 @@
+{
+ "test_id": "DOM-NOID-are-you-sure-offer",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DOM-NOID-are-you-sure-offer",
+  "legacy_keys": [
+   "bl_13287570455"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "13287570455",
+  "board_test_number": null,
+  "name": "Are you sure offer",
+  "lifecycle": "backlog",
+  "board_status_raw": "Backlog",
+  "board_group": "Backlog",
+  "backlog_substatus": {
+   "Next Step": "Start Date"
+  },
+  "owners": {
+   "Analyst": "Diana Khayet"
+  },
+  "priority": null,
+  "planned": null,
+  "due": null,
+  "added_date": "2026-10-14",
+  "type": "Pricing",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-29",
+  "end_date": "2026-11-26",
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "board",
+    "msg": "group 'Backlog' but start date 2026-10-29 has passed (end 2026-11-26)"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/backlog_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "backlog snapshot captures name/group/status/owners/dates only",
+   "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
+   "change": "backlog snapshot captures name/group/status/owners/dates only",
+   "audience": "backlog snapshot captures name/group/status/owners/dates only",
+   "control_vs_test": "backlog snapshot captures name/group/status/owners/dates only",
+   "split": "backlog snapshot captures name/group/status/owners/dates only",
+   "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
+   "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
+   "outcome_label": "not started"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «Are you sure offer». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «Are you sure offer». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+      ]
+     }
+    ],
+    "fingerprint": "29c18e5c3e7067af",
+    "inputs": {
+     "registry:name": "4a081e575b81e54d",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+      ]
+     }
+    ],
+    "fingerprint": "369fde384b381a47",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "4a081e575b81e54d",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-29, סיום: 2026-11-26",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-29, סיום: 2026-11-26",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+      ]
+     }
+    ],
+    "fingerprint": "d0f25f6ab55d0bfe",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "e1367037a0810c42",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "3499899299887758",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "סתירה (מהמקור): group 'Backlog' but start date 2026-10-29 has passed (end 2026-11-26) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "סתירה (מהמקור): group 'Backlog' but start date 2026-10-29 has passed (end 2026-11-26)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+      ]
+     },
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+      ]
+     }
+    ],
+    "fingerprint": "1817183056fc6a83",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "d5af2a7072bcf042",
+     "expl:limitations": "74234e98afe7498f",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [
+   "group 'Backlog' but start date 2026-10-29 has passed (end 2026-11-26)"
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/13287570455"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": null,
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [],
+ "content_fingerprint": "1a1bbdf00701ef47b4fa169f04f51a7b51016a5a6f10ca4fc0b0b27bc8036a62",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,4 +1,4 @@
-# Data dictionary — provider contract v1.1.0
+# Data dictionary — provider contract v1.2.0 (v1.2 adds the light layer; all v1.1 files and fields unchanged)
 
 **Conventions (all datasets)**
 - Files are UTF-8 JSON. Each one starts with a header: `dataset`, `contract_version`, `generated_at` (ISO 8601 with offset, Asia/Jerusalem) and `timezone`.
@@ -126,3 +126,45 @@ See METRIC_DEFINITIONS.md for the rendered table.
 
 ## whatsapp_items — `data/whatsapp_items.json` (supplementary source events)
 Fields: `id` (wa001…), `game`, `group`, `date`, `time`, `sender`, `test` (as written), `decision`, `nums`, `text`, `file`, `match`, `board_item`, `poss` (possible matches, never auto-linked).
+
+## v1.2 light layer (additive; `latest/*.json` aggregates are kept and remain the full basis)
+
+### glossary — `latest/glossary.json` (provider: `data/glossary.json`) → `concepts[]`; human view `docs/GLOSSARY.md`
+| field | meaning |
+|---|---|
+| concept_id | stable id (snake_case) |
+| canonical_name | the org's own term as written in sources (no invented translations) |
+| kind | metric / mechanic / feature / segment / event / process … |
+| aliases | other spellings/names that mean the same thing |
+| source_spellings | spelling → count of occurrences in registry/WA text |
+| per_game | DICE/DOM/DIS → {used, tests_with_term}; unified across games only where meaning is the same |
+| status | `defined_in_source` (definition quoted from a source) / `inferred_from_usage` (interpretation from usage) / `unclear` |
+| definition_he, definition_tag, definition_refs | definition, its tag (explicit_in_source / interpretation), refs |
+| question | the exact open question (required when status = unclear) |
+| not_same_as | concept_ids that look similar but must not be merged |
+| tags_he / tags_en | topic tags in Hebrew / English |
+
+### index — `index/tests_index.json` → `tests[]` (one per registry test)
+test_id, game, game_code, name, board_item_id, tier (`live` / `results` / `backlog`), lifecycle, board_status_raw, is_live, has_results, start_date, end_date, verification, summary_he, mechanism_type (price/reward/difficulty/timing/eligibility/display/other/unclear; always an interpretation), coverage (`full` / `partial` / `unclear` = 'המנגנון טרם הובהר' / `stub` = backlog), concepts (glossary ids), topics, tags_he, tags_en, flags (`conflict`, `mechanism_unclear`, `duplicate_test_number`), detail_file, fingerprint (= detail content_fingerprint[:16]), last_changed_at. Top-level `source_version` {test_registry_sha256, glossary_sha256, aggregate_fingerprint} and `counts`.
+
+### per-test file — `tests/<GAME>/<test_id>.json`
+| field | meaning |
+|---|---|
+| registry | the registry record |
+| results | this test's rows from test_results |
+| explanation_he.sections | `what_tested` מה בודקים, `what_changes` מה משתנה, `who_when` למי ומתי, `why` למה, `learned` מה למדנו (only when results or a WhatsApp decision exist), `unclear` מה עדיין לא ברור |
+| section.statements[] | {text_he, tag: explicit_in_source / interpretation, source_refs[≥1]} |
+| section.inputs / fingerprint | sha256[:16] of each source field used + generator version; the section is regenerated only when its fingerprint changes |
+| understanding | mechanism_type (+ tag), control_state, test_state, audience, trigger, target_behaviour, why, phases, conflicts (both values + refs), source_refs, curated |
+| explanation_legacy_8q | the v1.1 8-question explanation (unchanged) |
+| decisions, whatsapp, monday_updates_fetched | this test's decisions, WhatsApp items, Monday updates read this run |
+| content_fingerprint | sha256 of the file without content_fingerprint/last_changed_at |
+| last_changed_at | when the content last changed |
+
+Source ref formats as emitted: the record's own source URL (Monday item / Sheets / Mixpanel link, as in the registry or results `source_ref`), `monday_update:<update_id>`, `wa:<whatsapp_item_id>`, `monday_name` (the item name itself), `mp_dashboard_title` (a Mixpanel dashboard title only — never sufficient alone for the mechanism), `metric_definitions:<id>`, or a provider history file path.
+
+### state / logs
+`state/processing_state.json` (per-test and per-section fingerprints, source versions, accesses not retried), `PROCESSING_LOG.md` (what was checked against what; what is missing), `CHANGES.md` (per-run diff, newest first), `FILE_MAP.json/.md` (every file: bytes, sha256, contains, read_when).
+
+### manifest additions
+`datasets.glossary`; `layer` {index{file, schema, sha256, bytes, tests, aggregate_fingerprint}, tests_dir, detail_schema, state, file_map, changes, log}; `change_summary` {tests_added/updated/unchanged/removed, sections_regenerated/reused, needs_attention, coverage, publish{… diff vs the previously published repo}}. A dataset whose content (ignoring generated_at/updated_at) is unchanged keeps its previous file and sha256 (`content_unchanged_since`).

@@ -1,0 +1,476 @@
+{
+ "test_id": "DICE-NOID-dream-pass-reward-rush",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-NOID-dream-pass-reward-rush",
+  "legacy_keys": [
+   "live_18269690223"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "18269690223",
+  "board_test_number": "—",
+  "name": "Dream Pass –Reward Rush",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": null,
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "none",
+   "board_link": null,
+   "dashboards": [],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "board",
+    "msg": "Status 'Running' but no start date on the board"
+   },
+   {
+    "type": "board",
+    "msg": "Latest board update is from 2025-12-16"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "start_date": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים Dream Pass עם יותר משימות קלות (Reward Rush).",
+    "statements": [
+     {
+      "text_he": "בודקים Dream Pass עם יותר משימות קלות (Reward Rush).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     }
+    ],
+    "fingerprint": "85e7acf61789136a",
+    "inputs": {
+     "curated:what": "1db17e8a6fb6501d",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: 12 משימות. | טסט: 24 משימות קלות יותר, עם אותו סך תגמולים. סוג מנגנון: difficulty",
+    "statements": [
+     {
+      "text_he": "קונטרול: 12 משימות. | טסט: 24 משימות קלות יותר, עם אותו סך תגמולים.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: difficulty",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:4612116795"
+      ]
+     }
+    ],
+    "fingerprint": "bad12eeb0bc6d367",
+    "inputs": {
+     "curated:control": "4043a7b6d9cf0720",
+     "curated:test": "caa5e6aa0cb84c9a",
+     "curated:mech": "b700836d1c6194e6",
+     "generator": "he6-v2",
+     "monday_update:4612116795": "532b76f6c68d5404",
+     "monday_update:4614024174": "93a3f29adc840cb3",
+     "monday_update:4756742828": "4fae9d882d3b0546"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע שלב/שינוי בהרצה: 2025-10-25: תכנון 12 מול 24 (Eden). שלב/שינוי בהרצה: 2025-10-27: 'Lets do 18 steps instead of 12' (Aviram). שלב/שינוי בהרצה: 2025-12-16: 'new test: reward rush for user behind in DP' (Saar).",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2025-10-25: תכנון 12 מול 24 (Eden).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2025-10-27: 'Lets do 18 steps instead of 12' (Aviram).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2025-12-16: 'new test: reward rush for user behind in DP' (Saar).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     }
+    ],
+    "fingerprint": "417f7416b511f5d1",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "74234e98afe7498f",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "7a14d5e925a218bf",
+     "generator": "he6-v2",
+     "monday_update:4612116795": "532b76f6c68d5404",
+     "monday_update:4614024174": "93a3f29adc840cb3",
+     "monday_update:4756742828": "4fae9d882d3b0546"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "יותר ניצחונות קטנים ותגמולים נעולים גלויים יעודדו קנייה של Premium Pass. התנהגות יעד: רכישת Premium Pass, השלמה ו-engagement",
+    "statements": [
+     {
+      "text_he": "יותר ניצחונות קטנים ותגמולים נעולים גלויים יעודדו קנייה של Premium Pass.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: רכישת Premium Pass, השלמה ו-engagement",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174"
+      ]
+     }
+    ],
+    "fingerprint": "66d76fd58b153ce7",
+    "inputs": {
+     "curated:why": "133bed33694d925b",
+     "curated:target": "5b16ca1554303f5b",
+     "generator": "he6-v2",
+     "monday_update:4612116795": "532b76f6c68d5404",
+     "monday_update:4614024174": "93a3f29adc840cb3",
+     "monday_update:4756742828": "4fae9d882d3b0546"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "כמה משימות יש בגרסה שרצה (18 או 24)? האם הגרסה החיה היא 'reward rush for users behind in DP'? מתי עלה? סתירה: מספר המשימות בטסט: 24 (תכנון 2025-10-25) מול 18 (2025-10-27). סתירה: בבורד אין תאריך התחלה; ייתכן שיש יותר מגרסה אחת (עדכון 2025-12-16 מתאר טסט חדש למשתמשים שמפגרים ב-DP). סתירה (מהמקור): Status 'Running' but no start date on the board סתירה (מהמקור): Latest board update is from 2025-12-16",
+    "statements": [
+     {
+      "text_he": "כמה משימות יש בגרסה שרצה (18 או 24)?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795"
+      ]
+     },
+     {
+      "text_he": "האם הגרסה החיה היא 'reward rush for users behind in DP'?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795"
+      ]
+     },
+     {
+      "text_he": "מתי עלה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795"
+      ]
+     },
+     {
+      "text_he": "סתירה: מספר המשימות בטסט: 24 (תכנון 2025-10-25) מול 18 (2025-10-27).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     },
+     {
+      "text_he": "סתירה: בבורד אין תאריך התחלה; ייתכן שיש יותר מגרסה אחת (עדכון 2025-12-16 מתאר טסט חדש למשתמשים שמפגרים ב-DP).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:4612116795",
+       "monday_update:4614024174",
+       "monday_update:4756742828"
+      ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): Status 'Running' but no start date on the board",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+      ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): Latest board update is from 2025-12-16",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+      ]
+     }
+    ],
+    "fingerprint": "c0e33905a3f1656e",
+    "inputs": {
+     "curated:questions": "0e5074e194566a2b",
+     "curated:conflicts": "949c0f44606f8e1f",
+     "registry:conflicts": "8ede8acdc4f2972c",
+     "expl:limitations": "3f9bdfeebe93e1db",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:4612116795": "532b76f6c68d5404",
+     "monday_update:4614024174": "93a3f29adc840cb3",
+     "monday_update:4756742828": "4fae9d882d3b0546"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "difficulty",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "12 משימות.",
+  "test_state": "24 משימות קלות יותר, עם אותו סך תגמולים.",
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": "רכישת Premium Pass, השלמה ו-engagement",
+  "why": "יותר ניצחונות קטנים ותגמולים נעולים גלויים יעודדו קנייה של Premium Pass.",
+  "phases": [
+   "2025-10-25: תכנון 12 מול 24 (Eden).",
+   "2025-10-27: 'Lets do 18 steps instead of 12' (Aviram).",
+   "2025-12-16: 'new test: reward rush for user behind in DP' (Saar)."
+  ],
+  "conflicts": [
+   "מספר המשימות בטסט: 24 (תכנון 2025-10-25) מול 18 (2025-10-27).",
+   "בבורד אין תאריך התחלה; ייתכן שיש יותר מגרסה אחת (עדכון 2025-12-16 מתאר טסט חדש למשתמשים שמפגרים ב-DP).",
+   "Status 'Running' but no start date on the board",
+   "Latest board update is from 2025-12-16"
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_update:4612116795",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/18269690223",
+    "source_updated_at": "2025-10-25T15:42:23.000Z"
+   },
+   {
+    "ref": "monday_update:4614024174",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/18269690223",
+    "source_updated_at": "2025-10-27T12:23:15.000Z"
+   },
+   {
+    "ref": "monday_update:4756742828",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/18269690223",
+    "source_updated_at": "2025-12-16T14:10:06.000Z"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-NOID-dream-pass-reward-rush",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: Dream Pass –Reward Rush",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/18269690223"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-01T08:23:46Z",
+  "updates": [
+   {
+    "update_id": "4756742828",
+    "created_at": "2025-12-16T14:09:30.000Z",
+    "updated_at": "2025-12-16T14:10:06.000Z",
+    "creator": "Saar Haghi",
+    "text": "new tesst:\n\nreward rush for user behind in DP\n@sahar shtekel \n@Aviv Major",
+    "replies": []
+   },
+   {
+    "update_id": "4614024174",
+    "created_at": "2025-10-27T12:23:15.000Z",
+    "updated_at": "2025-10-27T12:23:15.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "Lets do 18 steps instead of 12. If it works we can try more.",
+    "replies": []
+   },
+   {
+    "update_id": "4612116974",
+    "created_at": "2025-10-25T15:10:35.000Z",
+    "updated_at": "2025-10-25T15:10:35.000Z",
+    "creator": "Eden Elmaliach",
+    "text": "https://superplay.monday.com/protected_static/3769936/resources/2510313435/4dfbd0977379461bc60bb0609...",
+    "replies": []
+   },
+   {
+    "update_id": "4612116795",
+    "created_at": "2025-10-25T15:10:00.000Z",
+    "updated_at": "2025-10-25T15:42:23.000Z",
+    "creator": "Eden Elmaliach",
+    "text": "Goal:\n\nBoost player motivation and sense of progress by having 24 easier missions instead of 12.\n\nIdea:\n\nMore small wins and visible locked rewards encourage players to buy the Premium Pass, even though total rewards stay the same.\n\nSetup:\n\nControl – 12 missions\n\nTest – 24 easier missions\n\nMeasure:\n\nPremium Pass purchase rate, completion, and engagement.\n4dfbd0977379461bc60bb06097e186a1.mp4",
+    "replies": [
+     {
+      "created_at": "2025-10-25T15:42:23.000Z",
+      "creator": "Eden Elmaliach",
+      "text": "In essence, expanding to 32 levels is a strategy to keep players engaged for longer, increase the perceived value of the paid pass, and create a more compelling reward journey that can be tailored to different player spending habits."
+     }
+    ]
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "Dream Pass"
+ ],
+ "content_fingerprint": "1ebc4fa9af41d25f865c24a1769f3187acf09a906c23abffb23bce89c564a94e",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

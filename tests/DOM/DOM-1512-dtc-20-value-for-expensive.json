@@ -1,0 +1,361 @@
+{
+ "test_id": "DOM-1512-dtc-20-value-for-expensive",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DOM-1512-dtc-20-value-for-expensive",
+  "legacy_keys": [
+   "dom1512dtc"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12211730973",
+  "board_test_number": "1512",
+  "name": "1512- DTC +20% value for expensive offers",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Deployed",
+  "outcome_label": "success",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "Measure whether a stronger value proposition on premium offers improves conversion rate and revenue per user",
+  "change": "Extra value 10% → 20% on the two highest-priced offer tiers for DTC payers",
+  "audience": "USA",
+  "control_vs_test": "see change",
+  "split": null,
+  "start_date": "2026-04-16",
+  "end_date": "2026-05-05",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "No results link on the board. Domino Dreams AB Tests Results (29 tabs) has no tab with this ID + name."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1512-dtc-20-value-for-expensive",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-04-16",
+    "end": "2026-05-05",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "supersedes": null,
+   "result_id": "DOM-1512-dtc-20-value-for-expensive::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211730973",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "ebbaaf73cbf3d923"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «1512- DTC +20% value for expensive offers». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «1512- DTC +20% value for expensive offers». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     }
+    ],
+    "fingerprint": "f61a39c8e7b7bd6e",
+    "inputs": {
+     "registry:name": "ec61ede949db6ced",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Extra value 10% → 20% on the two highest-priced offer tiers for DTC payers | קונטרול מול טסט: see change סוג מנגנון: price (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Extra value 10% → 20% on the two highest-priced offer tiers for DTC payers | קונטרול מול טסט: see change",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: price (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     }
+    ],
+    "fingerprint": "4ba51626c564f6cf",
+    "inputs": {
+     "registry:change": "55e250130430e32d",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:name": "ec61ede949db6ced",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: USA | התחלה: 2026-04-16, סיום: 2026-05-05",
+    "statements": [
+     {
+      "text_he": "קהל: USA | התחלה: 2026-04-16, סיום: 2026-05-05",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     }
+    ],
+    "fingerprint": "526faaa7f41e6042",
+    "inputs": {
+     "registry:audience": "79b7bc1087d56667",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "01a2dd330cb053f2",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "8cfe2736c6095ce2",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Measure whether a stronger value proposition on premium offers improves conversion rate and revenue per user",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Measure whether a stronger value proposition on premium offers improves conversion rate and revenue per user",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     }
+    ],
+    "fingerprint": "a972936a105774ca",
+    "inputs": {
+     "registry:hypothesis": "78a5ebf2095e1b2a",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     }
+    ],
+    "fingerprint": "08c11c1c3d85d1ff",
+    "inputs": {
+     "results:": "8edbba8f91a3b9e1",
+     "expl:what_happened": "c50ee920a8468202",
+     "expl:business_meaning": "953e0093fc24beba",
+     "expl:decided": "21a5be11309aa515",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "לא נמצאו שאלות פתוחות במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "לא נמצאו שאלות פתוחות במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+      ]
+     }
+    ],
+    "fingerprint": "2889d2b9f840f6d5",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "e98ecdae33519d5f",
+     "registry:change": "55e250130430e32d",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:audience": "79b7bc1087d56667",
+     "registry:hypothesis": "78a5ebf2095e1b2a",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "price",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "see change",
+  "test_state": "Extra value 10% → 20% on the two highest-priced offer tiers for DTC payers",
+  "audience": "USA",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Measure whether a stronger value proposition on premium offers improves conversion rate and revenue per user",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1512-dtc-20-value-for-expensive",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Extra value 10% → 20% on the two highest-priced offer tiers for DTC payers",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): USA · חלוקה: see change",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): No results data on the board.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): insufficient — no metrics",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Deployed",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211730973"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1512-dtc-20-value-for-expensive::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Revenue",
+  "DTC"
+ ],
+ "content_fingerprint": "96b28f09d2fddfe5b7d733f766db4810d801209c8711545824acd6623999ade1",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

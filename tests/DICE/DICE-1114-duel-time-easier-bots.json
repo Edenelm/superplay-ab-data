@@ -1,0 +1,360 @@
+{
+ "test_id": "DICE-1114-duel-time-easier-bots",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-1114-duel-time-easier-bots",
+  "legacy_keys": [
+   "live_13348978080"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "13348978080",
+  "board_test_number": "1114",
+  "name": "1114 - Duel Time Easier Bots",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-21",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/2csvYC",
+   "dashboards": [
+    {
+     "id": 11602174,
+     "title": "1114 - Duel Time Easier Bots",
+     "modified": "2026-10-21",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11602174"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1114 is used by 2 board items in Dice Dreams: DICE-1114-tournament-v2-after-fix-round"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13348978080"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/2csvYC"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/13348978080"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים בוטים קלים יותר ב-Duel Time.",
+    "statements": [
+     {
+      "text_he": "בודקים בוטים קלים יותר ב-Duel Time.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     }
+    ],
+    "fingerprint": "fae8b4d00cbf6d9e",
+    "inputs": {
+     "curated:what": "0e95ef3c381f7bab",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: Duel event 1: ארבעה Duels 5/15/15/15. | טסט: אותו מבנה (ארבעה Duels 5/15/15/15), עם בוטים קלים יותר. סוג מנגנון: difficulty",
+    "statements": [
+     {
+      "text_he": "קונטרול: Duel event 1: ארבעה Duels 5/15/15/15. | טסט: אותו מבנה (ארבעה Duels 5/15/15/15), עם בוטים קלים יותר.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: difficulty",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     }
+    ],
+    "fingerprint": "1e27375f85da0266",
+    "inputs": {
+     "curated:control": "6ad0125c553952c2",
+     "curated:test": "e2f17c922e3b1e5d",
+     "curated:mech": "b700836d1c6194e6",
+     "generator": "he6-v2",
+     "monday_update:5652766627": "ce76566320f1f04e"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | טריגר: Duel event | התחלה: 2026-10-21 שלב/שינוי בהרצה: split לפי ABTestV2(181,0,90,...) לקונטרול ו-ABTestV2(181,91,180,...) לטסט, כלומר בערך 50/50 (פרשנות של הפרמטרים).",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | טריגר: Duel event | התחלה: 2026-10-21",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: split לפי ABTestV2(181,0,90,...) לקונטרול ו-ABTestV2(181,91,180,...) לטסט, כלומר בערך 50/50 (פרשנות של הפרמטרים).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     }
+    ],
+    "fingerprint": "c8eb1a4c19832c96",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "330142fe0ecbccc0",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "285b9e728e8159cb",
+     "curated:phases": "448bc0bccb5d2883",
+     "generator": "he6-v2",
+     "monday_update:5652766627": "ce76566320f1f04e"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההתקדמות הייתה קשה ורוב המשתמשים לא עברו את ה-Duel השני; הטסט מאפשר יותר התקדמות דרך בוטים קלים יותר. התנהגות יעד: יותר התקדמות ב-Duel",
+    "statements": [
+     {
+      "text_he": "ההתקדמות הייתה קשה ורוב המשתמשים לא עברו את ה-Duel השני; הטסט מאפשר יותר התקדמות דרך בוטים קלים יותר.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     },
+     {
+      "text_he": "התנהגות יעד: יותר התקדמות ב-Duel",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     }
+    ],
+    "fingerprint": "3a3ef2eadd62a694",
+    "inputs": {
+     "curated:why": "60cca433774ac45e",
+     "curated:target": "5cd13444202536d2",
+     "generator": "he6-v2",
+     "monday_update:5652766627": "ce76566320f1f04e"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "למי הטסט (כל השחקנים? טווח K?) מה ה-KPI הראשי?",
+    "statements": [
+     {
+      "text_he": "למי הטסט (כל השחקנים? טווח K?)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     },
+     {
+      "text_he": "מה ה-KPI הראשי?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5652766627"
+      ]
+     }
+    ],
+    "fingerprint": "52b4da83b195db39",
+    "inputs": {
+     "curated:questions": "072bdd8d73fe30ba",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "b1d03bd99e1b81ee",
+     "expl:limitations": "d7fb52dfaa7b5b30",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5652766627": "ce76566320f1f04e"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "difficulty",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "Duel event 1: ארבעה Duels 5/15/15/15.",
+  "test_state": "אותו מבנה (ארבעה Duels 5/15/15/15), עם בוטים קלים יותר.",
+  "audience": null,
+  "trigger": "Duel event",
+  "target_behaviour": "יותר התקדמות ב-Duel",
+  "why": "ההתקדמות הייתה קשה ורוב המשתמשים לא עברו את ה-Duel השני; הטסט מאפשר יותר התקדמות דרך בוטים קלים יותר.",
+  "phases": [
+   "split לפי ABTestV2(181,0,90,...) לקונטרול ו-ABTestV2(181,91,180,...) לטסט, כלומר בערך 50/50 (פרשנות של הפרמטרים)."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_update:5652766627",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13348978080",
+    "source_updated_at": "2026-10-21T17:24:13.000Z"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1114-duel-time-easier-bots",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1114 - Duel Time Easier Bots",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13348978080"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13348978080"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13348978080"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-21T17:14:32Z",
+  "updates": [
+   {
+    "update_id": "5652766627",
+    "created_at": "2026-10-21T17:13:43.000Z",
+    "updated_at": "2026-10-21T17:24:13.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "Description: Easier bots for better progression\n\nReason:\n\nProgression was difficult and most users couldn't get past the 2nd Duel. \n\nThis test makes allows for more progression through easier bots.\n\nControl : Duel event 1: 4 Duels 5/15/15/15\n\nseg_TEST:1114_Duel_Time_Easier_Bots;Group:1 -ABTestV2(181,0,90,133,0)\n\nTest : 3 Duel event 1: 4 Duels 5/15/15/15 - Easier bots\n\nseg_TEST:1114_Duel_Time_Easier_Bots;Group:2 - ABTestV2(181,91,180,133,1)",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "Duel"
+ ],
+ "content_fingerprint": "94152ad5ff3684ad180fab9f7b4757d6e31635b4f6f0192f6721a4bc974b7792",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

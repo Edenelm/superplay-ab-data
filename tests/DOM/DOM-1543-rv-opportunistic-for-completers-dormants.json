@@ -1,0 +1,366 @@
+{
+ "test_id": "DOM-1543-rv-opportunistic-for-completers-dormants",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DOM-1543-rv-opportunistic-for-completers-dormants",
+  "legacy_keys": [
+   "dom1543rvo"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12450034201",
+  "board_test_number": "1543",
+  "name": "1543 - RV Opportunistic for Completers Dormants",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Aborted",
+  "outcome_label": "lost",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "We will see an increase in rev from this new rv segment",
+  "change": "Test gets 1PO once a week on Wednesday",
+  "audience": "Funnelists who didn't purchase in the last 14 days, cz<$20",
+  "control_vs_test": "see change",
+  "split": null,
+  "start_date": "2026-07-16",
+  "end_date": "2026-08-12",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1543 is used by 2 board items in Domino Dreams: DOM-1543-rv-stuck-in-funnel-users"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "No results link on the board. Domino Dreams AB Tests Results (29 tabs) has no tab with this ID + name."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1543-rv-opportunistic-for-completers-dormants",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-16",
+    "end": "2026-08-12",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics (board text only, not traceable to cells)",
+   "supersedes": null,
+   "result_id": "DOM-1543-rv-opportunistic-for-completers-dormants::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Board Test Results text: “Test was indifferent; aborted”",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12450034201",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "ae832da796267439"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «1543 - RV Opportunistic for Completers Dormants». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «1543 - RV Opportunistic for Completers Dormants». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     }
+    ],
+    "fingerprint": "2c492b3a9c084ddd",
+    "inputs": {
+     "registry:name": "2bc43b2f5ed978da",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): Test gets 1PO once a week on Wednesday | קונטרול מול טסט: see change סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): Test gets 1PO once a week on Wednesday | קונטרול מול טסט: see change",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     }
+    ],
+    "fingerprint": "427f10585c01dfa1",
+    "inputs": {
+     "registry:change": "a4b8d84947150201",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:name": "2bc43b2f5ed978da",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Funnelists who didn't purchase in the last 14 days, cz<$20 | התחלה: 2026-07-16, סיום: 2026-08-12",
+    "statements": [
+     {
+      "text_he": "קהל: Funnelists who didn't purchase in the last 14 days, cz<$20 | התחלה: 2026-07-16, סיום: 2026-08-12",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     }
+    ],
+    "fingerprint": "910629bd635b03da",
+    "inputs": {
+     "registry:audience": "44ea3c2044e2fb0e",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "8f12ee07e0c0a04d",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "bdcb4b9a1dd2fde4",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): We will see an increase in rev from this new rv segment",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): We will see an increase in rev from this new rv segment",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     }
+    ],
+    "fingerprint": "36e33f6bbc83a981",
+    "inputs": {
+     "registry:hypothesis": "9faecbe99547d52e",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     }
+    ],
+    "fingerprint": "8a118d7a328aa167",
+    "inputs": {
+     "results:": "fb088cbc6bdb1952",
+     "expl:what_happened": "51018c1ccb9b2817",
+     "expl:business_meaning": "93739af22958091c",
+     "expl:decided": "217e0b8c02fe1108",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "לא נמצאו שאלות פתוחות במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "לא נמצאו שאלות פתוחות במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+      ]
+     }
+    ],
+    "fingerprint": "b51f8869b0f648b6",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "1152194fe9a9f0b5",
+     "expl:limitations": "cf24e18f686d6e24",
+     "registry:change": "a4b8d84947150201",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:audience": "44ea3c2044e2fb0e",
+     "registry:hypothesis": "9faecbe99547d52e",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "see change",
+  "test_state": "Test gets 1PO once a week on Wednesday",
+  "audience": "Funnelists who didn't purchase in the last 14 days, cz<$20",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "We will see an increase in rev from this new rv segment",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1543-rv-opportunistic-for-completers-dormants",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): Test gets 1PO once a week on Wednesday",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Funnelists who didn't purchase in the last 14 days, cz<$20 · חלוקה: see change",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Board Test Results text: “Test was indifferent; aborted”",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): insufficient — no metrics (board text only, not traceable to cells)",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Aborted",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12450034201"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1543-rv-opportunistic-for-completers-dormants::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Dormants",
+  "RV"
+ ],
+ "content_fingerprint": "70e2de58b709147b252026a455aaa145b9a059fde3cf703a55f49627c1958f4e",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

@@ -1,0 +1,441 @@
+{
+ "test_id": "DICE-NOID-trail-weekend-recomp",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-NOID-trail-weekend-recomp",
+  "legacy_keys": [
+   "live_13235807076"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "13235807076",
+  "board_test_number": "—",
+  "name": "Trail Weekend Recomp",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-10-23",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "possible",
+   "board_link": "https://mixpanel.com/s/2QJYzQ",
+   "dashboards": [],
+   "possible": [
+    {
+     "id": 11604213,
+     "title": "1114 - Weekend Trail Recomp Test",
+     "modified": "2026-10-25",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11604213"
+    }
+   ],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/2QJYzQ"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים חוויית recompletion חדשה ב-Trail של סוף השבוע.",
+    "statements": [
+     {
+      "text_he": "בודקים חוויית recompletion חדשה ב-Trail של סוף השבוע.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679",
+       "monday_update:5615436935",
+       "wa:wa311"
+      ]
+     }
+    ],
+    "fingerprint": "ec790615dc47a697",
+    "inputs": {
+     "curated:what": "37166fff2e17c864",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: ללא שינוי. | טסט: ב-recompletion השחקן מקבל trail של 10 tiers, עם Double wheel ו-all or nothing; אין DRs ATW, רק booster, rolls, TE; ה-GP טוב פי 1.5. סוג מנגנון: reward",
+    "statements": [
+     {
+      "text_he": "קונטרול: ללא שינוי. | טסט: ב-recompletion השחקן מקבל trail של 10 tiers, עם Double wheel ו-all or nothing; אין DRs ATW, רק booster, rolls, TE; ה-GP טוב פי 1.5.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679",
+       "monday_update:5615436935",
+       "wa:wa311"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: reward",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5658682679"
+      ]
+     }
+    ],
+    "fingerprint": "d4147d7e4e4905bd",
+    "inputs": {
+     "curated:control": "0e562f5caa9ae9ad",
+     "curated:test": "21d68cce26e5ef66",
+     "curated:mech": "5acd988f38865afc",
+     "generator": "he6-v2",
+     "monday_update:5658682679": "59bb297a33ef1601",
+     "monday_update:5615436935": "1306cebdc999e3f4",
+     "wa:wa311": "efa1799b36539c80"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | טריגר: recompletion של ה-Trail | התחלה: 2026-10-23 שלב/שינוי בהרצה: 2026-10-08: רעיון ראשוני (2 recompletions בלי משאבים מלבד TE, rolls, boosters; המשאבים עוברים ל-GP). שלב/שינוי בהרצה: התחיל 23/10/2026 12:00 UTC; split של ABTestV2(131,0,65) מול (131,66,130), בערך 50/50 (פרשנות).",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | טריגר: recompletion של ה-Trail | התחלה: 2026-10-23",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679",
+       "monday_update:5615436935",
+       "wa:wa311"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2026-10-08: רעיון ראשוני (2 recompletions בלי משאבים מלבד TE, rolls, boosters; המשאבים עוברים ל-GP).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679",
+       "monday_update:5615436935",
+       "wa:wa311"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: התחיל 23/10/2026 12:00 UTC; split של ABTestV2(131,0,65) מול (131,66,130), בערך 50/50 (פרשנות).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679",
+       "monday_update:5615436935",
+       "wa:wa311"
+      ]
+     }
+    ],
+    "fingerprint": "d2ab5cbeb1ef2ca3",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "973384eff6a5cc45",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "74234e98afe7498f",
+     "curated:trigger": "8e57f40d5ecd9a86",
+     "curated:phases": "dff7feb2c8107933",
+     "generator": "he6-v2",
+     "monday_update:5658682679": "59bb297a33ef1601",
+     "monday_update:5615436935": "1306cebdc999e3f4",
+     "wa:wa311": "efa1799b36539c80"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "חוויית recompletion שונה עם תגמול מאוחר (Different, late rewarding recompletion experience).",
+    "statements": [
+     {
+      "text_he": "חוויית recompletion שונה עם תגמול מאוחר (Different, late rewarding recompletion experience).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679",
+       "monday_update:5615436935"
+      ]
+     }
+    ],
+    "fingerprint": "1258366faba0c52e",
+    "inputs": {
+     "curated:why": "ef80e2bf72f87d25",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5658682679": "59bb297a33ef1601",
+     "monday_update:5615436935": "1306cebdc999e3f4",
+     "wa:wa311": "efa1799b36539c80"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "למי הטסט ומה ה-KPI?",
+    "statements": [
+     {
+      "text_he": "למי הטסט ומה ה-KPI?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5658682679"
+      ]
+     }
+    ],
+    "fingerprint": "6cca3ce2514eb80c",
+    "inputs": {
+     "curated:questions": "d6a8363aa5b694d2",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "1c9bfa9aecd3bf96",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5658682679": "59bb297a33ef1601",
+     "monday_update:5615436935": "1306cebdc999e3f4",
+     "wa:wa311": "efa1799b36539c80"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "reward",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "ללא שינוי.",
+  "test_state": "ב-recompletion השחקן מקבל trail של 10 tiers, עם Double wheel ו-all or nothing; אין DRs ATW, רק booster, rolls, TE; ה-GP טוב פי 1.5.",
+  "audience": null,
+  "trigger": "recompletion של ה-Trail",
+  "target_behaviour": null,
+  "why": "חוויית recompletion שונה עם תגמול מאוחר (Different, late rewarding recompletion experience).",
+  "phases": [
+   "2026-10-08: רעיון ראשוני (2 recompletions בלי משאבים מלבד TE, rolls, boosters; המשאבים עוברים ל-GP).",
+   "התחיל 23/10/2026 12:00 UTC; split של ABTestV2(131,0,65) מול (131,66,130), בערך 50/50 (פרשנות)."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_update:5658682679",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13235807076",
+    "source_updated_at": "2026-10-23T12:12:19.000Z"
+   },
+   {
+    "ref": "monday_update:5615436935",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13235807076",
+    "source_updated_at": "2026-10-08T07:00:15.000Z"
+   },
+   {
+    "ref": "wa:wa311",
+    "url": null,
+    "file": "2026-10-26.md",
+    "date": "2026-10-23"
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-NOID-trail-weekend-recomp",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: Trail Weekend Recomp",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: possible",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13235807076",
+     "2026-10-26.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13235807076",
+   "test_id": "DICE-NOID-trail-weekend-recomp",
+   "game": "Dice Dreams",
+   "name": "Trail Weekend Recomp",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Running",
+   "numbers_quoted": [],
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa311"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-10-26.md",
+     "date": "2026-10-23",
+     "time": "15:04",
+     "sender": "Aviram",
+     "item_id": "wa311"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa311",
+   "date": "2026-10-23",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "10 tiers, double wheel",
+   "file": "2026-10-26.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-10-23T12:10:46Z",
+  "updates": [
+   {
+    "update_id": "5658682679",
+    "created_at": "2026-10-23T12:12:19.000Z",
+    "updated_at": "2026-10-23T12:12:19.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "Description: On recompletion player receives a 10 tier trail. Double wheel + all or nothing. No DRs ATW, only booster, rolls, TE. GP is 1.5 better\n\nReason: Different, late rewarding recompletion experience\n\nDistribution:\n\nControl -No change -\n\nseg_TEST:1114_Weekend_trail_recomp_test;Group:1 - ABTestV2(131,0,65,83,0)\n\nTest - On recompletion player receives a 10 tier trail. Double wheel + all or nothing. No DRs ATW, only booster, rolls, TE. GP is 1.5 better -\n\nseg_TEST:1114_Weekend_trail_recomp_test;Group:2 - ABTestV2(131,66,130,83,1)\n\nTimeline:\n\n*Started on 23/10/2026, 12:00 PM UTC",
+    "replies": []
+   },
+   {
+    "update_id": "5615436935",
+    "created_at": "2026-10-08T07:00:15.000Z",
+    "updated_at": "2026-10-08T07:00:15.000Z",
+    "creator": "Aviram Shwarzbard",
+    "text": "On ?weekends?\n\n\n\nThe 2 recompletions will be without any resources other than TE, rolls, and boosters. The resources will be in the GP instead. On tiles we'll have Coins/TE/Rolls/Double Dash.\n\n\n\nAlso, an all or nothing agenda where user receives extra reward for reaching chests on time.",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "Trail",
+  "Recompletion",
+  "GP",
+  "ATW",
+  "DR",
+  "TE",
+  "Rolls / Ticks"
+ ],
+ "content_fingerprint": "dec64717e37c1ef4975e6bd3f5a7eb8b773055a2125be4a48092e6632f4fa585",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

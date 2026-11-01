@@ -1,0 +1,381 @@
+{
+ "test_id": "DOM-1500-no-dtc-new-users",
+ "game": "Domino Dreams",
+ "game_code": "DOM",
+ "tier": "results",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DOM-1500-no-dtc-new-users",
+  "legacy_keys": [
+   "dom1500nodtc"
+  ],
+  "game": "Domino Dreams",
+  "board_item_id": "12211581542",
+  "board_test_number": "1500",
+  "name": "1500- No DTC - New Users",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Aborted",
+  "outcome_label": "lost",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "Measure the impact of DTC with the Google warning on new users",
+  "change": "n/a",
+  "audience": "Android DTC (new users per name)",
+  "control_vs_test": "see change",
+  "split": null,
+  "start_date": "2026-03-01",
+  "end_date": "n/a",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1500 is used by 2 board items in Domino Dreams: DOM-1500-japan-pricing-test"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Mixpanel: 1500- No DTC - New Users",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+   },
+   {
+    "label": "Mixpanel report: Gross Rev (Adj) (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88561650"
+   },
+   {
+    "label": "Mixpanel report: PU (Adj) (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88561652"
+   },
+   {
+    "label": "Mixpanel report: FTD CVR (no results returned)",
+    "url": "https://mixpanel.com/project/2735821/app/insights/#report/88561679"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "Mixpanel dashboard '1500- No DTC - New Users' (id 10997622; board link https://mixpanel.com/s/4zPSsU needs login): name matches; first-event filter since 2026-03-01T13:00 = board start 2026-03-01; Groups use % 787 = board prime 787; arms Test % 787 > 550 (~30%) vs Control ≤ 550 (~70%) — board has no split to compare; board has no end date. → stays NOT VERIFIED (no numbers, arms not on board). Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance. Reports re-run (all results: null): 'Gross Rev (Adj)' (88561650), 'PU (Adj)' (88561652), 'FTD CVR' (88561679)."
+ },
+ "results": [
+  {
+   "test_id": "DOM-1500-no-dtc-new-users",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-01",
+    "end": "n/a",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "supersedes": null,
+   "result_id": "DOM-1500-no-dtc-new-users::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211581542",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "d004f85c2c0cfeeb"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «1500- No DTC - New Users». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «1500- No DTC - New Users». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     }
+    ],
+    "fingerprint": "c1816f2935cd702f",
+    "inputs": {
+     "registry:name": "9ba685180371fbbf",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): לא נכתב | קונטרול מול טסט: see change סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): לא נכתב | קונטרול מול טסט: see change",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     }
+    ],
+    "fingerprint": "0ae85380e30f08a1",
+    "inputs": {
+     "registry:change": "fc1da59e80561a46",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:name": "9ba685180371fbbf",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Android DTC (new users per name) | התחלה: 2026-03-01, סיום: n/a",
+    "statements": [
+     {
+      "text_he": "קהל: Android DTC (new users per name) | התחלה: 2026-03-01, סיום: n/a",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     }
+    ],
+    "fingerprint": "107e6adb47e7763f",
+    "inputs": {
+     "registry:audience": "e255217e0ceae283",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "db9b71c8e01cc414",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Measure the impact of DTC with the Google warning on new users",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Measure the impact of DTC with the Google warning on new users",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     }
+    ],
+    "fingerprint": "1e0c3486f6104d84",
+    "inputs": {
+     "registry:hypothesis": "c396149b10cbe08c",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     }
+    ],
+    "fingerprint": "f8674e33c1af4ced",
+    "inputs": {
+     "results:": "2b2f59ac1d53f43b",
+     "expl:what_happened": "bf37ea8802c264c7",
+     "expl:business_meaning": "8cf45702b78fb415",
+     "expl:decided": "abfef71df42d17aa",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+      ]
+     }
+    ],
+    "fingerprint": "927fd9eacaa82a3e",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "636dd83a274e4ec5",
+     "expl:limitations": "6970b884aea84fa9",
+     "registry:change": "fc1da59e80561a46",
+     "registry:control_vs_test": "e66ab31bf6d99c0c",
+     "registry:audience": "e255217e0ceae283",
+     "registry:hypothesis": "c396149b10cbe08c",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "see change",
+  "test_state": null,
+  "audience": "Android DTC (new users per name)",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Measure the impact of DTC with the Google warning on new users",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://mixpanel.com/project/2735821/app/boards#id=10997622"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DOM-1500-no-dtc-new-users",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Android DTC (new users per name) · חלוקה: see change",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): No results data on the board.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Aborted",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12211581542"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DOM-1500-no-dtc-new-users::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "DTC"
+ ],
+ "content_fingerprint": "2941692e5b6c4daf6358327a55607ada24024d5596f75e11aa2d1f7d727aac4c",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

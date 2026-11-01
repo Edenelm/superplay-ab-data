@@ -1,0 +1,678 @@
+{
+ "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+  "legacy_keys": [
+   "dice197"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "10028223859",
+  "board_test_number": "197",
+  "name": "197 - DTC from 1st purchase (Apple) stripe",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Done · Decision: Not implemented",
+  "outcome_label": "lost",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "Does allowing Stripe (DTC) purchase from the 1st purchase on iOS lift conversion and revenue?",
+  "hypothesis": "Update 2025-09-11: “Could boost conversion of users (‘Better education’)”",
+  "change": "DTC (Apple Stripe) available from the 1st purchase",
+  "audience": "Update 2025-09-29: “Do on a third of users”",
+  "control_vs_test": "Control vs Test",
+  "split": null,
+  "start_date": "2025-09-30",
+  "end_date": "2025-12-15",
+  "phases": [],
+  "primary_kpi": "Not designated. Sheet: revenues, PU, FTD, retention",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Results workbook: 197 - DTC - Apple Stripe from 1st purchase - summary",
+    "url": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/10028223859"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/10028223859"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1"
+   }
+  ],
+  "verification": "VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "Board Data Summary links a separate workbook titled '197 - DTC - Apple Stripe from 1st purchase - summary' (Sheet1). ID + change match; sheet shows no dates (board 2025-09-30 → 2025-12-15). Columns treated as labelled (Eden confirmed 2026-10-18 they are not swapped). FTD % with Stripe: Control 35% vs Test 0% (C12:D12); meaning of this row to be confirmed."
+ },
+ "results": [
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m01",
+   "metric": "Gross Revenues (w/RV)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,670,000",
+     "value": 1670000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,640,000",
+     "value": 1640000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.95,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C4:E4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "f49e76dc7ab6e803"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m02",
+   "metric": "Net Revenues (w/RV)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,400,000",
+     "value": 1400000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,400,000",
+     "value": 1400000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.14,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C5:E5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "006cd6e828af6d52"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m03",
+   "metric": "Net Rev – 1st 3 purchases",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$138,000",
+     "value": 138000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$155,000",
+     "value": 155000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 12.1,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C6:E6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3f9d77eeff411a87"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m04",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "27,650",
+     "value": 27650.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "27,980",
+     "value": 27980.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.18,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C10:E10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "fadff49133d64848"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m05",
+   "metric": "FTD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.14,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "E11"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "22b0482f505eac93"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m06",
+   "metric": "Retention D30",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.55,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "E14"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "adfcd2d7defb2024"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «197 - DTC from 1st purchase (Apple) stripe»: Does allowing Stripe (DTC) purchase from the 1st purchase on iOS lift conversion and revenue?",
+    "statements": [
+     {
+      "text_he": "בודקים את «197 - DTC from 1st purchase (Apple) stripe»: Does allowing Stripe (DTC) purchase from the 1st purchase on iOS lift conversion and revenue?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     }
+    ],
+    "fingerprint": "0d0aac7ecd54b1f1",
+    "inputs": {
+     "registry:name": "94d4a168402953f9",
+     "registry:business_question": "b9f7c1d75076abd2",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): DTC (Apple Stripe) available from the 1st purchase | קונטרול מול טסט: Control vs Test סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): DTC (Apple Stripe) available from the 1st purchase | קונטרול מול טסט: Control vs Test",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     }
+    ],
+    "fingerprint": "beb43ccf7e017aa2",
+    "inputs": {
+     "registry:change": "16ce5de633a11e51",
+     "registry:control_vs_test": "7f279d1c23e2cce2",
+     "registry:name": "94d4a168402953f9",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Update 2025-09-29: “Do on a third of users” | התחלה: 2025-09-30, סיום: 2025-12-15",
+    "statements": [
+     {
+      "text_he": "קהל: Update 2025-09-29: “Do on a third of users” | התחלה: 2025-09-30, סיום: 2025-12-15",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     }
+    ],
+    "fingerprint": "d9fcce51e3000170",
+    "inputs": {
+     "registry:audience": "f04c949da7384e20",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "12590aedbc7e967d",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "3339832aaf24f2d0",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Update 2025-09-11: “Could boost conversion of users (‘Better education’)”",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Update 2025-09-11: “Could boost conversion of users (‘Better education’)”",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     }
+    ],
+    "fingerprint": "a72cc41cad95ab0e",
+    "inputs": {
+     "registry:hypothesis": "971d885c0e61ca25",
+     "registry:business_question": "b9f7c1d75076abd2",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): PU 27,650 → 27,980 (+1.18%, C10:E10); FTD uplift +1.14% (E11, no group values); Net Revenues from the first 3 purchases +12.10% (C6:E6); Gross Revenues −1.95% (C4:E4); Retention D30 −2.55% (E14). הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Status: Done · Decision: Not implemented",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): PU 27,650 → 27,980 (+1.18%, C10:E10); FTD uplift +1.14% (E11, no group values); Net Revenues from the first 3 purchases +12.10% (C6:E6); Gross Revenues −1.95% (C4:E4); Retention D30 −2.55% (E14).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     },
+     {
+      "text_he": "בבורד: Status: Done · Decision: Not implemented",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     }
+    ],
+    "fingerprint": "1cf9d1cde8c8539b",
+    "inputs": {
+     "results:": "a7e585b1ebd9979e",
+     "expl:what_happened": "31eac2d5e1dc0772",
+     "expl:business_meaning": "fe32f6810bbeef70",
+     "expl:decided": "25dfb633a2a37477",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+    "statements": [
+     {
+      "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+       "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+      ]
+     }
+    ],
+    "fingerprint": "82a9880f70a0adc4",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "e681a2dc53df7c3b",
+     "registry:change": "16ce5de633a11e51",
+     "registry:control_vs_test": "7f279d1c23e2cce2",
+     "registry:audience": "f04c949da7384e20",
+     "registry:hypothesis": "971d885c0e61ca25",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "Control vs Test",
+  "test_state": "DTC (Apple Stripe) available from the 1st purchase",
+  "audience": "Update 2025-09-29: “Do on a third of users”",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Update 2025-09-11: “Could boost conversion of users (‘Better education’)”",
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): DTC (Apple Stripe) available from the 1st purchase",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): Does allowing Stripe (DTC) purchase from the 1st purchase on iOS lift conversion and revenue?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Update 2025-09-29: “Do on a third of users” · חלוקה: Control vs Test",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): PU 27,650 → 27,980 (+1.18%, C10:E10); FTD uplift +1.14% (E11, no group values); Net Revenues from the first 3 purchases +12.10% (C6:E6); Gross Revenues −1.95% (C4:E4); Retention D30 −2.55% (E14).",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Done · Decision: Not implemented",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10028223859",
+     "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DICE-197-dtc-from-1st-purchase-apple::m01",
+   "DICE-197-dtc-from-1st-purchase-apple::m02",
+   "DICE-197-dtc-from-1st-purchase-apple::m03",
+   "DICE-197-dtc-from-1st-purchase-apple::m04",
+   "DICE-197-dtc-from-1st-purchase-apple::m05",
+   "DICE-197-dtc-from-1st-purchase-apple::m06"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Revenue",
+  "DTC"
+ ],
+ "content_fingerprint": "5b714dcd49d7579c6d563bce20fef4b81658bef8d29d98e1ae2db4647c88617b",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

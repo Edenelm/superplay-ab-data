@@ -1,0 +1,351 @@
+{
+ "test_id": "DIS-108-purchase-funnel-v4",
+ "game": "Disney Solitaire",
+ "game_code": "DIS",
+ "tier": "results",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DIS-108-purchase-funnel-v4",
+  "legacy_keys": [
+   "dis108"
+  ],
+  "game": "Disney Solitaire",
+  "board_item_id": "13300110236",
+  "board_test_number": "108",
+  "name": "108 - Purchase Funnel V4$",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Lost · Decision: Reject",
+  "outcome_label": "lost",
+  "outcome_rule": "Disney: DISOUT map (Deploy/Partial Deploy→success, Reject→lost, Stopped→stopped, Pending→running)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "n/a",
+  "hypothesis": "n/a",
+  "change": "n/a (name only)",
+  "audience": "n/a",
+  "control_vs_test": "n/a",
+  "split": null,
+  "start_date": "2025-11-12",
+  "end_date": "2026-01-30",
+  "phases": [],
+  "primary_kpi": "n/a",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "results link missing from registry import; no results data available"
+ },
+ "results": [
+  {
+   "test_id": "DIS-108-purchase-funnel-v4",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-12",
+    "end": "2026-01-30",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "supersedes": null,
+   "result_id": "DIS-108-purchase-funnel-v4::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Reject (status Lost). Decision summary / notes on board: empty.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300110236",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "e2c84f9e36d64f46"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «108 - Purchase Funnel V4$». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «108 - Purchase Funnel V4$». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+      ]
+     }
+    ],
+    "fingerprint": "308b1ce9f4dafbd8",
+    "inputs": {
+     "registry:name": "1ca8bde7b8b3999e",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+      ]
+     }
+    ],
+    "fingerprint": "ed22569446e5bde9",
+    "inputs": {
+     "registry:change": "92c4d89c1f00d574",
+     "registry:control_vs_test": "fc1da59e80561a46",
+     "registry:name": "1ca8bde7b8b3999e",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2025-11-12, סיום: 2026-01-30",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2025-11-12, סיום: 2026-01-30",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+      ]
+     }
+    ],
+    "fingerprint": "5bceb286cba6a3bc",
+    "inputs": {
+     "registry:audience": "fc1da59e80561a46",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "a6f8d6c959de6886",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "72031c6004e07b5b",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+      ]
+     }
+    ],
+    "fingerprint": "4d9f76a9e88031e1",
+    "inputs": {
+     "registry:hypothesis": "fc1da59e80561a46",
+     "registry:business_question": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+    "statements": [
+     {
+      "text_he": "יש סימון של תוצאות, אבל לא נמצאו מספרים בלשונית התוצאות.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+      ]
+     }
+    ],
+    "fingerprint": "ce64155db1b80eb2",
+    "inputs": {
+     "results:": "34b251af3d2587af",
+     "expl:what_happened": "7560310145393e7a",
+     "expl:business_meaning": "ecc0b5db87ed5655",
+     "expl:decided": "65a4aa53cb13632d",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+      ]
+     }
+    ],
+    "fingerprint": "a810300b9ada36c7",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "74ca8d5b19b902cc",
+     "registry:change": "92c4d89c1f00d574",
+     "registry:control_vs_test": "fc1da59e80561a46",
+     "registry:audience": "fc1da59e80561a46",
+     "registry:hypothesis": "fc1da59e80561a46",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DIS-108-purchase-funnel-v4",
+  "game": "Disney Solitaire",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): n/a (name only)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): n/a · חלוקה: n/a",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Registry decision: Reject (status Lost). Decision summary / notes on board: empty.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הפסד / לא יושם' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): insufficient — no metrics. results link missing from registry import; no results data available",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Lost · Decision: Reject",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13300110236"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DIS-108-purchase-funnel-v4::s01"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [],
+ "content_fingerprint": "f1a4f60fd7c8eea261d97f234ad958e259881ed21600b2c32cf8adfe828ef41f",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

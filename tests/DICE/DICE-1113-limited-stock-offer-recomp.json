@@ -1,0 +1,993 @@
+{
+ "test_id": "DICE-1113-limited-stock-offer-recomp",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "results",
+ "coverage": "full",
+ "registry": {
+  "test_id": "DICE-1113-limited-stock-offer-recomp",
+  "legacy_keys": [
+   "dice1113"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "10880018146",
+  "board_test_number": "1113",
+  "name": "1113 - limited stock offer recomp",
+  "lifecycle": "has_results",
+  "board_status_raw": "Deploy / Implemented",
+  "outcome_label": "success",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "Does a post-purchase limited-stock add-on offer raise revenue/AOV among buyers of mid-expensive/expensive offers?",
+  "hypothesis": "Low-priced “mini-bundle” right after any IAP raises ARPU/AOV with minimal impact on the primary purchase (board update 2025-12-31)",
+  "change": "After buying a mid-ex / exp / very expensive offer: limited-stock 0.8 CZ offer for 5 min, value >1 CZ",
+  "audience": "k40d60, buyers of mid-ex/ex/very expensive offers, K60+ version 1112+, weekend (tab H3 = board update)",
+  "control_vs_test": "50/50 · control ABTestV2(373,0,186,3,1) · test ABTestV2(373,187,372,3,1)",
+  "split": null,
+  "start_date": "2026-08-12",
+  "end_date": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+  "phases": [
+   {
+    "label": "v1 · 12–13/08",
+    "raw": [
+     "5.08%",
+     "5.98%",
+     "implement",
+     "E8:F8, C3"
+    ]
+   },
+   {
+    "label": "v2 · 31/08–03/09",
+    "raw": [
+     "−0.08%",
+     "0.85%",
+     "implement",
+     "E8:F8, C3"
+    ]
+   },
+   {
+    "label": "v3 · 07–11/09",
+    "raw": [
+     "1.49%",
+     "0.54%",
+     "1 more iter with 2 cz offers",
+     "E8:F8, C3"
+    ]
+   },
+   {
+    "label": "v4 · 21–25/09",
+    "raw": [
+     "1.82%",
+     "1.33%",
+     "deploy",
+     "E8:F8, C3"
+    ]
+   }
+  ],
+  "primary_kpi": "Not designated. Tab: Gross Revenues, PU, PAU, avg TRX, avg purchase amount",
+  "guardrails": null,
+  "tags": [
+   "Pricing / offers"
+  ],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1113 is used by 2 board items in Dice Dreams: DICE-1113-x2-ticks-per-hour-k199"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Results tab v4 (final): 1113- limited stock as 0.8cz offer v4",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+   },
+   {
+    "label": "Phase 1: 1111- limited stock as 0.8cz offer",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1634002511#gid=1634002511"
+   },
+   {
+    "label": "Phase 2: 1112- limited stock as 0.8cz offer v2",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=702792777#gid=702792777"
+   },
+   {
+    "label": "Phase 3: 1112- limited stock as 0.8cz offer v3",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1888094234#gid=1888094234"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/10880018146"
+   },
+   {
+    "label": "Mixpanel board",
+    "url": "https://mixpanel.com/project/2036368/view/133215/app/boards#id=11508919"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/10880018146"
+   },
+   {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)"
+   }
+  ],
+  "verification": "VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "gid matches; version 1113 in tab name; setup text H3 identical to board update; conclusion C3 'deploy' = board. Caveat: in-cell title B2 in all 4 phase tabs reads '1111- limited stock recomp v2' (stale template)."
+ },
+ "results": [
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m01",
+   "metric": "Gross Revenues (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,781,058",
+     "value": 1781058.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,813,501",
+     "value": 1813501.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.82,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 1.33%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C8:F8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "58230f1188b0a441"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m02",
+   "metric": "PU (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "40,714",
+     "value": 40714.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "40,797",
+     "value": 40797.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.2,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −0.48%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C10:F10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "657c377d5b9d5bd5"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m03",
+   "metric": "PAU (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "49,616",
+     "value": 49616.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "49,420",
+     "value": 49420.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.4,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.11%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C12:F12"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "b3b00718460b14db"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m04",
+   "metric": "Avg TRX (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "0.63",
+     "value": 0.63,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "0.63",
+     "value": 0.63,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.8,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff 2 weeks 2.69%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C25:F25"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "443102f0d87fdad2"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m05",
+   "metric": "Avg purchase amount (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "12.34",
+     "value": 12.34,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "12.50",
+     "value": 12.5,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.3,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff 2 weeks −0.03%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C26:F26"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "7af1c58039c9775b"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p01",
+   "metric": "phase v1 · 12–13/08 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "5.08%",
+     "value": 5.08,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "5.98%",
+     "value": 5.98,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "implement",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "844782d78901c225"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p02",
+   "metric": "phase v2 · 31/08–03/09 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "−0.08%",
+     "value": -0.08,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "0.85%",
+     "value": 0.85,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "implement",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "ffbb498b9b78479d"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p03",
+   "metric": "phase v3 · 07–11/09 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "1.49%",
+     "value": 1.49,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "0.54%",
+     "value": 0.54,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "1 more iter with 2 cz offers",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "d6254995ec4e5681"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p04",
+   "metric": "phase v4 · 21–25/09 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "1.82%",
+     "value": 1.82,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "1.33%",
+     "value": 1.33,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "deploy",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "c3a5daea3462a98a"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «1113 - limited stock offer recomp»: Does a post-purchase limited-stock add-on offer raise revenue/AOV among buyers of mid-expensive/expensive offers?",
+    "statements": [
+     {
+      "text_he": "בודקים את «1113 - limited stock offer recomp»: Does a post-purchase limited-stock add-on offer raise revenue/AOV among buyers of mid-expensive/expensive offers?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     }
+    ],
+    "fingerprint": "2879637db08fb5c5",
+    "inputs": {
+     "registry:name": "c3ef2b3233e39a4e",
+     "registry:business_question": "f9e1331a4583853a",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): After buying a mid-ex / exp / very expensive offer: limited-stock 0.8 CZ offer for 5 min, value >1 CZ | קונטרול מול טסט: 50/50 · control ABTestV2(373,0,186,3,1) · test ABTestV2(373,187,372,3,1) סוג מנגנון: other (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): After buying a mid-ex / exp / very expensive offer: limited-stock 0.8 CZ offer for 5 min, value >1 CZ | קונטרול מול טסט: 50/50 · control ABTestV2(373,0,186,3,1) · test ABTestV2(373,187,372,3,1)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: other (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     }
+    ],
+    "fingerprint": "4926967a9a6ec3e9",
+    "inputs": {
+     "registry:change": "5f757da711422370",
+     "registry:control_vs_test": "aca5ef7d014ed62a",
+     "registry:name": "c3ef2b3233e39a4e",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: k40d60, buyers of mid-ex/ex/very expensive offers, K60+ version 1112+, weekend (tab H3 = board update) | התחלה: 2026-08-12, סיום: 2026-09-27 (board) · final phase tab 9/21–09/25/2026 שלב/שינוי בהרצה (מהמקור): v1 · 12–13/08: 5.08% / 5.98% / implement / E8:F8, C3 שלב/שינוי בהרצה (מהמקור): v2 · 31/08–03/09: −0.08% / 0.85% / implement / E8:F8, C3 שלב/שינוי בהרצה (מהמקור): v3 · 07–11/09: 1.49% / 0.54% / 1 more iter with 2 cz offers / E8:F8, C3 שלב/שינוי בהרצה (מהמקור): v4 · 21–25/09: 1.82% / 1.33% / deploy / E8:F8, C3",
+    "statements": [
+     {
+      "text_he": "קהל: k40d60, buyers of mid-ex/ex/very expensive offers, K60+ version 1112+, weekend (tab H3 = board update) | התחלה: 2026-08-12, סיום: 2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה (מהמקור): v1 · 12–13/08: 5.08% / 5.98% / implement / E8:F8, C3",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה (מהמקור): v2 · 31/08–03/09: −0.08% / 0.85% / implement / E8:F8, C3",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה (מהמקור): v3 · 07–11/09: 1.49% / 0.54% / 1 more iter with 2 cz offers / E8:F8, C3",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה (מהמקור): v4 · 21–25/09: 1.82% / 1.33% / deploy / E8:F8, C3",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     }
+    ],
+    "fingerprint": "cbe3197bdf2a5e92",
+    "inputs": {
+     "registry:audience": "cff656b2d4b744d2",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "bdcb4b9a1dd2fde4",
+     "registry:phases": "209bd7d19d3ddc98",
+     "registry:end_date": "e203f525dc51d150",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "השערה (מהמקור): Low-priced “mini-bundle” right after any IAP raises ARPU/AOV with minimal impact on the primary purchase (board update 2025-12-31)",
+    "statements": [
+     {
+      "text_he": "השערה (מהמקור): Low-priced “mini-bundle” right after any IAP raises ARPU/AOV with minimal impact on the primary purchase (board update 2025-12-31)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     }
+    ],
+    "fingerprint": "04904fd60e09d650",
+    "inputs": {
+     "registry:hypothesis": "1fb0d88113aee593",
+     "registry:business_question": "f9e1331a4583853a",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): Final phase: Gross Revenues +1.82% (diff-to-diff 1.33%); PU diff-to-diff −0.48%; PAU −0.40%. Board says “won all business kpi”. הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Deploy / Implemented · החלטה אחרונה ב-WhatsApp: continue",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): Final phase: Gross Revenues +1.82% (diff-to-diff 1.33%); PU diff-to-diff −0.48%; PAU −0.40%. Board says “won all business kpi”.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     },
+     {
+      "text_he": "בבורד: Deploy / Implemented · החלטה אחרונה ב-WhatsApp: continue",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+       "history/dice_business_2026-06-01_to_2026-10-12.md",
+       "https://superplay.monday.com/boards/9494658232/pulses/10880018146"
+      ]
+     }
+    ],
+    "fingerprint": "5744150dc6b58d04",
+    "inputs": {
+     "results:": "a4bdaeabd9f3becc",
+     "expl:what_happened": "ba701a23481ecda8",
+     "expl:business_meaning": "211c3433c5f483e7",
+     "expl:decided": "67160ea7562f099b",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+    "statements": [
+     {
+      "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+      ]
+     }
+    ],
+    "fingerprint": "2ae8b123c7e80ae9",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "0c1ede57e1439f1d",
+     "expl:limitations": "aca1b5807015c965",
+     "registry:change": "5f757da711422370",
+     "registry:control_vs_test": "aca5ef7d014ed62a",
+     "registry:audience": "cff656b2d4b744d2",
+     "registry:hypothesis": "1fb0d88113aee593",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "other",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "50/50 · control ABTestV2(373,0,186,3,1) · test ABTestV2(373,187,372,3,1)",
+  "test_state": "After buying a mid-ex / exp / very expensive offer: limited-stock 0.8 CZ offer for 5 min, value >1 CZ",
+  "audience": "k40d60, buyers of mid-ex/ex/very expensive offers, K60+ version 1112+, weekend (tab H3 = board update)",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": "Low-priced “mini-bundle” right after any IAP raises ARPU/AOV with minimal impact on the primary purchase (board update 2025-12-31)",
+  "phases": [
+   "v1 · 12–13/08: 5.08% / 5.98% / implement / E8:F8, C3",
+   "v2 · 31/08–03/09: −0.08% / 0.85% / implement / E8:F8, C3",
+   "v3 · 07–11/09: 1.49% / 0.54% / 1 more iter with 2 cz offers / E8:F8, C3",
+   "v4 · 21–25/09: 1.82% / 1.33% / deploy / E8:F8, C3"
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1113-limited-stock-offer-recomp",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): After buying a mid-ex / exp / very expensive offer: limited-stock 0.8 CZ offer for 5 min, value >1 CZ",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): Does a post-purchase limited-stock add-on offer raise revenue/AOV among buyers of mid-expensive/expensive offers?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): k40d60, buyers of mid-ex/ex/very expensive offers, K60+ version 1112+, weekend (tab H3 = board update) · חלוקה: 50/50 · control ABTestV2(373,0,186,3,1) · test ABTestV2(373,187,372,3,1)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Final phase: Gross Revenues +1.82% (diff-to-diff 1.33%); PU diff-to-diff −0.48%; PAU −0.40%. Board says “won all business kpi”.",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: כיוונית בלבד (אין מובהקות/CI לכל השורות). אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "אומת מול לשונית התוצאות. הערת ראיות (מהמקור): No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Deploy / Implemented · החלטה אחרונה ב-WhatsApp: continue",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/10880018146"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DICE-1113-limited-stock-offer-recomp::m01",
+   "DICE-1113-limited-stock-offer-recomp::m02",
+   "DICE-1113-limited-stock-offer-recomp::m03",
+   "DICE-1113-limited-stock-offer-recomp::m04",
+   "DICE-1113-limited-stock-offer-recomp::m05",
+   "DICE-1113-limited-stock-offer-recomp::p01",
+   "DICE-1113-limited-stock-offer-recomp::p02",
+   "DICE-1113-limited-stock-offer-recomp::p03",
+   "DICE-1113-limited-stock-offer-recomp::p04"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_10880018146",
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "name": "1113 - limited stock offer recomp",
+   "whatsapp_decision_latest": "continue",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": "Implemented",
+   "board_status": "Deploy",
+   "numbers_quoted": [],
+   "first_seen": "2026-09-09",
+   "last_seen": "2026-09-09",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa170"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "date": "2026-09-09",
+     "time": "13:01",
+     "sender": "sahar Superplay",
+     "item_id": "wa170"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/10880018146"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa170",
+   "date": "2026-09-09",
+   "kind": "test",
+   "decision": "continue",
+   "nums": [],
+   "text": "All metrics positive",
+   "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Revenue",
+  "CZ",
+  "K (Kingdom)",
+  "Recompletion"
+ ],
+ "content_fingerprint": "093fbf6e4527b631946d1cd27f0a0ece40f1d19378ccad733a7e2388040b1ebd",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

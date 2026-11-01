@@ -1,0 +1,389 @@
+{
+ "test_id": "DICE-1106-remove-ad-from-segmentation",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-1106-remove-ad-from-segmentation",
+  "legacy_keys": [
+   "live_11989946595"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "11989946595",
+  "board_test_number": "1106",
+  "name": "1106 - Remove AD from Segmentation",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": "Users who experienced at least 4 pets",
+  "audience_source": "update 2026-05-12",
+  "control_vs_test": null,
+  "split": "Control: no change · Test: remove AD",
+  "start_date": "2026-05-12",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/3pwy2a",
+   "dashboards": [
+    {
+     "id": 11184376,
+     "title": "1106 - Remove Active Days from Segmentation",
+     "modified": "2026-08-15",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11184376"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11989946595"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/3pwy2a"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/11989946595"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-01",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים הסרה של AD (Active Days) מהסגמנטציה.",
+    "statements": [
+     {
+      "text_he": "בודקים הסרה של AD (Active Days) מהסגמנטציה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501",
+       "monday_update:5280311734",
+       "mp_dashboard_title"
+      ]
+     }
+    ],
+    "fingerprint": "2c4373556f0df325",
+    "inputs": {
+     "curated:what": "8abcc6fe26c1dcb1",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "קונטרול: ללא שינוי (Control - No change). | טסט: Remove AD: K40D60 נפתח ב-K60, K40D120 נפתח ב-K90. סוג מנגנון: eligibility",
+    "statements": [
+     {
+      "text_he": "קונטרול: ללא שינוי (Control - No change). | טסט: Remove AD: K40D60 נפתח ב-K60, K40D120 נפתח ב-K90.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501",
+       "monday_update:5280311734",
+       "mp_dashboard_title"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: eligibility",
+      "tag": "interpretation",
+      "source_refs": [
+       "monday_update:5185321501"
+      ]
+     }
+    ],
+    "fingerprint": "856dd6fffdb564ee",
+    "inputs": {
+     "curated:control": "f04942ec6f5d94b0",
+     "curated:test": "935652090884bc40",
+     "curated:mech": "519f010c1a5bfa19",
+     "generator": "he6-v2",
+     "monday_update:5185321501": "17b9ed71870bd53c",
+     "monday_update:5280311734": "881887b96cea3fe3"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Users that experienced at least 4 pets in the past | התחלה: 2026-05-12 | split: Control: no change · Test: remove AD שלב/שינוי בהרצה: 2026-06-11: קובץ 'remove active days test (users restored K90 during test).xlsx' הועלה, כלומר במהלך הטסט היה שחזור משתמשים ל-K90.",
+    "statements": [
+     {
+      "text_he": "קהל: Users that experienced at least 4 pets in the past | התחלה: 2026-05-12 | split: Control: no change · Test: remove AD",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501",
+       "monday_update:5280311734",
+       "mp_dashboard_title"
+      ]
+     },
+     {
+      "text_he": "שלב/שינוי בהרצה: 2026-06-11: קובץ 'remove active days test (users restored K90 during test).xlsx' הועלה, כלומר במהלך הטסט היה שחזור משתמשים ל-K90.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501",
+       "monday_update:5280311734",
+       "mp_dashboard_title"
+      ]
+     }
+    ],
+    "fingerprint": "a706a122149fd617",
+    "inputs": {
+     "registry:audience": "c0a666240b8a7d75",
+     "registry:split": "974c251cca7fa145",
+     "registry:start_date": "3479a17de6569035",
+     "registry:phases": "4f53cda18c2baa0c",
+     "curated:audience": "46bd12f3252f7e64",
+     "curated:trigger": "74234e98afe7498f",
+     "curated:phases": "a320c34cfeb6c645",
+     "generator": "he6-v2",
+     "monday_update:5185321501": "17b9ed71870bd53c",
+     "monday_update:5280311734": "881887b96cea3fe3"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקורות שנבדקו.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501",
+       "monday_update:5280311734"
+      ]
+     }
+    ],
+    "fingerprint": "61f55616c96f7614",
+    "inputs": {
+     "curated:why": "74234e98afe7498f",
+     "curated:target": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5185321501": "17b9ed71870bd53c",
+     "monday_update:5280311734": "881887b96cea3fe3"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "מה ההשערה העסקית ומה ה-KPI? מה המשמעות המדויקת של K40D60 / K40D120? מה קרה ב'שחזור ל-K90' והאם הוא משנה את חלון המדידה?",
+    "statements": [
+     {
+      "text_he": "מה ההשערה העסקית ומה ה-KPI?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501"
+      ]
+     },
+     {
+      "text_he": "מה המשמעות המדויקת של K40D60 / K40D120?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501"
+      ]
+     },
+     {
+      "text_he": "מה קרה ב'שחזור ל-K90' והאם הוא משנה את חלון המדידה?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "monday_update:5185321501"
+      ]
+     }
+    ],
+    "fingerprint": "d798b7f92bb29f43",
+    "inputs": {
+     "curated:questions": "e4e6f97edbc1243f",
+     "curated:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "d5f94125732697cc",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "c0a666240b8a7d75",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2",
+     "monday_update:5185321501": "17b9ed71870bd53c",
+     "monday_update:5280311734": "881887b96cea3fe3"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "eligibility",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "ללא שינוי (Control - No change).",
+  "test_state": "Remove AD: K40D60 נפתח ב-K60, K40D120 נפתח ב-K90.",
+  "audience": "Users that experienced at least 4 pets in the past",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [
+   "2026-06-11: קובץ 'remove active days test (users restored K90 during test).xlsx' הועלה, כלומר במהלך הטסט היה שחזור משתמשים ל-K90."
+  ],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_update:5185321501",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11989946595",
+    "source_updated_at": "2026-05-12T13:54:12.000Z"
+   },
+   {
+    "ref": "monday_update:5280311734",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11989946595",
+    "source_updated_at": "2026-06-11T15:27:03.000Z"
+   },
+   {
+    "ref": "mp_dashboard_title",
+    "url": null,
+    "value": [
+     "1106 - Remove Active Days from Segmentation"
+    ]
+   }
+  ],
+  "curated": true
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1106-remove-ad-from-segmentation",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1106 - Remove AD from Segmentation",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11989946595"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Users who experienced at least 4 pets · חלוקה: Control: no change · Test: remove AD",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11989946595"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11989946595"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11989946595"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": {
+  "fetched_at": "2026-11-01T12:30:00+02:00",
+  "item_updated_at": "2026-06-28T12:14:43Z",
+  "updates": [
+   {
+    "update_id": "5280311734",
+    "created_at": "2026-06-11T15:27:03.000Z",
+    "updated_at": "2026-06-11T15:27:03.000Z",
+    "creator": "Brody Tal",
+    "text": "remove active days test (users restored K90 durring test).xlsx",
+    "replies": []
+   },
+   {
+    "update_id": "5185321501",
+    "created_at": "2026-05-12T13:54:12.000Z",
+    "updated_at": "2026-05-12T13:54:12.000Z",
+    "creator": "Brody Tal",
+    "text": "Description:\nRemove the AD from segmentation .\n\nPopulation:\n\nUsers that experienced atleast 4 pets in the past\n\nDistribution:\n\nControl - No change\n\nTest - Remove AD\nK40D60 opens at K60\nK40D120 opens at K90",
+    "replies": []
+   }
+  ]
+ },
+ "glossary_concepts": [
+  "K (Kingdom)",
+  "AD (Active Days)"
+ ],
+ "content_fingerprint": "1f663558a1014df67ccb755d66d0fa6d4de1343d1179bb3d9c7d7210a4c259c2",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}

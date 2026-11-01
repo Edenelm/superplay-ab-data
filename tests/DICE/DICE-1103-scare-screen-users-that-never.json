@@ -1,0 +1,624 @@
+{
+ "test_id": "DICE-1103-scare-screen-users-that-never",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "results",
+ "coverage": "partial",
+ "registry": {
+  "test_id": "DICE-1103-scare-screen-users-that-never",
+  "legacy_keys": [
+   "dice1103nd"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "11579447553",
+  "board_test_number": "1103",
+  "name": "1103 - Scare Screen - Users That Never Bought DTC",
+  "lifecycle": "has_results",
+  "board_status_raw": "Status: Done · Decision: Implemented",
+  "outcome_label": "success",
+  "outcome_rule": "board status/decision; 'Not implemented' = lost (Eden's rule)",
+  "is_live": false,
+  "has_results": true,
+  "business_question": "For existing players who never bought via DTC, is DTC + Scare Screen better than no DTC?",
+  "hypothesis": "Not stated on board.",
+  "change": "DTC + Scare Screen vs No DTC",
+  "audience": "Update 2026-03-24: existing players who had not bought via DTC before the test",
+  "control_vs_test": "DTC + Scare Screen vs No DTC",
+  "split": null,
+  "start_date": "2026-02-23",
+  "end_date": "2026-03-26",
+  "phases": [],
+  "primary_kpi": "Not designated",
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1103 is used by 2 board items in Dice Dreams: DICE-1103-scare-screen-new-users"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Candidate A: 1103 - Scare Screen New Users (A1:E11)",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+   },
+   {
+    "label": "Candidate B: 1103 - Scare Screen Old Users",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=238350138#gid=238350138"
+   },
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/data.js / data_fp.js / data_v6.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-10-18..2026-11-01",
+  "null_reasons": {
+   "split": "split not captured as a separate field; see control_vs_test text",
+   "guardrails": "guardrail metrics are not designated in the board/results sources captured so far"
+  },
+  "match_note": "AMBIGUOUS — 2 candidate tabs, not chosen: (A) '1103 - Scare Screen New Users' (gid 1394578567, the board's link) block A1:E11 titled '1103 - Scare Screen (users that never purchased dtc)'; (B) '1103 - Scare Screen Old Users' (gid 238350138), uplift-only Stripe CVR metrics. Note: the update's “+5% gross / +2.5% net” for the no-DTC group coincides with block A's diff-to-diff E7 5.17% / E8 2.47%."
+ },
+ "results": [
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m01",
+   "metric": "[A] PU",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "3,606",
+     "value": 3606.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "3,593",
+     "value": 3593.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.36,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.64%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B6:E6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "9aaad91b2c4c03df"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m02",
+   "metric": "[A] Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$1,447,000",
+     "value": 1447000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$1,442,000",
+     "value": 1442000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.35,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 5.17%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B7:E7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "c869d1e4fb84565c"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m03",
+   "metric": "[A] Net Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$1,114,000",
+     "value": 1114000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$1,083,000",
+     "value": 1083000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.78,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 2.47%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B8:E8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "08eef359f41c4cc2"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m04",
+   "metric": "[A] FTD",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "2.54%",
+     "value": 2.54,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "2.67%",
+     "value": 2.67,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5.12,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% as shown in D9"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B9:D9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "4f82a9232d59c333"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m05",
+   "metric": "[B] Stripe CVR (10 min)",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -10.81,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "478b8fc3cd553ae6"
+  }
+ ],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "בודקים את «1103 - Scare Screen - Users That Never Bought DTC»: For existing players who never bought via DTC, is DTC + Scare Screen better than no DTC?",
+    "statements": [
+     {
+      "text_he": "בודקים את «1103 - Scare Screen - Users That Never Bought DTC»: For existing players who never bought via DTC, is DTC + Scare Screen better than no DTC?",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+      ]
+     }
+    ],
+    "fingerprint": "276c47f514a5da50",
+    "inputs": {
+     "registry:name": "e0554032bb7283af",
+     "registry:business_question": "badafe0f75cc14e8",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "השינוי (מהמקור): DTC + Scare Screen vs No DTC | קונטרול מול טסט: DTC + Scare Screen vs No DTC סוג מנגנון: display (לפי מילות מפתח)",
+    "statements": [
+     {
+      "text_he": "השינוי (מהמקור): DTC + Scare Screen vs No DTC | קונטרול מול טסט: DTC + Scare Screen vs No DTC",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+      ]
+     },
+     {
+      "text_he": "סוג מנגנון: display (לפי מילות מפתח)",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+      ]
+     }
+    ],
+    "fingerprint": "e941ba76f5671685",
+    "inputs": {
+     "registry:change": "0ea7a3fa447d6533",
+     "registry:control_vs_test": "0ea7a3fa447d6533",
+     "registry:name": "e0554032bb7283af",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: Update 2026-03-24: existing players who had not bought via DTC before the test | התחלה: 2026-02-23, סיום: 2026-03-26",
+    "statements": [
+     {
+      "text_he": "קהל: Update 2026-03-24: existing players who had not bought via DTC before the test | התחלה: 2026-02-23, סיום: 2026-03-26",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+      ]
+     }
+    ],
+    "fingerprint": "4b1c3815b57386f3",
+    "inputs": {
+     "registry:audience": "df9e45ac19a8f923",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "d9159fa7528d1306",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "b9141decf3af28cc",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור; השאלה העסקית: For existing players who never bought via DTC, is DTC + Scare Screen better than no DTC?.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור; השאלה העסקית: For existing players who never bought via DTC, is DTC + Scare Screen better than no DTC?.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+      ]
+     }
+    ],
+    "fingerprint": "289f5cf8964b2a35",
+    "inputs": {
+     "registry:hypothesis": "d5855a0b8b8e4673",
+     "registry:business_question": "badafe0f75cc14e8",
+     "generator": "he6-v2"
+    }
+   },
+   "learned": {
+    "label_he": "מה למדנו",
+    "text_he": "תוצאות (מהמקור): Update 2026-03-24 (Hebrew): all main metrics were better for the group without DTC; recommendation to remove DTC for these users and test a follow-up with periodic DTC days with extra value. Candidate A: FTD 2.54% (DTC+Scare) vs 2.67% (No DTC), D9 5.12%. Candidate B: Stripe CVR (10 min) −10.81% (B4). הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך. בבורד: Status: Done · Decision: Implemented",
+    "statements": [
+     {
+      "text_he": "תוצאות (מהמקור): Update 2026-03-24 (Hebrew): all main metrics were better for the group without DTC; recommendation to remove DTC for these users and test a follow-up with periodic DTC days with extra value. Candidate A: FTD 2.54% (DTC+Scare) vs 2.67% (No DTC), D9 5.12%. Candidate B: Stripe CVR (10 min) −10.81% (B4).",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+      ]
+     },
+     {
+      "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+      ]
+     },
+     {
+      "text_he": "בבורד: Status: Done · Decision: Implemented",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+      ]
+     }
+    ],
+    "fingerprint": "352e2d294baf093a",
+    "inputs": {
+     "results:": "493ee8131096b135",
+     "expl:what_happened": "af091655807148e8",
+     "expl:business_meaning": "61f05722dc62d8b7",
+     "expl:decided": "23a4bdff5b35f7a3",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): Not rated beyond insufficient until the correct tab is confirmed. חסר במקור: מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): Not rated beyond insufficient until the correct tab is confirmed.",
+      "tag": "interpretation",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+      ]
+     },
+     {
+      "text_he": "חסר במקור: מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+      ]
+     }
+    ],
+    "fingerprint": "042306d42ced77ba",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "10517ddfbeaf6936",
+     "expl:limitations": "2884423e02128ecd",
+     "registry:change": "0ea7a3fa447d6533",
+     "registry:control_vs_test": "0ea7a3fa447d6533",
+     "registry:audience": "df9e45ac19a8f923",
+     "registry:hypothesis": "d5855a0b8b8e4673",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "display",
+  "mechanism_type_tag": "interpretation",
+  "control_state": "DTC + Scare Screen vs No DTC",
+  "test_state": "DTC + Scare Screen vs No DTC",
+  "audience": "Update 2026-03-24: existing players who had not bought via DTC before the test",
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1103-scare-screen-users-that-never",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שינוי שנבדק (מהמקור): DTC + Scare Screen vs No DTC",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": "שאלה עסקית / השערה (מהמקור): For existing players who never bought via DTC, is DTC + Scare Screen better than no DTC?",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   },
+   "who": {
+    "text_he": "קהל (מהמקור): Update 2026-03-24: existing players who had not bought via DTC before the test · חלוקה: DTC + Scare Screen vs No DTC",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   },
+   "what_happened": {
+    "text_he": "תוצאות (מהמקור): Update 2026-03-24 (Hebrew): all main metrics were better for the group without DTC; recommendation to remove DTC for these users and test a follow-up with periodic DTC days with extra value. Candidate A: FTD 2.54% (DTC+Scare) vs 2.67% (No DTC), D9 5.12%. Candidate B: Stripe CVR (10 min) −10.81% (B4).",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": "הבדיקה מסווגת כ'הצלחה' לפי סטטוס/החלטה בבורד. רמת הראיות: לא מספיקה להכרעה. אין לייחס שינוי בהכנסות של המשחק כולו לבדיקה זו ללא ניתוח תומך.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   },
+   "limitations": {
+    "text_he": "לא אומת מול לשונית תוצאות. הערת ראיות (מהמקור): Not rated beyond insufficient until the correct tab is confirmed.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Status: Done · Decision: Implemented",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/11579447553"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [
+   "DICE-1103-scare-screen-users-that-never::m01",
+   "DICE-1103-scare-screen-users-that-never::m02",
+   "DICE-1103-scare-screen-users-that-never::m03",
+   "DICE-1103-scare-screen-users-that-never::m04",
+   "DICE-1103-scare-screen-users-that-never::m05"
+  ],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [],
+ "whatsapp": [],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "DTC",
+  "Scare Screen"
+ ],
+ "content_fingerprint": "d05bf2dd97e2f721e26e01fefaf6b6eec5d7a4a4a800dccb5c4662464e092554",
+ "last_changed_at": "2026-11-01T12:35:23+02:00"
+}
