@@ -1,0 +1,622 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/game_metrics_splits.schema.json",
+ "title": "game_metrics_splits",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "records",
+  "field_definitions",
+  "definition_refs_by_game"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "game_metrics_splits"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  },
+  "timezone": {
+   "const": "Asia/Jerusalem"
+  },
+  "rules": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "definition_refs_by_game": {
+   "type": "object"
+  },
+  "field_definitions": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "def_id",
+     "definition",
+     "source",
+     "definition_status"
+    ],
+    "properties": {
+     "def_id": {
+      "type": "string"
+     },
+     "definition": {
+      "type": "string"
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "table",
+       "columns"
+      ],
+      "properties": {
+       "table": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "columns": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "additionalProperties": true
+     },
+     "definition_status": {
+      "enum": [
+       "documented",
+       "needs_approval"
+      ]
+     },
+     "question": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": true
+   }
+  },
+  "records": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "split_id",
+     "game",
+     "date",
+     "date_timezone",
+     "currency",
+     "user_type",
+     "revenue_channels",
+     "platform",
+     "null_reasons",
+     "field_completeness",
+     "is_final",
+     "completeness",
+     "source",
+     "updated_at"
+    ],
+    "properties": {
+     "split_id": {
+      "type": "string",
+      "pattern": "^(DICE|DOM|DIS)-\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "date_timezone": {
+      "type": "string"
+     },
+     "currency": {
+      "const": "USD"
+     },
+     "user_type": {
+      "type": "object",
+      "required": [
+       "new",
+       "returning",
+       "unknown_new_flag_rows"
+      ],
+      "properties": {
+       "new": {
+        "type": "object",
+        "required": [
+         "active_users",
+         "payers",
+         "revenue_gross_usd",
+         "revenue_net_usd",
+         "ad_revenue_usd"
+        ],
+        "properties": {
+         "active_users": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "payers": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "ad_revenue_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "users_with_any_row": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "returning": {
+        "type": "object",
+        "required": [
+         "active_users",
+         "payers",
+         "revenue_gross_usd",
+         "revenue_net_usd",
+         "ad_revenue_usd"
+        ],
+        "properties": {
+         "active_users": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "payers": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "ad_revenue_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "users_with_any_row": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "unknown_new_flag_rows": {
+        "type": [
+         "integer",
+         "null"
+        ]
+       }
+      },
+      "additionalProperties": true
+     },
+     "revenue_channels": {
+      "type": "object",
+      "required": [
+       "store_iap",
+       "dtc_stripe",
+       "ads",
+       "iap_total"
+      ],
+      "properties": {
+       "store_iap": {
+        "type": "object",
+        "required": [
+         "gross_usd",
+         "net_usd"
+        ],
+        "properties": {
+         "gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "dtc_stripe": {
+        "type": "object",
+        "required": [
+         "gross_usd",
+         "net_usd"
+        ],
+        "properties": {
+         "gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "dice_dreams_plus": {
+        "type": "object",
+        "required": [
+         "gross_usd",
+         "net_usd"
+        ],
+        "properties": {
+         "gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "iap_total": {
+        "type": "object",
+        "required": [
+         "gross_usd",
+         "net_usd"
+        ],
+        "properties": {
+         "gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "ads": {
+        "type": "object",
+        "required": [
+         "ad_revenue_usd",
+         "gross_usd",
+         "net_usd",
+         "included_in_iap_total"
+        ],
+        "properties": {
+         "ad_revenue_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "included_in_iap_total": {
+          "const": false
+         }
+        },
+        "additionalProperties": true
+       }
+      },
+      "additionalProperties": true
+     },
+     "platform": {
+      "type": "object",
+      "required": [
+       "ios",
+       "android",
+       "other"
+      ],
+      "properties": {
+       "ios": {
+        "type": "object",
+        "required": [
+         "active_users",
+         "payers",
+         "revenue_gross_usd",
+         "revenue_net_usd",
+         "ad_revenue_usd"
+        ],
+        "properties": {
+         "active_users": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "payers": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "ad_revenue_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "users_with_any_row": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "android": {
+        "type": "object",
+        "required": [
+         "active_users",
+         "payers",
+         "revenue_gross_usd",
+         "revenue_net_usd",
+         "ad_revenue_usd"
+        ],
+        "properties": {
+         "active_users": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "payers": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "ad_revenue_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "users_with_any_row": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       },
+       "other": {
+        "type": "object",
+        "required": [
+         "active_users",
+         "payers",
+         "revenue_gross_usd",
+         "revenue_net_usd",
+         "ad_revenue_usd"
+        ],
+        "properties": {
+         "active_users": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "payers": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_gross_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "revenue_net_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "ad_revenue_usd": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "users_with_any_row": {
+          "type": [
+           "number",
+           "null"
+          ]
+         }
+        },
+        "additionalProperties": true
+       }
+      },
+      "additionalProperties": true
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string",
+       "minLength": 3
+      }
+     },
+     "field_completeness": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "object",
+       "required": [
+        "status",
+        "rule_id",
+        "rule_basis"
+       ],
+       "properties": {
+        "status": {
+         "enum": [
+          "final",
+          "provisional",
+          "provisional_estimate"
+         ]
+        }
+       },
+       "additionalProperties": true
+      }
+     },
+     "is_final": {
+      "type": "boolean"
+     },
+     "completeness": {
+      "enum": [
+       "final",
+       "provisional"
+      ]
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "type",
+       "project",
+       "table",
+       "sql",
+       "run_at"
+      ],
+      "properties": {
+       "type": {
+        "const": "bigquery"
+       },
+       "project": {
+        "type": "string"
+       },
+       "table": {
+        "type": "string"
+       },
+       "sql": {
+        "type": "string"
+       },
+       "run_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+       }
+      },
+      "additionalProperties": true
+     },
+     "verification": {
+      "enum": [
+       "VERIFIED",
+       "MISMATCH",
+       "NOT VERIFIED"
+      ]
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}

@@ -52,3 +52,12 @@ Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-
 - DIS-NOID-live-test: המנגנון טרם הובהר (live)
 - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
 - Glossary: 31 concepts `unclear` (see docs/GLOSSARY.md, column Open question).
+
+
+## Game metrics history / splits / FTD / retention (2026-11-02T17:26:00+02:00)
+
+- Sources (read-only BigQuery, project= per game): dice-dreams-dbt.50_reporting.user_daily_metrics_agg, domino-dreams-dbt.prod_40_mart.user_daily_metrics, solitaire-dreams-dbt.40_mart.user_daily_metrics. SQL, run_at and bytes per record.
+- Coverage: 2026-09-25..2026-11-01 for all three games; cohorts 09-25..10-31. D30 is reached only for cohorts ≤ 10-02.
+- Missing / not found: official FTD-rate denominator, official retention definition, official new-user rule (Dice, Disney), Dice Android Stripe column. Confluence: access denied. HQ (headquarters-dbt) data: 403, not retried.
+- export_query_csv links need a Google sign-in, so execute_query with write_to_file was used.
+- Metadata saved: tools/source_metadata/ (HQ mrt_daily_agg_dice / _solitaire, dice and solitaire 50_reporting table lists, Domino reconciliation).

@@ -221,6 +221,40 @@ if ts:
             if v['value'] is not None and v['definition_status'] in ('unknown', 'not_applicable') and not (k == 'compliance_requirement' and v['value'] == 'unknown'): err('test_structured', f"{t['test_id']}.{k}: value set but definition_status {v['definition_status']}")
         if _reg.get(t['test_id'], {}).get('is_live') and t['fields']['stop_reason']['value'] is not None: err('test_structured', f"{t['test_id']}: stop_reason set on a live test")
     if ts['counts']['records'] != len(ts['records']): err('test_structured', 'test_structured: counts.records mismatch')
+# ---- game splits / FTD / retention (tools/gm_build.py): null leaves need null_reasons[path]; is_final consistent; immature DN is null; defs exist ----
+def _leaves(o, pre=''):
+    for k, v in o.items():
+        if isinstance(v, dict): yield from _leaves(v, f'{pre}{k}.')
+        else: yield f'{pre}{k}', v
+_sp = docs.get('game_metrics_splits')
+if _sp:
+    _fd = _sp['field_definitions']
+    for c, m in _sp['definition_refs_by_game'].items():
+        for path, ref in m.items():
+            if ref not in _fd: err('game_metrics_splits', f'definition_refs_by_game.{c}.{path} -> missing field_definitions[{ref}]')
+    for d in _fd.values():
+        if d['definition_status'] == 'needs_approval' and not d.get('question'): err('game_metrics_splits', f"{d['def_id']}: needs_approval without question")
+    for x in _sp['records']:
+        for path, v in _leaves({k: x[k] for k in ('user_type', 'revenue_channels', 'platform')}):
+            if v is None and path not in x['null_reasons']: err('game_metrics_splits', f"{x['split_id']}: {path} null without null_reasons")
+        if x['revenue_channels']['ads']['included_in_iap_total'] is not False: err('game_metrics_splits', f"{x['split_id']}: ads folded into totals")
+        if x['is_final'] != all(v['status'] == 'final' for v in x['field_completeness'].values()) or (x['completeness'] == 'final') != x['is_final']: err('game_metrics_splits', f"{x['split_id']}: is_final inconsistent")
+_fr = docs.get('game_ftd_retention')
+if _fr:
+    for x in _fr['ftd_daily']:
+        for k in ('ftd_users', 'dau', 'new_users', 'ftd_rate_over_dau', 'ftd_rate_over_new_users', 'official_rate'):
+            if x[k] is None and k not in x['null_reasons']: err('game_ftd_retention', f"{x['ftd_id']}: {k} null without null_reasons")
+        for k, ref in x['definition_refs'].items():
+            if ref not in _fr['field_definitions']: err('game_ftd_retention', f"{x['ftd_id']}: definition_refs.{k} -> missing {ref}")
+    for x in _fr['cohorts']:
+        fin = True
+        for n in ('d1', 'd7', 'd30'):
+            c = x[n]; fin = fin and c['status'] == 'final'
+            if c['status'] == 'immature' and (c['retained_users'] is not None or c['rate'] is not None): err('game_ftd_retention', f"{x['cohort_id']}.{n}: immature but has a value")
+            if c['day'] > x['activity_through'] and c['status'] != 'immature': err('game_ftd_retention', f"{x['cohort_id']}.{n}: day after activity_through but not immature")
+            for k in ('retained_users', 'rate'):
+                if c[k] is None and f'{n}.{k}' not in x['null_reasons']: err('game_ftd_retention', f"{x['cohort_id']}.{n}.{k} null without null_reasons")
+        if x['is_final'] != fin: err('game_ftd_retention', f"{x['cohort_id']}: is_final inconsistent")
 # ---- secret scan ----
 SECRET = re.compile(r'(?i)(api[_-]?key|secret|token|password|bearer)\s*["\']?\s*[:=]\s*["\'][^"\']{12,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]{30,}|xox[bp]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}')
 for dp, _, fs in os.walk(ROOT):

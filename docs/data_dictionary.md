@@ -49,6 +49,7 @@
 | payers | num/null | `<GAME>.payers` |
 | active_users_dau | num/null | **Daily** active users (`<GAME>.active_users_dau`). Domino is null until its definition is approved |
 | users_with_any_row, pau_flag_users | num | Raw alternative counts, kept for transparency |
+| (history) | | Records from 2026-09-25 (38 days on 2026-11-02). Final dates are kept; only missing/non-final dates are re-queried |
 | period_unique_users | num/null | Distinct users over a period (WAU/MAU). **Not a sum of DAU.** Currently null, because it was not queried |
 | definition_refs | obj | field → `def_id` in `data/metric_definitions.json` |
 | definition_status | obj | field → `documented` / `needs_approval`. **Show "definition pending approval" for needs_approval** |
@@ -58,6 +59,42 @@
 | is_final | bool | true only when every field is final |
 | completeness | enum | `final` or `provisional` (same as is_final) |
 | caveats | [str] | Known issues (observations are labelled as such) |
+
+## game_metrics_splits — `data/game_metrics_splits.json` → `records[]` (additive, 2026-11-02)
+One record per game and source date (same dates as game_metrics, from 2026-09-25). Top level: `rules`, `definition_refs_by_game` (record path → def_id), `field_definitions` (def_id → definition, source {table, columns}, definition_status, question, expression).
+| Field | Type | Meaning |
+|---|---|---|
+| split_id, game, date, date_timezone, currency | str | As in game_metrics (date unconverted) |
+| user_type.new / .returning | obj | active_users, payers, revenue_gross_usd, revenue_net_usd, ad_revenue_usd. Rule per game: `<GAME>.new_user_rule` (all three are needs_approval) |
+| user_type.unknown_new_flag_rows | int | Rows with no install value (in neither group) |
+| revenue_channels.store_iap / .dtc_stripe | obj | gross_usd, net_usd. Dice: dtc_stripe.components {apple_stripe, appcharge}. Dice/Disney store_iap is a residual |
+| revenue_channels.dice_dreams_plus | obj | Dice only, kept apart |
+| revenue_channels.ads | obj | ad_revenue_usd; gross_usd/net_usd null (one ad column); `included_in_iap_total: false` always |
+| revenue_channels.iap_total | obj | gross_usd, net_usd = game_metrics revenue (unrounded, 2 decimals) |
+| platform.ios / .android / .other | obj | Same metrics as user_type. Rule: `<GAME>.platform_rule` |
+| null_reasons | obj | dotted path → reason, for every null leaf. Domino active_users is null (OI-METRIC-DAU); users_with_any_row is given instead |
+| field_completeness, is_final, completeness | | Same rules as game_metrics |
+| source | obj | project, table, exact SQL, run_at, bytes |
+
+## game_ftd_retention — `data/game_ftd_retention.json` (additive, 2026-11-02)
+`ftd_daily[]`: one per game and date.
+| Field | Type | Meaning |
+|---|---|---|
+| ftd_users | int | First-time depositors that day (`<GAME>.ftd_users`) |
+| dau, new_users | int/null | Denominators. Domino dau is null |
+| ftd_rate_over_dau, ftd_rate_over_new_users | num/null | Two candidates, 6 decimals |
+| official_rate | null | Official denominator not found (`ALL.ftd_rate` needs_approval) |
+| definition_refs, null_reasons, is_final, completeness, source | | as above |
+
+`cohorts[]`: one per game and install date (cohort_date ≤ yesterday − 1).
+| Field | Type | Meaning |
+|---|---|---|
+| cohort_size | int | Users new on cohort_date (`<GAME>.new_user_rule`) |
+| activity_through | date | Last activity day read |
+| d1 / d7 / d30 | obj | {day, retained_users, rate, status final / provisional / immature}. Immature (day > activity_through) = null with null_reasons, never 0 |
+| definition_refs | obj | cohort → `<GAME>.retention` (needs_approval) |
+
+Runbook: `docs/GAME_METRICS_RUNBOOK.md`.
 
 ## metric_definitions — `data/metric_definitions.json` → `records[]`
 | Field | Meaning |

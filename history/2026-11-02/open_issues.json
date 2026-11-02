@@ -1,15 +1,15 @@
 {
  "dataset": "open_issues",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T16:29:03+02:00",
+ "generated_at": "2026-11-02T17:21:12+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
   "OI-RULE-21D: the 21-day rule is NOT used to end or hide tests; at most a needs_review flag"
  ],
  "counts": {
-  "items": 17,
-  "awaiting_decision": 17
+  "items": 22,
+  "awaiting_decision": 22
  },
  "items": [
   {
@@ -22,7 +22,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "revenue_gross_usd"
@@ -51,7 +53,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "revenue_net_usd"
@@ -80,7 +84,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "ad_revenue_usd",
@@ -111,7 +117,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "date",
@@ -141,7 +149,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "payers"
@@ -170,7 +180,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "active_users_dau"
@@ -250,7 +262,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "exclusions"
@@ -276,7 +290,9 @@
    "affected": {
     "datasets": [
      "game_metrics",
-     "metric_definitions"
+     "metric_definitions",
+     "game_metrics_splits",
+     "game_ftd_retention"
     ],
     "fields": [
      "revenue_gross_usd"
@@ -553,6 +569,161 @@
    "display_note_en": "DOM-1581 is Live on Monday. Domino WhatsApp on 14.10 and 15.10 says \"DTC abort old / analysis new\" with no test number. Not linked to 1581 until the test owner confirms.",
    "since": "2026-11-02",
    "since_basis": "test_structured Stage 1 fill 2026-11-02",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-METRIC-FTD-RATE",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_ftd_retention"
+    ],
+    "fields": [
+     "ftd_rate_over_dau",
+     "ftd_rate_over_new_users",
+     "official_rate"
+    ],
+    "def_ids": [
+     "ALL.ftd_rate",
+     "DICE.ftd_users",
+     "DIS.ftd_users"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "המכנה הרשמי של FTD rate לא נמצא במקורות. מוצגים שני מועמדים: FTD/DAU ו-FTD/משתמשים חדשים. ב-Dice וב-Disney גם ספירת ה-FTD נגזרת ממועד הרכישה הראשונה וממתינה לאישור.",
+   "display_note_en": "Official FTD-rate denominator not found. Two candidates are published (FTD/DAU and FTD/new users). Dice and Disney FTD counts are derived from the first-purchase timestamp and need approval.",
+   "since": "2026-11-02",
+   "since_basis": "game history/splits/FTD/retention build (tools/gm_build.py), approved list 2.11",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-METRIC-NEW-USER",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics_splits",
+     "game_ftd_retention"
+    ],
+    "fields": [
+     "user_type.new",
+     "user_type.returning",
+     "new_users",
+     "cohort_size"
+    ],
+    "def_ids": [
+     "DICE.new_user_rule",
+     "DIS.new_user_rule",
+     "DOM.new_user_rule"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "כלל \"משתמש חדש\" לא מוגדר במפורש ב-Dice (install_date = date_dim, אזור זמן לא מתועד) וב-Disney (DATE(first_install_ts), ערך current-state). ב-Domino משתמשים ב-install_today_flag המתועד. ב-Domino ה-flag מתועד, אבל הוא כולל כ-4.5K התקנות ביום של משתמשים מושבתים (deactivated). טבלת הדיווח domino_daily_kpis לא סופרת אותם.",
+   "display_note_en": "New-user rule is not explicit for Dice (install_date = date_dim, timezone undocumented) or Disney (DATE(first_install_ts), current-state value). Domino uses the documented install_today_flag. Domino: the flag is documented, but it includes ~4.5K deactivated installs per day; the reporting domino_daily_kpis excludes them.",
+   "since": "2026-11-02",
+   "since_basis": "game history/splits/FTD/retention build (tools/gm_build.py), approved list 2.11",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-METRIC-STORE-RESIDUAL",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics_splits"
+    ],
+    "fields": [
+     "revenue_channels.store_iap",
+     "revenue_channels.dtc_stripe",
+     "revenue_channels.dice_dreams_plus"
+    ],
+    "def_ids": [
+     "DICE.channel_store_iap",
+     "DICE.channel_dtc_stripe",
+     "DICE.channel_dice_dreams_plus",
+     "DIS.channel_store_iap"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "אין עמודת Store IAP ב-Dice וב-Disney, ולכן היא מחושבת כהפרש (gross פחות DTC). ב-Dice לא ברור אם AppCharge שייך ל-DTC, לאיזה ערוץ שייך Dice Dreams Plus, והאם קיים Android Stripe.",
+   "display_note_en": "Dice and Disney have no store-IAP column; it is a residual (gross minus DTC). Dice: AppCharge in DTC? Dice Dreams Plus channel? No Android Stripe column.",
+   "since": "2026-11-02",
+   "since_basis": "game history/splits/FTD/retention build (tools/gm_build.py), approved list 2.11",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-METRIC-RETENTION",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_ftd_retention"
+    ],
+    "fields": [
+     "cohorts.d1",
+     "cohorts.d7",
+     "cohorts.d30"
+    ],
+    "def_ids": [
+     "DICE.retention",
+     "DOM.retention",
+     "DIS.retention"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "הגדרה רשמית של retention לא נמצאה. D1/D7/D30 מחושבים לפי cohort של יום ההתקנה ופעילות ביום N. ב-Domino כל שורה נספרת כפעילות, כי הגדרת DAU עדיין לא אושרה.",
+   "display_note_en": "No official retention definition found. D1/D7/D30 = active on install day + N. Domino counts any row as activity until the DAU definition is approved.",
+   "since": "2026-11-02",
+   "since_basis": "game history/splits/FTD/retention build (tools/gm_build.py), approved list 2.11",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-METRIC-PLATFORM",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics_splits"
+    ],
+    "fields": [
+     "platform.ios",
+     "platform.android",
+     "platform.other"
+    ],
+    "def_ids": [
+     "DICE.platform_rule",
+     "DOM.platform_rule"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "ב-Dice וב-Domino הפלטפורמה נשמרת ברמת המשתמש (פלטפורמת ההתקנה או הפרופיל), לא ברמת היום. ב-Dice יש כ-6–7K משתמשים פעילים ביום בלי פלטפורמה, והם מסווגים כ-other.",
+   "display_note_en": "Dice/Domino platform is per user (install/profile), not per day; Dice has ~6-7K active users/day with no platform (other).",
+   "since": "2026-11-02",
+   "since_basis": "game history/splits/FTD/retention build (tools/gm_build.py), approved list 2.11",
    "decision_doc_ref": null
   }
  ]

@@ -12,14 +12,14 @@
   {
    "path": "manifest.json",
    "kind": "file",
-   "bytes": 12589,
+   "bytes": 13800,
    "contains": "run metadata, per-dataset status/sha256/stale, layer pointers, change_summary",
    "read_when": "always first; compare sha256 / aggregate_fingerprint with what you cached"
   },
   {
    "path": "FILE_MAP.json",
    "kind": "file",
-   "bytes": 12319,
+   "bytes": 12321,
    "contains": "this map (machine-readable)",
    "read_when": "second, to find files"
   },
@@ -42,17 +42,17 @@
   {
    "path": "FILE_MAP.md",
    "kind": "file",
-   "bytes": 6699,
+   "bytes": 6702,
    "contains": "this map (human-readable)",
    "read_when": "optional"
   },
   {
    "path": "PROCESSING_LOG.md",
    "kind": "file",
-   "bytes": 4130,
+   "bytes": 5037,
    "contains": "what was checked against which source version; what is still missing; accesses not retried",
    "read_when": "when a field is missing / unclear",
-   "sha256": "0c0c5a804fd709f152c26b0b653e43556cbe0d7b5cb218ef40f73a03346d6c0b"
+   "sha256": "0f481b67af81a6b3b186e8820669ed9db66b72656b14a98c284905da76dc3ea4"
   },
   {
    "path": "README.md",
@@ -66,15 +66,23 @@
    "path": "docs/CLAUDE_CODE_README.md",
    "kind": "file",
    "bytes": 6685,
-   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
+   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
    "sha256": "f5992f891ff051e9f21a37cd9337df6f6fed5e9635b17c1fc4d8cd043a56ccfc"
+  },
+  {
+   "path": "docs/GAME_METRICS_RUNBOOK.md",
+   "kind": "file",
+   "bytes": 2518,
+   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
+   "read_when": "reference",
+   "sha256": "c0617e6c3d5daf784c43e3d701f5baa3798088991b7620391ab1781121c3563b"
   },
   {
    "path": "docs/GLOSSARY.md",
    "kind": "file",
    "bytes": 11038,
-   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
+   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
    "sha256": "0dbd6f022619099e454fc51b2f765688a550fd7f0451c8031b34fb8a6e38cf25"
   },
@@ -82,7 +90,7 @@
    "path": "docs/HQ_ACCESS.md",
    "kind": "file",
    "bytes": 4106,
-   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
+   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
    "sha256": "58ce421d32e54dde33460dcd9ee8286e68e8f8795ca9d75861ac4c07dc02291d"
   },
@@ -90,17 +98,17 @@
    "path": "docs/METRIC_DEFINITIONS.md",
    "kind": "file",
    "bytes": 30583,
-   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
+   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
    "sha256": "701d03b9f909076829d5b5bd6b831dc44ef766dd6e2831611abddd28b3102d51"
   },
   {
    "path": "docs/data_dictionary.md",
    "kind": "file",
-   "bytes": 19121,
-   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
+   "bytes": 21963,
+   "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
-   "sha256": "e4276fb713e64439244127d471a1763c619320737ef1b6445342d1f3465daee3"
+   "sha256": "f15a836601d64f485f3ff985fa496249260297a0775c9d9ad3380dbcbff35636"
   },
   {
    "path": "history/2026-11-01",
@@ -113,8 +121,8 @@
   {
    "path": "history/2026-11-02",
    "kind": "dir",
-   "files": 11,
-   "bytes": 9353303,
+   "files": 13,
+   "bytes": 11688694,
    "contains": "copies of datasets + manifest published that day",
    "read_when": "audit / diffs over time"
   },
@@ -127,12 +135,28 @@
    "sha256": "22ca90fb92cb63f5dcdf980d5cb8e2b4cb11ca1cbd0a7c40a3df07293d59a34c"
   },
   {
+   "path": "latest/game_ftd_retention.json",
+   "kind": "file",
+   "bytes": 788010,
+   "contains": "per game-day FTD with two candidate rates (FTD/DAU, FTD/new users; official null), and D1/D7/D30 retention by install cohort (immature = null)",
+   "read_when": "FTD and retention context; the official denominator is pending approval",
+   "sha256": "7e4fd9160a05165497f1694b4a39767622a9d44df016b14aff2f3bdce17e473b"
+  },
+  {
    "path": "latest/game_metrics.json",
    "kind": "file",
-   "bytes": 40309,
-   "contains": "daily game KPIs (BigQuery) with completeness flags",
+   "bytes": 740525,
+   "contains": "daily game KPIs (BigQuery) with completeness flags; 38+ days of history from 2026-09-25",
    "read_when": "game-level context",
-   "sha256": "d228e47c9f171c8da80ca27d97623efbe3cdf454ef872d0d6b0bd127d71565c1"
+   "sha256": "8c6495185dfc5ffb4c6b87a778cd7566b69dc6a0a7617e4348f2146dcd038eaf"
+  },
+  {
+   "path": "latest/game_metrics_splits.json",
+   "kind": "file",
+   "bytes": 839644,
+   "contains": "per game-day splits: new vs returning, revenue channels (store IAP, DTC/Stripe, ads separate), iOS vs Android; field_definitions with definition_status; null_reasons",
+   "read_when": "game-level context by segment; check field_definitions before using a split",
+   "sha256": "c601e87884b4c9a2105c06e8c62ad3926bfbd7d20d0205d59e46f0b869b267fa"
   },
   {
    "path": "latest/glossary.json",
@@ -153,10 +177,10 @@
   {
    "path": "latest/open_issues.json",
    "kind": "file",
-   "bytes": 17739,
+   "bytes": 24049,
    "contains": "open decisions awaiting Eden / data team: topic, games, affected datasets/fields/def_ids/test_ids, Hebrew+English display note, since",
    "read_when": "to show limitations in the app; never hide data because of it",
-   "sha256": "9046c075a7780f0a4b70759c782224700c534901472a63173857287bf5ebd08a"
+   "sha256": "7028aceff3af5acbe72e6710bd12b3a8069270abd575b6540682e55822dec96b"
   },
   {
    "path": "latest/test_registry.json",
@@ -199,12 +223,28 @@
    "sha256": "815f662670278bd457a52c821ade1dc43a2e3c11aa27612e8ad5192583b1c516"
   },
   {
+   "path": "schemas/game_ftd_retention.schema.json",
+   "kind": "file",
+   "bytes": 7898,
+   "contains": "JSON Schemas (draft 2020-12)",
+   "read_when": "when validating / generating types",
+   "sha256": "9e0773d5d54c69569b83d32262026468c3c2219e4c5194f19c65a347ff82eab9"
+  },
+  {
    "path": "schemas/game_metrics.schema.json",
    "kind": "file",
    "bytes": 4549,
    "contains": "JSON Schemas (draft 2020-12)",
    "read_when": "when validating / generating types",
    "sha256": "98d7de4dbc8146f32651657b85ed3eea923ecfca7001c4b6a91360f4fe6a58ec"
+  },
+  {
+   "path": "schemas/game_metrics_splits.schema.json",
+   "kind": "file",
+   "bytes": 11921,
+   "contains": "JSON Schemas (draft 2020-12)",
+   "read_when": "when validating / generating types",
+   "sha256": "73999ed515cd27b2eff5ae2a50855c3ccdb8af05c16ad7fce24a7f7afbf14035"
   },
   {
    "path": "schemas/glossary.schema.json",
@@ -265,18 +305,18 @@
   {
    "path": "schemas/test_structured.schema.json",
    "kind": "file",
-   "bytes": 28148,
+   "bytes": 28948,
    "contains": "JSON Schemas (draft 2020-12)",
    "read_when": "when validating / generating types",
-   "sha256": "d033623ffd9891d6f5a2b6b7439868f6c374fea67cc8de214bf818aa8b1ccb31"
+   "sha256": "93308e40ae9e35aa646b363881a491875df91bd24808af3d92418331f7090b46"
   },
   {
    "path": "schemas/tests_index.schema.json",
    "kind": "file",
-   "bytes": 3473,
+   "bytes": 3645,
    "contains": "JSON Schemas (draft 2020-12)",
    "read_when": "when validating / generating types",
-   "sha256": "498e37fb78b153771a766da7a431583bfe204796ae27c2b122bca24bcd88fe61"
+   "sha256": "8098331016e1e6653b5dd7e37b21d738843bbf449fc701dcef80cca09139a6de"
   },
   {
    "path": "schemas/whatsapp_items.schema.json",
@@ -321,10 +361,10 @@
   {
    "path": "validate.py",
    "kind": "file",
-   "bytes": 20973,
+   "bytes": 23732,
    "contains": "validator: python3 validate.py . (exit 0 ok, 2 stale/partial, 1 errors)",
    "read_when": "after every pull",
-   "sha256": "bd4dcf03d5dea2adc0d1fb1116de0b93abde394dd4105aa34519902be17282f1"
+   "sha256": "62b8e3d7f858378ce80702e8baa6b2e053faad9bfcbfe1d32aeaf46b5963d841"
   }
  ]
 }

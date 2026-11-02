@@ -1,0 +1,430 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/game_ftd_retention.schema.json",
+ "title": "game_ftd_retention",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "ftd_daily",
+  "cohorts",
+  "field_definitions"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "game_ftd_retention"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  },
+  "timezone": {
+   "const": "Asia/Jerusalem"
+  },
+  "rules": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "field_definitions": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "def_id",
+     "definition",
+     "source",
+     "definition_status"
+    ],
+    "properties": {
+     "def_id": {
+      "type": "string"
+     },
+     "definition": {
+      "type": "string"
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "table",
+       "columns"
+      ],
+      "properties": {
+       "table": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "columns": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      },
+      "additionalProperties": true
+     },
+     "definition_status": {
+      "enum": [
+       "documented",
+       "needs_approval"
+      ]
+     },
+     "question": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": true
+   }
+  },
+  "ftd_daily": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "ftd_id",
+     "game",
+     "date",
+     "ftd_users",
+     "dau",
+     "new_users",
+     "ftd_rate_over_dau",
+     "ftd_rate_over_new_users",
+     "official_rate",
+     "definition_refs",
+     "null_reasons",
+     "is_final",
+     "completeness",
+     "source",
+     "updated_at"
+    ],
+    "properties": {
+     "ftd_id": {
+      "type": "string",
+      "pattern": "^(DICE|DOM|DIS)-\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "ftd_users": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "dau": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "new_users": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "ftd_rate_over_dau": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "ftd_rate_over_new_users": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "official_rate": {
+      "type": "null"
+     },
+     "definition_refs": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string",
+       "minLength": 3
+      }
+     },
+     "is_final": {
+      "type": "boolean"
+     },
+     "completeness": {
+      "enum": [
+       "final",
+       "provisional"
+      ]
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "type",
+       "project",
+       "table",
+       "sql",
+       "run_at"
+      ],
+      "properties": {
+       "type": {
+        "const": "bigquery"
+       },
+       "project": {
+        "type": "string"
+       },
+       "table": {
+        "type": "string"
+       },
+       "sql": {
+        "type": "string"
+       },
+       "run_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+       }
+      },
+      "additionalProperties": true
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  },
+  "cohorts": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "cohort_id",
+     "game",
+     "cohort_date",
+     "cohort_size",
+     "activity_through",
+     "d1",
+     "d7",
+     "d30",
+     "definition_refs",
+     "null_reasons",
+     "is_final",
+     "completeness",
+     "source",
+     "updated_at"
+    ],
+    "properties": {
+     "cohort_id": {
+      "type": "string",
+      "pattern": "^(DICE|DOM|DIS)-\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "cohort_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "cohort_size": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "activity_through": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "d1": {
+      "type": "object",
+      "required": [
+       "day",
+       "retained_users",
+       "rate",
+       "status"
+      ],
+      "properties": {
+       "day": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+       },
+       "retained_users": {
+        "type": [
+         "integer",
+         "null"
+        ]
+       },
+       "rate": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "status": {
+        "enum": [
+         "final",
+         "provisional",
+         "immature"
+        ]
+       }
+      },
+      "additionalProperties": true
+     },
+     "d7": {
+      "type": "object",
+      "required": [
+       "day",
+       "retained_users",
+       "rate",
+       "status"
+      ],
+      "properties": {
+       "day": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+       },
+       "retained_users": {
+        "type": [
+         "integer",
+         "null"
+        ]
+       },
+       "rate": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "status": {
+        "enum": [
+         "final",
+         "provisional",
+         "immature"
+        ]
+       }
+      },
+      "additionalProperties": true
+     },
+     "d30": {
+      "type": "object",
+      "required": [
+       "day",
+       "retained_users",
+       "rate",
+       "status"
+      ],
+      "properties": {
+       "day": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+       },
+       "retained_users": {
+        "type": [
+         "integer",
+         "null"
+        ]
+       },
+       "rate": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "status": {
+        "enum": [
+         "final",
+         "provisional",
+         "immature"
+        ]
+       }
+      },
+      "additionalProperties": true
+     },
+     "definition_refs": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string",
+       "minLength": 3
+      }
+     },
+     "is_final": {
+      "type": "boolean"
+     },
+     "completeness": {
+      "enum": [
+       "final",
+       "provisional"
+      ]
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "type",
+       "project",
+       "table",
+       "sql",
+       "run_at"
+      ],
+      "properties": {
+       "type": {
+        "const": "bigquery"
+       },
+       "project": {
+        "type": "string"
+       },
+       "table": {
+        "type": "string"
+       },
+       "sql": {
+        "type": "string"
+       },
+       "run_at": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+       }
+      },
+      "additionalProperties": true
+     },
+     "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}

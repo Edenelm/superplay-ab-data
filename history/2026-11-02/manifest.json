@@ -76,16 +76,15 @@
    "file": "latest/game_metrics.json",
    "schema": "schemas/game_metrics.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T08:40:18+02:00",
-   "last_attempt_at": "2026-11-02T08:40:18+02:00",
-   "source_snapshot": "2026-11-02T08:40:00+02:00",
+   "last_success_at": "2026-11-02T17:23:27+02:00",
+   "last_attempt_at": "2026-11-02T17:23:27+02:00",
+   "source_snapshot": "2026-11-02T17:13:58+02:00",
    "stale": false,
-   "sha256": "d228e47c9f171c8da80ca27d97623efbe3cdf454ef872d0d6b0bd127d71565c1",
-   "bytes": 40309,
+   "sha256": "8c6495185dfc5ffb4c6b87a778cd7566b69dc6a0a7617e4348f2146dcd038eaf",
+   "bytes": 740525,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-02/game_metrics.json",
-   "content_unchanged_since": "2026-11-02T08:40:18+02:00"
+   "history_file": "history/2026-11-02/game_metrics.json"
   },
   "test_registry": {
    "file": "latest/test_registry.json",
@@ -181,16 +180,15 @@
    "file": "latest/open_issues.json",
    "schema": "schemas/open_issues.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T16:29:03+02:00",
-   "last_attempt_at": "2026-11-02T16:29:03+02:00",
+   "last_success_at": "2026-11-02T17:21:12+02:00",
+   "last_attempt_at": "2026-11-02T17:21:12+02:00",
    "source_snapshot": "curated from saved sources as of 2026-11-02",
    "stale": false,
-   "sha256": "9046c075a7780f0a4b70759c782224700c534901472a63173857287bf5ebd08a",
-   "bytes": 17739,
+   "sha256": "7028aceff3af5acbe72e6710bd12b3a8069270abd575b6540682e55822dec96b",
+   "bytes": 24049,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/open_issues.json",
-   "content_unchanged_since": "2026-11-02T16:29:03+02:00"
+   "history_file": "history/2026-11-02/open_issues.json"
   },
   "test_structured": {
    "file": "latest/test_structured.json",
@@ -204,11 +202,40 @@
    "bytes": 5669975,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/test_structured.json"
+   "history_file": "history/2026-11-02/test_structured.json",
+   "content_unchanged_since": "2026-11-02T16:29:03+02:00"
+  },
+  "game_metrics_splits": {
+   "file": "latest/game_metrics_splits.json",
+   "schema": "schemas/game_metrics_splits.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-02T17:23:27+02:00",
+   "last_attempt_at": "2026-11-02T17:23:27+02:00",
+   "source_snapshot": "2026-11-02T17:13:58+02:00",
+   "stale": false,
+   "sha256": "c601e87884b4c9a2105c06e8c62ad3926bfbd7d20d0205d59e46f0b869b267fa",
+   "bytes": 839644,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-02/game_metrics_splits.json"
+  },
+  "game_ftd_retention": {
+   "file": "latest/game_ftd_retention.json",
+   "schema": "schemas/game_ftd_retention.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-02T17:23:27+02:00",
+   "last_attempt_at": "2026-11-02T17:23:27+02:00",
+   "source_snapshot": "2026-11-02T17:13:58+02:00",
+   "stale": false,
+   "sha256": "7e4fd9160a05165497f1694b4a39767622a9d44df016b14aff2f3bdce17e473b",
+   "bytes": 788010,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-02/game_ftd_retention.json"
   }
  },
  "counts": {
-  "game_metrics": 12,
+  "game_metrics": 114,
   "test_registry": 681,
   "test_results": 137,
   "explanations": 148,
@@ -216,9 +243,12 @@
   "cross_studio_learnings": 4,
   "whatsapp_items": 346,
   "metric_definitions": 27,
-  "open_issues": 17,
+  "open_issues": 22,
   "glossary_concepts": 58,
-  "test_structured": 681
+  "test_structured": 681,
+  "game_metrics_splits": 114,
+  "game_ftd_retention_ftd_daily": 114,
+  "game_ftd_retention_cohorts": 111
  },
  "layer": {
   "index": {
@@ -282,17 +312,19 @@
    "run_at": "2026-11-02T16:29:03+02:00",
    "baseline_published_at": "2026-11-02T16:29:03+02:00",
    "datasets_changed": [
-    "test_structured"
+    "game_metrics",
+    "open_issues",
+    "game_metrics_splits",
+    "game_ftd_retention"
    ],
    "datasets_unchanged": [
-    "game_metrics",
     "test_registry",
     "test_results",
     "explanations_learnings_decisions",
     "whatsapp_items",
     "metric_definitions",
     "glossary",
-    "open_issues"
+    "test_structured"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
@@ -325,17 +357,19 @@
  "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
  "publish": {
   "published": [
-   "test_structured"
+   "game_metrics",
+   "open_issues",
+   "game_metrics_splits",
+   "game_ftd_retention"
   ],
   "unchanged_kept": [
-   "game_metrics",
    "test_registry",
    "test_results",
    "explanations_learnings_decisions",
    "whatsapp_items",
    "metric_definitions",
    "glossary",
-   "open_issues"
+   "test_structured"
   ],
   "failed": [],
   "history_dir": "history/2026-11-02/",

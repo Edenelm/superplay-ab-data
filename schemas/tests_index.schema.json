@@ -185,6 +185,10 @@
      "last_changed_at": {
       "type": "string",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+     },
+     "structured_part": {
+      "type": "string",
+      "description": "v1.6: part file of test_structured holding this test (structured/<GAME>_<live|other>.json)"
      }
     },
     "additionalProperties": true
