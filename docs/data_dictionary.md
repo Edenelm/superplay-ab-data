@@ -1,4 +1,4 @@
-# Data dictionary — provider contract v1.4.0 (v1.4 adds `test_results.diff_method` and diff-cell provenance; v1.3 added `open_issues`; v1.2 added the light layer; all earlier files and fields unchanged)
+# Data dictionary — provider contract v1.5.0 (v1.5 adds per-group `population_size` with cell refs, `uncertainty` p-value/CI/significance cells, `test_results.field_definitions`, and the new `test_structured` dataset; v1.4 adds `test_results.diff_method` and diff-cell provenance; v1.3 added `open_issues`; v1.2 added the light layer; all earlier files and fields unchanged)
 
 **Conventions (all datasets)**
 - Files are UTF-8 JSON. Each one starts with a header: `dataset`, `contract_version`, `generated_at` (ISO 8601 with offset, Asia/Jerusalem) and `timezone`.
@@ -91,13 +91,13 @@ See METRIC_DEFINITIONS.md for the rendered table.
 | result_id, revision, supersedes | A revision is never edited in place. A correction is a new revision with `supersedes` set to the old `result_id#rN` |
 | record_hash | Hash of the content (excluding updated_at), used to detect real changes |
 | metric | Metric label as written in the source, or null for summary-only rows |
-| groups[] | `{group, value_raw, value, value_unit, population_size}`. population_size is null with a reason (not captured) |
+| groups[] | `{group, value_raw, value, value_unit, population_size, population_size_raw, population_size_cell, population_size_label}`. **v1.5:** population_size = integer from the tab row labelled as a user count (e.g. "Unique Users (unormalized)") in the same block; cell in population_size_cell (same tab as source.tab), label as written. DAU/PAU rows are not used. Null => `null_reasons.population_size`. definition_status: explicit_in_source |
 | relative_diff_pct | Relative % change **as printed in the results tab's diff cell** (Diff in Diff / Diff to Diff when present, else the tab's Diff / Test Diff / Uplift / Lift / Delta column). Never computed by us. Null with a reason when the tab has no diff cell |
 | diff_method | Where relative_diff_pct came from: `did_from_tab` (Diff-in-Diff cell), `diff_from_tab` (plain diff cell), `diff_from_doc` (Google Doc summary, not re-checked; pending approval of this value), `computed_test_vs_control` (only on superseded legacy revisions: the old value = Test÷Control−1), or null (no diff; see null_reasons.diff_method) |
 | diff_checked_at, diff_value_raw, diff_note | Date the diff cell itself was re-read against the tab, the cell text as shown, and any caveat (e.g. ambiguous header, empty DiD cell → Delta used) |
 | superseded_by | Set on an old revision that a newer revision replaced (`result_id#rN`). Readers use the highest revision |
 | abs_diff_pp | Percentage-point difference, when the source shows it |
-| uncertainty | `{p_value, ci, note}`. Only what the source shows |
+| uncertainty | **v1.5:** `{p_value, p_value_raw, p_value_cell, p_value_header, ci, ci_low, ci_high, ci_raw, ci_cell, ci_header, significance, significance_cell, checked_at, note}`. Copied only from the tab (column headed P-value / CI / significance in the metric row); never computed by us; significance is never derived from p_value. `ci` is a [low, high] range only when the tab shows one; a single value in a CI column stays in ci_raw (definition_status unclear, e.g. DOM-1550 L4 '90%'). Each null => `null_reasons.p_value` / `.ci` / `.significance`. VERIFIED rules unchanged |
 | measurement_window | Start/end as written in the source |
 | source | `{type: results_tab, ref: URL with gid, tab, cell_range, diff_cell, diff_header, group_cell_range}`. cell_range = `<diff cell> (groups <range>)` |
 | verification, evidence_level, evidence_note | From the review. VERIFIED only when diff_method is did_from_tab/diff_from_tab and the diff cell was checked (diff_checked_at), not only the group values. `directional` or `insufficient` |
@@ -187,3 +187,27 @@ Source ref formats as emitted: the record's own source URL (Monday item / Sheets
 | decision_doc_ref | section in DECISIONS_<date>.md |
 
 Display rule: for each affected field/test, show `display_note_he` (or `_en`). `OI-RULE-21D`: the 21-day rule is not defined, so it must never end or hide a test; at most show a `needs_review` flag.
+
+
+## test_structured (v1.5, `data/test_structured.json`)
+Structured fields per test, from read-only sources. **Stage 1: only DOM-1581 is filled; Stage 2 fills all tests** (`counts.pending_stage2`).
+Every field is `{value, definition_status, sources[], raw, null_reason, question, note}`. `sources[]` = `{type, ref, locator, read_at}`; locator = Monday column id, tab cell, Mixpanel object, or WhatsApp extract file:line.
+definition_status: `explicit_in_source` (the source states it) · `analysis_setup_mixpanel` (how the Mixpanel analysis is set up; not confirmed live config) · `interpretation` · `unknown` · `not_applicable`.
+When value is null (or compliance = unknown), `null_reason` and `question` (the exact question to ask) are set. Nothing is computed from Test/Control; a group formula is kept in `raw`, never turned into a %.
+
+| field | definition |
+|---|---|
+| test_change | What is different for Test, in source wording |
+| control_gets | What Control gets |
+| audience.new_vs_old | new / old / both; raw = the cut-off definition |
+| audience.payer_level | payer condition (e.g. non-payers, payers, all) |
+| audience.platform | Android / iOS / both |
+| audience.country | country condition |
+| exposure_pct | % of users in Test as stated by a source; raw keeps the group formula |
+| lever | price / offer / value / purchase_flow / difficulty / reward / screen; only when stated or confirmed |
+| primary_metric | metric the decision is based on |
+| guardrails | metrics that must not drop (array) |
+| hypothesis | test hypothesis |
+| compliance_requirement | yes / no / unknown, with source |
+| stop_reason | stopped tests only: stop reason as written in the source; live tests: null, null_reason "test is live" |
+| related_unlinked[] | possibly related mentions (e.g. WhatsApp without a test number), NOT linked until confirmed |

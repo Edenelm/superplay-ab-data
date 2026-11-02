@@ -90,7 +90,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "Registry decision: Deploy (status Deployed). Decision summary / notes on board: empty.",
    "source": {
@@ -101,13 +112,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "22e11448d638bfe5",
+   "record_hash": "4d6ff7dcf61f6ea4",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -213,9 +226,9 @@
       ]
      }
     ],
-    "fingerprint": "5336eaeec7523c2a",
+    "fingerprint": "69704bbc52c540a1",
     "inputs": {
-     "results:": "433d1c910fefba73",
+     "results:": "034e71c2e86082c8",
      "expl:what_happened": "1629e6baf9e56c34",
      "expl:business_meaning": "baceeaa965882c3d",
      "expl:decided": "2266f6d8f91b6e26",
@@ -359,6 +372,6 @@
  "glossary_concepts": [
   "STD"
  ],
- "content_fingerprint": "e10ede912456a3c39978955269c6f5b0f3e276a1cb450c0dec30ec209ed76982",
+ "content_fingerprint": "b850a15d9d0ba4e4574bdde80bb09998f7a97083de05aa5a60947ac5c60f5880",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

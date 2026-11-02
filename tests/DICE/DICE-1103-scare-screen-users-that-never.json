@@ -95,14 +95,20 @@
      "value_raw": "3,606",
      "value": 3606.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "3,593",
      "value": 3593.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.36,
@@ -110,7 +116,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 0.64%"
+    "note": "% · diff-to-diff 0.64%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -122,11 +139,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "d164e377523fcb4a",
+   "record_hash": "c72ad54114fd3630",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.36%",
@@ -156,14 +175,20 @@
      "value_raw": "3,606",
      "value": 3606.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "3,593",
      "value": 3593.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.64,
@@ -171,7 +196,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 0.64%"
+    "note": "% · diff-to-diff 0.64%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -183,11 +219,13 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "b531e60f33581615",
+   "record_hash": "8d29e19f7f3a9726",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.64%",
@@ -216,14 +254,20 @@
      "value_raw": "$1,447,000",
      "value": 1447000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "$1,442,000",
      "value": 1442000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.35,
@@ -231,7 +275,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 5.17%"
+    "note": "% · diff-to-diff 5.17%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -243,11 +298,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "ebcfce13b2977c2d",
+   "record_hash": "74a5cd6120d1d00b",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.35%",
@@ -277,14 +334,20 @@
      "value_raw": "$1,447,000",
      "value": 1447000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "$1,442,000",
      "value": 1442000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 5.17,
@@ -292,7 +355,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 5.17%"
+    "note": "% · diff-to-diff 5.17%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -304,11 +378,13 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "2378d75994ea5f81",
+   "record_hash": "0dcdc0ee1e7678ec",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.17%",
@@ -337,14 +413,20 @@
      "value_raw": "$1,114,000",
      "value": 1114000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "$1,083,000",
      "value": 1083000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -2.78,
@@ -352,7 +434,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 2.47%"
+    "note": "% · diff-to-diff 2.47%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -364,11 +457,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "f49f13973c9dad4f",
+   "record_hash": "a7f1b710d01055f5",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-2.78%",
@@ -398,14 +493,20 @@
      "value_raw": "$1,114,000",
      "value": 1114000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "$1,083,000",
      "value": 1083000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 2.47,
@@ -413,7 +514,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 2.47%"
+    "note": "% · diff-to-diff 2.47%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -425,11 +537,13 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "2d9ee5170643d89e",
+   "record_hash": "f899988279ec4e73",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.47%",
@@ -458,14 +572,20 @@
      "value_raw": "2.54%",
      "value": 2.54,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "2.67%",
      "value": 2.67,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 5.12,
@@ -473,7 +593,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% as shown in D9"
+    "note": "% as shown in D9",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -485,11 +616,13 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1103 - Scare Screen New Users'!A1:L50); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "ded00c2977871e2a",
+   "record_hash": "c1993493906742e5",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.12%",
@@ -518,14 +651,20 @@
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "No DTC",
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -10.81,
@@ -533,7 +672,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · uplift only"
+    "note": "% · uplift only",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -545,11 +695,13 @@
     "diff_header": "Uplift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "row has no group cells in the tab (single uplift value)",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI column in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "4e79f2b1eaa24790",
+   "record_hash": "bf5a4f1c509810ac",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-10.81%",
@@ -679,9 +831,9 @@
       ]
      }
     ],
-    "fingerprint": "87a4f34c6832c325",
+    "fingerprint": "6d1a89ce88ac7d9e",
     "inputs": {
-     "results:": "0d255090545d526a",
+     "results:": "bf9fd9ed9ec87839",
      "expl:what_happened": "af091655807148e8",
      "expl:business_meaning": "61f05722dc62d8b7",
      "expl:decided": "23a4bdff5b35f7a3",
@@ -837,6 +989,6 @@
   "DTC",
   "Scare Screen"
  ],
- "content_fingerprint": "a493ca7ccdd011060964f9a246dd1efa5d8be0d588a9109d64e5bf105c9295a0",
+ "content_fingerprint": "f87228db3cf0ae8cd9db2ad5d8e18d99b1ee91b1f27e491e46fd3889ae744167",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

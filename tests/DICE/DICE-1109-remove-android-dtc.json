@@ -96,14 +96,20 @@
      "value_raw": "$158,800",
      "value": 158800.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "$154,500",
      "value": 154500.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": -2.71,
@@ -111,7 +117,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 0.59%"
+    "note": "% · diff-to-diff 0.59%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -123,11 +140,12 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "451f7b0734f82eb0",
+   "record_hash": "6c7871de30b24cc9",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-2.71%",
@@ -157,14 +175,20 @@
      "value_raw": "$158,800",
      "value": 158800.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "$154,500",
      "value": 154500.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": 0.59,
@@ -172,7 +196,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 0.59%"
+    "note": "% · diff-to-diff 0.59%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -184,11 +219,12 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "5afd4a66db51ad82",
+   "record_hash": "1aa483bf6d8599b2",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.59%"
@@ -216,14 +252,20 @@
      "value_raw": "$115,336",
      "value": 115336.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "$109,901",
      "value": 109901.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": -4.71,
@@ -231,7 +273,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff −1.31%"
+    "note": "% · diff-to-diff −1.31%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -243,11 +296,12 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "5a7ac5a27c2a3d26",
+   "record_hash": "902854ad88d29809",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-4.71%",
@@ -277,14 +331,20 @@
      "value_raw": "$115,336",
      "value": 115336.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "$109,901",
      "value": 109901.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": -1.31,
@@ -292,7 +352,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff −1.31%"
+    "note": "% · diff-to-diff −1.31%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -304,11 +375,12 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "88edddb0ef9f8866",
+   "record_hash": "4ce1ceb58dc4b209",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-1.31%"
@@ -336,14 +408,20 @@
      "value_raw": "8,163",
      "value": 8163.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "8,311",
      "value": 8311.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": 1.81,
@@ -351,7 +429,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 1.01%"
+    "note": "% · diff-to-diff 1.01%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -363,11 +452,12 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "72a791bc9551edfd",
+   "record_hash": "d0702a181d89da3f",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.81%",
@@ -397,14 +487,20 @@
      "value_raw": "8,163",
      "value": 8163.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "8,311",
      "value": 8311.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": 1.01,
@@ -412,7 +508,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-to-diff 1.01%"
+    "note": "% · diff-to-diff 1.01%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -424,11 +531,12 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "38a1c2c1c861d6ac",
+   "record_hash": "681c0753ac0b20ff",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.01%"
@@ -456,14 +564,20 @@
      "value_raw": "5.04%",
      "value": 5.04,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": 147500,
+     "population_size_raw": "147,500",
+     "population_size_cell": "B4",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "5.30%",
      "value": 5.3,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": 36722,
+     "population_size_raw": "36,722",
+     "population_size_cell": "C4",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": 5.16,
@@ -471,7 +585,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% (rel) · +0.26 pp"
+    "note": "% (rel) · +0.26 pp",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -483,10 +608,11 @@
     "diff_header": "Diff to Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "93f60a0d38216671",
+   "record_hash": "8c5088d8d4d3f89a",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.16%"
@@ -514,14 +640,20 @@
      "value_raw": "$4,809",
      "value": 4809.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 27700,
+     "population_size_raw": "27,700",
+     "population_size_cell": "B12",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "$4,471",
      "value": 4471.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 6870,
+     "population_size_raw": "6,870",
+     "population_size_cell": "C12",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": -7.03,
@@ -529,7 +661,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -541,11 +684,12 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "250b2f7de5401a5f",
+   "record_hash": "088752b0ce2c8675",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-7.03%"
@@ -573,14 +717,20 @@
      "value_raw": "1,012",
      "value": 1012.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 27700,
+     "population_size_raw": "27,700",
+     "population_size_cell": "B12",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "1,047",
      "value": 1047.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 6870,
+     "population_size_raw": "6,870",
+     "population_size_cell": "C12",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": 3.46,
@@ -588,7 +738,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -600,11 +761,12 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "02692e994e6f617e",
+   "record_hash": "9ae5755a4ccc174a",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3.46%"
@@ -632,14 +794,20 @@
      "value_raw": "8.64%",
      "value": 8.64,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": 27700,
+     "population_size_raw": "27,700",
+     "population_size_cell": "B12",
+     "population_size_label": "Unique Users (unormalized)"
     },
     {
      "group": "Test",
      "value_raw": "9.34%",
      "value": 9.34,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": 6870,
+     "population_size_raw": "6,870",
+     "population_size_cell": "C12",
+     "population_size_label": "Unique Users (unormalized)"
     }
    ],
    "relative_diff_pct": 8.1,
@@ -647,7 +815,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% (rel) · +0.70 pp"
+    "note": "% (rel) · +0.70 pp",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -659,10 +838,11 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "6d3eaa6318558d43",
+   "record_hash": "dd6d159864f2693f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "8.10%"
@@ -797,9 +977,9 @@
       ]
      }
     ],
-    "fingerprint": "773aafdab5771c04",
+    "fingerprint": "d038bb75ab88d76f",
     "inputs": {
-     "results:": "11d0cc1ed2857fd2",
+     "results:": "6e2cea9f90152efb",
      "expl:what_happened": "55304f7b0666b1a9",
      "expl:business_meaning": "94637285a8fdf7fb",
      "expl:decided": "18b263b92b82dec7",
@@ -1032,6 +1212,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "8d461f82ceb489cd805339e63e592274a911e93f79065d695b6d9607897dbe73",
+ "content_fingerprint": "c9eb1da86b4b48aa05fed4259158e981ebe43958e4e2082d228a0ed15c8fe9db",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

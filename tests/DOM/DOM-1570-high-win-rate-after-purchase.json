@@ -91,14 +91,20 @@
      "value_raw": "$6,104,714",
      "value": 6104714.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$6,132,454",
      "value": 6132454.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.45,
@@ -106,7 +112,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test 0.22% · DiD 0.23%"
+    "note": "% · pre-test 0.22% · DiD 0.23%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -118,11 +135,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "2a4914d2b237b8a9",
+   "record_hash": "9d3b4ac69cb929c2",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.45%",
@@ -152,14 +171,20 @@
      "value_raw": "$6,104,714",
      "value": 6104714.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$6,132,454",
      "value": 6132454.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.23,
@@ -167,7 +192,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test 0.22% · DiD 0.23%"
+    "note": "% · pre-test 0.22% · DiD 0.23%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -179,11 +215,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "155c410d6754d3ba",
+   "record_hash": "ec9069ed0e6c8dcd",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.23%"
@@ -211,14 +249,20 @@
      "value_raw": "19,937",
      "value": 19937.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "20,056",
      "value": 20056.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.6,
@@ -226,7 +270,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test 1.04% · DiD −0.44%"
+    "note": "% · pre-test 1.04% · DiD −0.44%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -238,11 +293,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "7a78c33ff026898d",
+   "record_hash": "e2677ba93de189f7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.60%",
@@ -272,14 +329,20 @@
      "value_raw": "19,937",
      "value": 19937.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "20,056",
      "value": 20056.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.44,
@@ -287,7 +350,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test 1.04% · DiD −0.44%"
+    "note": "% · pre-test 1.04% · DiD −0.44%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -299,11 +373,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "ed42ed48a5e8ec98",
+   "record_hash": "f85de71c403d1c13",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.44%"
@@ -331,14 +407,20 @@
      "value_raw": "1.1D",
      "value": 1.1,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "1.1D",
      "value": 1.1,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.67,
@@ -346,7 +428,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test −3.80% · DiD 3.13%"
+    "note": "% · pre-test −3.80% · DiD 3.13%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -358,11 +451,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "727071747778524b",
+   "record_hash": "0222dbf0af22a477",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.67%",
@@ -392,14 +487,20 @@
      "value_raw": "1.1D",
      "value": 1.1,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "1.1D",
      "value": 1.1,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 3.13,
@@ -407,7 +508,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test −3.80% · DiD 3.13%"
+    "note": "% · pre-test −3.80% · DiD 3.13%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -419,11 +531,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "d941b921b68e939d",
+   "record_hash": "cfed09d1cc46bfe2",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3.13%"
@@ -451,14 +565,20 @@
      "value_raw": "$650,219",
      "value": 650219.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$658,099",
      "value": 658099.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.21,
@@ -466,7 +586,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -478,11 +609,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "fcb2d4e7f3d651e9",
+   "record_hash": "7eada7410576fb93",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.21%",
@@ -512,14 +645,20 @@
      "value_raw": "$650,219",
      "value": 650219.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$658,099",
      "value": 658099.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 3.35,
@@ -527,7 +666,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -539,11 +689,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "ee95efe24a48ea31",
+   "record_hash": "2301cca9db4563a1",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3.35%",
@@ -572,14 +724,20 @@
      "value_raw": "3,052",
      "value": 3052.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "3,027",
      "value": 3027.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.82,
@@ -587,7 +745,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -599,11 +768,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "ab0ecabea3e6f815",
+   "record_hash": "fac1e6f77fd45321",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.82%",
@@ -633,14 +804,20 @@
      "value_raw": "3,052",
      "value": 3052.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "3,027",
      "value": 3027.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.99,
@@ -648,7 +825,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -660,11 +848,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1570 - High Win Rate After Purchase'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "755bb552961289cf",
+   "record_hash": "bc670e99a3793482",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.99%",
@@ -797,9 +987,9 @@
       ]
      }
     ],
-    "fingerprint": "8d1522293bf6ee24",
+    "fingerprint": "fd5133aa6d482530",
     "inputs": {
-     "results:": "e7e871e90cd3008f",
+     "results:": "70a632b528c4602a",
      "expl:what_happened": "abf227dce3c538ca",
      "expl:business_meaning": "b01e83290c88f998",
      "expl:decided": "a34061593bff1aa8",
@@ -956,6 +1146,6 @@
   "FTD",
   "Pity"
  ],
- "content_fingerprint": "4db35a0b7399af316f3c488af9810c1e22803e23b073e6bb5eb80d404553f827",
+ "content_fingerprint": "c6aad50670d84285f33e10ffaae592140c2b1f89cef67039bce29701c20927a3",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

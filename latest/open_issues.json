@@ -1,6 +1,6 @@
 {
  "dataset": "open_issues",
- "contract_version": "1.4.0",
+ "contract_version": "1.5.0",
  "generated_at": "2026-11-02T16:29:03+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
@@ -8,8 +8,8 @@
   "OI-RULE-21D: the 21-day rule is NOT used to end or hide tests; at most a needs_review flag"
  ],
  "counts": {
-  "items": 16,
-  "awaiting_decision": 16
+  "items": 17,
+  "awaiting_decision": 17
  },
  "items": [
   {
@@ -525,6 +525,34 @@
    "display_note_en": "DICE-1103 \"users that never\" values match tab \"1103 - Scare Screen New Users\" (title: users that never purchased dtc). The mapping is not owner-confirmed, so the rows stay NOT VERIFIED.",
    "since": "2026-11-02",
    "since_basis": "diff provenance audit 2026-11-02",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-1581-OLD-USERS",
+   "topic": "status_conflict",
+   "games": [
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "test_structured",
+     "test_registry"
+    ],
+    "fields": [
+     "audience.new_vs_old",
+     "stop_reason",
+     "lifecycle"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DOM-1581-1581-dtc-remove-for-android"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "DOM-1581: ב-Monday הטסט Live. בוואטסאפ של Domino ב-14.10 וב-15.10 נכתב \"DTC abort old / analysis new\" בלי מספר טסט. לא קושר ל-1581 עד שבעל הטסט יאשר.",
+   "display_note_en": "DOM-1581 is Live on Monday. Domino WhatsApp on 14.10 and 15.10 says \"DTC abort old / analysis new\" with no test number. Not linked to 1581 until the test owner confirms.",
+   "since": "2026-11-02",
+   "since_basis": "test_structured Stage 1 fill 2026-11-02",
    "decision_doc_ref": null
   }
  ]

@@ -1,12 +1,12 @@
 {
  "dataset": "tests_index",
- "contract_version": "1.4.0",
+ "contract_version": "1.5.0",
  "generated_at": "2026-11-02T16:29:03+02:00",
  "timezone": "Asia/Jerusalem",
  "source_version": {
   "test_registry_sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4",
-  "glossary_sha256": "2edf57c3d0dbcd086120160cd55729df4e64b2aa6f7c93caf424798a85c51dba",
-  "aggregate_fingerprint": "ee10539af25758a1bf0ec1c2667519428863a195c33bf70723b33dbf000fe45d"
+  "glossary_sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2",
+  "aggregate_fingerprint": "fcfe76d06dda62809ae69a1af31f4ce41e581c4e70f831328794549e5f3e38df"
  },
  "how_to_use": "filter entries here, then open only detail_file for the tests you need; skip a test whose fingerprint did not change since your last read",
  "counts": {
@@ -68,7 +68,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-199-dtc-from-1st-purchase-android.json",
-   "fingerprint": "240bef4e599f79f4",
+   "fingerprint": "ec76c8cbc09bcae9",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -125,7 +125,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1113-limited-stock-offer-recomp.json",
-   "fingerprint": "d813f6e158476ab5",
+   "fingerprint": "9be75ea286e46504",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -165,7 +165,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1103-scare-screen-new-users.json",
-   "fingerprint": "47e2a9a654f0ef81",
+   "fingerprint": "83a54672a6ca7439",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -212,7 +212,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1543-rv-stuck-in-funnel-users.json",
-   "fingerprint": "cae106fbc7c6cee1",
+   "fingerprint": "c977e53da297dd6b",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -249,7 +249,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1550-inflation-of-wild-cost.json",
-   "fingerprint": "a5dee69e4464d584",
+   "fingerprint": "a224e31a9deed651",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -286,7 +286,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1533-daily-calendar-session-extension.json",
-   "fingerprint": "0f1e9c189fdbbdf7",
+   "fingerprint": "19448995b40b0390",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -312,7 +312,7 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-115-make-any-purchase.json",
-   "fingerprint": "d14709572b40f9a9",
+   "fingerprint": "f048a30d6ffc57c2",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -351,7 +351,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-101-std-expensive-offer-v4-15.json",
-   "fingerprint": "e10ede912456a3c3",
+   "fingerprint": "b850a15d9d0ba4e4",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -377,7 +377,7 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-116-make-any-purchase-v2.json",
-   "fingerprint": "1f4b85e41a8165a9",
+   "fingerprint": "2930f4f4759ea38d",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -431,7 +431,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-125-make-any-purchase-new-seg.json",
-   "fingerprint": "c6925a1b7b15d743",
+   "fingerprint": "285691b18ae22a39",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -491,7 +491,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-124-ays-offer-for-ftd-and.json",
-   "fingerprint": "30aabfc0b4521e22",
+   "fingerprint": "598a24706569cd09",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -517,7 +517,7 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-108-purchase-funnel-v4.json",
-   "fingerprint": "dd95effff399c2f6",
+   "fingerprint": "c44d64397da39a19",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -555,7 +555,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-041-starter-pack-to-level-75.json",
-   "fingerprint": "75d6d0f69b4257f5",
+   "fingerprint": "904978c5cb79f7f8",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -589,7 +589,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-111-starter-pack.json",
-   "fingerprint": "6b904734dd502936",
+   "fingerprint": "d847cd69f514726c",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -640,7 +640,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-1102-ftd-high-maturity.json",
-   "fingerprint": "dbd05bf0c032e333",
+   "fingerprint": "1a9ce84e9f15072a",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -683,7 +683,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1109-remove-android-dtc.json",
-   "fingerprint": "8d461f82ceb489cd",
+   "fingerprint": "c9eb1da86b4b48aa",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -719,7 +719,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1104-bingo-vs-native.json",
-   "fingerprint": "9dd5aed8b8c79fd4",
+   "fingerprint": "bc342bde8b12589f",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -757,7 +757,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-197-dtc-from-1st-purchase-apple.json",
-   "fingerprint": "42acfaf92b1801b1",
+   "fingerprint": "3f959fb7ed290bfd",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -797,7 +797,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1103-scare-screen-users-that-never.json",
-   "fingerprint": "a493ca7ccdd01106",
+   "fingerprint": "f87228db3cf0ae8c",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -838,7 +838,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-195-ftd-offer-3po.json",
-   "fingerprint": "be596f66b8b0e04f",
+   "fingerprint": "fb577f66255bb113",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -882,7 +882,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1570-high-win-rate-after-purchase.json",
-   "fingerprint": "4db35a0b7399af31",
+   "fingerprint": "c6aad50670d84285",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -921,7 +921,7 @@
     "conflict"
    ],
    "detail_file": "tests/DOM/DOM-1551-1551-scrolling-under-250.json",
-   "fingerprint": "ffd79d25b5769d46",
+   "fingerprint": "09a4fcc79fda7321",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -957,7 +957,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1494-romantic-treats.json",
-   "fingerprint": "571de4823ba1485d",
+   "fingerprint": "f2bbec77876efbdc",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1008,7 +1008,7 @@
     "conflict"
    ],
    "detail_file": "tests/DOM/DOM-1501-duel-vs-tournament-onboarding.json",
-   "fingerprint": "ceb559d3bdee6995",
+   "fingerprint": "d9bcdc6fe60be0d4",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1045,7 +1045,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1492-popup-win-level-30-in.json",
-   "fingerprint": "e384d8845bbc21c4",
+   "fingerprint": "5ff05b53e0338ad4",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1086,7 +1086,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1494-dtc-scare-screen-tech-launch.json",
-   "fingerprint": "83e78daa17639027",
+   "fingerprint": "826301792fd69040",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1122,7 +1122,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1500-no-dtc-new-users.json",
-   "fingerprint": "55eeed6baea09429",
+   "fingerprint": "9c43790f62f67a29",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1167,7 +1167,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1460-rv-mania-v2.json",
-   "fingerprint": "278a614c8c5ac2fb",
+   "fingerprint": "3513ee5797c24c2b",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1201,7 +1201,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1500-japan-pricing-test.json",
-   "fingerprint": "7ccb7ed75210ebc3",
+   "fingerprint": "80504f11f42914d4",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1242,7 +1242,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1512-dtc-20-value-for-expensive.json",
-   "fingerprint": "6b01ad2fcab0cca0",
+   "fingerprint": "d83f4418545af92b",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1288,7 +1288,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1543-rv-opportunistic-for-completers-dormants.json",
-   "fingerprint": "ca570661cca45ff8",
+   "fingerprint": "7b9f03170dbc5a0a",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1336,7 +1336,7 @@
     "conflict"
    ],
    "detail_file": "tests/DOM/DOM-NOID-ftd-offer-add-a-20.json",
-   "fingerprint": "6f46e656b7d767f0",
+   "fingerprint": "705df36384c08d57",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1373,7 +1373,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1372-new-ftd-offer.json",
-   "fingerprint": "93df7a7e65fe1b01",
+   "fingerprint": "b69fc86257d9e596",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1412,7 +1412,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1382-ftd-store-all-bundles-high.json",
-   "fingerprint": "e9436e6691167de7",
+   "fingerprint": "f9d0ebe023c21efd",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1451,7 +1451,7 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1382-ftd-store-test.json",
-   "fingerprint": "4e78d8c6608dfc49",
+   "fingerprint": "be8f4b9d3ed247ce",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1499,7 +1499,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1402-vault-late-ftd.json",
-   "fingerprint": "ec4805b7cc613c55",
+   "fingerprint": "d10f26ab6197c17b",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
@@ -1536,7 +1536,7 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-NOID-vault-for-late-ftd-test.json",
-   "fingerprint": "0bb64c2a529acd07",
+   "fingerprint": "438a1eb8e20f5b43",
    "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {

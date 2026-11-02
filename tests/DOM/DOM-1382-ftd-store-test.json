@@ -100,14 +100,20 @@
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.12,
@@ -115,7 +121,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · uplift only"
+    "note": "% · uplift only",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "source": {
     "type": "results_tab",
@@ -124,11 +141,13 @@
     "cell_range": "Doc › Key Results › FTD"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "Google Doc source; not re-read (no Docs connector)",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "Google Doc source; not re-read (no Docs connector)",
+    "ci": "Google Doc source; not re-read (no Docs connector)",
+    "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "01f1fc69a8d110bf",
+   "record_hash": "9d94f0eb4690e3ae",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
    "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
@@ -156,14 +175,20 @@
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 6.31,
@@ -171,7 +196,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · uplift only"
+    "note": "% · uplift only",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "source": {
     "type": "results_tab",
@@ -180,11 +216,13 @@
     "cell_range": "Doc › Key Results › FTD"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "Google Doc source; not re-read (no Docs connector)",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "Google Doc source; not re-read (no Docs connector)",
+    "ci": "Google Doc source; not re-read (no Docs connector)",
+    "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "b451cd68a630ac29",
+   "record_hash": "3e27e6e1dcdf4b90",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
    "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
@@ -212,14 +250,20 @@
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -2,
@@ -227,7 +271,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · uplift only"
+    "note": "% · uplift only",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "source": {
     "type": "results_tab",
@@ -236,11 +291,13 @@
     "cell_range": "Doc › Key Results › Revenue"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "Google Doc source; not re-read (no Docs connector)",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "Google Doc source; not re-read (no Docs connector)",
+    "ci": "Google Doc source; not re-read (no Docs connector)",
+    "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "528f46ed97f63709",
+   "record_hash": "1e60f5027985b685",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
    "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
@@ -268,14 +325,20 @@
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.84,
@@ -283,7 +346,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · uplift only"
+    "note": "% · uplift only",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "source": {
     "type": "results_tab",
@@ -292,11 +366,13 @@
     "cell_range": "Doc › Key Results › Revenue"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "Google Doc source; not re-read (no Docs connector)",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "Google Doc source; not re-read (no Docs connector)",
+    "ci": "Google Doc source; not re-read (no Docs connector)",
+    "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "a4a623972816c84e",
+   "record_hash": "b469341219567319",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
    "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
@@ -324,14 +400,20 @@
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "—",
      "value": null,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 7,
@@ -339,7 +421,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · uplift only"
+    "note": "% · uplift only",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "source": {
     "type": "results_tab",
@@ -348,11 +441,13 @@
     "cell_range": "Doc › Source & Transaction Behavior"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "Google Doc source; not re-read (no Docs connector)",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "Google Doc source; not re-read (no Docs connector)",
+    "ci": "Google Doc source; not re-read (no Docs connector)",
+    "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "4968c4d21ce957a9",
+   "record_hash": "11b4daa352d41e73",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
    "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
@@ -484,9 +579,9 @@
       ]
      }
     ],
-    "fingerprint": "c4811fe52074da5e",
+    "fingerprint": "0abdac75c3316c94",
     "inputs": {
-     "results:": "94364f406abb09ca",
+     "results:": "7858934b2afa4007",
      "expl:what_happened": "99eb401751979c30",
      "expl:business_meaning": "4a681cf520a101de",
      "expl:decided": "db4b08477b6a3bff",
@@ -642,6 +737,6 @@
  "glossary_concepts": [
   "FTD"
  ],
- "content_fingerprint": "4e78d8c6608dfc49dc6645b3afd6d417046acc3fe828905ffca048327bce8950",
+ "content_fingerprint": "be8f4b9d3ed247ceaa122c554bece7a58301e0b911bd45d359a7ce12d71caa7a",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

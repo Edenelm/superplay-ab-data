@@ -99,14 +99,20 @@
      "value_raw": "$6.18M",
      "value": 6.18,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$6.08M",
      "value": 6.08,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -1.6,
@@ -114,7 +120,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -126,11 +143,13 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "227ce4c047a72f8c",
+   "record_hash": "33996d47ea01e092",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-1.6%"
@@ -158,14 +177,20 @@
      "value_raw": "5262",
      "value": 5262.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "5346",
      "value": 5346.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.6,
@@ -173,7 +198,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -185,11 +221,13 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "48e3820079c569e5",
+   "record_hash": "85cbd9c61cd33b4c",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.6%"
@@ -217,14 +255,20 @@
      "value_raw": "37.44K",
      "value": 37.44,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "37.69K",
      "value": 37.69,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.5,
@@ -232,7 +276,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -244,11 +299,13 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "e5d24dcfa6b1bb4c",
+   "record_hash": "1a8a10153f3b0840",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.5%"
@@ -276,14 +333,20 @@
      "value_raw": "19.62K",
      "value": 19.62,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "20.12K",
      "value": 20.12,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 2.4,
@@ -291,7 +354,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -303,11 +377,13 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "430b08e786f3a8fa",
+   "record_hash": "f55d7095eeed9864",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.4%"
@@ -335,14 +411,20 @@
      "value_raw": "72%",
      "value": 72.0,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "73%",
      "value": 73.0,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 2.0,
@@ -350,7 +432,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% as labelled (rel) · ~+1 pp as displayed"
+    "note": "% as labelled (rel) · ~+1 pp as displayed",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -362,10 +455,12 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "3ed52c40653ab542",
+   "record_hash": "a2dfd33fba6eb30b",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2%"
@@ -393,14 +488,20 @@
      "value_raw": "41",
      "value": 41.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "42",
      "value": 42.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 3.0,
@@ -408,7 +509,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -420,11 +532,13 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "440d7cdf3544e4a2",
+   "record_hash": "9f38e1c0f955f1b1",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3%"
@@ -452,14 +566,20 @@
      "value_raw": "26",
      "value": 26.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "27",
      "value": 27.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 2.8,
@@ -467,7 +587,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -479,11 +610,13 @@
     "diff_header": "Lift"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '1533- Daily Calendar Session Extension'!A1:Y60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "8aa2103d81190ecc",
+   "record_hash": "9305d348512bd6a0",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.8%"
@@ -615,9 +748,9 @@
       ]
      }
     ],
-    "fingerprint": "d0138f4b044d7a92",
+    "fingerprint": "1b05aff20ca8d2f9",
     "inputs": {
-     "results:": "980c74ee92ee77fe",
+     "results:": "03e2d8cfb3113da5",
      "expl:what_happened": "93b18af990596f96",
      "expl:business_meaning": "644c9d45b52c2460",
      "expl:decided": "6e834d08eb50fdbd",
@@ -775,6 +908,6 @@
  "glossary_concepts": [
   "Revenue"
  ],
- "content_fingerprint": "0f1e9c189fdbbdf7ca5c5cd5d10d165be66de2c7c28ad8a039bb09278cf1c13a",
+ "content_fingerprint": "19448995b40b03900e4ee3d3b3483d7da2c9d1761441c315e18ac3510dcba7f1",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

@@ -9,7 +9,8 @@
   "generated_at",
   "timezone",
   "records",
-  "append_only"
+  "append_only",
+  "field_definitions"
  ],
  "properties": {
   "dataset": {
@@ -123,7 +124,26 @@
         },
         "population_size": {
          "type": [
-          "number",
+          "integer",
+          "null"
+         ]
+        },
+        "population_size_raw": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "population_size_cell": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "pattern": "^[A-Z]{1,3}[0-9]+$"
+        },
+        "population_size_label": {
+         "type": [
+          "string",
           "null"
          ]
         }
@@ -147,7 +167,10 @@
       "type": "object",
       "required": [
        "p_value",
-       "ci"
+       "ci",
+       "ci_raw",
+       "significance",
+       "checked_at"
       ],
       "properties": {
        "p_value": {
@@ -158,16 +181,90 @@
        },
        "ci": {
         "type": [
-         "object",
          "array",
          "null"
-        ]
+        ],
+        "items": {
+         "type": "number"
+        },
+        "minItems": 2,
+        "maxItems": 2
        },
        "note": {
         "type": [
          "string",
          "null"
         ]
+       },
+       "p_value_raw": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "p_value_cell": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^[A-Z]{1,3}[0-9]+$"
+       },
+       "p_value_header": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "ci_low": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "ci_high": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "ci_raw": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "ci_cell": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^[A-Z]{1,3}[0-9]+$"
+       },
+       "ci_header": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "significance": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "significance_cell": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^[A-Z]{1,3}[0-9]+$"
+       },
+       "checked_at": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
        }
       },
       "additionalProperties": true
@@ -283,6 +380,40 @@
        "string",
        "null"
       ]
+     }
+    },
+    "additionalProperties": true
+   }
+  },
+  "field_definitions": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "definition",
+     "source",
+     "definition_status",
+     "null_reason_key"
+    ],
+    "properties": {
+     "definition": {
+      "type": "string"
+     },
+     "source": {
+      "type": "string"
+     },
+     "definition_status": {
+      "enum": [
+       "explicit_in_source",
+       "interpretation",
+       "unclear"
+      ]
+     },
+     "null_reason_key": {
+      "type": "string"
+     },
+     "question": {
+      "type": "string"
      }
     },
     "additionalProperties": true

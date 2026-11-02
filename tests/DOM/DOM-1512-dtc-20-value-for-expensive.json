@@ -82,7 +82,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "No results data on the board.",
    "source": {
@@ -93,13 +104,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "02cc818794d23f06",
+   "record_hash": "37d440fc544a2d42",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -212,9 +225,9 @@
       ]
      }
     ],
-    "fingerprint": "bbf32291106d13dd",
+    "fingerprint": "90d24c0657987750",
     "inputs": {
-     "results:": "e56df28023df85eb",
+     "results:": "076392bcae0e33cd",
      "expl:what_happened": "c50ee920a8468202",
      "expl:business_meaning": "953e0093fc24beba",
      "expl:decided": "21a5be11309aa515",
@@ -359,6 +372,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "6b01ad2fcab0cca027f44efcc1a6f3b53bac699cb50da0f684a3452fe964ebe5",
+ "content_fingerprint": "d83f4418545af92b8d80be7ecee574167670db15c035eb5166d6da4f145a473b",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

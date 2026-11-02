@@ -6,12 +6,13 @@ Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-
 
 - `game_metrics`: {"sha256": "d228e47c9f171c8da80ca27d97623efbe3cdf454ef872d0d6b0bd127d71565c1", "source_snapshot": "2026-11-02T08:40:00+02:00"}
 - `test_registry`: {"sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4", "source_snapshot": "2026-11-02"}
-- `test_results`: {"sha256": "5c3adc30d10e80d8125d26e42a5e2dcd24bfa0318c296d9cdd131aff33cbca77", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)"}
+- `test_results`: {"sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02); population/uncertainty cells from results tabs read 2026-11-02"}
 - `explanations_learnings_decisions`: {"sha256": "22ca90fb92cb63f5dcdf980d5cb8e2b4cb11ca1cbd0a7c40a3df07293d59a34c", "source_snapshot": "2026-11-02"}
 - `whatsapp_items`: {"sha256": "3a1b5cb939668ad0f018e210800af1cec8564fc9c58c30c102592f46fd4cc9d7", "source_snapshot": "2026-11-02"}
 - `metric_definitions`: {"sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3", "source_snapshot": "2026-11-01T12:05:00+02:00 (+ Domino DAU lineage 2026-11-02T16:25:00+02:00)"}
-- `glossary`: {"sha256": "2edf57c3d0dbcd086120160cd55729df4e64b2aa6f7c93caf424798a85c51dba", "source_snapshot": "local sources as of 2026-11-02"}
-- `open_issues`: {"sha256": "1d0b86105a0e6e0da50a19f1d651ae26e33aec4335cf9ef2b7960d0861476c06", "source_snapshot": "curated from saved sources as of 2026-11-02"}
+- `glossary`: {"sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2", "source_snapshot": "local sources as of 2026-11-02"}
+- `open_issues`: {"sha256": "a4b379ae6227244f3a5b8e433e5eee44ee5acdcc638fe38bdc24105d762e7602", "source_snapshot": "curated from saved sources as of 2026-11-02"}
+- `test_structured`: {"sha256": "c2ce2b2656e43c44f9528dd1c9777ea642b7225a0d54b5c77128dc1e6fe65c60", "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02"}
 - `curated_live_understanding`: {"sha256": "07bddf632ee7d21b90a7f61d9c01313652e841ecec2d34f55593ef7a9a8a1450"}
 - `curated_extra_conflicts`: {"sha256": "31a493c5753754287110df56be166615ee1d9b1ddff43dba30d3dc56b4ce7efd", "file": "tools/curated/extra_conflicts.json"}
 - `mixpanel_mechanism_pass`: {"sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213", "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"}

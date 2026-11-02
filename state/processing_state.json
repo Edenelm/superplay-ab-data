@@ -11,8 +11,8 @@
    "source_snapshot": "2026-11-02"
   },
   "test_results": {
-   "sha256": "5c3adc30d10e80d8125d26e42a5e2dcd24bfa0318c296d9cdd131aff33cbca77",
-   "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)"
+   "sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24",
+   "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02); population/uncertainty cells from results tabs read 2026-11-02"
   },
   "explanations_learnings_decisions": {
    "sha256": "22ca90fb92cb63f5dcdf980d5cb8e2b4cb11ca1cbd0a7c40a3df07293d59a34c",
@@ -27,12 +27,16 @@
    "source_snapshot": "2026-11-01T12:05:00+02:00 (+ Domino DAU lineage 2026-11-02T16:25:00+02:00)"
   },
   "glossary": {
-   "sha256": "2edf57c3d0dbcd086120160cd55729df4e64b2aa6f7c93caf424798a85c51dba",
+   "sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2",
    "source_snapshot": "local sources as of 2026-11-02"
   },
   "open_issues": {
-   "sha256": "1d0b86105a0e6e0da50a19f1d651ae26e33aec4335cf9ef2b7960d0861476c06",
+   "sha256": "a4b379ae6227244f3a5b8e433e5eee44ee5acdcc638fe38bdc24105d762e7602",
    "source_snapshot": "curated from saved sources as of 2026-11-02"
+  },
+  "test_structured": {
+   "sha256": "c2ce2b2656e43c44f9528dd1c9777ea642b7225a0d54b5c77128dc1e6fe65c60",
+   "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02"
   },
   "curated_live_understanding": {
    "sha256": "07bddf632ee7d21b90a7f61d9c01313652e841ecec2d34f55593ef7a9a8a1450"
@@ -129,14 +133,14 @@
  },
  "tests": {
   "DICE-199-dtc-from-1st-purchase-android": {
-   "fingerprint": "240bef4e599f79f408684dd70e38563476bb2623ee7b5fb2d4c1d0a20f67d710",
+   "fingerprint": "ec76c8cbc09bcae91a73a52fdb27f53ae609edd41d9e14839684ab4d91875fe8",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "a5d347e47057526f",
     "what_changes": "9c8824874d2dac10",
     "who_when": "a8297b2feeddd7cb",
     "why": "3a5bc48df8af63b8",
-    "learned": "0b5392beaeb960a4",
+    "learned": "0ed587b2c6adc49a",
     "unclear": "d6be0ede8e31fb47"
    },
    "coverage": "partial",
@@ -150,14 +154,14 @@
    ]
   },
   "DICE-1113-limited-stock-offer-recomp": {
-   "fingerprint": "d813f6e158476ab53bed927b3cc41fd3ed9cbb07453a052e6a9503f219516ecf",
+   "fingerprint": "9be75ea286e46504daeaaa0393a50a1f77413fb8dc2d986be10640678f5fb83a",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "2879637db08fb5c5",
     "what_changes": "4926967a9a6ec3e9",
     "who_when": "cbe3197bdf2a5e92",
     "why": "04904fd60e09d650",
-    "learned": "e3145ec3e1338503",
+    "learned": "8ec193060648a5eb",
     "unclear": "2ae8b123c7e80ae9"
    },
    "coverage": "full",
@@ -171,14 +175,14 @@
    ]
   },
   "DICE-1103-scare-screen-new-users": {
-   "fingerprint": "47e2a9a654f0ef81205498075ed8058fbbe7f08f904c8e57784e51fcd709a166",
+   "fingerprint": "83a54672a6ca7439cea3bbe09e52e4be2b14a11a8b58d416fa59a957f68ae632",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "d72859cb3be125df",
     "what_changes": "dbd0778ca142e4a2",
     "who_when": "a6fa3aeee88534c1",
     "why": "340e653160748dd3",
-    "learned": "743fac1ad10d3065",
+    "learned": "829b12af13771c33",
     "unclear": "33ea41c2d3ecb422"
    },
    "coverage": "partial",
@@ -192,14 +196,14 @@
    ]
   },
   "DOM-1543-rv-stuck-in-funnel-users": {
-   "fingerprint": "cae106fbc7c6cee1e1fa0610fa340f7a4f64cba74c3ffcb3b3a89003e9746543",
+   "fingerprint": "c977e53da297dd6b026a9c02c7d77a8146504f65265830e4766b0191be49ca36",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "72db371572f3e464",
     "what_changes": "b6fe8570a8e0de3d",
     "who_when": "5cc58cea19da3e5f",
     "why": "84d6d9858ffe2f2b",
-    "learned": "dce47253a91fe7db",
+    "learned": "81e74213a6b6e860",
     "unclear": "5ecad7f1b903ca89"
    },
    "coverage": "full",
@@ -213,14 +217,14 @@
    ]
   },
   "DOM-1550-inflation-of-wild-cost": {
-   "fingerprint": "a5dee69e4464d5848060b9f7784bea499f964e314ea3832196e2132620588248",
+   "fingerprint": "a224e31a9deed6514a597210e4a7053147e05ee90032422b8fe8554ff0d8ab93",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "50727bb07d625183",
     "what_changes": "cf9ea589be4f5fbb",
     "who_when": "d8b43870459da7d5",
     "why": "b8994f8eea6311e0",
-    "learned": "6e194f725792cfb5",
+    "learned": "2d1c8c12f81d70f4",
     "unclear": "2c5b49661c129c70"
    },
    "coverage": "full",
@@ -234,14 +238,14 @@
    ]
   },
   "DOM-1533-daily-calendar-session-extension": {
-   "fingerprint": "0f1e9c189fdbbdf7ca5c5cd5d10d165be66de2c7c28ad8a039bb09278cf1c13a",
+   "fingerprint": "19448995b40b03900e4ee3d3b3483d7da2c9d1761441c315e18ac3510dcba7f1",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "f46668636659a435",
     "what_changes": "433d11f90aad8eb7",
     "who_when": "b5d3d3b7156d47fe",
     "why": "dbcb3545cbda3642",
-    "learned": "d0138f4b044d7a92",
+    "learned": "1b05aff20ca8d2f9",
     "unclear": "16868e1067a77a6d"
    },
    "coverage": "full",
@@ -255,14 +259,14 @@
    ]
   },
   "DIS-115-make-any-purchase": {
-   "fingerprint": "d14709572b40f9a96c0c60154fb4836bd6f027861e18a284d41a1b447c3eb0b1",
+   "fingerprint": "f048a30d6ffc57c24c304fcf86ca2337b556b4cb34fad0e4777089d801aab912",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "ddb9c4f032de351d",
     "what_changes": "a271677aa8b1a84c",
     "who_when": "8f21d390d4b70ed1",
     "why": "4d9f76a9e88031e1",
-    "learned": "7218ac818809726f",
+    "learned": "cbfb3519892f42e4",
     "unclear": "c5189c9aeb1a9115"
    },
    "coverage": "unclear",
@@ -276,14 +280,14 @@
    ]
   },
   "DIS-101-std-expensive-offer-v4-15": {
-   "fingerprint": "e10ede912456a3c39978955269c6f5b0f3e276a1cb450c0dec30ec209ed76982",
+   "fingerprint": "b850a15d9d0ba4e4574bdde80bb09998f7a97083de05aa5a60947ac5c60f5880",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "c3b66ee1718552d4",
     "what_changes": "4aa57e22b585abad",
     "who_when": "d00d9c068f016b83",
     "why": "4d9f76a9e88031e1",
-    "learned": "5336eaeec7523c2a",
+    "learned": "69704bbc52c540a1",
     "unclear": "fd89704a8d8a76b1"
    },
    "coverage": "unclear",
@@ -297,14 +301,14 @@
    ]
   },
   "DIS-116-make-any-purchase-v2": {
-   "fingerprint": "1f4b85e41a8165a98f963fcd33d79f55ddbb562aa375b5c791f7c46afd56438c",
+   "fingerprint": "2930f4f4759ea38dfee75f5deffd2f5cad9adb2e6a055b64f35d65eb90878a61",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "f936f660ff0315cb",
     "what_changes": "a371e43176e486a3",
     "who_when": "8bba0ed5a2caecea",
     "why": "4d9f76a9e88031e1",
-    "learned": "99990ac9bf430e96",
+    "learned": "33884f646a9f591d",
     "unclear": "7de2c87f23006b7c"
    },
    "coverage": "unclear",
@@ -318,14 +322,14 @@
    ]
   },
   "DIS-125-make-any-purchase-new-seg": {
-   "fingerprint": "c6925a1b7b15d743a37047c2c216289d1ad49a5e2dbe2a44c8a5ca5e7f5ce77b",
+   "fingerprint": "285691b18ae22a399b83f978b734a0ab0ac443be33958328b229e1e00ef43b14",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "28e82bed68b42a60",
     "what_changes": "d6781bfee6bf124f",
     "who_when": "8fea7d7f343e41e7",
     "why": "998e7cadc807015d",
-    "learned": "d1efb33e78d3afb1",
+    "learned": "625b58b77937367d",
     "unclear": "69f992d01ddc47f0"
    },
    "coverage": "full",
@@ -339,14 +343,14 @@
    ]
   },
   "DIS-124-ays-offer-for-ftd-and": {
-   "fingerprint": "30aabfc0b4521e22e2c2a6686661677301964491fb009d197f8b92785c46e843",
+   "fingerprint": "598a24706569cd092fa73bff671031681b1103267f36f149c7754df1f6b941f3",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "98675a53cb362c3f",
     "what_changes": "3e2f81b55182c0c9",
     "who_when": "b7165c9e0287d921",
     "why": "427605687c83fec7",
-    "learned": "4b78608441e20c6a",
+    "learned": "c1bf6e49cd5c03dc",
     "unclear": "5914e603414808dc"
    },
    "coverage": "partial",
@@ -360,14 +364,14 @@
    ]
   },
   "DIS-108-purchase-funnel-v4": {
-   "fingerprint": "dd95effff399c2f6f9d4d969f4d17d5ccf893e48a187e3e885593cab15d06246",
+   "fingerprint": "c44d64397da39a19102885a7956d6ae4dc2a6ff281cd704f83d245043e3d4d51",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "308b1ce9f4dafbd8",
     "what_changes": "ed22569446e5bde9",
     "who_when": "5bceb286cba6a3bc",
     "why": "4d9f76a9e88031e1",
-    "learned": "5d482f6812c7be02",
+    "learned": "5305a995ad827a5a",
     "unclear": "a810300b9ada36c7"
    },
    "coverage": "unclear",
@@ -381,14 +385,14 @@
    ]
   },
   "DIS-041-starter-pack-to-level-75": {
-   "fingerprint": "75d6d0f69b4257f5c1e51de5bb9d80a55cda5de5e173926d39e1189c80efe0d0",
+   "fingerprint": "904978c5cb79f7f8ed0232f9e2f1becce2720709e08302e34ddb2ac1b9c7d1f5",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "57380bf518efa8f6",
     "what_changes": "32d3c0b72ea24dbc",
     "who_when": "3286b409fb37f408",
     "why": "4d9f76a9e88031e1",
-    "learned": "c0e0707c7806f634",
+    "learned": "584b02da0a080fee",
     "unclear": "acda5097c656031c"
    },
    "coverage": "unclear",
@@ -402,14 +406,14 @@
    ]
   },
   "DIS-111-starter-pack": {
-   "fingerprint": "6b904734dd5029365e8505879c117fc0789716ea3e6734f8baec4dd957213669",
+   "fingerprint": "d847cd69f514726cd25aebb339a65ff2c7d9400286ae436cba6862c55f748946",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "5321ca8335f9a279",
     "what_changes": "cb34b5c880f5cc43",
     "who_when": "4d2df7f72b0ce798",
     "why": "4d9f76a9e88031e1",
-    "learned": "dd9315c2caaccc73",
+    "learned": "6862dde654bc19dd",
     "unclear": "e4f02a63edebff32"
    },
    "coverage": "unclear",
@@ -423,14 +427,14 @@
    ]
   },
   "DICE-1102-ftd-high-maturity": {
-   "fingerprint": "dbd05bf0c032e333d913ff78931c1dc00f3cd85224ae84042de90cfd4c43ad8d",
+   "fingerprint": "1a9ce84e9f15072a3be3f8b94a4d5fc941b89ad266b755906cbdcb1f29f9ddcf",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "3aba73f64b3b01a2",
     "what_changes": "436c42438a1adc15",
     "who_when": "a0991d0e9b1d4738",
     "why": "756172510a6dbf75",
-    "learned": "23b3921093947138",
+    "learned": "2a334bcfd775fbf0",
     "unclear": "c3ef96b38fe9311f"
    },
    "coverage": "full",
@@ -444,14 +448,14 @@
    ]
   },
   "DICE-1109-remove-android-dtc": {
-   "fingerprint": "8d461f82ceb489cd805339e63e592274a911e93f79065d695b6d9607897dbe73",
+   "fingerprint": "c9eb1da86b4b48aa05fed4259158e981ebe43958e4e2082d228a0ed15c8fe9db",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "12ce9ebed4dc6d94",
     "what_changes": "11a1afe0724a5c80",
     "who_when": "ed5e6f3864126859",
     "why": "638b1d8e118bccc1",
-    "learned": "773aafdab5771c04",
+    "learned": "d038bb75ab88d76f",
     "unclear": "c3a54f5fddac6052"
    },
    "coverage": "full",
@@ -465,14 +469,14 @@
    ]
   },
   "DICE-1104-bingo-vs-native": {
-   "fingerprint": "9dd5aed8b8c79fd42537a1c33c0a12f8e4e7359f71d11a23b60e9531f566b597",
+   "fingerprint": "bc342bde8b12589f9c625c84f108d8aec9133496defa1ac4daaad0617879d022",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "74cd2be4d8cc634d",
     "what_changes": "85d33b0c3eefdf94",
     "who_when": "08a982f08530ea9c",
     "why": "471046a16bc75b09",
-    "learned": "d8aeb77f5582ebf1",
+    "learned": "c1e119650e9a087f",
     "unclear": "22f2ad9a1cee12da"
    },
    "coverage": "partial",
@@ -486,14 +490,14 @@
    ]
   },
   "DICE-197-dtc-from-1st-purchase-apple": {
-   "fingerprint": "42acfaf92b1801b19b4c778fd56831d30be2a53ebb61640c3d143771307873ca",
+   "fingerprint": "3f959fb7ed290bfd949438c36ba8019c183668dfd8894e05af2b7d7edd1182bf",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "0d0aac7ecd54b1f1",
     "what_changes": "beb43ccf7e017aa2",
     "who_when": "d9fcce51e3000170",
     "why": "a72cc41cad95ab0e",
-    "learned": "9cd5b5a517daa3e0",
+    "learned": "7ce06bd242436138",
     "unclear": "82a9880f70a0adc4"
    },
    "coverage": "full",
@@ -507,14 +511,14 @@
    ]
   },
   "DICE-1103-scare-screen-users-that-never": {
-   "fingerprint": "a493ca7ccdd011060964f9a246dd1efa5d8be0d588a9109d64e5bf105c9295a0",
+   "fingerprint": "f87228db3cf0ae8cd9db2ad5d8e18d99b1ee91b1f27e491e46fd3889ae744167",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "276c47f514a5da50",
     "what_changes": "e941ba76f5671685",
     "who_when": "4b1c3815b57386f3",
     "why": "289f5cf8964b2a35",
-    "learned": "87a4f34c6832c325",
+    "learned": "6d1a89ce88ac7d9e",
     "unclear": "042306d42ced77ba"
    },
    "coverage": "partial",
@@ -528,14 +532,14 @@
    ]
   },
   "DICE-195-ftd-offer-3po": {
-   "fingerprint": "be596f66b8b0e04f24ab7891bc568a8ec2ab006dca474851479097c41a430267",
+   "fingerprint": "fb577f66255bb113cf942c3b7b759020b6fc541c9a7063462a42b5e3fe27b324",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "938d556dc7320530",
     "what_changes": "602d6d8ef07ea6f0",
     "who_when": "83527d21ff291b06",
     "why": "095ad39358440754",
-    "learned": "40e0d91917b3bcf2",
+    "learned": "c0ba34bdca6aa555",
     "unclear": "22e036993067376a"
    },
    "coverage": "full",
@@ -549,14 +553,14 @@
    ]
   },
   "DOM-1570-high-win-rate-after-purchase": {
-   "fingerprint": "4db35a0b7399af316f3c488af9810c1e22803e23b073e6bb5eb80d404553f827",
+   "fingerprint": "c6aad50670d84285f33e10ffaae592140c2b1f89cef67039bce29701c20927a3",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "78b63ef433aab0e1",
     "what_changes": "9970b0ee8cfb77b9",
     "who_when": "765e3d33a13d564a",
     "why": "9ff8efe8fbb18143",
-    "learned": "8d1522293bf6ee24",
+    "learned": "fd5133aa6d482530",
     "unclear": "ca8571f0e90621ae"
    },
    "coverage": "full",
@@ -570,14 +574,14 @@
    ]
   },
   "DOM-1551-1551-scrolling-under-250": {
-   "fingerprint": "ffd79d25b5769d468955bd0cecbf041dc6229c2a4015e4d524029a2a9ff10a60",
+   "fingerprint": "09a4fcc79fda7321786805469f2dbbb93e3071555d957789237536e288d02d10",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "023f1ed1c12176b8",
     "what_changes": "bfe16f1083855ace",
     "who_when": "73d6f2f3295c18cc",
     "why": "a886b824743fd5a6",
-    "learned": "b00ec339c92718ff",
+    "learned": "04604153b0807d2a",
     "unclear": "89dc0a5423c00c4c"
    },
    "coverage": "partial",
@@ -591,14 +595,14 @@
    ]
   },
   "DOM-1494-romantic-treats": {
-   "fingerprint": "571de4823ba1485daf126adf88714b4e2cc301a54b4d1d7b0b045ca8e2385518",
+   "fingerprint": "f2bbec77876efbdcc62027ebcc50697dcbbea27093a33a6cb45b7b20eb0a4e5a",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "3aeed6f9e0dbb034",
     "what_changes": "6d2fba480504b8eb",
     "who_when": "0b1d98ece5855c79",
     "why": "2b3f26a4ae7abc1b",
-    "learned": "d7492c273cb58cba",
+    "learned": "5d4e28ccd8a69bfd",
     "unclear": "e54669b8ead7fb33"
    },
    "coverage": "full",
@@ -612,14 +616,14 @@
    ]
   },
   "DOM-1501-duel-vs-tournament-onboarding": {
-   "fingerprint": "ceb559d3bdee6995d089ed7c03de251c60f6eb6a67c6a084ff5120e1431b62d0",
+   "fingerprint": "d9bcdc6fe60be0d4933d6715c9c2411aae7e561928b3b540487b56fc01943c37",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "4efdc7b7e15c27cd",
     "what_changes": "8f824f875d30c6e0",
     "who_when": "107e75a4d657e2bd",
     "why": "9b359086018f71fd",
-    "learned": "4cb77482d55c7f4a",
+    "learned": "94eeacf9f112a0c2",
     "unclear": "61d6d9b05bfd0b42"
    },
    "coverage": "full",
@@ -633,14 +637,14 @@
    ]
   },
   "DOM-1492-popup-win-level-30-in": {
-   "fingerprint": "e384d8845bbc21c4b6185ff9555275584551b2963bf1dcf6a56721538218b362",
+   "fingerprint": "5ff05b53e0338ad42b350958f3d8e045330fec3415f1b5cb66001ebc7fc32dc7",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "f15e264677104774",
     "what_changes": "94102c2a1102a513",
     "who_when": "013252aec0535ca6",
     "why": "974ab4d8b1ce3ccd",
-    "learned": "82bee8a470f81e03",
+    "learned": "29c6df51e5d10582",
     "unclear": "fc561ab25f71ef5b"
    },
    "coverage": "full",
@@ -654,14 +658,14 @@
    ]
   },
   "DOM-1494-dtc-scare-screen-tech-launch": {
-   "fingerprint": "83e78daa17639027f81a7611db71c9332b0a88e3c7bf466ba05c31918829301d",
+   "fingerprint": "826301792fd690408a14d9cb4b5b5edae09600d753746a280dad565b4bbaaa5a",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "8d42f44b88962a90",
     "what_changes": "3ceb518c2ca660b1",
     "who_when": "caf92c6135a2a6a0",
     "why": "65d97e4163c632a3",
-    "learned": "8e2ec38c0a6ddda0",
+    "learned": "abee7019a9566122",
     "unclear": "0f805f40f7a764db"
    },
    "coverage": "full",
@@ -675,14 +679,14 @@
    ]
   },
   "DOM-1500-no-dtc-new-users": {
-   "fingerprint": "55eeed6baea0942971c26e89779ff8a985409706bd031144640c3d716d94525e",
+   "fingerprint": "9c43790f62f67a29f2d5c41792c44d93cb936a0d5f767efdc8b9ddbb230a3d55",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "c1816f2935cd702f",
     "what_changes": "0ae85380e30f08a1",
     "who_when": "107e6adb47e7763f",
     "why": "1e0c3486f6104d84",
-    "learned": "be45962f0803a3f3",
+    "learned": "56bd0ca7fc01549b",
     "unclear": "927fd9eacaa82a3e"
    },
    "coverage": "partial",
@@ -696,14 +700,14 @@
    ]
   },
   "DOM-1460-rv-mania-v2": {
-   "fingerprint": "278a614c8c5ac2fb448aaa7d4ec699d76672df5735eb7623a9419d35c4ec6266",
+   "fingerprint": "3513ee5797c24c2bb9ce8a8190118659ce1c1075b6cb05b41a741e9dc2d6a021",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "8bab8e54a2b1afdf",
     "what_changes": "a94af8b90226b41d",
     "who_when": "25bf4c14584eb390",
     "why": "82425b28928cfb57",
-    "learned": "67437c45eea50cf3",
+    "learned": "a331033cf4a745a1",
     "unclear": "f80ed5a415186cb3"
    },
    "coverage": "full",
@@ -717,14 +721,14 @@
    ]
   },
   "DOM-1500-japan-pricing-test": {
-   "fingerprint": "7ccb7ed75210ebc329b11ab8af05170d0d3125aa4c636e1986b393a9b1d3faa9",
+   "fingerprint": "80504f11f42914d4de6036d832f03f6cd23b398778436676051eb800e776a65e",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "518e26f03a082af1",
     "what_changes": "651af38115779716",
     "who_when": "1fb4090ce9e80f23",
     "why": "f4cc871474002bb0",
-    "learned": "be27e04084f22fae",
+    "learned": "6808e7900092269c",
     "unclear": "5caf8aaf561d240f"
    },
    "coverage": "full",
@@ -738,14 +742,14 @@
    ]
   },
   "DOM-1512-dtc-20-value-for-expensive": {
-   "fingerprint": "6b01ad2fcab0cca027f44efcc1a6f3b53bac699cb50da0f684a3452fe964ebe5",
+   "fingerprint": "d83f4418545af92b8d80be7ecee574167670db15c035eb5166d6da4f145a473b",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "f61a39c8e7b7bd6e",
     "what_changes": "4ba51626c564f6cf",
     "who_when": "526faaa7f41e6042",
     "why": "a972936a105774ca",
-    "learned": "bbf32291106d13dd",
+    "learned": "90d24c0657987750",
     "unclear": "2889d2b9f840f6d5"
    },
    "coverage": "full",
@@ -759,14 +763,14 @@
    ]
   },
   "DOM-1543-rv-opportunistic-for-completers-dormants": {
-   "fingerprint": "ca570661cca45ff8a20690231515b3ea1830052e9b9a65bd7f2b907ebecc935c",
+   "fingerprint": "7b9f03170dbc5a0a966d8101a49413c5e149f1fc73d2dc28188e9b809e72276b",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "2c492b3a9c084ddd",
     "what_changes": "427f10585c01dfa1",
     "who_when": "910629bd635b03da",
     "why": "36e33f6bbc83a981",
-    "learned": "76edee4b29ac9b85",
+    "learned": "62f916fb430b14a0",
     "unclear": "b51f8869b0f648b6"
    },
    "coverage": "full",
@@ -780,14 +784,14 @@
    ]
   },
   "DOM-NOID-ftd-offer-add-a-20": {
-   "fingerprint": "6f46e656b7d767f01128f07a0b27d4bc91eed2005de9533bf6a73a49c9a7e720",
+   "fingerprint": "705df36384c08d5754ee04ab0e8dc476d7098ef54408f11f49b33ec18009c60d",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "1adc8d7ffab1a429",
     "what_changes": "ffec18614387693e",
     "who_when": "ac110e764733dd11",
     "why": "58570336ceff54ef",
-    "learned": "2264ad8024e1d1b9",
+    "learned": "39a6ca8039f0bc86",
     "unclear": "540cd74237fb74af"
    },
    "coverage": "partial",
@@ -803,14 +807,14 @@
    ]
   },
   "DOM-1372-new-ftd-offer": {
-   "fingerprint": "93df7a7e65fe1b015d76fbe1aaf556931c2e71cb588a27a4b0b8cb15fa89158e",
+   "fingerprint": "b69fc86257d9e59647efccd1701eb7713800d407ca236f0ffb11734ec87bcb7f",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "8979915795974535",
     "what_changes": "bd394a7a613ab188",
     "who_when": "a612b0afd121f7b6",
     "why": "4d9f76a9e88031e1",
-    "learned": "bc56466ea23cb54d",
+    "learned": "8417ed46e84ed834",
     "unclear": "e23014b206bbdd6d"
    },
    "coverage": "partial",
@@ -824,14 +828,14 @@
    ]
   },
   "DOM-1382-ftd-store-all-bundles-high": {
-   "fingerprint": "e9436e6691167de76c39011fb150f90df3064122f904b74895a8686dd035230e",
+   "fingerprint": "f9d0ebe023c21efd1bd6df0dbf466d44dbb2f31f88709cae04b2d904c9665070",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "04f998f3708b0dbb",
     "what_changes": "41867c96cd12a09b",
     "who_when": "6523ef8a64376194",
     "why": "4d9f76a9e88031e1",
-    "learned": "b9c990f0dd5fafe6",
+    "learned": "5fe2e37cc351b7d0",
     "unclear": "93603dab63b895a2"
    },
    "coverage": "partial",
@@ -845,14 +849,14 @@
    ]
   },
   "DOM-1382-ftd-store-test": {
-   "fingerprint": "4e78d8c6608dfc49dc6645b3afd6d417046acc3fe828905ffca048327bce8950",
+   "fingerprint": "be8f4b9d3ed247ceaa122c554bece7a58301e0b911bd45d359a7ce12d71caa7a",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "eb40f6530152ffea",
     "what_changes": "7e5be2330e827f2b",
     "who_when": "97e2257f74bd9c05",
     "why": "f73add0cc4a0f77f",
-    "learned": "c4811fe52074da5e",
+    "learned": "0abdac75c3316c94",
     "unclear": "2c859c4b7719669c"
    },
    "coverage": "full",
@@ -866,14 +870,14 @@
    ]
   },
   "DOM-1402-vault-late-ftd": {
-   "fingerprint": "ec4805b7cc613c55a6514113d687c8c42f553655621aacef410f236b667a3fa7",
+   "fingerprint": "d10f26ab6197c17b8bf5d58077f267dc2b1412a14570361bdae79a77d4f80771",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "af149048b04b9e72",
     "what_changes": "f91ab5ae3f55e047",
     "who_when": "c92c1a68cd92a52b",
     "why": "db80976527961fdc",
-    "learned": "d01dde434ee6bfc7",
+    "learned": "a57457f38cd46ca0",
     "unclear": "063d89792368e61e"
    },
    "coverage": "full",
@@ -887,14 +891,14 @@
    ]
   },
   "DOM-NOID-vault-for-late-ftd-test": {
-   "fingerprint": "0bb64c2a529acd078c04fb0d2658484b748ea93797cb2df9d9c72da9919737c0",
+   "fingerprint": "438a1eb8e20f5b43dc8f07b8f98281844eb1555ea30f2284df22f2fc28c28f06",
    "last_changed_at": "2026-11-02T16:29:03+02:00",
    "sections": {
     "what_tested": "0cc0b204859c89cd",
     "what_changes": "c176857fe44fd583",
     "who_when": "37617994f2bfc31c",
     "why": "4d9f76a9e88031e1",
-    "learned": "80563a021790e6ea",
+    "learned": "b11ff36069d0f1a1",
     "unclear": "375460c291c608eb"
    },
    "coverage": "partial",

@@ -100,14 +100,20 @@
      "value_raw": "$770,836",
      "value": 770836.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$785,496",
      "value": 785496.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.9,
@@ -115,7 +121,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -127,11 +144,13 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "tab has a 'P-value' column (E) but the cell E6 is empty",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "d785631171898fa1",
+   "record_hash": "effb19cf9a080f9f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.90%"
@@ -159,14 +178,20 @@
      "value_raw": "$615,438",
      "value": 615438.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$641,752",
      "value": 641752.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 4.28,
@@ -174,7 +199,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -186,11 +222,13 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "tab has a 'P-value' column (E) but the cell E8 is empty",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "313a7c684a868231",
+   "record_hash": "88f4cd90b3c0d2f4",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "4.28%"
@@ -218,14 +256,20 @@
      "value_raw": "$524,176",
      "value": 524176.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$548,405",
      "value": 548405.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 4.62,
@@ -233,7 +277,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -245,11 +300,13 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "tab has a 'P-value' column (E) but the cell E12 is empty",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "c7ba0b9976571c59",
+   "record_hash": "a2c6c9a9dea6e346",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "4.62%"
@@ -277,14 +334,20 @@
      "value_raw": "7.76%",
      "value": 7.76,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "7.75%",
      "value": 7.75,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.13,
@@ -292,7 +355,18 @@
    "uncertainty": {
     "p_value": 0.16,
     "ci": null,
-    "note": "% (rel) · p=0.16 · −0.01 pp"
+    "note": "% (rel) · p=0.16 · −0.01 pp",
+    "p_value_raw": "0.16",
+    "p_value_cell": "E15",
+    "p_value_header": "P-value",
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -304,9 +378,11 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract"
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "3e13d04311d1110f",
+   "record_hash": "d3414ac12e91620f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.13%"
@@ -334,14 +410,20 @@
      "value_raw": "37.23%",
      "value": 37.23,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "36.93%",
      "value": 36.93,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.81,
@@ -349,7 +431,18 @@
    "uncertainty": {
     "p_value": 0.31,
     "ci": null,
-    "note": "% (rel) · p=0.31 · −0.30 pp"
+    "note": "% (rel) · p=0.31 · −0.30 pp",
+    "p_value_raw": "0.31",
+    "p_value_cell": "E16",
+    "p_value_header": "P-value",
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -361,9 +454,11 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract"
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "f868d48bb8ab4983",
+   "record_hash": "676c1947aa73a2fa",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.81%"
@@ -391,14 +486,20 @@
      "value_raw": "102,979",
      "value": 102979.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "104,805",
      "value": 104805.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 1.77,
@@ -406,7 +507,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -418,11 +530,13 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "tab has a 'P-value' column (E) but the cell E18 is empty",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "2d4aa802c93b90a2",
+   "record_hash": "01fbb20ee71a5ed0",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.77%"
@@ -450,14 +564,20 @@
      "value_raw": "16,106",
      "value": 16106.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "16,158",
      "value": 16158.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.32,
@@ -465,7 +585,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -477,11 +608,13 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "tab has a 'P-value' column (E) but the cell E20 is empty",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "4e9f02439d68cf13",
+   "record_hash": "66fefd76873e074b",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.32%"
@@ -509,14 +642,20 @@
      "value_raw": "11.26%",
      "value": 11.26,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "11.01%",
      "value": 11.01,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -2.22,
@@ -524,7 +663,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% (rel) · −0.25 pp"
+    "note": "% (rel) · −0.25 pp",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -536,10 +686,12 @@
     "diff_header": "Uplift %"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "population_size": "tab shows no group-size cell for this block (checked '199 - DTC 1st Purchase (anrodid)'!A1:L45); DAU/PAU rows are daily actives, not group size",
+    "p_value": "tab has a 'P-value' column (E) but the cell E28 is empty",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "f8ae598849d060a2",
+   "record_hash": "09ffe677518e0687",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-2.22%"
@@ -671,9 +823,9 @@
       ]
      }
     ],
-    "fingerprint": "0b5392beaeb960a4",
+    "fingerprint": "0ed587b2c6adc49a",
     "inputs": {
-     "results:": "e8bbf79ca20efc26",
+     "results:": "6a98110305c3310a",
      "expl:what_happened": "27628068eafeade8",
      "expl:business_meaning": "91cde068d73d0799",
      "expl:decided": "a3165da6154de979",
@@ -840,6 +992,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "240bef4e599f79f408684dd70e38563476bb2623ee7b5fb2d4c1d0a20f67d710",
+ "content_fingerprint": "ec76c8cbc09bcae91a73a52fdb27f53ae609edd41d9e14839684ab4d91875fe8",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

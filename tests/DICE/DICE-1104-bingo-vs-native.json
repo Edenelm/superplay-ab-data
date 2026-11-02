@@ -96,14 +96,20 @@
      "value_raw": "$289,000",
      "value": 289000.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 49011,
+     "population_size_raw": "49,011",
+     "population_size_cell": "B5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     },
     {
      "group": "Test (Bingo)",
      "value_raw": "$329,900",
      "value": 329900.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 48460,
+     "population_size_raw": "48,460",
+     "population_size_cell": "C5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     }
    ],
    "relative_diff_pct": 14.15,
@@ -111,7 +117,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -123,11 +140,12 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "7f18cc61c5390d72",
+   "record_hash": "6190dc03415a1c97",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "14.15%"
@@ -155,14 +173,20 @@
      "value_raw": "$224,300",
      "value": 224300.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 49011,
+     "population_size_raw": "49,011",
+     "population_size_cell": "B5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     },
     {
      "group": "Test (Bingo)",
      "value_raw": "$257,100",
      "value": 257100.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 48460,
+     "population_size_raw": "48,460",
+     "population_size_cell": "C5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     }
    ],
    "relative_diff_pct": 14.62,
@@ -170,7 +194,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -182,11 +217,12 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "4fc1cb3b2d4c1fdf",
+   "record_hash": "fbb0ea24cd4a07a3",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "14.62%"
@@ -214,14 +250,20 @@
      "value_raw": "762",
      "value": 762.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 49011,
+     "population_size_raw": "49,011",
+     "population_size_cell": "B5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     },
     {
      "group": "Test (Bingo)",
      "value_raw": "800",
      "value": 800.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": 48460,
+     "population_size_raw": "48,460",
+     "population_size_cell": "C5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     }
    ],
    "relative_diff_pct": 4.99,
@@ -229,7 +271,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -241,11 +294,12 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "891688c686573eb7",
+   "record_hash": "d1c26d713db175cb",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "4.99%"
@@ -273,14 +327,20 @@
      "value_raw": "7.74%",
      "value": 7.74,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": 49011,
+     "population_size_raw": "49,011",
+     "population_size_cell": "B5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     },
     {
      "group": "Test (Bingo)",
      "value_raw": "7.72%",
      "value": 7.72,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": 48460,
+     "population_size_raw": "48,460",
+     "population_size_cell": "C5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     }
    ],
    "relative_diff_pct": -0.26,
@@ -288,7 +348,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% (rel) · −0.02 pp"
+    "note": "% (rel) · −0.02 pp",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -300,10 +371,11 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "d653748d9e3809a6",
+   "record_hash": "8452221aa8ff7606",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.26%"
@@ -331,14 +403,20 @@
      "value_raw": "$5.80",
      "value": 5.8,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 49011,
+     "population_size_raw": "49,011",
+     "population_size_cell": "B5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     },
     {
      "group": "Test (Bingo)",
      "value_raw": "$6.20",
      "value": 6.2,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": 48460,
+     "population_size_raw": "48,460",
+     "population_size_cell": "C5",
+     "population_size_label": "Unique Users (unormalized) (Android block)"
     }
    ],
    "relative_diff_pct": 6.9,
@@ -346,7 +424,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -358,11 +447,12 @@
     "diff_header": "Delta"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "33b3f8f449320494",
+   "record_hash": "856e09fb74ee4f63",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "6.90%"
@@ -494,9 +584,9 @@
       ]
      }
     ],
-    "fingerprint": "d8aeb77f5582ebf1",
+    "fingerprint": "c1e119650e9a087f",
     "inputs": {
-     "results:": "998cb2ab9a49c7af",
+     "results:": "dbe5dd2f55a9de22",
      "expl:what_happened": "e14c2cf821895c81",
      "expl:business_meaning": "efcbf9983ab25984",
      "expl:decided": "fe7a2fc014207394",
@@ -659,6 +749,6 @@
  "glossary_concepts": [
   "DTC"
  ],
- "content_fingerprint": "9dd5aed8b8c79fd42537a1c33c0a12f8e4e7359f71d11a23b60e9531f566b597",
+ "content_fingerprint": "bc342bde8b12589f9c625c84f108d8aec9133496defa1ac4daaad0617879d022",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

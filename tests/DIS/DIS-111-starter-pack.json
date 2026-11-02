@@ -82,7 +82,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "Registry decision: Stopped (status Stopped). Decision summary / notes on board: Notes: סגור.",
    "source": {
@@ -93,13 +104,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "a94e479e3bec6887",
+   "record_hash": "45dfeebf27f05e2a",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -205,9 +218,9 @@
       ]
      }
     ],
-    "fingerprint": "dd9315c2caaccc73",
+    "fingerprint": "6862dde654bc19dd",
     "inputs": {
-     "results:": "abbfc1cd3cfc6ba4",
+     "results:": "4d84b241ff6e38af",
      "expl:what_happened": "3d30fa39c46abda4",
      "expl:business_meaning": "76173097f0f8d75b",
      "expl:decided": "dcb930685f5853b4",
@@ -351,6 +364,6 @@
  "glossary_concepts": [
   "Starter Pack"
  ],
- "content_fingerprint": "6b904734dd5029365e8505879c117fc0789716ea3e6734f8baec4dd957213669",
+ "content_fingerprint": "d847cd69f514726cd25aebb339a65ff2c7d9400286ae436cba6862c55f748946",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

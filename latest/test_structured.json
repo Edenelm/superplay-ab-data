@@ -1,0 +1,494 @@
+{
+ "dataset": "test_structured",
+ "contract_version": "1.5.0",
+ "generated_at": "2026-11-02T16:29:03+02:00",
+ "timezone": "Asia/Jerusalem",
+ "rules": [
+  "every field is {value, definition_status, sources[], raw, null_reason, question, note}; value null => null_reason and question are set",
+  "values are copied from read-only sources; nothing is computed from Test/Control; analysis_setup_mixpanel = how the Mixpanel analysis is set up, not confirmed live config",
+  "stop_reason applies to stopped tests only; live tests carry null with null_reason \"test is live\"",
+  "related_unlinked = possibly related source mentions that are NOT linked to the test until a person confirms"
+ ],
+ "enums": {
+  "definition_status": [
+   "explicit_in_source",
+   "analysis_setup_mixpanel",
+   "interpretation",
+   "unknown",
+   "not_applicable"
+  ],
+  "lever": [
+   "price",
+   "offer",
+   "value",
+   "purchase_flow",
+   "difficulty",
+   "reward",
+   "screen",
+   null
+  ],
+  "audience.new_vs_old": [
+   "new",
+   "old",
+   "both",
+   null
+  ],
+  "compliance_requirement": [
+   "yes",
+   "no",
+   "unknown"
+  ]
+ },
+ "field_definitions": {
+  "test_change": {
+   "definition": "What is different for the Test group, in the source wording.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "control_gets": {
+   "definition": "What the Control group gets.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "audience.new_vs_old": {
+   "definition": "new / old / both (as set in the named source); raw holds the cut-off definition.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "audience.payer_level": {
+   "definition": "Payer condition of the test population (e.g., non-payers, payers, all), in source wording.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "audience.platform": {
+   "definition": "Platform(s) in the test (Android / iOS / both).",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "audience.country": {
+   "definition": "Country condition of the test population.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "exposure_pct": {
+   "definition": "Share of users in Test, in % as stated by the source. Never derived by us from a group formula; raw keeps the formula.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "lever": {
+   "definition": "One of price / offer / value / purchase_flow / difficulty / reward / screen, only when a source states it or a person confirms it.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "primary_metric": {
+   "definition": "The metric the test decision is based on, as named in the source.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "guardrails": {
+   "definition": "Metrics that must not drop, as named in the source.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "hypothesis": {
+   "definition": "The test hypothesis, in source wording.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "compliance_requirement": {
+   "definition": "yes / no / unknown: whether the test is required by a platform/legal rule, with the source.",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  },
+  "stop_reason": {
+   "definition": "For stopped tests only: the stop reason as written in the source. Live tests: null with null_reason \"test is live\".",
+   "source": "per record: fields.<name>.sources[] (type, ref, locator = column id / tab cell / file:line, read_at)",
+   "definition_status": "explicit_in_source",
+   "null_reason_key": "fields.<name>.null_reason",
+   "question_key": "fields.<name>.question"
+  }
+ },
+ "counts": {
+  "records": 1,
+  "tests_in_registry": 681,
+  "pending_stage2": 680
+ },
+ "records": [
+  {
+   "test_id": "DOM-1581-1581-dtc-remove-for-android",
+   "game": "Domino Dreams",
+   "name": "1581 DTC Remove For Android",
+   "board_item_id": "13179408516",
+   "lifecycle_at_fill": "live",
+   "filled_at": "2026-11-02",
+   "fill_scope": "stage1_example",
+   "fields": {
+    "test_change": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Treatment\" (long_text_mm4387fm) = empty",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "monday_updates",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "1 update (05.10, Brody Tal)",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "whatsapp_extract",
+       "ref": "/workspace/pilot/whatsapp/*.md",
+       "locator": "DTC mentions: 2026-10-26.md lines 69-70, 74-75 only",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "item name \"1581 DTC Remove For Android\"; column \"Type\" (color_mm42czg4) = \"DTC\"",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": "DTC Remove For Android (test name)",
+     "null_reason": "Treatment column empty on Monday; no source states exactly what is removed. Only the test name says \"DTC Remove For Android\".",
+     "question": "1581: what exactly is removed in Test – the DTC (direct web-store) purchase option on Android? In which places/screens, and from which purchase on?",
+     "note": null
+    },
+    "control_gets": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Treatment\" (long_text_mm4387fm) = empty",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "monday_updates",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "1 update (05.10, Brody Tal)",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "whatsapp_extract",
+       "ref": "/workspace/pilot/whatsapp/*.md",
+       "locator": "DTC mentions: 2026-10-26.md lines 69-70, 74-75 only",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": null,
+     "null_reason": "No source describes the Control experience.",
+     "question": "1581: what does Control get – the current DTC option unchanged?",
+     "note": null
+    },
+    "audience": {
+     "new_vs_old": {
+      "value": "both",
+      "definition_status": "analysis_setup_mixpanel",
+      "sources": [
+       {
+        "type": "mixpanel_custom_property",
+        "ref": "mixpanel custom property 5913255 \"1581 DTC Remove New/Old User\" (on board 11559528 filters)",
+        "locator": "formula: if($mp_first_event_time >= \"2026-10-01T07:00:00Z\",\"New User\",\"Old User\")",
+        "read_at": "2026-11-02"
+       },
+       {
+        "type": "mixpanel_dashboard",
+        "ref": "https://mixpanel.com/project/2735821/app/boards#id=11559528",
+        "locator": "board filter \"1581 DTC Remove New/Old User\" equals \"New User\" (saved view)",
+        "read_at": "2026-11-02"
+       },
+       {
+        "type": "monday_updates",
+        "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+        "locator": "update 05.10 Brody Tal: \"plase add new vs old users\"",
+        "read_at": "2026-11-02"
+       }
+      ],
+      "raw": "New User = first event at/after 2026-10-01T07:00:00Z (10:00 Israel time); Old User = before",
+      "null_reason": null,
+      "question": "1581: is the test still running for old users, or only for new users after the 14.10 interim (\"DTC abort old / analysis new\")?",
+      "note": "Analysis splits new vs old; this is the analysis setup, not necessarily the live config. WhatsApp 14-15.10 (unlinked) says abort for old users."
+     },
+     "payer_level": {
+      "value": null,
+      "definition_status": "unknown",
+      "sources": [
+       {
+        "type": "monday_item",
+        "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+        "locator": "column \"Population\" (text_mm43b6k6) = empty",
+        "read_at": "2026-11-02"
+       },
+       {
+        "type": "mixpanel_cohort",
+        "ref": "mixpanel cohort 6188702 \"1581 DTC Remove For Android Population\" (project 2735821)",
+        "locator": "no payer filter",
+        "read_at": "2026-11-02"
+       }
+      ],
+      "raw": null,
+      "null_reason": "No payer-level condition in Monday or in the Mixpanel population cohort.",
+      "question": "1581: is there a payer-level condition (non-payers / payers / all)?",
+      "note": null
+     },
+     "platform": {
+      "value": "Android",
+      "definition_status": "explicit_in_source",
+      "sources": [
+       {
+        "type": "monday_item",
+        "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+        "locator": "item name \"1581 DTC Remove For Android\"",
+        "read_at": "2026-11-02"
+       },
+       {
+        "type": "mixpanel_cohort",
+        "ref": "mixpanel cohort 6188702 \"1581 DTC Remove For Android Population\" (project 2735821)",
+        "locator": "Activity event with Platform equals \"Android\"",
+        "read_at": "2026-11-02"
+       }
+      ],
+      "raw": null,
+      "null_reason": null,
+      "question": null,
+      "note": null
+     },
+     "country": {
+      "value": "United States",
+      "definition_status": "analysis_setup_mixpanel",
+      "sources": [
+       {
+        "type": "mixpanel_cohort",
+        "ref": "mixpanel cohort 6188702 \"1581 DTC Remove For Android Population\" (project 2735821)",
+        "locator": "Activity event with mp_country_code equals \"United States\", since 2026-10-01T07:00:00",
+        "read_at": "2026-11-02"
+       },
+       {
+        "type": "mixpanel_dashboard",
+        "ref": "https://mixpanel.com/project/2735821/app/boards#id=11559528",
+        "locator": "board filter mp_country_code does not equal Israel, Romania",
+        "read_at": "2026-11-02"
+       }
+      ],
+      "raw": null,
+      "null_reason": null,
+      "question": "1581: is the live test limited to US users (as the Mixpanel population cohort is)?",
+      "note": "From the analysis population cohort; Monday Population column is empty."
+     }
+    },
+    "exposure_pct": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Population\" (text_mm43b6k6) = empty",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "mixpanel_custom_property",
+       "ref": "https://mixpanel.com/project/2735821/app/lexicon/transformations/custom-profile-properties/%24custom_property%3A5910255",
+       "locator": "\"1581 DTC Remove For Android Groups\": IFS(server_user_id % 907 > 634,\"Test Group\", server_user_id % 907 <= 634,\"Control Group\")",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "relation \"AB Test Prime Numbers\" = item \"907\"",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": "server_user_id % 907 > 634 -> Test; <= 634 -> Control",
+     "null_reason": "No source states the exposure % / split. Only the Mixpanel group formula is available; we do not convert it to a %.",
+     "question": "1581: what is the Test/Control split and what share of eligible users is in the test? (Mixpanel group formula: server_user_id % 907 > 634 = Test)",
+     "note": null
+    },
+    "lever": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Type\" (color_mm42czg4) = \"DTC\"",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": "DTC",
+     "null_reason": "Monday Type is \"DTC\", which is not one of the lever values; mapping it to a lever would be an interpretation.",
+     "question": "1581: is the lever \"purchase flow\" (removing the DTC purchase path)?",
+     "note": null
+    },
+    "primary_metric": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"KPI Focus\" (color_mm58hw2p) = empty",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": null,
+     "null_reason": "KPI Focus is empty on Monday. The 14.10 WhatsApp interim (unlinked) reports gross and net revenue but does not name a primary metric.",
+     "question": "1581: what is the primary metric (gross revenue, net revenue after fees, ARPDAU…)?",
+     "note": null
+    },
+    "guardrails": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Treatment\" (long_text_mm4387fm) = empty",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "monday_updates",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "1 update (05.10, Brody Tal)",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "whatsapp_extract",
+       "ref": "/workspace/pilot/whatsapp/*.md",
+       "locator": "DTC mentions: 2026-10-26.md lines 69-70, 74-75 only",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": null,
+     "null_reason": "No guardrail metrics named in any source.",
+     "question": "1581: which guardrail metrics are set (e.g., conversion, payers, store fees)?",
+     "note": null
+    },
+    "hypothesis": {
+     "value": null,
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Hypothesis\" (long_text_mm43fts2) = empty",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": null,
+     "null_reason": "Hypothesis column empty on Monday; no other source states it.",
+     "question": "1581: what is the hypothesis (why remove DTC on Android, and what should improve)?",
+     "note": null
+    },
+    "compliance_requirement": {
+     "value": "unknown",
+     "definition_status": "unknown",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Treatment\" (long_text_mm4387fm) = empty",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "monday_updates",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "1 update (05.10, Brody Tal)",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "whatsapp_extract",
+       "ref": "/workspace/pilot/whatsapp/*.md",
+       "locator": "DTC mentions: 2026-10-26.md lines 69-70, 74-75 only",
+       "read_at": "2026-11-02"
+      },
+      {
+       "type": "mixpanel_dashboard",
+       "ref": "https://mixpanel.com/project/2735821/app/boards#id=11559528",
+       "locator": "description empty",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": null,
+     "null_reason": "No Domino source says whether the test is driven by a compliance requirement.",
+     "question": "1581: is it driven by a Google Play compliance/reporting requirement for DTC/external payments (yes/no)? If yes, which requirement and since when?",
+     "note": null
+    },
+    "stop_reason": {
+     "value": null,
+     "definition_status": "not_applicable",
+     "sources": [
+      {
+       "type": "monday_item",
+       "ref": "https://superplay.monday.com/boards/18416650776/pulses/13179408516",
+       "locator": "column \"Status\" (color_mm42h2ec) = \"Live\", item updated 2026-10-26",
+       "read_at": "2026-11-02"
+      }
+     ],
+     "raw": null,
+     "null_reason": "test is live (Monday Status = Live); no stop reason applies",
+     "question": null,
+     "note": "WhatsApp 14-15.10 (unlinked) mentions \"DTC abort old\"; if this is 1581, it is a partial stop for old users that Monday does not show."
+    }
+   },
+   "related_unlinked": [
+    {
+     "source": {
+      "type": "whatsapp_extract",
+      "ref": "/workspace/pilot/whatsapp/2026-10-26.md",
+      "locator": "line 69-70 (Domino Business group, 2026-10-14 17:33, רתם חשדי, \"DTC TEST interim\")",
+      "read_at": "2026-11-02"
+     },
+     "says": "old users −1.8% gross, −3.4% net, \"אבורט\"; new users +8.2% gross, +7.95% net, continue",
+     "why_unlinked": "no test number in the message; same analyst and topic (DTC) as 1581"
+    },
+    {
+     "source": {
+      "type": "whatsapp_extract",
+      "ref": "/workspace/pilot/whatsapp/2026-10-26.md",
+      "locator": "line 75-76 (Domino Business group, 2026-10-15 13:37, Brody Tal, tests meeting summary)",
+      "read_at": "2026-11-02"
+     },
+     "says": "\"DTC abort old / analysis new\"",
+     "why_unlinked": "no test number in the message"
+    }
+   ],
+   "open_questions_extra": [
+    "Are the 14.10 \"DTC TEST interim\" and the 15.10 \"DTC abort old\" WhatsApp messages about 1581? If yes, should Monday show a stop for old users?"
+   ],
+   "not_read": [
+    "Monday \"AB Test Prime Numbers\" board item 907 (board 18417338941; outside the authorized boards)",
+    "Mixpanel dashboard report tiles/numbers (only board filters and definitions read)"
+   ]
+  }
+ ]
+}

@@ -112,14 +112,20 @@
      "value_raw": "67.11K",
      "value": 67.11,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "83.7K",
      "value": 83.7,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 24.71,
@@ -127,7 +133,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-in-diff 24.71%"
+    "note": "% · diff-in-diff 24.71%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -139,11 +156,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked 'Test Results - with 1 day hangover'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (G) but the cell G4 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "fc7310dc4508e5ba",
+   "record_hash": "941b791111ad8b65",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "24.71%"
@@ -171,14 +190,20 @@
      "value_raw": "669.00",
      "value": 669.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "660.00",
      "value": 660.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -1.31,
@@ -186,7 +211,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · diff-in-diff −1.31%"
+    "note": "% · diff-in-diff −1.31%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -198,11 +234,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked 'Test Results - with 1 day hangover'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (G) but the cell G5 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "e36e86f9e5fe7529",
+   "record_hash": "d8d98e8c1eb58153",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-1.31%"
@@ -230,14 +268,20 @@
      "value_raw": "36.88K",
      "value": 36.88,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "36.28K",
      "value": 36.28,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -1.63,
@@ -245,7 +289,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test −1.51% · diff-in-diff −0.12%"
+    "note": "% · pre-test −1.51% · diff-in-diff −0.12%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -257,11 +312,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked 'Test Results - with 1 day hangover'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (G) but the cell G6 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "d130bb9717dcd84e",
+   "record_hash": "b65a52f028a32930",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-1.63%",
@@ -291,14 +348,20 @@
      "value_raw": "36.88K",
      "value": 36.88,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "36.28K",
      "value": 36.28,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.12,
@@ -306,7 +369,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · pre-test −1.51% · diff-in-diff −0.12%"
+    "note": "% · pre-test −1.51% · diff-in-diff −0.12%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -318,11 +392,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows no group-size cell for this block (checked 'Test Results - with 1 day hangover'!A1:Z60); DAU/PAU rows are daily actives, not group size",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (G) but the cell G6 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "6ee15ef153e84b1b",
+   "record_hash": "815648f575451601",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.12%"
@@ -454,9 +530,9 @@
       ]
      }
     ],
-    "fingerprint": "dce47253a91fe7db",
+    "fingerprint": "81e74213a6b6e860",
     "inputs": {
-     "results:": "3a7e7918e759499f",
+     "results:": "70811324bf45a890",
      "expl:what_happened": "5b79a7005129ff5a",
      "expl:business_meaning": "5f2b0b4eadf990a8",
      "expl:decided": "517d2de212bd3c0f",
@@ -620,6 +696,6 @@
   "RV",
   "8 Box"
  ],
- "content_fingerprint": "cae106fbc7c6cee1e1fa0610fa340f7a4f64cba74c3ffcb3b3a89003e9746543",
+ "content_fingerprint": "c977e53da297dd6b026a9c02c7d77a8146504f65265830e4766b0191be49ca36",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

@@ -106,7 +106,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "Registry decision: Pending (status Active). Decision summary / notes on board: Notes: Are we doing it still? · Dashboard link (sheet text): Click Here.",
    "source": {
@@ -117,13 +128,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "a87179471529bb15",
+   "record_hash": "1304dd253780d406",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -250,9 +263,9 @@
       ]
      }
     ],
-    "fingerprint": "4b78608441e20c6a",
+    "fingerprint": "c1bf6e49cd5c03dc",
     "inputs": {
-     "results:": "f83cf1bb0d7b2955",
+     "results:": "84a5f8b17d3bda1f",
      "expl:what_happened": "0db44a6ea4939d60",
      "expl:business_meaning": "3dd3dcb21efeea0a",
      "expl:decided": "de99507af216fee7",
@@ -439,6 +452,6 @@
   "DSLP / DFI",
   "AYS"
  ],
- "content_fingerprint": "30aabfc0b4521e22e2c2a6686661677301964491fb009d197f8b92785c46e843",
+ "content_fingerprint": "598a24706569cd092fa73bff671031681b1103267f36f149c7754df1f6b941f3",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

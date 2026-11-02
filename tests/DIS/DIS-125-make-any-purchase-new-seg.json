@@ -91,7 +91,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "Registry decision: Pending (status Active). Decision summary / notes on board: Notes: status?.",
    "source": {
@@ -102,13 +113,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "5060ec042d3f917d",
+   "record_hash": "ff0668a25cd6696c",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -244,9 +257,9 @@
       ]
      }
     ],
-    "fingerprint": "d1efb33e78d3afb1",
+    "fingerprint": "625b58b77937367d",
     "inputs": {
-     "results:": "1b95f6990d10a2f8",
+     "results:": "1f7d3b9554f53dca",
      "expl:what_happened": "e5fd0e2fbde68bea",
      "expl:business_meaning": "8f552d92814c87c3",
      "expl:decided": "40f2de2c136d90e2",
@@ -414,6 +427,6 @@
   "CZ",
   "DSLP / DFI"
  ],
- "content_fingerprint": "c6925a1b7b15d743a37047c2c216289d1ad49a5e2dbe2a44c8a5ca5e7f5ce77b",
+ "content_fingerprint": "285691b18ae22a399b83f978b734a0ab0ac443be33958328b229e1e00ef43b14",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

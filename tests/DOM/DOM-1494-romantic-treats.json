@@ -87,7 +87,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "Board Test Results text: “Mixed impact: PU -1%, FTD -1.5%, Avg Price +1%. Revenue positive for dormancy groups 1-3, negative for group 0.”",
    "source": {
@@ -98,13 +109,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "400c5db129c3e781",
+   "record_hash": "e1dd5e42bb2d3355",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -217,9 +230,9 @@
       ]
      }
     ],
-    "fingerprint": "d7492c273cb58cba",
+    "fingerprint": "5d4e28ccd8a69bfd",
     "inputs": {
-     "results:": "69a45e087672ac1f",
+     "results:": "d0d9979ffc8df934",
      "expl:what_happened": "5612be99c651f11c",
      "expl:business_meaning": "0ecb750e76cfabb9",
      "expl:decided": "c105ef8b15be7135",
@@ -363,6 +376,6 @@
  "glossary_concepts": [
   "Level"
  ],
- "content_fingerprint": "571de4823ba1485daf126adf88714b4e2cc301a54b4d1d7b0b045ca8e2385518",
+ "content_fingerprint": "f2bbec77876efbdcc62027ebcc50697dcbbea27093a33a6cb45b7b20eb0a4e5a",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

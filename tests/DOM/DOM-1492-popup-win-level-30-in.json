@@ -94,7 +94,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "No results data on the board.",
    "source": {
@@ -105,13 +116,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "ac92fbd72f7d1b3d",
+   "record_hash": "ad9156f87116a0f5",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -224,9 +237,9 @@
       ]
      }
     ],
-    "fingerprint": "82bee8a470f81e03",
+    "fingerprint": "29c6df51e5d10582",
     "inputs": {
-     "results:": "c5b578d564748a7c",
+     "results:": "b5da672ed937a448",
      "expl:what_happened": "35a881cf5ab4dfd3",
      "expl:business_meaning": "f16734416edb8478",
      "expl:decided": "2d08ecf7e8e9d2bd",
@@ -370,6 +383,6 @@
  "glossary_concepts": [
   "Level"
  ],
- "content_fingerprint": "e384d8845bbc21c4b6185ff9555275584551b2963bf1dcf6a56721538218b362",
+ "content_fingerprint": "5ff05b53e0338ad42b350958f3d8e045330fec3415f1b5cb66001ebc7fc32dc7",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

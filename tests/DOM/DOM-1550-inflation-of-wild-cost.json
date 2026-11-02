@@ -99,14 +99,20 @@
      "value_raw": "$15,295,441",
      "value": 15295441.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$15,444,806",
      "value": 15444806.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.98,
@@ -114,7 +120,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · DiD 0.35%"
+    "note": "% · DiD 0.35%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -126,11 +143,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "eae2df01066d3aff",
+   "record_hash": "ac27997691222f8b",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.98%",
@@ -160,14 +179,20 @@
      "value_raw": "$15,295,441",
      "value": 15295441.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$15,444,806",
      "value": 15444806.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.35,
@@ -175,7 +200,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · DiD 0.35%"
+    "note": "% · DiD 0.35%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -187,11 +223,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "a848d0edebbb1764",
+   "record_hash": "62640f936b36d747",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.35%"
@@ -219,14 +257,20 @@
      "value_raw": "22,595",
      "value": 22595.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "22,628",
      "value": 22628.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.15,
@@ -234,7 +278,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · DiD −0.92%"
+    "note": "% · DiD −0.92%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -246,11 +301,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "d48a039f2749ad67",
+   "record_hash": "07a1d2581bd2e496",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.15%",
@@ -280,14 +337,20 @@
      "value_raw": "22,595",
      "value": 22595.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "22,628",
      "value": 22628.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -0.92,
@@ -295,7 +358,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · DiD −0.92%"
+    "note": "% · DiD −0.92%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -307,11 +381,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "ef4029baae19e6fa",
+   "record_hash": "4403683bf50226b4",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.92%"
@@ -339,14 +415,20 @@
      "value_raw": "0.1246",
      "value": 0.1246,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "0.1172",
      "value": 0.1172,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -5.94,
@@ -354,7 +436,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · DiD −7.02%"
+    "note": "% · DiD −7.02%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -366,11 +459,13 @@
     "diff_header": null
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "640a59524dce5b68",
+   "record_hash": "1ac3267eeed780e7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-5.94%",
@@ -400,14 +495,20 @@
      "value_raw": "0.1246",
      "value": 0.1246,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "0.1172",
      "value": 0.1172,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": -7.02,
@@ -415,7 +516,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · DiD −7.02%"
+    "note": "% · DiD −7.02%",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -427,11 +539,13 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "56041c52fd427a5c",
+   "record_hash": "298fb99bd52a6fcb",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-7.02%"
@@ -459,14 +573,20 @@
      "value_raw": "74.09%",
      "value": 74.09,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "74.16%",
      "value": 74.16,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.09,
@@ -474,7 +594,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% (rel) · +0.07 pp"
+    "note": "% (rel) · +0.07 pp",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -486,10 +617,12 @@
     "diff_header": "Diff in Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
+    "p_value": "no p-value column in tab",
+    "ci": "no CI / uncertainty-range column for this block in tab",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "7a44409d0d031dc2",
+   "record_hash": "b29cb5465091be5b",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.09%"
@@ -517,14 +650,20 @@
      "value_raw": "$1,444,693",
      "value": 1444693.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "$1,529,529",
      "value": 1529529.0,
      "value_unit": "usd",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 5.87,
@@ -532,7 +671,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% · cell L4 '90%'"
+    "note": "% · cell L4 '90%'",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": "90%",
+    "ci_cell": "L4",
+    "ci_header": "CI",
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -544,11 +694,13 @@
     "diff_header": "Test Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab CI cell L4 shows a single value '90%', not a range; kept in ci_raw, meaning unclear",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "e53efbf3e3f3ccf5",
+   "record_hash": "8be4bfa7a50086bd",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.87%",
@@ -577,14 +729,20 @@
      "value_raw": "8,327",
      "value": 8327.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "8,501",
      "value": 8501.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 2.1,
@@ -592,7 +750,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -604,11 +773,13 @@
     "diff_header": "Test Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (L) but the cell L6 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "5d117cd88ef79678",
+   "record_hash": "a5ab9600a0393086",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.10%",
@@ -637,14 +808,20 @@
      "value_raw": "2,365",
      "value": 2365.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "2,415",
      "value": 2415.0,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 2.11,
@@ -652,7 +829,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -664,11 +852,13 @@
     "diff_header": "Test Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (L) but the cell L7 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "e0526757d834af89",
+   "record_hash": "aa6a437f4a8072e5",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.11%",
@@ -697,14 +887,20 @@
      "value_raw": "6.52",
      "value": 6.52,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "6.72",
      "value": 6.72,
      "value_unit": "count",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 3.08,
@@ -712,7 +908,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -724,11 +931,13 @@
     "diff_header": "Test Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
     "abs_diff_pp": "source shows relative % only",
-    "p_value": "no p-value/CI shown for this row in source"
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (L) but the cell L9 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "973f6517b458dba5",
+   "record_hash": "272c2ef990cf8a60",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3.08%",
@@ -757,14 +966,20 @@
      "value_raw": "15.94%",
      "value": 15.94,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     },
     {
      "group": "Test",
      "value_raw": "16.07%",
      "value": 16.07,
      "value_unit": "pct",
-     "population_size": null
+     "population_size": null,
+     "population_size_raw": null,
+     "population_size_cell": null,
+     "population_size_label": null
     }
    ],
    "relative_diff_pct": 0.82,
@@ -772,7 +987,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": "% (rel) · +0.13 pp"
+    "note": "% (rel) · +0.13 pp",
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": "2026-11-02"
    },
    "source": {
     "type": "results_tab",
@@ -784,10 +1010,12 @@
     "diff_header": "Test Diff"
    },
    "null_reasons": {
-    "population_size": "group sizes not captured per metric row in the results tab extract",
-    "p_value": "no p-value/CI shown for this row in source"
+    "population_size": "tab shows 'Unique users' at H23:J23 (134,539 / 136,357) in the pre-test area under the NEW USERS column block; its scope (new users? all? pre-test?) is not labelled, so not assigned",
+    "p_value": "no p-value column in tab",
+    "ci": "tab has a 'CI' column (L) but the cell L19 is empty",
+    "significance": "no significance column in tab"
    },
-   "record_hash": "a7ec3576efa812e2",
+   "record_hash": "ff3c4785dec20c7f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.82%",
@@ -920,9 +1148,9 @@
       ]
      }
     ],
-    "fingerprint": "6e194f725792cfb5",
+    "fingerprint": "2d1c8c12f81d70f4",
     "inputs": {
-     "results:": "deb230bfd592e682",
+     "results:": "1464be7b0ef10eac",
      "expl:what_happened": "01c1a2f3a6a43443",
      "expl:business_meaning": "59e343d8996280f4",
      "expl:decided": "458bee5aa2e9817c",
@@ -1082,6 +1310,6 @@
  "glossary_concepts": [
   "Revenue"
  ],
- "content_fingerprint": "a5dee69e4464d5848060b9f7784bea499f964e314ea3832196e2132620588248",
+ "content_fingerprint": "a224e31a9deed6514a597210e4a7053147e05ee90032422b8fe8554ff0d8ab93",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

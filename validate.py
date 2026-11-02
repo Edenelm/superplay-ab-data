@@ -193,6 +193,34 @@ if oi:
         for t in o['affected']['test_ids']:
             if _ids and t not in _ids: err('open_issues', f"open_issues {o['id']}: unknown test_id {t}")
     if oi['counts']['items'] != len(oi['items']): err('open_issues', 'open_issues: counts.items mismatch')
+# ---- v1.5 test_results: population_size / uncertainty need a cell ref when set, a null_reason when null (VERIFIED rules unchanged) ----
+for x in res:
+    _nr = x.get('null_reasons') or {}; _u = x.get('uncertainty') or {}; _rid = x['result_id']
+    if 'checked_at' in _u:  # 1.5+ rows
+        for g in x.get('groups') or []:
+            if g.get('population_size') is not None and not g.get('population_size_cell'): err('test_results', f'{_rid}: population_size without population_size_cell')
+        if any(g.get('population_size') is None for g in x.get('groups') or []) and not _nr.get('population_size'): err('test_results', f'{_rid}: population_size null without null_reasons.population_size')
+        if _u.get('p_value') is not None and not (_u.get('p_value_cell') and _u.get('p_value_raw')): err('test_results', f'{_rid}: p_value without p_value_cell/p_value_raw')
+        if _u.get('p_value') is None and not _nr.get('p_value'): err('test_results', f'{_rid}: p_value null without null_reasons.p_value')
+        if (_u.get('ci') is not None or _u.get('ci_raw') is not None) and not _u.get('ci_cell'): err('test_results', f'{_rid}: ci/ci_raw without ci_cell')
+        if _u.get('ci') is None and not _nr.get('ci'): err('test_results', f'{_rid}: ci null without null_reasons.ci')
+        if _u.get('significance') is not None and not _u.get('significance_cell'): err('test_results', f'{_rid}: significance without significance_cell')
+        if _u.get('significance') is None and not _nr.get('significance'): err('test_results', f'{_rid}: significance null without null_reasons.significance')
+# ---- v1.5 test_structured: each field has sources; null value => null_reason + question (stop_reason on live tests: null_reason only) ----
+ts = docs.get('test_structured')
+if ts:
+    _reg = {r['test_id']: r for r in (docs.get('test_registry') or {}).get('records', [])}
+    for t in ts['records']:
+        if _reg and t['test_id'] not in _reg: err('test_structured', f"test_structured: unknown test_id {t['test_id']}")
+        _f = dict(t['fields']); _f.update({'audience.' + k: v for k, v in _f.pop('audience').items()})
+        for k, v in _f.items():
+            if not v.get('sources'): err('test_structured', f"{t['test_id']}.{k}: no sources")
+            if v['value'] is None or v['value'] == 'unknown':
+                if not v.get('null_reason'): err('test_structured', f"{t['test_id']}.{k}: no value and no null_reason")
+                if k != 'stop_reason' and not v.get('question'): err('test_structured', f"{t['test_id']}.{k}: no value and no question")
+            if v['value'] is not None and v['definition_status'] in ('unknown', 'not_applicable') and not (k == 'compliance_requirement' and v['value'] == 'unknown'): err('test_structured', f"{t['test_id']}.{k}: value set but definition_status {v['definition_status']}")
+        if _reg.get(t['test_id'], {}).get('is_live') and t['fields']['stop_reason']['value'] is not None: err('test_structured', f"{t['test_id']}: stop_reason set on a live test")
+    if ts['counts']['records'] != len(ts['records']): err('test_structured', 'test_structured: counts.records mismatch')
 # ---- secret scan ----
 SECRET = re.compile(r'(?i)(api[_-]?key|secret|token|password|bearer)\s*["\']?\s*[:=]\s*["\'][^"\']{12,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]{30,}|xox[bp]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}')
 for dp, _, fs in os.walk(ROOT):

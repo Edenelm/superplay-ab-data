@@ -11,7 +11,7 @@ Produced by Grok Bot. Do not edit by hand.
 - `docs/`: data dictionary, metric definitions (source text + approval status), HQ access notes.
 - `latest/open_issues.json`: open decisions (metric definitions, HQ access, unclear tests, status conflicts, 21-day rule). Show them as limitations; never hide data because of them.
 
-**App building can start now.** Open questions do not block it, because they are delivered as data (`open_issues`). Contract v1.4.0.
+**App building can start now.** Open questions do not block it, because they are delivered as data (`open_issues`). Contract v1.5.0.
 
 Times are Asia/Jerusalem unless a field says otherwise. Source dates are not converted (see docs/METRIC_DEFINITIONS.md).
 

@@ -82,7 +82,18 @@
    "uncertainty": {
     "p_value": null,
     "ci": null,
-    "note": null
+    "note": null,
+    "p_value_raw": null,
+    "p_value_cell": null,
+    "p_value_header": null,
+    "ci_low": null,
+    "ci_high": null,
+    "ci_raw": null,
+    "ci_cell": null,
+    "ci_header": null,
+    "significance": null,
+    "significance_cell": null,
+    "checked_at": null
    },
    "summary_text": "No results data. Board status Aborted.",
    "source": {
@@ -93,13 +104,15 @@
    },
    "null_reasons": {
     "metric": "only a narrative summary was captured; no structured metric rows",
-    "population_size": "not captured",
+    "population_size": "no results tab for this row",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured",
-    "diff_method": "no diff column/cell in the source for this row"
+    "p_value": "no results tab for this row",
+    "diff_method": "no diff column/cell in the source for this row",
+    "ci": "no results tab for this row",
+    "significance": "no results tab for this row"
    },
-   "record_hash": "e6333550fafc8b2d",
+   "record_hash": "b03d9503460588cb",
    "diff_method": null,
    "diff_checked_at": null
   }
@@ -213,9 +226,9 @@
       ]
      }
     ],
-    "fingerprint": "40e0d91917b3bcf2",
+    "fingerprint": "c0ba34bdca6aa555",
     "inputs": {
-     "results:": "8be4f0b4da26f7d8",
+     "results:": "7436971452b5db8d",
      "expl:what_happened": "39a8568be0a67533",
      "expl:business_meaning": "79ff6165282fc8fd",
      "expl:decided": "173fa225a8e7582d",
@@ -360,6 +373,6 @@
   "FTD",
   "3PO"
  ],
- "content_fingerprint": "be596f66b8b0e04f24ab7891bc568a8ec2ab006dca474851479097c41a430267",
+ "content_fingerprint": "fb577f66255bb113cf942c3b7b759020b6fc541c9a7063462a42b5e3fe27b324",
  "last_changed_at": "2026-11-02T16:29:03+02:00"
 }
