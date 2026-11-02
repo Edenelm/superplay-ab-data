@@ -1,5 +1,26 @@
 # Changes (published)
 
+## 2026-11-02T18:07:49+02:00 (run 20261102T180749, published)
+
+- datasets changed: open_issues, test_interim; unchanged (file kept): game_metrics, test_registry, test_results, explanations_learnings_decisions, whatsapp_items, metric_definitions, game_metrics_splits, game_ftd_retention, glossary, test_structured; failed (last good kept): none
+- tests vs previous publish: +0 added, 0 updated, 681 unchanged, 0 removed from registry (files kept)
+- per-test files written: 0; explanation sections regenerated this run: 0 (reused 3445)
+- needs attention (14): see PROCESSING_LOG.md
+  - DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)
+  - DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)
+  - DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)
+  - DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)
+  - DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)
+  - DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)
+  - DIS-126-chef-segments: המנגנון טרם הובהר (live)
+  - DIS-127-3po-halloween: המנגנון טרם הובהר (live)
+  - DIS-126-es-v3: המנגנון טרם הובהר (live)
+  - DIS-126-wr-v3: המנגנון טרם הובהר (live)
+  - DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)
+  - DIS-126-1-1-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
+
 ## 2026-11-02T17:56:03+02:00 (run 20261102T175603, published)
 
 - datasets changed: test_registry, explanations_learnings_decisions, whatsapp_items, open_issues, test_interim; unchanged (file kept): game_metrics, test_results, metric_definitions, game_metrics_splits, game_ftd_retention, glossary, test_structured; failed (last good kept): none

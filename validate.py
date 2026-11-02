@@ -226,6 +226,8 @@ if ti:
             if _DIFF.search(k): err('test_interim', f"{x['interim_id']}: diff-like field {k}")
         for k in ('revenue_gross_usd', 'revenue_net_usd', 'payers', 'active_users', 'group_size'):
             if x[k] is None and not x['null_reasons'].get(k): err('test_interim', f"{x['interim_id']}: {k} null without null_reasons")
+        for k, ref in x['definition_refs'].items():
+            if ref not in ti['field_definitions']: err('test_interim', f"{x['interim_id']}: definition_refs.{k} -> missing {ref}")
         if (x['completeness'] == 'final') != x['is_final']: err('test_interim', f"{x['interim_id']}: is_final inconsistent")
         if x['scope_matches_dashboard'] == bool(x['unapplied_filters']): err('test_interim', f"{x['interim_id']}: scope flag inconsistent with unapplied_filters")
     for c in ti['coverage']:

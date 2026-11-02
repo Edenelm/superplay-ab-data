@@ -197,7 +197,8 @@
      "scope_matches_dashboard",
      "unapplied_filters",
      "source",
-     "null_reasons"
+     "null_reasons",
+     "definition_refs"
     ],
     "properties": {
      "interim_id": {
@@ -312,6 +313,12 @@
       }
      },
      "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "definition_refs": {
       "type": "object",
       "additionalProperties": {
        "type": "string"

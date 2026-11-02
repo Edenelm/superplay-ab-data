@@ -12,14 +12,14 @@
   {
    "path": "manifest.json",
    "kind": "file",
-   "bytes": 15873,
+   "bytes": 14460,
    "contains": "run metadata, per-dataset status/sha256/stale, layer pointers, change_summary",
    "read_when": "always first; compare sha256 / aggregate_fingerprint with what you cached"
   },
   {
    "path": "FILE_MAP.json",
    "kind": "file",
-   "bytes": 14225,
+   "bytes": 15351,
    "contains": "this map (machine-readable)",
    "read_when": "second, to find files"
   },
@@ -29,20 +29,20 @@
    "bytes": 642248,
    "contains": "one entry per test: game, name, tier, status, dates, Hebrew summary, mechanism, coverage, glossary concepts, tags he/en, flags, detail_file, fingerprint",
    "read_when": "third: filter here, then open only the detail files you need",
-   "sha256": "cd2297a5867157ea2b2f9fa46348e55d5b04bd3f20a67093c6676482173002c7"
+   "sha256": "64f77358da575eaea01c918af8f64c6b6964662f51521db0c70a11f4016fa849"
   },
   {
    "path": "CHANGES.md",
    "kind": "file",
-   "bytes": 15845,
+   "bytes": 17404,
    "contains": "what changed per run (tests added/updated, sections regenerated, needs attention)",
    "read_when": "when deciding what to re-read",
-   "sha256": "bf5f5afa6de78694faacc897c93e074f527333c6b2f095ed8699137ca2989e2b"
+   "sha256": "f283eaaa0d243a05b39e66782d27b75e7fb6666f106f5153d6784f8793afb1f6"
   },
   {
    "path": "FILE_MAP.md",
    "kind": "file",
-   "bytes": 7821,
+   "bytes": 8476,
    "contains": "this map (human-readable)",
    "read_when": "optional"
   },
@@ -52,7 +52,7 @@
    "bytes": 3811,
    "contains": "what was checked against which source version; what is still missing; accesses not retried",
    "read_when": "when a field is missing / unclear",
-   "sha256": "af4d616d1fbf349cfe4fa9b9b2f9b8644b273497d348471576d84aaadf446845"
+   "sha256": "1eb6c384c51997245e791e61ea3fd5918fdb33a4c2be1190549892edf79db7eb"
   },
   {
    "path": "README.md",
@@ -84,7 +84,7 @@
    "bytes": 11038,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
-   "sha256": "afa1ddf571343bae8e10bb523c6159e19e48f32e0e58a3098d98471d9923526e"
+   "sha256": "50d826a8c20b556ffda26c7a7c4d6a751f94ec8c7f1028613bca487aa97f1d77"
   },
   {
    "path": "docs/HQ_ACCESS.md",
@@ -105,18 +105,18 @@
   {
    "path": "docs/TEST_INTERIM_RUNBOOK.md",
    "kind": "file",
-   "bytes": 3491,
+   "bytes": 5252,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
-   "sha256": "ec22ca682de3d6e4202e51a94dacd0b148385431ad2403793995c6da4a5a6f68"
+   "sha256": "554eb332465c4cde76196f09319a4cd911a2be2a85a99d4f184c0afcbbb16f24"
   },
   {
    "path": "docs/data_dictionary.md",
    "kind": "file",
-   "bytes": 23159,
+   "bytes": 23248,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
-   "sha256": "e4c0d4889ba2b513318b2c52cbe57238f4914c48e80f22a96c1152ecab529755"
+   "sha256": "c263bd1aae77f51064e28b097116f9cbc9b7c7e5d5d48943ce6c6a7fed2c2ffd"
   },
   {
    "path": "history/2026-11-01",
@@ -130,7 +130,7 @@
    "path": "history/2026-11-02",
    "kind": "dir",
    "files": 14,
-   "bytes": 11986171,
+   "bytes": 12337567,
    "contains": "copies of datasets + manifest published that day",
    "read_when": "audit / diffs over time"
   },
@@ -185,18 +185,18 @@
   {
    "path": "latest/open_issues.json",
    "kind": "file",
-   "bytes": 25512,
+   "bytes": 25730,
    "contains": "open decisions awaiting Eden / data team: topic, games, affected datasets/fields/def_ids/test_ids, Hebrew+English display note, since",
    "read_when": "to show limitations in the app; never hide data because of it",
-   "sha256": "8e3b6863fa5a86752f903bdca8db9d1b663cc19f9544f1e7340ce2744c5651dd"
+   "sha256": "c7194ae6678380fec4f52b5ecc109c9290571a3faae74ccec49ae8a85bf8151e"
   },
   {
    "path": "latest/test_interim.json",
    "kind": "file",
-   "bytes": 292094,
-   "contains": "interim per test x day x group raw totals (Mixpanel): gross revenue incl. RV, payers, actives; net and group size null with reasons; is_final, scope_matches_dashboard, coverage per Dice live test; Domino/Disney pending",
+   "bytes": 644685,
+   "contains": "interim per test x day x group raw totals (Mixpanel): gross revenue (Dice incl. RV), payers, actives; net and group size null with reasons; is_final, scope_matches_dashboard, definition_refs; coverage per Dice and Domino live test; Disney pending",
    "read_when": "interim test reads; never compute diffs from scope_matches_dashboard=false rows without reading unapplied_filters",
-   "sha256": "38c1672a0de88aac3012bb10db174dfe81d1aa3bdfe6c622457089ee941f1c1c"
+   "sha256": "8fe9d279545437ef99fe60ea49c93f4970c0f18cd420ede839a1a97baa27270f"
   },
   {
    "path": "latest/test_registry.json",
@@ -305,10 +305,10 @@
   {
    "path": "schemas/test_interim.schema.json",
    "kind": "file",
-   "bytes": 5297,
+   "bytes": 5443,
    "contains": "JSON Schemas (draft 2020-12)",
    "read_when": "when validating / generating types",
-   "sha256": "fb34d3c221e0b809aa950dca9c68bed2e6db73dd8d4b89db46c95dd4aba9c11a"
+   "sha256": "3f4948a2f4e56dfcb6885531ce96c3391faaf1e15e458939fd1366b87472c026"
   },
   {
    "path": "schemas/test_registry.schema.json",
@@ -356,7 +356,7 @@
    "bytes": 361212,
    "contains": "per-test fingerprints per section, source versions, not-retried accesses",
    "read_when": "by the producer for incremental runs; consumers rarely need it",
-   "sha256": "c669c3d811eb5e25c4b582ef87518ed90cb9fb70e8d453fbadb8a4878179c344"
+   "sha256": "8d6823433b61eba9c8488e66119ca73a589201a2fed53e89b7041c0eea12e256"
   },
   {
    "path": "tests/DICE",
@@ -385,10 +385,10 @@
   {
    "path": "validate.py",
    "kind": "file",
-   "bytes": 26042,
+   "bytes": 26225,
    "contains": "validator: python3 validate.py . (exit 0 ok, 2 stale/partial, 1 errors)",
    "read_when": "after every pull",
-   "sha256": "b3653db1203362588ae671242463ecc7b36b1feaaf8c376c48f6465ad6a23ba9"
+   "sha256": "214b85e6c05e3298964efa6cd899a7f8bc56cb8b3df587b100b7799ffba6647c"
   }
  ]
 }

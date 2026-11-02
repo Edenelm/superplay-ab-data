@@ -1,11 +1,11 @@
 {
  "dataset": "tests_index",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T17:56:03+02:00",
+ "generated_at": "2026-11-02T18:07:49+02:00",
  "timezone": "Asia/Jerusalem",
  "source_version": {
-  "test_registry_sha256": "bb9f74bce98b85fbb1d1deb397107cc3f5bd068bd0fd213bd6140c4d324e89be",
-  "glossary_sha256": "6c63642c816535f1552d130293d0b38d28a72a1c6416e56e9b67b520d42d24fc",
+  "test_registry_sha256": "ab79bad69768e6b6cd4e5dab79aaae43b0889525138982e05757475aaa3f8f54",
+  "glossary_sha256": "bc10c729df2187b46a0289c6f5272229695b2fef0d7fb7e15f8bf3e228e15af4",
   "aggregate_fingerprint": "6902589cdc222ec453a382013f5868667cc31ef4399737d919a15951ec404907"
  },
  "how_to_use": "filter entries here, then open only detail_file for the tests you need; skip a test whose fingerprint did not change since your last read",
