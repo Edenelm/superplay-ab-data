@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "ES Pity V3 - Economic Agenda",
   "lifecycle": "backlog",
-  "board_status_raw": "Working On",
-  "board_group": "⭐ Candidate / Short List",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -73,6 +73,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -219,6 +227,6 @@
   "Pity",
   "ES"
  ],
- "content_fingerprint": "c6c4da397fa76a1c106a95ff1645be6dff9fefa42110eade08f0bdc4826df865",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "cce85ed20cea19631a1f470f9542bc9c214d6ca3df5ddc7367c91a1ede38f5e3",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

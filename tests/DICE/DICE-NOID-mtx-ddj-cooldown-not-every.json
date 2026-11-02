@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "DDJ",
   "MTX"
  ],
- "content_fingerprint": "fbb910db7813de431d90749b9c2fa0918673d802534220c1c31df2a70438f367",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "02b264ecf6c7e2ea80bd70bfa70ccc73bd222e2aaf6c29ff17ef892c82c79ede",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

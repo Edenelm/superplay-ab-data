@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -217,6 +217,6 @@
   "Churners",
   "Dream Pass"
  ],
- "content_fingerprint": "2a5895bb79846d3c46dece30d06235d4ce51e5d7a303b4d63a0d36fe3b474511",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "abbcee8eff1efd8dc35a29e25547acdc410ca0a68a661b26048b3a1be69734e8",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

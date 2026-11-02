@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -220,6 +220,6 @@
   "DDJ",
   "Trail"
  ],
- "content_fingerprint": "e752efe9a05b40ae188daee80e3a9dc7ae3f4299079be23624a863b8a8aeadc8",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "b01a0d197615fcae0eb1a4d98f0729bff94f30598d7fac3d2acb8c01e1085a0e",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

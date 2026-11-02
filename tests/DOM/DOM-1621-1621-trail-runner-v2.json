@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -423,6 +423,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "ee715055508192cc4ff0298531f744a07b8626e3ee01f63d93a4965d6ec5e60c",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "df68c0d54ba31e1170caaf890f066a48cb9ed3698d92d0282fc451cc38ccd2dd",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

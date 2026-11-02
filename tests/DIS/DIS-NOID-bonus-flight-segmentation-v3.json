@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -268,10 +268,7 @@
      "2026-11-01.md",
      "https://superplay.monday.com/boards/18435634714/pulses/13300157563"
     ],
-    "null_reason": null,
-    "conflict": [
-     "WhatsApp 2026-10-29 17:43 (Lior Bern): 'planned' · board: status Backlog · decision Stopped · group 💡 Ideas / Backlog"
-    ]
+    "null_reason": null
    }
   },
   "question_labels_he": {
@@ -298,17 +295,12 @@
    "whatsapp_decision_latest": "planned",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": "Stopped",
+   "board_decision": "Pending",
    "board_status": "Backlog",
    "numbers_quoted": [],
    "first_seen": "2026-10-29",
    "last_seen": "2026-10-29",
-   "conflicts": [
-    {
-     "type": "contradicts",
-     "msg": "WhatsApp 2026-10-29 17:43 (Lior Bern): 'planned' · board: status Backlog · decision Stopped · group 💡 Ideas / Backlog"
-    }
-   ],
+   "conflicts": [],
    "whatsapp_item_ids": [
     "wa318"
    ],
@@ -344,6 +336,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "f3259e0d42faa5f38a47c602c8d2d81d148c786b1df1eaf307727f6d7951f2ba",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "ac43df799442a67ee99ff411bc3bf58722ea5a1d0ba54ebca118ef86d39b2480",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

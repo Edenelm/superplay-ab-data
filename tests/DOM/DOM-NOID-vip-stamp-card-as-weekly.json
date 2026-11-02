@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -217,6 +217,6 @@
   "VIP",
   "Weekly Goals"
  ],
- "content_fingerprint": "7a12dc7b498698cd3480b1efdcad2096453847fdbdb2404c04c1e496a39d8fca",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "c26983fb4ad18e6c0c70ce9c28b6389de7ed3f45f7a40b717398c23365d36567",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

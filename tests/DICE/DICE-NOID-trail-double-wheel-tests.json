@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -335,7 +335,7 @@
    "nums": [],
    "text": "v1.114.1 only",
    "file": "2026-10-26.md",
-   "match": "name · 100% name tokens"
+   "match": "name · exact name"
   },
   {
    "id": "wa300",
@@ -345,13 +345,13 @@
    "nums": [],
    "text": "relaunched",
    "file": "2026-10-26.md",
-   "match": "name · 100% name tokens"
+   "match": "name · exact name"
   }
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "bde7ce8bcb6b7d7aee2aaba8cb839345b05f7bd7865b759d8644a9b13b09b367",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "719c8f45ef75e95b1055534818fcd49d7f7f2131bba813aa5842d50d5812d928",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

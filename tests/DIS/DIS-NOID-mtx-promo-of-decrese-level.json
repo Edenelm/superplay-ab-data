@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "MTX"
  ],
- "content_fingerprint": "077806e5c1a80e562d77c1a35350cd12cde557c93aaf142ff57cc5bb7d2565b6",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "ecb38d4edb821ae4657b1e608d0aefa2c8aaa60fa28bd3ae1c5955154d47d3d9",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

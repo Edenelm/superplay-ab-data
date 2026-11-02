@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -410,6 +410,6 @@
   "FTUE",
   "8 Box"
  ],
- "content_fingerprint": "3f7463d5799ade255efb637b69d4b9de6ce416da456c69f67293c75044722350",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "95332b79ba7ac49d4b669b2a84e9a71aaaa12b9bdfe3ba5d880f5f4626eeba4e",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

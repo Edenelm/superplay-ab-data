@@ -101,7 +101,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -267,7 +267,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה ההשערה? גודל הטסט בשלב 2: ‏20% או 30%? האם ההודעה מ-08/10/26 'טסט CZ הוטמע' (wa:wa337) מתייחסת ל-1104 CZ FIX או ל-CZ No Max Offer Weight? סתירה: גודל הטסט בשלב 2: 20% (שם דשבורד) מול 30% (WhatsApp 2026-06-11 ודשבורד אחר). סתירה (מהמקור): Board group conflict: status 'Running' but group 'Backlog' סתירה (מהמקור): item also matches backlog rule (group 'Backlog', status 'Running')",
+    "text_he": "מה ההשערה? גודל הטסט בשלב 2: ‏20% או 30%? האם ההודעה מ-08/10/26 'טסט CZ הוטמע' (wa:wa9337) מתייחסת ל-1104 CZ FIX או ל-CZ No Max Offer Weight? סתירה: גודל הטסט בשלב 2: 20% (שם דשבורד) מול 30% (WhatsApp 2026-06-11 ודשבורד אחר). סתירה (מהמקור): Board group conflict: status 'Running' but group 'Backlog' סתירה (מהמקור): item also matches backlog rule (group 'Backlog', status 'Running')",
     "statements": [
      {
       "text_he": "מה ההשערה?",
@@ -284,7 +284,7 @@
       ]
      },
      {
-      "text_he": "האם ההודעה מ-08/10/26 'טסט CZ הוטמע' (wa:wa337) מתייחסת ל-1104 CZ FIX או ל-CZ No Max Offer Weight?",
+      "text_he": "האם ההודעה מ-08/10/26 'טסט CZ הוטמע' (wa:wa9337) מתייחסת ל-1104 CZ FIX או ל-CZ No Max Offer Weight?",
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11296920#text_card[0]"
@@ -316,9 +316,9 @@
       ]
      }
     ],
-    "fingerprint": "8848372f2d5a8be5",
+    "fingerprint": "4ebb16adc7886ba1",
     "inputs": {
-     "curated:questions": "37f4296bd94a46f6",
+     "curated:questions": "1709519bf319c3df",
      "curated:conflicts": "031b82446a730582",
      "registry:conflicts": "97a1e12913afeecf",
      "expl:limitations": "b2b8d37b6bfedd04",
@@ -565,6 +565,6 @@
   "CZ",
   "Phase"
  ],
- "content_fingerprint": "126aa244467a816c8e2f65a945489f51fc37f2bfe5cf2465e26608f6e773007c",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "b858bb4dfbb3d2eed886ddadfac15f3b4d14306dba73080e0a418d94f915fa74",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

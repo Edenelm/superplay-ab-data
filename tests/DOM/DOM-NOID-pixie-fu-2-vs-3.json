@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -177,12 +177,12 @@
       ]
      }
     ],
-    "fingerprint": "ba971aca3e191892",
+    "fingerprint": "d17c1f1a7704963a",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
      "registry:conflicts": "4f53cda18c2baa0c",
-     "expl:limitations": "74234e98afe7498f",
+     "expl:limitations": "bb96d7d8e771eb96",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -211,13 +211,184 @@
   ],
   "curated": false
  },
- "explanation_legacy_8q": null,
- "decisions": [],
- "whatsapp": [],
+ "explanation_legacy_8q": {
+  "test_id": "DOM-NOID-pixie-fu-2-vs-3",
+  "game": "Domino Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"; Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\"",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-11-02.md",
+     "2026-11-02.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13262801473",
+     "2026-11-02.md",
+     "2026-11-02.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": "המלצה שנכתבה ב-WhatsApp: deploy (recommended)",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-11-02.md",
+     "2026-11-02.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+    ],
+    "null_reason": null
+   },
+   "decided": {
+    "text_he": "בבורד: Backlog · החלטה אחרונה ב-WhatsApp: deploy (recommended)",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13262801473",
+     "2026-11-02.md",
+     "2026-11-02.md",
+     "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+    ],
+    "null_reason": null,
+    "conflict": [
+     "WhatsApp 2026-11-01 18:36 (Diana Khayet): 'deploy (recommended)' · board: status Backlog · group Backlog"
+    ]
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13262801473",
+   "test_id": "DOM-NOID-pixie-fu-2-vs-3",
+   "game": "Domino Dreams",
+   "name": "Pixie FU 2 VS. 3",
+   "whatsapp_decision_latest": "deploy (recommended)",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [
+    "deploy (recommended)"
+   ],
+   "board_decision": null,
+   "board_status": "Backlog",
+   "numbers_quoted": [
+    "revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"",
+    "Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\""
+   ],
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "conflicts": [
+    {
+     "type": "contradicts",
+     "msg": "WhatsApp 2026-11-01 18:36 (Diana Khayet): 'deploy (recommended)' · board: status Backlog · group Backlog"
+    },
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"; Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\" — no result on the board (results/summary columns empty) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa330",
+    "wa331"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "18:04",
+     "sender": "Liel Ben Shalom",
+     "item_id": "wa330"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "18:36",
+     "sender": "Diana Khayet",
+     "item_id": "wa331"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa330",
+   "date": "2026-11-01",
+   "kind": "test",
+   "decision": "pending",
+   "nums": [],
+   "text": "לגבי הפו- אמרנו שקודם נבדוק מה הפסיד בטסט ואז נקבל החלטה אם פו זה 2 או 3. הסתכלתם על זה?",
+   "file": "2026-11-02.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa331",
+   "date": "2026-11-01",
+   "kind": "test",
+   "decision": "deploy (recommended)",
+   "nums": [
+    "revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"",
+    "Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\""
+   ],
+   "text": "כןן. ממה שאני רואה הטסט אדיש עם עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית) לטובת הטסט (פו של 2). הייתה גם עלייה באחוזי סיום פיקסי (5% יותר) ובמשחקיות לאורך הטסט. אני חושבת שהמעבר גם לפו של 2 ייתן לנו לנהל התקדמות טובה מבלי לפגוע בPU או בהכנסות.",
+   "file": "2026-11-02.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
  "monday_updates_fetched": null,
  "glossary_concepts": [
   "FU"
  ],
- "content_fingerprint": "a6cbf7d1e881e2045d733072d4864f082229827b2b00db148f9de05ebe2c1bf8",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "5c8a984c8b42931473ee15c50539dba65e4b187f03e1aad1ff02091964543da1",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

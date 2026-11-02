@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -453,6 +453,6 @@
   "K (Kingdom)",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "29e23ee832d3afa9dae71b5080798ecaf15435cfedea29f4c22912b028222d9f",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "ff26efa33c14b94fb742aea74c9e18faafa91ffaed8e6ddf00651d37a8634a93",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

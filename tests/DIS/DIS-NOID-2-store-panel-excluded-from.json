@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "2$ store panel excluded from CZ",
   "lifecycle": "backlog",
-  "board_status_raw": "Simson with Active Test",
+  "board_status_raw": "Candidate",
   "board_group": "⭐ Candidate / Short List",
   "backlog_substatus": {
    "sub": null
@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "glossary_concepts": [
   "CZ"
  ],
- "content_fingerprint": "e11ab23bea4071b50118d7c6c86149f6693ee8c4ea8bd8650c85e7a116a0a8e2",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "e4fde94a5182f85ee2d1cbf123b7d09b8eb2e6847ebd19890c2b1d9d558c7fde",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

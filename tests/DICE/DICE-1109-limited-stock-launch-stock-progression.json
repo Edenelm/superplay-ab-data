@@ -67,7 +67,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -357,6 +357,6 @@
   "CZ",
   "K (Kingdom)"
  ],
- "content_fingerprint": "7a02ddc8c5ab5e876aee51820d14fe3e3a62e5166f4bad10ec838dd57983afb7",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "c08d6fe3bca9faf4d8e48c7ca16410f0a4a907e1a5682da8eeffac1b140b5539",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

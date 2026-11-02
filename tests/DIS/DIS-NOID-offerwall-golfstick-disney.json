@@ -12,9 +12,9 @@
   "game": "Disney Solitaire",
   "board_item_id": "13300115107",
   "board_test_number": null,
-  "name": "Offerwall Golfstick Disney",
+  "name": "Offerwall Golfstick Disney (Incent)",
   "lifecycle": "backlog",
-  "board_status_raw": "Candidate",
+  "board_status_raw": "Working On",
   "board_group": "⭐ Candidate / Short List",
   "backlog_substatus": {
    "sub": null
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -88,19 +88,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «Offerwall Golfstick Disney». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «Offerwall Golfstick Disney (Incent)». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «Offerwall Golfstick Disney». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «Offerwall Golfstick Disney (Incent)». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13300115107"
       ]
      }
     ],
-    "fingerprint": "47f3ae48cbc4218e",
+    "fingerprint": "50f80d96022ff209",
     "inputs": {
-     "registry:name": "5dbca7c074d0d820",
+     "registry:name": "a59befbfd90230e0",
      "generator": "he6-v2"
     }
    },
@@ -116,11 +116,11 @@
       ]
      }
     ],
-    "fingerprint": "3a22080b085502cf",
+    "fingerprint": "021726da644c0c89",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "5dbca7c074d0d820",
+     "registry:name": "a59befbfd90230e0",
      "generator": "he6-v2"
     }
    },
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "da5db427b1ad8a1b435c853c8c09ee0f879ecf1e93a08b257af7f045a42cb24a",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "458d8bbd17d5dda6b2b4111f002fb9dceaf078f4c1658b59866281d967b7b4fc",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

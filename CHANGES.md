@@ -1,5 +1,56 @@
 # Changes (published)
 
+## 2026-11-02T08:40:18+02:00 (run 20261102T084018, published)
+
+- datasets changed: game_metrics, test_registry, test_results, explanations_learnings_decisions, whatsapp_items, glossary; unchanged (file kept): metric_definitions, open_issues; failed (last good kept): none
+- tests vs previous publish: +19 added, 627 updated, 35 unchanged, 0 removed from registry (files kept)
+- per-test files written: 646; explanation sections regenerated this run: 155 (reused 3290)
+- updated: `DIS-125-make-any-purchase-new-seg`
+- updated: `DIS-124-ays-offer-for-ftd-and`
+- updated: `DICE-1104-cz-fix`
+- updated: `DICE-1104-vip-braze-push-churners`
+- updated: `DICE-1106-remove-ad-from-segmentation`
+- updated: `DICE-1108-weekly-goals-pb-points-distribution`
+- updated: `DICE-NOID-free-dream-passs-for-churners`
+- updated: `DICE-1110-puzzle-onboarding-gt-v4`
+- updated: `DICE-1105-increase-default-max-bet-for`
+- updated: `DICE-1110-rv-purchase-penalty`
+- updated: `DICE-1113-x2-ticks-per-hour-k199`
+- updated: `DICE-1114-duel-time-easier-bots`
+- updated: `DICE-NOID-trail-weekend-recomp`
+- updated: `DICE-1114-tournament-v2-after-fix-round`
+- updated: `DOM-1590-genie-new-agenda-v3`
+- updated: `DOM-1581-1581-dtc-remove-for-android`
+- updated: `DOM-NOID-choose-your-trail-test`
+- updated: `DOM-1611-weekly-tasks-harder-tasks`
+- updated: `DOM-1611-low-balance-challenge-pb-10`
+- updated: `DOM-1611-move-quest-from-level-32`
+- updated: `DOM-1621-1621-trail-runner-v2`
+- updated: `DOM-1621-1621-8-box-from-2`
+- updated: `DIS-125-t125-end-of-puzzle-offer`
+- updated: `DIS-120-rv-8box-with-purchase-v2`
+- updated: `DIS-124-rv-extend-segment`
+- updated: `DIS-125-push-notification-increase-by-lvl`
+- updated: `DIS-125-dormant-cz-v3`
+- updated: `DIS-125-potion-bonus`
+- updated: `DIS-112-google-integrity`
+- updated: `DIS-122-free-resources-pop-up`
+- needs attention (14): see PROCESSING_LOG.md
+  - DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)
+  - DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)
+  - DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)
+  - DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)
+  - DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)
+  - DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)
+  - DIS-126-chef-segments: המנגנון טרם הובהר (live)
+  - DIS-127-3po-halloween: המנגנון טרם הובהר (live)
+  - DIS-126-es-v3: המנגנון טרם הובהר (live)
+  - DIS-126-wr-v3: המנגנון טרם הובהר (live)
+  - DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)
+  - DIS-126-1-1-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
+
 ## 2026-11-01T13:46:48+02:00 (run 20261101T134648, published)
 
 - datasets changed: game_metrics, test_registry, test_results, explanations_learnings_decisions, whatsapp_items, glossary, open_issues; unchanged (file kept): metric_definitions; failed (last good kept): none

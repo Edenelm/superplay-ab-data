@@ -2,8 +2,8 @@
  "test_id": "DIS-125-wr-v2",
  "game": "Disney Solitaire",
  "game_code": "DIS",
- "tier": "live",
- "coverage": "partial",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DIS-125-wr-v2",
   "legacy_keys": [
@@ -13,11 +13,11 @@
   "board_item_id": "13299935469",
   "board_test_number": "125",
   "name": "125 - WR V2 *",
-  "lifecycle": "live",
-  "board_status_raw": "Active",
-  "board_group": "🟢 Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Stopped",
+  "board_group": "❌ Decided – Lost / Stopped",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
@@ -27,7 +27,7 @@
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-09-15",
-  "end_date": null,
+  "end_date": "2026-10-15",
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
@@ -43,6 +43,10 @@
    {
     "type": "duplicate_test_number",
     "msg": "test number 125 is used by 10 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-v4-increase-by-mode, DIS-125-push-notification-increase-by-lvl, DIS-125-zeus-launch, DIS-125-8box-segments, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-drc-new-economy-v5-2"
+   },
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 125 is used by 9 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-push-notification-increase-by-lvl, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-v4-increase-by-mode, DIS-125-8box-segments, DIS-125-drc-new-economy-v5-2"
    }
   ],
   "source_links": [
@@ -75,6 +79,14 @@
    "audience": "empty on the Monday item",
    "split": "empty on the Monday item",
    "end_date": "no end date on board (live)"
+  },
+  "board_decision_raw": "Stopped",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -137,10 +149,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות | התחלה: 2026-09-15 שלב/שינוי בהרצה: T2 Aggressive בוטל ב-28/09/2026; הדשבורד מסנן עכשיו T1 Mild מול Control.",
+    "text_he": "קהל: Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות | התחלה: 2026-09-15, סיום: 2026-10-15 שלב/שינוי בהרצה: T2 Aggressive בוטל ב-28/09/2026; הדשבורד מסנן עכשיו T1 Mild מול Control.",
     "statements": [
      {
-      "text_he": "קהל: Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות | התחלה: 2026-09-15",
+      "text_he": "קהל: Relevant players; שלוש קבוצות, בערך שליש כל אחת לפי נוסחת הקבוצות | התחלה: 2026-09-15, סיום: 2026-10-15",
       "tag": "interpretation",
       "source_refs": [
        "mp_dashboard:11526317#text_card[0]",
@@ -156,12 +168,13 @@
       ]
      }
     ],
-    "fingerprint": "b6cd74bf97efaf48",
+    "fingerprint": "e735bff373c32f31",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "918ad75fe37202c6",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "9770e6de784e0d44",
      "curated:audience": "608ba3e3d2555c35",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "1cbd15b362bfe9cf",
@@ -207,12 +220,12 @@
       ]
      }
     ],
-    "fingerprint": "bd5c28da8f16c171",
+    "fingerprint": "a9c05508ffd3509b",
     "inputs": {
      "curated:questions": "3f0ca3f5ed5ad3b7",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "25747ff23bb25fde",
-     "expl:limitations": "59410672f1405b55",
+     "registry:conflicts": "2436502d8a895027",
+     "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -250,81 +263,7 @@
   ],
   "curated": true
  },
- "explanation_legacy_8q": {
-  "test_id": "DIS-125-wr-v2",
-  "game": "Disney Solitaire",
-  "lang": "he",
-  "questions": {
-   "what_changed": {
-    "text_he": "שם הבדיקה בבורד: 125 - WR V2 *",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
-    ],
-    "null_reason": null
-   },
-   "why_tested": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no business question or hypothesis stated in source"
-   },
-   "who": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "audience empty in source"
-   },
-   "what_happened": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
-   },
-   "business_meaning": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no results yet"
-   },
-   "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
-    "tag": "generated_explanation",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
-    ],
-    "null_reason": null
-   },
-   "recommended": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no explicit recommendation found in captured sources"
-   },
-   "decided": {
-    "text_he": "בבורד: Active",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
-    ],
-    "null_reason": null
-   }
-  },
-  "question_labels_he": {
-   "what_changed": "מה שינינו?",
-   "why_tested": "למה בדקנו?",
-   "who": "על מי בדקנו?",
-   "what_happened": "מה קרה בפועל?",
-   "business_meaning": "מה המשמעות העסקית?",
-   "limitations": "מהן המגבלות?",
-   "recommended": "מה הומלץ?",
-   "decided": "מה הוחלט בפועל?"
-  },
-  "business_state_ref": null,
-  "measured_impact_ref": [],
-  "generation": "template over source fields; no free-form AI text",
-  "verification": "NOT VERIFIED"
- },
+ "explanation_legacy_8q": null,
  "decisions": [],
  "whatsapp": [],
  "monday_updates_fetched": {
@@ -335,6 +274,6 @@
  "glossary_concepts": [
   "WR"
  ],
- "content_fingerprint": "3752863e0c11659353227cf3c1bb0e005510bc27e75d53136d783d6b58b9fe8e",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "940999711e4106bdf749b99d0ed83abf0ef13235e011ed949ccdc5fcc6d18166",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "Use Puzzle Price Cut with Time Pressure - MTX",
   "lifecycle": "backlog",
-  "board_status_raw": "Candidate",
-  "board_group": "⭐ Candidate / Short List",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -73,6 +73,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -218,6 +226,6 @@
  "glossary_concepts": [
   "MTX"
  ],
- "content_fingerprint": "6e6002b7a89da62537f75ce7e89e04fe82c1a4ec606bba3310efa5aaa60e558f",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "8206770da1a7732ea0c8ee04d6d0727a44ca9600b91b256bf8983c1204a3f2dd",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

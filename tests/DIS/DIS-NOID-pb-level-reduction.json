@@ -2,55 +2,54 @@
  "test_id": "DIS-NOID-pb-level-reduction",
  "game": "Disney Solitaire",
  "game_code": "DIS",
- "tier": "backlog",
- "coverage": "stub",
+ "tier": "live",
+ "coverage": "unclear",
  "registry": {
   "test_id": "DIS-NOID-pb-level-reduction",
   "legacy_keys": [
-   "bl_13299962162"
+   "live_13299962162"
   ],
   "game": "Disney Solitaire",
   "board_item_id": "13299962162",
-  "board_test_number": null,
-  "name": "125 - PB Level Reduction",
-  "lifecycle": "backlog",
-  "board_status_raw": "In Work",
-  "board_group": "📋 Planning & Setup",
-  "backlog_substatus": {
-   "sub": null
-  },
-  "owners": {
-   "Test Owner": "Jonathan Tavor"
-  },
-  "priority": null,
-  "planned": null,
-  "due": null,
-  "added_date": "2026-10-15",
-  "type": null,
+  "board_test_number": "126",
+  "name": "126 - PB Level Reduction",
+  "lifecycle": "live",
+  "board_status_raw": "Active",
+  "board_group": "🟢 Live",
   "outcome_label": null,
-  "is_live": false,
+  "is_live": true,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
+  "audience_source": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": "2026-10-08",
+  "start_date": "2026-10-15",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": null,
+  "mixpanel": {
+   "state": "matched",
+   "board_link": null,
+   "dashboards": [
+    {
+     "id": 11588878,
+     "title": "T126 - Challenge level reduction",
+     "modified": "2026-11-01",
+     "url": "https://mixpanel.com/project/3205636/app/boards#id=11588878"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
   "conflicts": [
    {
-    "type": "board",
-    "msg": "group '📋 Planning & Setup' but start date 2026-10-08 has passed"
-   },
-   {
-    "type": "board_live_group",
-    "msg": "Status 'In Work' but no end date (start 2026-10-08)"
+    "type": "duplicate_test_number",
+    "msg": "test number 126 is used by 7 board items in Disney Solitaire: DIS-126-olympus-wheel-mega, DIS-126-chef-segments, DIS-126-es-v3, DIS-126-wr-v3, DIS-126-opportunistic-rv, DIS-126-1-1-test"
    }
   ],
   "source_links": [
@@ -62,7 +61,7 @@
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/backlog_data.js",
+    "ref": "/workspace/pilot/build/live_data.js",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -71,17 +70,18 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
-   "business_question": "backlog snapshot captures name/group/status/owners/dates only",
-   "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
-   "change": "backlog snapshot captures name/group/status/owners/dates only",
-   "audience": "backlog snapshot captures name/group/status/owners/dates only",
-   "control_vs_test": "backlog snapshot captures name/group/status/owners/dates only",
-   "split": "backlog snapshot captures name/group/status/owners/dates only",
-   "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
-   "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
-   "outcome_label": "not started"
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
   }
  },
  "results": [],
@@ -97,19 +97,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «125 - PB Level Reduction». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «126 - PB Level Reduction». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «125 - PB Level Reduction». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «126 - PB Level Reduction». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
       ]
      }
     ],
-    "fingerprint": "8f8f3b793b8d7fd9",
+    "fingerprint": "42b11301e30995dc",
     "inputs": {
-     "registry:name": "d185f6890509dedd",
+     "registry:name": "eff1369973219370",
      "generator": "he6-v2"
     }
    },
@@ -125,33 +125,32 @@
       ]
      }
     ],
-    "fingerprint": "6e8dd9e75c27fec8",
+    "fingerprint": "7e7a1206e4494329",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "d185f6890509dedd",
+     "registry:name": "eff1369973219370",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-08, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-15",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-08, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-10-15",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
       ]
      }
     ],
-    "fingerprint": "e1155bbe7f42469d",
+    "fingerprint": "102c26397bf7fff7",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "6b9df6402709e9e8",
+     "registry:start_date": "9770e6de784e0d44",
      "registry:phases": "4f53cda18c2baa0c",
-     "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
@@ -176,22 +175,8 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): group '📋 Planning & Setup' but start date 2026-10-08 has passed סתירה (מהמקור): Status 'In Work' but no end date (start 2026-10-08) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
-     {
-      "text_he": "סתירה (מהמקור): group '📋 Planning & Setup' but start date 2026-10-08 has passed",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
-      ]
-     },
-     {
-      "text_he": "סתירה (מהמקור): Status 'In Work' but no end date (start 2026-10-08)",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
-      ]
-     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -200,12 +185,12 @@
       ]
      }
     ],
-    "fingerprint": "b8bd346738710798",
+    "fingerprint": "587ce25c71095fe4",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "3c555eac9df878bf",
-     "expl:limitations": "74234e98afe7498f",
+     "registry:conflicts": "d5437b6ab6ec3c2e",
+     "expl:limitations": "988015670106a1ca",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -225,10 +210,7 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [
-   "group '📋 Planning & Setup' but start date 2026-10-08 has passed",
-   "Status 'In Work' but no end date (start 2026-10-08)"
-  ],
+  "conflicts": [],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -237,13 +219,87 @@
   ],
   "curated": false
  },
- "explanation_legacy_8q": null,
+ "explanation_legacy_8q": {
+  "test_id": "DIS-NOID-pb-level-reduction",
+  "game": "Disney Solitaire",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 126 - PB Level Reduction",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Active",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
  "decisions": [],
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [
   "PB"
  ],
- "content_fingerprint": "16cf94f1967720717a7b7d535cef202924e11d7c9b911f2b5765942700f7e1c9",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "7531fb181115b855e1e11c2fd419bf7d8a22aa43f2219e71dd7ffc65225094c8",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

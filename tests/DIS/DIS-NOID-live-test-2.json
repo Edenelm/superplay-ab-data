@@ -43,10 +43,6 @@
    {
     "type": "board",
     "msg": "Status 'Active' but no start date on the board"
-   },
-   {
-    "type": "board",
-    "msg": "Status 'Active' but decision 'Stopped'"
    }
   ],
   "source_links": [
@@ -67,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -183,7 +179,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד. סתירה (מהמקור): Status 'Active' but no start date on the board סתירה (מהמקור): Status 'Active' but decision 'Stopped'",
+    "text_he": "מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד. סתירה (מהמקור): Status 'Active' but no start date on the board",
     "statements": [
      {
       "text_he": "מה הפריט הזה בודק? אין תאריך, אין מספר טסט ואין תיאור, ולכן אי אפשר לקשר אותו לדשבורד.",
@@ -198,20 +194,13 @@
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13300163111"
       ]
-     },
-     {
-      "text_he": "סתירה (מהמקור): Status 'Active' but decision 'Stopped'",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18435634714/pulses/13300163111"
-      ]
      }
     ],
-    "fingerprint": "6338bdcd5d2c954b",
+    "fingerprint": "6a291753ef302619",
     "inputs": {
      "curated:questions": "6f1322e4433b2575",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "b3e5b68119727ce4",
+     "registry:conflicts": "67a9421f4b6fb97f",
      "expl:limitations": "0d25648a84b00e18",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -233,8 +222,7 @@
   "why": null,
   "phases": [],
   "conflicts": [
-   "Status 'Active' but no start date on the board",
-   "Status 'Active' but decision 'Stopped'"
+   "Status 'Active' but no start date on the board"
   ],
   "source_refs": [
    {
@@ -328,6 +316,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "0b3f972f831f9c845cb812ff954c0508ac433ec99708f22dc806e9ea46c0c14f",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "e6472c698c7a32379f8670cf50bba370f0e193096319ac31e7930fddf237a705",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

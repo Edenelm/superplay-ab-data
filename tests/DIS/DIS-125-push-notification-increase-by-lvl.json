@@ -49,7 +49,7 @@
   "conflicts": [
    {
     "type": "duplicate_test_number",
-    "msg": "test number 125 is used by 10 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-v4-increase-by-mode, DIS-125-zeus-launch, DIS-125-wr-v2, DIS-125-8box-segments, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-drc-new-economy-v5-2"
+    "msg": "test number 125 is used by 9 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-v4-increase-by-mode, DIS-125-wr-v2, DIS-125-8box-segments, DIS-125-drc-new-economy-v5-2"
    }
   ],
   "source_links": [
@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -214,11 +214,11 @@
       ]
      }
     ],
-    "fingerprint": "c21de9a3d9588f9b",
+    "fingerprint": "c30a2fd7f9016c5e",
     "inputs": {
      "curated:questions": "0728b8b5625c1e2b",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "b69fc5d2d30a33b7",
+     "registry:conflicts": "29c5dc4a99a6c374",
      "expl:limitations": "87366045f2bcc5ca",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -342,6 +342,6 @@
  "glossary_concepts": [
   "Push"
  ],
- "content_fingerprint": "84cb363cf1bb2c4a5828f72c7f6f6dc3796ad68b45ad77cf7d8f7b5e4f24b743",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "4e660e7819ed8bcd774debfe68c0a2a673f806b723dcdedef9f7a7d04d288291",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

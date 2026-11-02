@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -360,6 +360,6 @@
   "Braze",
   "Push"
  ],
- "content_fingerprint": "b065e0b7636e8ea2818bab389cf94fc975fe77cd66a99e1d1d03efa128545712",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "94188aaba4c1444ed6a1b631be3b3a819d6cfe843e88fd6f07159afe4a1e7b5c",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "Gradual Momentum Seg. For New Users",
   "lifecycle": "backlog",
-  "board_status_raw": "Backlog",
-  "board_group": "💡 Ideas / Backlog",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -73,6 +73,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -216,6 +224,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "082212217a794b4bc7cd397e53dea4962a7f4e5338b693b6a7ea19f97498e8e6",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "c6a47eeebc4de1f0a388ddc090167dc93aff3b3ba37753b38d07b84f7875e349",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

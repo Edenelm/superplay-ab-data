@@ -2,56 +2,39 @@
  "test_id": "DIS-125-zeus-launch",
  "game": "Disney Solitaire",
  "game_code": "DIS",
- "tier": "live",
- "coverage": "unclear",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DIS-125-zeus-launch",
   "legacy_keys": [
-   "live_13299935468"
+   "wab_13299935468"
   ],
   "game": "Disney Solitaire",
   "board_item_id": "13299935468",
-  "board_test_number": "125",
+  "board_test_number": null,
   "name": "125 - Zeus Launch",
-  "lifecycle": "live",
-  "board_status_raw": "Active",
-  "board_group": "🟢 Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Deployed",
+  "board_group": "✅ Decided – Deployed",
+  "board_decision_raw": "Deploy",
+  "board_category": "deploy",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
-  "audience_source": null,
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-09-15",
-  "end_date": null,
+  "end_date": "2026-10-29",
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": {
-   "state": "matched",
-   "board_link": null,
-   "dashboards": [
-    {
-     "id": 11526718,
-     "title": "T125 - Zeus Launch & Level List CC",
-     "modified": "2026-10-31",
-     "url": "https://mixpanel.com/project/3205636/app/boards#id=11526718"
-    }
-   ],
-   "possible": [],
-   "rule": "'possible' matches are never auto-linked"
-  },
-  "conflicts": [
-   {
-    "type": "duplicate_test_number",
-    "msg": "test number 125 is used by 10 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-v4-increase-by-mode, DIS-125-push-notification-increase-by-lvl, DIS-125-wr-v2, DIS-125-8box-segments, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-drc-new-economy-v5-2"
-   }
-  ],
+  "mixpanel": null,
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
@@ -61,7 +44,7 @@
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/live_data.js",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -70,18 +53,17 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
-   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
-   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
-   "change": "live snapshot captures status/dates/audience only; results tab not read",
-   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
-   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
-   "outcome_label": "test is live; no decision yet",
-   "guardrails": "not designated in source",
-   "audience": "empty on the Monday item",
-   "split": "empty on the Monday item",
-   "end_date": "no end date on board (live)"
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
   }
  },
  "results": [],
@@ -154,10 +136,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: 3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260 | התחלה: 2026-09-15 שלב/שינוי בהרצה: 15/09/2026 עד 29/10/2026: 'zeus Deployed/level list deployed with changes' (תיאור הדשבורד). שלב/שינוי בהרצה: 15/09/26 (WhatsApp): הטסט עלה; ה-CC הכיל שלב שגורם לקראשים (DSOG_10116_Zeus), כ-30 יוזרים; ב-16/09 הוחלף ב-DSOG_10300_Zeus. שלב/שינוי בהרצה: 2026-10-29: 'סצנה 77 לייב החל מ-1.26 + דיפלוי לטסט של זאוס' (WhatsApp).",
+    "text_he": "קהל: 3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260 | התחלה: 2026-09-15, סיום: 2026-10-29 שלב/שינוי בהרצה: 15/09/2026 עד 29/10/2026: 'zeus Deployed/level list deployed with changes' (תיאור הדשבורד). שלב/שינוי בהרצה: 15/09/26 (WhatsApp): הטסט עלה; ה-CC הכיל שלב שגורם לקראשים (DSOG_10116_Zeus), כ-30 יוזרים; ב-16/09 הוחלף ב-DSOG_10300_Zeus. שלב/שינוי בהרצה: 2026-10-29: 'סצנה 77 לייב החל מ-1.26 + דיפלוי לטסט של זאוס' (WhatsApp).",
     "statements": [
      {
-      "text_he": "קהל: 3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260 | התחלה: 2026-09-15",
+      "text_he": "קהל: 3 קבוצות בדשבורד: שחקנים חדשים שהגיעו ל-Level 20 אחרי תחילת הטסט (Level List + Zeus); שחקנים ב-Level 20–260 בתחילת הטסט (Zeus); ותיקים מעל Level 260 | התחלה: 2026-09-15, סיום: 2026-10-29",
       "tag": "explicit_in_source",
       "source_refs": [
        "wa:wa317",
@@ -205,12 +187,13 @@
       ]
      }
     ],
-    "fingerprint": "2edc65741befc654",
+    "fingerprint": "9924de103243aa66",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "918ad75fe37202c6",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "e1367037a0810c42",
      "curated:audience": "d10fdade1bee4680",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "1d430ee42aa3ae31",
@@ -257,12 +240,12 @@
       ]
      }
     ],
-    "fingerprint": "ec60b675c6655f2a",
+    "fingerprint": "8f7ef7457b0f8898",
     "inputs": {
      "results:": "4f53cda18c2baa0c",
-     "expl:what_happened": "a1a0ba8a709b8c3b",
-     "expl:business_meaning": "119e81b7bbc1373b",
-     "expl:decided": "04b6835cc1693dbf",
+     "expl:what_happened": "0fa9c8a52dbe4085",
+     "expl:business_meaning": "1ef3f1410f5b3355",
+     "expl:decided": "1b411bf3aa64a10c",
      "wa:wa317": "9571c058e640b768",
      "generator": "he6-v2"
     }
@@ -312,12 +295,12 @@
       ]
      }
     ],
-    "fingerprint": "ca60bcdfc02aee76",
+    "fingerprint": "8df16779e48674b8",
     "inputs": {
      "curated:questions": "5ccfff1cd8947237",
      "curated:conflicts": "35c37802a6c75ce0",
-     "registry:conflicts": "667c0e17e9a609fb",
-     "expl:limitations": "9ad0e840eee7baa1",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "cd5292f2440a7c86",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -383,9 +366,7 @@
    {
     "ref": "mp_dashboard_title",
     "url": null,
-    "value": [
-     "T125 - Zeus Launch & Level List CC"
-    ]
+    "value": []
    },
    {
     "ref": "monday_name",
@@ -401,12 +382,10 @@
   "lang": "he",
   "questions": {
    "what_changed": {
-    "text_he": "שם הבדיקה בבורד: 125 - Zeus Launch",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
-    ],
-    "null_reason": null
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
    },
    "why_tested": {
     "text_he": null,
@@ -424,18 +403,20 @@
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
+    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
    },
    "business_meaning": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no results yet"
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
     "tag": "generated_explanation",
     "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299935468",
+     "2026-11-01.md",
      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
     ],
     "null_reason": null
@@ -447,17 +428,14 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Active · החלטה אחרונה ב-WhatsApp: deploy",
+    "text_he": "בבורד: Deployed · החלטה אחרונה ב-WhatsApp: deploy",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/18435634714/pulses/13299935468",
      "2026-11-01.md",
      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
     ],
-    "null_reason": null,
-    "conflict": [
-     "WhatsApp 2026-10-29 17:43 (Moral): 'deploy' · board: status Active · decision Pending · group 🟢 Live"
-    ]
+    "null_reason": null
    }
   },
   "question_labels_he": {
@@ -484,17 +462,12 @@
    "whatsapp_decision_latest": "deploy",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": "Pending",
-   "board_status": "Active",
+   "board_decision": "Deploy",
+   "board_status": "Deployed",
    "numbers_quoted": [],
    "first_seen": "2026-10-29",
    "last_seen": "2026-10-29",
-   "conflicts": [
-    {
-     "type": "contradicts",
-     "msg": "WhatsApp 2026-10-29 17:43 (Moral): 'deploy' · board: status Active · decision Pending · group 🟢 Live"
-    }
-   ],
+   "conflicts": [],
    "whatsapp_item_ids": [
     "wa317"
    ],
@@ -534,9 +507,8 @@
   "updates": []
  },
  "glossary_concepts": [
-  "Level",
-  "CC"
+  "Level"
  ],
- "content_fingerprint": "22bcb5f2b6fe9f8b5ab31455c182098050966ade3a90bcd60c25e91f3cdef8c9",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "691d94215c437f6e9b4dbf80b1923b938f446df98f39473ff1964918fb5dc1e3",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

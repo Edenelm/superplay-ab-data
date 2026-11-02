@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "K (Kingdom)",
   "Starter Pack"
  ],
- "content_fingerprint": "4c9fa6e11b92b3e95921f0f789231ff62df4eb19a0f79d2451931e9d6e89b123",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "d105428fae84d6869315df8a8026680d928c16dfaccf312ea17c105cdf66dc06",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

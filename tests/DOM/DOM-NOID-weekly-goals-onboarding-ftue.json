@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "FTUE",
   "Weekly Goals"
  ],
- "content_fingerprint": "6512277ce3ba4724150a6f563b1057f8783f0d21a4ccfa95463e2e5e8e6fc8ae",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "f1758017d92781c80a7ba3ba05e0f13f82ba689732f9a047eb1141f36a082621",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

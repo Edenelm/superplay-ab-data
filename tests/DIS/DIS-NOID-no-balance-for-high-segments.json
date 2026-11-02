@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "No balance for high segments in Momentum",
   "lifecycle": "backlog",
-  "board_status_raw": "Simson with Active Test",
-  "board_group": "⭐ Candidate / Short List",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -73,6 +73,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -216,6 +224,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "836d9da5261202d64425cfb01d9701280d0a3857f5349f826eed32c8867eb0a7",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "0050198f72a9d9e6332f8b6b1c42e1ca6d68194a5e634c9b3b91e594256cf9e7",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

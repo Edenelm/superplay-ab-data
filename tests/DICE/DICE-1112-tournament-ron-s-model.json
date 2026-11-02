@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -352,6 +352,6 @@
  "glossary_concepts": [
   "Tournament"
  ],
- "content_fingerprint": "dbae3514d779ae3e092a59cc8d97fb511d8db9216e8c4aeffaf8b0ab86b994fb",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "ee4b8861735894c22e0e95c3ff611f98ea18fd772d7eafeb8294635dba13f60f",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

@@ -82,7 +82,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -137,7 +137,7 @@
        "monday_update:5582096004",
        "mp_dashboard:11550442#text_card[0]",
        "mp_dashboard:11532544",
-       "wa:wa340",
+       "wa:wa9340",
        "monday_name"
       ]
      },
@@ -149,14 +149,14 @@
       ]
      }
     ],
-    "fingerprint": "3c6fd4a247e27be7",
+    "fingerprint": "80caf5297364c2f9",
     "inputs": {
      "curated:control": "74234e98afe7498f",
      "curated:test": "74234e98afe7498f",
      "curated:mech": "683144a12969e0fd",
      "generator": "he6-v2",
      "monday_update:5582096004": "c251ddf18609793d",
-     "wa:wa340": "901a5dbd74bf13a3"
+     "wa:wa9340": "901a5dbd74bf13a3"
     }
    },
    "who_when": {
@@ -179,7 +179,7 @@
        "monday_update:5582096004",
        "mp_dashboard:11550442#text_card[0]",
        "mp_dashboard:11532544",
-       "wa:wa340",
+       "wa:wa9340",
        "monday_name"
       ]
      },
@@ -190,12 +190,12 @@
        "monday_update:5582096004",
        "mp_dashboard:11550442#text_card[0]",
        "mp_dashboard:11532544",
-       "wa:wa340",
+       "wa:wa9340",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "49fb0244cce1c06c",
+    "fingerprint": "71a6f8ccd01419ae",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
@@ -206,7 +206,7 @@
      "curated:phases": "672212075eb70d31",
      "generator": "he6-v2",
      "monday_update:5582096004": "c251ddf18609793d",
-     "wa:wa340": "901a5dbd74bf13a3"
+     "wa:wa9340": "901a5dbd74bf13a3"
     }
    },
    "why": {
@@ -222,13 +222,13 @@
       ]
      }
     ],
-    "fingerprint": "b19f6dcdd18ac502",
+    "fingerprint": "2cc599885b0cb00d",
     "inputs": {
      "curated:why": "74234e98afe7498f",
      "curated:target": "74234e98afe7498f",
      "generator": "he6-v2",
      "monday_update:5582096004": "c251ddf18609793d",
-     "wa:wa340": "901a5dbd74bf13a3"
+     "wa:wa9340": "901a5dbd74bf13a3"
     }
    },
    "unclear": {
@@ -250,7 +250,7 @@
       ]
      }
     ],
-    "fingerprint": "a5d480e15c9bb064",
+    "fingerprint": "77662aada25a962b",
     "inputs": {
      "curated:questions": "1890187945a76122",
      "curated:conflicts": "4f53cda18c2baa0c",
@@ -262,7 +262,7 @@
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
      "monday_update:5582096004": "c251ddf18609793d",
-     "wa:wa340": "901a5dbd74bf13a3"
+     "wa:wa9340": "901a5dbd74bf13a3"
     }
    }
   }
@@ -300,7 +300,7 @@
     "match_check": "MATCH: same name and same Groups formula (economy board)"
    },
    {
-    "ref": "wa:wa340",
+    "ref": "wa:wa9340",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-10-15"
@@ -407,6 +407,6 @@
  "glossary_concepts": [
   "Genie"
  ],
- "content_fingerprint": "95312d52d745a780d8ac79e5d6415e40362554fbdf4a6d7fab0483681b2a74d9",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "03483c8ef34d568cb1f3a7aadf6bacb3d6016ac9ad4da2d9ff5fd02bcc848d84",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

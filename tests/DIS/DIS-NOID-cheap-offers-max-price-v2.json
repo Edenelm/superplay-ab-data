@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "Cheap offers max price v2",
   "lifecycle": "backlog",
-  "board_status_raw": "Simson with Active Test",
+  "board_status_raw": "Candidate",
   "board_group": "⭐ Candidate / Short List",
   "backlog_substatus": {
    "sub": null
@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -214,6 +214,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "1780a6ab6c8d0accb6ad3b5489c915756530f755e90021a3eef9f71cccd857d8",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "524980d664590c21ca3517cb61ad3720465e1c582bafc7accc0dc63eaf8d159c",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

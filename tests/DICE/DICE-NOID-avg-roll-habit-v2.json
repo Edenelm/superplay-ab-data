@@ -73,7 +73,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -246,6 +246,6 @@
  "glossary_concepts": [
   "Rolls / Ticks"
  ],
- "content_fingerprint": "ab841af3e8256fb58c852ee59fc8db911328542cdba97f83e4b8a434a71213ad",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "73709c07053ccaa7aab80a7f79ff6e89326257bc1a9e51714b935934ed24192a",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

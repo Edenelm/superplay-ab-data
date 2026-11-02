@@ -2,8 +2,8 @@
  "test_id": "DIS-124-trail-again-3rd-try",
  "game": "Disney Solitaire",
  "game_code": "DIS",
- "tier": "live",
- "coverage": "partial",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DIS-124-trail-again-3rd-try",
   "legacy_keys": [
@@ -13,11 +13,11 @@
   "board_item_id": "13299935421",
   "board_test_number": "124",
   "name": "124 - Trail again (3rd try 🍦)",
-  "lifecycle": "live",
-  "board_status_raw": "Active",
-  "board_group": "🟢 Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Deployed",
+  "board_group": "✅ Decided – Deployed",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
@@ -27,7 +27,7 @@
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-09-06",
-  "end_date": null,
+  "end_date": "2026-10-19",
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
@@ -40,6 +40,10 @@
    "rule": "'possible' matches are never auto-linked"
   },
   "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 124 is used by 3 board items in Disney Solitaire: DIS-124-ays-offer-for-ftd-and, DIS-124-rv-extend-segment"
+   },
    {
     "type": "duplicate_test_number",
     "msg": "test number 124 is used by 3 board items in Disney Solitaire: DIS-124-ays-offer-for-ftd-and, DIS-124-rv-extend-segment"
@@ -75,6 +79,14 @@
    "audience": "empty on the Monday item",
    "split": "empty on the Monday item",
    "end_date": "no end date on board (live)"
+  },
+  "board_decision_raw": "Deploy",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -137,10 +149,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-09-06 שלב/שינוי בהרצה: התחלה 06/09/26 10:00 UTC (כמו ב-Monday); תאריך סיום ריק. שלב/שינוי בהרצה: איטרציה 1: הבדלים גדולים בין סגמנטים. איטרציה 2: טעות במכפיל, תוקנה ב-13:00 UTC. איטרציה 3: ‏2 RC בין 17:00 ל-17:30 UTC.",
+    "text_he": "קהל: Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-09-06, סיום: 2026-10-19 שלב/שינוי בהרצה: התחלה 06/09/26 10:00 UTC (כמו ב-Monday); תאריך סיום ריק. שלב/שינוי בהרצה: איטרציה 1: הבדלים גדולים בין סגמנטים. איטרציה 2: טעות במכפיל, תוקנה ב-13:00 UTC. איטרציה 3: ‏2 RC בין 17:00 ל-17:30 UTC.",
     "statements": [
      {
-      "text_he": "קהל: Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-09-06",
+      "text_he": "קהל: Level ≥ 200, App Version ≥ 1.22; בערך 50/50 לפי נוסחת הקבוצות | התחלה: 2026-09-06, סיום: 2026-10-19",
       "tag": "interpretation",
       "source_refs": [
        "mp_dashboard:11507011#text_card[0]",
@@ -164,12 +176,13 @@
       ]
      }
     ],
-    "fingerprint": "56effb2f5155b1c7",
+    "fingerprint": "ca865919d9035cd2",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "fc27d6cc5fb62501",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "61341b09a3c76a1d",
      "curated:audience": "81d286ceea289225",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "704e0939f494e8d4",
@@ -215,12 +228,12 @@
       ]
      }
     ],
-    "fingerprint": "1c0984dbc75fbdc3",
+    "fingerprint": "aeedecc9b0f260b4",
     "inputs": {
      "curated:questions": "76a8016cfe4fc7ab",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "d69063b1e72e8ea5",
-     "expl:limitations": "53a96f8f1433046f",
+     "registry:conflicts": "21f624e628dd39a2",
+     "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -259,81 +272,7 @@
   ],
   "curated": true
  },
- "explanation_legacy_8q": {
-  "test_id": "DIS-124-trail-again-3rd-try",
-  "game": "Disney Solitaire",
-  "lang": "he",
-  "questions": {
-   "what_changed": {
-    "text_he": "שם הבדיקה בבורד: 124 - Trail again (3rd try 🍦)",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
-    ],
-    "null_reason": null
-   },
-   "why_tested": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no business question or hypothesis stated in source"
-   },
-   "who": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "audience empty in source"
-   },
-   "what_happened": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
-   },
-   "business_meaning": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no results yet"
-   },
-   "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
-    "tag": "generated_explanation",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
-    ],
-    "null_reason": null
-   },
-   "recommended": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no explicit recommendation found in captured sources"
-   },
-   "decided": {
-    "text_he": "בבורד: Active",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
-    ],
-    "null_reason": null
-   }
-  },
-  "question_labels_he": {
-   "what_changed": "מה שינינו?",
-   "why_tested": "למה בדקנו?",
-   "who": "על מי בדקנו?",
-   "what_happened": "מה קרה בפועל?",
-   "business_meaning": "מה המשמעות העסקית?",
-   "limitations": "מהן המגבלות?",
-   "recommended": "מה הומלץ?",
-   "decided": "מה הוחלט בפועל?"
-  },
-  "business_state_ref": null,
-  "measured_impact_ref": [],
-  "generation": "template over source fields; no free-form AI text",
-  "verification": "NOT VERIFIED"
- },
+ "explanation_legacy_8q": null,
  "decisions": [],
  "whatsapp": [],
  "monday_updates_fetched": {
@@ -344,6 +283,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "aa9a3cb63bff9a1a6781e8da3326bcbb75f00c858a54d61a4092e35cd80e3c5c",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "0d51202a6c2a2e4ebe8343124a91226fddfa4c8229eec1786ddf4f19febd4642",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

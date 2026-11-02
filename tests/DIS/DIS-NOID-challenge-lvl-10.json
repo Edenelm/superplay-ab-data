@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "Challenge lvl 10",
   "lifecycle": "backlog",
-  "board_status_raw": "Working On",
-  "board_group": "⭐ Candidate / Short List",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -71,6 +71,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -216,6 +224,6 @@
  "glossary_concepts": [
   "Level"
  ],
- "content_fingerprint": "7231c81ae0634ddcfcbabc7bec46c7697e79bbd727e1865ec355f20a41aa322f",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "5189cd6e0a1cbf050c152c4ef80e5daaffd30fd32cec64000fec37bb136ef402",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

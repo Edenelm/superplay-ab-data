@@ -1,7 +1,7 @@
 {
  "dataset": "glossary",
  "contract_version": "1.3.0",
- "generated_at": "2026-11-01T13:46:48+02:00",
+ "generated_at": "2026-11-02T08:40:18+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "canonical_name = the org term as written in sources; no invented translations",
@@ -647,7 +647,7 @@
    "source_spellings": {
     "revenue": 55,
     "Revenue": 25,
-    "הכנסות": 2
+    "הכנסות": 4
    },
    "per_game": {
     "DICE": {
@@ -663,7 +663,7 @@
     "DOM": {
      "used": true,
      "tests_with_term": 5,
-     "whatsapp_items_with_term": 2,
+     "whatsapp_items_with_term": 3,
      "example_names": [
       "1550 - Inflation of wild cost",
       "1533- Daily Calendar Session Extension",
@@ -786,7 +786,7 @@
     "Dormant"
    ],
    "source_spellings": {
-    "Dormant": 10,
+    "Dormant": 11,
     "dormant": 5,
     "Dormants": 3,
     "dormants": 3
@@ -813,7 +813,7 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 6,
+     "tests_with_term": 7,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "124 - AYS offer for FTD and dormant",
@@ -936,7 +936,7 @@
    "kind": "mechanism",
    "aliases": [],
    "source_spellings": {
-    "CZ": 52
+    "CZ": 53
    },
    "per_game": {
     "DICE": {
@@ -961,11 +961,11 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 11,
+     "tests_with_term": 12,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "125 - Make Any Purchase New Seg",
-      "T125 End Of Puzzle Offer",
+      "125 - End Of Puzzle Offer",
       "125 - Dormant CZ V3"
      ]
     }
@@ -1038,9 +1038,9 @@
      "tests_with_term": 7,
      "whatsapp_items_with_term": 0,
      "example_names": [
+      "126 - PB Level Reduction",
       "FU Tier 2 PB",
-      "PB for 2 days",
-      "PB for lvl <250"
+      "PB for 2 days"
      ]
     }
    },
@@ -1066,10 +1066,10 @@
    "usage_refs": [
     "test:DICE-1108-weekly-goals-pb-points-distribution",
     "test:DOM-1611-low-balance-challenge-pb-10",
+    "test:DIS-NOID-pb-level-reduction",
     "test:DICE-NOID-pb-points-increment-after-purchase",
     "test:DICE-NOID-add-segments-to-pb",
-    "test:DICE-NOID-pb-decrease-tier-amount-increase",
-    "test:DICE-NOID-coin-rush-pb-vs-regular"
+    "test:DICE-NOID-pb-decrease-tier-amount-increase"
    ]
   },
   {
@@ -1081,7 +1081,7 @@
     "RV segment"
    ],
    "source_spellings": {
-    "RV": 41
+    "RV": 42
    },
    "per_game": {
     "DICE": {
@@ -1106,11 +1106,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 2,
+     "tests_with_term": 3,
      "whatsapp_items_with_term": 1,
      "example_names": [
       "120 - RV 8box with purchase V2",
-      "124 - RV extend segment"
+      "124 - RV extend segment",
+      "126 - opportunistic rv"
      ]
     }
    },
@@ -1648,8 +1649,8 @@
      "whatsapp_items_with_term": 0,
      "example_names": [
       "041 - Starter Pack to Level 75",
-      "125 - Zeus Launch",
-      "101 - Boost Your Puzzle (Mistake)"
+      "101 - Boost Your Puzzle (Mistake)",
+      "043 - D01 Min Price"
      ]
     }
    },
@@ -1754,7 +1755,7 @@
    "source_spellings": {
     "8box": 7,
     "8 Box": 4,
-    "8Box": 2,
+    "8Box": 3,
     "8 בוקס": 2,
     "8BOX": 1
    },
@@ -1776,12 +1777,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 4,
+     "tests_with_term": 5,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "120 - RV 8box with purchase V2",
-      "125 - 8box Segments",
-      "8Box Stagnant Prices for Brokens"
+      "8Box Stagnant Prices for Brokens",
+      "Gameplay 8Box Segmentation V2"
      ]
     }
    },
@@ -1811,8 +1812,8 @@
     "test:DOM-1543-rv-stuck-in-funnel-users",
     "test:DOM-1621-1621-8-box-from-2",
     "test:DIS-120-rv-8box-with-purchase-v2",
-    "test:DIS-125-8box-segments",
     "test:DIS-NOID-8box-stagnant-prices-for-brokens",
+    "test:DIS-NOID-gameplay-8box-segmentation-v2",
     "test:DIS-NOID-lower-2nd-8box-cz-higher"
    ]
   },
@@ -1965,17 +1966,17 @@
     "recomp"
    ],
    "source_spellings": {
-    "Trail": 37
+    "Trail": 40
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 23,
-     "whatsapp_items_with_term": 1,
+     "tests_with_term": 24,
+     "whatsapp_items_with_term": 2,
      "example_names": [
       "Trail Weekend Recomp",
-      "Protocol Trail with presets K10-K40 with segs based on kingdom",
-      "Change Trail FTUE PT (only steal/attack)"
+      "1115 - Trail Double Wheel Better Experience",
+      "Protocol Trail with presets K10-K40 with segs based on kingdom"
      ]
     },
     "DOM": {
@@ -2018,9 +2019,9 @@
    ],
    "usage_refs": [
     "test:DICE-NOID-trail-weekend-recomp",
+    "test:DICE-1115-trail-double-wheel-better-experience",
     "test:DOM-NOID-choose-your-trail-test",
     "test:DOM-1621-1621-trail-runner-v2",
-    "test:DIS-124-trail-again-3rd-try",
     "test:DICE-NOID-protocol-trail-with-presets-k10",
     "test:DICE-NOID-change-trail-ftue-pt-only"
    ]
@@ -2288,7 +2289,7 @@
    "kind": "feature",
    "aliases": [],
    "source_spellings": {
-    "DRC": 7
+    "DRC": 8
    },
    "per_game": {
     "DICE": {
@@ -2305,11 +2306,11 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 3,
+     "tests_with_term": 4,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "125 - DRC New Economy V5.2",
       "DRC new agenda - by mod",
+      "DRC Freeze with Coins",
       "Pity from DRC - only 5 days per week? remove HH? add HB?"
      ]
     }
@@ -2334,9 +2335,10 @@
     "economy"
    ],
    "usage_refs": [
-    "test:DIS-125-drc-new-economy-v5-2",
     "test:DIS-NOID-drc-new-agenda-by-mod",
-    "test:DIS-NOID-pity-from-drc-only-5"
+    "test:DIS-NOID-drc-freeze-with-coins",
+    "test:DIS-NOID-pity-from-drc-only-5",
+    "test:DIS-125-drc-new-economy-v5-2"
    ]
   },
   {
@@ -2354,7 +2356,7 @@
      "whatsapp_items_with_term": 0,
      "example_names": [
       "Trail Weekend Recomp",
-      "TE in offers by habit seg not CZ"
+      "Rolls+TE in offers by habit seg not CZ"
      ]
     },
     "DOM": {
@@ -2402,7 +2404,7 @@
     "Ticks Per Hour"
    ],
    "source_spellings": {
-    "Rolls": 14,
+    "Rolls": 15,
     "rolls": 12,
     "roll": 7,
     "Roll": 7,
@@ -2413,7 +2415,7 @@
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 27,
+     "tests_with_term": 28,
      "whatsapp_items_with_term": 11,
      "example_names": [
       "1113 - X2 Ticks Per Hour K199 and under",
@@ -2613,7 +2615,7 @@
     "טורניר": 8,
     "Tournaments": 4,
     "tournament": 3,
-    "tournaments": 1
+    "tournaments": 2
    },
    "per_game": {
     "DICE": {
@@ -2637,9 +2639,10 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 1,
+     "tests_with_term": 2,
      "whatsapp_items_with_term": 0,
      "example_names": [
+      "Shorter tournaments in peak hours",
       "Multiplier on Tournament DR from levels (in the last hour) (Promo)"
      ]
     }
@@ -3059,7 +3062,7 @@
    "kind": "mechanism",
    "aliases": [],
    "source_spellings": {
-    "WR": 9
+    "WR": 11
    },
    "per_game": {
     "DICE": {
@@ -3078,10 +3081,10 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 5,
+     "tests_with_term": 7,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "125 - WR V2 *",
+      "126 - WR V3",
       "WR Reduction after album/chef completed",
       "Decrease WR Mode 1 When HB V3 - Only Remove treatment if player purchased"
      ]
@@ -3105,12 +3108,12 @@
     "difficulty"
    ],
    "usage_refs": [
-    "test:DIS-125-wr-v2",
+    "test:DIS-126-wr-v3",
     "test:DOM-NOID-wr-change-durring-day",
     "test:DIS-NOID-wr-reduction-after-album-chef",
     "test:DIS-NOID-decrease-wr-mode-1-when",
-    "test:DIS-NOID-wr-v3-mild-treatment-for",
-    "test:DIS-NOID-wr-v2-agenda-after-analysis"
+    "test:DIS-NOID-wr-v2-agenda-after-analysis",
+    "test:DIS-NOID-momentum-segmentation-bw-x-wr"
    ]
   },
   {
@@ -3119,7 +3122,7 @@
    "kind": "abbreviation",
    "aliases": [],
    "source_spellings": {
-    "ES": 8
+    "ES": 9
    },
    "per_game": {
     "DICE": {
@@ -3138,12 +3141,12 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 6,
+     "tests_with_term": 7,
      "whatsapp_items_with_term": 0,
      "example_names": [
+      "126 - ES V3",
       "ES segmented by ES balance",
-      "ES Price Increase",
-      "121 - Pity and ES Protocol v2 - (from lvl 200, if retention 1/3/7 is the same or lower or FTD rate decrese)"
+      "ES Price Increase"
      ]
     }
    },
@@ -3165,11 +3168,11 @@
     "economy"
    ],
    "usage_refs": [
+    "test:DIS-126-es-v3",
     "test:DOM-NOID-es-pity-dynamic-extra-stock",
     "test:DIS-NOID-es-segmented-by-es-balance",
     "test:DIS-NOID-es-price-increase",
     "test:DIS-NOID-pity-and-es-protocol-v2",
-    "test:DIS-NOID-es-pity-v3-economic-agenda",
     "test:DIS-NOID-es-pity-v3-only-technical"
    ]
   },
@@ -3322,7 +3325,7 @@
    ],
    "source_spellings": {
     "DSLP": 14,
-    "DFI": 7
+    "DFI": 8
    },
    "per_game": {
     "DICE": {
@@ -3339,7 +3342,7 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 9,
+     "tests_with_term": 10,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "125 - Make Any Purchase New Seg",
@@ -3664,7 +3667,7 @@
    "kind": "abbreviation",
    "aliases": [],
    "source_spellings": {
-    "CC": 2
+    "CC": 1
    },
    "per_game": {
     "DICE": {
@@ -3681,11 +3684,9 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 1,
+     "tests_with_term": 0,
      "whatsapp_items_with_term": 1,
-     "example_names": [
-      "125 - Zeus Launch"
-     ]
+     "example_names": []
     }
    },
    "monday_updates_with_term": 0,
@@ -3701,9 +3702,7 @@
    "topics": [],
    "tags_he": [],
    "tags_en": [],
-   "usage_refs": [
-    "test:DIS-125-zeus-launch"
-   ]
+   "usage_refs": []
   },
   {
    "concept_id": "GT",

@@ -2,8 +2,8 @@
  "test_id": "DIS-123-mini-game-treatments",
  "game": "Disney Solitaire",
  "game_code": "DIS",
- "tier": "live",
- "coverage": "unclear",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DIS-123-mini-game-treatments",
   "legacy_keys": [
@@ -13,11 +13,11 @@
   "board_item_id": "13299935423",
   "board_test_number": "123",
   "name": "123 - mini game treatments",
-  "lifecycle": "live",
-  "board_status_raw": "Active",
-  "board_group": "🟢 Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Analysis Needed",
+  "board_group": "🔍 Analysis",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
@@ -46,7 +46,12 @@
    ],
    "rule": "'possible' matches are never auto-linked"
   },
-  "conflicts": [],
+  "conflicts": [
+   {
+    "type": "board_live_group",
+    "msg": "Status 'Analysis Needed' but no end date (start 2026-09-02)"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
@@ -77,6 +82,13 @@
    "audience": "empty on the Monday item",
    "split": "empty on the Monday item",
    "end_date": "no end date on board (live)"
+  },
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -141,10 +153,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02 שלב/שינוי בהרצה: דשבורד אפשרי שלא שויך ('T123 - Mini game segmentation'): טסט 4 סגמנטים לפי brut wins ‏(0–20/20–50/50–100/100+) מול קונטרול 3 ‏(0–40/40–80/80+), התחלה 05/08, ‏'ABORT 02/09 10:00 UTC'. זה בדיוק תאריך ההתחלה של הפריט ב-Monday. שלב/שינוי בהרצה: דשבורד אפשרי נוסף שלא שויך ('T124 - mini game treatments', נוצר 07/09/2026): בלי כרטיס טקסט.",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02, סיום: לא ידוע שלב/שינוי בהרצה: דשבורד אפשרי שלא שויך ('T123 - Mini game segmentation'): טסט 4 סגמנטים לפי brut wins ‏(0–20/20–50/50–100/100+) מול קונטרול 3 ‏(0–40/40–80/80+), התחלה 05/08, ‏'ABORT 02/09 10:00 UTC'. זה בדיוק תאריך ההתחלה של הפריט ב-Monday. שלב/שינוי בהרצה: דשבורד אפשרי נוסף שלא שויך ('T124 - mini game treatments', נוצר 07/09/2026): בלי כרטיס טקסט.",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-02, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11427657#text_card[0]",
@@ -171,12 +183,13 @@
       ]
      }
     ],
-    "fingerprint": "3ea70d2752d5f709",
+    "fingerprint": "20aa3591b2284eca",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "6be9875b5ec00706",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
      "curated:audience": "74234e98afe7498f",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "93d48636859d92e3",
@@ -205,7 +218,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה ה-treatments שנבדקים, ומה מקבל הקונטרול? האם הטסט הזה ממשיך את T123 Mini game segmentation, שבוטל ב-02/09?",
+    "text_he": "מה ה-treatments שנבדקים, ומה מקבל הקונטרול? האם הטסט הזה ממשיך את T123 Mini game segmentation, שבוטל ב-02/09? סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-02)",
     "statements": [
      {
       "text_he": "מה ה-treatments שנבדקים, ומה מקבל הקונטרול?",
@@ -220,14 +233,21 @@
       "source_refs": [
        "mp_dashboard:11427657#text_card[0]"
       ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-02)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
+      ]
      }
     ],
-    "fingerprint": "10df83bc9de15119",
+    "fingerprint": "33ee1edc17a59f97",
     "inputs": {
      "curated:questions": "34a3729a47b184bf",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "4f53cda18c2baa0c",
-     "expl:limitations": "c83c9da42bec0a6f",
+     "registry:conflicts": "495e369f5949becf",
+     "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -250,7 +270,9 @@
    "דשבורד אפשרי שלא שויך ('T123 - Mini game segmentation'): טסט 4 סגמנטים לפי brut wins ‏(0–20/20–50/50–100/100+) מול קונטרול 3 ‏(0–40/40–80/80+), התחלה 05/08, ‏'ABORT 02/09 10:00 UTC'. זה בדיוק תאריך ההתחלה של הפריט ב-Monday.",
    "דשבורד אפשרי נוסף שלא שויך ('T124 - mini game treatments', נוצר 07/09/2026): בלי כרטיס טקסט."
   ],
-  "conflicts": [],
+  "conflicts": [
+   "Status 'Analysis Needed' but no end date (start 2026-09-02)"
+  ],
   "source_refs": [
    {
     "ref": "mp_dashboard:11427657#text_card[0]",
@@ -272,81 +294,7 @@
   ],
   "curated": true
  },
- "explanation_legacy_8q": {
-  "test_id": "DIS-123-mini-game-treatments",
-  "game": "Disney Solitaire",
-  "lang": "he",
-  "questions": {
-   "what_changed": {
-    "text_he": "שם הבדיקה בבורד: 123 - mini game treatments",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
-    ],
-    "null_reason": null
-   },
-   "why_tested": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no business question or hypothesis stated in source"
-   },
-   "who": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "audience empty in source"
-   },
-   "what_happened": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
-   },
-   "business_meaning": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no results yet"
-   },
-   "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: possible",
-    "tag": "generated_explanation",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
-    ],
-    "null_reason": null
-   },
-   "recommended": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no explicit recommendation found in captured sources"
-   },
-   "decided": {
-    "text_he": "בבורד: Active",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
-    ],
-    "null_reason": null
-   }
-  },
-  "question_labels_he": {
-   "what_changed": "מה שינינו?",
-   "why_tested": "למה בדקנו?",
-   "who": "על מי בדקנו?",
-   "what_happened": "מה קרה בפועל?",
-   "business_meaning": "מה המשמעות העסקית?",
-   "limitations": "מהן המגבלות?",
-   "recommended": "מה הומלץ?",
-   "decided": "מה הוחלט בפועל?"
-  },
-  "business_state_ref": null,
-  "measured_impact_ref": [],
-  "generation": "template over source fields; no free-form AI text",
-  "verification": "NOT VERIFIED"
- },
+ "explanation_legacy_8q": null,
  "decisions": [],
  "whatsapp": [],
  "monday_updates_fetched": {
@@ -355,6 +303,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "6e8efe2d9d60438a20399e9290732e4072ad13c4de935edf011225b4312f01e1",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "5a16d0a46d4f55a5eb29fc51f712ca000bb4a3ccecf4e5a1fb4ade3a7cfb2c8e",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

@@ -53,7 +53,7 @@
    },
    {
     "type": "duplicate_test_number",
-    "msg": "test number 124 is used by 3 board items in Disney Solitaire: DIS-124-trail-again-3rd-try, DIS-124-rv-extend-segment"
+    "msg": "test number 124 is used by 3 board items in Disney Solitaire: DIS-124-rv-extend-segment, DIS-124-trail-again-3rd-try"
    }
   ],
   "source_links": [
@@ -290,11 +290,11 @@
       ]
      }
     ],
-    "fingerprint": "e8a3839303c5f6cc",
+    "fingerprint": "5914e603414808dc",
     "inputs": {
      "curated:questions": "567df2a40717ce84",
      "curated:conflicts": "0531a22bf06c1a31",
-     "registry:conflicts": "fff8a18a8d73da53",
+     "registry:conflicts": "e837230781126679",
      "expl:limitations": "b3fa607ddd785051",
      "registry:change": "92c4d89c1f00d574",
      "registry:control_vs_test": "fc1da59e80561a46",
@@ -436,6 +436,6 @@
   "DSLP / DFI",
   "AYS"
  ],
- "content_fingerprint": "4f9a08987b11631648d42e1b5dd159065c935c4392ec7e7b4c1a8eb55e2dc79b",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "c0fce157adaaf8ef9b011f76ba43576731ec38724166e04bc9e8d7d4fc2e801c",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

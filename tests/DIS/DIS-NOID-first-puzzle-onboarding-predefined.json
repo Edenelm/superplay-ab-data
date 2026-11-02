@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "First-Puzzle Onboarding (predefined)",
   "lifecycle": "backlog",
-  "board_status_raw": "Candidate",
+  "board_status_raw": "Working On",
   "board_group": "⭐ Candidate / Short List",
   "backlog_substatus": {
    "sub": null
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "785561a34be88f7e8d4686b1fe349c56442d3ed71460b2003b95c570586d5786",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "e4cf6c485b9611bca02eb98894d1f1490cef8bde0d848b490599fb1cdfe986c5",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

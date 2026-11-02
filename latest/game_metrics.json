@@ -1,7 +1,7 @@
 {
  "dataset": "game_metrics",
  "contract_version": "1.3.0",
- "generated_at": "2026-11-01T13:46:48+02:00",
+ "generated_at": "2026-11-02T08:40:18+02:00",
  "timezone": "Asia/Jerusalem",
  "records": [
   {
@@ -10,12 +10,12 @@
    "date": "2026-10-29",
    "date_timezone": "undocumented",
    "currency": "USD",
-   "revenue_gross_usd": 716270,
-   "revenue_net_usd": 555650,
-   "ad_revenue_usd": 46068,
-   "payers": 42382,
-   "active_users_dau": 626128,
-   "users_with_any_row": 628195,
+   "revenue_gross_usd": 716373,
+   "revenue_net_usd": 555727,
+   "ad_revenue_usd": 46073,
+   "payers": 42390,
+   "active_users_dau": 626447,
+   "users_with_any_row": 628509,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DICE.revenue_gross_usd",
@@ -42,9 +42,9 @@
     "type": "bigquery",
     "project": "dice-dreams-dbt",
     "table": "dice-dreams-dbt.50_reporting.user_daily_metrics_agg",
-    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' GROUP BY date_dim (run as two queries)",
-    "run_at": "2026-11-01T11:45:00+02:00",
-    "bytes_processed": "99.2 MB + 69.4 MB"
+    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "145.9 MB"
    },
    "null_reasons": {
     "period_unique_users": "period-unique (WAU/MAU) needs COUNT(DISTINCT) over a window; not run yet"
@@ -81,7 +81,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DICE-2026-10-30",
@@ -89,12 +89,12 @@
    "date": "2026-10-30",
    "date_timezone": "undocumented",
    "currency": "USD",
-   "revenue_gross_usd": 787968,
-   "revenue_net_usd": 612253,
-   "ad_revenue_usd": 47870,
-   "payers": 41739,
-   "active_users_dau": 620282,
-   "users_with_any_row": 622260,
+   "revenue_gross_usd": 788193,
+   "revenue_net_usd": 612429,
+   "ad_revenue_usd": 47874,
+   "payers": 41766,
+   "active_users_dau": 620945,
+   "users_with_any_row": 622916,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DICE.revenue_gross_usd",
@@ -121,9 +121,9 @@
     "type": "bigquery",
     "project": "dice-dreams-dbt",
     "table": "dice-dreams-dbt.50_reporting.user_daily_metrics_agg",
-    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' GROUP BY date_dim (run as two queries)",
-    "run_at": "2026-11-01T11:45:00+02:00",
-    "bytes_processed": "99.2 MB + 69.4 MB"
+    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "145.9 MB"
    },
    "null_reasons": {
     "period_unique_users": "period-unique (WAU/MAU) needs COUNT(DISTINCT) over a window; not run yet"
@@ -160,7 +160,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DICE-2026-10-31",
@@ -168,12 +168,12 @@
    "date": "2026-10-31",
    "date_timezone": "undocumented",
    "currency": "USD",
-   "revenue_gross_usd": 770880,
-   "revenue_net_usd": 598911,
-   "ad_revenue_usd": 44025,
-   "payers": 41391,
-   "active_users_dau": 605357,
-   "users_with_any_row": 607174,
+   "revenue_gross_usd": 772780,
+   "revenue_net_usd": 600343,
+   "ad_revenue_usd": 48000,
+   "payers": 41493,
+   "active_users_dau": 606973,
+   "users_with_any_row": 608773,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DICE.revenue_gross_usd",
@@ -200,9 +200,9 @@
     "type": "bigquery",
     "project": "dice-dreams-dbt",
     "table": "dice-dreams-dbt.50_reporting.user_daily_metrics_agg",
-    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' GROUP BY date_dim (run as two queries)",
-    "run_at": "2026-11-01T11:45:00+02:00",
-    "bytes_processed": "99.2 MB + 69.4 MB"
+    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "145.9 MB"
    },
    "null_reasons": {
     "period_unique_users": "period-unique (WAU/MAU) needs COUNT(DISTINCT) over a window; not run yet"
@@ -239,7 +239,86 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
+  },
+  {
+   "metric_id": "DICE-2026-11-01",
+   "game": "Dice Dreams",
+   "date": "2026-11-01",
+   "date_timezone": "undocumented",
+   "currency": "USD",
+   "revenue_gross_usd": 864869,
+   "revenue_net_usd": 668977,
+   "ad_revenue_usd": 45025,
+   "payers": 44715,
+   "active_users_dau": 632171,
+   "users_with_any_row": 634620,
+   "period_unique_users": null,
+   "definition_refs": {
+    "revenue_gross_usd": "DICE.revenue_gross_usd",
+    "revenue_net_usd": "DICE.revenue_net_usd",
+    "ad_revenue_usd": "DICE.ad_revenue_usd",
+    "payers": "DICE.payers",
+    "active_users_dau": "DICE.active_users_dau",
+    "date_timezone": "DICE.date_timezone",
+    "exclusions": "DICE.exclusions",
+    "completeness": "DICE.completeness"
+   },
+   "definition_status": {
+    "revenue_gross_usd": "needs_approval",
+    "revenue_net_usd": "needs_approval",
+    "ad_revenue_usd": "needs_approval",
+    "payers": "needs_approval",
+    "active_users_dau": "needs_approval",
+    "date_timezone": "needs_approval",
+    "exclusions": "documented",
+    "completeness": "documented"
+   },
+   "exclusions": "20_core.dim_excluded_users excluded except excluded_reason 'paying_cheater' (view logic)",
+   "source": {
+    "type": "bigquery",
+    "project": "dice-dreams-dbt",
+    "table": "dice-dreams-dbt.50_reporting.user_daily_metrics_agg",
+    "sql": "SELECT date_dim, COUNT(DISTINCT user_id) users_with_row, COUNT(DISTINCT IF(IFNULL(sessions_cnt,0)>0,user_id,NULL)) users_with_session, COUNT(DISTINCT IF(revenues_sum>0,user_id,NULL)) payers, ROUND(SUM(revenues_sum),0) gross_iap_dtc_usd, ROUND(SUM(net_revenues_sum),0) net_iap_dtc_usd, ROUND(SUM(ad_revenues),0) ad_rev_usd FROM `dice-dreams-dbt.50_reporting.user_daily_metrics_agg` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "145.9 MB"
+   },
+   "null_reasons": {
+    "period_unique_users": "period-unique (WAU/MAU) needs COUNT(DISTINCT) over a window; not run yet"
+   },
+   "caveats": [],
+   "field_completeness": {
+    "revenue_gross_usd": {
+     "status": "provisional",
+     "rule_id": "DICE.lookback",
+     "rule_basis": "source_documented"
+    },
+    "revenue_net_usd": {
+     "status": "provisional",
+     "rule_id": "DICE.lookback",
+     "rule_basis": "source_documented"
+    },
+    "ad_revenue_usd": {
+     "status": "provisional",
+     "rule_id": "DICE.lookback",
+     "rule_basis": "source_documented"
+    },
+    "payers": {
+     "status": "provisional",
+     "rule_id": "DICE.lookback",
+     "rule_basis": "source_documented"
+    },
+    "active_users_dau": {
+     "status": "provisional",
+     "rule_id": "DICE.lookback",
+     "rule_basis": "source_documented"
+    }
+   },
+   "is_final": false,
+   "completeness": "provisional",
+   "verification": "NOT VERIFIED",
+   "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DOM-2026-10-29",
@@ -247,10 +326,10 @@
    "date": "2026-10-29",
    "date_timezone": "undocumented",
    "currency": "USD",
-   "revenue_gross_usd": 322445,
-   "revenue_net_usd": 244122,
+   "revenue_gross_usd": 322450,
+   "revenue_net_usd": 244126,
    "ad_revenue_usd": 11523,
-   "payers": 19849,
+   "payers": 19851,
    "active_users_dau": null,
    "users_with_any_row": 402925,
    "pau_flag_users": 170520,
@@ -280,9 +359,9 @@
     "type": "bigquery",
     "project": "domino-dreams-dbt",
     "table": "domino-dreams-dbt.prod_40_mart.user_daily_metrics",
-    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
-    "run_at": "2026-11-01T11:53:00+02:00",
-    "bytes_processed": "17.0 MB"
+    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "22.8 MB"
    },
    "null_reasons": {
     "active_users_dau": "definition needs approval (DOM.active_users_dau): rows per day (~400K) vs pau_flag (~170K, described as \"periodic active user\") vs sessions_today>0",
@@ -323,7 +402,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DOM-2026-10-30",
@@ -331,13 +410,13 @@
    "date": "2026-10-30",
    "date_timezone": "undocumented",
    "currency": "USD",
-   "revenue_gross_usd": 371792,
-   "revenue_net_usd": 281348,
-   "ad_revenue_usd": 10233,
-   "payers": 23777,
+   "revenue_gross_usd": 371829,
+   "revenue_net_usd": 281376,
+   "ad_revenue_usd": 10234,
+   "payers": 23782,
    "active_users_dau": null,
-   "users_with_any_row": 397766,
-   "pau_flag_users": 169432,
+   "users_with_any_row": 397803,
+   "pau_flag_users": 169440,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DOM.revenue_gross_usd",
@@ -364,9 +443,9 @@
     "type": "bigquery",
     "project": "domino-dreams-dbt",
     "table": "domino-dreams-dbt.prod_40_mart.user_daily_metrics",
-    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
-    "run_at": "2026-11-01T11:53:00+02:00",
-    "bytes_processed": "17.0 MB"
+    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "22.8 MB"
    },
    "null_reasons": {
     "active_users_dau": "definition needs approval (DOM.active_users_dau): rows per day (~400K) vs pau_flag (~170K, described as \"periodic active user\") vs sessions_today>0",
@@ -407,7 +486,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DOM-2026-10-31",
@@ -415,13 +494,13 @@
    "date": "2026-10-31",
    "date_timezone": "undocumented",
    "currency": "USD",
-   "revenue_gross_usd": 391739,
-   "revenue_net_usd": 295759,
-   "ad_revenue_usd": 9534,
-   "payers": 25176,
+   "revenue_gross_usd": 391867,
+   "revenue_net_usd": 295850,
+   "ad_revenue_usd": 10383,
+   "payers": 25190,
    "active_users_dau": null,
-   "users_with_any_row": 388890,
-   "pau_flag_users": 166590,
+   "users_with_any_row": 389417,
+   "pau_flag_users": 166730,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DOM.revenue_gross_usd",
@@ -448,9 +527,9 @@
     "type": "bigquery",
     "project": "domino-dreams-dbt",
     "table": "domino-dreams-dbt.prod_40_mart.user_daily_metrics",
-    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
-    "run_at": "2026-11-01T11:53:00+02:00",
-    "bytes_processed": "17.0 MB"
+    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "22.8 MB"
    },
    "null_reasons": {
     "active_users_dau": "definition needs approval (DOM.active_users_dau): rows per day (~400K) vs pau_flag (~170K, described as \"periodic active user\") vs sessions_today>0",
@@ -491,7 +570,91 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
+  },
+  {
+   "metric_id": "DOM-2026-11-01",
+   "game": "Domino Dreams",
+   "date": "2026-11-01",
+   "date_timezone": "undocumented",
+   "currency": "USD",
+   "revenue_gross_usd": 414043,
+   "revenue_net_usd": 310447,
+   "ad_revenue_usd": 9261,
+   "payers": 24820,
+   "active_users_dau": null,
+   "users_with_any_row": 397724,
+   "pau_flag_users": 169615,
+   "period_unique_users": null,
+   "definition_refs": {
+    "revenue_gross_usd": "DOM.revenue_gross_usd",
+    "revenue_net_usd": "DOM.revenue_net_usd",
+    "ad_revenue_usd": "DOM.ad_revenue_usd",
+    "payers": "DOM.payers",
+    "active_users_dau": "DOM.active_users_dau",
+    "date_timezone": "DOM.date_timezone",
+    "exclusions": "DOM.exclusions",
+    "completeness": "DOM.completeness"
+   },
+   "definition_status": {
+    "revenue_gross_usd": "needs_approval",
+    "revenue_net_usd": "needs_approval",
+    "ad_revenue_usd": "needs_approval",
+    "payers": "needs_approval",
+    "active_users_dau": "needs_approval",
+    "date_timezone": "needs_approval",
+    "exclusions": "needs_approval",
+    "completeness": "needs_approval"
+   },
+   "exclusions": "special_user_flag = TRUE excluded; deactivated/fake-invited/suspected-cheater NOT excluded (definition to confirm)",
+   "source": {
+    "type": "bigquery",
+    "project": "domino-dreams-dbt",
+    "table": "domino-dreams-dbt.prod_40_mart.user_daily_metrics",
+    "sql": "SELECT date_dim, COUNT(1) AS user_rows, COUNTIF(pau_flag) AS pau_flag_users, COUNTIF(IFNULL(number_of_purchases_today,0)>0) AS payers_today, COUNTIF(pu_flag) AS pu_flag_users, ROUND(SUM(IFNULL(user_daily_inapp_purchase_amount,0)+IFNULL(user_daily_stripe_amount,0)),0) AS gross_usd, ROUND(SUM(IFNULL(user_daily_inapp_net_amount,0)+IFNULL(user_daily_stripe_net_amount,0)),0) AS net_usd, ROUND(SUM(ad_revenues),0) AS ad_rev_usd FROM `domino-dreams-dbt.prod_40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND IFNULL(special_user_flag,FALSE) = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "22.8 MB"
+   },
+   "null_reasons": {
+    "active_users_dau": "definition needs approval (DOM.active_users_dau): rows per day (~400K) vs pau_flag (~170K, described as \"periodic active user\") vs sessions_today>0",
+    "period_unique_users": "not run yet"
+   },
+   "caveats": [
+    "Cross-check (observation): domino-dreams-dbt.prod_20_core.core_purchase gives gross 324,324 / 375,210 / 395,131 and payers 19,861 / 23,797 / 25,192 (incl. special users), within ~1% of the mart",
+    "core_purchase observed to load every 3-4 h (observation from earlier research, not source-documented)"
+   ],
+   "field_completeness": {
+    "revenue_gross_usd": {
+     "status": "provisional",
+     "rule_id": "DOM.default",
+     "rule_basis": "default_assumption"
+    },
+    "revenue_net_usd": {
+     "status": "provisional",
+     "rule_id": "DOM.default",
+     "rule_basis": "default_assumption"
+    },
+    "ad_revenue_usd": {
+     "status": "provisional",
+     "rule_id": "DOM.default",
+     "rule_basis": "default_assumption"
+    },
+    "payers": {
+     "status": "provisional",
+     "rule_id": "DOM.default",
+     "rule_basis": "default_assumption"
+    },
+    "active_users_dau": {
+     "status": "provisional",
+     "rule_id": "DOM.default",
+     "rule_basis": "default_assumption"
+    }
+   },
+   "is_final": false,
+   "completeness": "provisional",
+   "verification": "NOT VERIFIED",
+   "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DIS-2026-10-29",
@@ -499,11 +662,11 @@
    "date": "2026-10-29",
    "date_timezone": "UTC",
    "currency": "USD",
-   "revenue_gross_usd": 1154392,
-   "revenue_net_usd": 910594,
+   "revenue_gross_usd": 1154635,
+   "revenue_net_usd": 910787,
    "ad_revenue_usd": 13744,
-   "payers": 69122,
-   "active_users_dau": 1438942,
+   "payers": 69134,
+   "active_users_dau": 1439696,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DIS.revenue_gross_usd",
@@ -530,16 +693,16 @@
     "type": "bigquery",
     "project": "solitaire-dreams-dbt",
     "table": "solitaire-dreams-dbt.40_mart.user_daily_metrics",
-    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
-    "run_at": "2026-11-01T11:50:00+02:00",
-    "bytes_processed": "276.4 MB"
+    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "370.3 MB"
    },
    "null_reasons": {
     "period_unique_users": "not run yet"
    },
    "caveats": [
     "gross is VAT-exclusive per source; Dice/Domino VAT treatment is undocumented, so do not compare gross across games until ALL.gross_comparability is approved",
-    "2026-10-31 ad_revenue 4,211 vs ~14K on prior days (observation), consistent with the source rule that the latest 1-3 days carry a lower estimate"
+    "Latest days ad_revenue (observation, 2026-11-02 pull): 31.10 = 4,768 and 01.11 = 10,771 vs 13,744 / 14,187 on 29-30.10, consistent with the source rule that the latest 1-3 days carry a lower estimate"
    ],
    "field_completeness": {
     "revenue_gross_usd": {
@@ -553,8 +716,8 @@
      "rule_basis": "source_documented"
     },
     "ad_revenue_usd": {
-     "status": "provisional_estimate",
-     "rule_id": "DIS.ad_estimate",
+     "status": "provisional",
+     "rule_id": "DIS.rebuild_window",
      "rule_basis": "source_documented"
     },
     "payers": {
@@ -572,7 +735,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DIS-2026-10-30",
@@ -580,11 +743,11 @@
    "date": "2026-10-30",
    "date_timezone": "UTC",
    "currency": "USD",
-   "revenue_gross_usd": 1331809,
-   "revenue_net_usd": 1053304,
-   "ad_revenue_usd": 14186,
-   "payers": 74407,
-   "active_users_dau": 1423495,
+   "revenue_gross_usd": 1332008,
+   "revenue_net_usd": 1053465,
+   "ad_revenue_usd": 14187,
+   "payers": 74422,
+   "active_users_dau": 1424638,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DIS.revenue_gross_usd",
@@ -611,16 +774,16 @@
     "type": "bigquery",
     "project": "solitaire-dreams-dbt",
     "table": "solitaire-dreams-dbt.40_mart.user_daily_metrics",
-    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
-    "run_at": "2026-11-01T11:50:00+02:00",
-    "bytes_processed": "276.4 MB"
+    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "370.3 MB"
    },
    "null_reasons": {
     "period_unique_users": "not run yet"
    },
    "caveats": [
     "gross is VAT-exclusive per source; Dice/Domino VAT treatment is undocumented, so do not compare gross across games until ALL.gross_comparability is approved",
-    "2026-10-31 ad_revenue 4,211 vs ~14K on prior days (observation), consistent with the source rule that the latest 1-3 days carry a lower estimate"
+    "Latest days ad_revenue (observation, 2026-11-02 pull): 31.10 = 4,768 and 01.11 = 10,771 vs 13,744 / 14,187 on 29-30.10, consistent with the source rule that the latest 1-3 days carry a lower estimate"
    ],
    "field_completeness": {
     "revenue_gross_usd": {
@@ -653,7 +816,7 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "metric_id": "DIS-2026-10-31",
@@ -661,11 +824,11 @@
    "date": "2026-10-31",
    "date_timezone": "UTC",
    "currency": "USD",
-   "revenue_gross_usd": 1511314,
-   "revenue_net_usd": 1190123,
-   "ad_revenue_usd": 4211,
-   "payers": 81210,
-   "active_users_dau": 1399149,
+   "revenue_gross_usd": 1511954,
+   "revenue_net_usd": 1190626,
+   "ad_revenue_usd": 4768,
+   "payers": 81239,
+   "active_users_dau": 1401570,
    "period_unique_users": null,
    "definition_refs": {
     "revenue_gross_usd": "DIS.revenue_gross_usd",
@@ -692,16 +855,16 @@
     "type": "bigquery",
     "project": "solitaire-dreams-dbt",
     "table": "solitaire-dreams-dbt.40_mart.user_daily_metrics",
-    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-10-31' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
-    "run_at": "2026-11-01T11:50:00+02:00",
-    "bytes_processed": "276.4 MB"
+    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "370.3 MB"
    },
    "null_reasons": {
     "period_unique_users": "not run yet"
    },
    "caveats": [
     "gross is VAT-exclusive per source; Dice/Domino VAT treatment is undocumented, so do not compare gross across games until ALL.gross_comparability is approved",
-    "2026-10-31 ad_revenue 4,211 vs ~14K on prior days (observation), consistent with the source rule that the latest 1-3 days carry a lower estimate"
+    "Latest days ad_revenue (observation, 2026-11-02 pull): 31.10 = 4,768 and 01.11 = 10,771 vs 13,744 / 14,187 on 29-30.10, consistent with the source rule that the latest 1-3 days carry a lower estimate"
    ],
    "field_completeness": {
     "revenue_gross_usd": {
@@ -734,7 +897,88 @@
    "completeness": "provisional",
    "verification": "NOT VERIFIED",
    "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
+  },
+  {
+   "metric_id": "DIS-2026-11-01",
+   "game": "Disney Solitaire",
+   "date": "2026-11-01",
+   "date_timezone": "UTC",
+   "currency": "USD",
+   "revenue_gross_usd": 1629666,
+   "revenue_net_usd": 1277189,
+   "ad_revenue_usd": 10771,
+   "payers": 87778,
+   "active_users_dau": 1442771,
+   "period_unique_users": null,
+   "definition_refs": {
+    "revenue_gross_usd": "DIS.revenue_gross_usd",
+    "revenue_net_usd": "DIS.revenue_net_usd",
+    "ad_revenue_usd": "DIS.ad_revenue_usd",
+    "payers": "DIS.payers",
+    "active_users_dau": "DIS.active_users_dau",
+    "date_timezone": "DIS.date_timezone",
+    "exclusions": "DIS.exclusions",
+    "completeness": "DIS.completeness"
+   },
+   "definition_status": {
+    "revenue_gross_usd": "documented",
+    "revenue_net_usd": "documented",
+    "ad_revenue_usd": "needs_approval",
+    "payers": "needs_approval",
+    "active_users_dau": "documented",
+    "date_timezone": "documented",
+    "exclusions": "documented",
+    "completeness": "documented"
+   },
+   "exclusions": "is_special_user = FALSE (testers/special users excluded, as the table description recommends); valid purchases only",
+   "source": {
+    "type": "bigquery",
+    "project": "solitaire-dreams-dbt",
+    "table": "solitaire-dreams-dbt.40_mart.user_daily_metrics",
+    "sql": "SELECT date_dim, COUNTIF(is_active_day) AS dau, COUNT(DISTINCT IF(gross_revenue>0,user_id,NULL)) AS payers, ROUND(SUM(gross_revenue),0) AS gross_vat_excl_usd, ROUND(SUM(net_revenue),0) AS net_usd, ROUND(SUM(ad_revenue),0) AS ad_rev_usd FROM `solitaire-dreams-dbt.40_mart.user_daily_metrics` WHERE date_dim BETWEEN '2026-10-29' AND '2026-11-01' AND is_special_user = FALSE GROUP BY date_dim ORDER BY date_dim",
+    "run_at": "2026-11-02T08:40:00+02:00",
+    "bytes_processed": "370.3 MB"
+   },
+   "null_reasons": {
+    "period_unique_users": "not run yet"
+   },
+   "caveats": [
+    "gross is VAT-exclusive per source; Dice/Domino VAT treatment is undocumented, so do not compare gross across games until ALL.gross_comparability is approved",
+    "Latest days ad_revenue (observation, 2026-11-02 pull): 31.10 = 4,768 and 01.11 = 10,771 vs 13,744 / 14,187 on 29-30.10, consistent with the source rule that the latest 1-3 days carry a lower estimate"
+   ],
+   "field_completeness": {
+    "revenue_gross_usd": {
+     "status": "provisional",
+     "rule_id": "DIS.rebuild_window",
+     "rule_basis": "source_documented"
+    },
+    "revenue_net_usd": {
+     "status": "provisional",
+     "rule_id": "DIS.rebuild_window",
+     "rule_basis": "source_documented"
+    },
+    "ad_revenue_usd": {
+     "status": "provisional_estimate",
+     "rule_id": "DIS.ad_estimate",
+     "rule_basis": "source_documented"
+    },
+    "payers": {
+     "status": "provisional",
+     "rule_id": "DIS.rebuild_window",
+     "rule_basis": "source_documented"
+    },
+    "active_users_dau": {
+     "status": "provisional",
+     "rule_id": "DIS.rebuild_window",
+     "rule_basis": "source_documented"
+    }
+   },
+   "is_final": false,
+   "completeness": "provisional",
+   "verification": "NOT VERIFIED",
+   "verification_note": "not reconciled to the HQ KPI report headquarters-dbt.50_reporting.rpt_superplay_agg (schema visible, query access denied: bigquery.jobs.create missing); see HQ_ACCESS.md",
+   "updated_at": "2026-11-02T08:40:18+02:00"
   }
  ]
 }

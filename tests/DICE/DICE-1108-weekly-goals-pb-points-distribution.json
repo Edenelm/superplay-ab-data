@@ -69,7 +69,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -394,6 +394,6 @@
   "PB",
   "Weekly Goals"
  ],
- "content_fingerprint": "272f05e4a0c1d729bfa48c2b7654b4a6b18d60840d784b15e9be2726b101e75c",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "5c1844340b49b443cba9f091afac4e9f3418a7ae033754738a4899b84a7e7721",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

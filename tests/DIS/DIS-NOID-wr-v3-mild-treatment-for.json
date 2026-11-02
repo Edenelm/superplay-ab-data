@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "WR V3 (Mild treatment for HH)",
   "lifecycle": "backlog",
-  "board_status_raw": "Backlog",
-  "board_group": "💡 Ideas / Backlog",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -73,6 +73,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -218,6 +226,6 @@
  "glossary_concepts": [
   "WR"
  ],
- "content_fingerprint": "d26199ba6f74935d58f3f4af47a53ca0a158b289b78a1101c33e4d75684f4ba6",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "a920540a1274843493691521abdc92ed7e192825ae88bb57c002f75f9350952d",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

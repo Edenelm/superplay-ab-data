@@ -1,7 +1,7 @@
 {
  "dataset": "explanations_learnings_decisions",
  "contract_version": "1.3.0",
- "generated_at": "2026-11-01T13:46:48+02:00",
+ "generated_at": "2026-11-02T08:40:18+02:00",
  "timezone": "Asia/Jerusalem",
  "explanations": [
   {
@@ -100,7 +100,7 @@
     "DICE-199-dtc-from-1st-purchase-android::m07",
     "DICE-199-dtc-from-1st-purchase-android::m08"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -203,7 +203,7 @@
     "DICE-1113-limited-stock-offer-recomp::p03",
     "DICE-1113-limited-stock-offer-recomp::p04"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -304,7 +304,7 @@
     "DICE-1103-scare-screen-new-users::m08",
     "DICE-1103-scare-screen-new-users::m09"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -399,7 +399,7 @@
     "DOM-1543-rv-stuck-in-funnel-users::m02",
     "DOM-1543-rv-stuck-in-funnel-users::m03"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "MISMATCH"
   },
@@ -500,7 +500,7 @@
     "DOM-1550-inflation-of-wild-cost::m08",
     "DOM-1550-inflation-of-wild-cost::m09"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -599,7 +599,7 @@
     "DOM-1533-daily-calendar-session-extension::m06",
     "DOM-1533-daily-calendar-session-extension::m07"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -685,7 +685,7 @@
    "measured_impact_ref": [
     "DIS-115-make-any-purchase::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -771,7 +771,7 @@
    "measured_impact_ref": [
     "DIS-101-std-expensive-offer-v4-15::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -857,7 +857,7 @@
    "measured_impact_ref": [
     "DIS-116-make-any-purchase-v2::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -943,7 +943,7 @@
    "measured_impact_ref": [
     "DIS-125-make-any-purchase-new-seg::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1029,7 +1029,7 @@
    "measured_impact_ref": [
     "DIS-124-ays-offer-for-ftd-and::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1115,7 +1115,7 @@
    "measured_impact_ref": [
     "DIS-108-purchase-funnel-v4::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1201,7 +1201,7 @@
    "measured_impact_ref": [
     "DIS-041-starter-pack-to-level-75::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1287,7 +1287,7 @@
    "measured_impact_ref": [
     "DIS-111-starter-pack::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1385,7 +1385,7 @@
     "DICE-1102-ftd-high-maturity::m05",
     "DICE-1102-ftd-high-maturity::m06"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -1491,7 +1491,7 @@
     "DICE-1109-remove-android-dtc::m06",
     "DICE-1109-remove-android-dtc::m07"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -1588,7 +1588,7 @@
     "DICE-1104-bingo-vs-native::m04",
     "DICE-1104-bingo-vs-native::m05"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -1686,7 +1686,7 @@
     "DICE-197-dtc-from-1st-purchase-apple::m05",
     "DICE-197-dtc-from-1st-purchase-apple::m06"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -1776,7 +1776,7 @@
     "DICE-1103-scare-screen-users-that-never::m04",
     "DICE-1103-scare-screen-users-that-never::m05"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1862,7 +1862,7 @@
    "measured_impact_ref": [
     "DICE-195-ftd-offer-3po::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -1959,7 +1959,7 @@
     "DOM-1570-high-win-rate-after-purchase::m04",
     "DOM-1570-high-win-rate-after-purchase::m05"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "VERIFIED"
   },
@@ -2056,7 +2056,7 @@
     "DOM-1551-1551-scrolling-under-250::m04",
     "DOM-1551-1551-scrolling-under-250::m05"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "MISMATCH"
   },
@@ -2142,7 +2142,7 @@
    "measured_impact_ref": [
     "DOM-1494-romantic-treats::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2228,7 +2228,7 @@
    "measured_impact_ref": [
     "DOM-1501-duel-vs-tournament-onboarding::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "MISMATCH"
   },
@@ -2314,7 +2314,7 @@
    "measured_impact_ref": [
     "DOM-1492-popup-win-level-30-in::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2400,7 +2400,7 @@
    "measured_impact_ref": [
     "DOM-1494-dtc-scare-screen-tech-launch::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "MISMATCH"
   },
@@ -2486,7 +2486,7 @@
    "measured_impact_ref": [
     "DOM-1500-no-dtc-new-users::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2572,7 +2572,7 @@
    "measured_impact_ref": [
     "DOM-1460-rv-mania-v2::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2658,7 +2658,7 @@
    "measured_impact_ref": [
     "DOM-1500-japan-pricing-test::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2744,7 +2744,7 @@
    "measured_impact_ref": [
     "DOM-1512-dtc-20-value-for-expensive::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2830,7 +2830,7 @@
    "measured_impact_ref": [
     "DOM-1543-rv-opportunistic-for-completers-dormants::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -2918,7 +2918,7 @@
    "measured_impact_ref": [
     "DOM-NOID-ftd-offer-add-a-20::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3004,7 +3004,7 @@
    "measured_impact_ref": [
     "DOM-1372-new-ftd-offer::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3090,7 +3090,7 @@
    "measured_impact_ref": [
     "DOM-1382-ftd-store-all-bundles-high::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3187,7 +3187,7 @@
     "DOM-1382-ftd-store-test::m04",
     "DOM-1382-ftd-store-test::m05"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3284,7 +3284,7 @@
     "DOM-1402-vault-late-ftd::m04",
     "DOM-1402-vault-late-ftd::m05"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3370,7 +3370,7 @@
    "measured_impact_ref": [
     "DOM-NOID-vault-for-late-ftd-test::s01"
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3450,7 +3450,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3528,7 +3528,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3606,7 +3606,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3684,7 +3684,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3760,7 +3760,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3839,7 +3839,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3915,7 +3915,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -3999,7 +3999,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4079,7 +4079,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4155,7 +4155,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4233,7 +4233,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4309,7 +4309,86 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DICE-1115-trail-double-wheel-better-experience",
+   "game": "Dice Dreams",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 1115 - Trail Double Wheel Better Experience",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/9494658232/pulses/13436680453",
+      "2026-11-02.md",
+      "2026-11-02.md",
+      "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4385,7 +4464,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4461,7 +4540,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4540,7 +4619,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4618,7 +4697,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4696,7 +4775,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4774,7 +4853,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4852,7 +4931,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4930,7 +5009,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -4940,7 +5019,7 @@
    "lang": "he",
    "questions": {
     "what_changed": {
-     "text_he": "שם הבדיקה בבורד: T125 End Of Puzzle Offer",
+     "text_he": "שם הבדיקה בבורד: 125 - End Of Puzzle Offer",
      "tag": "source_fact",
      "source_refs": [
       "https://superplay.monday.com/boards/18435634714/pulses/13299935420"
@@ -5006,83 +5085,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-124-trail-again-3rd-try",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 124 - Trail again (3rd try 🍦)",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935421"
-     ],
-     "null_reason": null
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -5158,83 +5161,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-123-mini-game-treatments",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 123 - mini game treatments",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: possible",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935423"
-     ],
-     "null_reason": null
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -5310,83 +5237,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-125-v4-increase-by-mode",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 125 - V4$ Increase by mode",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935425"
-     ],
-     "null_reason": null
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -5462,240 +5313,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-125-zeus-launch",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 125 - Zeus Launch",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active · החלטה אחרונה ב-WhatsApp: deploy",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935468",
-      "2026-11-01.md",
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
-     ],
-     "null_reason": null,
-     "conflict": [
-      "WhatsApp 2026-10-29 17:43 (Moral): 'deploy' · board: status Active · decision Pending · group 🟢 Live"
-     ]
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-125-wr-v2",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 125 - WR V2 *",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935469"
-     ],
-     "null_reason": null
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-125-8box-segments",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 125 - 8box Segments",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935470"
-     ],
-     "null_reason": null
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -5771,7 +5389,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -5847,83 +5465,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
-   "generation": "template over source fields; no free-form AI text",
-   "verification": "NOT VERIFIED"
-  },
-  {
-   "test_id": "DIS-125-drc-new-economy-v5-2",
-   "game": "Disney Solitaire",
-   "lang": "he",
-   "questions": {
-    "what_changed": {
-     "text_he": "שם הבדיקה בבורד: 125 - DRC New Economy V5.2",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
-     ],
-     "null_reason": null
-    },
-    "why_tested": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no business question or hypothesis stated in source"
-    },
-    "who": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "audience empty in source"
-    },
-    "what_happened": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "test is live; no results read (no interim numbers stored)"
-    },
-    "business_meaning": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no results yet"
-    },
-    "limitations": {
-     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
-     "tag": "generated_explanation",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
-     ],
-     "null_reason": null
-    },
-    "recommended": {
-     "text_he": null,
-     "tag": null,
-     "source_refs": [],
-     "null_reason": "no explicit recommendation found in captured sources"
-    },
-    "decided": {
-     "text_he": "בבורד: Active",
-     "tag": "source_fact",
-     "source_refs": [
-      "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
-     ],
-     "null_reason": null
-    }
-   },
-   "question_labels_he": {
-    "what_changed": "מה שינינו?",
-    "why_tested": "למה בדקנו?",
-    "who": "על מי בדקנו?",
-    "what_happened": "מה קרה בפועל?",
-    "business_meaning": "מה המשמעות העסקית?",
-    "limitations": "מהן המגבלות?",
-    "recommended": "מה הומלץ?",
-    "decided": "מה הוחלט בפועל?"
-   },
-   "business_state_ref": null,
-   "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -5999,7 +5541,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6075,7 +5617,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6151,7 +5693,615 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-NOID-pb-level-reduction",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - PB Level Reduction",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13299962162"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-126-olympus-wheel-mega",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - Olympus Wheel Mega",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654351"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654351"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654351"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-126-chef-segments",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - Chef Segments",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654353"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654353"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654353"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-127-3po-halloween",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 127 - 3po Halloween",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654354"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654354"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654354"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-126-es-v3",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - ES V3",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654355"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654355"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654355"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-126-wr-v3",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - WR V3",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654356"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654356"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654356"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-126-opportunistic-rv",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - opportunistic rv",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654357"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654357"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654357"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-126-1-1-test",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": "שם הבדיקה בבורד: 126 - 1+1 test",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654421"
+     ],
+     "null_reason": null
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "test is live; no results read (no interim numbers stored)"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results yet"
+    },
+    "limitations": {
+     "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654421"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Active",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13435654421"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6229,7 +6379,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6305,7 +6455,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6381,7 +6531,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6457,7 +6607,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6533,7 +6683,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6609,7 +6759,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6685,7 +6835,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6761,7 +6911,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6839,7 +6989,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6917,7 +7067,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -6994,7 +7144,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7072,7 +7222,98 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DOM-NOID-pixie-fu-2-vs-3",
+   "game": "Domino Dreams",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "change not stated in source"
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"; Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\"",
+     "tag": "source_fact",
+     "source_refs": [
+      "2026-11-02.md",
+      "2026-11-02.md",
+      "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+     ],
+     "null_reason": null
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+    },
+    "limitations": {
+     "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18416650776/pulses/13262801473",
+      "2026-11-02.md",
+      "2026-11-02.md",
+      "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": "המלצה שנכתבה ב-WhatsApp: deploy (recommended)",
+     "tag": "source_fact",
+     "source_refs": [
+      "2026-11-02.md",
+      "2026-11-02.md",
+      "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+     ],
+     "null_reason": null
+    },
+    "decided": {
+     "text_he": "בבורד: Backlog · החלטה אחרונה ב-WhatsApp: deploy (recommended)",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18416650776/pulses/13262801473",
+      "2026-11-02.md",
+      "2026-11-02.md",
+      "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+     ],
+     "null_reason": null,
+     "conflict": [
+      "WhatsApp 2026-11-01 18:36 (Diana Khayet): 'deploy (recommended)' · board: status Backlog · group Backlog"
+     ]
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7150,7 +7391,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7228,7 +7469,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7291,10 +7532,7 @@
       "2026-11-01.md",
       "https://superplay.monday.com/boards/18435634714/pulses/13300157563"
      ],
-     "null_reason": null,
-     "conflict": [
-      "WhatsApp 2026-10-29 17:43 (Lior Bern): 'planned' · board: status Backlog · decision Stopped · group 💡 Ideas / Backlog"
-     ]
+     "null_reason": null
     }
    },
    "question_labels_he": {
@@ -7309,7 +7547,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7396,7 +7634,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7477,7 +7715,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7561,7 +7799,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7641,7 +7879,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7719,7 +7957,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7797,7 +8035,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7877,7 +8115,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -7961,7 +8199,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8045,7 +8283,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8135,7 +8373,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8222,7 +8460,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8300,7 +8538,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8381,7 +8619,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8461,7 +8699,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8539,7 +8777,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8620,7 +8858,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8700,7 +8938,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8780,7 +9018,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8860,7 +9098,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -8941,7 +9179,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9021,7 +9259,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9099,7 +9337,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9183,7 +9421,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9263,7 +9501,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9344,7 +9582,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9422,7 +9660,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9500,7 +9738,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9587,7 +9825,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9665,7 +9903,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9743,7 +9981,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9825,7 +10063,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9909,7 +10147,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -9987,7 +10225,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10067,7 +10305,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10147,7 +10385,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10225,7 +10463,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10305,7 +10543,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10393,7 +10631,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10477,7 +10715,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10557,7 +10795,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10635,7 +10873,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10722,7 +10960,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10800,7 +11038,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10880,7 +11118,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -10958,7 +11196,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11038,7 +11276,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11116,7 +11354,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11203,7 +11441,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11284,7 +11522,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11365,7 +11603,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11452,7 +11690,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11532,7 +11770,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11610,7 +11848,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11691,7 +11929,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11771,7 +12009,7 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   },
@@ -11849,7 +12087,85 @@
    },
    "business_state_ref": null,
    "measured_impact_ref": [],
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "generation": "template over source fields; no free-form AI text",
+   "verification": "NOT VERIFIED"
+  },
+  {
+   "test_id": "DIS-125-zeus-launch",
+   "game": "Disney Solitaire",
+   "lang": "he",
+   "questions": {
+    "what_changed": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "change not stated in source"
+    },
+    "why_tested": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no business question or hypothesis stated in source"
+    },
+    "who": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "audience empty in source"
+    },
+    "what_happened": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no results tab read and no numbers quoted in WhatsApp"
+    },
+    "business_meaning": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+    },
+    "limitations": {
+     "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+     "tag": "generated_explanation",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13299935468",
+      "2026-11-01.md",
+      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
+     ],
+     "null_reason": null
+    },
+    "recommended": {
+     "text_he": null,
+     "tag": null,
+     "source_refs": [],
+     "null_reason": "no explicit recommendation found in captured sources"
+    },
+    "decided": {
+     "text_he": "בבורד: Deployed · החלטה אחרונה ב-WhatsApp: deploy",
+     "tag": "source_fact",
+     "source_refs": [
+      "https://superplay.monday.com/boards/18435634714/pulses/13299935468",
+      "2026-11-01.md",
+      "https://superplay.monday.com/boards/18435634714/pulses/13299935468"
+     ],
+     "null_reason": null
+    }
+   },
+   "question_labels_he": {
+    "what_changed": "מה שינינו?",
+    "why_tested": "למה בדקנו?",
+    "who": "על מי בדקנו?",
+    "what_happened": "מה קרה בפועל?",
+    "business_meaning": "מה המשמעות העסקית?",
+    "limitations": "מהן המגבלות?",
+    "recommended": "מה הומלץ?",
+    "decided": "מה הוחלט בפועל?"
+   },
+   "business_state_ref": null,
+   "measured_impact_ref": [],
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "generation": "template over source fields; no free-form AI text",
    "verification": "NOT VERIFIED"
   }
@@ -11916,7 +12232,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -11947,7 +12263,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -11994,7 +12310,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12030,7 +12346,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12063,7 +12379,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12120,7 +12436,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12151,7 +12467,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12197,7 +12513,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12251,7 +12567,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12288,7 +12604,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12324,7 +12640,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12379,7 +12695,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12414,7 +12730,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12459,7 +12775,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12515,7 +12831,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12555,7 +12871,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12601,7 +12917,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12663,7 +12979,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12716,7 +13032,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12791,7 +13107,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12826,7 +13142,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12857,7 +13173,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -12925,7 +13241,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -12969,7 +13285,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13004,7 +13320,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13041,7 +13357,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13085,7 +13401,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13121,7 +13437,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13164,7 +13480,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13201,7 +13517,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13232,7 +13548,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13272,7 +13588,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13318,7 +13634,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13354,7 +13670,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13403,7 +13719,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13447,7 +13763,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13491,7 +13807,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13522,7 +13838,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13555,7 +13871,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13601,7 +13917,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13640,7 +13956,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13677,7 +13993,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13712,7 +14028,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13753,7 +14069,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13800,7 +14116,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13845,7 +14161,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13889,7 +14205,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -13920,7 +14236,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13962,7 +14278,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -13999,7 +14315,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14030,7 +14346,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14063,7 +14379,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14096,7 +14412,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14129,7 +14445,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14177,7 +14493,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14215,7 +14531,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14268,7 +14584,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14315,7 +14631,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14364,7 +14680,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14397,7 +14713,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14435,7 +14751,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14492,7 +14808,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14536,7 +14852,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14581,7 +14897,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14627,7 +14943,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14677,7 +14993,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14710,7 +15026,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14743,7 +15059,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14776,7 +15092,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14809,7 +15125,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14842,7 +15158,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14879,7 +15195,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -14917,7 +15233,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14959,7 +15275,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -14992,7 +15308,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15025,7 +15341,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15063,7 +15379,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15110,7 +15426,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15157,7 +15473,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15190,7 +15506,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15228,7 +15544,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15265,7 +15581,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -15296,7 +15612,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15365,7 +15681,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15403,7 +15719,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15436,7 +15752,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15474,7 +15790,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15512,7 +15828,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15555,7 +15871,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15588,7 +15904,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15626,7 +15942,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15664,7 +15980,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15702,7 +16018,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15735,7 +16051,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15768,7 +16084,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15829,7 +16145,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -15860,7 +16176,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15898,7 +16214,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15931,7 +16247,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -15964,7 +16280,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16015,7 +16331,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16057,7 +16373,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16094,7 +16410,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16129,7 +16445,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16182,7 +16498,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16234,7 +16550,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16283,7 +16599,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16316,7 +16632,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16349,7 +16665,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16382,7 +16698,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16429,7 +16745,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16462,7 +16778,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16503,7 +16819,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16544,7 +16860,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16577,7 +16893,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16618,7 +16934,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16665,7 +16981,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16702,7 +17018,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16738,7 +17054,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16775,7 +17091,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16815,7 +17131,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16881,7 +17197,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -16927,7 +17243,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -16971,7 +17287,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17002,7 +17318,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17035,7 +17351,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17072,7 +17388,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17111,7 +17427,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17152,7 +17468,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17189,7 +17505,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17233,7 +17549,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17268,7 +17584,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17299,7 +17615,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17361,7 +17677,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17392,7 +17708,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17451,7 +17767,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17490,7 +17806,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17523,7 +17839,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17556,7 +17872,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17602,7 +17918,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17633,7 +17949,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17670,7 +17986,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17732,7 +18048,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17774,7 +18090,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17807,7 +18123,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17845,7 +18161,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17892,7 +18208,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -17929,7 +18245,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -17965,7 +18281,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18003,7 +18319,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18049,7 +18365,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18080,7 +18396,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18113,7 +18429,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18150,7 +18466,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18185,7 +18501,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18229,7 +18545,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18260,7 +18576,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18312,7 +18628,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18345,7 +18661,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18382,7 +18698,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18442,7 +18758,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18473,7 +18789,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18519,7 +18835,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18564,7 +18880,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18611,7 +18927,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18654,7 +18970,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18726,7 +19042,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18790,7 +19106,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -18842,7 +19158,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18875,7 +19191,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18919,7 +19235,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18961,7 +19277,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -18999,7 +19315,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19045,7 +19361,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19078,7 +19394,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19128,7 +19444,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19178,7 +19494,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19211,7 +19527,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19252,7 +19568,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19285,7 +19601,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19318,7 +19634,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19351,7 +19667,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19384,7 +19700,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19417,7 +19733,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19463,7 +19779,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19498,7 +19814,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19529,7 +19845,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19562,7 +19878,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19595,7 +19911,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19628,7 +19944,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19674,7 +19990,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19705,7 +20021,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19738,7 +20054,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19775,7 +20091,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19806,7 +20122,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -19859,7 +20175,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19894,7 +20210,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19938,7 +20254,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -19973,7 +20289,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20008,7 +20324,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20043,7 +20359,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20078,7 +20394,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20130,7 +20446,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20167,7 +20483,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20198,7 +20514,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20240,7 +20556,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20283,7 +20599,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20316,7 +20632,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20349,7 +20665,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20386,7 +20702,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20422,7 +20738,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20459,7 +20775,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20494,7 +20810,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20505,17 +20821,12 @@
    "whatsapp_decision_latest": "deploy",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": "Pending",
-   "board_status": "Active",
+   "board_decision": "Deploy",
+   "board_status": "Deployed",
    "numbers_quoted": [],
    "first_seen": "2026-10-29",
    "last_seen": "2026-10-29",
-   "conflicts": [
-    {
-     "type": "contradicts",
-     "msg": "WhatsApp 2026-10-29 17:43 (Moral): 'deploy' · board: status Active · decision Pending · group 🟢 Live"
-    }
-   ],
+   "conflicts": [],
    "whatsapp_item_ids": [
     "wa317"
    ],
@@ -20534,7 +20845,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20545,17 +20856,12 @@
    "whatsapp_decision_latest": "planned",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": "Stopped",
+   "board_decision": "Pending",
    "board_status": "Backlog",
    "numbers_quoted": [],
    "first_seen": "2026-10-29",
    "last_seen": "2026-10-29",
-   "conflicts": [
-    {
-     "type": "contradicts",
-     "msg": "WhatsApp 2026-10-29 17:43 (Lior Bern): 'planned' · board: status Backlog · decision Stopped · group 💡 Ideas / Backlog"
-    }
-   ],
+   "conflicts": [],
    "whatsapp_item_ids": [
     "wa318"
    ],
@@ -20574,7 +20880,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {}
   },
   {
@@ -20623,7 +20929,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20656,7 +20962,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20689,7 +20995,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20731,7 +21037,7 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
@@ -20764,10 +21070,145 @@
     }
    ],
    "verification": "NOT VERIFIED",
-   "updated_at": "2026-11-01T13:46:48+02:00",
+   "updated_at": "2026-11-02T08:40:18+02:00",
    "null_reasons": {
     "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
    }
+  },
+  {
+   "decision_id": "DEC-wao_wa327",
+   "test_id": null,
+   "game": "Domino Dreams",
+   "name": "Pixie upcoming event agenda",
+   "whatsapp_decision_latest": "planned",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": null,
+   "numbers_quoted": [],
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa327"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "15:59",
+     "sender": "Diana Khayet",
+     "item_id": "wa327"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "null_reasons": {
+    "test_id": "WhatsApp item not matched to a Monday board item (possible matches are never auto-linked)"
+   }
+  },
+  {
+   "decision_id": "DEC-wab_13436680453",
+   "test_id": "DICE-1115-trail-double-wheel-better-experience",
+   "game": "Dice Dreams",
+   "name": "1115 - Trail Double Wheel Better Experience",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Running",
+   "numbers_quoted": [],
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa328",
+    "wa329"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "17:07",
+     "sender": "Aviram",
+     "item_id": "wa328"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "17:07",
+     "sender": "Guy Perez",
+     "item_id": "wa329"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "null_reasons": {}
+  },
+  {
+   "decision_id": "DEC-wab_13262801473",
+   "test_id": "DOM-NOID-pixie-fu-2-vs-3",
+   "game": "Domino Dreams",
+   "name": "Pixie FU 2 VS. 3",
+   "whatsapp_decision_latest": "deploy (recommended)",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [
+    "deploy (recommended)"
+   ],
+   "board_decision": null,
+   "board_status": "Backlog",
+   "numbers_quoted": [
+    "revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"",
+    "Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\""
+   ],
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "conflicts": [
+    {
+     "type": "contradicts",
+     "msg": "WhatsApp 2026-11-01 18:36 (Diana Khayet): 'deploy (recommended)' · board: status Backlog · group Backlog"
+    },
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"; Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\" — no result on the board (results/summary columns empty) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa330",
+    "wa331"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "18:04",
+     "sender": "Liel Ben Shalom",
+     "item_id": "wa330"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "18:36",
+     "sender": "Diana Khayet",
+     "item_id": "wa331"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18416650776/pulses/13262801473"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "null_reasons": {}
   }
  ],
  "cross_studio_learnings": [
@@ -20822,7 +21263,7 @@
      "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
     }
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "learning_id": "LRN-new-players",
@@ -20870,7 +21311,7 @@
      "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
     }
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "learning_id": "LRN-pricing-offers",
@@ -20920,7 +21361,7 @@
      "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
     }
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   },
   {
    "learning_id": "LRN-retention",
@@ -20968,7 +21409,7 @@
      "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
     }
    ],
-   "updated_at": "2026-11-01T13:46:48+02:00"
+   "updated_at": "2026-11-02T08:40:18+02:00"
   }
  ]
 }

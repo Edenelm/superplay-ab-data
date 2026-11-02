@@ -1,9 +1,9 @@
 {
  "dataset": "whatsapp_items",
  "contract_version": "1.3.0",
- "generated_at": "2026-11-01T13:46:48+02:00",
+ "generated_at": "2026-11-02T08:40:18+02:00",
  "timezone": "Asia/Jerusalem",
- "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 30.10.2026 · images/PDFs not read",
+ "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 01.11.2026 · images/PDFs not read",
  "caveats": {
   "2026-10-26.md": [
    "Images, dashboard screenshots and PDFs were not read (incl. the T124 Anti Fraud PDF); long summaries cut at \"Read more\" were not expanded.",
@@ -18,6 +18,10 @@
    "No messages on 31/10 or 01/11 in any group.",
    "29/10 18:01 Itay Levy release note (1.27 at 100%) is not an A/B test.",
    "Mixpanel links in messages were not opened."
+  ],
+  "2026-11-02.md": [
+   "Dice Business messages in range about puzzle/BWF live monitoring and scheduling were not A/B tests and were excluded by the collector.",
+   "Mixpanel links and the Google Slides deck in messages were not opened."
   ],
   "history/dice_business_2026-06-01_to_2026-10-12.md": [
    "Dice Business – WhatsApp history extract 01.06.2026–12.10.2026 (read-only, captured 26.10.2026 ~13:10 Asia/Jerusalem)",
@@ -6559,9 +6563,17 @@
    "text": "v1.114.1 only",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "name · 100% name tokens",
+   "match": "name · exact name",
    "board_item": "13104386855",
-   "poss": [],
+   "poss": [
+    {
+     "name": "1115 - Trail Double Wheel Better Experience",
+     "item": "13436680453",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/13436680453",
+     "status": "Running",
+     "group": "Live"
+    }
+   ],
    "posted": null,
    "note": null
   },
@@ -6836,9 +6848,17 @@
    "text": "relaunched",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "name · 100% name tokens",
+   "match": "name · exact name",
    "board_item": "13104386855",
-   "poss": [],
+   "poss": [
+    {
+     "name": "1115 - Trail Double Wheel Better Experience",
+     "item": "13436680453",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/13436680453",
+     "status": "Running",
+     "group": "Live"
+    }
+   ],
    "posted": null,
    "note": null
   },
@@ -7457,6 +7477,104 @@
   },
   {
    "id": "wa327",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-01",
+   "time": "15:59",
+   "sender": "Diana Khayet",
+   "test": "Pixie upcoming event agenda",
+   "decision": "planned",
+   "nums": [],
+   "text": "מבחינת אג'נדה שסיכמנו לפיקסי הקרוב - נקצר את הפיקסי כך שיסתיים בחמישי; הפו יעלה ל-10 סטיקרים; יוזרים מתחת לשלב 200 לא יקבלו פיקסי גם אם הם באלבום השני (+ link to analysis deck, not opened)",
+   "file": "2026-11-02.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa328",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-01",
+   "time": "17:07",
+   "sender": "Aviram",
+   "test": "Trail Double Wheel Better Experience",
+   "decision": "launched",
+   "nums": [],
+   "text": "עלינו עם טסט - Trail Double Wheel Better Experience. קבוצת הטסט מקבלת חוויה שעל פניו מהנה יותר - התוצאה הממוצעת בכל ספין גובהה יותר, ובהתאם הטרייל ארוך יותר. נוספה תוצאה בגלגל החיצוני של פי 10 (מרגש). דשבורד (Mixpanel link). תודה לעמית על הביצוע",
+   "file": "2026-11-02.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "13436680453",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa329",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-01",
+   "time": "17:07",
+   "sender": "Guy Perez",
+   "test": "Trail Double Wheel Better Experience",
+   "decision": null,
+   "nums": [],
+   "text": "נראה בינתיים טוב לא? (Aviram 17:08: בהחלט) [early feedback, no numbers]",
+   "file": "2026-11-02.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "13436680453",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa330",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-01",
+   "time": "18:04",
+   "sender": "Liel Ben Shalom",
+   "test": "Pixie FU 2 vs 3",
+   "decision": "pending",
+   "nums": [],
+   "text": "לגבי הפו- אמרנו שקודם נבדוק מה הפסיד בטסט ואז נקבל החלטה אם פו זה 2 או 3. הסתכלתם על זה?",
+   "file": "2026-11-02.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "13262801473",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa331",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-01",
+   "time": "18:36",
+   "sender": "Diana Khayet",
+   "test": "Pixie FU 2 vs 3",
+   "decision": "deploy (recommended)",
+   "nums": [
+    "revenue \"עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית)\"",
+    "Pixie finish \"עלייה באחוזי סיום פיקסי (5% יותר)\""
+   ],
+   "text": "כןן. ממה שאני רואה הטסט אדיש עם עלייה קלה בהכנסות (בערך 2%, לא מוהבק סטטיסטית) לטובת הטסט (פו של 2). הייתה גם עלייה באחוזי סיום פיקסי (5% יותר) ובמשחקיות לאורך הטסט. אני חושבת שהמעבר גם לפו של 2 ייתן לנו לנהל התקדמות טובה מבלי לפגוע בPU או בהכנסות.",
+   "file": "2026-11-02.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "13262801473",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa9327",
    "game": "Disney Solitaire",
    "group": "Disney Business",
    "date": "2026-10-07",
@@ -7475,7 +7593,7 @@
    "note": "Found while searching for '124 - RV extend segment'; not linked."
   },
   {
-   "id": "wa328",
+   "id": "wa9328",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-07-26",
@@ -7494,7 +7612,7 @@
    "note": "Fuller capture of the launch message summarised in wa100."
   },
   {
-   "id": "wa329",
+   "id": "wa9329",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-08-18",
@@ -7513,7 +7631,7 @@
    "note": "Conflicts with the Monday item still being live."
   },
   {
-   "id": "wa330",
+   "id": "wa9330",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-07-23",
@@ -7535,7 +7653,7 @@
    "note": "Crash-indicator style sanity remark (context truncated)."
   },
   {
-   "id": "wa331",
+   "id": "wa9331",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-07-29",
@@ -7554,7 +7672,7 @@
    "note": "Fuller capture of wa104 ('New Whammy test'). The Mixpanel board for this phase is titled '1110 - Whammy For DT Finishers'."
   },
   {
-   "id": "wa332",
+   "id": "wa9332",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-08-31",
@@ -7576,7 +7694,7 @@
    "note": "Fuller capture of wa159 (adds the decision)."
   },
   {
-   "id": "wa333",
+   "id": "wa9333",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-08-05",
@@ -7602,7 +7720,7 @@
    "note": "Fuller capture of wa113."
   },
   {
-   "id": "wa334",
+   "id": "wa9334",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-10-13",
@@ -7628,7 +7746,7 @@
    "note": "Truncated at 'Read more'."
   },
   {
-   "id": "wa335",
+   "id": "wa9335",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-09-28",
@@ -7648,10 +7766,10 @@
    "board_item": "12815062665",
    "poss": [],
    "posted": null,
-   "note": "Fuller capture of wa193. Conflicts with wa336 on which tiers keep control difficulty."
+   "note": "Fuller capture of wa193. Conflicts with wa9336 on which tiers keep control difficulty."
   },
   {
-   "id": "wa336",
+   "id": "wa9336",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-09-28",
@@ -7669,10 +7787,10 @@
    "board_item": "12815062665",
    "poss": [],
    "posted": null,
-   "note": "Conflicts with wa335 ('identical up to tier 10')."
+   "note": "Conflicts with wa9335 ('identical up to tier 10')."
   },
   {
-   "id": "wa337",
+   "id": "wa9337",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-10-08",
@@ -7696,7 +7814,7 @@
    "note": null
   },
   {
-   "id": "wa338",
+   "id": "wa9338",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-10-14",
@@ -7715,7 +7833,7 @@
    "note": null
   },
   {
-   "id": "wa339",
+   "id": "wa9339",
    "game": "Domino Dreams",
    "group": "Domino Business",
    "date": "2026-10-20",
@@ -7734,7 +7852,7 @@
    "note": "Fuller capture of wa294 (whose text was empty)."
   },
   {
-   "id": "wa340",
+   "id": "wa9340",
    "game": "Domino Dreams",
    "group": "Domino Business",
    "date": "2026-10-15",
@@ -7762,7 +7880,7 @@
    "note": "Fuller capture of wa257/wa265 (truncated)."
   },
   {
-   "id": "wa341",
+   "id": "wa9341",
    "game": "Dice Dreams",
    "group": "Dice Business",
    "date": "2026-07-01",

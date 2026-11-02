@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
  "glossary_concepts": [
   "Churners"
  ],
- "content_fingerprint": "562775c04a2ee527e08bc24f0efaf15125fee30e4d72bcedb4784e6d19721e09",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "13412cd7495c2f54643b9dc05590653aea594dc0e88e104b7a078ad484daabfe",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

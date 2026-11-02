@@ -28,7 +28,7 @@
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-08-20",
-  "end_date": "2026-10-12",
+  "end_date": "2026-10-15",
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -117,23 +117,23 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-08-20, סיום: 2026-10-12",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-08-20, סיום: 2026-10-15",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-08-20, סיום: 2026-10-12",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-08-20, סיום: 2026-10-15",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13300028363"
       ]
      }
     ],
-    "fingerprint": "e32d484f11d6b8cf",
+    "fingerprint": "2646e60a660fb5a5",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "72f77110b4688097",
      "registry:phases": "4f53cda18c2baa0c",
-     "registry:end_date": "1778f9f78b725912",
+     "registry:end_date": "9770e6de784e0d44",
      "generator": "he6-v2"
     }
    },
@@ -347,6 +347,6 @@
  "glossary_concepts": [
   "DTC"
  ],
- "content_fingerprint": "dd57be76a584474ad3044c3bd252b7991b31e61b59c3aa290015d3cd14d2fd30",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "3f9f861e8122743d3f88ec0a306971eb49c415d8b10b60e2cf5f75cb6d967469",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

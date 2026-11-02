@@ -1,0 +1,372 @@
+{
+ "test_id": "DICE-1115-trail-double-wheel-better-experience",
+ "game": "Dice Dreams",
+ "game_code": "DICE",
+ "tier": "live",
+ "coverage": "unclear",
+ "registry": {
+  "test_id": "DICE-1115-trail-double-wheel-better-experience",
+  "legacy_keys": [
+   "live_13436680453"
+  ],
+  "game": "Dice Dreams",
+  "board_item_id": "13436680453",
+  "board_test_number": "1115",
+  "name": "1115 - Trail Double Wheel Better Experience",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
+  "outcome_label": null,
+  "is_live": true,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "audience_source": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-11-01",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/3RlXgA",
+   "dashboards": [
+    {
+     "id": 11623433,
+     "title": "1115 - Trail Double Wheel Better Experience",
+     "modified": "2026-11-01",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11623433"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/3RlXgA"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/live_data.js",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-02",
+  "null_reasons": {
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «1115 - Trail Double Wheel Better Experience». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «1115 - Trail Double Wheel Better Experience». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+      ]
+     }
+    ],
+    "fingerprint": "d0fa3631c8f04ae7",
+    "inputs": {
+     "registry:name": "8617d6c562eddcda",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+      ]
+     }
+    ],
+    "fingerprint": "3c10f34ab711d9fb",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "8617d6c562eddcda",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-01",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-01",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+      ]
+     }
+    ],
+    "fingerprint": "e1f2f774a862d6e0",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "37e17f8cbb204123",
+     "registry:phases": "4f53cda18c2baa0c",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+      ]
+     }
+    ],
+    "fingerprint": "8445b75d7b454150",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "0d11621974f68de2",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DICE-1115-trail-double-wheel-better-experience",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1115 - Trail Double Wheel Better Experience",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13436680453",
+     "2026-11-02.md",
+     "2026-11-02.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13436680453",
+   "test_id": "DICE-1115-trail-double-wheel-better-experience",
+   "game": "Dice Dreams",
+   "name": "1115 - Trail Double Wheel Better Experience",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Running",
+   "numbers_quoted": [],
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa328",
+    "wa329"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "17:07",
+     "sender": "Aviram",
+     "item_id": "wa328"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-02.md",
+     "date": "2026-11-01",
+     "time": "17:07",
+     "sender": "Guy Perez",
+     "item_id": "wa329"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa328",
+   "date": "2026-11-01",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "עלינו עם טסט - Trail Double Wheel Better Experience. קבוצת הטסט מקבלת חוויה שעל פניו מהנה יותר - התוצאה הממוצעת בכל ספין גובהה יותר, ובהתאם הטרייל ארוך יותר. נוספה תוצאה בגלגל החיצוני של פי 10 (מרגש). דשבורד (Mixpanel link). תודה לעמית על הביצוע",
+   "file": "2026-11-02.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa329",
+   "date": "2026-11-01",
+   "kind": "test",
+   "decision": null,
+   "nums": [],
+   "text": "נראה בינתיים טוב לא? (Aviram 17:08: בהחלט) [early feedback, no numbers]",
+   "file": "2026-11-02.md",
+   "match": "name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Trail"
+ ],
+ "content_fingerprint": "51c1f775db8364286591ea4ee1ea881ce4bad0951c503dcbf1fe8582e0c30d94",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
+}

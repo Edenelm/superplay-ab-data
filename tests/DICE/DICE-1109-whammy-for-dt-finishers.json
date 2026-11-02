@@ -97,7 +97,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -152,11 +152,11 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331",
-       "wa:wa332",
+       "wa:wa9331",
+       "wa:wa9332",
        "mp_dashboard:11406328#text_card[0]",
-       "wa:wa341",
-       "wa:wa330"
+       "wa:wa9341",
+       "wa:wa9330"
       ]
      },
      {
@@ -167,16 +167,16 @@
       ]
      }
     ],
-    "fingerprint": "3c32404fa0075baf",
+    "fingerprint": "302547526b2d683b",
     "inputs": {
      "curated:control": "0d643cf6acccb5f7",
      "curated:test": "fc2e9b690a76e88c",
      "curated:mech": "5acd988f38865afc",
      "generator": "he6-v2",
-     "wa:wa331": "630f34718adb3f08",
-     "wa:wa332": "0ca8b13287e638ee",
-     "wa:wa341": "caf2b1175f7e5133",
-     "wa:wa330": "17415988d0b8552d"
+     "wa:wa9331": "630f34718adb3f08",
+     "wa:wa9332": "0ca8b13287e638ee",
+     "wa:wa9341": "caf2b1175f7e5133",
+     "wa:wa9330": "17415988d0b8552d"
     }
    },
    "who_when": {
@@ -188,8 +188,8 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331",
-       "wa:wa332"
+       "wa:wa9331",
+       "wa:wa9332"
       ]
      },
      {
@@ -197,11 +197,11 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331",
-       "wa:wa332",
+       "wa:wa9331",
+       "wa:wa9332",
        "mp_dashboard:11406328#text_card[0]",
-       "wa:wa341",
-       "wa:wa330"
+       "wa:wa9341",
+       "wa:wa9330"
       ]
      },
      {
@@ -209,15 +209,15 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331",
-       "wa:wa332",
+       "wa:wa9331",
+       "wa:wa9332",
        "mp_dashboard:11406328#text_card[0]",
-       "wa:wa341",
-       "wa:wa330"
+       "wa:wa9341",
+       "wa:wa9330"
       ]
      }
     ],
-    "fingerprint": "09ee10ad6b74188a",
+    "fingerprint": "569f0884af7eb3a0",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
@@ -227,10 +227,10 @@
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "b89b57fe5db184c2",
      "generator": "he6-v2",
-     "wa:wa331": "630f34718adb3f08",
-     "wa:wa332": "0ca8b13287e638ee",
-     "wa:wa341": "caf2b1175f7e5133",
-     "wa:wa330": "17415988d0b8552d"
+     "wa:wa9331": "630f34718adb3f08",
+     "wa:wa9332": "0ca8b13287e638ee",
+     "wa:wa9341": "caf2b1175f7e5133",
+     "wa:wa9330": "17415988d0b8552d"
     }
    },
    "why": {
@@ -242,7 +242,7 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331"
+       "wa:wa9331"
       ]
      },
      {
@@ -250,19 +250,19 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331"
+       "wa:wa9331"
       ]
      }
     ],
-    "fingerprint": "56d308b8628f02a2",
+    "fingerprint": "bff187cae85f1731",
     "inputs": {
      "curated:why": "fa8d9f94f9248631",
      "curated:target": "9a848cf2b10d1f74",
      "generator": "he6-v2",
-     "wa:wa331": "630f34718adb3f08",
-     "wa:wa332": "0ca8b13287e638ee",
-     "wa:wa341": "caf2b1175f7e5133",
-     "wa:wa330": "17415988d0b8552d"
+     "wa:wa9331": "630f34718adb3f08",
+     "wa:wa9332": "0ca8b13287e638ee",
+     "wa:wa9341": "caf2b1175f7e5133",
+     "wa:wa9330": "17415988d0b8552d"
     }
    },
    "learned": {
@@ -273,17 +273,17 @@
       "text_he": "לפי WhatsApp ‏(31/08/26): Avg Daily Revenue ירד ב-2.3% ו-Avg PU ירד ב-3.0% (שינוי יחסי); 'הוחלט שלא להטמיע לחודש נוסף'. לא אומת מול לשונית תוצאות.",
       "tag": "explicit_in_source",
       "source_refs": [
-       "wa:wa332"
+       "wa:wa9332"
       ]
      }
     ],
-    "fingerprint": "7181bdf4362c924d",
+    "fingerprint": "a294a0193ec2754b",
     "inputs": {
      "results:": "4f53cda18c2baa0c",
      "expl:what_happened": "a1a0ba8a709b8c3b",
      "expl:business_meaning": "119e81b7bbc1373b",
      "expl:decided": "4fc8c43bb05ec4f7",
-     "wa:wa332": "0ca8b13287e638ee",
+     "wa:wa9332": "0ca8b13287e638ee",
      "generator": "he6-v2"
     }
    },
@@ -310,11 +310,11 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331",
-       "wa:wa332",
+       "wa:wa9331",
+       "wa:wa9332",
        "mp_dashboard:11406328#text_card[0]",
-       "wa:wa341",
-       "wa:wa330"
+       "wa:wa9341",
+       "wa:wa9330"
       ]
      },
      {
@@ -322,11 +322,11 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11321112#text_card[0]",
-       "wa:wa331",
-       "wa:wa332",
+       "wa:wa9331",
+       "wa:wa9332",
        "mp_dashboard:11406328#text_card[0]",
-       "wa:wa341",
-       "wa:wa330"
+       "wa:wa9341",
+       "wa:wa9330"
       ]
      },
      {
@@ -337,7 +337,7 @@
       ]
      }
     ],
-    "fingerprint": "108b2feb8fb4ef32",
+    "fingerprint": "17a3479cdb4bd387",
     "inputs": {
      "curated:questions": "076c05edadc71286",
      "curated:conflicts": "7c5319ea256c5a62",
@@ -348,10 +348,10 @@
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
-     "wa:wa331": "630f34718adb3f08",
-     "wa:wa332": "0ca8b13287e638ee",
-     "wa:wa341": "caf2b1175f7e5133",
-     "wa:wa330": "17415988d0b8552d"
+     "wa:wa9331": "630f34718adb3f08",
+     "wa:wa9332": "0ca8b13287e638ee",
+     "wa:wa9341": "caf2b1175f7e5133",
+     "wa:wa9330": "17415988d0b8552d"
     }
    }
   }
@@ -382,13 +382,13 @@
     "match_check": "MATCH: same game, 1109 Whammy For DT Finishers (v1)"
    },
    {
-    "ref": "wa:wa331",
+    "ref": "wa:wa9331",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-07-29"
    },
    {
-    "ref": "wa:wa332",
+    "ref": "wa:wa9332",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-08-31"
@@ -400,13 +400,13 @@
     "match_check": "POSSIBLE-strong (number 1110 vs 1109, same name): looks like the next phase; kept unlinked"
    },
    {
-    "ref": "wa:wa341",
+    "ref": "wa:wa9341",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-07-01"
    },
    {
-    "ref": "wa:wa330",
+    "ref": "wa:wa9330",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-07-23"
@@ -539,7 +539,7 @@
    "match": "id+name · 100% name tokens"
   },
   {
-   "id": "wa330",
+   "id": "wa9330",
    "date": "2026-07-23",
    "kind": "issue",
    "decision": null,
@@ -552,7 +552,7 @@
    "match": "name"
   },
   {
-   "id": "wa331",
+   "id": "wa9331",
    "date": "2026-07-29",
    "kind": "test",
    "decision": "launched",
@@ -562,7 +562,7 @@
    "match": "name"
   },
   {
-   "id": "wa332",
+   "id": "wa9332",
    "date": "2026-08-31",
    "kind": "test",
    "decision": "not deployed (another month)",
@@ -575,7 +575,7 @@
    "match": "name"
   },
   {
-   "id": "wa341",
+   "id": "wa9341",
    "date": "2026-07-01",
    "kind": "test",
    "decision": "launched",
@@ -594,6 +594,6 @@
   "Whammy",
   "BWF"
  ],
- "content_fingerprint": "8f791a69a19af256077d5bfa716a6227d0aa283b7b003b7f07f660d451b7f4af",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "2f09cce027f01f87d4b7f4a2b776fd9a30cab262b3c6dd0be2804cdea0af9a94",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "Start Pet Earlier",
   "lifecycle": "backlog",
-  "board_status_raw": "Backlog",
-  "board_group": "💡 Ideas / Backlog",
+  "board_status_raw": "Candidate",
+  "board_group": "⭐ Candidate / Short List",
   "backlog_substatus": {
    "sub": null
   },
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "6c2d26a5dc3d1396e9993eef9b872398903c4d659df8522713115756add33ab7",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "ec49bbeadb5beba3ec30a6fd3409d1664916308f7702e1e32148497bcc41dfef",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

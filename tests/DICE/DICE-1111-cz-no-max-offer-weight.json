@@ -15,7 +15,7 @@
   "name": "1111 - CZ No Max Offer Weight",
   "lifecycle": "completed_board_only",
   "board_status_raw": "Deploy",
-  "board_group": "Live",
+  "board_group": "Completed",
   "board_decision_raw": "Implemented",
   "board_category": "deploy",
   "outcome_label": null,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -390,6 +390,6 @@
  "glossary_concepts": [
   "CZ"
  ],
- "content_fingerprint": "c36ee7bc720f3856249e5af04799cb96ad750022d9266db144ee167cf8eaa969",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "3b3ece0a371894580b507ab24d124e7af54b8237c81986f20ddcc30ffd8e1951",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

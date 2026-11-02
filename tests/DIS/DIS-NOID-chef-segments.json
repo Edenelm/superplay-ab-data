@@ -14,8 +14,8 @@
   "board_test_number": null,
   "name": "Chef Segments",
   "lifecycle": "backlog",
-  "board_status_raw": "Working On",
-  "board_group": "⭐ Candidate / Short List",
+  "board_status_raw": "Scrapped",
+  "board_group": "🗑 Scrapped",
   "backlog_substatus": {
    "sub": null
   },
@@ -71,6 +71,14 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-02",
+   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -214,6 +222,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "22a973345e93292342c2616c60613088e84411e3cabaa959d11b2af127d672fd",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "a087bb32ee84e941f530086df5a3d9586cd9b2bd99ceba01b52d57ca1af8973f",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

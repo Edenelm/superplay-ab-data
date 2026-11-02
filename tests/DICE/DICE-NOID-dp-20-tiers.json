@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -164,8 +164,8 @@
       "text_he": "סתירה: באילו טירים הקושי זהה לקונטרול: Amir Harush ‏(28/09/26 16:02) כתב '20 טירים עם פי 2 בקושי (קושי זהה עד טיר 10)', ו-Rotem Hadar ‏(16:09) כתב '13 טירים ראשונים בטסט בקושי של 12 בקונטרול, 20 טירים = כפול 2 מ-12 בקונטרול'. שאלה: מה נכון?",
       "tag": "explicit_in_source",
       "source_refs": [
-       "wa:wa335",
-       "wa:wa336"
+       "wa:wa9335",
+       "wa:wa9336"
       ]
      },
      {
@@ -176,7 +176,7 @@
       ]
      }
     ],
-    "fingerprint": "80d1048a3f7a5649",
+    "fingerprint": "0a35706e7cd6b816",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
@@ -186,7 +186,7 @@
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
-     "extra:conflicts": "48b791ea3a03fc13",
+     "extra:conflicts": "b5c1494f67c41791",
      "generator": "he6-v2"
     }
    }
@@ -380,7 +380,7 @@
    "match": "name · 100% name tokens"
   },
   {
-   "id": "wa335",
+   "id": "wa9335",
    "date": "2026-09-28",
    "kind": "test",
    "decision": "launched",
@@ -394,7 +394,7 @@
    "match": "name"
   },
   {
-   "id": "wa336",
+   "id": "wa9336",
    "date": "2026-09-28",
    "kind": "test",
    "decision": null,
@@ -410,6 +410,6 @@
  "glossary_concepts": [
   "Dream Pass"
  ],
- "content_fingerprint": "4e2e9fb4cac056f987e5be37365d7b68b2b8386b627e7874997a838f0770d320",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "7ced28afa9157616dd45c48d537ffdec2d25e97ab9df3f66234d64d4832de6ad",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

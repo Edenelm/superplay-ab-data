@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "NPU",
   "Dormants"
  ],
- "content_fingerprint": "7b67bd2e2075c265bcbd3c76bda23d957bff69c8c5eb433ba4cd8eac9bfb4dfe",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "12c8ca1fe62caefb0c395417c732f43b88731a5214d0047193ceb8c803107ab8",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

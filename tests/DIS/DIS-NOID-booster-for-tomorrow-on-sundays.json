@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -217,6 +217,6 @@
   "Churners",
   "MTX"
  ],
- "content_fingerprint": "f8b00f35a4720549777630e21aae9ffd86a287eb734095067fed60798127ba9f",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "74acf4178fdb4b8e96ea087c2142a6eb7f3422035f4dff2e6e5c0bbde529eff5",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

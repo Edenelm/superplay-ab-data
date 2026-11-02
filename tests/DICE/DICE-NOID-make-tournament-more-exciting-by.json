@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -220,6 +220,6 @@
   "Rolls / Ticks",
   "Tournament"
  ],
- "content_fingerprint": "6dc912df313bc29013b9470a1cf19c01df38565246587a24475c86a78b61049c",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "7f99df4ac257e195c372aaacd12ac8a6f7c327f6d6b0858f28e420c22023a516",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

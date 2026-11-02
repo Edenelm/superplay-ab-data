@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "Mode 4x Default for High Balance",
   "lifecycle": "backlog",
-  "board_status_raw": "Candidate",
+  "board_status_raw": "Working On",
   "board_group": "⭐ Candidate / Short List",
   "backlog_substatus": {
    "sub": null
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "b0c5aa920223228a509b63fb6a838e2c3fd8d36fc040ddb6f8c910de0ac26642",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "71d9bcd33da2fc404a4d6b009e5abf4fe96946f532269e0375e20abecd299738",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

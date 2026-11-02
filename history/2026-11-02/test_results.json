@@ -1,0 +1,6002 @@
+{
+ "dataset": "test_results",
+ "contract_version": "1.3.0",
+ "generated_at": "2026-11-02T08:40:18+02:00",
+ "timezone": "Asia/Jerusalem",
+ "append_only": true,
+ "records": [
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m01",
+   "metric": "Gross Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$770,836",
+     "value": 770836.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$785,496",
+     "value": 785496.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.9,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B6:D6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "689ad4eea1637c17"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m02",
+   "metric": "Net Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$615,438",
+     "value": 615438.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$641,752",
+     "value": 641752.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.28,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B8:D8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "e118feca38508352"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m03",
+   "metric": "Net IAP Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$524,176",
+     "value": 524176.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$548,405",
+     "value": 548405.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.62,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B12:D12"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "8b86a31c8474b823"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m04",
+   "metric": "FTD Rate",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "7.76%",
+     "value": 7.76,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "7.75%",
+     "value": 7.75,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.13,
+   "abs_diff_pp": -0.01,
+   "uncertainty": {
+    "p_value": 0.16,
+    "ci": null,
+    "note": "% (rel) · p=0.16 · −0.01 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B15:E15"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract"
+   },
+   "record_hash": "f2a9a0ef11e406ab"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m05",
+   "metric": "FTD to 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "37.23%",
+     "value": 37.23,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "36.93%",
+     "value": 36.93,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.81,
+   "abs_diff_pp": -0.3,
+   "uncertainty": {
+    "p_value": 0.31,
+    "ci": null,
+    "note": "% (rel) · p=0.31 · −0.30 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B16:E16"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract"
+   },
+   "record_hash": "063b324983d7d654"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m06",
+   "metric": "DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "102,979",
+     "value": 102979.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "104,805",
+     "value": 104805.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.77,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B18:D18"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d36400612d5fb031"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m07",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "16,106",
+     "value": 16106.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "16,158",
+     "value": 16158.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.32,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B20:D20"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "23220fef7cc0424c"
+  },
+  {
+   "test_id": "DICE-199-dtc-from-1st-purchase-android",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-18",
+    "end": "2026-01-18 (board) · tab window ends 14/01/2026 11:00 UTC",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue rows have no p-value/CI → directional. FTD: p=0.16 and 0.31 shown → no significant change.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-199-dtc-from-1st-purchase-android::m08",
+   "metric": "Retention D30",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "11.26%",
+     "value": 11.26,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "11.01%",
+     "value": 11.01,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.22,
+   "abs_diff_pp": -0.25,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · −0.25 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
+    "tab": "199 - DTC 1st Purchase (anrodid)",
+    "cell_range": "B28:D28"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "260f8920fea7a0df"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m01",
+   "metric": "Gross Revenues (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,781,058",
+     "value": 1781058.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,813,501",
+     "value": 1813501.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.82,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 1.33%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C8:F8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "58230f1188b0a441"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m02",
+   "metric": "PU (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "40,714",
+     "value": 40714.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "40,797",
+     "value": 40797.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.2,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −0.48%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C10:F10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "657c377d5b9d5bd5"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m03",
+   "metric": "PAU (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "49,616",
+     "value": 49616.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "49,420",
+     "value": 49420.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.4,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.11%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C12:F12"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "b3b00718460b14db"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m04",
+   "metric": "Avg TRX (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "0.63",
+     "value": 0.63,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "0.63",
+     "value": 0.63,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.8,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff 2 weeks 2.69%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C25:F25"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "443102f0d87fdad2"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m05",
+   "metric": "Avg purchase amount (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "12.34",
+     "value": 12.34,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "12.50",
+     "value": 12.5,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.3,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff 2 weeks −0.03%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "C26:F26"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "7af1c58039c9775b"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p01",
+   "metric": "phase v1 · 12–13/08 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "5.08%",
+     "value": 5.08,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "5.98%",
+     "value": 5.98,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "implement",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "844782d78901c225"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p02",
+   "metric": "phase v2 · 31/08–03/09 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "−0.08%",
+     "value": -0.08,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "0.85%",
+     "value": 0.85,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "implement",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "ffbb498b9b78479d"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p03",
+   "metric": "phase v3 · 07–11/09 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "1.49%",
+     "value": 1.49,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "0.54%",
+     "value": 0.54,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "1 more iter with 2 cz offers",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "d6254995ec4e5681"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1113-limited-stock-offer-recomp::p04",
+   "metric": "phase v4 · 21–25/09 (columns per source E8:F8, C3)",
+   "groups": [
+    {
+     "group": "source column 1",
+     "value_raw": "1.82%",
+     "value": 1.82,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "source column 2",
+     "value_raw": "1.33%",
+     "value": 1.33,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "phase_decision": "deploy",
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
+    "cell_range": "E8:F8, C3"
+   },
+   "null_reasons": {
+    "population_size": "not captured",
+    "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
+    "abs_diff_pp": "not shown",
+    "p_value": "not shown"
+   },
+   "record_hash": "c3a5daea3462a98a"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m01",
+   "metric": "DAU",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "9,860",
+     "value": 9860.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "9,860",
+     "value": 9860.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B28:D28"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "1d687ee8b6960ec0"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m02",
+   "metric": "PAU",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "1,935",
+     "value": 1935.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "1,870",
+     "value": 1870.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -3.36,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B29:D29"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3833ef264e00c505"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m03",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "730",
+     "value": 730.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "690",
+     "value": 690.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -5.48,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B30:D30"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a95d584e0f20dd45"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m04",
+   "metric": "Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$146,450",
+     "value": 146450.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$124,070",
+     "value": 124070.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -15.28,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B31:D31"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "94896e3580f26562"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m05",
+   "metric": "Net Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$119,000",
+     "value": 119000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$92,430",
+     "value": 92430.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -22.33,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B32:D32"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "7007af5d67883462"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m06",
+   "metric": "AVG Transactions",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "5.743",
+     "value": 5.743,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "5.720",
+     "value": 5.72,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.4,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B33:D33"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "bc52c01aaf648a7f"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m07",
+   "metric": "FTD",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "7.31%",
+     "value": 7.31,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "7.43%",
+     "value": 7.43,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.64,
+   "abs_diff_pp": 0.12,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.12 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B34:D34"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3e5e2ea54cd3e84b"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m08",
+   "metric": "STD",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "4.72%",
+     "value": 4.72,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "4.86%",
+     "value": 4.86,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2.97,
+   "abs_diff_pp": 0.14,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.14 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B35:D35"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "32b4d3fc7add426c"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-new-users",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-values/CI; board notes small population; DAU 9,860 in both arms (likely rounded).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-new-users::m09",
+   "metric": "TTD",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "3.47%",
+     "value": 3.47,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "3.63%",
+     "value": 3.63,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.61,
+   "abs_diff_pp": 0.16,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.16 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users (rows 25–46)",
+    "cell_range": "B36:D36"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3aca8f31132c751e"
+  },
+  {
+   "test_id": "DOM-1543-rv-stuck-in-funnel-users",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-24",
+    "end": "2026-07-26 (board) · tab: implemented mid-July 2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "CI column (G2) empty. Revenue includes RV ad revenue; IAP not shown separately; PU fell.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1543-rv-stuck-in-funnel-users::m01",
+   "metric": "Gross Rev (including rv)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "67.11K",
+     "value": 67.11,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "83.7K",
+     "value": 83.7,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 24.71,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-in-diff 24.71%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
+    "tab": "Test Results - with 1 day hangover",
+    "cell_range": "B4:F4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d4f9b062e0af2de1"
+  },
+  {
+   "test_id": "DOM-1543-rv-stuck-in-funnel-users",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-24",
+    "end": "2026-07-26 (board) · tab: implemented mid-July 2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "CI column (G2) empty. Revenue includes RV ad revenue; IAP not shown separately; PU fell.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1543-rv-stuck-in-funnel-users::m02",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "669.00",
+     "value": 669.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "660.00",
+     "value": 660.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.31,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-in-diff −1.31%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
+    "tab": "Test Results - with 1 day hangover",
+    "cell_range": "B5:F5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "49e4b47fcdc8e930"
+  },
+  {
+   "test_id": "DOM-1543-rv-stuck-in-funnel-users",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-24",
+    "end": "2026-07-26 (board) · tab: implemented mid-July 2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "CI column (G2) empty. Revenue includes RV ad revenue; IAP not shown separately; PU fell.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1543-rv-stuck-in-funnel-users::m03",
+   "metric": "DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "36.88K",
+     "value": 36.88,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "36.28K",
+     "value": 36.28,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.63,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test −1.51% · diff-in-diff −0.12%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
+    "tab": "Test Results - with 1 day hangover",
+    "cell_range": "B6:F6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "e53e9b2fa6c3b260"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m01",
+   "metric": "Revenues · all users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$15,295,441",
+     "value": 15295441.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$15,444,806",
+     "value": 15444806.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.98,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · DiD 0.35%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "B4:F4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a6f331c9551c1fa8"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m02",
+   "metric": "PU · all users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "22,595",
+     "value": 22595.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "22,628",
+     "value": 22628.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.15,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · DiD −0.92%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "B7:F7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ed1f4655868d7a1b"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m03",
+   "metric": "Paid Wilds/Level · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "0.1246",
+     "value": 0.1246,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "0.1172",
+     "value": 0.1172,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -5.94,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · DiD −7.02%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "B11:F11"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "01a6ea272532954c"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m04",
+   "metric": "D30 · all users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "74.09%",
+     "value": 74.09,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "74.16%",
+     "value": 74.16,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.09,
+   "abs_diff_pp": 0.07,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.07 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "B19:F19"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ecae1a01250852b6"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m05",
+   "metric": "Revenues · new users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,444,693",
+     "value": 1444693.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,529,529",
+     "value": 1529529.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5.87,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · cell L4 '90%'"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "I4:L4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d4d3d55bbd4ce546"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m06",
+   "metric": "PAU · new users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "8,327",
+     "value": 8327.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "8,501",
+     "value": 8501.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2.1,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "I6:K6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "fc04ed4b052983bb"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m07",
+   "metric": "PU · new users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "2,365",
+     "value": 2365.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "2,415",
+     "value": 2415.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2.11,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "I7:K7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "e973660b4cb82bcd"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m08",
+   "metric": "Avg Price · new users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "6.52",
+     "value": 6.52,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "6.72",
+     "value": 6.72,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 3.08,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "I9:K9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "0bba6a6357072adf"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1550-inflation-of-wild-cost::m09",
+   "metric": "D30 · new users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "15.94%",
+     "value": 15.94,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "16.07%",
+     "value": 16.07,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.82,
+   "abs_diff_pp": 0.13,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.13 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "I19:K19"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "696c1a3d513d6c07"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m01",
+   "metric": "Rev",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$6.18M",
+     "value": 6.18,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$6.08M",
+     "value": 6.08,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B4:D4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "23a21568698f1cbe"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m02",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "5262",
+     "value": 5262.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "5346",
+     "value": 5346.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B5:D5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a63014b69b7189b3"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m03",
+   "metric": "FTD (count)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "37.44K",
+     "value": 37.44,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "37.69K",
+     "value": 37.69,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.5,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B6:D6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a467cceba744f9a6"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m04",
+   "metric": "NPU->$4td",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "19.62K",
+     "value": 19.62,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "20.12K",
+     "value": 20.12,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2.4,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B7:D7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "c466835897895ecc"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m05",
+   "metric": "Retention Day 7",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "72%",
+     "value": 72.0,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "73%",
+     "value": 73.0,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2,
+   "abs_diff_pp": 1.0,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% as labelled (rel) · ~+1 pp as displayed"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B8:D8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "f3b5975f860a9e72"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m06",
+   "metric": "Avg Daily Game Time",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "41",
+     "value": 41.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "42",
+     "value": 42.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 3,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B9:D9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a05d2069705c05a0"
+  },
+  {
+   "test_id": "DOM-1533-daily-calendar-session-extension",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-08",
+    "end": "2026-08-31",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "No sample sizes, no p/CI, no dates on tab.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1533-daily-calendar-session-extension::m07",
+   "metric": "Avg Daily Brut Wins",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "26",
+     "value": 26.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "27",
+     "value": 27.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2.8,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
+    "tab": "1533- Daily Calendar Session Extension",
+    "cell_range": "B10:D10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "4c9dcfdfe80d732c"
+  },
+  {
+   "test_id": "DIS-115-make-any-purchase",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-04",
+    "end": "2026-03-30",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-115-make-any-purchase::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Deploy (status Deployed). Decision summary / notes on board: empty.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300044117",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "e32128f4e880ed87"
+  },
+  {
+   "test_id": "DIS-101-std-expensive-offer-v4-15",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-05-21",
+    "end": "2025-08-17",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-101-std-expensive-offer-v4-15::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Deploy (status Deployed). Decision summary / notes on board: empty.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300057111",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "fa5e8348737c88c6"
+  },
+  {
+   "test_id": "DIS-116-make-any-purchase-v2",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-04-09",
+    "end": "2026-06-25",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-116-make-any-purchase-v2::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Reject (status Lost). Decision summary / notes on board: empty.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300093245",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "9fbe98c906643685"
+  },
+  {
+   "test_id": "DIS-125-make-any-purchase-new-seg",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-09",
+    "end": "running (34 days on board)",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-125-make-any-purchase-new-seg::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Pending (status Active). Decision summary / notes on board: Notes: status?.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13299935472",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "0597b854f4c70b81"
+  },
+  {
+   "test_id": "DIS-124-ays-offer-for-ftd-and",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": true,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-06",
+    "end": "running (37 days on board)",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-124-ays-offer-for-ftd-and::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Pending (status Active). Decision summary / notes on board: Notes: Are we doing it still? · Dashboard link (sheet text): Click Here.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13299935475",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "32d199940b4898ec"
+  },
+  {
+   "test_id": "DIS-108-purchase-funnel-v4",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-12",
+    "end": "2026-01-30",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-108-purchase-funnel-v4::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Reject (status Lost). Decision summary / notes on board: empty.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300110236",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "e2c84f9e36d64f46"
+  },
+  {
+   "test_id": "DIS-041-starter-pack-to-level-75",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-01-16",
+    "end": "2025-01-28",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-041-starter-pack-to-level-75::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Reject (status Lost). Decision summary / notes on board: Dashboard link (sheet text): Click Here.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300059173",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "827350077384c507"
+  },
+  {
+   "test_id": "DIS-111-starter-pack",
+   "game": "Disney Solitaire",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-12-29",
+    "end": "2026-01-29",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics. results link missing from registry import; no results data available",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DIS-111-starter-pack::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Registry decision: Stopped (status Stopped). Decision summary / notes on board: Notes: סגור.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13300060173",
+    "tab": "n/a",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "27366bb9db39371d"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m01",
+   "metric": "Gross Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$362,123",
+     "value": 362123.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$360,577",
+     "value": 360577.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.43,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −0.13%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B4:F4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ec6a5222218f12da"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m02",
+   "metric": "Net Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$350,604",
+     "value": 350604.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$349,842",
+     "value": 349842.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.22,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.08%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B5:F5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "5a09333769002096"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m03",
+   "metric": "Avg DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "169,710",
+     "value": 169710.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "167,835",
+     "value": 167835.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.1,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B9:D9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "dc47132d4a2548b1"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m04",
+   "metric": "Paying Users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1,825",
+     "value": 1825.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "2,470",
+     "value": 2470.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 35.34,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 34.80%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B11:F11"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "bff02d27412d74e4"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m05",
+   "metric": "FTD Rate",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "0.68%",
+     "value": 0.68,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "0.91%",
+     "value": 0.91,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 33.82,
+   "abs_diff_pp": 0.23,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · G12 'P-Value' 0.99 · +0.23 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B12:G12"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ba5c0df4dceaa97f"
+  },
+  {
+   "test_id": "DICE-1102-ftd-high-maturity",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-01-25",
+    "end": "board: empty · tab A1: 3/3/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "G12 'P-Value' = 0.99 for FTD Rate — unclear meaning (not defined in the sheet), so not treated as significance → directional. Revenue rows have no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1102-ftd-high-maturity::m06",
+   "metric": "FTD (count)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "909",
+     "value": 909.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1,234",
+     "value": 1234.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 35.75,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=151164956#gid=151164956",
+    "tab": "Dice Test Results › 1102 - FTD High Maturity",
+    "cell_range": "B15:D15"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "0b02c21431000be4"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m01",
+   "metric": "Avg Daily Gross Rev · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$158,800",
+     "value": 158800.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$154,500",
+     "value": 154500.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.71,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.59%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B5:F5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "1f4b5c36af279c0d"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m02",
+   "metric": "Avg Daily Net Rev · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$115,336",
+     "value": 115336.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$109,901",
+     "value": 109901.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -4.71,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −1.31%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B6:F6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d3fe9518358a03fe"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m03",
+   "metric": "Avg Daily Paying Users · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "8,163",
+     "value": 8163.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "8,311",
+     "value": 8311.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.81,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 1.01%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B9:F9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "90d5d55eb53caeee"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m04",
+   "metric": "FTD · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "5.04%",
+     "value": 5.04,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "5.30%",
+     "value": 5.3,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5.16,
+   "abs_diff_pp": 0.26,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.26 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B10:F10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "88b7c9d0e521f9b9"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m05",
+   "metric": "Avg Daily Gross Rev · new",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$4,809",
+     "value": 4809.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$4,471",
+     "value": 4471.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -7.03,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B13:D13"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d10f1dbd6f9061c6"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m06",
+   "metric": "Avg PAU · new",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1,012",
+     "value": 1012.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1,047",
+     "value": 1047.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 3.46,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B16:D16"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "0273796d72be273d"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1109-remove-android-dtc::m07",
+   "metric": "FTD · new players",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "8.64%",
+     "value": 8.64,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "9.34%",
+     "value": 9.34,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 8.1,
+   "abs_diff_pp": 0.7,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · +0.70 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "Dice Test Results › 1109 - Remove DTC Android",
+    "cell_range": "B18:D18"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "39bed67af347a2cb"
+  },
+  {
+   "test_id": "DICE-1104-bingo-vs-native",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-31",
+    "end": "tab A2: 9.4.26 · board end empty",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance shown → directional. iOS block shows 5TD, not FTD (G11:I11).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1104-bingo-vs-native::m01",
+   "metric": "Avg Daily Gross Rev · Android",
+   "groups": [
+    {
+     "group": "Control (Native)",
+     "value_raw": "$289,000",
+     "value": 289000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test (Bingo)",
+     "value_raw": "$329,900",
+     "value": 329900.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 14.15,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
+    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
+    "cell_range": "B6:D6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "8e98e7231221f23a"
+  },
+  {
+   "test_id": "DICE-1104-bingo-vs-native",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-31",
+    "end": "tab A2: 9.4.26 · board end empty",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance shown → directional. iOS block shows 5TD, not FTD (G11:I11).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1104-bingo-vs-native::m02",
+   "metric": "Avg Daily Net Rev · Android",
+   "groups": [
+    {
+     "group": "Control (Native)",
+     "value_raw": "$224,300",
+     "value": 224300.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test (Bingo)",
+     "value_raw": "$257,100",
+     "value": 257100.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 14.62,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
+    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
+    "cell_range": "B7:D7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "abeb081bca93e93f"
+  },
+  {
+   "test_id": "DICE-1104-bingo-vs-native",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-31",
+    "end": "tab A2: 9.4.26 · board end empty",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance shown → directional. iOS block shows 5TD, not FTD (G11:I11).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1104-bingo-vs-native::m03",
+   "metric": "Avg PU · Android",
+   "groups": [
+    {
+     "group": "Control (Native)",
+     "value_raw": "762",
+     "value": 762.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test (Bingo)",
+     "value_raw": "800",
+     "value": 800.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.99,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
+    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
+    "cell_range": "B10:D10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ee5981595b413d32"
+  },
+  {
+   "test_id": "DICE-1104-bingo-vs-native",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-31",
+    "end": "tab A2: 9.4.26 · board end empty",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance shown → directional. iOS block shows 5TD, not FTD (G11:I11).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1104-bingo-vs-native::m04",
+   "metric": "FTD · Android",
+   "groups": [
+    {
+     "group": "Control (Native)",
+     "value_raw": "7.74%",
+     "value": 7.74,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "Test (Bingo)",
+     "value_raw": "7.72%",
+     "value": 7.72,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.26,
+   "abs_diff_pp": -0.02,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% (rel) · −0.02 pp"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
+    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
+    "cell_range": "B11:D11"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "0c34622c804cc365"
+  },
+  {
+   "test_id": "DICE-1104-bingo-vs-native",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-31",
+    "end": "tab A2: 9.4.26 · board end empty",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance shown → directional. iOS block shows 5TD, not FTD (G11:I11).",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1104-bingo-vs-native::m05",
+   "metric": "Avg Transaction Amount",
+   "groups": [
+    {
+     "group": "Control (Native)",
+     "value_raw": "$5.80",
+     "value": 5.8,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test (Bingo)",
+     "value_raw": "$6.20",
+     "value": 6.2,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 6.9,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
+    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
+    "cell_range": "B13:D13"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "189b4196730038fa"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m01",
+   "metric": "Gross Revenues (w/RV)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,670,000",
+     "value": 1670000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,640,000",
+     "value": 1640000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.95,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C4:E4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "f49e76dc7ab6e803"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m02",
+   "metric": "Net Revenues (w/RV)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,400,000",
+     "value": 1400000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,400,000",
+     "value": 1400000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.14,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C5:E5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "006cd6e828af6d52"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m03",
+   "metric": "Net Rev – 1st 3 purchases",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$138,000",
+     "value": 138000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$155,000",
+     "value": 155000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 12.1,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C6:E6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3f9d77eeff411a87"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m04",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "27,650",
+     "value": 27650.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "27,980",
+     "value": 27980.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.18,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "C10:E10"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "fadff49133d64848"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m05",
+   "metric": "FTD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.14,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "E11"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "22b0482f505eac93"
+  },
+  {
+   "test_id": "DICE-197-dtc-from-1st-purchase-apple",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-09-30",
+    "end": "2025-12-15",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Revenue and PU rows have control/test values but no significance → directional. FTD (E11) and retention (E13:E14) show only an uplift.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-197-dtc-from-1st-purchase-apple::m06",
+   "metric": "Retention D30",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.55,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
+    "tab": "197 summary workbook › Sheet1",
+    "cell_range": "E14"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "adfcd2d7defb2024"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m01",
+   "metric": "[A] PU",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "3,606",
+     "value": 3606.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "3,593",
+     "value": 3593.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.36,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.64%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B6:E6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "9aaad91b2c4c03df"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m02",
+   "metric": "[A] Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$1,447,000",
+     "value": 1447000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$1,442,000",
+     "value": 1442000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.35,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 5.17%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B7:E7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "c869d1e4fb84565c"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m03",
+   "metric": "[A] Net Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$1,114,000",
+     "value": 1114000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$1,083,000",
+     "value": 1083000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2.78,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 2.47%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B8:E8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "08eef359f41c4cc2"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m04",
+   "metric": "[A] FTD",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "2.54%",
+     "value": 2.54,
+     "value_unit": "pct",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "2.67%",
+     "value": 2.67,
+     "value_unit": "pct",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5.12,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% as shown in D9"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B9:D9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "4f82a9232d59c333"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-1103-scare-screen-users-that-never::m05",
+   "metric": "[B] Stripe CVR (10 min)",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -10.81,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "",
+    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
+    "cell_range": "B4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "478b8fc3cd553ae6"
+  },
+  {
+   "test_id": "DICE-195-ftd-offer-3po",
+   "game": "Dice Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-08-21",
+    "end": "2025-09-02",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DICE-195-ftd-offer-3po::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data. Board status Aborted.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/9494658232/pulses/9551676501",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "86132fad4abca9ea"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m01",
+   "metric": "Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$6,104,714",
+     "value": 6104714.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$6,132,454",
+     "value": 6132454.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.45,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test 0.22% · DiD 0.23%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "B4:F4"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "b6816555c015ee03"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m02",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "19,937",
+     "value": 19937.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "20,056",
+     "value": 20056.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test 1.04% · DiD −0.44%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "B7:F7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "18304d287825f581"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m03",
+   "metric": "Time between FTD and STD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1.1D",
+     "value": 1.1,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1.1D",
+     "value": 1.1,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.67,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test −3.80% · DiD 3.13%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "B14:F14"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "acbee2026fbd15be"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m04",
+   "metric": "Revenues · under 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$650,219",
+     "value": 650219.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$658,099",
+     "value": 658099.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.21,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "N6:P6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a30295fd449a1fa8"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m05",
+   "metric": "PU · under 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "3,052",
+     "value": 3052.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "3,027",
+     "value": 3027.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.82,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
+    "cell_range": "N9:P9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "81eb7f7b41905d25"
+  },
+  {
+   "test_id": "DOM-1551-1551-scrolling-under-250",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-23",
+    "end": "2026-09-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "FTD numbers are not in the range read (A1:P60) — only the K1 note mentions them. No significance → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1551-1551-scrolling-under-250::m01",
+   "metric": "Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "2.5m",
+     "value": 2.5,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "2.4M",
+     "value": 2.4,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -3.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1zOJEwTr-7vaB7ok7uUK8_EahzwlYIKVBRYIRaSynWZE/edit",
+    "tab": "1551 Scrolling Offer Under 250 › Sheet1",
+    "cell_range": "B5:D5"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "b15311b23a12225e"
+  },
+  {
+   "test_id": "DOM-1551-1551-scrolling-under-250",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-23",
+    "end": "2026-09-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "FTD numbers are not in the range read (A1:P60) — only the K1 note mentions them. No significance → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1551-1551-scrolling-under-250::m02",
+   "metric": "DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "88K",
+     "value": 88.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "89K",
+     "value": 89.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1zOJEwTr-7vaB7ok7uUK8_EahzwlYIKVBRYIRaSynWZE/edit",
+    "tab": "1551 Scrolling Offer Under 250 › Sheet1",
+    "cell_range": "B6:D6"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "33796adf14800732"
+  },
+  {
+   "test_id": "DOM-1551-1551-scrolling-under-250",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-23",
+    "end": "2026-09-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "FTD numbers are not in the range read (A1:P60) — only the K1 note mentions them. No significance → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1551-1551-scrolling-under-250::m03",
+   "metric": "PAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "20.4k",
+     "value": 20.4,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "20.5K",
+     "value": 20.5,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.6,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1zOJEwTr-7vaB7ok7uUK8_EahzwlYIKVBRYIRaSynWZE/edit",
+    "tab": "1551 Scrolling Offer Under 250 › Sheet1",
+    "cell_range": "B7:D7"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ff22cf229109398d"
+  },
+  {
+   "test_id": "DOM-1551-1551-scrolling-under-250",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-23",
+    "end": "2026-09-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "FTD numbers are not in the range read (A1:P60) — only the K1 note mentions them. No significance → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1551-1551-scrolling-under-250::m04",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "4015",
+     "value": 4015.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "4035",
+     "value": 4035.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.5,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1zOJEwTr-7vaB7ok7uUK8_EahzwlYIKVBRYIRaSynWZE/edit",
+    "tab": "1551 Scrolling Offer Under 250 › Sheet1",
+    "cell_range": "B8:D8"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "e2eecb7634862a5a"
+  },
+  {
+   "test_id": "DOM-1551-1551-scrolling-under-250",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-23",
+    "end": "2026-09-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "FTD numbers are not in the range read (A1:P60) — only the K1 note mentions them. No significance → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1551-1551-scrolling-under-250::m05",
+   "metric": "ARPDAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$0.64",
+     "value": 0.64,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$0.61",
+     "value": 0.61,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -4,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1zOJEwTr-7vaB7ok7uUK8_EahzwlYIKVBRYIRaSynWZE/edit",
+    "tab": "1551 Scrolling Offer Under 250 › Sheet1",
+    "cell_range": "B9:D9"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ec15099a2e47ffff"
+  },
+  {
+   "test_id": "DOM-1494-romantic-treats",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-14",
+    "end": "2026-02-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics (board text only, not traceable to cells)",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1494-romantic-treats::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Board Test Results text: “Mixed impact: PU -1%, FTD -1.5%, Avg Price +1%. Revenue positive for dormancy groups 1-3, negative for group 0.”",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211627991",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "891eb99bafd0988f"
+  },
+  {
+   "test_id": "DOM-1501-duel-vs-tournament-onboarding",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-24",
+    "end": "2026-04-01",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1501-duel-vs-tournament-onboarding::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211730082",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "0772820d2d38361f"
+  },
+  {
+   "test_id": "DOM-1492-popup-win-level-30-in",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-05",
+    "end": "2026-03-06",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1492-popup-win-level-30-in::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211673668",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "237594fa2d6c2909"
+  },
+  {
+   "test_id": "DOM-1494-dtc-scare-screen-tech-launch",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-02-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1494-dtc-scare-screen-tech-launch::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211652511",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "efd05ac13ec00516"
+  },
+  {
+   "test_id": "DOM-1500-no-dtc-new-users",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-01",
+    "end": "n/a",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics retrieved. Mixpanel report values not retrieved. First attempt: stopped by the connector pre-flight ('unbounded date range (since, no end date)'). Re-run on 2026-10-18 with Eden's explicit approval (confirm=true): each saved report returned only its metadata, with results: null — no values, no date range, no significance.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1500-no-dtc-new-users::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211581542",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "d004f85c2c0cfeeb"
+  },
+  {
+   "test_id": "DOM-1460-rv-mania-v2",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-11-19",
+    "end": "2025-12-23",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1460-rv-mania-v2::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211673892",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "6606f90ca3b10fb5"
+  },
+  {
+   "test_id": "DOM-1500-japan-pricing-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-03-02",
+    "end": "2026-04-17",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1500-japan-pricing-test::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211731012",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "bf58970b727e5076"
+  },
+  {
+   "test_id": "DOM-1512-dtc-20-value-for-expensive",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-04-16",
+    "end": "2026-05-05",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1512-dtc-20-value-for-expensive::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12211730973",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "ebbaaf73cbf3d923"
+  },
+  {
+   "test_id": "DOM-1543-rv-opportunistic-for-completers-dormants",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-16",
+    "end": "2026-08-12",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics (board text only, not traceable to cells)",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1543-rv-opportunistic-for-completers-dormants::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "Board Test Results text: “Test was indifferent; aborted”",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12450034201",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "ae832da796267439"
+  },
+  {
+   "test_id": "DOM-NOID-ftd-offer-add-a-20",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": true,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-10-07",
+    "end": "live",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-NOID-ftd-offer-add-a-20::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/13210931762",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "303ad7adf420e43d"
+  },
+  {
+   "test_id": "DOM-1372-new-ftd-offer",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-01-28",
+    "end": "2025-02-13",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1372-new-ftd-offer::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12213175333",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "5f2a95720112a35f"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-all-bundles-high",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2026-04-01 (as on board)",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-all-bundles-high::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12214193185",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "ee88206d6091227d"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m01",
+   "metric": "FTD CVR",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.12,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › FTD"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "fa894e43d198f813"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m02",
+   "metric": "FTD Avg Price",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 6.31,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › FTD"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3fbee8db3b9b35ae"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m03",
+   "metric": "ARPU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -2,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › Revenue"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "3b50fc6dab5beed4"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m04",
+   "metric": "Continued purchases avg price",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.84,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Key Results › Revenue"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "75b670413f6b43f7"
+  },
+  {
+   "test_id": "DOM-1382-ftd-store-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-03-11",
+    "end": "2025-04-16",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values, no sample sizes, no significance) → directional. Source: analysis doc, not a results sheet.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1382-ftd-store-test::m05",
+   "metric": "FTDs made via store",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 7,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/1TxVBz_PQsiqXp76jupzjI8O2_3a6IuNRiPtfLg1wbdE/edit",
+    "tab": "Google Doc '1382 - FTD Store Test' › Key Results / Summary & Recommendation",
+    "cell_range": "Doc › Source & Transaction Behavior"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "6e22dfe1329b1803"
+  },
+  {
+   "test_id": "DOM-1402-vault-late-ftd",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-05-29",
+    "end": "2025-07-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values or sample sizes). '% Positive Lift 80.5%' is shown as in the doc; no significance threshold is stated → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1402-vault-late-ftd::m01",
+   "metric": "FTD · L350–L500 overall",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/19GvUYvHqI8nKSOn6siPrHKVMb_vUu1zxCjYpHmZSEu0/edit",
+    "tab": "Google Doc '1402 - Vault Late FTD Analysis' › Key Results",
+    "cell_range": "Doc › Key Results › Overall (L350–L500)"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "e88556fd5bfe62be"
+  },
+  {
+   "test_id": "DOM-1402-vault-late-ftd",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-05-29",
+    "end": "2025-07-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values or sample sizes). '% Positive Lift 80.5%' is shown as in the doc; no significance threshold is stated → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1402-vault-late-ftd::m02",
+   "metric": "Revenue · L350–L500 overall",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.2,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/19GvUYvHqI8nKSOn6siPrHKVMb_vUu1zxCjYpHmZSEu0/edit",
+    "tab": "Google Doc '1402 - Vault Late FTD Analysis' › Key Results",
+    "cell_range": "Doc › Key Results › Overall (L350–L500)"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "4ac18c0598da4568"
+  },
+  {
+   "test_id": "DOM-1402-vault-late-ftd",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-05-29",
+    "end": "2025-07-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values or sample sizes). '% Positive Lift 80.5%' is shown as in the doc; no significance threshold is stated → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1402-vault-late-ftd::m03",
+   "metric": "NPU→STD · L350–L500",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.15,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/19GvUYvHqI8nKSOn6siPrHKVMb_vUu1zxCjYpHmZSEu0/edit",
+    "tab": "Google Doc '1402 - Vault Late FTD Analysis' › Key Results",
+    "cell_range": "Doc › Key Results › Overall (L350–L500)"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "4a05b85e055a82b3"
+  },
+  {
+   "test_id": "DOM-1402-vault-late-ftd",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-05-29",
+    "end": "2025-07-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values or sample sizes). '% Positive Lift 80.5%' is shown as in the doc; no significance threshold is stated → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1402-vault-late-ftd::m04",
+   "metric": "FTD · new users reaching L350",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 4.74,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · % Positive Lift 80.5%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/19GvUYvHqI8nKSOn6siPrHKVMb_vUu1zxCjYpHmZSEu0/edit",
+    "tab": "Google Doc '1402 - Vault Late FTD Analysis' › Key Results",
+    "cell_range": "Doc › Key Results › New Users Reaching L350"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "913cbbfc07ba3ed7"
+  },
+  {
+   "test_id": "DOM-1402-vault-late-ftd",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2025-05-29",
+    "end": "2025-07-07",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "Uplifts only (no control/test values or sample sizes). '% Positive Lift 80.5%' is shown as in the doc; no significance threshold is stated → directional.",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-1402-vault-late-ftd::m05",
+   "metric": "FTD CVR · above L500",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "—",
+     "value": null,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.5,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · uplift only"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/document/d/19GvUYvHqI8nKSOn6siPrHKVMb_vUu1zxCjYpHmZSEu0/edit",
+    "tab": "Google Doc '1402 - Vault Late FTD Analysis' › Key Results",
+    "cell_range": "Doc › Key Results › Users Above Level 500"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "8847b669ac25a1ce"
+  },
+  {
+   "test_id": "DOM-NOID-vault-for-late-ftd-test",
+   "game": "Domino Dreams",
+   "revision": 1,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-04-01",
+    "end": "2026-04-01 (as on board)",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "insufficient — no metrics",
+   "updated_at": "2026-11-02T08:40:18+02:00",
+   "supersedes": null,
+   "result_id": "DOM-NOID-vault-for-late-ftd-test::s01",
+   "metric": null,
+   "groups": [],
+   "relative_diff_pct": null,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "summary_text": "No results data on the board.",
+   "source": {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18416650776/pulses/12214186624",
+    "tab": "none found",
+    "cell_range": null
+   },
+   "null_reasons": {
+    "metric": "only a narrative summary was captured; no structured metric rows",
+    "population_size": "not captured",
+    "relative_diff_pct": "see summary_text",
+    "abs_diff_pp": "see summary_text",
+    "p_value": "not captured"
+   },
+   "record_hash": "a15f95638cd4f42b"
+  }
+ ]
+}

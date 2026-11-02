@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -128,8 +128,8 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328",
-       "wa:wa329",
+       "wa:wa9328",
+       "wa:wa9329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
@@ -143,14 +143,14 @@
       ]
      }
     ],
-    "fingerprint": "7b737d9c95e092e8",
+    "fingerprint": "d798bc6df3d6d94f",
     "inputs": {
      "curated:control": "0e562f5caa9ae9ad",
      "curated:test": "ab80396f0a82d355",
      "curated:mech": "d448c0e0f65da794",
      "generator": "he6-v2",
-     "wa:wa328": "0bca0d1197e2d44d",
-     "wa:wa329": "3dd31442be58f91b",
+     "wa:wa9328": "0bca0d1197e2d44d",
+     "wa:wa9329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
@@ -164,8 +164,8 @@
       "tag": "interpretation",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328",
-       "wa:wa329"
+       "wa:wa9328",
+       "wa:wa9329"
       ]
      },
      {
@@ -173,8 +173,8 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328",
-       "wa:wa329",
+       "wa:wa9328",
+       "wa:wa9329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
@@ -185,15 +185,15 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328",
-       "wa:wa329",
+       "wa:wa9328",
+       "wa:wa9329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "81b1b5a81f4d9848",
+    "fingerprint": "fc071843b8b97218",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
@@ -203,8 +203,8 @@
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "877fd45abffbe0b1",
      "generator": "he6-v2",
-     "wa:wa328": "0bca0d1197e2d44d",
-     "wa:wa329": "3dd31442be58f91b",
+     "wa:wa9328": "0bca0d1197e2d44d",
+     "wa:wa9329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
@@ -218,17 +218,17 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328"
+       "wa:wa9328"
       ]
      }
     ],
-    "fingerprint": "a28ab2b18270c833",
+    "fingerprint": "a69b843f7e41417c",
     "inputs": {
      "curated:why": "a0b4b01693ddde59",
      "curated:target": "74234e98afe7498f",
      "generator": "he6-v2",
-     "wa:wa328": "0bca0d1197e2d44d",
-     "wa:wa329": "3dd31442be58f91b",
+     "wa:wa9328": "0bca0d1197e2d44d",
+     "wa:wa9329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
@@ -256,8 +256,8 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328",
-       "wa:wa329",
+       "wa:wa9328",
+       "wa:wa9329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
@@ -268,15 +268,15 @@
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11401314#text_card[0]",
-       "wa:wa328",
-       "wa:wa329",
+       "wa:wa9328",
+       "wa:wa9329",
        "monday_update:5404699853",
        "wa:wa100",
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "fa5c5e4147549862",
+    "fingerprint": "97390ead6f1cee97",
     "inputs": {
      "curated:questions": "23edbe96f6f22640",
      "curated:conflicts": "24180984c0c7ac95",
@@ -287,8 +287,8 @@
      "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
-     "wa:wa328": "0bca0d1197e2d44d",
-     "wa:wa329": "3dd31442be58f91b",
+     "wa:wa9328": "0bca0d1197e2d44d",
+     "wa:wa9329": "3dd31442be58f91b",
      "monday_update:5404699853": "3166f2026c8e6a79",
      "wa:wa100": "a74f502fb9df1c12"
     }
@@ -320,13 +320,13 @@
     "match_check": "MATCH: same game, same name 1110 Puzzle onboarding GT V4, start 26/07/2026 = Monday"
    },
    {
-    "ref": "wa:wa328",
+    "ref": "wa:wa9328",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-07-26"
    },
    {
-    "ref": "wa:wa329",
+    "ref": "wa:wa9329",
     "url": null,
     "file": "whatsapp_mechanism_2026-11-01.md",
     "date": "2026-08-18"
@@ -495,7 +495,7 @@
    "match": "id+name · 100% name tokens"
   },
   {
-   "id": "wa328",
+   "id": "wa9328",
    "date": "2026-07-26",
    "kind": "test",
    "decision": "launched",
@@ -505,7 +505,7 @@
    "match": "name"
   },
   {
-   "id": "wa329",
+   "id": "wa9329",
    "date": "2026-08-18",
    "kind": "decision",
    "decision": "deployed",
@@ -533,6 +533,6 @@
   "Segment split notation",
   "GT"
  ],
- "content_fingerprint": "866e70587f31032c494bad2b5f121f35be32472595f3afb1e9c2ca6f5b4b0ed4",
- "last_changed_at": "2026-11-01T13:31:19+02:00"
+ "content_fingerprint": "a9bb949de85f297b0df90cf83ba66b019b550d52deac6f0213974b72e8a129aa",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

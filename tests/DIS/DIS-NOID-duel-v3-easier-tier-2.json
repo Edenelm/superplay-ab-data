@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "glossary_concepts": [
   "Duel"
  ],
- "content_fingerprint": "f13755d288aae1c072b228d4e8773fdecb2e3dd6a1b2796b61928204dda46078",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "845d9439c1457c16ef0a365faea06900e5c7b77a88bd861c48094315679a717d",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

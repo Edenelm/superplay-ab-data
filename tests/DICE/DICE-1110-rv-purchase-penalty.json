@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -589,6 +589,6 @@
   "RV",
   "AD (Active Days)"
  ],
- "content_fingerprint": "f78ffef3128dbfe371cfc89c516cc87c5bb2f77f6f1548276e9e754bb5bd3eb2",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "bfb16bee6428c21638cf5c6722f8043bb589f8ce6940e460cb85ba9e27145b6f",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }

@@ -64,7 +64,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -343,6 +343,6 @@
   "Churners",
   "Weekly Goals"
  ],
- "content_fingerprint": "1282897baeb5891ef5283c2d6dca9ed506a2311648902d09f512e6e6480364d7",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "63467db1fa11bfe2e9f20b7752a4900686c4dcaa9dc4c14057195c050cce429f",
+ "last_changed_at": "2026-11-02T08:40:18+02:00"
 }
