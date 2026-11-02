@@ -1,6 +1,6 @@
 # Metric definitions (from source metadata)
 
-Generated 2026-11-01T12:07:34+02:00 from `data/metric_definitions.json`. Method: source_text copied verbatim from BigQuery table metadata (describe_table, read-only) captured 2026-11-01; status=documented only when the source text answers the question.
+Generated 2026-11-02T16:26:00+02:00 from `data/metric_definitions.json`. Method: source_text copied verbatim from BigQuery table metadata (describe_table, read-only) captured 2026-11-01 (+ Domino DAU lineage tables 2026-11-02); status=documented only when the source text answers the question.
 
 **Rule:** `documented` = the source text itself answers the question. `needs_approval` = open; the app must show the number as "definition pending approval" (or hide it) until Eden approves.
 Dates are passed through exactly as stored (no timezone conversion). Date timezone per source: Dice Dreams: **undocumented**, Domino Dreams: **undocumented**, Disney Solitaire: **UTC**.
@@ -21,7 +21,7 @@ Dates are passed through exactly as stored (no timezone conversion). Date timezo
 | `DOM.revenue_net_usd` | revenue_net_usd | `SUM(IFNULL(user_daily_inapp_net_amount,0) + IFNULL(user_daily_stripe_net_amount,0))` | **needs_approval** |
 | `DOM.ad_revenue_usd` | ad_revenue_usd | `SUM(ad_revenues)` | **needs_approval** |
 | `DOM.payers` | payers | `COUNTIF(IFNULL(number_of_purchases_today,0) > 0)` | **needs_approval** |
-| `DOM.active_users_dau` | active_users_dau | `NOT EXPORTED (null) - definition open` | **needs_approval** |
+| `DOM.active_users_dau` | active_users_dau | `NOT EXPORTED (null) - proposed (needs approval): COUNT(DISTINCT user_id) WHERE NOT special_user_flag AND NOT deactivated_user_flag AND NOT fake_invited_user_flag` | **needs_approval** |
 | `DOM.exclusions` | exclusions | `IFNULL(special_user_flag,FALSE) = FALSE` | **needs_approval** |
 | `DOM.completeness` | completeness | `n/a` | **needs_approval** |
 | `DIS.date_timezone` | date_timezone | `date_dim as stored (not converted)` | **documented** |
@@ -156,17 +156,23 @@ Dates are passed through exactly as stored (no timezone conversion). Date timezo
 ### DOM.active_users_dau (Domino Dreams): needs_approval
 
 - `domino-dreams-dbt.prod_40_mart.user_daily_metrics.pau_flag` (column): "Whether user was active today (PAU - periodic active user). Source: int_user_daily_activity."
-- `domino-dreams-dbt.prod_30_intermediate.int_user_daily_activity.session_count` (column): "Number of sessions the user had on this day. Calculation: count(*). Source: int_sessions."
 - `domino-dreams-dbt.prod_40_mart.user_daily_metrics.sessions_today` (column): "Number of sessions for the day. Source: int_user_daily_activity."
-- `headquarters-dbt.50_reporting.rpt_superplay_agg.pau` (column): "Paying active users. Granularity: date_dim, studio. Calculation: IFNULL(SUM(pau), 0). Source: mrt_daily_agg_dice, mrt_daily_agg_domino, and mrt_daily_agg_solitaire"
+- `domino-dreams-dbt.prod_40_mart.user_daily_metrics.deactivated_user_flag` (column): "Whether user account is deactivated. Source: int_user_profile."
+- `domino-dreams-dbt.prod_40_mart.user_daily_metrics.fake_invited_user_flag` (column): "Whether user is a fake invited user. Grain: user. Source: int_user_profile."
 - `headquarters-dbt.50_reporting.rpt_superplay_agg.dau` (column): "dau. Granularity: date_dim, studio. Source: Aggregated from mrt_daily_agg_dice.dau"
+- `headquarters-dbt.50_reporting.rpt_superplay_agg.pau` (column): "Paying active users. Granularity: date_dim, studio. Calculation: IFNULL(SUM(pau), 0). Source: mrt_daily_agg_dice, mrt_daily_agg_domino, and mrt_daily_agg_solitaire"
+- `headquarters-dbt.40_mart.mrt_daily_agg_domino.dau` (column): "dau. Granularity: date_dim, platform, country_code, media_source. Source: Aggregated from stg_udm_base_domino_vw.dau"
+- `headquarters-dbt.40_mart.mrt_daily_agg_domino.pau` (column): "Paying active users with positive lifetime purchase value. Granularity: date_dim, platform, country_code, media_source. Calculation: COUNT(DISTINCT user_id) where purchase_ltv > 0. Source: stg_udm_base_domino_vw.user_id, stg_udm_base_domino_vw.purchase_ltv"
+- `headquarters-dbt.30_intermediate.int_val_udm_day_agg_domino_vw.dau` (column): "DAU. Granularity: date_dim. Calculation: COUNT DISTINCT user_id after flag filters. Source: domino_dbt_mart.user_daily_metrics.user_id"
+- `headquarters-dbt.30_intermediate.int_val_udm_day_agg_domino_vw` (table_description): "Domino UDM aggregated by date: dau, gross_revenue, net_revenues, ad_revenues, paying_users. Live cutover via domino_dbt_mart.user_daily_metrics (DF user_daily_metrics), with deactivated/special/fake_invited filters. Gross = inapp + stripe; net = inapp_net + stripe_net. Grain: date_dim. Window: last 120 days through yesterday."
+- `domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.dau` (column): "Daily active users count. Source: user_daily_metrics."
+- `domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.pau` (column): "Payer active users count. Source: user_daily_metrics."
 
   Open questions:
-  - How are Domino active users counted? Candidates: every row of the table (~400K/day), pau_flag = TRUE (~170K/day; described as "PAU - periodic active user"), or sessions_today > 0.
-  - The HQ report defines a column "pau" as "Paying active users" - does Domino pau_flag mean periodic active or paying active? The two texts conflict.
-  - Which value matches the official Domino DAU in HQ rpt_superplay_agg.dau? (cannot be checked: no query access to HQ)
+  - Approve Domino DAU = distinct users per date_dim in prod_40_mart.user_daily_metrics excluding special, deactivated and fake_invited users (the filter documented in HQ int_val_udm_day_agg_domino_vw; matches Domino prod_50_reporting.domino_daily_kpis.dau on 29.10, 30.10, 1.11 and within 1 user on 31.10). Note: this uses more exclusions than the other Domino metrics (special only; see DOM.exclusions).
+  - HQ rpt_superplay_agg.dau for Domino comes from mrt_daily_agg_domino.dau, "Aggregated from stg_udm_base_domino_vw.dau"; that staging view was not readable (10_staging blocked; HQ queries 403). Confirm the proposed value equals HQ "Superplay Daily agg" Domino DAU for 29.10-1.11.
 
-  Note: active_users_dau is null for Domino until approved; user_rows and pau_flag_users are exported as raw counts
+  Note: pau_flag is NOT a DAU candidate: in data it is TRUE exactly when lifetime purchase LTV > 0 (paying active user, as HQ mrt_daily_agg_domino.pau "where purchase_ltv > 0"); its column text "periodic active user" does not match the data. All mart rows have sessions_today > 0 (29.10-1.11), so "all rows" = "sessions_today > 0". Candidate values and SQL: tools/evidence/dom_dau_candidates_2026-11-02.json. active_users_dau stays null for Domino until approved; user_rows and pau_flag_users are exported as raw counts
 
 ### DOM.exclusions (Domino Dreams): needs_approval
 
@@ -275,13 +281,12 @@ Dates are passed through exactly as stored (no timezone conversion). Date timezo
 16. `DOM.ad_revenue_usd`: Gross or net of ad-network share? Not stated.
 17. `DOM.ad_revenue_usd`: Include in "revenue"? (see ALL.revenue_includes_ads)
 18. `DOM.payers`: pu_flag says "Whether user is a paying user" without saying whether that means paid today or ever. Approve payer = number_of_purchases_today > 0, or pu_flag. (Observed in the 29-31.10 export: both counts were equal; observation only.)
-19. `DOM.active_users_dau`: How are Domino active users counted? Candidates: every row of the table (~400K/day), pau_flag = TRUE (~170K/day; described as "PAU - periodic active user"), or sessions_today > 0.
-20. `DOM.active_users_dau`: The HQ report defines a column "pau" as "Paying active users" - does Domino pau_flag mean periodic active or paying active? The two texts conflict.
-21. `DOM.active_users_dau`: Which value matches the official Domino DAU in HQ rpt_superplay_agg.dau? (cannot be checked: no query access to HQ)
-22. `DOM.exclusions`: Which user flags should be excluded for official numbers? Export excludes only special_user_flag; deactivated / suspected cheater / fake invited are kept.
-23. `DOM.completeness`: Refresh / late-arrival window of the Domino mart is undocumented. Until documented, recent days are flagged provisional by an observed rule (see manifest.completeness_rules).
-24. `DIS.ad_revenue_usd`: Source documents the AppLovin-first logic but not whether ad revenue is gross or net of ad-network share.
-25. `DIS.ad_revenue_usd`: Include in "revenue"? (see ALL.revenue_includes_ads)
-26. `DIS.payers`: No payer column is defined. Approve "payer = user with a valid purchase on the date" (gross_revenue > 0; trx_cnt > 0 is the documented purchase count).
-27. `ALL.revenue_includes_ads`: Should the app headline "revenue" include ads? The HQ report total_revenues = gross IAP + NET ads. Game tables expose ads separately.
-28. `ALL.gross_comparability`: Solitaire gross is documented VAT-exclusive; Dice and Domino VAT treatment is undocumented. Until confirmed, do not sum or compare gross across games.
+19. `DOM.active_users_dau`: Approve Domino DAU = distinct users per date_dim in prod_40_mart.user_daily_metrics excluding special, deactivated and fake_invited users (the filter documented in HQ int_val_udm_day_agg_domino_vw; matches Domino prod_50_reporting.domino_daily_kpis.dau on 29.10, 30.10, 1.11 and within 1 user on 31.10). Note: this uses more exclusions than the other Domino metrics (special only; see DOM.exclusions).
+20. `DOM.active_users_dau`: HQ rpt_superplay_agg.dau for Domino comes from mrt_daily_agg_domino.dau, "Aggregated from stg_udm_base_domino_vw.dau"; that staging view was not readable (10_staging blocked; HQ queries 403). Confirm the proposed value equals HQ "Superplay Daily agg" Domino DAU for 29.10-1.11.
+21. `DOM.exclusions`: Which user flags should be excluded for official numbers? Export excludes only special_user_flag; deactivated / suspected cheater / fake invited are kept.
+22. `DOM.completeness`: Refresh / late-arrival window of the Domino mart is undocumented. Until documented, recent days are flagged provisional by an observed rule (see manifest.completeness_rules).
+23. `DIS.ad_revenue_usd`: Source documents the AppLovin-first logic but not whether ad revenue is gross or net of ad-network share.
+24. `DIS.ad_revenue_usd`: Include in "revenue"? (see ALL.revenue_includes_ads)
+25. `DIS.payers`: No payer column is defined. Approve "payer = user with a valid purchase on the date" (gross_revenue > 0; trx_cnt > 0 is the documented purchase count).
+26. `ALL.revenue_includes_ads`: Should the app headline "revenue" include ads? The HQ report total_revenues = gross IAP + NET ads. Game tables expose ads separately.
+27. `ALL.gross_comparability`: Solitaire gross is documented VAT-exclusive; Dice and Domino VAT treatment is undocumented. Until confirmed, do not sum or compare gross across games.

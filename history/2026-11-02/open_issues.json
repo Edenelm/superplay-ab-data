@@ -1,0 +1,451 @@
+{
+ "dataset": "open_issues",
+ "contract_version": "1.3.0",
+ "generated_at": "2026-11-02T16:26:00+02:00",
+ "timezone": "Asia/Jerusalem",
+ "rules": [
+  "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
+  "OI-RULE-21D: the 21-day rule is NOT used to end or hide tests; at most a needs_review flag"
+ ],
+ "counts": {
+  "items": 13,
+  "awaiting_decision": 13
+ },
+ "items": [
+  {
+   "id": "OI-METRIC-GROSS-VAT",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "revenue_gross_usd"
+    ],
+    "def_ids": [
+     "DICE.revenue_gross_usd",
+     "DOM.revenue_gross_usd",
+     "ALL.gross_comparability"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "הגדרת Gross ב-Dice/Domino ממתינה לאישור (עמלות/VAT לא מתועדים). אין להשוות או לסכום Gross בין משחקים.",
+   "display_note_en": "Gross revenue definition for Dice/Domino pending approval (fees/VAT undocumented). Do not sum or compare gross across games.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured (metric_definitions)",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M1"
+  },
+  {
+   "id": "OI-METRIC-NET",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "revenue_net_usd"
+    ],
+    "def_ids": [
+     "DICE.revenue_net_usd",
+     "DOM.revenue_net_usd"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "הגדרת Net ב-Dice/Domino ממתינה לאישור (לא ידוע מה מנוכה / VAT).",
+   "display_note_en": "Net revenue deductions for Dice/Domino pending approval.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M2"
+  },
+  {
+   "id": "OI-METRIC-ADS",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "ad_revenue_usd",
+     "revenue (headline)"
+    ],
+    "def_ids": [
+     "ALL.revenue_includes_ads",
+     "DICE.ad_revenue_usd",
+     "DOM.ad_revenue_usd",
+     "DIS.ad_revenue_usd"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "לא הוחלט אם Revenue ראשי כולל Ads, ואם Ads הם gross או net. Ads מוצגים בנפרד.",
+   "display_note_en": "Not decided whether headline revenue includes ads, or whether ad revenue is gross or net. Ads are shown separately.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M3"
+  },
+  {
+   "id": "OI-METRIC-TZ",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "date",
+     "date_timezone"
+    ],
+    "def_ids": [
+     "DICE.date_timezone",
+     "DOM.date_timezone"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "אזור הזמן של התאריכים ב-Dice/Domino לא מתועד. התאריכים מוצגים כפי שנשמרו, בלי המרה.",
+   "display_note_en": "date_dim timezone for Dice/Domino undocumented; dates shown as stored, not converted.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M4"
+  },
+  {
+   "id": "OI-METRIC-PAYERS",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "payers"
+    ],
+    "def_ids": [
+     "DICE.payers",
+     "DOM.payers",
+     "DIS.payers"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "הגדרת Payers ממתינה לאישור בכל המשחקים (אין עמודת payer במקור).",
+   "display_note_en": "Payer definition pending approval in all games (no payer column in source).",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M5"
+  },
+  {
+   "id": "OI-METRIC-DAU",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "active_users_dau"
+    ],
+    "def_ids": [
+     "DICE.active_users_dau",
+     "DOM.active_users_dau"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "DAU של Domino לא מוצג עד אישור. הצעה: משתמשים ייחודיים ביום בלי special/deactivated/fake_invited (תואם ל־domino_daily_kpis.dau). DAU של Dice ממתין לאישור.",
+   "display_note_en": "Domino DAU not shown until approved. Proposed: distinct users per day excluding special/deactivated/fake_invited (matches domino_daily_kpis.dau). Dice DAU rule pending approval.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M6",
+   "domino_proposal": {
+    "def_id": "DOM.active_users_dau",
+    "status": "needs_approval",
+    "expression": "COUNT(DISTINCT user_id) FROM domino-dreams-dbt.prod_40_mart.user_daily_metrics WHERE NOT IFNULL(special_user_flag,FALSE) AND NOT IFNULL(deactivated_user_flag,FALSE) AND NOT IFNULL(fake_invited_user_flag,FALSE) GROUP BY date_dim",
+    "rationale": [
+     "HQ int_val_udm_day_agg_domino_vw documents Domino DAU as COUNT DISTINCT user_id from the Domino user_daily_metrics \"with deactivated/special/fake_invited filters\"",
+     "Equals domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.dau on 29.10, 30.10, 1.11; +1 user on 31.10",
+     "pau_flag behaves as paying active (TRUE exactly when lifetime purchase LTV > 0), so it is not DAU",
+     "every mart row has sessions_today > 0 in this window, so all rows = sessions_today > 0"
+    ],
+    "not_verified": "HQ rpt_superplay_agg.dau / mrt_daily_agg_domino.dau (source stg_udm_base_domino_vw not readable; HQ queries 403)",
+    "export_after_approval": "game_metrics.active_users_dau for Domino, same way as Dice and Disney; until then null"
+   },
+   "evidence": {
+    "file": "tools/evidence/dom_dau_candidates_2026-11-02.json",
+    "checked_at": "2026-11-02T16:22:00+02:00",
+    "candidate_values": [
+     {
+      "date_dim": "2026-10-29",
+      "all_rows": 402925,
+      "pau_flag": 170520,
+      "sessions_gt0": 402925,
+      "proposed": 398383,
+      "domino_daily_kpis_dau": 398383
+     },
+     {
+      "date_dim": "2026-10-30",
+      "all_rows": 397803,
+      "pau_flag": 169440,
+      "sessions_gt0": 397803,
+      "proposed": 393299,
+      "domino_daily_kpis_dau": 393299
+     },
+     {
+      "date_dim": "2026-10-31",
+      "all_rows": 389417,
+      "pau_flag": 166730,
+      "sessions_gt0": 389417,
+      "proposed": 385035,
+      "domino_daily_kpis_dau": 385036
+     },
+     {
+      "date_dim": "2026-11-01",
+      "all_rows": 397724,
+      "pau_flag": 169615,
+      "sessions_gt0": 397724,
+      "proposed": 393049,
+      "domino_daily_kpis_dau": 393049
+     }
+    ],
+    "note": "all_rows / pau_flag / sessions_gt0 exclude special users only (as other provider metrics); proposed also excludes deactivated + fake_invited. date_dim timezone undocumented, not converted."
+   },
+   "hq_needed": "From HQ \"Superplay Daily agg\" (headquarters-dbt.50_reporting.rpt_superplay_agg): dau (and pau) for studio = Domino, date_dim 2026-10-29..2026-11-01"
+  },
+  {
+   "id": "OI-METRIC-DOM-EXCL",
+   "topic": "metric_definition",
+   "games": [
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "exclusions"
+    ],
+    "def_ids": [
+     "DOM.exclusions"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "במספרי Domino מוחרגים רק special users. deactivated / suspected cheater / fake invited נכללים עד להחלטה.",
+   "display_note_en": "Domino numbers exclude only special users; deactivated / suspected cheater / fake invited are included until decided.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M7"
+  },
+  {
+   "id": "OI-METRIC-DICE-CHANNELS",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics",
+     "metric_definitions"
+    ],
+    "fields": [
+     "revenue_gross_usd"
+    ],
+    "def_ids": [
+     "DICE.revenue_gross_usd"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "לא מתועד אילו ערוצי רכישה נכללים ב-Revenue של Dice.",
+   "display_note_en": "Purchase channels included in Dice revenue are undocumented.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M8"
+  },
+  {
+   "id": "OI-METRIC-DOM-DOCS",
+   "topic": "data_team_question",
+   "games": [
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics"
+    ],
+    "fields": [
+     "is_final",
+     "completeness"
+    ],
+    "def_ids": [
+     "DOM.table_description",
+     "DOM.completeness"
+    ],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "לטבלת Domino אין תיעוד. הימים האחרונים מסומנים provisional לפי כלל נצפה.",
+   "display_note_en": "Domino mart is undocumented; recent days flagged provisional by an observed rule.",
+   "since": "2026-11-01",
+   "since_basis": "source metadata captured",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M9"
+  },
+  {
+   "id": "OI-HQ-ACCESS",
+   "topic": "access",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_metrics"
+    ],
+    "fields": [
+     "verification"
+    ],
+    "def_ids": [],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "אין גישת query לטבלת HQ ‏(rpt_superplay_agg), ולכן מדדי המשחק מסומנים NOT VERIFIED.",
+   "display_note_en": "No query access to HQ rpt_superplay_agg; game metrics stay NOT VERIFIED.",
+   "since": "2026-11-01",
+   "since_basis": "403 dry run (HQ_ACCESS.md)",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#3"
+  },
+  {
+   "id": "OI-DIS-UNCLEAR-TESTS",
+   "topic": "test_mechanism",
+   "games": [
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "test_registry",
+     "tests_index"
+    ],
+    "fields": [
+     "coverage",
+     "explanation_he.what_changes"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DIS-120-rv-8box-with-purchase-v2",
+     "DIS-123-mini-game-treatments",
+     "DIS-125-v4-increase-by-mode",
+     "DIS-125-zeus-launch",
+     "DIS-125-8box-segments",
+     "DIS-NOID-live-test",
+     "DIS-NOID-live-test-2"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "המנגנון של 7 טסטים ב-Disney טרם הובהר. ממתינים לתשובת צוות דיסני.",
+   "display_note_en": "Mechanism of 7 live Disney tests still unclear; awaiting the Disney team.",
+   "since": "2026-11-01",
+   "since_basis": "Mixpanel + WhatsApp pass found no control/test",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#2"
+  },
+  {
+   "id": "OI-STATUS-CONFLICTS",
+   "topic": "status_conflict",
+   "games": [
+    "Dice Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "test_registry",
+     "tests_index"
+    ],
+    "fields": [
+     "is_live",
+     "lifecycle",
+     "conflicts"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DICE-1110-puzzle-onboarding-gt-v4",
+     "DICE-1109-whammy-for-dt-finishers",
+     "DICE-NOID-pet-dynamic-requirements",
+     "DICE-1109-limited-stock-launch-stock-progression",
+     "DICE-NOID-dream-pass-reward-rush",
+     "DICE-1114-tournament-v2-after-fix-round",
+     "DIS-043-d01-min-price",
+     "DIS-101-boost-your-puzzle-mistake",
+     "DIS-118-dormant-scene-boost",
+     "DIS-125-v4-increase-by-mode",
+     "DIS-125-zeus-launch",
+     "DIS-NOID-live-test",
+     "DIS-NOID-live-test-2"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "הסטטוס ב-Monday סותר את Mixpanel / WhatsApp. מוצג כ-live עם סימון סתירה. לא הוכרע.",
+   "display_note_en": "Monday status conflicts with Mixpanel/WhatsApp; shown as live with a conflict flag, not resolved.",
+   "since": "2026-11-01",
+   "since_basis": "compiled from saved per-test conflicts",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#4"
+  },
+  {
+   "id": "OI-RULE-21D",
+   "topic": "rule",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "test_registry",
+     "tests_index"
+    ],
+    "fields": [
+     "is_live",
+     "lifecycle",
+     "flags"
+    ],
+    "def_ids": [],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "כלל 21 הימים טרם הוגדר. הוא לא משמש לסיום או הסתרה של טסטים. מותר רק סימון needs_review.",
+   "display_note_en": "21-day rule not defined yet; it is NOT used to end or hide tests. Only a needs_review flag is allowed.",
+   "since": "2026-11-01",
+   "since_basis": "app spec §9 (decision pending)",
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#5"
+  }
+ ]
+}

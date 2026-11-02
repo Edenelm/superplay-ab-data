@@ -1,9 +1,9 @@
 {
  "dataset": "metric_definitions",
  "contract_version": "1.1.0",
- "generated_at": "2026-11-01T12:07:34+02:00",
+ "generated_at": "2026-11-02T16:26:00+02:00",
  "timezone": "Asia/Jerusalem",
- "method": "source_text copied verbatim from BigQuery table metadata (describe_table, read-only) captured 2026-11-01; status=documented only when the source text answers the question",
+ "method": "source_text copied verbatim from BigQuery table metadata (describe_table, read-only) captured 2026-11-01 (+ Domino DAU lineage tables 2026-11-02); status=documented only when the source text answers the question",
  "tables": {
   "dice-dreams-dbt.40_mart.user_daily_metrics_all_users": {
    "table_description_present": true,
@@ -49,6 +49,27 @@
     "type": "DAY"
    },
    "metadata_file": "tools/source_metadata/domino-dreams-dbt.prod_40_mart.user_daily_metrics.json"
+  },
+  "domino-dreams-dbt.prod_50_reporting.domino_daily_kpis": {
+   "table_description_present": false,
+   "partition": {
+    "field": "date_dim",
+    "type": "DAY"
+   },
+   "metadata_file": "tools/source_metadata/domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.json"
+  },
+  "headquarters-dbt.30_intermediate.int_val_udm_day_agg_domino_vw": {
+   "table_description_present": true,
+   "partition": null,
+   "metadata_file": "tools/source_metadata/headquarters-dbt.30_intermediate.int_val_udm_day_agg_domino_vw.json"
+  },
+  "headquarters-dbt.40_mart.mrt_daily_agg_domino": {
+   "table_description_present": true,
+   "partition": {
+    "field": "date_dim",
+    "type": "DAY"
+   },
+   "metadata_file": "tools/source_metadata/headquarters-dbt.40_mart.mrt_daily_agg_domino.json"
   },
   "headquarters-dbt.50_reporting.rpt_superplay_agg": {
    "table_description_present": true,
@@ -382,7 +403,7 @@
    "def_id": "DOM.active_users_dau",
    "game": "Domino Dreams",
    "metric": "active_users_dau",
-   "export_expression": "NOT EXPORTED (null) - definition open",
+   "export_expression": "NOT EXPORTED (null) - proposed (needs approval): COUNT(DISTINCT user_id) WHERE NOT special_user_flag AND NOT deactivated_user_flag AND NOT fake_invited_user_flag",
    "source_texts": [
     {
      "kind": "column",
@@ -391,13 +412,23 @@
     },
     {
      "kind": "column",
-     "ref": "domino-dreams-dbt.prod_30_intermediate.int_user_daily_activity.session_count",
-     "source_text": "Number of sessions the user had on this day. Calculation: count(*). Source: int_sessions."
+     "ref": "domino-dreams-dbt.prod_40_mart.user_daily_metrics.sessions_today",
+     "source_text": "Number of sessions for the day. Source: int_user_daily_activity."
     },
     {
      "kind": "column",
-     "ref": "domino-dreams-dbt.prod_40_mart.user_daily_metrics.sessions_today",
-     "source_text": "Number of sessions for the day. Source: int_user_daily_activity."
+     "ref": "domino-dreams-dbt.prod_40_mart.user_daily_metrics.deactivated_user_flag",
+     "source_text": "Whether user account is deactivated. Source: int_user_profile."
+    },
+    {
+     "kind": "column",
+     "ref": "domino-dreams-dbt.prod_40_mart.user_daily_metrics.fake_invited_user_flag",
+     "source_text": "Whether user is a fake invited user. Grain: user. Source: int_user_profile."
+    },
+    {
+     "kind": "column",
+     "ref": "headquarters-dbt.50_reporting.rpt_superplay_agg.dau",
+     "source_text": "dau. Granularity: date_dim, studio. Source: Aggregated from mrt_daily_agg_dice.dau"
     },
     {
      "kind": "column",
@@ -406,17 +437,41 @@
     },
     {
      "kind": "column",
-     "ref": "headquarters-dbt.50_reporting.rpt_superplay_agg.dau",
-     "source_text": "dau. Granularity: date_dim, studio. Source: Aggregated from mrt_daily_agg_dice.dau"
+     "ref": "headquarters-dbt.40_mart.mrt_daily_agg_domino.dau",
+     "source_text": "dau. Granularity: date_dim, platform, country_code, media_source. Source: Aggregated from stg_udm_base_domino_vw.dau"
+    },
+    {
+     "kind": "column",
+     "ref": "headquarters-dbt.40_mart.mrt_daily_agg_domino.pau",
+     "source_text": "Paying active users with positive lifetime purchase value. Granularity: date_dim, platform, country_code, media_source. Calculation: COUNT(DISTINCT user_id) where purchase_ltv > 0. Source: stg_udm_base_domino_vw.user_id, stg_udm_base_domino_vw.purchase_ltv"
+    },
+    {
+     "kind": "column",
+     "ref": "headquarters-dbt.30_intermediate.int_val_udm_day_agg_domino_vw.dau",
+     "source_text": "DAU. Granularity: date_dim. Calculation: COUNT DISTINCT user_id after flag filters. Source: domino_dbt_mart.user_daily_metrics.user_id"
+    },
+    {
+     "kind": "table_description",
+     "ref": "headquarters-dbt.30_intermediate.int_val_udm_day_agg_domino_vw",
+     "source_text": "Domino UDM aggregated by date: dau, gross_revenue, net_revenues, ad_revenues, paying_users. Live cutover via domino_dbt_mart.user_daily_metrics (DF user_daily_metrics), with deactivated/special/fake_invited filters. Gross = inapp + stripe; net = inapp_net + stripe_net. Grain: date_dim. Window: last 120 days through yesterday."
+    },
+    {
+     "kind": "column",
+     "ref": "domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.dau",
+     "source_text": "Daily active users count. Source: user_daily_metrics."
+    },
+    {
+     "kind": "column",
+     "ref": "domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.pau",
+     "source_text": "Payer active users count. Source: user_daily_metrics."
     }
    ],
    "status": "needs_approval",
    "questions": [
-    "How are Domino active users counted? Candidates: every row of the table (~400K/day), pau_flag = TRUE (~170K/day; described as \"PAU - periodic active user\"), or sessions_today > 0.",
-    "The HQ report defines a column \"pau\" as \"Paying active users\" - does Domino pau_flag mean periodic active or paying active? The two texts conflict.",
-    "Which value matches the official Domino DAU in HQ rpt_superplay_agg.dau? (cannot be checked: no query access to HQ)"
+    "Approve Domino DAU = distinct users per date_dim in prod_40_mart.user_daily_metrics excluding special, deactivated and fake_invited users (the filter documented in HQ int_val_udm_day_agg_domino_vw; matches Domino prod_50_reporting.domino_daily_kpis.dau on 29.10, 30.10, 1.11 and within 1 user on 31.10). Note: this uses more exclusions than the other Domino metrics (special only; see DOM.exclusions).",
+    "HQ rpt_superplay_agg.dau for Domino comes from mrt_daily_agg_domino.dau, \"Aggregated from stg_udm_base_domino_vw.dau\"; that staging view was not readable (10_staging blocked; HQ queries 403). Confirm the proposed value equals HQ \"Superplay Daily agg\" Domino DAU for 29.10-1.11."
    ],
-   "note": "active_users_dau is null for Domino until approved; user_rows and pau_flag_users are exported as raw counts"
+   "note": "pau_flag is NOT a DAU candidate: in data it is TRUE exactly when lifetime purchase LTV > 0 (paying active user, as HQ mrt_daily_agg_domino.pau \"where purchase_ltv > 0\"); its column text \"periodic active user\" does not match the data. All mart rows have sessions_today > 0 (29.10-1.11), so \"all rows\" = \"sessions_today > 0\". Candidate values and SQL: tools/evidence/dom_dau_candidates_2026-11-02.json. active_users_dau stays null for Domino until approved; user_rows and pau_flag_users are exported as raw counts"
   },
   {
    "def_id": "DOM.exclusions",

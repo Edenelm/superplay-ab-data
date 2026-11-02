@@ -56,3 +56,10 @@ Run 2026-11-02T08:40:18+02:00 (run_id 20261102T084018). Baseline state: 2026-11-
 - Carry-forward: 17 previously published tests that are no longer in the app build (7 Disney tests that left the Live group, 10 Disney/Dice backlog items) are kept with `carried_forward`; board status/decision/end date updated only from the 08:00 daily refresh diff. No 21-day rule applied.
 - WhatsApp id collision: the app's new items took ids wa327–wa331, which collided with the curated extras. Curated extras renumbered wa327–wa341 → wa9327–wa9341 (refs updated in tools/curated/*). App ids unchanged.
 - Business metrics: re-pulled 2026-10-29..2026-11-01 (all still provisional) from the same tables/SQL, each in its own game project; HQ table still not queried (403, not retried).
+
+## 2026-11-02T16:26:00+02:00 — Domino DAU check (OI-METRIC-DAU), definitions only
+- Read (metadata, read-only): HQ `40_mart.mrt_daily_agg_domino` (dau = "Aggregated from stg_udm_base_domino_vw.dau"; pau = "COUNT(DISTINCT user_id) where purchase_ltv > 0"), HQ `30_intermediate.int_val_udm_day_agg_domino_vw` (dau = COUNT DISTINCT user_id with deactivated/special/fake_invited filters), Domino `prod_50_reporting.domino_daily_kpis`.
+- Not readable: HQ `10_staging.stg_udm_base_domino_vw` (connector guardrail: 10_staging not curated). HQ query: 403 bigquery.jobs.create (one check, not retried).
+- Queried (Domino project, read-only): candidates for 2026-10-29..2026-11-01 → tools/evidence/dom_dau_candidates_2026-11-02.json.
+- Finding: pau_flag = lifetime purchase LTV > 0 (paying active), all mart rows have sessions_today > 0, domino_daily_kpis.dau = rows excl. special+deactivated+fake_invited (31.10: +1).
+- DOM.active_users_dau stays needs_approval; Domino active_users_dau still null. Dice/Disney definitions unchanged.

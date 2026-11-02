@@ -6,25 +6,25 @@ skip any file whose sha256 (manifest / FILE_MAP) or test fingerprint (index) equ
 
 | Path | Size | Contains | Read when |
 |---|---|---|---|
-| `manifest.json` | 18,991 B | run metadata, per-dataset status/sha256/stale, layer pointers, change_summary | always first; compare sha256 / aggregate_fingerprint with what you cached |
-| `FILE_MAP.json` | 11,292 B | this map (machine-readable) | second, to find files |
+| `manifest.json` | 11,880 B | run metadata, per-dataset status/sha256/stale, layer pointers, change_summary | always first; compare sha256 / aggregate_fingerprint with what you cached |
+| `FILE_MAP.json` | 11,497 B | this map (machine-readable) | second, to find files |
 | `index/tests_index.json` | 642,248 B | one entry per test: game, name, tier, status, dates, Hebrew summary, mechanism, coverage, glossary concepts, tags he/en, flags, detail_file, fingerprint | third: filter here, then open only the detail files you need |
-| `CHANGES.md` | 9,237 B | what changed per run (tests added/updated, sections regenerated, needs attention) | when deciding what to re-read |
-| `FILE_MAP.md` | 6,060 B | this map (human-readable) | optional |
-| `PROCESSING_LOG.md` | 4,482 B | what was checked against which source version; what is still missing; accesses not retried | when a field is missing / unclear |
+| `CHANGES.md` | 10,724 B | what changed per run (tests added/updated, sections regenerated, needs attention) | when deciding what to re-read |
+| `FILE_MAP.md` | 6,191 B | this map (human-readable) | optional |
+| `PROCESSING_LOG.md` | 5,512 B | what was checked against which source version; what is still missing; accesses not retried | when a field is missing / unclear |
 | `README.md` | 1,695 B | repo readme | once |
 | `docs/CLAUDE_CODE_README.md` | 6,380 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `docs/GLOSSARY.md` | 11,038 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `docs/HQ_ACCESS.md` | 4,106 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
-| `docs/METRIC_DEFINITIONS.md` | 28,043 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
+| `docs/METRIC_DEFINITIONS.md` | 30,583 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `docs/data_dictionary.md` | 14,755 B | data dictionary, metric definitions, glossary, HQ access, Claude Code readme | reference |
 | `history/2026-11-01` (dir, 10 files) | 3,417,577 B | copies of datasets + manifest published that day | audit / diffs over time |
-| `history/2026-11-02` (dir, 8 files) | 3,482,779 B | copies of datasets + manifest published that day | audit / diffs over time |
+| `history/2026-11-02` (dir, 10 files) | 3,524,373 B | copies of datasets + manifest published that day | audit / diffs over time |
 | `latest/explanations_learnings_decisions.json` | 687,350 B | legacy 8-question Hebrew explanations, decisions, cross-studio learnings | decisions / cross-studio learnings; per-test copies are in tests/ |
 | `latest/game_metrics.json` | 40,309 B | daily game KPIs (BigQuery) with completeness flags | game-level context |
 | `latest/glossary.json` | 93,776 B | org glossary: canonical term, aliases, per-game usage, source spellings, definition + refs, status, open question, not_same_as | to interpret terms / build tags; check not_same_as before comparing across games |
-| `latest/metric_definitions.json` | 31,265 B | metric definitions: source text, approval status, questions | before using any metric number |
-| `latest/open_issues.json` | 11,273 B | open decisions awaiting Eden / data team: topic, games, affected datasets/fields/def_ids/test_ids, Hebrew+English display note, since | to show limitations in the app; never hide data because of it |
+| `latest/metric_definitions.json` | 34,779 B | metric definitions: source text, approval status, questions | before using any metric number |
+| `latest/open_issues.json` | 13,926 B | open decisions awaiting Eden / data team: topic, games, affected datasets/fields/def_ids/test_ids, Hebrew+English display note, since | to show limitations in the app; never hide data because of it |
 | `latest/test_registry.json` | 1,601,102 B | full registry (all tests, all fields) | full-data analysis; the index + per-test files are derived from it |
 | `latest/test_results.json` | 181,770 B | all results rows (append-only, revisions) | full-data analysis of results |
 | `latest/whatsapp_items.json` | 217,233 B | WhatsApp extracts with match info | source checks; per-test copies are in tests/ |

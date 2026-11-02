@@ -1,7 +1,7 @@
 {
  "dataset": "open_issues",
  "contract_version": "1.3.0",
- "generated_at": "2026-11-01T13:46:48+02:00",
+ "generated_at": "2026-11-02T16:26:00+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
@@ -182,11 +182,64 @@
     "test_ids": []
    },
    "status": "awaiting_decision",
-   "display_note_he": "DAU של Domino לא מוצג (הגדרה פתוחה). DAU של Dice ממתין לאישור.",
-   "display_note_en": "Domino DAU not shown (definition open); Dice DAU rule pending approval.",
+   "display_note_he": "DAU של Domino לא מוצג עד אישור. הצעה: משתמשים ייחודיים ביום בלי special/deactivated/fake_invited (תואם ל־domino_daily_kpis.dau). DAU של Dice ממתין לאישור.",
+   "display_note_en": "Domino DAU not shown until approved. Proposed: distinct users per day excluding special/deactivated/fake_invited (matches domino_daily_kpis.dau). Dice DAU rule pending approval.",
    "since": "2026-11-01",
    "since_basis": "source metadata captured",
-   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M6"
+   "decision_doc_ref": "DECISIONS_2026-11-01.md#1 M6",
+   "domino_proposal": {
+    "def_id": "DOM.active_users_dau",
+    "status": "needs_approval",
+    "expression": "COUNT(DISTINCT user_id) FROM domino-dreams-dbt.prod_40_mart.user_daily_metrics WHERE NOT IFNULL(special_user_flag,FALSE) AND NOT IFNULL(deactivated_user_flag,FALSE) AND NOT IFNULL(fake_invited_user_flag,FALSE) GROUP BY date_dim",
+    "rationale": [
+     "HQ int_val_udm_day_agg_domino_vw documents Domino DAU as COUNT DISTINCT user_id from the Domino user_daily_metrics \"with deactivated/special/fake_invited filters\"",
+     "Equals domino-dreams-dbt.prod_50_reporting.domino_daily_kpis.dau on 29.10, 30.10, 1.11; +1 user on 31.10",
+     "pau_flag behaves as paying active (TRUE exactly when lifetime purchase LTV > 0), so it is not DAU",
+     "every mart row has sessions_today > 0 in this window, so all rows = sessions_today > 0"
+    ],
+    "not_verified": "HQ rpt_superplay_agg.dau / mrt_daily_agg_domino.dau (source stg_udm_base_domino_vw not readable; HQ queries 403)",
+    "export_after_approval": "game_metrics.active_users_dau for Domino, same way as Dice and Disney; until then null"
+   },
+   "evidence": {
+    "file": "tools/evidence/dom_dau_candidates_2026-11-02.json",
+    "checked_at": "2026-11-02T16:22:00+02:00",
+    "candidate_values": [
+     {
+      "date_dim": "2026-10-29",
+      "all_rows": 402925,
+      "pau_flag": 170520,
+      "sessions_gt0": 402925,
+      "proposed": 398383,
+      "domino_daily_kpis_dau": 398383
+     },
+     {
+      "date_dim": "2026-10-30",
+      "all_rows": 397803,
+      "pau_flag": 169440,
+      "sessions_gt0": 397803,
+      "proposed": 393299,
+      "domino_daily_kpis_dau": 393299
+     },
+     {
+      "date_dim": "2026-10-31",
+      "all_rows": 389417,
+      "pau_flag": 166730,
+      "sessions_gt0": 389417,
+      "proposed": 385035,
+      "domino_daily_kpis_dau": 385036
+     },
+     {
+      "date_dim": "2026-11-01",
+      "all_rows": 397724,
+      "pau_flag": 169615,
+      "sessions_gt0": 397724,
+      "proposed": 393049,
+      "domino_daily_kpis_dau": 393049
+     }
+    ],
+    "note": "all_rows / pau_flag / sessions_gt0 exclude special users only (as other provider metrics); proposed also excludes deactivated + fake_invited. date_dim timezone undocumented, not converted."
+   },
+   "hq_needed": "From HQ \"Superplay Daily agg\" (headquarters-dbt.50_reporting.rpt_superplay_agg): dau (and pau) for studio = Domino, date_dim 2026-10-29..2026-11-01"
   },
   {
    "id": "OI-METRIC-DOM-EXCL",

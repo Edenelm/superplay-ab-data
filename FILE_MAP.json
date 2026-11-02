@@ -12,14 +12,14 @@
   {
    "path": "manifest.json",
    "kind": "file",
-   "bytes": 18991,
+   "bytes": 11880,
    "contains": "run metadata, per-dataset status/sha256/stale, layer pointers, change_summary",
    "read_when": "always first; compare sha256 / aggregate_fingerprint with what you cached"
   },
   {
    "path": "FILE_MAP.json",
    "kind": "file",
-   "bytes": 11292,
+   "bytes": 11497,
    "contains": "this map (machine-readable)",
    "read_when": "second, to find files"
   },
@@ -34,25 +34,25 @@
   {
    "path": "CHANGES.md",
    "kind": "file",
-   "bytes": 9237,
+   "bytes": 10724,
    "contains": "what changed per run (tests added/updated, sections regenerated, needs attention)",
    "read_when": "when deciding what to re-read",
-   "sha256": "fec586097dd97ee6ccbb5a7c6750aed7fe3b168de1e0f02b14c9e5012c50c016"
+   "sha256": "66c30d947356d315f675e98fe910d14349b8260098dad6e2d6bf33bd085e2009"
   },
   {
    "path": "FILE_MAP.md",
    "kind": "file",
-   "bytes": 6060,
+   "bytes": 6191,
    "contains": "this map (human-readable)",
    "read_when": "optional"
   },
   {
    "path": "PROCESSING_LOG.md",
    "kind": "file",
-   "bytes": 4482,
+   "bytes": 5512,
    "contains": "what was checked against which source version; what is still missing; accesses not retried",
    "read_when": "when a field is missing / unclear",
-   "sha256": "40a62f199cc5da24491d86bbacf1cfb2f16ce08720067063f1564a9c054f1a80"
+   "sha256": "90f8807e4accb571bc467de6ca30f3ac296050dc15f999eac8eea52a56dd59cb"
   },
   {
    "path": "README.md",
@@ -89,10 +89,10 @@
   {
    "path": "docs/METRIC_DEFINITIONS.md",
    "kind": "file",
-   "bytes": 28043,
+   "bytes": 30583,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
    "read_when": "reference",
-   "sha256": "86f15870711a53f8b9fca9a0c3573d5b98f2331661d634226d9eddd711e02ee7"
+   "sha256": "701d03b9f909076829d5b5bd6b831dc44ef766dd6e2831611abddd28b3102d51"
   },
   {
    "path": "docs/data_dictionary.md",
@@ -113,8 +113,8 @@
   {
    "path": "history/2026-11-02",
    "kind": "dir",
-   "files": 8,
-   "bytes": 3482779,
+   "files": 10,
+   "bytes": 3524373,
    "contains": "copies of datasets + manifest published that day",
    "read_when": "audit / diffs over time"
   },
@@ -145,18 +145,18 @@
   {
    "path": "latest/metric_definitions.json",
    "kind": "file",
-   "bytes": 31265,
+   "bytes": 34779,
    "contains": "metric definitions: source text, approval status, questions",
    "read_when": "before using any metric number",
-   "sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393"
+   "sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3"
   },
   {
    "path": "latest/open_issues.json",
    "kind": "file",
-   "bytes": 11273,
+   "bytes": 13926,
    "contains": "open decisions awaiting Eden / data team: topic, games, affected datasets/fields/def_ids/test_ids, Hebrew+English display note, since",
    "read_when": "to show limitations in the app; never hide data because of it",
-   "sha256": "27571680d9a911d63a985fa473493d69e91bc17efd92964479d82ac946a387cf"
+   "sha256": "a0ed22471f287c2a912f7f7915995cb79c8bd4fb9ce49fb065eefe945c0dc880"
   },
   {
    "path": "latest/test_registry.json",
