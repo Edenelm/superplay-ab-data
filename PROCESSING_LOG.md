@@ -1,17 +1,17 @@
 # Processing log
 
-Run 2026-11-02T18:07:49+02:00 (run_id 20261102T180749). Baseline state: 2026-11-02T17:56:03+02:00.
+Run 2026-11-02T18:27:08+02:00 (run_id 20261102T182708). Baseline state: 2026-11-02T18:07:49+02:00.
 
 ## Checked against (source versions)
 
-- `game_metrics`: {"sha256": "e9f3f1fde80621feb57346f264bd5778a682608a5dd066dbb3a94ca462732dbb", "source_snapshot": "2026-11-02T17:13:58+02:00"}
-- `test_registry`: {"sha256": "ab79bad69768e6b6cd4e5dab79aaae43b0889525138982e05757475aaa3f8f54", "source_snapshot": "2026-11-02"}
-- `test_results`: {"sha256": "b30df081c6fdb0138603437c828497f1858ba42e3ef6721e767a2737dad65d0c", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)"}
-- `explanations_learnings_decisions`: {"sha256": "430c5e2e0a5bfdfe1998e946a0d0fcda2d4d4c8f4353b0446e202489e7607a16", "source_snapshot": "2026-11-02"}
-- `whatsapp_items`: {"sha256": "a3067f2be13fcb09826b19c23954a73fe0830dfa2a53311926a4078d52e303c9", "source_snapshot": "2026-11-02"}
+- `game_metrics`: {"sha256": "10123725983918510cdc28806a9e1b9f6452a0e82cde80f6fa0938d02e992a41", "source_snapshot": "2026-11-02T17:13:58+02:00"}
+- `test_registry`: {"sha256": "576b8571ac2bda967f3bc0b8813fcac0a402d62b9fd9c32201f19c27ffba9ee2", "source_snapshot": "2026-11-02"}
+- `test_results`: {"sha256": "3e2885b32f2ec6fec25f0ef27f9c570118f90bb6dd8117d8b1843ceebe11d3ea", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)"}
+- `explanations_learnings_decisions`: {"sha256": "7a084f837754a0f4e2e5bf93124f2dddb33e53f9e58490000ac5648e20d46d0a", "source_snapshot": "2026-11-02"}
+- `whatsapp_items`: {"sha256": "5d26e21dd66a07bec732e4e8f1108da794c109556366f9d0739c43d4d2e06263", "source_snapshot": "2026-11-02"}
 - `metric_definitions`: {"sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3", "source_snapshot": "2026-11-01T12:05:00+02:00"}
-- `game_metrics_splits`: {"sha256": "bd15d70b6b0e64eeb7ae2de82c6ef146312aaa9f43e7a88d88b2655b33bf0f5d", "source_snapshot": "2026-11-02T17:13:58+02:00"}
-- `game_ftd_retention`: {"sha256": "8461dbea6d079e7852939dd1aeb7182368d88032a978c50e51cfd1f24a67f75a", "source_snapshot": "2026-11-02T17:13:58+02:00"}
+- `game_metrics_splits`: {"sha256": "be0f4f32697e3e4545bda2cc268afd6f48450103233eb55c3f8604acfc48c919", "source_snapshot": "2026-11-02T17:13:58+02:00"}
+- `game_ftd_retention`: {"sha256": "e2dba11969a1e09412389e1d65012f37b188fa2b531ff64c10023a9767d3385f", "source_snapshot": "2026-11-02T17:13:58+02:00"}
 - `curated_live_understanding`: {"sha256": "07bddf632ee7d21b90a7f61d9c01313652e841ecec2d34f55593ef7a9a8a1450"}
 - `curated_extra_conflicts`: {"sha256": "31a493c5753754287110df56be166615ee1d9b1ddff43dba30d3dc56b4ce7efd", "file": "tools/curated/extra_conflicts.json"}
 - `mixpanel_mechanism_pass`: {"sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213", "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"}

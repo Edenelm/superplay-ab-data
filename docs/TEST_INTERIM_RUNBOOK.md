@@ -16,11 +16,19 @@ What: per live test × day × group (Test / Control) raw totals from the test's 
 - Records carry `definition_refs` to `field_definitions` keys `DOM.*` (Dice: `DICE.*`). All needs_approval.
 - Check 2026-10-21, all users: Mixpanel gross 343,536 vs BigQuery 344,107; payers 22,982 vs 23,086; actives 414,340 (BigQuery Domino DAU null).
 
+## Source and definitions (Disney)
+- Project 3205636. Template: dashboard 11595366 "T126 - Chef Segments", tiles "Revenues: Trend" / "Paying Users: Trend" / "DAU: Trend". Gross Revenue = sum of custom property "Purchase Amount" (5590896) on "purchase completed" (gross vs net not documented on the board). PU = unique users on "purchase completed". DAU = unique users on "Activity" ($custom_event:1804960). The tiles count per-user distinct days (= unique users per day).
+- Run-Query needs `chartType: "line"` for a daily series (without it the result is a single total).
+- Board filters applied: Suspected Fraudulent Purchase (cp 5685015) does not equal "True" (event; not on the AYS board 11507187, so not applied there); $country_code not Israel and not Romania (user). Opportunistic RV: user "T120 - RV 8box with purchase V2 - groups" = Test Group.
+- Not applied (all Disney rows have scope_matches_dashboard=false): cohorts 5331213 "Real Players", 5669481 "Suspected Fraud Users" and each test's "Relevant / All users" cohort; T120 "New/old users" equals New User or Old User (one value per filter only).
+- Group properties are formula custom properties. Query them by their current saved name: T120's board label "120 - ... groups " and Opportunistic RV's trailing-space label returned only "undefined"; the saved names worked. T124 RV bigger segment and PB level reduction ("T125 - Challenge level reduction - Groups") returned only "undefined" under every known name, so they are null (evidence in `superseded/`).
+- Group size is "Total of User Profiles" (not readable with Run-Query), so null. Records reference `DIS.*` definitions, all needs_approval.
+
 ## Store and incremental runs
-- Raw results: `tools/interim_store/raw/<TEST_ID>.q_<from>_<to>.txt` (DICE-* and DOM-*) (one Run-Query result each; verify `report_name` matches the test before saving, since results files have arrived mislabelled once). Superseded pulls are moved to `tools/interim_store/superseded/` (never deleted).
+- Raw results: `tools/interim_store/raw/<TEST_ID>.q_<from>_<to>.txt` (DICE-*, DOM-* and DIS-*) (one Run-Query result each; verify `report_name` matches the test before saving, since results files have arrived mislabelled once). Superseded pulls are moved to `tools/interim_store/superseded/` (never deleted).
 - `tools/interim_build.py` (called from `tools/build_layer.py`, i.e. by `tools/export_provider.py`) merges every raw file by (test_id, date, group); the newest file wins. Days after yesterday are dropped.
 - `is_final=false` for dates ≥ UTC reference day − 7 (Dice window, assumed for Mixpanel; needs approval).
-- **08:30 run:** for each test in `coverage` with status `data`: pull from the first provisional day (`window.provisional_from`) to yesterday, save as a new raw file, then run the export. For a new live test: add it to `DICE` in `tools/interim_build.py` with its dashboard id, group property and unapplied filters.
+- **08:30 run:** for each test in `coverage` with status `data`: pull from the first provisional day (`window.provisional_from`) to yesterday, save as a new raw file, then run the export. For a new live test: add it to `DICE` / `DOM` / `DIS` in `tools/interim_build.py` with its dashboard id, group property and unapplied filters.
 - **Backfill:** `coverage[].backfill_pending` lists days before 2026-10-13 that are not yet pulled; pull them in ≤ 20-day chunks.
 
 ## Coverage on 2026-11-02 (Dice, 17 live tests)
@@ -32,8 +40,12 @@ What: per live test × day × group (Test / Control) raw totals from the test's 
 - Null with reason (3): choose-your-trail and 1621 8-box (possible dashboard match only), ftd-offer-add-a-20 (no dashboard).
 - New tests: add them to `DOM` in `tools/interim_build.py`.
 
-## Disney Solitaire: pending
-Not pulled yet (`games_pending`, status `pending`, not a permanent null). Next: map each live test to its linked Mixpanel dashboard and group property, read that project's own tile definitions, then add them like Dice/Domino.
+## Coverage on 2026-11-02 (Disney, 22 live tests)
+- Data (7): T124 AYS offer, T120 RV 8box V2, T125 Dormant CZ V3, T125 Potion Bonus (2026-10-13..11-01; earlier days backfill_pending); T126 Chef Segments (10-19..); T126 Olympus Wheel mega (10-22..); T126 Opportunistic RV (10-29..).
+- Null with reason (15): T124 RV extend segment and PB level reduction (group property did not resolve, all "undefined"); T127 3po Halloween and T043 min price (cohort-only dashboards); end-of-puzzle offer and google integrity (ambiguous board); push notification, boost your puzzle mistake, dormant scene boost (possible match only); 6 without a dashboard.
+
+## field_definitions keys (compatibility)
+Keys are `DICE.<field>`, `DOM.<field>`, `DIS.<field>`; records point to them via `definition_refs`. The old plain keys (`revenue_gross_usd`, `revenue_net_usd`, `payers`, `active_users`, `group_size`, `is_final`) are kept as deprecated aliases with the Dice content plus `alias_of: "DICE.<field>"` and `deprecated: true`. They will only be removed with a contract minor bump.
 
 ## Order
 `python3 tools/export_provider.py` → `python3 tools/make_file_map.py . --layout provider` → `python3 validate.py .` (exit 0) → `tools/publish_to_repo.sh`.

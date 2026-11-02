@@ -55,6 +55,7 @@ python3 validate.py <dir> --json                             # machine output (d
 - `definition_status[field] == needs_approval`: show the number with a "definition pending approval" badge, or hide it. Link to the source text in metric_definitions.
 - `is_final == false`: show a "provisional" badge. Per-field detail is in `field_completeness` (`provisional_estimate` = the source says the value is usually low).
 - Dates are shown exactly as the source stores them. Show `date_timezone` (UTC or "undocumented"); **do not convert**.
+- `test_interim.field_definitions` keys (changed 2026-11-02): read each record's definition via `field_definitions[record.definition_refs[field]]`, with keys `DICE.<field>`, `DOM.<field>`, `DIS.<field>`. The first Dice-only version used plain keys (`revenue_gross_usd`, `revenue_net_usd`, `payers`, `active_users`, `group_size`, `is_final`). They are still there as **deprecated aliases** of `DICE.<field>` (`alias_of`, `deprecated: true`), so old readers keep working; migrate to `definition_refs`. Removal will come with a contract minor bump. test_interim rows with `scope_matches_dashboard=false` are not the test audience: show `unapplied_filters`.
 - "Updated at" is `manifest.generated_at`, the actual run time. `scheduled_for` is the planned slot (null for a manual run).
 
 ## 5. Files

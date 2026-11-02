@@ -1,7 +1,7 @@
 {
  "dataset": "open_issues",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T18:07:49+02:00",
+ "generated_at": "2026-11-02T18:27:08+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
@@ -731,7 +731,8 @@
    "topic": "metric_definition",
    "games": [
     "Dice Dreams",
-    "Domino Dreams"
+    "Domino Dreams",
+    "Disney Solitaire"
    ],
    "affected": {
     "datasets": [
@@ -755,12 +756,23 @@
      "DICE-1110-puzzle-onboarding-gt-v4",
      "DOM-1581-1581-dtc-remove-for-android",
      "DOM-1611-move-quest-from-level-32",
-     "DOM-1621-1621-trail-runner-v2"
+     "DOM-1621-1621-trail-runner-v2",
+     "DIS-124-ays-offer-for-ftd-and",
+     "DIS-120-rv-8box-with-purchase-v2",
+     "DIS-125-dormant-cz-v3",
+     "DIS-125-potion-bonus",
+     "DIS-126-olympus-wheel-mega",
+     "DIS-126-chef-segments",
+     "DIS-126-opportunistic-rv",
+     "DIS-124-rv-extend-segment",
+     "DIS-NOID-pb-level-reduction",
+     "DIS-127-3po-halloween",
+     "DIS-043-d01-min-price"
     ]
    },
    "status": "awaiting_decision",
-   "display_note_he": "נתוני ביניים לפי קבוצה נמשכו מ-Mixpanel בלי פילטר ה-cohort של הדשבורד (Population / Relevant users) ובלי גודל קבוצה, כי כלי השאילתה לא תומך בזה. הדרך המדויקת (Get-Report) דורשת את אישורך. ב-Dice ההכנסות כוללות RV/פרסומות; ב-Domino לא.",
-   "display_note_en": "Interim per-group numbers were pulled from Mixpanel without the dashboard cohort filter (Population / Relevant users) and without group size, because the query tool cannot express them. The exact path (Get-Report) needs your confirmation. Dice revenue includes RV/ads; Domino revenue does not.",
+   "display_note_he": "נתוני ביניים לפי קבוצה נמשכו מ-Mixpanel בלי פילטר ה-cohort של הדשבורד (Population / Relevant users) ובלי גודל קבוצה, כי כלי השאילתה לא תומך בזה. הדרך המדויקת (Get-Report) דורשת את אישורך. ב-Dice ההכנסות כוללות RV/פרסומות; ב-Domino לא. ב-Disney אף פילטר cohort של הדשבורדים (Real Players, Suspected Fraud Users, Relevant/All users) לא הוחל, כך שהמספרים מכסים את כל המשתמשים עם מאפיין הקבוצה; בשני טסטים (T124 RV, PB level) מאפיין הקבוצה לא זוהה בשאילתה (הכול undefined).",
+   "display_note_en": "Interim per-group numbers were pulled from Mixpanel without the dashboard cohort filter (Population / Relevant users) and without group size, because the query tool cannot express them. The exact path (Get-Report) needs your confirmation. Dice revenue includes RV/ads; Domino revenue does not. In Disney none of the board cohort filters (Real Players, Suspected Fraud Users, Relevant/All users) could be applied, so counts cover every user with the group property; for two tests (T124 RV, PB level) the group property did not resolve in the query (all \"undefined\").",
    "since": "2026-11-02",
    "since_basis": "interim pull 2026-11-02",
    "decision_doc_ref": "docs/TEST_INTERIM_RUNBOOK.md"

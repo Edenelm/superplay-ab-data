@@ -251,9 +251,9 @@ When value is null (or compliance = unknown), `null_reason` and `question` (the 
 
 ## test_interim (v1.5 additive, `data/test_interim.json`)
 Per live test × day × group raw totals from the test's Mixpanel dashboard. Runbook: `docs/TEST_INTERIM_RUNBOOK.md`.
-- `records[]`: `interim_id` (test_id|date|group), `test_id`, `game`, `date` (Mixpanel project date, unconverted), `group`, `revenue_gross_usd` (Dice incl. RV/ads; Domino IAP only), `revenue_net_usd` (null), `payers`, `active_users`, `group_size` (null), `is_final`, `completeness`, `scope_matches_dashboard`, `unapplied_filters[]`, `definition_refs` (field -> `field_definitions` key, `DICE.*` / `DOM.*`), `source` {system, project_id, dashboard_url, group_property, file, run_at}, `null_reasons`.
-- `field_definitions.<field>`: definition, source, definition_status (all needs_approval), open_issues, question.
-- `coverage[]`: one entry per Dice and Domino live test: status data/null, null_reason, days range, groups, the query used, backfill_pending, runs.
-- `games_pending[]`: Disney Solitaire, status `pending` (not yet pulled; not a permanent null).
+- `records[]`: `interim_id` (test_id|date|group), `test_id`, `game`, `date` (Mixpanel project date, unconverted), `group`, `revenue_gross_usd` (Dice incl. RV/ads; Domino IAP only; Disney "Purchase Amount"), `revenue_net_usd` (null), `payers`, `active_users`, `group_size` (null), `is_final`, `completeness`, `scope_matches_dashboard`, `unapplied_filters[]`, `definition_refs` (field -> `field_definitions` key, `DICE.*` / `DOM.*` / `DIS.*`), `source` {system, project_id, dashboard_url, group_property, file, run_at}, `null_reasons`.
+- `field_definitions.<GAME>.<field>`: definition, source, definition_status (all needs_approval), open_issues, question. The plain keys (`revenue_gross_usd`, …, `is_final`) are deprecated aliases of `DICE.<field>` (`alias_of`, `deprecated: true`), kept for readers of the first Dice-only version.
+- `coverage[]`: one entry per Dice, Domino and Disney live test: status data/null, null_reason, days range, groups, the query used, backfill_pending, runs.
+- `games_pending[]`: games not pulled yet (status `pending`, not a permanent null); empty since all three games are covered.
 - `unassigned_by_test`: "$overall" and "undefined" (no group property) totals per test and day, kept out of records.
 - Never stores differences or uplift. Rows with `scope_matches_dashboard=false` are not the test audience (cohort filter not applied).
