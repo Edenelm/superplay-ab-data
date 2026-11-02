@@ -114,7 +114,8 @@
    "bytes": 336203,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/test_results.json"
+   "history_file": "history/2026-11-02/test_results.json",
+   "content_unchanged_since": "2026-11-02T17:03:33+02:00"
   },
   "explanations_learnings_decisions": {
    "file": "latest/explanations_learnings_decisions.json",
@@ -173,7 +174,8 @@
    "bytes": 93776,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/glossary.json"
+   "history_file": "history/2026-11-02/glossary.json",
+   "content_unchanged_since": "2026-11-02T16:29:03+02:00"
   },
   "open_issues": {
    "file": "latest/open_issues.json",
@@ -187,7 +189,8 @@
    "bytes": 17739,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/open_issues.json"
+   "history_file": "history/2026-11-02/open_issues.json",
+   "content_unchanged_since": "2026-11-02T16:29:03+02:00"
   },
   "test_structured": {
    "file": "latest/test_structured.json",
@@ -197,8 +200,8 @@
    "last_attempt_at": "2026-11-02T16:29:03+02:00",
    "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02",
    "stale": false,
-   "sha256": "c2ce2b2656e43c44f9528dd1c9777ea642b7225a0d54b5c77128dc1e6fe65c60",
-   "bytes": 20000,
+   "sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925",
+   "bytes": 5669975,
    "error": null,
    "is_final": null,
    "history_file": "history/2026-11-02/test_structured.json"
@@ -215,7 +218,7 @@
   "metric_definitions": 27,
   "open_issues": 17,
   "glossary_concepts": 58,
-  "test_structured": 1
+  "test_structured": 681
  },
  "layer": {
   "index": {
@@ -279,63 +282,25 @@
    "run_at": "2026-11-02T16:29:03+02:00",
    "baseline_published_at": "2026-11-02T16:29:03+02:00",
    "datasets_changed": [
-    "test_results",
-    "glossary",
-    "open_issues",
     "test_structured"
    ],
    "datasets_unchanged": [
     "game_metrics",
     "test_registry",
+    "test_results",
     "explanations_learnings_decisions",
     "whatsapp_items",
-    "metric_definitions"
+    "metric_definitions",
+    "glossary",
+    "open_issues"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
-   "tests_updated": 37,
-   "tests_unchanged": 644,
+   "tests_updated": 0,
+   "tests_unchanged": 681,
    "tests_removed_kept": 0,
-   "updated_test_ids": [
-    "DICE-199-dtc-from-1st-purchase-android",
-    "DICE-1113-limited-stock-offer-recomp",
-    "DICE-1103-scare-screen-new-users",
-    "DOM-1543-rv-stuck-in-funnel-users",
-    "DOM-1550-inflation-of-wild-cost",
-    "DOM-1533-daily-calendar-session-extension",
-    "DIS-115-make-any-purchase",
-    "DIS-101-std-expensive-offer-v4-15",
-    "DIS-116-make-any-purchase-v2",
-    "DIS-125-make-any-purchase-new-seg",
-    "DIS-124-ays-offer-for-ftd-and",
-    "DIS-108-purchase-funnel-v4",
-    "DIS-041-starter-pack-to-level-75",
-    "DIS-111-starter-pack",
-    "DICE-1102-ftd-high-maturity",
-    "DICE-1109-remove-android-dtc",
-    "DICE-1104-bingo-vs-native",
-    "DICE-197-dtc-from-1st-purchase-apple",
-    "DICE-1103-scare-screen-users-that-never",
-    "DICE-195-ftd-offer-3po",
-    "DOM-1570-high-win-rate-after-purchase",
-    "DOM-1551-1551-scrolling-under-250",
-    "DOM-1494-romantic-treats",
-    "DOM-1501-duel-vs-tournament-onboarding",
-    "DOM-1492-popup-win-level-30-in",
-    "DOM-1494-dtc-scare-screen-tech-launch",
-    "DOM-1500-no-dtc-new-users",
-    "DOM-1460-rv-mania-v2",
-    "DOM-1500-japan-pricing-test",
-    "DOM-1512-dtc-20-value-for-expensive",
-    "DOM-1543-rv-opportunistic-for-completers-dormants",
-    "DOM-NOID-ftd-offer-add-a-20",
-    "DOM-1372-new-ftd-offer",
-    "DOM-1382-ftd-store-all-bundles-high",
-    "DOM-1382-ftd-store-test",
-    "DOM-1402-vault-late-ftd",
-    "DOM-NOID-vault-for-late-ftd-test"
-   ],
-   "detail_files_written": 37,
+   "updated_test_ids": [],
+   "detail_files_written": 0,
    "sections_regenerated": 0,
    "sections_reused": 3445,
    "needs_attention": [
@@ -360,17 +325,17 @@
  "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
  "publish": {
   "published": [
-   "test_results",
-   "glossary",
-   "open_issues",
    "test_structured"
   ],
   "unchanged_kept": [
    "game_metrics",
    "test_registry",
+   "test_results",
    "explanations_learnings_decisions",
    "whatsapp_items",
-   "metric_definitions"
+   "metric_definitions",
+   "glossary",
+   "open_issues"
   ],
   "failed": [],
   "history_dir": "history/2026-11-02/",

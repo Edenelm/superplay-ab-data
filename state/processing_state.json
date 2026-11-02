@@ -31,11 +31,11 @@
    "source_snapshot": "local sources as of 2026-11-02"
   },
   "open_issues": {
-   "sha256": "a4b379ae6227244f3a5b8e433e5eee44ee5acdcc638fe38bdc24105d762e7602",
+   "sha256": "9046c075a7780f0a4b70759c782224700c534901472a63173857287bf5ebd08a",
    "source_snapshot": "curated from saved sources as of 2026-11-02"
   },
   "test_structured": {
-   "sha256": "c2ce2b2656e43c44f9528dd1c9777ea642b7225a0d54b5c77128dc1e6fe65c60",
+   "sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925",
    "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02"
   },
   "curated_live_understanding": {

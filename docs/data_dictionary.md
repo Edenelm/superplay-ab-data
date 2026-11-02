@@ -190,7 +190,7 @@ Display rule: for each affected field/test, show `display_note_he` (or `_en`). `
 
 
 ## test_structured (v1.5, `data/test_structured.json`)
-Structured fields per test, from read-only sources. **Stage 1: only DOM-1581 is filled; Stage 2 fills all tests** (`counts.pending_stage2`).
+Structured fields per test, from read-only sources. **Stage 2 (2026-11-02): all registry tests are filled** (DOM-1581 keeps its Stage 1 card). Record keys `priority_tier` (live / stopped = board status Aborted or Stopped / recent_ended = end ≥ 2026-08-04 / ended / backlog) and `owners` (board person columns, who to ask). Backlog records use board columns only (`fill_scope` = stage2_board_columns_only). How each field was filled: `field_definitions.<field>.stage2_fill_rule`.
 Every field is `{value, definition_status, sources[], raw, null_reason, question, note}`. `sources[]` = `{type, ref, locator, read_at}`; locator = Monday column id, tab cell, Mixpanel object, or WhatsApp extract file:line.
 definition_status: `explicit_in_source` (the source states it) · `analysis_setup_mixpanel` (how the Mixpanel analysis is set up; not confirmed live config) · `interpretation` · `unknown` · `not_applicable`.
 When value is null (or compliance = unknown), `null_reason` and `question` (the exact question to ask) are set. Nothing is computed from Test/Control; a group formula is kept in `raw`, never turned into a %.

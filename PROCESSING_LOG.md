@@ -11,8 +11,8 @@ Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-
 - `whatsapp_items`: {"sha256": "3a1b5cb939668ad0f018e210800af1cec8564fc9c58c30c102592f46fd4cc9d7", "source_snapshot": "2026-11-02"}
 - `metric_definitions`: {"sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3", "source_snapshot": "2026-11-01T12:05:00+02:00 (+ Domino DAU lineage 2026-11-02T16:25:00+02:00)"}
 - `glossary`: {"sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2", "source_snapshot": "local sources as of 2026-11-02"}
-- `open_issues`: {"sha256": "a4b379ae6227244f3a5b8e433e5eee44ee5acdcc638fe38bdc24105d762e7602", "source_snapshot": "curated from saved sources as of 2026-11-02"}
-- `test_structured`: {"sha256": "c2ce2b2656e43c44f9528dd1c9777ea642b7225a0d54b5c77128dc1e6fe65c60", "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02"}
+- `open_issues`: {"sha256": "9046c075a7780f0a4b70759c782224700c534901472a63173857287bf5ebd08a", "source_snapshot": "curated from saved sources as of 2026-11-02"}
+- `test_structured`: {"sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925", "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02"}
 - `curated_live_understanding`: {"sha256": "07bddf632ee7d21b90a7f61d9c01313652e841ecec2d34f55593ef7a9a8a1450"}
 - `curated_extra_conflicts`: {"sha256": "31a493c5753754287110df56be166615ee1d9b1ddff43dba30d3dc56b4ce7efd", "file": "tools/curated/extra_conflicts.json"}
 - `mixpanel_mechanism_pass`: {"sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213", "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"}

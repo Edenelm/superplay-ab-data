@@ -12,14 +12,14 @@
   {
    "path": "manifest.json",
    "kind": "file",
-   "bytes": 13840,
+   "bytes": 12589,
    "contains": "run metadata, per-dataset status/sha256/stale, layer pointers, change_summary",
    "read_when": "always first; compare sha256 / aggregate_fingerprint with what you cached"
   },
   {
    "path": "FILE_MAP.json",
    "kind": "file",
-   "bytes": 11499,
+   "bytes": 12319,
    "contains": "this map (machine-readable)",
    "read_when": "second, to find files"
   },
@@ -42,7 +42,7 @@
   {
    "path": "FILE_MAP.md",
    "kind": "file",
-   "bytes": 6193,
+   "bytes": 6699,
    "contains": "this map (human-readable)",
    "read_when": "optional"
   },
@@ -52,7 +52,7 @@
    "bytes": 4130,
    "contains": "what was checked against which source version; what is still missing; accesses not retried",
    "read_when": "when a field is missing / unclear",
-   "sha256": "53e3adcf2c2207a652d79709690bbb3d2a56182ffa9607f4da0a167f668d3161"
+   "sha256": "0c0c5a804fd709f152c26b0b653e43556cbe0d7b5cb218ef40f73a03346d6c0b"
   },
   {
    "path": "README.md",
@@ -97,10 +97,10 @@
   {
    "path": "docs/data_dictionary.md",
    "kind": "file",
-   "bytes": 18781,
+   "bytes": 19121,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme",
    "read_when": "reference",
-   "sha256": "2256e30a4013e50121fd2393557698919e605ca5543eba4f5ea5e8bb5af138ef"
+   "sha256": "e4276fb713e64439244127d471a1763c619320737ef1b6445342d1f3465daee3"
   },
   {
    "path": "history/2026-11-01",
@@ -114,7 +114,7 @@
    "path": "history/2026-11-02",
    "kind": "dir",
    "files": 11,
-   "bytes": 3704579,
+   "bytes": 9353303,
    "contains": "copies of datasets + manifest published that day",
    "read_when": "audit / diffs over time"
   },
@@ -177,10 +177,10 @@
   {
    "path": "latest/test_structured.json",
    "kind": "file",
-   "bytes": 20000,
+   "bytes": 5669975,
    "contains": "structured test fields per test (change, control, audience, exposure %, lever, primary metric, guardrails, hypothesis, compliance, stop reason), each with value, definition_status, sources, null_reason, question; Stage 1: DOM-1581 only",
    "read_when": "to read what a test changes and for whom; check definition_status and question before using a value",
-   "sha256": "c2ce2b2656e43c44f9528dd1c9777ea642b7225a0d54b5c77128dc1e6fe65c60"
+   "sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925"
   },
   {
    "path": "latest/whatsapp_items.json",
@@ -265,10 +265,10 @@
   {
    "path": "schemas/test_structured.schema.json",
    "kind": "file",
-   "bytes": 27505,
+   "bytes": 28148,
    "contains": "JSON Schemas (draft 2020-12)",
    "read_when": "when validating / generating types",
-   "sha256": "c5507f8d188754784662ec4996a4d878d8d364da625c51a281b8c7b5439f5cd4"
+   "sha256": "d033623ffd9891d6f5a2b6b7439868f6c374fea67cc8de214bf818aa8b1ccb31"
   },
   {
    "path": "schemas/tests_index.schema.json",
@@ -292,7 +292,7 @@
    "bytes": 361542,
    "contains": "per-test fingerprints per section, source versions, not-retried accesses",
    "read_when": "by the producer for incremental runs; consumers rarely need it",
-   "sha256": "0406c6aa69d77331c76d2076cffda41fb9322cba87707eb4ae6fe79346cddee0"
+   "sha256": "05ad7ce22590340409f5af17c3d0b66444a0508762afc332a2273edd51badf60"
   },
   {
    "path": "tests/DICE",

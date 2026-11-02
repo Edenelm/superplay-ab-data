@@ -1263,6 +1263,42 @@
       "items": {
        "type": "string"
       }
+     },
+     "priority_tier": {
+      "type": "string",
+      "enum": [
+       "live",
+       "stopped",
+       "recent_ended",
+       "ended",
+       "backlog"
+      ]
+     },
+     "owners": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "role",
+        "names",
+        "source"
+       ],
+       "properties": {
+        "role": {
+         "type": "string"
+        },
+        "names": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "source": {
+         "type": "string"
+        }
+       },
+       "additionalProperties": false
+      }
      }
     },
     "additionalProperties": true
