@@ -58,6 +58,14 @@
    {
     "type": "duplicate_test_number",
     "msg": "test number 125 is used by 9 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-push-notification-increase-by-lvl, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-v4-increase-by-mode, DIS-125-wr-v2, DIS-125-8box-segments"
+   },
+   {
+    "type": "board_live_group",
+    "msg": "Status 'Analysis Needed' but no end date (start 2026-09-23)"
+   },
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 125 is used by 9 board items in Disney Solitaire: DIS-125-make-any-purchase-new-seg, DIS-125-t125-end-of-puzzle-offer, DIS-125-push-notification-increase-by-lvl, DIS-125-dormant-cz-v3, DIS-125-potion-bonus, DIS-125-v4-increase-by-mode, DIS-125-wr-v2, DIS-125-8box-segments"
    }
   ],
   "source_links": [
@@ -93,7 +101,7 @@
   },
   "carried_forward": {
    "since": "2026-11-02",
-   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
    "note": "board fields updated only from the daily refresh diff; outcome not classified here"
@@ -221,7 +229,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "כמה פחות מקבלים ב-DRC, ומה השתנה לעומת V5/V5.1? סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-23)",
+    "text_he": "כמה פחות מקבלים ב-DRC, ומה השתנה לעומת V5/V5.1? סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-23) סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-23)",
     "statements": [
      {
       "text_he": "כמה פחות מקבלים ב-DRC, ומה השתנה לעומת V5/V5.1?",
@@ -236,13 +244,20 @@
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
       ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-23)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935476"
+      ]
      }
     ],
-    "fingerprint": "b9512ff257ef1451",
+    "fingerprint": "ff2d055531018f94",
     "inputs": {
      "curated:questions": "62da171fc391e828",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "38eb26b33a45da2a",
+     "registry:conflicts": "85a27ffc87c32c21",
      "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -266,6 +281,7 @@
    "התחלה 23/09/2026 13:41 UTC."
   ],
   "conflicts": [
+   "Status 'Analysis Needed' but no end date (start 2026-09-23)",
    "Status 'Analysis Needed' but no end date (start 2026-09-23)"
   ],
   "source_refs": [
@@ -294,6 +310,6 @@
  "glossary_concepts": [
   "DRC"
  ],
- "content_fingerprint": "7964c23109a07294c8eae1502fe12715a303cfb4327f52590924e73e3e76004a",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "ada0c145131af2bfe1ab2ca0d90ff9ce3405cce48da71a161c6f65bbeac7e963",
+ "last_changed_at": "2026-11-02T17:56:03+02:00"
 }

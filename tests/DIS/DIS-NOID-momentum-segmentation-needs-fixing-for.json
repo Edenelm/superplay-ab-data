@@ -77,7 +77,7 @@
   "board_decision_raw": "Pending",
   "carried_forward": {
    "since": "2026-11-02",
-   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
    "note": "board fields updated only from the daily refresh diff; outcome not classified here"
@@ -224,6 +224,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "4aed71193b234f38003b1cac25142fe10a0dfc38b8874bc4334ffd376f81cb95",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "2dfed2137e0042c731201864984a91dff1fb464096fd7d64c7bafd5161479434",
+ "last_changed_at": "2026-11-02T17:56:03+02:00"
 }

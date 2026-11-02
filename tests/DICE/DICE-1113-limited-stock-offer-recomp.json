@@ -201,12 +201,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "44372ed79598b95a",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.82%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell E8 = 1.82%), not the tab's headline diff F8 ('Diff To Diff')",
-   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m01#r2"
+   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m01#r2",
+   "record_hash": "44372ed79598b95a"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -281,11 +281,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "2b01df50b2556f89",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.33%",
-   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F)."
+   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F).",
+   "record_hash": "2b01df50b2556f89"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -360,12 +360,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "1d58d5103df94ed7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.20%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell E10 = 0.20%), not the tab's headline diff F10 ('Diff To Diff')",
-   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m02#r2"
+   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m02#r2",
+   "record_hash": "1d58d5103df94ed7"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -440,11 +440,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "b4c0c02c7d01ab44",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.48%",
-   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F)."
+   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F).",
+   "record_hash": "b4c0c02c7d01ab44"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -519,12 +519,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "37d462feef4d855d",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.40%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell E12 = -0.40%), not the tab's headline diff F12 ('Diff To Diff')",
-   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m03#r2"
+   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m03#r2",
+   "record_hash": "37d462feef4d855d"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -599,11 +599,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "18ee6d32011853f6",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.11%",
-   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F)."
+   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F).",
+   "record_hash": "18ee6d32011853f6"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -678,11 +678,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "79dff78815ba6078",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.80%",
-   "diff_note": "block header row 24: E='diff', F='diff  2 weeks' (not labelled diff-in-diff) → E used."
+   "diff_note": "block header row 24: E='diff', F='diff  2 weeks' (not labelled diff-in-diff) → E used.",
+   "record_hash": "79dff78815ba6078"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -757,11 +757,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "83355ddbf3f9fad1",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.30%",
-   "diff_note": "block header row 24: E='diff', F='diff  2 weeks' (not labelled diff-in-diff) → E used."
+   "diff_note": "block header row 24: E='diff', F='diff  2 weeks' (not labelled diff-in-diff) → E used.",
+   "record_hash": "83355ddbf3f9fad1"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -836,10 +836,10 @@
     "ci": "no CI column in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "615bdf1738f2e455",
    "diff_method": null,
    "diff_checked_at": null,
-   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff",
+   "record_hash": "615bdf1738f2e455"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -914,10 +914,10 @@
     "ci": "no CI column in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "33d19965049dc322",
    "diff_method": null,
    "diff_checked_at": null,
-   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff",
+   "record_hash": "33d19965049dc322"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -992,10 +992,10 @@
     "ci": "no CI column in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "602ddbbafa282bd7",
    "diff_method": null,
    "diff_checked_at": null,
-   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff",
+   "record_hash": "602ddbbafa282bd7"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -1070,10 +1070,10 @@
     "ci": "no CI column in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "6b7aa30dbedd26af",
    "diff_method": null,
    "diff_checked_at": null,
-   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff",
+   "record_hash": "6b7aa30dbedd26af"
   }
  ],
  "explanation_he": {

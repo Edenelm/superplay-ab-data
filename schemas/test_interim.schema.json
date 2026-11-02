@@ -1,0 +1,324 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/test_interim.schema.json",
+ "title": "test_interim",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "rules",
+  "field_definitions",
+  "window",
+  "coverage",
+  "games_pending",
+  "unassigned_by_test",
+  "counts",
+  "records"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "test_interim"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+  },
+  "timezone": {
+   "const": "Asia/Jerusalem"
+  },
+  "rules": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "field_definitions": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "definition",
+     "source",
+     "definition_status",
+     "open_issues",
+     "question"
+    ],
+    "properties": {
+     "definition": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source": {
+      "type": "string"
+     },
+     "definition_status": {
+      "enum": [
+       "approved",
+       "documented",
+       "needs_approval"
+      ]
+     },
+     "open_issues": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "question": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "window": {
+   "type": "object"
+  },
+  "coverage": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "test_id",
+     "game",
+     "status",
+     "null_reason",
+     "days",
+     "groups",
+     "runs"
+    ],
+    "properties": {
+     "test_id": {
+      "type": "string"
+     },
+     "game": {
+      "type": "string"
+     },
+     "status": {
+      "enum": [
+       "data",
+       "null"
+      ]
+     },
+     "null_reason": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "days": {
+      "type": "integer"
+     },
+     "groups": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "runs": {
+      "type": "array"
+     },
+     "query": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "backfill_pending": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "scope_matches_dashboard": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "games_pending": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "game",
+     "status"
+    ],
+    "properties": {
+     "game": {
+      "type": "string"
+     },
+     "status": {
+      "const": "pending"
+     }
+    }
+   }
+  },
+  "unassigned_by_test": {
+   "type": "object"
+  },
+  "counts": {
+   "type": "object",
+   "required": [
+    "records"
+   ]
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "interim_id",
+     "test_id",
+     "game",
+     "date",
+     "date_timezone",
+     "group",
+     "revenue_gross_usd",
+     "revenue_net_usd",
+     "payers",
+     "active_users",
+     "group_size",
+     "is_final",
+     "completeness",
+     "scope_matches_dashboard",
+     "unapplied_filters",
+     "source",
+     "null_reasons"
+    ],
+    "properties": {
+     "interim_id": {
+      "type": "string"
+     },
+     "test_id": {
+      "type": "string"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "date_timezone": {
+      "type": "string"
+     },
+     "group": {
+      "type": "string"
+     },
+     "revenue_gross_usd": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "revenue_net_usd": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "payers": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "active_users": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "group_size": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "is_final": {
+      "type": "boolean"
+     },
+     "completeness": {
+      "enum": [
+       "final",
+       "provisional"
+      ]
+     },
+     "scope_matches_dashboard": {
+      "type": "boolean"
+     },
+     "unapplied_filters": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "system",
+       "project_id",
+       "dashboard_url",
+       "group_property",
+       "file",
+       "run_at"
+      ],
+      "properties": {
+       "system": {
+        "const": "mixpanel"
+       },
+       "project_id": {
+        "type": "integer"
+       },
+       "dashboard_url": {
+        "type": "string"
+       },
+       "group_property": {
+        "type": "string"
+       },
+       "query_ref": {
+        "type": "string"
+       },
+       "file": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "run_at": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -141,10 +141,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "f2592ee1e914190b",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-1.95%"
+   "diff_value_raw": "-1.95%",
+   "record_hash": "f2592ee1e914190b"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -219,10 +219,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "81040f7f1a939030",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.14%"
+   "diff_value_raw": "0.14%",
+   "record_hash": "81040f7f1a939030"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -297,10 +297,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "0eef020917803b0a",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "12.10%"
+   "diff_value_raw": "12.10%",
+   "record_hash": "0eef020917803b0a"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -375,10 +375,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "f583ebf4d12dd52c",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "1.18%"
+   "diff_value_raw": "1.18%",
+   "record_hash": "f583ebf4d12dd52c"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -453,10 +453,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "02eeb333c258b593",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "1.14%"
+   "diff_value_raw": "1.14%",
+   "record_hash": "02eeb333c258b593"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -531,10 +531,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "fce9ef64dc173595",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-2.55%"
+   "diff_value_raw": "-2.55%",
+   "record_hash": "fce9ef64dc173595"
   }
  ],
  "explanation_he": {

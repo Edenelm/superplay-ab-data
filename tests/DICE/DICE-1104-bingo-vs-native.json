@@ -145,10 +145,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "6190dc03415a1c97",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "14.15%"
+   "diff_value_raw": "14.15%",
+   "record_hash": "6190dc03415a1c97"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -222,10 +222,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "fbb0ea24cd4a07a3",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "14.62%"
+   "diff_value_raw": "14.62%",
+   "record_hash": "fbb0ea24cd4a07a3"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -299,10 +299,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "d1c26d713db175cb",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "4.99%"
+   "diff_value_raw": "4.99%",
+   "record_hash": "d1c26d713db175cb"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -375,10 +375,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "8452221aa8ff7606",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.26%"
+   "diff_value_raw": "-0.26%",
+   "record_hash": "8452221aa8ff7606"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -452,10 +452,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "856e09fb74ee4f63",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "6.90%"
+   "diff_value_raw": "6.90%",
+   "record_hash": "856e09fb74ee4f63"
   }
  ],
  "explanation_he": {

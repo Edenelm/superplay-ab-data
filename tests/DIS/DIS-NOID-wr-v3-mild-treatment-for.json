@@ -77,7 +77,7 @@
   "board_decision_raw": "Pending",
   "carried_forward": {
    "since": "2026-11-02",
-   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
    "note": "board fields updated only from the daily refresh diff; outcome not classified here"
@@ -226,6 +226,6 @@
  "glossary_concepts": [
   "WR"
  ],
- "content_fingerprint": "a920540a1274843493691521abdc92ed7e192825ae88bb57c002f75f9350952d",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "e88032e097347f61987c87d60ba8b072f2fc498d6d192a26e136f7bc363c1636",
+ "last_changed_at": "2026-11-02T17:56:03+02:00"
 }

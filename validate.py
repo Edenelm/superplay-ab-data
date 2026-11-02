@@ -206,6 +206,33 @@ for x in res:
         if _u.get('ci') is None and not _nr.get('ci'): err('test_results', f'{_rid}: ci null without null_reasons.ci')
         if _u.get('significance') is not None and not _u.get('significance_cell'): err('test_results', f'{_rid}: significance without significance_cell')
         if _u.get('significance') is None and not _nr.get('significance'): err('test_results', f'{_rid}: significance null without null_reasons.significance')
+# ---- v1.5 test_interim: raw per-group totals only; nulls need reasons; is_final consistent; pending games are pending ----
+ti = docs.get('test_interim')
+if ti:
+    _reg = {r['test_id']: r for r in (docs.get('test_registry') or {}).get('records', [])}
+    _oi_ids = {o['id'] for o in (docs.get('open_issues') or {}).get('items', [])}
+    _DIFF = re.compile(r'(?i)(diff|uplift|lift|delta|ratio|pct|normali)')
+    for k, d in ti['field_definitions'].items():
+        if d['definition_status'] == 'needs_approval' and not d.get('question'): err('test_interim', f'test_interim.field_definitions.{k}: needs_approval without question')
+        for o in d.get('open_issues', []):
+            if _oi_ids and o not in _oi_ids: err('test_interim', f'test_interim.field_definitions.{k}: unknown open issue {o}')
+    _seen = set()
+    for x in ti['records']:
+        if _reg and x['test_id'] not in _reg: err('test_interim', f"test_interim: unknown test_id {x['test_id']}")
+        if x['interim_id'] in _seen: err('test_interim', f"test_interim: duplicate {x['interim_id']}")
+        _seen.add(x['interim_id'])
+        if x['group'] in ('$overall', 'undefined'): err('test_interim', f"{x['interim_id']}: non-group row in records")
+        for k in x:
+            if _DIFF.search(k): err('test_interim', f"{x['interim_id']}: diff-like field {k}")
+        for k in ('revenue_gross_usd', 'revenue_net_usd', 'payers', 'active_users', 'group_size'):
+            if x[k] is None and not x['null_reasons'].get(k): err('test_interim', f"{x['interim_id']}: {k} null without null_reasons")
+        if (x['completeness'] == 'final') != x['is_final']: err('test_interim', f"{x['interim_id']}: is_final inconsistent")
+        if x['scope_matches_dashboard'] == bool(x['unapplied_filters']): err('test_interim', f"{x['interim_id']}: scope flag inconsistent with unapplied_filters")
+    for c in ti['coverage']:
+        if c['status'] == 'null' and not c.get('null_reason'): err('test_interim', f"test_interim.coverage {c['test_id']}: null without null_reason")
+    for g in ti['games_pending']:
+        if g['status'] != 'pending': err('test_interim', f"test_interim.games_pending {g['game']}: status must be pending")
+    if ti['counts']['records'] != len(ti['records']): err('test_interim', 'test_interim: counts.records mismatch')
 # ---- v1.5 test_structured: each field has sources; null value => null_reason + question (stop_reason on live tests: null_reason only) ----
 ts = docs.get('test_structured')
 if ts:

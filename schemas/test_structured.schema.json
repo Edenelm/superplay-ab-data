@@ -1335,64 +1335,6 @@
     }
    },
    "additionalProperties": true
-  },
-  "parts": {
-   "type": "array",
-   "items": {
-    "type": "object",
-    "required": [
-     "file",
-     "game",
-     "scope",
-     "records"
-    ],
-    "properties": {
-     "file": {
-      "type": "string"
-     },
-     "game": {
-      "type": "string"
-     },
-     "scope": {
-      "enum": [
-       "live",
-       "other"
-      ]
-     },
-     "records": {
-      "type": "integer"
-     }
-    }
-   }
-  },
-  "parts_note": {
-   "type": "string"
-  },
-  "part": {
-   "type": "object",
-   "required": [
-    "game",
-    "game_code",
-    "scope",
-    "full_file"
-   ],
-   "properties": {
-    "game": {
-     "type": "string"
-    },
-    "game_code": {
-     "type": "string"
-    },
-    "scope": {
-     "enum": [
-      "live",
-      "other"
-     ]
-    },
-    "full_file": {
-     "type": "string"
-    }
-   }
   }
  },
  "additionalProperties": true

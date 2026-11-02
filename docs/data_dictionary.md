@@ -248,3 +248,12 @@ When value is null (or compliance = unknown), `null_reason` and `question` (the 
 | compliance_requirement | yes / no / unknown, with source |
 | stop_reason | stopped tests only: stop reason as written in the source; live tests: null, null_reason "test is live" |
 | related_unlinked[] | possibly related mentions (e.g. WhatsApp without a test number), NOT linked until confirmed |
+
+## test_interim (v1.5 additive, `data/test_interim.json`)
+Per live test × day × group raw totals from the test's Mixpanel dashboard. Runbook: `docs/TEST_INTERIM_RUNBOOK.md`.
+- `records[]`: `interim_id` (test_id|date|group), `test_id`, `game`, `date` (Mixpanel project date, unconverted), `group`, `revenue_gross_usd` (incl. RV/ads), `revenue_net_usd` (null), `payers`, `active_users`, `group_size` (null), `is_final`, `completeness`, `scope_matches_dashboard`, `unapplied_filters[]`, `source` {system, project_id, dashboard_url, group_property, file, run_at}, `null_reasons`.
+- `field_definitions.<field>`: definition, source, definition_status (all needs_approval), open_issues, question.
+- `coverage[]`: one entry per Dice live test: status data/null, null_reason, days range, groups, the query used, backfill_pending, runs.
+- `games_pending[]`: Domino Dreams and Disney Solitaire, status `pending` (not yet pulled; not a permanent null).
+- `unassigned_by_test`: "$overall" and "undefined" (no group property) totals per test and day, kept out of records.
+- Never stores differences or uplift. Rows with `scope_matches_dashboard=false` are not the test audience (cohort filter not applied).

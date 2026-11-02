@@ -154,11 +154,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "f851f39929688d29",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.00%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "f851f39929688d29"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -233,11 +233,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "9ed5d8e222add66b",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-3.36%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "9ed5d8e222add66b"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -312,11 +312,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "79a78d2d915dc39e",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-5.48%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "79a78d2d915dc39e"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -391,11 +391,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "dc22ff13b62cf061",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-15.28%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "dc22ff13b62cf061"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -470,11 +470,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "db6d35bd65a355db",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-22.33%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "db6d35bd65a355db"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -549,11 +549,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "c5bfed7f01c6fc59",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.40%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "c5bfed7f01c6fc59"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -627,11 +627,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "d3a7881c0a9dba9f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.64%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "d3a7881c0a9dba9f"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -705,11 +705,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "ae68836627f686b6",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.97%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "ae68836627f686b6"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -783,11 +783,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "ceae1b46273ddc22",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "4.61%",
-   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used.",
+   "record_hash": "ceae1b46273ddc22"
   }
  ],
  "explanation_he": {

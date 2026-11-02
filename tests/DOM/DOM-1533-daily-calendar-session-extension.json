@@ -149,10 +149,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "33996d47ea01e092",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-1.6%"
+   "diff_value_raw": "-1.6%",
+   "record_hash": "33996d47ea01e092"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -227,10 +227,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "85cbd9c61cd33b4c",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "1.6%"
+   "diff_value_raw": "1.6%",
+   "record_hash": "85cbd9c61cd33b4c"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -305,10 +305,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "1a8a10153f3b0840",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.5%"
+   "diff_value_raw": "0.5%",
+   "record_hash": "1a8a10153f3b0840"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -383,10 +383,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "f55d7095eeed9864",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "2.4%"
+   "diff_value_raw": "2.4%",
+   "record_hash": "f55d7095eeed9864"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -460,10 +460,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "a2dfd33fba6eb30b",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "2%"
+   "diff_value_raw": "2%",
+   "record_hash": "a2dfd33fba6eb30b"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -538,10 +538,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "9f38e1c0f955f1b1",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "3%"
+   "diff_value_raw": "3%",
+   "record_hash": "9f38e1c0f955f1b1"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -616,10 +616,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "9305d348512bd6a0",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "2.8%"
+   "diff_value_raw": "2.8%",
+   "record_hash": "9305d348512bd6a0"
   }
  ],
  "explanation_he": {

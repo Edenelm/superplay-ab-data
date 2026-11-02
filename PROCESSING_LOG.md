@@ -1,18 +1,17 @@
 # Processing log
 
-Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-02T16:29:03+02:00.
+Run 2026-11-02T17:56:03+02:00 (run_id 20261102T175603). Baseline state: 2026-11-02T16:29:03+02:00.
 
 ## Checked against (source versions)
 
-- `game_metrics`: {"sha256": "d228e47c9f171c8da80ca27d97623efbe3cdf454ef872d0d6b0bd127d71565c1", "source_snapshot": "2026-11-02T08:40:00+02:00"}
-- `test_registry`: {"sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4", "source_snapshot": "2026-11-02"}
-- `test_results`: {"sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02); population/uncertainty cells from results tabs read 2026-11-02"}
-- `explanations_learnings_decisions`: {"sha256": "22ca90fb92cb63f5dcdf980d5cb8e2b4cb11ca1cbd0a7c40a3df07293d59a34c", "source_snapshot": "2026-11-02"}
-- `whatsapp_items`: {"sha256": "3a1b5cb939668ad0f018e210800af1cec8564fc9c58c30c102592f46fd4cc9d7", "source_snapshot": "2026-11-02"}
-- `metric_definitions`: {"sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3", "source_snapshot": "2026-11-01T12:05:00+02:00 (+ Domino DAU lineage 2026-11-02T16:25:00+02:00)"}
-- `glossary`: {"sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2", "source_snapshot": "local sources as of 2026-11-02"}
-- `open_issues`: {"sha256": "9046c075a7780f0a4b70759c782224700c534901472a63173857287bf5ebd08a", "source_snapshot": "curated from saved sources as of 2026-11-02"}
-- `test_structured`: {"sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925", "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02"}
+- `game_metrics`: {"sha256": "beb299381d0012b98b187f841838e0ade4d5c8a36beb0fa6b00da072a88dc87a", "source_snapshot": "2026-11-02T17:13:58+02:00"}
+- `test_registry`: {"sha256": "bb9f74bce98b85fbb1d1deb397107cc3f5bd068bd0fd213bd6140c4d324e89be", "source_snapshot": "2026-11-02"}
+- `test_results`: {"sha256": "f09e4a03a8837768cfbb2306351030e5d63c1686e3ccbb5bd03aff1f419130a1", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)"}
+- `explanations_learnings_decisions`: {"sha256": "64da1e9c1c285bdf2a9883f501755f1b2506932fd0cca4cf2853a1a860a69312", "source_snapshot": "2026-11-02"}
+- `whatsapp_items`: {"sha256": "da4d7cc5f928acee3a74917c14be06f881dadf05d91ac08fb588ebfbfb7f794a", "source_snapshot": "2026-11-02"}
+- `metric_definitions`: {"sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3", "source_snapshot": "2026-11-01T12:05:00+02:00"}
+- `game_metrics_splits`: {"sha256": "849a2543aa559f005ae5c639f6c1a7bff1aa2ac384db6152d3a52a650a4c5fee", "source_snapshot": "2026-11-02T17:13:58+02:00"}
+- `game_ftd_retention`: {"sha256": "6d8c89594bdec9651154e95a387f87d1f90a109a6fbcef01bd226f874d23eea7", "source_snapshot": "2026-11-02T17:13:58+02:00"}
 - `curated_live_understanding`: {"sha256": "07bddf632ee7d21b90a7f61d9c01313652e841ecec2d34f55593ef7a9a8a1450"}
 - `curated_extra_conflicts`: {"sha256": "31a493c5753754287110df56be166615ee1d9b1ddff43dba30d3dc56b4ce7efd", "file": "tools/curated/extra_conflicts.json"}
 - `mixpanel_mechanism_pass`: {"sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213", "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"}
@@ -33,7 +32,7 @@ Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-
 
 ## Regeneration
 
-- sections regenerated: 0, reused: 3445
+- sections regenerated: 6, reused: 3439
 
 ## Still missing
 
@@ -52,12 +51,3 @@ Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-
 - DIS-NOID-live-test: המנגנון טרם הובהר (live)
 - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
 - Glossary: 31 concepts `unclear` (see docs/GLOSSARY.md, column Open question).
-
-
-## Game metrics history / splits / FTD / retention (2026-11-02T17:26:00+02:00)
-
-- Sources (read-only BigQuery, project= per game): dice-dreams-dbt.50_reporting.user_daily_metrics_agg, domino-dreams-dbt.prod_40_mart.user_daily_metrics, solitaire-dreams-dbt.40_mart.user_daily_metrics. SQL, run_at and bytes per record.
-- Coverage: 2026-09-25..2026-11-01 for all three games; cohorts 09-25..10-31. D30 is reached only for cohorts ≤ 10-02.
-- Missing / not found: official FTD-rate denominator, official retention definition, official new-user rule (Dice, Disney), Dice Android Stripe column. Confluence: access denied. HQ (headquarters-dbt) data: 403, not retried.
-- export_query_csv links need a Google sign-in, so execute_query with write_to_file was used.
-- Metadata saved: tools/source_metadata/ (HQ mrt_daily_agg_dice / _solitaire, dice and solitaire 50_reporting table lists, Domino reconciliation).

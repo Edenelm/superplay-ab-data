@@ -1,15 +1,15 @@
 {
  "dataset": "open_issues",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T17:21:12+02:00",
+ "generated_at": "2026-11-02T17:56:03+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
   "OI-RULE-21D: the 21-day rule is NOT used to end or hide tests; at most a needs_review flag"
  ],
  "counts": {
-  "items": 22,
-  "awaiting_decision": 22
+  "items": 23,
+  "awaiting_decision": 23
  },
  "items": [
   {
@@ -725,6 +725,41 @@
    "since": "2026-11-02",
    "since_basis": "game history/splits/FTD/retention build (tools/gm_build.py), approved list 2.11",
    "decision_doc_ref": null
+  },
+  {
+   "id": "OI-INTERIM-SCOPE",
+   "topic": "metric_definition",
+   "games": [
+    "Dice Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "test_interim"
+    ],
+    "fields": [
+     "revenue_gross_usd",
+     "payers",
+     "active_users",
+     "group_size",
+     "scope_matches_dashboard"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DICE-1108-weekly-goals-pb-points-distribution",
+     "DICE-1110-rv-purchase-penalty",
+     "DICE-1113-x2-ticks-per-hour-k199",
+     "DICE-1114-duel-time-easier-bots",
+     "DICE-1114-tournament-v2-after-fix-round",
+     "DICE-1115-trail-double-wheel-better-experience",
+     "DICE-1110-puzzle-onboarding-gt-v4"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "נתוני ביניים לפי קבוצה נמשכו מ-Mixpanel בלי פילטר ה-cohort של הדשבורד (\"Relevant users\") ובלי גודל קבוצה, כי כלי השאילתה לא תומך בזה. הדרך המדויקת (Get-Report) דורשת את אישורך. ההכנסות כוללות RV/פרסומות.",
+   "display_note_en": "Interim per-group numbers were pulled from Mixpanel without the dashboard cohort filter (\"Relevant users\") and without group size, because the query tool cannot express them. The exact path (Get-Report) needs your confirmation. Revenue includes RV/ads.",
+   "since": "2026-11-02",
+   "since_basis": "interim pull 2026-11-02",
+   "decision_doc_ref": "docs/TEST_INTERIM_RUNBOOK.md"
   }
  ]
 }

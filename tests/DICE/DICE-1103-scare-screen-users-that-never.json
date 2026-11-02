@@ -145,12 +145,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "c72ad54114fd3630",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.36%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D6 = -0.36%), not the tab's headline diff E6 ('Diff to Diff')",
-   "superseded_by": "DICE-1103-scare-screen-users-that-never::m01#r2"
+   "superseded_by": "DICE-1103-scare-screen-users-that-never::m01#r2",
+   "record_hash": "c72ad54114fd3630"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -225,11 +225,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "8d29e19f7f3a9726",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.64%",
-   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED.",
+   "record_hash": "8d29e19f7f3a9726"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -304,12 +304,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "74a5cd6120d1d00b",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.35%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D7 = -0.35%), not the tab's headline diff E7 ('Diff to Diff')",
-   "superseded_by": "DICE-1103-scare-screen-users-that-never::m02#r2"
+   "superseded_by": "DICE-1103-scare-screen-users-that-never::m02#r2",
+   "record_hash": "74a5cd6120d1d00b"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -384,11 +384,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "0dcdc0ee1e7678ec",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.17%",
-   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED.",
+   "record_hash": "0dcdc0ee1e7678ec"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -463,12 +463,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "a7f1b710d01055f5",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-2.78%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D8 = -2.78%), not the tab's headline diff E8 ('Diff to Diff')",
-   "superseded_by": "DICE-1103-scare-screen-users-that-never::m03#r2"
+   "superseded_by": "DICE-1103-scare-screen-users-that-never::m03#r2",
+   "record_hash": "a7f1b710d01055f5"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -543,11 +543,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "f899988279ec4e73",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.47%",
-   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED.",
+   "record_hash": "f899988279ec4e73"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -622,11 +622,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "c1993493906742e5",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.12%",
-   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED.",
+   "record_hash": "c1993493906742e5"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -701,11 +701,11 @@
     "ci": "no CI column in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "bf5a4f1c509810ac",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-10.81%",
-   "diff_note": "value found in tab '1103 - Scare Screen Old Users' B4 (Uplift); whether that tab belongs to this test is not confirmed → NOT VERIFIED."
+   "diff_note": "value found in tab '1103 - Scare Screen Old Users' B4 (Uplift); whether that tab belongs to this test is not confirmed → NOT VERIFIED.",
+   "record_hash": "bf5a4f1c509810ac"
   }
  ],
  "explanation_he": {

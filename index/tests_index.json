@@ -1,12 +1,12 @@
 {
  "dataset": "tests_index",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T16:29:03+02:00",
+ "generated_at": "2026-11-02T17:56:03+02:00",
  "timezone": "Asia/Jerusalem",
  "source_version": {
-  "test_registry_sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4",
-  "glossary_sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2",
-  "aggregate_fingerprint": "fcfe76d06dda62809ae69a1af31f4ce41e581c4e70f831328794549e5f3e38df"
+  "test_registry_sha256": "bb9f74bce98b85fbb1d1deb397107cc3f5bd068bd0fd213bd6140c4d324e89be",
+  "glossary_sha256": "6c63642c816535f1552d130293d0b38d28a72a1c6416e56e9b67b520d42d24fc",
+  "aggregate_fingerprint": "6902589cdc222ec453a382013f5868667cc31ef4399737d919a15951ec404907"
  },
  "how_to_use": "filter entries here, then open only detail_file for the tests you need; skip a test whose fingerprint did not change since your last read",
  "counts": {
@@ -21671,8 +21671,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-124-trail-again-3rd-try.json",
-   "fingerprint": "0d51202a6c2a2e4e",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "efd6694cd503d8a5",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-123-mini-game-treatments",
@@ -21699,8 +21699,8 @@
     "conflict"
    ],
    "detail_file": "tests/DIS/DIS-123-mini-game-treatments.json",
-   "fingerprint": "5a16d0a46d4f55a5",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "fef3a8b542d78436",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-125-v4-increase-by-mode",
@@ -21728,8 +21728,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-125-v4-increase-by-mode.json",
-   "fingerprint": "6579c932cb3791cd",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "9a0b3e7ecc7eec23",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-125-wr-v2",
@@ -21764,8 +21764,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-125-wr-v2.json",
-   "fingerprint": "940999711e4106bd",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "d918d6bb538b3dd5",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-125-8box-segments",
@@ -21804,8 +21804,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-125-8box-segments.json",
-   "fingerprint": "f9af98a2a957f9ce",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "d7033dd5ed81d710",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-125-drc-new-economy-v5-2",
@@ -21844,8 +21844,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-125-drc-new-economy-v5-2.json",
-   "fingerprint": "7964c23109a07294",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "ada0c145131af2bf",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-gradual-momentum-seg-for-new",
@@ -21870,8 +21870,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-gradual-momentum-seg-for-new.json",
-   "fingerprint": "c6a47eeebc4de1f0",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "f61a2363f46e6c2e",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-wr-v3-mild-treatment-for",
@@ -21904,8 +21904,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-wr-v3-mild-treatment-for.json",
-   "fingerprint": "a920540a12748434",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "e88032e097347f61",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-momentum-segmentation-needs-fixing-for",
@@ -21930,8 +21930,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-momentum-segmentation-needs-fixing-for.json",
-   "fingerprint": "4aed71193b234f38",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "2dfed2137e0042c7",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-es-pity-v3-economic-agenda",
@@ -21971,8 +21971,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-es-pity-v3-economic-agenda.json",
-   "fingerprint": "cce85ed20cea1963",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "13da9941e024fee0",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-end-of-puzzle-offer-mtx",
@@ -22005,8 +22005,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-end-of-puzzle-offer-mtx.json",
-   "fingerprint": "6f07c6de8c1a06d1",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "a24a29617525a115",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-chef-segments",
@@ -22031,8 +22031,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-chef-segments.json",
-   "fingerprint": "a087bb32ee84e941",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "95b22e64ffe89638",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-challenge-lvl-10",
@@ -22065,8 +22065,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-challenge-lvl-10.json",
-   "fingerprint": "5189cd6e0a1cbf05",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "6c67c2c0321d4f0d",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-no-balance-for-high-segments",
@@ -22091,8 +22091,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-no-balance-for-high-segments.json",
-   "fingerprint": "0050198f72a9d9e6",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "21f3e9590d12ae14",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-wr-v3-easing",
@@ -22117,8 +22117,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-wr-v3-easing.json",
-   "fingerprint": "c4cfa254c42840cd",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "697ca10e48f51e99",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-use-puzzle-price-cut-with",
@@ -22151,8 +22151,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-use-puzzle-price-cut-with.json",
-   "fingerprint": "8206770da1a7732e",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "696889cb77792999",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   },
   {
    "test_id": "DIS-NOID-momentum-segments",
@@ -22177,8 +22177,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-NOID-momentum-segments.json",
-   "fingerprint": "025dec9d4b12edfb",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "b338fd47f15a1c4a",
+   "last_changed_at": "2026-11-02T17:56:03+02:00"
   }
  ]
 }

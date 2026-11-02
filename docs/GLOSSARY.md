@@ -1,6 +1,6 @@
 # Glossary (org terms)
 
-Generated 2026-11-02T16:29:03+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
+Generated 2026-11-02T17:56:03+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
 
 | Term | Status | Definition (he) | Games (tests) | Not the same as | Open question |
 |---|---|---|---|---|---|

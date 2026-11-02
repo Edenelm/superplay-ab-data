@@ -147,10 +147,10 @@
     "ci": "Google Doc source; not re-read (no Docs connector)",
     "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "9d94f0eb4690e3ae",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
-   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)",
+   "record_hash": "9d94f0eb4690e3ae"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -222,10 +222,10 @@
     "ci": "Google Doc source; not re-read (no Docs connector)",
     "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "3e27e6e1dcdf4b90",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
-   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)",
+   "record_hash": "3e27e6e1dcdf4b90"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -297,10 +297,10 @@
     "ci": "Google Doc source; not re-read (no Docs connector)",
     "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "1e60f5027985b685",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
-   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)",
+   "record_hash": "1e60f5027985b685"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -372,10 +372,10 @@
     "ci": "Google Doc source; not re-read (no Docs connector)",
     "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "b469341219567319",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
-   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)",
+   "record_hash": "b469341219567319"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -447,10 +447,10 @@
     "ci": "Google Doc source; not re-read (no Docs connector)",
     "significance": "Google Doc source; not re-read (no Docs connector)"
    },
-   "record_hash": "11b4daa352d41e73",
    "diff_method": "diff_from_doc",
    "diff_checked_at": null,
-   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)",
+   "record_hash": "11b4daa352d41e73"
   }
  ],
  "explanation_he": {

@@ -150,10 +150,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "effb19cf9a080f9f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "1.90%"
+   "diff_value_raw": "1.90%",
+   "record_hash": "effb19cf9a080f9f"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -228,10 +228,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "88f4cd90b3c0d2f4",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "4.28%"
+   "diff_value_raw": "4.28%",
+   "record_hash": "88f4cd90b3c0d2f4"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -306,10 +306,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "a2c6c9a9dea6e346",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "4.62%"
+   "diff_value_raw": "4.62%",
+   "record_hash": "a2c6c9a9dea6e346"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -382,10 +382,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "d3414ac12e91620f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.13%"
+   "diff_value_raw": "-0.13%",
+   "record_hash": "d3414ac12e91620f"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -458,10 +458,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "676c1947aa73a2fa",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.81%"
+   "diff_value_raw": "-0.81%",
+   "record_hash": "676c1947aa73a2fa"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -536,10 +536,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "01fbb20ee71a5ed0",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "1.77%"
+   "diff_value_raw": "1.77%",
+   "record_hash": "01fbb20ee71a5ed0"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -614,10 +614,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "66fefd76873e074b",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.32%"
+   "diff_value_raw": "0.32%",
+   "record_hash": "66fefd76873e074b"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -691,10 +691,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "09ffe677518e0687",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-2.22%"
+   "diff_value_raw": "-2.22%",
+   "record_hash": "09ffe677518e0687"
   }
  ],
  "explanation_he": {

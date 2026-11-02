@@ -149,12 +149,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "ac27997691222f8b",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.98%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D4 = 0.98%), not the tab's headline diff F4 ('Diff in Diff')",
-   "superseded_by": "DOM-1550-inflation-of-wild-cost::m01#r2"
+   "superseded_by": "DOM-1550-inflation-of-wild-cost::m01#r2",
+   "record_hash": "ac27997691222f8b"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -229,10 +229,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "62640f936b36d747",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.35%"
+   "diff_value_raw": "0.35%",
+   "record_hash": "62640f936b36d747"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -307,12 +307,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "07a1d2581bd2e496",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.15%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D7 = 0.15%), not the tab's headline diff F7 ('Diff in Diff')",
-   "superseded_by": "DOM-1550-inflation-of-wild-cost::m02#r2"
+   "superseded_by": "DOM-1550-inflation-of-wild-cost::m02#r2",
+   "record_hash": "07a1d2581bd2e496"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -387,10 +387,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "4403683bf50226b4",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.92%"
+   "diff_value_raw": "-0.92%",
+   "record_hash": "4403683bf50226b4"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -465,12 +465,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "1ac3267eeed780e7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-5.94%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D11 = -5.94%), not the tab's headline diff F11 ('Diff in Diff')",
-   "superseded_by": "DOM-1550-inflation-of-wild-cost::m03#r2"
+   "superseded_by": "DOM-1550-inflation-of-wild-cost::m03#r2",
+   "record_hash": "1ac3267eeed780e7"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -545,10 +545,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "298fb99bd52a6fcb",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-7.02%"
+   "diff_value_raw": "-7.02%",
+   "record_hash": "298fb99bd52a6fcb"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -622,10 +622,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "b29cb5465091be5b",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.09%"
+   "diff_value_raw": "0.09%",
+   "record_hash": "b29cb5465091be5b"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -700,11 +700,11 @@
     "ci": "tab CI cell L4 shows a single value '90%', not a range; kept in ci_raw, meaning unclear",
     "significance": "no significance column in tab"
    },
-   "record_hash": "8be4bfa7a50086bd",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "5.87%",
-   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI.",
+   "record_hash": "8be4bfa7a50086bd"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -779,11 +779,11 @@
     "ci": "tab has a 'CI' column (L) but the cell L6 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "a5ab9600a0393086",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.10%",
-   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI.",
+   "record_hash": "a5ab9600a0393086"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -858,11 +858,11 @@
     "ci": "tab has a 'CI' column (L) but the cell L7 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "aa6a437f4a8072e5",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "2.11%",
-   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI.",
+   "record_hash": "aa6a437f4a8072e5"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -937,11 +937,11 @@
     "ci": "tab has a 'CI' column (L) but the cell L9 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "272c2ef990cf8a60",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3.08%",
-   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI.",
+   "record_hash": "272c2ef990cf8a60"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -1015,11 +1015,11 @@
     "ci": "tab has a 'CI' column (L) but the cell L19 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "ff3c4785dec20c7f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.82%",
-   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI.",
+   "record_hash": "ff3c4785dec20c7f"
   }
  ],
  "explanation_he": {

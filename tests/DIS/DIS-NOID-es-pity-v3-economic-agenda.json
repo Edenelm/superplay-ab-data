@@ -77,7 +77,7 @@
   "board_decision_raw": "Pending",
   "carried_forward": {
    "since": "2026-11-02",
-   "last_seen_in_sources": "2026-11-01T13:46:48+02:00",
+   "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
    "note": "board fields updated only from the daily refresh diff; outcome not classified here"
@@ -227,6 +227,6 @@
   "Pity",
   "ES"
  ],
- "content_fingerprint": "cce85ed20cea19631a1f470f9542bc9c214d6ca3df5ddc7367c91a1ede38f5e3",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "13da9941e024fee03d490735c90c0872321ad33057bb5a54674ab244757778d4",
+ "last_changed_at": "2026-11-02T17:56:03+02:00"
 }

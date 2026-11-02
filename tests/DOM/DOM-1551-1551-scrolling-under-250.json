@@ -146,10 +146,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "4285bd9e706dfd86",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-3.60%"
+   "diff_value_raw": "-3.60%",
+   "record_hash": "4285bd9e706dfd86"
   },
   {
    "test_id": "DOM-1551-1551-scrolling-under-250",
@@ -224,10 +224,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "ca4e4f3a7008dc10",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.60%"
+   "diff_value_raw": "0.60%",
+   "record_hash": "ca4e4f3a7008dc10"
   },
   {
    "test_id": "DOM-1551-1551-scrolling-under-250",
@@ -302,10 +302,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "e2eb19081e012a85",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.60%"
+   "diff_value_raw": "0.60%",
+   "record_hash": "e2eb19081e012a85"
   },
   {
    "test_id": "DOM-1551-1551-scrolling-under-250",
@@ -380,10 +380,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "4fde79fc632b3128",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.50%"
+   "diff_value_raw": "0.50%",
+   "record_hash": "4fde79fc632b3128"
   },
   {
    "test_id": "DOM-1551-1551-scrolling-under-250",
@@ -458,10 +458,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "a6cb593bd735208e",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-4.00%"
+   "diff_value_raw": "-4.00%",
+   "record_hash": "a6cb593bd735208e"
   }
  ],
  "explanation_he": {

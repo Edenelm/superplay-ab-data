@@ -1,5 +1,43 @@
 # Changes (published)
 
+## 2026-11-02T17:56:03+02:00 (run 20261102T175603, published)
+
+- datasets changed: test_registry, explanations_learnings_decisions, whatsapp_items, open_issues, test_interim; unchanged (file kept): game_metrics, test_results, metric_definitions, game_metrics_splits, game_ftd_retention, glossary, test_structured; failed (last good kept): none
+- tests vs previous publish: +0 added, 17 updated, 664 unchanged, 0 removed from registry (files kept)
+- per-test files written: 54; explanation sections regenerated this run: 6 (reused 3439)
+- updated: `DIS-124-trail-again-3rd-try`
+- updated: `DIS-123-mini-game-treatments`
+- updated: `DIS-125-v4-increase-by-mode`
+- updated: `DIS-125-wr-v2`
+- updated: `DIS-125-8box-segments`
+- updated: `DIS-125-drc-new-economy-v5-2`
+- updated: `DIS-NOID-gradual-momentum-seg-for-new`
+- updated: `DIS-NOID-wr-v3-mild-treatment-for`
+- updated: `DIS-NOID-momentum-segmentation-needs-fixing-for`
+- updated: `DIS-NOID-es-pity-v3-economic-agenda`
+- updated: `DIS-NOID-end-of-puzzle-offer-mtx`
+- updated: `DIS-NOID-chef-segments`
+- updated: `DIS-NOID-challenge-lvl-10`
+- updated: `DIS-NOID-no-balance-for-high-segments`
+- updated: `DIS-NOID-wr-v3-easing`
+- updated: `DIS-NOID-use-puzzle-price-cut-with`
+- updated: `DIS-NOID-momentum-segments`
+- needs attention (14): see PROCESSING_LOG.md
+  - DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)
+  - DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)
+  - DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)
+  - DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)
+  - DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)
+  - DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)
+  - DIS-126-chef-segments: המנגנון טרם הובהר (live)
+  - DIS-127-3po-halloween: המנגנון טרם הובהר (live)
+  - DIS-126-es-v3: המנגנון טרם הובהר (live)
+  - DIS-126-wr-v3: המנגנון טרם הובהר (live)
+  - DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)
+  - DIS-126-1-1-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
+
 ## 2026-11-02T16:29:03+02:00 (run 20261102T162600, published)
 
 - datasets changed: test_results, glossary, open_issues; unchanged (file kept): game_metrics, test_registry, explanations_learnings_decisions, whatsapp_items, metric_definitions; failed (last good kept): none

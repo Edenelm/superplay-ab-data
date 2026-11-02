@@ -145,12 +145,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "6c7871de30b24cc9",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-2.71%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D5 = -2.71%), not the tab's headline diff F5 ('Diff to Diff')",
-   "superseded_by": "DICE-1109-remove-android-dtc::m01#r2"
+   "superseded_by": "DICE-1109-remove-android-dtc::m01#r2",
+   "record_hash": "6c7871de30b24cc9"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -224,10 +224,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "1aa483bf6d8599b2",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.59%"
+   "diff_value_raw": "0.59%",
+   "record_hash": "1aa483bf6d8599b2"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -301,12 +301,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "902854ad88d29809",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-4.71%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D6 = -4.71%), not the tab's headline diff F6 ('Diff to Diff')",
-   "superseded_by": "DICE-1109-remove-android-dtc::m02#r2"
+   "superseded_by": "DICE-1109-remove-android-dtc::m02#r2",
+   "record_hash": "902854ad88d29809"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -380,10 +380,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "4ce1ceb58dc4b209",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-1.31%"
+   "diff_value_raw": "-1.31%",
+   "record_hash": "4ce1ceb58dc4b209"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -457,12 +457,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "d0702a181d89da3f",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.81%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D9 = 1.81%), not the tab's headline diff F9 ('Diff to Diff')",
-   "superseded_by": "DICE-1109-remove-android-dtc::m03#r2"
+   "superseded_by": "DICE-1109-remove-android-dtc::m03#r2",
+   "record_hash": "d0702a181d89da3f"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -536,10 +536,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "681c0753ac0b20ff",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "1.01%"
+   "diff_value_raw": "1.01%",
+   "record_hash": "681c0753ac0b20ff"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -612,10 +612,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "8c5088d8d4d3f89a",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "5.16%"
+   "diff_value_raw": "5.16%",
+   "record_hash": "8c5088d8d4d3f89a"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -689,10 +689,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "088752b0ce2c8675",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-7.03%"
+   "diff_value_raw": "-7.03%",
+   "record_hash": "088752b0ce2c8675"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -766,10 +766,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "9ae5755a4ccc174a",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "3.46%"
+   "diff_value_raw": "3.46%",
+   "record_hash": "9ae5755a4ccc174a"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -842,10 +842,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "dd6d159864f2693f",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "8.10%"
+   "diff_value_raw": "8.10%",
+   "record_hash": "dd6d159864f2693f"
   }
  ],
  "explanation_he": {

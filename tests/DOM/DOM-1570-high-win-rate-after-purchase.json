@@ -141,12 +141,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "9d3b4ac69cb929c2",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.45%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D4 = 0.45%), not the tab's headline diff F4 ('Diff in Diff')",
-   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m01#r2"
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m01#r2",
+   "record_hash": "9d3b4ac69cb929c2"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -221,10 +221,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "ec9069ed0e6c8dcd",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.23%"
+   "diff_value_raw": "0.23%",
+   "record_hash": "ec9069ed0e6c8dcd"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -299,12 +299,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "e2677ba93de189f7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "0.60%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D7 = 0.60%), not the tab's headline diff F7 ('Diff in Diff')",
-   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m02#r2"
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m02#r2",
+   "record_hash": "e2677ba93de189f7"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -379,10 +379,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "f85de71c403d1c13",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.44%"
+   "diff_value_raw": "-0.44%",
+   "record_hash": "f85de71c403d1c13"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -457,12 +457,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "0222dbf0af22a477",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.67%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D14 = -0.67%), not the tab's headline diff F14 ('Diff in Diff')",
-   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m03#r2"
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m03#r2",
+   "record_hash": "0222dbf0af22a477"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -537,10 +537,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "cfed09d1cc46bfe2",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "3.13%"
+   "diff_value_raw": "3.13%",
+   "record_hash": "cfed09d1cc46bfe2"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -615,12 +615,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "7eada7410576fb93",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.21%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell P6 = 1.21%), not the tab's headline diff R6 ('Diff in Diff')",
-   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m04#r2"
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m04#r2",
+   "record_hash": "7eada7410576fb93"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -695,11 +695,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "2301cca9db4563a1",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "3.35%",
-   "diff_note": "sub-table 'users who are were under 4TD before the test' (N–R); R = Diff in Diff (R4)."
+   "diff_note": "sub-table 'users who are were under 4TD before the test' (N–R); R = Diff in Diff (R4).",
+   "record_hash": "2301cca9db4563a1"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -774,12 +774,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "fac1e6f77fd45321",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.82%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell P9 = -0.82%), not the tab's headline diff R9 ('Diff in Diff')",
-   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m05#r2"
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m05#r2",
+   "record_hash": "fac1e6f77fd45321"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -854,11 +854,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "bc670e99a3793482",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "1.99%",
-   "diff_note": "sub-table 'users who are were under 4TD before the test' (N–R); R = Diff in Diff (R4)."
+   "diff_note": "sub-table 'users who are were under 4TD before the test' (N–R); R = Diff in Diff (R4).",
+   "record_hash": "bc670e99a3793482"
   }
  ],
  "explanation_he": {

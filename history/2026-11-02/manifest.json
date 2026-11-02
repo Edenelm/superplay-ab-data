@@ -1,9 +1,9 @@
 {
  "contract_version": "1.5.0",
- "run_id": "20261102T162600",
+ "run_id": "20261102T175603",
  "run_type": "manual",
  "scheduled_for": null,
- "generated_at": "2026-11-02T16:29:03+02:00",
+ "generated_at": "2026-11-02T17:56:03+02:00",
  "timezone": "Asia/Jerusalem",
  "producer": "Grok Bot (box /workspace/pilot/provider)",
  "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
@@ -76,38 +76,38 @@
    "file": "latest/game_metrics.json",
    "schema": "schemas/game_metrics.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T17:23:27+02:00",
-   "last_attempt_at": "2026-11-02T17:23:27+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "2026-11-02T17:13:58+02:00",
    "stale": false,
    "sha256": "8c6495185dfc5ffb4c6b87a778cd7566b69dc6a0a7617e4348f2146dcd038eaf",
    "bytes": 740525,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-02/game_metrics.json"
+   "history_file": "history/2026-11-02/game_metrics.json",
+   "content_unchanged_since": "2026-11-02T17:23:27+02:00"
   },
   "test_registry": {
    "file": "latest/test_registry.json",
    "schema": "schemas/test_registry.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T08:40:18+02:00",
-   "last_attempt_at": "2026-11-02T08:40:18+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "2026-11-02",
    "stale": false,
-   "sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4",
-   "bytes": 1601102,
+   "sha256": "bb9f74bce98b85fbb1d1deb397107cc3f5bd068bd0fd213bd6140c4d324e89be",
+   "bytes": 1602949,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/test_registry.json",
-   "content_unchanged_since": "2026-11-02T08:40:18+02:00"
+   "history_file": "history/2026-11-02/test_registry.json"
   },
   "test_results": {
    "file": "latest/test_results.json",
    "schema": "schemas/test_results.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T17:03:33+02:00",
-   "last_attempt_at": "2026-11-02T17:03:33+02:00",
-   "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02); population/uncertainty cells from results tabs read 2026-11-02",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
+   "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)",
    "stale": false,
    "sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24",
    "bytes": 336203,
@@ -120,39 +120,37 @@
    "file": "latest/explanations_learnings_decisions.json",
    "schema": "schemas/explanations_learnings_decisions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T08:40:18+02:00",
-   "last_attempt_at": "2026-11-02T08:40:18+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "2026-11-02",
    "stale": false,
-   "sha256": "22ca90fb92cb63f5dcdf980d5cb8e2b4cb11ca1cbd0a7c40a3df07293d59a34c",
+   "sha256": "64da1e9c1c285bdf2a9883f501755f1b2506932fd0cca4cf2853a1a860a69312",
    "bytes": 687350,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/explanations_learnings_decisions.json",
-   "content_unchanged_since": "2026-11-02T08:40:18+02:00"
+   "history_file": "history/2026-11-02/explanations_learnings_decisions.json"
   },
   "whatsapp_items": {
    "file": "latest/whatsapp_items.json",
    "schema": "schemas/whatsapp_items.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T08:40:18+02:00",
-   "last_attempt_at": "2026-11-02T08:40:18+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "2026-11-02",
    "stale": false,
-   "sha256": "3a1b5cb939668ad0f018e210800af1cec8564fc9c58c30c102592f46fd4cc9d7",
+   "sha256": "da4d7cc5f928acee3a74917c14be06f881dadf05d91ac08fb588ebfbfb7f794a",
    "bytes": 217233,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/whatsapp_items.json",
-   "content_unchanged_since": "2026-11-02T08:40:18+02:00"
+   "history_file": "history/2026-11-02/whatsapp_items.json"
   },
   "metric_definitions": {
    "file": "latest/metric_definitions.json",
    "schema": "schemas/metric_definitions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T16:26:00+02:00",
-   "last_attempt_at": "2026-11-02T16:26:00+02:00",
-   "source_snapshot": "2026-11-01T12:05:00+02:00 (+ Domino DAU lineage 2026-11-02T16:25:00+02:00)",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
+   "source_snapshot": "2026-11-01T12:05:00+02:00",
    "stale": false,
    "sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3",
    "bytes": 34779,
@@ -161,12 +159,42 @@
    "history_file": "history/2026-11-02/metric_definitions.json",
    "content_unchanged_since": "2026-11-02T16:26:00+02:00"
   },
+  "game_metrics_splits": {
+   "file": "latest/game_metrics_splits.json",
+   "schema": "schemas/game_metrics_splits.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
+   "source_snapshot": "2026-11-02T17:13:58+02:00",
+   "stale": false,
+   "sha256": "c601e87884b4c9a2105c06e8c62ad3926bfbd7d20d0205d59e46f0b869b267fa",
+   "bytes": 839644,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-02/game_metrics_splits.json",
+   "content_unchanged_since": "2026-11-02T17:23:27+02:00"
+  },
+  "game_ftd_retention": {
+   "file": "latest/game_ftd_retention.json",
+   "schema": "schemas/game_ftd_retention.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
+   "source_snapshot": "2026-11-02T17:13:58+02:00",
+   "stale": false,
+   "sha256": "7e4fd9160a05165497f1694b4a39767622a9d44df016b14aff2f3bdce17e473b",
+   "bytes": 788010,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-02/game_ftd_retention.json",
+   "content_unchanged_since": "2026-11-02T17:23:27+02:00"
+  },
   "glossary": {
    "file": "latest/glossary.json",
    "schema": "schemas/glossary.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T16:29:03+02:00",
-   "last_attempt_at": "2026-11-02T16:29:03+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "local sources as of 2026-11-02",
    "stale": false,
    "sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2",
@@ -180,12 +208,12 @@
    "file": "latest/open_issues.json",
    "schema": "schemas/open_issues.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T17:21:12+02:00",
-   "last_attempt_at": "2026-11-02T17:21:12+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "curated from saved sources as of 2026-11-02",
    "stale": false,
-   "sha256": "7028aceff3af5acbe72e6710bd12b3a8069270abd575b6540682e55822dec96b",
-   "bytes": 24049,
+   "sha256": "8e3b6863fa5a86752f903bdca8db9d1b663cc19f9544f1e7340ce2744c5651dd",
+   "bytes": 25512,
    "error": null,
    "is_final": null,
    "history_file": "history/2026-11-02/open_issues.json"
@@ -194,8 +222,8 @@
    "file": "latest/test_structured.json",
    "schema": "schemas/test_structured.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T16:29:03+02:00",
-   "last_attempt_at": "2026-11-02T16:29:03+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
    "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02",
    "stale": false,
    "sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925",
@@ -205,33 +233,19 @@
    "history_file": "history/2026-11-02/test_structured.json",
    "content_unchanged_since": "2026-11-02T16:29:03+02:00"
   },
-  "game_metrics_splits": {
-   "file": "latest/game_metrics_splits.json",
-   "schema": "schemas/game_metrics_splits.schema.json",
+  "test_interim": {
+   "file": "latest/test_interim.json",
+   "schema": "schemas/test_interim.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T17:23:27+02:00",
-   "last_attempt_at": "2026-11-02T17:23:27+02:00",
-   "source_snapshot": "2026-11-02T17:13:58+02:00",
+   "last_success_at": "2026-11-02T17:56:03+02:00",
+   "last_attempt_at": "2026-11-02T17:56:03+02:00",
+   "source_snapshot": "Mixpanel Run-Query (read-only) 2026-11-02T17:53:47+02:00",
    "stale": false,
-   "sha256": "c601e87884b4c9a2105c06e8c62ad3926bfbd7d20d0205d59e46f0b869b267fa",
-   "bytes": 839644,
+   "sha256": "38c1672a0de88aac3012bb10db174dfe81d1aa3bdfe6c622457089ee941f1c1c",
+   "bytes": 292094,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-02/game_metrics_splits.json"
-  },
-  "game_ftd_retention": {
-   "file": "latest/game_ftd_retention.json",
-   "schema": "schemas/game_ftd_retention.schema.json",
-   "status": "ok",
-   "last_success_at": "2026-11-02T17:23:27+02:00",
-   "last_attempt_at": "2026-11-02T17:23:27+02:00",
-   "source_snapshot": "2026-11-02T17:13:58+02:00",
-   "stale": false,
-   "sha256": "7e4fd9160a05165497f1694b4a39767622a9d44df016b14aff2f3bdce17e473b",
-   "bytes": 788010,
-   "error": null,
-   "is_final": false,
-   "history_file": "history/2026-11-02/game_ftd_retention.json"
+   "history_file": "history/2026-11-02/test_interim.json"
   }
  },
  "counts": {
@@ -243,21 +257,22 @@
   "cross_studio_learnings": 4,
   "whatsapp_items": 346,
   "metric_definitions": 27,
-  "open_issues": 22,
-  "glossary_concepts": 58,
-  "test_structured": 681,
   "game_metrics_splits": 114,
   "game_ftd_retention_ftd_daily": 114,
-  "game_ftd_retention_cohorts": 111
+  "game_ftd_retention_cohorts": 111,
+  "open_issues": 23,
+  "test_structured": 681,
+  "glossary_concepts": 58,
+  "test_interim": 198
  },
  "layer": {
   "index": {
    "file": "index/tests_index.json",
    "schema": "schemas/tests_index.schema.json",
-   "sha256": "2d387fd59062b203bb5b47f62bde9dbaef32bf6072a2470d51a39e201cb05dd0",
+   "sha256": "cd2297a5867157ea2b2f9fa46348e55d5b04bd3f20a67093c6676482173002c7",
    "bytes": 642248,
    "tests": 681,
-   "aggregate_fingerprint": "fcfe76d06dda62809ae69a1af31f4ce41e581c4e70f831328794549e5f3e38df"
+   "aggregate_fingerprint": "6902589cdc222ec453a382013f5868667cc31ef4399737d919a15951ec404907"
   },
   "tests_dir": "tests/<GAME>/<test_id>.json",
   "detail_schema": "schemas/test_detail.schema.json",
@@ -267,15 +282,67 @@
   "log": "PROCESSING_LOG.md"
  },
  "change_summary": {
-  "run_at": "2026-11-02T16:29:03+02:00",
+  "run_at": "2026-11-02T17:56:03+02:00",
   "baseline": "2026-11-02T16:29:03+02:00",
   "tests_added": 0,
-  "tests_updated": 0,
-  "tests_unchanged": 681,
+  "tests_updated": 17,
+  "tests_unchanged": 664,
   "tests_removed": 0,
-  "updated_detail": {},
-  "sections_regenerated": 0,
-  "sections_reused": 3445,
+  "updated_detail": {
+   "DIS-124-trail-again-3rd-try": [
+    "unclear"
+   ],
+   "DIS-123-mini-game-treatments": [
+    "unclear"
+   ],
+   "DIS-125-v4-increase-by-mode": [
+    "unclear"
+   ],
+   "DIS-125-wr-v2": [
+    "unclear"
+   ],
+   "DIS-125-8box-segments": [
+    "unclear"
+   ],
+   "DIS-125-drc-new-economy-v5-2": [
+    "unclear"
+   ],
+   "DIS-NOID-gradual-momentum-seg-for-new": [
+    "data"
+   ],
+   "DIS-NOID-wr-v3-mild-treatment-for": [
+    "data"
+   ],
+   "DIS-NOID-momentum-segmentation-needs-fixing-for": [
+    "data"
+   ],
+   "DIS-NOID-es-pity-v3-economic-agenda": [
+    "data"
+   ],
+   "DIS-NOID-end-of-puzzle-offer-mtx": [
+    "data"
+   ],
+   "DIS-NOID-chef-segments": [
+    "data"
+   ],
+   "DIS-NOID-challenge-lvl-10": [
+    "data"
+   ],
+   "DIS-NOID-no-balance-for-high-segments": [
+    "data"
+   ],
+   "DIS-NOID-wr-v3-easing": [
+    "data"
+   ],
+   "DIS-NOID-use-puzzle-price-cut-with": [
+    "data"
+   ],
+   "DIS-NOID-momentum-segments": [
+    "data"
+   ]
+  },
+  "sections_regenerated": 6,
+  "sections_reused": 3439,
   "needs_attention": [
    "DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)",
    "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
@@ -309,32 +376,51 @@
    }
   },
   "publish": {
-   "run_at": "2026-11-02T16:29:03+02:00",
+   "run_at": "2026-11-02T17:56:03+02:00",
    "baseline_published_at": "2026-11-02T16:29:03+02:00",
    "datasets_changed": [
-    "game_metrics",
-    "open_issues",
-    "game_metrics_splits",
-    "game_ftd_retention"
-   ],
-   "datasets_unchanged": [
     "test_registry",
-    "test_results",
     "explanations_learnings_decisions",
     "whatsapp_items",
+    "open_issues",
+    "test_interim"
+   ],
+   "datasets_unchanged": [
+    "game_metrics",
+    "test_results",
     "metric_definitions",
+    "game_metrics_splits",
+    "game_ftd_retention",
     "glossary",
     "test_structured"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
-   "tests_updated": 0,
-   "tests_unchanged": 681,
+   "tests_updated": 17,
+   "tests_unchanged": 664,
    "tests_removed_kept": 0,
-   "updated_test_ids": [],
-   "detail_files_written": 0,
-   "sections_regenerated": 0,
-   "sections_reused": 3445,
+   "updated_test_ids": [
+    "DIS-124-trail-again-3rd-try",
+    "DIS-123-mini-game-treatments",
+    "DIS-125-v4-increase-by-mode",
+    "DIS-125-wr-v2",
+    "DIS-125-8box-segments",
+    "DIS-125-drc-new-economy-v5-2",
+    "DIS-NOID-gradual-momentum-seg-for-new",
+    "DIS-NOID-wr-v3-mild-treatment-for",
+    "DIS-NOID-momentum-segmentation-needs-fixing-for",
+    "DIS-NOID-es-pity-v3-economic-agenda",
+    "DIS-NOID-end-of-puzzle-offer-mtx",
+    "DIS-NOID-chef-segments",
+    "DIS-NOID-challenge-lvl-10",
+    "DIS-NOID-no-balance-for-high-segments",
+    "DIS-NOID-wr-v3-easing",
+    "DIS-NOID-use-puzzle-price-cut-with",
+    "DIS-NOID-momentum-segments"
+   ],
+   "detail_files_written": 54,
+   "sections_regenerated": 6,
+   "sections_reused": 3439,
    "needs_attention": [
     "DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)",
     "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
@@ -357,17 +443,18 @@
  "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
  "publish": {
   "published": [
-   "game_metrics",
-   "open_issues",
-   "game_metrics_splits",
-   "game_ftd_retention"
-  ],
-  "unchanged_kept": [
    "test_registry",
-   "test_results",
    "explanations_learnings_decisions",
    "whatsapp_items",
+   "open_issues",
+   "test_interim"
+  ],
+  "unchanged_kept": [
+   "game_metrics",
+   "test_results",
    "metric_definitions",
+   "game_metrics_splits",
+   "game_ftd_retention",
    "glossary",
    "test_structured"
   ],

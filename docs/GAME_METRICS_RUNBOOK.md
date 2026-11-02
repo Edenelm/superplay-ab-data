@@ -18,3 +18,6 @@ History starts 2026-09-25 (`tools/gm_build.py` HISTORY_START). Store: `tools/gm_
 - Source timezones are kept: Disney UTC, Dice/Domino undocumented.
 - **Disney filter change (2026-11-02):** the history pull used `is_special_user IS NOT TRUE`. Future pulls use the approved `is_special_user = FALSE`. They are equivalent on 09-25..11-01 (0 NULL rows on every date). Affected entries carry a caveat.
 - Domino reconciliation with `prod_50_reporting.domino_daily_kpis`: `tools/source_metadata/domino_reporting_reconciliation.json`.
+
+## Test interim results
+Per test × day × group interim totals (Mixpanel) are a separate dataset: see `TEST_INTERIM_RUNBOOK.md`. The 08:30 run re-pulls provisional days and appends new days there.

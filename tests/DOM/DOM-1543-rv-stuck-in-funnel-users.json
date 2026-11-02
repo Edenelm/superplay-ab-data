@@ -162,10 +162,10 @@
     "ci": "tab has a 'CI' column (G) but the cell G4 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "941b791111ad8b65",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "24.71%"
+   "diff_value_raw": "24.71%",
+   "record_hash": "941b791111ad8b65"
   },
   {
    "test_id": "DOM-1543-rv-stuck-in-funnel-users",
@@ -240,10 +240,10 @@
     "ci": "tab has a 'CI' column (G) but the cell G5 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "d8d98e8c1eb58153",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-1.31%"
+   "diff_value_raw": "-1.31%",
+   "record_hash": "d8d98e8c1eb58153"
   },
   {
    "test_id": "DOM-1543-rv-stuck-in-funnel-users",
@@ -318,12 +318,12 @@
     "ci": "tab has a 'CI' column (G) but the cell G6 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "b65a52f028a32930",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-1.63%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D6 = -1.63%), not the tab's headline diff F6 ('Diff in Diff')",
-   "superseded_by": "DOM-1543-rv-stuck-in-funnel-users::m03#r2"
+   "superseded_by": "DOM-1543-rv-stuck-in-funnel-users::m03#r2",
+   "record_hash": "b65a52f028a32930"
   },
   {
    "test_id": "DOM-1543-rv-stuck-in-funnel-users",
@@ -398,10 +398,10 @@
     "ci": "tab has a 'CI' column (G) but the cell G6 is empty",
     "significance": "no significance column in tab"
    },
-   "record_hash": "815648f575451601",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.12%"
+   "diff_value_raw": "-0.12%",
+   "record_hash": "815648f575451601"
   }
  ],
  "explanation_he": {

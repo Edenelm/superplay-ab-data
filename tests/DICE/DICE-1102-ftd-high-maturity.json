@@ -140,12 +140,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "34207a78b8ed87a0",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.43%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D4 = -0.43%), not the tab's headline diff F4 ('Diff to Diff')",
-   "superseded_by": "DICE-1102-ftd-high-maturity::m01#r2"
+   "superseded_by": "DICE-1102-ftd-high-maturity::m01#r2",
+   "record_hash": "34207a78b8ed87a0"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -219,10 +219,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "30c65dd75b451bc4",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-0.13%"
+   "diff_value_raw": "-0.13%",
+   "record_hash": "30c65dd75b451bc4"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -296,12 +296,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "e8e722fc6109eed7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "-0.22%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D5 = -0.22%), not the tab's headline diff F5 ('Diff to Diff')",
-   "superseded_by": "DICE-1102-ftd-high-maturity::m02#r2"
+   "superseded_by": "DICE-1102-ftd-high-maturity::m02#r2",
+   "record_hash": "e8e722fc6109eed7"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -375,10 +375,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "38edeea0cb3215dd",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "0.08%"
+   "diff_value_raw": "0.08%",
+   "record_hash": "38edeea0cb3215dd"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -452,10 +452,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "d08dca73775295a3",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "-1.10%"
+   "diff_value_raw": "-1.10%",
+   "record_hash": "d08dca73775295a3"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -529,12 +529,12 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "25d8cd6c97d36aa7",
    "diff_method": "computed_test_vs_control",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "35.34%",
    "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D11 = 35.34%), not the tab's headline diff F11 ('Diff to Diff')",
-   "superseded_by": "DICE-1102-ftd-high-maturity::m04#r2"
+   "superseded_by": "DICE-1102-ftd-high-maturity::m04#r2",
+   "record_hash": "25d8cd6c97d36aa7"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -608,10 +608,10 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "e8fb9a581eb0cf4b",
    "diff_method": "did_from_tab",
    "diff_checked_at": "2026-11-02",
-   "diff_value_raw": "34.80%"
+   "diff_value_raw": "34.80%",
+   "record_hash": "e8fb9a581eb0cf4b"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -683,11 +683,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "5203780ca56478da",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "33.82%",
-   "diff_note": "the 'Diff to Diff' cell (F) is empty for this row → the Delta column (D) is used."
+   "diff_note": "the 'Diff to Diff' cell (F) is empty for this row → the Delta column (D) is used.",
+   "record_hash": "5203780ca56478da"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -762,11 +762,11 @@
     "ci": "no CI / uncertainty-range column for this block in tab",
     "significance": "no significance column in tab"
    },
-   "record_hash": "9cfefdd4f29f6cd9",
    "diff_method": "diff_from_tab",
    "diff_checked_at": "2026-11-02",
    "diff_value_raw": "35.75%",
-   "diff_note": "the 'Diff to Diff' cell (F) is empty for this row → the Delta column (D) is used."
+   "diff_note": "the 'Diff to Diff' cell (F) is empty for this row → the Delta column (D) is used.",
+   "record_hash": "9cfefdd4f29f6cd9"
   }
  ],
  "explanation_he": {
