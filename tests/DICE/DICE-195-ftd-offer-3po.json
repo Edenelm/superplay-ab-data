@@ -96,9 +96,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "86132fad4abca9ea"
+   "record_hash": "e6333550fafc8b2d",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -210,9 +213,9 @@
       ]
      }
     ],
-    "fingerprint": "ec7c8427c0b4f705",
+    "fingerprint": "40e0d91917b3bcf2",
     "inputs": {
-     "results:": "7fd483dc9dcb928a",
+     "results:": "8be4f0b4da26f7d8",
      "expl:what_happened": "39a8568be0a67533",
      "expl:business_meaning": "79ff6165282fc8fd",
      "expl:decided": "173fa225a8e7582d",
@@ -357,6 +360,6 @@
   "FTD",
   "3PO"
  ],
- "content_fingerprint": "98719e691a9b5628f8f1a626c79c61e7c8d317ba5471713ce38a2fc8f02f6837",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "be596f66b8b0e04f24ab7891bc568a8ec2ab006dca474851479097c41a430267",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

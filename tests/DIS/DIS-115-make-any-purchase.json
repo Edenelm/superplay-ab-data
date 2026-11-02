@@ -98,9 +98,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "e32128f4e880ed87"
+   "record_hash": "353a69f6b44d37f4",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -204,9 +207,9 @@
       ]
      }
     ],
-    "fingerprint": "6acecf1d166a08a7",
+    "fingerprint": "7218ac818809726f",
     "inputs": {
-     "results:": "80471a9e6d551bab",
+     "results:": "482963e6a9ff03cc",
      "expl:what_happened": "4f8d21276cbcf55d",
      "expl:business_meaning": "80b1c58498c3f616",
      "expl:decided": "167386fbe00f6315",
@@ -348,6 +351,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "f2fcd3b1a4bfaa13a511cf9e444addfe8468949dc39c01dee88aed66adf071a7",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "d14709572b40f9a96c0c60154fb4836bd6f027861e18a284d41a1b447c3eb0b1",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

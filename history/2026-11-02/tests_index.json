@@ -1,12 +1,12 @@
 {
  "dataset": "tests_index",
- "contract_version": "1.3.0",
- "generated_at": "2026-11-02T08:40:18+02:00",
+ "contract_version": "1.4.0",
+ "generated_at": "2026-11-02T16:29:03+02:00",
  "timezone": "Asia/Jerusalem",
  "source_version": {
   "test_registry_sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4",
-  "glossary_sha256": "7152e21849f6684225f2847bc926a15371ee6110c1b7cef03574011aba434fd1",
-  "aggregate_fingerprint": "80cf8f3ea31eaf48f96aff1eda61b156fcaea7fdb160da06597152d2d41508cd"
+  "glossary_sha256": "2edf57c3d0dbcd086120160cd55729df4e64b2aa6f7c93caf424798a85c51dba",
+  "aggregate_fingerprint": "ee10539af25758a1bf0ec1c2667519428863a195c33bf70723b33dbf000fe45d"
  },
  "how_to_use": "filter entries here, then open only detail_file for the tests you need; skip a test whose fingerprint did not change since your last read",
  "counts": {
@@ -68,8 +68,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-199-dtc-from-1st-purchase-android.json",
-   "fingerprint": "b352f625b2fdf232",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "240bef4e599f79f4",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -125,8 +125,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1113-limited-stock-offer-recomp.json",
-   "fingerprint": "093fbf6e4527b631",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "d813f6e158476ab5",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -165,8 +165,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1103-scare-screen-new-users.json",
-   "fingerprint": "c18dd2e91a54f15b",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "47e2a9a654f0ef81",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1543-rv-stuck-in-funnel-users",
@@ -212,8 +212,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1543-rv-stuck-in-funnel-users.json",
-   "fingerprint": "0181bc2992debb92",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "cae106fbc7c6cee1",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -249,8 +249,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1550-inflation-of-wild-cost.json",
-   "fingerprint": "a18dd6a1f512b40d",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "a5dee69e4464d584",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -286,8 +286,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1533-daily-calendar-session-extension.json",
-   "fingerprint": "e170140173bc6917",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "0f1e9c189fdbbdf7",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-115-make-any-purchase",
@@ -312,8 +312,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-115-make-any-purchase.json",
-   "fingerprint": "f2fcd3b1a4bfaa13",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "d14709572b40f9a9",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-101-std-expensive-offer-v4-15",
@@ -351,8 +351,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-101-std-expensive-offer-v4-15.json",
-   "fingerprint": "9e54dc9a691db71c",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "e10ede912456a3c3",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-116-make-any-purchase-v2",
@@ -377,8 +377,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-116-make-any-purchase-v2.json",
-   "fingerprint": "fd1d3cb9da7b0671",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "1f4b85e41a8165a9",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-125-make-any-purchase-new-seg",
@@ -431,8 +431,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-125-make-any-purchase-new-seg.json",
-   "fingerprint": "7a9cf2bd75c70e1b",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "c6925a1b7b15d743",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-124-ays-offer-for-ftd-and",
@@ -491,8 +491,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DIS/DIS-124-ays-offer-for-ftd-and.json",
-   "fingerprint": "c0fce157adaaf8ef",
-   "last_changed_at": "2026-11-02T08:40:18+02:00"
+   "fingerprint": "30aabfc0b4521e22",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-108-purchase-funnel-v4",
@@ -517,8 +517,8 @@
    "tags_en": [],
    "flags": [],
    "detail_file": "tests/DIS/DIS-108-purchase-funnel-v4.json",
-   "fingerprint": "f1a4f60fd7c8eea2",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "dd95effff399c2f6",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-041-starter-pack-to-level-75",
@@ -555,8 +555,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-041-starter-pack-to-level-75.json",
-   "fingerprint": "54a486c6da596a13",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "75d6d0f69b4257f5",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DIS-111-starter-pack",
@@ -589,8 +589,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DIS/DIS-111-starter-pack.json",
-   "fingerprint": "36516300fc0b84cf",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "6b904734dd502936",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1102-ftd-high-maturity",
@@ -640,8 +640,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-1102-ftd-high-maturity.json",
-   "fingerprint": "d0f7ca4e41ca7106",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "dbd05bf0c032e333",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -683,8 +683,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1109-remove-android-dtc.json",
-   "fingerprint": "260bf948d5801cb8",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "8d461f82ceb489cd",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -719,8 +719,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1104-bingo-vs-native.json",
-   "fingerprint": "d494d00de71a3701",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "9dd5aed8b8c79fd4",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -757,8 +757,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-197-dtc-from-1st-purchase-apple.json",
-   "fingerprint": "5b714dcd49d7579c",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "42acfaf92b1801b1",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -797,8 +797,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DICE/DICE-1103-scare-screen-users-that-never.json",
-   "fingerprint": "d05bf2dd97e2f721",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "a493ca7ccdd01106",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-195-ftd-offer-3po",
@@ -838,8 +838,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DICE/DICE-195-ftd-offer-3po.json",
-   "fingerprint": "98719e691a9b5628",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "be596f66b8b0e04f",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -882,8 +882,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1570-high-win-rate-after-purchase.json",
-   "fingerprint": "e4c683f7aff6e411",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "4db35a0b7399af31",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1551-1551-scrolling-under-250",
@@ -921,8 +921,8 @@
     "conflict"
    ],
    "detail_file": "tests/DOM/DOM-1551-1551-scrolling-under-250.json",
-   "fingerprint": "2dc59ab3a07cb61b",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "ffd79d25b5769d46",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1494-romantic-treats",
@@ -957,8 +957,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1494-romantic-treats.json",
-   "fingerprint": "1c2257608707ba26",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "571de4823ba1485d",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1501-duel-vs-tournament-onboarding",
@@ -1008,8 +1008,8 @@
     "conflict"
    ],
    "detail_file": "tests/DOM/DOM-1501-duel-vs-tournament-onboarding.json",
-   "fingerprint": "e2e06b77826af3c6",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "ceb559d3bdee6995",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1492-popup-win-level-30-in",
@@ -1045,8 +1045,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1492-popup-win-level-30-in.json",
-   "fingerprint": "ca980d4ffb2ec527",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "e384d8845bbc21c4",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1494-dtc-scare-screen-tech-launch",
@@ -1086,8 +1086,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1494-dtc-scare-screen-tech-launch.json",
-   "fingerprint": "4a496c03c5ac1bb4",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "83e78daa17639027",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1500-no-dtc-new-users",
@@ -1122,8 +1122,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1500-no-dtc-new-users.json",
-   "fingerprint": "2941692e5b6c4daf",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "55eeed6baea09429",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1460-rv-mania-v2",
@@ -1167,8 +1167,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1460-rv-mania-v2.json",
-   "fingerprint": "6ebfc56ab8817f48",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "278a614c8c5ac2fb",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1500-japan-pricing-test",
@@ -1201,8 +1201,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1500-japan-pricing-test.json",
-   "fingerprint": "cce4c8acb85a1aef",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "7ccb7ed75210ebc3",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1512-dtc-20-value-for-expensive",
@@ -1242,8 +1242,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1512-dtc-20-value-for-expensive.json",
-   "fingerprint": "96b28f09d2fddfe5",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "6b01ad2fcab0cca0",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1543-rv-opportunistic-for-completers-dormants",
@@ -1288,8 +1288,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1543-rv-opportunistic-for-completers-dormants.json",
-   "fingerprint": "70e2de58b709147b",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "ca570661cca45ff8",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-NOID-ftd-offer-add-a-20",
@@ -1336,8 +1336,8 @@
     "conflict"
    ],
    "detail_file": "tests/DOM/DOM-NOID-ftd-offer-add-a-20.json",
-   "fingerprint": "3bdc9fe3eb95cf38",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "6f46e656b7d767f0",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1372-new-ftd-offer",
@@ -1373,8 +1373,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1372-new-ftd-offer.json",
-   "fingerprint": "9e036f09a8cfa408",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "93df7a7e65fe1b01",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1382-ftd-store-all-bundles-high",
@@ -1412,8 +1412,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1382-ftd-store-all-bundles-high.json",
-   "fingerprint": "d6c3b4d94e5aa312",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "e9436e6691167de7",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -1451,8 +1451,8 @@
     "duplicate_test_number"
    ],
    "detail_file": "tests/DOM/DOM-1382-ftd-store-test.json",
-   "fingerprint": "42750bfd7749274a",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "4e78d8c6608dfc49",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-1402-vault-late-ftd",
@@ -1499,8 +1499,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-1402-vault-late-ftd.json",
-   "fingerprint": "67144fd5b50b618f",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "ec4805b7cc613c55",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DOM-NOID-vault-for-late-ftd-test",
@@ -1536,8 +1536,8 @@
    ],
    "flags": [],
    "detail_file": "tests/DOM/DOM-NOID-vault-for-late-ftd-test.json",
-   "fingerprint": "c70d823bfb724a19",
-   "last_changed_at": "2026-11-01T12:35:23+02:00"
+   "fingerprint": "0bb64c2a529acd07",
+   "last_changed_at": "2026-11-02T16:29:03+02:00"
   },
   {
    "test_id": "DICE-1104-cz-fix",

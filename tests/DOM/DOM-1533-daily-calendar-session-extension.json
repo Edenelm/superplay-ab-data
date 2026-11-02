@@ -120,14 +120,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B4:D4"
+    "cell_range": "D4 (groups B4:C4)",
+    "group_cell_range": "B4:C4",
+    "diff_cell": "D4",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "23a21568698f1cbe"
+   "record_hash": "227ce4c047a72f8c",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-1.6%"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -173,14 +179,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B5:D5"
+    "cell_range": "D5 (groups B5:C5)",
+    "group_cell_range": "B5:C5",
+    "diff_cell": "D5",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "a63014b69b7189b3"
+   "record_hash": "48e3820079c569e5",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.6%"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -226,14 +238,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B6:D6"
+    "cell_range": "D6 (groups B6:C6)",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "D6",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "a467cceba744f9a6"
+   "record_hash": "e5d24dcfa6b1bb4c",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.5%"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -279,14 +297,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B7:D7"
+    "cell_range": "D7 (groups B7:C7)",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "D7",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "c466835897895ecc"
+   "record_hash": "430b08e786f3a8fa",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2.4%"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -321,7 +345,7 @@
      "population_size": null
     }
    ],
-   "relative_diff_pct": 2,
+   "relative_diff_pct": 2.0,
    "abs_diff_pp": 1.0,
    "uncertainty": {
     "p_value": null,
@@ -332,13 +356,19 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B8:D8"
+    "cell_range": "D8 (groups B8:C8)",
+    "group_cell_range": "B8:C8",
+    "diff_cell": "D8",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "f3b5975f860a9e72"
+   "record_hash": "3ed52c40653ab542",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2%"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -373,7 +403,7 @@
      "population_size": null
     }
    ],
-   "relative_diff_pct": 3,
+   "relative_diff_pct": 3.0,
    "abs_diff_pp": null,
    "uncertainty": {
     "p_value": null,
@@ -384,14 +414,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B9:D9"
+    "cell_range": "D9 (groups B9:C9)",
+    "group_cell_range": "B9:C9",
+    "diff_cell": "D9",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "a05d2069705c05a0"
+   "record_hash": "440d7cdf3544e4a2",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "3%"
   },
   {
    "test_id": "DOM-1533-daily-calendar-session-extension",
@@ -437,14 +473,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1263128294#gid=1263128294",
     "tab": "1533- Daily Calendar Session Extension",
-    "cell_range": "B10:D10"
+    "cell_range": "D10 (groups B10:C10)",
+    "group_cell_range": "B10:C10",
+    "diff_cell": "D10",
+    "diff_header": "Lift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "4c9dcfdfe80d732c"
+   "record_hash": "8aa2103d81190ecc",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2.8%"
   }
  ],
  "explanation_he": {
@@ -573,9 +615,9 @@
       ]
      }
     ],
-    "fingerprint": "6b43591147a68dfb",
+    "fingerprint": "d0138f4b044d7a92",
     "inputs": {
-     "results:": "bd82203c39809721",
+     "results:": "980c74ee92ee77fe",
      "expl:what_happened": "93b18af990596f96",
      "expl:business_meaning": "644c9d45b52c2460",
      "expl:decided": "6e834d08eb50fdbd",
@@ -733,6 +775,6 @@
  "glossary_concepts": [
   "Revenue"
  ],
- "content_fingerprint": "e170140173bc691774e8a80b03fdcc7c458cdb90a9952a095ddce1908fda1fff",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "0f1e9c189fdbbdf7ca5c5cd5d10d165be66de2c7c28ad8a039bb09278cf1c13a",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

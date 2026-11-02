@@ -123,7 +123,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "e88556fd5bfe62be"
+   "record_hash": "550126b75dabda98",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1402-vault-late-ftd",
@@ -176,7 +179,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "4ac18c0598da4568"
+   "record_hash": "899a5ab5cfc5d55e",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1402-vault-late-ftd",
@@ -229,7 +235,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "4a05b85e055a82b3"
+   "record_hash": "d7bf19dbceb80629",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1402-vault-late-ftd",
@@ -282,7 +291,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "913cbbfc07ba3ed7"
+   "record_hash": "d63b3dff2f2215ae",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1402-vault-late-ftd",
@@ -335,7 +347,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "8847b669ac25a1ce"
+   "record_hash": "875e30e9193dfb83",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   }
  ],
  "explanation_he": {
@@ -464,9 +479,9 @@
       ]
      }
     ],
-    "fingerprint": "5156d3b661c183c6",
+    "fingerprint": "d01dde434ee6bfc7",
     "inputs": {
-     "results:": "5469433635494dba",
+     "results:": "b8cb8610f6786c00",
      "expl:what_happened": "226d5c7445ee2629",
      "expl:business_meaning": "965af4c1872a2988",
      "expl:decided": "bbaff29c6fc6e77a",
@@ -624,6 +639,6 @@
   "Revenue",
   "Level"
  ],
- "content_fingerprint": "67144fd5b50b618f6c633b0c9b845c88e0ab3445275254d7395c04320e370116",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "ec4805b7cc613c55a6514113d687c8c42f553655621aacef410f236b667a3fa7",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

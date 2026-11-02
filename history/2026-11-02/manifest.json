@@ -1,9 +1,9 @@
 {
- "contract_version": "1.3.0",
+ "contract_version": "1.4.0",
  "run_id": "20261102T162600",
  "run_type": "manual",
  "scheduled_for": null,
- "generated_at": "2026-11-02T16:26:00+02:00",
+ "generated_at": "2026-11-02T16:29:03+02:00",
  "timezone": "Asia/Jerusalem",
  "producer": "Grok Bot (box /workspace/pilot/provider)",
  "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
@@ -106,16 +106,15 @@
    "file": "latest/test_results.json",
    "schema": "schemas/test_results.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T08:40:18+02:00",
-   "last_attempt_at": "2026-11-02T08:40:18+02:00",
-   "source_snapshot": "2026-10-18..2026-11-01",
+   "last_success_at": "2026-11-02T16:29:03+02:00",
+   "last_attempt_at": "2026-11-02T16:29:03+02:00",
+   "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)",
    "stale": false,
-   "sha256": "1abc8629e86e102c076f16b42b3a4aa9937fcc4e2e4ad57c7fe27e4c8fc130c3",
-   "bytes": 181770,
+   "sha256": "5c3adc30d10e80d8125d26e42a5e2dcd24bfa0318c296d9cdd131aff33cbca77",
+   "bytes": 250838,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/test_results.json",
-   "content_unchanged_since": "2026-11-02T08:40:18+02:00"
+   "history_file": "history/2026-11-02/test_results.json"
   },
   "explanations_learnings_decisions": {
    "file": "latest/explanations_learnings_decisions.json",
@@ -159,33 +158,33 @@
    "bytes": 34779,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/metric_definitions.json"
+   "history_file": "history/2026-11-02/metric_definitions.json",
+   "content_unchanged_since": "2026-11-02T16:26:00+02:00"
   },
   "glossary": {
    "file": "latest/glossary.json",
    "schema": "schemas/glossary.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T08:40:18+02:00",
-   "last_attempt_at": "2026-11-02T08:40:18+02:00",
+   "last_success_at": "2026-11-02T16:29:03+02:00",
+   "last_attempt_at": "2026-11-02T16:29:03+02:00",
    "source_snapshot": "local sources as of 2026-11-02",
    "stale": false,
-   "sha256": "7152e21849f6684225f2847bc926a15371ee6110c1b7cef03574011aba434fd1",
+   "sha256": "2edf57c3d0dbcd086120160cd55729df4e64b2aa6f7c93caf424798a85c51dba",
    "bytes": 93776,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-02/glossary.json",
-   "content_unchanged_since": "2026-11-02T08:40:18+02:00"
+   "history_file": "history/2026-11-02/glossary.json"
   },
   "open_issues": {
    "file": "latest/open_issues.json",
    "schema": "schemas/open_issues.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T16:26:00+02:00",
-   "last_attempt_at": "2026-11-02T16:26:00+02:00",
+   "last_success_at": "2026-11-02T16:29:03+02:00",
+   "last_attempt_at": "2026-11-02T16:29:03+02:00",
    "source_snapshot": "curated from saved sources as of 2026-11-02",
    "stale": false,
-   "sha256": "a0ed22471f287c2a912f7f7915995cb79c8bd4fb9ce49fb065eefe945c0dc880",
-   "bytes": 13926,
+   "sha256": "aa45c8e08268f428910bb4af9c09f2163dad365bfd04db42cd6bf9775e9d7b8b",
+   "bytes": 16785,
    "error": null,
    "is_final": null,
    "history_file": "history/2026-11-02/open_issues.json"
@@ -194,23 +193,23 @@
  "counts": {
   "game_metrics": 12,
   "test_registry": 681,
-  "test_results": 116,
+  "test_results": 137,
   "explanations": 148,
   "decisions": 223,
   "cross_studio_learnings": 4,
   "whatsapp_items": 346,
   "metric_definitions": 27,
-  "open_issues": 13,
+  "open_issues": 16,
   "glossary_concepts": 58
  },
  "layer": {
   "index": {
    "file": "index/tests_index.json",
    "schema": "schemas/tests_index.schema.json",
-   "sha256": "9d1034d44d3568768a9e2f9051af9e5f2084876ab93be4fb8ef2adab09d268fe",
+   "sha256": "cff51516b1fa2917b7cf5be6fc85d08ce5318ea826a4cc823ce6ad0da42cef95",
    "bytes": 642248,
    "tests": 681,
-   "aggregate_fingerprint": "80cf8f3ea31eaf48f96aff1eda61b156fcaea7fdb160da06597152d2d41508cd"
+   "aggregate_fingerprint": "ee10539af25758a1bf0ec1c2667519428863a195c33bf70723b33dbf000fe45d"
   },
   "tests_dir": "tests/<GAME>/<test_id>.json",
   "detail_schema": "schemas/test_detail.schema.json",
@@ -220,8 +219,8 @@
   "log": "PROCESSING_LOG.md"
  },
  "change_summary": {
-  "run_at": "2026-11-02T16:26:00+02:00",
-  "baseline": "2026-11-02T08:40:18+02:00",
+  "run_at": "2026-11-02T16:29:03+02:00",
+  "baseline": "2026-11-02T16:29:03+02:00",
   "tests_added": 0,
   "tests_updated": 0,
   "tests_unchanged": 681,
@@ -261,29 +260,66 @@
     "stub": 598
    }
   },
-  "note": "definitions-only manual run: metric_definitions + open_issues (Domino DAU proposal, still needs_approval); tests/results unchanged",
   "publish": {
-   "run_at": "2026-11-02T16:26:00+02:00",
-   "baseline_published_at": "2026-11-02T08:40:18+02:00",
+   "run_at": "2026-11-02T16:29:03+02:00",
+   "baseline_published_at": "2026-11-02T16:26:00+02:00",
    "datasets_changed": [
-    "metric_definitions",
+    "test_results",
+    "glossary",
     "open_issues"
    ],
    "datasets_unchanged": [
     "game_metrics",
     "test_registry",
-    "test_results",
     "explanations_learnings_decisions",
     "whatsapp_items",
-    "glossary"
+    "metric_definitions"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
-   "tests_updated": 0,
-   "tests_unchanged": 681,
+   "tests_updated": 37,
+   "tests_unchanged": 644,
    "tests_removed_kept": 0,
-   "updated_test_ids": [],
-   "detail_files_written": 0,
+   "updated_test_ids": [
+    "DICE-199-dtc-from-1st-purchase-android",
+    "DICE-1113-limited-stock-offer-recomp",
+    "DICE-1103-scare-screen-new-users",
+    "DOM-1543-rv-stuck-in-funnel-users",
+    "DOM-1550-inflation-of-wild-cost",
+    "DOM-1533-daily-calendar-session-extension",
+    "DIS-115-make-any-purchase",
+    "DIS-101-std-expensive-offer-v4-15",
+    "DIS-116-make-any-purchase-v2",
+    "DIS-125-make-any-purchase-new-seg",
+    "DIS-124-ays-offer-for-ftd-and",
+    "DIS-108-purchase-funnel-v4",
+    "DIS-041-starter-pack-to-level-75",
+    "DIS-111-starter-pack",
+    "DICE-1102-ftd-high-maturity",
+    "DICE-1109-remove-android-dtc",
+    "DICE-1104-bingo-vs-native",
+    "DICE-197-dtc-from-1st-purchase-apple",
+    "DICE-1103-scare-screen-users-that-never",
+    "DICE-195-ftd-offer-3po",
+    "DOM-1570-high-win-rate-after-purchase",
+    "DOM-1551-1551-scrolling-under-250",
+    "DOM-1494-romantic-treats",
+    "DOM-1501-duel-vs-tournament-onboarding",
+    "DOM-1492-popup-win-level-30-in",
+    "DOM-1494-dtc-scare-screen-tech-launch",
+    "DOM-1500-no-dtc-new-users",
+    "DOM-1460-rv-mania-v2",
+    "DOM-1500-japan-pricing-test",
+    "DOM-1512-dtc-20-value-for-expensive",
+    "DOM-1543-rv-opportunistic-for-completers-dormants",
+    "DOM-NOID-ftd-offer-add-a-20",
+    "DOM-1372-new-ftd-offer",
+    "DOM-1382-ftd-store-all-bundles-high",
+    "DOM-1382-ftd-store-test",
+    "DOM-1402-vault-late-ftd",
+    "DOM-NOID-vault-for-late-ftd-test"
+   ],
+   "detail_files_written": 37,
    "sections_regenerated": 0,
    "sections_reused": 3445,
    "needs_attention": [
@@ -308,16 +344,16 @@
  "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
  "publish": {
   "published": [
-   "metric_definitions",
+   "test_results",
+   "glossary",
    "open_issues"
   ],
   "unchanged_kept": [
    "game_metrics",
    "test_registry",
-   "test_results",
    "explanations_learnings_decisions",
    "whatsapp_items",
-   "glossary"
+   "metric_definitions"
   ],
   "failed": [],
   "history_dir": "history/2026-11-02/",

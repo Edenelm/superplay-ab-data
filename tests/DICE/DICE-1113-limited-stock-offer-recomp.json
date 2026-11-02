@@ -139,7 +139,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -171,15 +171,83 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
-    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
-    "cell_range": "C8:F8"
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "E8",
+    "group_cell_range": "C8:D8",
+    "diff_cell": "E8",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "58230f1188b0a441"
+   "record_hash": "633fd4a558309215",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.82%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell E8 = 1.82%), not the tab's headline diff F8 ('Diff To Diff')",
+   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m01#r2"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": "DICE-1113-limited-stock-offer-recomp::m01#r1",
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m01",
+   "metric": "Gross Revenues (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$1,781,058",
+     "value": 1781058.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$1,813,501",
+     "value": 1813501.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.33,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 1.33%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "F8 (groups C8:D8)",
+    "group_cell_range": "C8:D8",
+    "diff_cell": "F8",
+    "diff_header": "Diff To Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "2475eb0e9089d4d5",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.33%",
+   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F)."
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -192,7 +260,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -224,15 +292,83 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
-    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
-    "cell_range": "C10:F10"
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "E10",
+    "group_cell_range": "C10:D10",
+    "diff_cell": "E10",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "657c377d5b9d5bd5"
+   "record_hash": "e9825addfdc47a11",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.20%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell E10 = 0.20%), not the tab's headline diff F10 ('Diff To Diff')",
+   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m02#r2"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": "DICE-1113-limited-stock-offer-recomp::m02#r1",
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m02",
+   "metric": "PU (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "40,714",
+     "value": 40714.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "40,797",
+     "value": 40797.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.48,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −0.48%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "F10 (groups C10:D10)",
+    "group_cell_range": "C10:D10",
+    "diff_cell": "F10",
+    "diff_header": "Diff To Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a33ce4fefeee10e7",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.48%",
+   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F)."
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -245,7 +381,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -277,15 +413,83 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
-    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
-    "cell_range": "C12:F12"
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "E12",
+    "group_cell_range": "C12:D12",
+    "diff_cell": "E12",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "b3b00718460b14db"
+   "record_hash": "65d7055545fb14f1",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.40%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell E12 = -0.40%), not the tab's headline diff F12 ('Diff To Diff')",
+   "superseded_by": "DICE-1113-limited-stock-offer-recomp::m03#r2"
+  },
+  {
+   "test_id": "DICE-1113-limited-stock-offer-recomp",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-08-12",
+    "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
+   "supersedes": "DICE-1113-limited-stock-offer-recomp::m03#r1",
+   "result_id": "DICE-1113-limited-stock-offer-recomp::m03",
+   "metric": "PAU (v4)",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "49,616",
+     "value": 49616.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "49,420",
+     "value": 49420.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.11,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.11%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "F12 (groups C12:D12)",
+    "group_cell_range": "C12:D12",
+    "diff_cell": "F12",
+    "diff_header": "Diff To Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "643e3fb72d042678",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.11%",
+   "diff_note": "column F header is 'Diff To Diff' (F5); the sub-header in F7 reads 'diff 14 days to date'. Taken as diff-in-diff per the F5 header; needs owner confirmation (OI-DIFF-1113-F)."
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -330,15 +534,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
-    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
-    "cell_range": "C25:F25"
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "E25 (groups C25:D25)",
+    "group_cell_range": "C25:D25",
+    "diff_cell": "E25",
+    "diff_header": "diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "443102f0d87fdad2"
+   "record_hash": "b7ae04d326c46162",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.80%",
+   "diff_note": "block header row 24: E='diff', F='diff  2 weeks' (not labelled diff-in-diff) → E used."
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -383,15 +594,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1448869345#gid=1448869345",
-    "tab": "1113- limited stock as 0.8cz offer v4 (+ phases v1–v3)",
-    "cell_range": "C26:F26"
+    "tab": "1113- limited stock as 0.8cz offer v4",
+    "cell_range": "E26 (groups C26:D26)",
+    "group_cell_range": "C26:D26",
+    "diff_cell": "E26",
+    "diff_header": "diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "7af1c58039c9775b"
+   "record_hash": "17be21e17a5d41b8",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.30%",
+   "diff_note": "block header row 24: E='diff', F='diff  2 weeks' (not labelled diff-in-diff) → E used."
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -404,7 +622,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -444,9 +662,13 @@
     "population_size": "not captured",
     "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
     "abs_diff_pp": "not shown",
-    "p_value": "not shown"
+    "p_value": "not shown",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "844782d78901c225"
+   "record_hash": "b66dff3992ec300d",
+   "diff_method": null,
+   "diff_checked_at": null,
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -459,7 +681,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -499,9 +721,13 @@
     "population_size": "not captured",
     "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
     "abs_diff_pp": "not shown",
-    "p_value": "not shown"
+    "p_value": "not shown",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "ffbb498b9b78479d"
+   "record_hash": "4513dce1e778f620",
+   "diff_method": null,
+   "diff_checked_at": null,
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -514,7 +740,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -554,9 +780,13 @@
     "population_size": "not captured",
     "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
     "abs_diff_pp": "not shown",
-    "p_value": "not shown"
+    "p_value": "not shown",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "d6254995ec4e5681"
+   "record_hash": "eca228676e89b67e",
+   "diff_method": null,
+   "diff_checked_at": null,
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
   },
   {
    "test_id": "DICE-1113-limited-stock-offer-recomp",
@@ -569,7 +799,7 @@
     "end": "2026-09-27 (board) · final phase tab 9/21–09/25/2026",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance/CI anywhere. Rows 14, 17–22 contain #REF!/#VALUE! and a copied 'finishers' block → ignored.",
    "supersedes": null,
@@ -609,9 +839,13 @@
     "population_size": "not captured",
     "relative_diff_pct": "phase columns are uplift values whose exact metric is not labelled in the extract",
     "abs_diff_pp": "not shown",
-    "p_value": "not shown"
+    "p_value": "not shown",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "c3a5daea3462a98a"
+   "record_hash": "b9a22d1dad57c829",
+   "diff_method": null,
+   "diff_checked_at": null,
+   "verification_note": "downgraded 2026-11-02: VERIFIED requires the diff itself checked against the tab; this row has no checked diff"
   }
  ],
  "explanation_he": {
@@ -770,9 +1004,9 @@
       ]
      }
     ],
-    "fingerprint": "5744150dc6b58d04",
+    "fingerprint": "e3145ec3e1338503",
     "inputs": {
-     "results:": "a4bdaeabd9f3becc",
+     "results:": "7df49f50078ace73",
      "expl:what_happened": "ba701a23481ecda8",
      "expl:business_meaning": "211c3433c5f483e7",
      "expl:decided": "67160ea7562f099b",
@@ -988,6 +1222,6 @@
   "K (Kingdom)",
   "Recompletion"
  ],
- "content_fingerprint": "093fbf6e4527b631946d1cd27f0a0ece40f1d19378ccad733a7e2388040b1ebd",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "d813f6e158476ab53bed927b3cc41fd3ed9cbb07453a052e6a9503f219516ecf",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

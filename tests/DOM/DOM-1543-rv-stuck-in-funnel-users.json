@@ -133,14 +133,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
     "tab": "Test Results - with 1 day hangover",
-    "cell_range": "B4:F4"
+    "cell_range": "F4 (groups B4:C4)",
+    "group_cell_range": "B4:C4",
+    "diff_cell": "F4",
+    "diff_header": "Diff in Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "d4f9b062e0af2de1"
+   "record_hash": "fc7310dc4508e5ba",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "24.71%"
   },
   {
    "test_id": "DOM-1543-rv-stuck-in-funnel-users",
@@ -186,14 +192,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
     "tab": "Test Results - with 1 day hangover",
-    "cell_range": "B5:F5"
+    "cell_range": "F5 (groups B5:C5)",
+    "group_cell_range": "B5:C5",
+    "diff_cell": "F5",
+    "diff_header": "Diff in Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "49e4b47fcdc8e930"
+   "record_hash": "e36e86f9e5fe7529",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-1.31%"
   },
   {
    "test_id": "DOM-1543-rv-stuck-in-funnel-users",
@@ -239,14 +251,81 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
     "tab": "Test Results - with 1 day hangover",
-    "cell_range": "B6:F6"
+    "cell_range": "D6",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "D6",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "e53e9b2fa6c3b260"
+   "record_hash": "d130bb9717dcd84e",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-1.63%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D6 = -1.63%), not the tab's headline diff F6 ('Diff in Diff')",
+   "superseded_by": "DOM-1543-rv-stuck-in-funnel-users::m03#r2"
+  },
+  {
+   "test_id": "DOM-1543-rv-stuck-in-funnel-users",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-06-24",
+    "end": "2026-07-26 (board) · tab: implemented mid-July 2026",
+    "note": "as written in board/tab"
+   },
+   "verification": "MISMATCH",
+   "evidence_level": "directional",
+   "evidence_note": "CI column (G2) empty. Revenue includes RV ad revenue; IAP not shown separately; PU fell.",
+   "supersedes": "DOM-1543-rv-stuck-in-funnel-users::m03#r1",
+   "result_id": "DOM-1543-rv-stuck-in-funnel-users::m03",
+   "metric": "DAU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "36.88K",
+     "value": 36.88,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "36.28K",
+     "value": 36.28,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.12,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test −1.51% · diff-in-diff −0.12%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1-6-rSqCeMb7kAJanHkuZK0Ncy6LWnkKAr_yz4b2EUgk/edit?gid=249489396#gid=249489396",
+    "tab": "Test Results - with 1 day hangover",
+    "cell_range": "F6 (groups B6:C6)",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "F6",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "6ee15ef153e84b1b",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.12%"
   }
  ],
  "explanation_he": {
@@ -375,9 +454,9 @@
       ]
      }
     ],
-    "fingerprint": "a52d3756ec1705a9",
+    "fingerprint": "dce47253a91fe7db",
     "inputs": {
-     "results:": "95541d5ea97e5e2b",
+     "results:": "3a7e7918e759499f",
      "expl:what_happened": "5b79a7005129ff5a",
      "expl:business_meaning": "5f2b0b4eadf990a8",
      "expl:decided": "517d2de212bd3c0f",
@@ -541,6 +620,6 @@
   "RV",
   "8 Box"
  ],
- "content_fingerprint": "0181bc2992debb920dac28a0e40ac8021aa76c1afabc70d90b298a7fc0376072",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "cae106fbc7c6cee1e1fa0610fa340f7a4f64cba74c3ffcb3b3a89003e9746543",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

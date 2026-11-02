@@ -79,7 +79,7 @@
     "end": "2026-09-22",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
    "supersedes": null,
@@ -111,15 +111,82 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
-    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
-    "cell_range": "B4:F4"
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "D4",
+    "group_cell_range": "B4:C4",
+    "diff_cell": "D4",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "b6816555c015ee03"
+   "record_hash": "2a4914d2b237b8a9",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.45%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D4 = 0.45%), not the tab's headline diff F4 ('Diff in Diff')",
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m01#r2"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": "DOM-1570-high-win-rate-after-purchase::m01#r1",
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m01",
+   "metric": "Revenues",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$6,104,714",
+     "value": 6104714.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$6,132,454",
+     "value": 6132454.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.23,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test 0.22% · DiD 0.23%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "F4 (groups B4:C4)",
+    "group_cell_range": "B4:C4",
+    "diff_cell": "F4",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "155c410d6754d3ba",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.23%"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -132,7 +199,7 @@
     "end": "2026-09-22",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
    "supersedes": null,
@@ -164,15 +231,82 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
-    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
-    "cell_range": "B7:F7"
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "D7",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "D7",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "18304d287825f581"
+   "record_hash": "7a78c33ff026898d",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.60%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D7 = 0.60%), not the tab's headline diff F7 ('Diff in Diff')",
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m02#r2"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": "DOM-1570-high-win-rate-after-purchase::m02#r1",
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m02",
+   "metric": "PU",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "19,937",
+     "value": 19937.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "20,056",
+     "value": 20056.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.44,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test 1.04% · DiD −0.44%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "F7 (groups B7:C7)",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "F7",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ed42ed48a5e8ec98",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.44%"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -185,7 +319,7 @@
     "end": "2026-09-22",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
    "supersedes": null,
@@ -217,15 +351,82 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
-    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
-    "cell_range": "B14:F14"
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "D14",
+    "group_cell_range": "B14:C14",
+    "diff_cell": "D14",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "acbee2026fbd15be"
+   "record_hash": "727071747778524b",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.67%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D14 = -0.67%), not the tab's headline diff F14 ('Diff in Diff')",
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m03#r2"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": "DOM-1570-high-win-rate-after-purchase::m03#r1",
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m03",
+   "metric": "Time between FTD and STD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "1.1D",
+     "value": 1.1,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "1.1D",
+     "value": 1.1,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 3.13,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · pre-test −3.80% · DiD 3.13%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "F14 (groups B14:C14)",
+    "group_cell_range": "B14:C14",
+    "diff_cell": "F14",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "d941b921b68e939d",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "3.13%"
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -238,7 +439,7 @@
     "end": "2026-09-22",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
    "supersedes": null,
@@ -270,15 +471,83 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
-    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
-    "cell_range": "N6:P6"
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "P6",
+    "group_cell_range": "N6:O6",
+    "diff_cell": "P6",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "a30295fd449a1fa8"
+   "record_hash": "fcb2d4e7f3d651e9",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.21%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell P6 = 1.21%), not the tab's headline diff R6 ('Diff in Diff')",
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m04#r2"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": "DOM-1570-high-win-rate-after-purchase::m04#r1",
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m04",
+   "metric": "Revenues · under 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$650,219",
+     "value": 650219.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$658,099",
+     "value": 658099.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 3.35,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "R6 (groups N6:O6)",
+    "group_cell_range": "N6:O6",
+    "diff_cell": "R6",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ee95efe24a48ea31",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "3.35%",
+   "diff_note": "sub-table 'users who are were under 4TD before the test' (N–R); R = Diff in Diff (R4)."
   },
   {
    "test_id": "DOM-1570-high-win-rate-after-purchase",
@@ -291,7 +560,7 @@
     "end": "2026-09-22",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
    "supersedes": null,
@@ -323,15 +592,83 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
-    "tab": "Domino Dreams AB Tests Results › 1570 - High Win Rate After Purchase",
-    "cell_range": "N9:P9"
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "P9",
+    "group_cell_range": "N9:O9",
+    "diff_cell": "P9",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "81eb7f7b41905d25"
+   "record_hash": "ab0ecabea3e6f815",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.82%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell P9 = -0.82%), not the tab's headline diff R9 ('Diff in Diff')",
+   "superseded_by": "DOM-1570-high-win-rate-after-purchase::m05#r2"
+  },
+  {
+   "test_id": "DOM-1570-high-win-rate-after-purchase",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-09-03",
+    "end": "2026-09-22",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No significance → directional. Board notes the population was small due to the bug.",
+   "supersedes": "DOM-1570-high-win-rate-after-purchase::m05#r1",
+   "result_id": "DOM-1570-high-win-rate-after-purchase::m05",
+   "metric": "PU · under 4TD",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "3,052",
+     "value": 3052.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "3,027",
+     "value": 3027.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.99,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": null
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1751061117#gid=1751061117",
+    "tab": "1570 - High Win Rate After Purchase",
+    "cell_range": "R9 (groups N9:O9)",
+    "group_cell_range": "N9:O9",
+    "diff_cell": "R9",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "755bb552961289cf",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.99%",
+   "diff_note": "sub-table 'users who are were under 4TD before the test' (N–R); R = Diff in Diff (R4)."
   }
  ],
  "explanation_he": {
@@ -460,9 +797,9 @@
       ]
      }
     ],
-    "fingerprint": "9e49268e336aeb46",
+    "fingerprint": "8d1522293bf6ee24",
     "inputs": {
-     "results:": "6a4dd5daddb5fb0b",
+     "results:": "e7e871e90cd3008f",
      "expl:what_happened": "abf227dce3c538ca",
      "expl:business_meaning": "b01e83290c88f998",
      "expl:decided": "a34061593bff1aa8",
@@ -619,6 +956,6 @@
   "FTD",
   "Pity"
  ],
- "content_fingerprint": "e4c683f7aff6e411e5fc1a164cc354d8b106f981d2133205d29d36c705513e89",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "4db35a0b7399af316f3c488af9810c1e22803e23b073e6bb5eb80d404553f827",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

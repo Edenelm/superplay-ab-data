@@ -101,9 +101,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "ee88206d6091227d"
+   "record_hash": "153cae4a36af324f",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -214,9 +217,9 @@
       ]
      }
     ],
-    "fingerprint": "3f4a0e040296c6c0",
+    "fingerprint": "b9c990f0dd5fafe6",
     "inputs": {
-     "results:": "a347ce8ed313fdb3",
+     "results:": "54d8552ff8a57b5c",
      "expl:what_happened": "ae58928d2da8cf40",
      "expl:business_meaning": "a8ccc5bdd8764196",
      "expl:decided": "dc69832032d8fbfe",
@@ -360,6 +363,6 @@
  "glossary_concepts": [
   "FTD"
  ],
- "content_fingerprint": "d6c3b4d94e5aa3129c59f3dcc32cf5e865540f24a422f07dc0d04227adcf0c13",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "e9436e6691167de76c39011fb150f90df3064122f904b74895a8686dd035230e",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

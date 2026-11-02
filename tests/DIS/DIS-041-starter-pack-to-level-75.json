@@ -96,9 +96,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "827350077384c507"
+   "record_hash": "af8bb30903e2e263",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -202,9 +205,9 @@
       ]
      }
     ],
-    "fingerprint": "e51f7562a2e76c37",
+    "fingerprint": "c0e0707c7806f634",
     "inputs": {
-     "results:": "35a625794a43907a",
+     "results:": "2df391435c23bb70",
      "expl:what_happened": "9c66b992d8a7ab39",
      "expl:business_meaning": "22fc19e795c2c983",
      "expl:decided": "6ae474db31d1928c",
@@ -349,6 +352,6 @@
   "Level",
   "Starter Pack"
  ],
- "content_fingerprint": "54a486c6da596a13e1dbce8622f0cd4e4482a2c40811ea6cedf60c900cb68d4e",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "75d6d0f69b4257f5c1e51de5bb9d80a55cda5de5e173926d39e1189c80efe0d0",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

@@ -104,9 +104,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "fa5e8348737c88c6"
+   "record_hash": "22e11448d638bfe5",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -210,9 +213,9 @@
       ]
      }
     ],
-    "fingerprint": "43832087e16fd0a4",
+    "fingerprint": "5336eaeec7523c2a",
     "inputs": {
-     "results:": "39b507b9f1f734a7",
+     "results:": "433d1c910fefba73",
      "expl:what_happened": "1629e6baf9e56c34",
      "expl:business_meaning": "baceeaa965882c3d",
      "expl:decided": "2266f6d8f91b6e26",
@@ -356,6 +359,6 @@
  "glossary_concepts": [
   "STD"
  ],
- "content_fingerprint": "9e54dc9a691db71c9212add3be0bfb9282135c88137bf4346bb4f7b73ab3a6a9",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "e10ede912456a3c39978955269c6f5b0f3e276a1cb450c0dec30ec209ed76982",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

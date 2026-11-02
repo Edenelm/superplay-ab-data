@@ -87,7 +87,7 @@
     "end": "2026-09-08",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
    "supersedes": null,
@@ -120,14 +120,81 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "B4:F4"
+    "cell_range": "D4",
+    "group_cell_range": "B4:C4",
+    "diff_cell": "D4",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "a6f331c9551c1fa8"
+   "record_hash": "eae2df01066d3aff",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.98%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D4 = 0.98%), not the tab's headline diff F4 ('Diff in Diff')",
+   "superseded_by": "DOM-1550-inflation-of-wild-cost::m01#r2"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "supersedes": "DOM-1550-inflation-of-wild-cost::m01#r1",
+   "result_id": "DOM-1550-inflation-of-wild-cost::m01",
+   "metric": "Revenues · all users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$15,295,441",
+     "value": 15295441.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$15,444,806",
+     "value": 15444806.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.35,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · DiD 0.35%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "F4 (groups B4:C4)",
+    "group_cell_range": "B4:C4",
+    "diff_cell": "F4",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "a848d0edebbb1764",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.35%"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -140,7 +207,7 @@
     "end": "2026-09-08",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
    "supersedes": null,
@@ -173,14 +240,81 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "B7:F7"
+    "cell_range": "D7",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "D7",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "ed1f4655868d7a1b"
+   "record_hash": "d48a039f2749ad67",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.15%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D7 = 0.15%), not the tab's headline diff F7 ('Diff in Diff')",
+   "superseded_by": "DOM-1550-inflation-of-wild-cost::m02#r2"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "supersedes": "DOM-1550-inflation-of-wild-cost::m02#r1",
+   "result_id": "DOM-1550-inflation-of-wild-cost::m02",
+   "metric": "PU · all users",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "22,595",
+     "value": 22595.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "22,628",
+     "value": 22628.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -0.92,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · DiD −0.92%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "F7 (groups B7:C7)",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "F7",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "ef4029baae19e6fa",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.92%"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -193,7 +327,7 @@
     "end": "2026-09-08",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
    "supersedes": null,
@@ -226,14 +360,81 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "B11:F11"
+    "cell_range": "D11",
+    "group_cell_range": "B11:C11",
+    "diff_cell": "D11",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "01a6ea272532954c"
+   "record_hash": "640a59524dce5b68",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-5.94%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D11 = -5.94%), not the tab's headline diff F11 ('Diff in Diff')",
+   "superseded_by": "DOM-1550-inflation-of-wild-cost::m03#r2"
+  },
+  {
+   "test_id": "DOM-1550-inflation-of-wild-cost",
+   "game": "Domino Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-07-26",
+    "end": "2026-09-08",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "All users: insufficient. New users: directional — L4 '90%' described in N2 as 90% confidence the test wins (probability-to-beat, not a CI; below 95%).",
+   "supersedes": "DOM-1550-inflation-of-wild-cost::m03#r1",
+   "result_id": "DOM-1550-inflation-of-wild-cost::m03",
+   "metric": "Paid Wilds/Level · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "0.1246",
+     "value": 0.1246,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "0.1172",
+     "value": 0.1172,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -7.02,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · DiD −7.02%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
+    "tab": "1550 - Inflation of wild cost",
+    "cell_range": "F11 (groups B11:C11)",
+    "group_cell_range": "B11:C11",
+    "diff_cell": "F11",
+    "diff_header": "Diff in Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "56041c52fd427a5c",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-7.02%"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -279,13 +480,19 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "B19:F19"
+    "cell_range": "F19 (groups B19:C19)",
+    "group_cell_range": "B19:C19",
+    "diff_cell": "F19",
+    "diff_header": "Diff in Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "ecae1a01250852b6"
+   "record_hash": "7a44409d0d031dc2",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.09%"
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -331,14 +538,21 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "I4:L4"
+    "cell_range": "K4 (groups I4:J4)",
+    "group_cell_range": "I4:J4",
+    "diff_cell": "K4",
+    "diff_header": "Test Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "d4d3d55bbd4ce546"
+   "record_hash": "e53efbf3e3f3ccf5",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "5.87%",
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -384,14 +598,21 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "I6:K6"
+    "cell_range": "K6 (groups I6:J6)",
+    "group_cell_range": "I6:J6",
+    "diff_cell": "K6",
+    "diff_header": "Test Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "fc04ed4b052983bb"
+   "record_hash": "5d117cd88ef79678",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2.10%",
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -437,14 +658,21 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "I7:K7"
+    "cell_range": "K7 (groups I7:J7)",
+    "group_cell_range": "I7:J7",
+    "diff_cell": "K7",
+    "diff_header": "Test Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "e973660b4cb82bcd"
+   "record_hash": "e0526757d834af89",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2.11%",
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -490,14 +718,21 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "I9:K9"
+    "cell_range": "K9 (groups I9:J9)",
+    "group_cell_range": "I9:J9",
+    "diff_cell": "K9",
+    "diff_header": "Test Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "0bba6a6357072adf"
+   "record_hash": "973f6517b458dba5",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "3.08%",
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
   },
   {
    "test_id": "DOM-1550-inflation-of-wild-cost",
@@ -543,13 +778,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1N4Mw3Y29pD6lgOMSQsgRmFk0UJJJHmi9McqFmLneBuY/edit?gid=1867583444#gid=1867583444",
     "tab": "1550 - Inflation of wild cost",
-    "cell_range": "I19:K19"
+    "cell_range": "K19 (groups I19:J19)",
+    "group_cell_range": "I19:J19",
+    "diff_cell": "K19",
+    "diff_header": "Test Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "696c1a3d513d6c07"
+   "record_hash": "a7ec3576efa812e2",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.82%",
+   "diff_note": "NEW USERS block has no Diff in Diff column; K = 'Test Diff' (K2); L = CI."
   }
  ],
  "explanation_he": {
@@ -678,9 +920,9 @@
       ]
      }
     ],
-    "fingerprint": "679d213ffbc01f2e",
+    "fingerprint": "6e194f725792cfb5",
     "inputs": {
-     "results:": "fcaad261dc63ee54",
+     "results:": "deb230bfd592e682",
      "expl:what_happened": "01c1a2f3a6a43443",
      "expl:business_meaning": "59e343d8996280f4",
      "expl:decided": "458bee5aa2e9817c",
@@ -840,6 +1082,6 @@
  "glossary_concepts": [
   "Revenue"
  ],
- "content_fingerprint": "a18dd6a1f512b40dd64c0316c95c13fa74f4d6543bcf574e30b18f148a840d35",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "a5dee69e4464d5848060b9f7784bea499f964e314ea3832196e2132620588248",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

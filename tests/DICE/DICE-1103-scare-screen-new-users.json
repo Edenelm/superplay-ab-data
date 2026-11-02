@@ -114,7 +114,7 @@
      "population_size": null
     }
    ],
-   "relative_diff_pct": 0,
+   "relative_diff_pct": 0.0,
    "abs_diff_pp": null,
    "uncertainty": {
     "p_value": null,
@@ -124,15 +124,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B28:D28"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D28 (groups B28:C28)",
+    "group_cell_range": "B28:C28",
+    "diff_cell": "D28",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "1d687ee8b6960ec0"
+   "record_hash": "9bb0050a0bdaf03a",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.00%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -177,15 +184,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B29:D29"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D29 (groups B29:C29)",
+    "group_cell_range": "B29:C29",
+    "diff_cell": "D29",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "3833ef264e00c505"
+   "record_hash": "3ef732479a5093d6",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-3.36%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -230,15 +244,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B30:D30"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D30 (groups B30:C30)",
+    "group_cell_range": "B30:C30",
+    "diff_cell": "D30",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "a95d584e0f20dd45"
+   "record_hash": "9184d460ba7e83f9",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-5.48%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -283,15 +304,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B31:D31"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D31 (groups B31:C31)",
+    "group_cell_range": "B31:C31",
+    "diff_cell": "D31",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "94896e3580f26562"
+   "record_hash": "3d9600b7066c1d0a",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-15.28%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -336,15 +364,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B32:D32"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D32 (groups B32:C32)",
+    "group_cell_range": "B32:C32",
+    "diff_cell": "D32",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "7007af5d67883462"
+   "record_hash": "80377bb929f680e8",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-22.33%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -389,15 +424,22 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B33:D33"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D33 (groups B33:C33)",
+    "group_cell_range": "B33:C33",
+    "diff_cell": "D33",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "bc52c01aaf648a7f"
+   "record_hash": "6fe04f19cfa861d5",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.40%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -442,14 +484,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B34:D34"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D34 (groups B34:C34)",
+    "group_cell_range": "B34:C34",
+    "diff_cell": "D34",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "3e5e2ea54cd3e84b"
+   "record_hash": "5d86db8cdd8f72db",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.64%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -494,14 +543,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B35:D35"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D35 (groups B35:C35)",
+    "group_cell_range": "B35:C35",
+    "diff_cell": "D35",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "32b4d3fc7add426c"
+   "record_hash": "31853412735af1b4",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2.97%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   },
   {
    "test_id": "DICE-1103-scare-screen-new-users",
@@ -546,14 +602,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
-    "tab": "1103 - Scare Screen New Users (rows 25–46)",
-    "cell_range": "B36:D36"
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D36 (groups B36:C36)",
+    "group_cell_range": "B36:C36",
+    "diff_cell": "D36",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "3aca8f31132c751e"
+   "record_hash": "3af489131a0640b3",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "4.61%",
+   "diff_note": "'Diff to Diff' column (E26) exists but is empty for rows 28–36 → Delta (D) used."
   }
  ],
  "explanation_he": {
@@ -682,9 +745,9 @@
       ]
      }
     ],
-    "fingerprint": "b25630c8872cf610",
+    "fingerprint": "743fac1ad10d3065",
     "inputs": {
-     "results:": "4322d8069a7f5a6a",
+     "results:": "6594ae0c48950eed",
      "expl:what_happened": "501204c018d61dbe",
      "expl:business_meaning": "3c3b2688f41ab037",
      "expl:decided": "d3e1fa62202ccb86",
@@ -845,6 +908,6 @@
   "DTC",
   "Scare Screen"
  ],
- "content_fingerprint": "c18dd2e91a54f15b67d01aa87b73abc3916cbc5d94b5cedae2c9d1b2844d2e53",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "47e2a9a654f0ef81205498075ed8058fbbe7f08f904c8e57784e51fcd709a166",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

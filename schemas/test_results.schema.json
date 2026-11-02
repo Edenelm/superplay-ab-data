@@ -42,6 +42,7 @@
      "metric",
      "groups",
      "relative_diff_pct",
+     "diff_method",
      "abs_diff_pp",
      "uncertainty",
      "measurement_window",
@@ -201,6 +202,24 @@
          "string",
          "null"
         ]
+       },
+       "diff_cell": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "diff_header": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "group_cell_range": {
+        "type": [
+         "string",
+         "null"
+        ]
        }
       },
       "additionalProperties": true
@@ -231,6 +250,39 @@
        "type": "string",
        "minLength": 3
       }
+     },
+     "diff_method": {
+      "enum": [
+       "did_from_tab",
+       "diff_from_tab",
+       "diff_from_doc",
+       "computed_test_vs_control",
+       null
+      ]
+     },
+     "diff_checked_at": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "diff_value_raw": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "diff_note": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "superseded_by": {
+      "type": [
+       "string",
+       "null"
+      ]
      }
     },
     "additionalProperties": true

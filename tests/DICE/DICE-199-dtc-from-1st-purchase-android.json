@@ -121,14 +121,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B6:D6"
+    "cell_range": "D6 (groups B6:C6)",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "D6",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "689ad4eea1637c17"
+   "record_hash": "d785631171898fa1",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.90%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -174,14 +180,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B8:D8"
+    "cell_range": "D8 (groups B8:C8)",
+    "group_cell_range": "B8:C8",
+    "diff_cell": "D8",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "e118feca38508352"
+   "record_hash": "313a7c684a868231",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "4.28%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -227,14 +239,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B12:D12"
+    "cell_range": "D12 (groups B12:C12)",
+    "group_cell_range": "B12:C12",
+    "diff_cell": "D12",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "8b86a31c8474b823"
+   "record_hash": "c7ba0b9976571c59",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "4.62%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -280,12 +298,18 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B15:E15"
+    "cell_range": "D15 (groups B15:C15)",
+    "group_cell_range": "B15:C15",
+    "diff_cell": "D15",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract"
    },
-   "record_hash": "f2a9a0ef11e406ab"
+   "record_hash": "3e13d04311d1110f",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.13%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -331,12 +355,18 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B16:E16"
+    "cell_range": "D16 (groups B16:C16)",
+    "group_cell_range": "B16:C16",
+    "diff_cell": "D16",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract"
    },
-   "record_hash": "063b324983d7d654"
+   "record_hash": "f868d48bb8ab4983",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.81%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -382,14 +412,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B18:D18"
+    "cell_range": "D18 (groups B18:C18)",
+    "group_cell_range": "B18:C18",
+    "diff_cell": "D18",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "d36400612d5fb031"
+   "record_hash": "2d4aa802c93b90a2",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.77%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -435,14 +471,20 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B20:D20"
+    "cell_range": "D20 (groups B20:C20)",
+    "group_cell_range": "B20:C20",
+    "diff_cell": "D20",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "23220fef7cc0424c"
+   "record_hash": "4e9f02439d68cf13",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.32%"
   },
   {
    "test_id": "DICE-199-dtc-from-1st-purchase-android",
@@ -488,13 +530,19 @@
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=26609228#gid=26609228",
     "tab": "199 - DTC 1st Purchase (anrodid)",
-    "cell_range": "B28:D28"
+    "cell_range": "D28 (groups B28:C28)",
+    "group_cell_range": "B28:C28",
+    "diff_cell": "D28",
+    "diff_header": "Uplift %"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "260f8920fea7a0df"
+   "record_hash": "f8ae598849d060a2",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-2.22%"
   }
  ],
  "explanation_he": {
@@ -623,9 +671,9 @@
       ]
      }
     ],
-    "fingerprint": "21c001cd1c00ad55",
+    "fingerprint": "0b5392beaeb960a4",
     "inputs": {
-     "results:": "32b1f663cbbb69b9",
+     "results:": "e8bbf79ca20efc26",
      "expl:what_happened": "27628068eafeade8",
      "expl:business_meaning": "91cde068d73d0799",
      "expl:decided": "a3165da6154de979",
@@ -792,6 +840,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "b352f625b2fdf232dff9f5d82374a06389110f897898e88a9f1151983c5acbb3",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "240bef4e599f79f408684dd70e38563476bb2623ee7b5fb2d4c1d0a20f67d710",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

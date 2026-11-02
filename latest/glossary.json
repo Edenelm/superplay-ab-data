@@ -1,7 +1,7 @@
 {
  "dataset": "glossary",
- "contract_version": "1.3.0",
- "generated_at": "2026-11-02T08:40:18+02:00",
+ "contract_version": "1.4.0",
+ "generated_at": "2026-11-02T16:29:03+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "canonical_name = the org term as written in sources; no invented translations",

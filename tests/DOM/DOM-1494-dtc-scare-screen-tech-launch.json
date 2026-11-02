@@ -125,9 +125,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "efd05ac13ec00516"
+   "record_hash": "3fbb3c039ff97a14",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -238,9 +241,9 @@
       ]
      }
     ],
-    "fingerprint": "de412078e6a4c18a",
+    "fingerprint": "8e2ec38c0a6ddda0",
     "inputs": {
-     "results:": "95da4d546a85c25d",
+     "results:": "89185fba37dbd603",
      "expl:what_happened": "60d306e6a19f8ac2",
      "expl:business_meaning": "f688097505ad9823",
      "expl:decided": "7ea51b7fb33da43b",
@@ -387,6 +390,6 @@
   "DTC",
   "Scare Screen"
  ],
- "content_fingerprint": "4a496c03c5ac1bb44542e0f23bfe9841c00fdac2d520bfaf25990afcd6cc1404",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "83e78daa17639027f81a7611db71c9332b0a88e3c7bf466ba05c31918829301d",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

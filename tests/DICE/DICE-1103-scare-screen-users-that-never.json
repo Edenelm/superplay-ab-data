@@ -114,16 +114,84 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "",
-    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
-    "cell_range": "B6:E6"
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D6",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "D6",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "9aaad91b2c4c03df"
+   "record_hash": "d164e377523fcb4a",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.36%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D6 = -0.36%), not the tab's headline diff E6 ('Diff to Diff')",
+   "superseded_by": "DICE-1103-scare-screen-users-that-never::m01#r2"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": "DICE-1103-scare-screen-users-that-never::m01#r1",
+   "result_id": "DICE-1103-scare-screen-users-that-never::m01",
+   "metric": "[A] PU",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "3,606",
+     "value": 3606.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "3,593",
+     "value": 3593.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.64,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.64%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "E6 (groups B6:C6)",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "E6",
+    "diff_header": "Diff to Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "b531e60f33581615",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.64%",
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -167,16 +235,84 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "",
-    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
-    "cell_range": "B7:E7"
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D7",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "D7",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "c869d1e4fb84565c"
+   "record_hash": "ebcfce13b2977c2d",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.35%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D7 = -0.35%), not the tab's headline diff E7 ('Diff to Diff')",
+   "superseded_by": "DICE-1103-scare-screen-users-that-never::m02#r2"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": "DICE-1103-scare-screen-users-that-never::m02#r1",
+   "result_id": "DICE-1103-scare-screen-users-that-never::m02",
+   "metric": "[A] Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$1,447,000",
+     "value": 1447000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$1,442,000",
+     "value": 1442000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 5.17,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 5.17%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "E7 (groups B7:C7)",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "E7",
+    "diff_header": "Diff to Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "2378d75994ea5f81",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "5.17%",
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -220,16 +356,84 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "",
-    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
-    "cell_range": "B8:E8"
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D8",
+    "group_cell_range": "B8:C8",
+    "diff_cell": "D8",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "08eef359f41c4cc2"
+   "record_hash": "f49f13973c9dad4f",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-2.78%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D8 = -2.78%), not the tab's headline diff E8 ('Diff to Diff')",
+   "superseded_by": "DICE-1103-scare-screen-users-that-never::m03#r2"
+  },
+  {
+   "test_id": "DICE-1103-scare-screen-users-that-never",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "2026-02-23",
+    "end": "2026-03-26",
+    "note": "as written in board/tab"
+   },
+   "verification": "NOT VERIFIED",
+   "evidence_level": "insufficient",
+   "evidence_note": "Not rated beyond insufficient until the correct tab is confirmed.",
+   "supersedes": "DICE-1103-scare-screen-users-that-never::m03#r1",
+   "result_id": "DICE-1103-scare-screen-users-that-never::m03",
+   "metric": "[A] Net Revenue",
+   "groups": [
+    {
+     "group": "DTC + Scare Screen",
+     "value_raw": "$1,114,000",
+     "value": 1114000.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "No DTC",
+     "value_raw": "$1,083,000",
+     "value": 1083000.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 2.47,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 2.47%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "E8 (groups B8:C8)",
+    "group_cell_range": "B8:C8",
+    "diff_cell": "E8",
+    "diff_header": "Diff to Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "2d9ee5170643d89e",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "2.47%",
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -273,16 +477,23 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "",
-    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
-    "cell_range": "B9:D9"
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1394578567#gid=1394578567",
+    "tab": "1103 - Scare Screen New Users",
+    "cell_range": "D9 (groups B9:C9)",
+    "group_cell_range": "B9:C9",
+    "diff_cell": "D9",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "4f82a9232d59c333"
+   "record_hash": "ded00c2977871e2a",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "5.12%",
+   "diff_note": "rows 4–11 of tab '1103 - Scare Screen New Users' (title in A1: '1103 - Scare Screen (users that never purchased dtc)') match these group values exactly; the tab ambiguity is narrowed but not confirmed by the owner, so verification stays NOT VERIFIED."
   },
   {
    "test_id": "DICE-1103-scare-screen-users-that-never",
@@ -326,16 +537,23 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "",
-    "tab": "Ambiguous: gid 1394578567 A1:E11 or gid 238350138",
-    "cell_range": "B4"
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=238350138#gid=238350138",
+    "tab": "1103 - Scare Screen Old Users",
+    "cell_range": "B4",
+    "group_cell_range": null,
+    "diff_cell": "B4",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "478b8fc3cd553ae6"
+   "record_hash": "4e79f2b1eaa24790",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-10.81%",
+   "diff_note": "value found in tab '1103 - Scare Screen Old Users' B4 (Uplift); whether that tab belongs to this test is not confirmed → NOT VERIFIED."
   }
  ],
  "explanation_he": {
@@ -461,9 +679,9 @@
       ]
      }
     ],
-    "fingerprint": "352e2d294baf093a",
+    "fingerprint": "87a4f34c6832c325",
     "inputs": {
-     "results:": "493ee8131096b135",
+     "results:": "0d255090545d526a",
      "expl:what_happened": "af091655807148e8",
      "expl:business_meaning": "61f05722dc62d8b7",
      "expl:decided": "23a4bdff5b35f7a3",
@@ -619,6 +837,6 @@
   "DTC",
   "Scare Screen"
  ],
- "content_fingerprint": "d05bf2dd97e2f721e26e01fefaf6b6eec5d7a4a4a800dccb5c4662464e092554",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "a493ca7ccdd011060964f9a246dd1efa5d8be0d588a9109d64e5bf105c9295a0",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

@@ -128,7 +128,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "fa894e43d198f813"
+   "record_hash": "01f1fc69a8d110bf",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -181,7 +184,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "3fbee8db3b9b35ae"
+   "record_hash": "b451cd68a630ac29",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -234,7 +240,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "3b50fc6dab5beed4"
+   "record_hash": "528f46ed97f63709",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -287,7 +296,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "75b670413f6b43f7"
+   "record_hash": "a4a623972816c84e",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   },
   {
    "test_id": "DOM-1382-ftd-store-test",
@@ -340,7 +352,10 @@
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "6e22dfe1329b1803"
+   "record_hash": "4968c4d21ce957a9",
+   "diff_method": "diff_from_doc",
+   "diff_checked_at": null,
+   "diff_note": "Google Doc analyses (no tab); value stated in the doc text; not re-read on 2026-11-02 (no Docs connector)"
   }
  ],
  "explanation_he": {
@@ -469,9 +484,9 @@
       ]
      }
     ],
-    "fingerprint": "d24da54eac7c64eb",
+    "fingerprint": "c4811fe52074da5e",
     "inputs": {
-     "results:": "10b43e4d690600a7",
+     "results:": "94364f406abb09ca",
      "expl:what_happened": "99eb401751979c30",
      "expl:business_meaning": "4a681cf520a101de",
      "expl:decided": "db4b08477b6a3bff",
@@ -627,6 +642,6 @@
  "glossary_concepts": [
   "FTD"
  ],
- "content_fingerprint": "42750bfd7749274a8b977f92ed2ca99bca356f50ac34630d5c6ad0d1a3994120",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "4e78d8c6608dfc49dc6645b3afd6d417046acc3fe828905ffca048327bce8950",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

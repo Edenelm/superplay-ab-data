@@ -110,16 +110,22 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
-    "tab": "197 summary workbook › Sheet1",
-    "cell_range": "C4:E4"
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit?gid=0#gid=0",
+    "tab": "Sheet1",
+    "cell_range": "E4 (groups C4:D4)",
+    "group_cell_range": "C4:D4",
+    "diff_cell": "E4",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "f49e76dc7ab6e803"
+   "record_hash": "0e69ab9091b4f93d",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-1.95%"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -163,16 +169,22 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
-    "tab": "197 summary workbook › Sheet1",
-    "cell_range": "C5:E5"
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit?gid=0#gid=0",
+    "tab": "Sheet1",
+    "cell_range": "E5 (groups C5:D5)",
+    "group_cell_range": "C5:D5",
+    "diff_cell": "E5",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "006cd6e828af6d52"
+   "record_hash": "abe47d3df0d821e7",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.14%"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -216,16 +228,22 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
-    "tab": "197 summary workbook › Sheet1",
-    "cell_range": "C6:E6"
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit?gid=0#gid=0",
+    "tab": "Sheet1",
+    "cell_range": "E6 (groups C6:D6)",
+    "group_cell_range": "C6:D6",
+    "diff_cell": "E6",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "3f9d77eeff411a87"
+   "record_hash": "9f97540920a3ee78",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "12.10%"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -269,16 +287,22 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
-    "tab": "197 summary workbook › Sheet1",
-    "cell_range": "C10:E10"
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit?gid=0#gid=0",
+    "tab": "Sheet1",
+    "cell_range": "E10 (groups C10:D10)",
+    "group_cell_range": "C10:D10",
+    "diff_cell": "E10",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "fadff49133d64848"
+   "record_hash": "b22dd2252cc68589",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.18%"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -322,16 +346,22 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
-    "tab": "197 summary workbook › Sheet1",
-    "cell_range": "E11"
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit?gid=0#gid=0",
+    "tab": "Sheet1",
+    "cell_range": "E11 (groups C11:D11)",
+    "group_cell_range": "C11:D11",
+    "diff_cell": "E11",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "22b0482f505eac93"
+   "record_hash": "afdede0261f0c238",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.14%"
   },
   {
    "test_id": "DICE-197-dtc-from-1st-purchase-apple",
@@ -375,16 +405,22 @@
    },
    "source": {
     "type": "results_tab",
-    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit",
-    "tab": "197 summary workbook › Sheet1",
-    "cell_range": "E14"
+    "ref": "https://docs.google.com/spreadsheets/d/1H9nNizD4MBHiQEkFYgROOmQSWXSgbbAhLKyvzoXRTqw/edit?gid=0#gid=0",
+    "tab": "Sheet1",
+    "cell_range": "E14 (groups C14:D14)",
+    "group_cell_range": "C14:D14",
+    "diff_cell": "E14",
+    "diff_header": "Uplift"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "adfcd2d7defb2024"
+   "record_hash": "2cb3a1ba9a4b8b8c",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-2.55%"
   }
  ],
  "explanation_he": {
@@ -513,9 +549,9 @@
       ]
      }
     ],
-    "fingerprint": "1cf9d1cde8c8539b",
+    "fingerprint": "9cd5b5a517daa3e0",
     "inputs": {
-     "results:": "a7e585b1ebd9979e",
+     "results:": "81f1aaf3bf17acb6",
      "expl:what_happened": "31eac2d5e1dc0772",
      "expl:business_meaning": "fe32f6810bbeef70",
      "expl:decided": "25dfb633a2a37477",
@@ -673,6 +709,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "5b714dcd49d7579c6d563bce20fef4b81658bef8d29d98e1ae2db4647c88617b",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "42acfaf92b1801b19b4c778fd56831d30be2a53ebb61640c3d143771307873ca",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

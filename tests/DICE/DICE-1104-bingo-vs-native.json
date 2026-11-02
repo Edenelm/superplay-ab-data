@@ -116,15 +116,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
-    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
-    "cell_range": "B6:D6"
+    "tab": "1104 - DTC Native vs Bingo New Users",
+    "cell_range": "D6 (groups B6:C6)",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "D6",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "8e98e7231221f23a"
+   "record_hash": "7f18cc61c5390d72",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "14.15%"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -169,15 +175,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
-    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
-    "cell_range": "B7:D7"
+    "tab": "1104 - DTC Native vs Bingo New Users",
+    "cell_range": "D7 (groups B7:C7)",
+    "group_cell_range": "B7:C7",
+    "diff_cell": "D7",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "abeb081bca93e93f"
+   "record_hash": "4fc1cb3b2d4c1fdf",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "14.62%"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -222,15 +234,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
-    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
-    "cell_range": "B10:D10"
+    "tab": "1104 - DTC Native vs Bingo New Users",
+    "cell_range": "D10 (groups B10:C10)",
+    "group_cell_range": "B10:C10",
+    "diff_cell": "D10",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "ee5981595b413d32"
+   "record_hash": "891688c686573eb7",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "4.99%"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -275,14 +293,20 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
-    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
-    "cell_range": "B11:D11"
+    "tab": "1104 - DTC Native vs Bingo New Users",
+    "cell_range": "D11 (groups B11:C11)",
+    "group_cell_range": "B11:C11",
+    "diff_cell": "D11",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "0c34622c804cc365"
+   "record_hash": "d653748d9e3809a6",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-0.26%"
   },
   {
    "test_id": "DICE-1104-bingo-vs-native",
@@ -327,15 +351,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1212896163#gid=1212896163",
-    "tab": "Dice Test Results › 1104 - DTC Native vs Bingo New Users",
-    "cell_range": "B13:D13"
+    "tab": "1104 - DTC Native vs Bingo New Users",
+    "cell_range": "D13 (groups B13:C13)",
+    "group_cell_range": "B13:C13",
+    "diff_cell": "D13",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "189b4196730038fa"
+   "record_hash": "33b3f8f449320494",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "6.90%"
   }
  ],
  "explanation_he": {
@@ -464,9 +494,9 @@
       ]
      }
     ],
-    "fingerprint": "cd31b23ccb2692e8",
+    "fingerprint": "d8aeb77f5582ebf1",
     "inputs": {
-     "results:": "43dc70e1d89b911a",
+     "results:": "998cb2ab9a49c7af",
      "expl:what_happened": "e14c2cf821895c81",
      "expl:business_meaning": "efcbf9983ab25984",
      "expl:decided": "fe7a2fc014207394",
@@ -629,6 +659,6 @@
  "glossary_concepts": [
   "DTC"
  ],
- "content_fingerprint": "d494d00de71a37010f063506182d2b04a3f740670bc1259b8c69342d31b5d82a",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "9dd5aed8b8c79fd42537a1c33c0a12f8e4e7359f71d11a23b60e9531f566b597",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

@@ -1,15 +1,17 @@
 # Processing log
 
-Run 2026-11-02T08:40:18+02:00 (run_id 20261102T084018). Baseline state: 2026-11-01T13:46:48+02:00.
+Run 2026-11-02T16:29:03+02:00 (run_id 20261102T162600). Baseline state: 2026-11-02T16:29:03+02:00.
 
 ## Checked against (source versions)
 
 - `game_metrics`: {"sha256": "d228e47c9f171c8da80ca27d97623efbe3cdf454ef872d0d6b0bd127d71565c1", "source_snapshot": "2026-11-02T08:40:00+02:00"}
 - `test_registry`: {"sha256": "89e68f1e1678f8242ba5d2cfc7467accbc54c9103270018bf17f656d441ea0f4", "source_snapshot": "2026-11-02"}
-- `test_results`: {"sha256": "1abc8629e86e102c076f16b42b3a4aa9937fcc4e2e4ad57c7fe27e4c8fc130c3", "source_snapshot": "2026-10-18..2026-11-01"}
+- `test_results`: {"sha256": "5c3adc30d10e80d8125d26e42a5e2dcd24bfa0318c296d9cdd131aff33cbca77", "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)"}
 - `explanations_learnings_decisions`: {"sha256": "22ca90fb92cb63f5dcdf980d5cb8e2b4cb11ca1cbd0a7c40a3df07293d59a34c", "source_snapshot": "2026-11-02"}
 - `whatsapp_items`: {"sha256": "3a1b5cb939668ad0f018e210800af1cec8564fc9c58c30c102592f46fd4cc9d7", "source_snapshot": "2026-11-02"}
-- `metric_definitions`: {"sha256": "7541232e1653e65c5d78285136cb0efb7d68c66c3bcabae76a25e4a31e5ef393", "source_snapshot": "2026-11-01T12:05:00+02:00"}
+- `metric_definitions`: {"sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3", "source_snapshot": "2026-11-01T12:05:00+02:00 (+ Domino DAU lineage 2026-11-02T16:25:00+02:00)"}
+- `glossary`: {"sha256": "2edf57c3d0dbcd086120160cd55729df4e64b2aa6f7c93caf424798a85c51dba", "source_snapshot": "local sources as of 2026-11-02"}
+- `open_issues`: {"sha256": "1d0b86105a0e6e0da50a19f1d651ae26e33aec4335cf9ef2b7960d0861476c06", "source_snapshot": "curated from saved sources as of 2026-11-02"}
 - `curated_live_understanding`: {"sha256": "07bddf632ee7d21b90a7f61d9c01313652e841ecec2d34f55593ef7a9a8a1450"}
 - `curated_extra_conflicts`: {"sha256": "31a493c5753754287110df56be166615ee1d9b1ddff43dba30d3dc56b4ce7efd", "file": "tools/curated/extra_conflicts.json"}
 - `mixpanel_mechanism_pass`: {"sha256": "ab21b663e401310267936d2b8654de5ad8296cdbf10002b7c9a9d03a15b29213", "file": "tools/source_cache/mixpanel_mechanism_2026-11-01.json"}
@@ -30,7 +32,7 @@ Run 2026-11-02T08:40:18+02:00 (run_id 20261102T084018). Baseline state: 2026-11-
 
 ## Regeneration
 
-- sections regenerated: 155, reused: 3290
+- sections regenerated: 0, reused: 3445
 
 ## Still missing
 
@@ -49,17 +51,3 @@ Run 2026-11-02T08:40:18+02:00 (run_id 20261102T084018). Baseline state: 2026-11-
 - DIS-NOID-live-test: המנגנון טרם הובהר (live)
 - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
 - Glossary: 31 concepts `unclear` (see docs/GLOSSARY.md, column Open question).
-
-## Fixes applied in this run (2026-11-02)
-
-- Stable test ids: ids now stay with their (game, Monday item) across renames (map in `state/test_id_map.json`, seeded from the last published registry). Without this, 21 tests would have changed id today (e.g. `DIS-125-t125-end-of-puzzle-offer` kept, not renamed).
-- Carry-forward: 17 previously published tests that are no longer in the app build (7 Disney tests that left the Live group, 10 Disney/Dice backlog items) are kept with `carried_forward`; board status/decision/end date updated only from the 08:00 daily refresh diff. No 21-day rule applied.
-- WhatsApp id collision: the app's new items took ids wa327–wa331, which collided with the curated extras. Curated extras renumbered wa327–wa341 → wa9327–wa9341 (refs updated in tools/curated/*). App ids unchanged.
-- Business metrics: re-pulled 2026-10-29..2026-11-01 (all still provisional) from the same tables/SQL, each in its own game project; HQ table still not queried (403, not retried).
-
-## 2026-11-02T16:26:00+02:00 — Domino DAU check (OI-METRIC-DAU), definitions only
-- Read (metadata, read-only): HQ `40_mart.mrt_daily_agg_domino` (dau = "Aggregated from stg_udm_base_domino_vw.dau"; pau = "COUNT(DISTINCT user_id) where purchase_ltv > 0"), HQ `30_intermediate.int_val_udm_day_agg_domino_vw` (dau = COUNT DISTINCT user_id with deactivated/special/fake_invited filters), Domino `prod_50_reporting.domino_daily_kpis`.
-- Not readable: HQ `10_staging.stg_udm_base_domino_vw` (connector guardrail: 10_staging not curated). HQ query: 403 bigquery.jobs.create (one check, not retried).
-- Queried (Domino project, read-only): candidates for 2026-10-29..2026-11-01 → tools/evidence/dom_dau_candidates_2026-11-02.json.
-- Finding: pau_flag = lifetime purchase LTV > 0 (paying active), all mart rows have sessions_today > 0, domino_daily_kpis.dau = rows excl. special+deactivated+fake_invited (31.10: +1).
-- DOM.active_users_dau stays needs_approval; Domino active_users_dau still null. Dice/Disney definitions unchanged.

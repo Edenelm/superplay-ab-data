@@ -96,9 +96,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "6606f90ca3b10fb5"
+   "record_hash": "a3f81bfa1c65ab5f",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -209,9 +212,9 @@
       ]
      }
     ],
-    "fingerprint": "2c2e56192804f3b9",
+    "fingerprint": "67437c45eea50cf3",
     "inputs": {
-     "results:": "64d9ee531789f8fe",
+     "results:": "7f3a5562bab9ca8f",
      "expl:what_happened": "65d2ef72d634aa55",
      "expl:business_meaning": "ee0ed8da041d4eff",
      "expl:decided": "3c59d64b9ab48856",
@@ -357,6 +360,6 @@
   "Revenue",
   "RV"
  ],
- "content_fingerprint": "6ebfc56ab8817f48ebc2dbc014516d1ac48fb50b6c090b83298b2e13afba0db2",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "278a614c8c5ac2fb448aaa7d4ec699d76672df5735eb7623a9419d35c4ec6266",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

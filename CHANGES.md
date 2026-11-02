@@ -1,5 +1,56 @@
 # Changes (published)
 
+## 2026-11-02T16:29:03+02:00 (run 20261102T162600, published)
+
+- datasets changed: test_results, glossary, open_issues; unchanged (file kept): game_metrics, test_registry, explanations_learnings_decisions, whatsapp_items, metric_definitions; failed (last good kept): none
+- tests vs previous publish: +0 added, 37 updated, 644 unchanged, 0 removed from registry (files kept)
+- per-test files written: 37; explanation sections regenerated this run: 0 (reused 3445)
+- updated: `DICE-199-dtc-from-1st-purchase-android`
+- updated: `DICE-1113-limited-stock-offer-recomp`
+- updated: `DICE-1103-scare-screen-new-users`
+- updated: `DOM-1543-rv-stuck-in-funnel-users`
+- updated: `DOM-1550-inflation-of-wild-cost`
+- updated: `DOM-1533-daily-calendar-session-extension`
+- updated: `DIS-115-make-any-purchase`
+- updated: `DIS-101-std-expensive-offer-v4-15`
+- updated: `DIS-116-make-any-purchase-v2`
+- updated: `DIS-125-make-any-purchase-new-seg`
+- updated: `DIS-124-ays-offer-for-ftd-and`
+- updated: `DIS-108-purchase-funnel-v4`
+- updated: `DIS-041-starter-pack-to-level-75`
+- updated: `DIS-111-starter-pack`
+- updated: `DICE-1102-ftd-high-maturity`
+- updated: `DICE-1109-remove-android-dtc`
+- updated: `DICE-1104-bingo-vs-native`
+- updated: `DICE-197-dtc-from-1st-purchase-apple`
+- updated: `DICE-1103-scare-screen-users-that-never`
+- updated: `DICE-195-ftd-offer-3po`
+- updated: `DOM-1570-high-win-rate-after-purchase`
+- updated: `DOM-1551-1551-scrolling-under-250`
+- updated: `DOM-1494-romantic-treats`
+- updated: `DOM-1501-duel-vs-tournament-onboarding`
+- updated: `DOM-1492-popup-win-level-30-in`
+- updated: `DOM-1494-dtc-scare-screen-tech-launch`
+- updated: `DOM-1500-no-dtc-new-users`
+- updated: `DOM-1460-rv-mania-v2`
+- updated: `DOM-1500-japan-pricing-test`
+- updated: `DOM-1512-dtc-20-value-for-expensive`
+- needs attention (14): see PROCESSING_LOG.md
+  - DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)
+  - DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)
+  - DOM-1621-1621-trail-runner-v2: המנגנון טרם הובהר (live)
+  - DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)
+  - DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)
+  - DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)
+  - DIS-126-chef-segments: המנגנון טרם הובהר (live)
+  - DIS-127-3po-halloween: המנגנון טרם הובהר (live)
+  - DIS-126-es-v3: המנגנון טרם הובהר (live)
+  - DIS-126-wr-v3: המנגנון טרם הובהר (live)
+  - DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)
+  - DIS-126-1-1-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test: המנגנון טרם הובהר (live)
+  - DIS-NOID-live-test-2: המנגנון טרם הובהר (live)
+
 ## 2026-11-02T16:26:00+02:00 (run 20261102T162600, published)
 
 - datasets changed: metric_definitions, open_issues; unchanged (file kept): game_metrics, test_registry, test_results, explanations_learnings_decisions, whatsapp_items, glossary; failed (last good kept): none

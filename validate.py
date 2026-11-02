@@ -101,6 +101,25 @@ for x in res:
     if x['abs_diff_pp'] is not None and x['relative_diff_pct'] is not None and abs(x['abs_diff_pp']) == abs(x['relative_diff_pct']) and x['abs_diff_pp'] != 0:
         warnings.append(f'{x["result_id"]}: pp equals % — check %/pp were not mixed')
     if x['verification'] == 'VERIFIED' and not (x['source'].get('ref')): err('test_results', f'{x["result_id"]}: VERIFIED without source ref')
+    # 1.4.0 diff provenance: relative_diff_pct only from the source's diff cell; never self-computed on the current revision
+    if 'diff_method' not in x: err('test_results', f'{x["result_id"]}: missing diff_method (contract 1.4.0)')
+    dm = x.get('diff_method'); _src = x['source']
+    if x['relative_diff_pct'] is not None and dm is None: err('test_results', f'{x["result_id"]}: relative_diff_pct without diff_method')
+    if x['relative_diff_pct'] is None and dm is not None: err('test_results', f'{x["result_id"]}: diff_method set but relative_diff_pct is null')
+    if dm in ('did_from_tab', 'diff_from_tab'):
+        if not _src.get('diff_cell') or _src['diff_cell'] not in str(_src.get('cell_range') or ''): err('test_results', f'{x["result_id"]}: {dm} requires source.diff_cell recorded in source.cell_range')
+        if not x.get('diff_checked_at'): err('test_results', f'{x["result_id"]}: {dm} without diff_checked_at')
+    if dm == 'computed_test_vs_control' and not x.get('superseded_by'): err('test_results', f'{x["result_id"]}: computed_test_vs_control is allowed only on a superseded (legacy) revision')
+    if x['verification'] == 'VERIFIED' and x['relative_diff_pct'] is None: err('test_results', f'{x["result_id"]}: VERIFIED without a checked diff')
+    if x['verification'] == 'VERIFIED' and not (dm in ('did_from_tab', 'diff_from_tab') and x.get('diff_checked_at')): err('test_results', f'{x["result_id"]}: VERIFIED requires the diff itself checked against the tab')
+_revs = {(x['result_id'], x['revision']) for x in res}
+for x in res:
+    if x.get('supersedes'):
+        _rid, _, _rv = x['supersedes'].rpartition('#r')
+        if (_rid, int(_rv or 0)) not in _revs: err('test_results', f'{x["result_id"]}: supersedes {x["supersedes"]} not found')
+    if x.get('superseded_by'):
+        _rid, _, _rv = x['superseded_by'].rpartition('#r')
+        if (_rid, int(_rv or 0)) not in _revs: err('test_results', f'{x["result_id"]}: superseded_by {x["superseded_by"]} not found')
 ed = docs.get('explanations_learnings_decisions', {})
 for e in ed.get('explanations', []):
     if e['test_id'] not in idset: err('explanations_learnings_decisions', f'explanation {e["test_id"]}: unknown test_id')

@@ -1,6 +1,6 @@
 # For Claude Code: consuming the CRO data feed
 
-> **You can start building the app now.** The open questions (metric definitions, HQ access, unclear Disney tests, status conflicts, the 21-day rule) do not block the build. They are published as data in `latest/open_issues.json`. Show them as limitations, and the app picks up the answers automatically when they change. Contract **v1.3.0**.
+> **You can start building the app now.** The open questions (metric definitions, HQ access, unclear Disney tests, status conflicts, the 21-day rule) do not block the build. They are published as data in `latest/open_issues.json`. Show them as limitations, and the app picks up the answers automatically when they change. Contract **v1.4.0** (v1.4: `test_results.diff_method`; relative_diff_pct is the tab's own diff cell; use the highest revision per result_id).
 
 The **producer** (Grok Bot) collects the data and publishes it. The **consumer** (your app) only reads. Do not write into the drop folder.
 

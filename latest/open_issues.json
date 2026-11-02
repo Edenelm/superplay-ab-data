@@ -1,15 +1,15 @@
 {
  "dataset": "open_issues",
- "contract_version": "1.3.0",
- "generated_at": "2026-11-02T16:26:00+02:00",
+ "contract_version": "1.4.0",
+ "generated_at": "2026-11-02T16:29:03+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
   "OI-RULE-21D: the 21-day rule is NOT used to end or hide tests; at most a needs_review flag"
  ],
  "counts": {
-  "items": 13,
-  "awaiting_decision": 13
+  "items": 16,
+  "awaiting_decision": 16
  },
  "items": [
   {
@@ -446,6 +446,86 @@
    "since": "2026-11-01",
    "since_basis": "app spec §9 (decision pending)",
    "decision_doc_ref": "DECISIONS_2026-11-01.md#5"
+  },
+  {
+   "id": "OI-DIFF-DOC-METHOD",
+   "topic": "rule",
+   "games": [
+    "Domino Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "test_results"
+    ],
+    "fields": [
+     "relative_diff_pct",
+     "diff_method",
+     "verification"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DOM-1382-ftd-store-test",
+     "DOM-1402-vault-late-ftd"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "10 שורות (DOM-1382, DOM-1402) מגיעות מסיכום ב-Google Doc ולא מלשונית תוצאות. סומנו diff_from_doc (ערך רביעי שלא ברשימה המקורית) ונשארו NOT VERIFIED עד אישור.",
+   "display_note_en": "10 rows (DOM-1382, DOM-1402) come from a Google Doc summary, not a results tab. Labelled diff_from_doc (a 4th value, outside the approved list) and kept NOT VERIFIED until approved.",
+   "since": "2026-11-02",
+   "since_basis": "diff provenance audit 2026-11-02",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-DIFF-1113-F",
+   "topic": "data_team_question",
+   "games": [
+    "Dice Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "test_results"
+    ],
+    "fields": [
+     "relative_diff_pct",
+     "diff_method"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DICE-1113-limited-stock-offer-recomp"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "בלשונית של DICE-1113 כותרת עמודה F היא \"Diff To Diff\" אבל תת-הכותרת היא \"diff 14 days to date\". לקחנו את F כ-DiD לשורות m01–m03. צריך אישור מצוות הדאטה.",
+   "display_note_en": "DICE-1113 tab: column F header says \"Diff To Diff\" but its sub-header says \"diff 14 days to date\". F was used as DiD for m01–m03; needs data-team confirmation.",
+   "since": "2026-11-02",
+   "since_basis": "diff provenance audit 2026-11-02",
+   "decision_doc_ref": null
+  },
+  {
+   "id": "OI-DIFF-1103-TAB",
+   "topic": "data_team_question",
+   "games": [
+    "Dice Dreams"
+   ],
+   "affected": {
+    "datasets": [
+     "test_results"
+    ],
+    "fields": [
+     "source",
+     "relative_diff_pct"
+    ],
+    "def_ids": [],
+    "test_ids": [
+     "DICE-1103-scare-screen-users-that-never"
+    ]
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "DICE-1103 \"users that never\": הערכים תואמים ללשונית \"1103 - Scare Screen New Users\" (כותרתה: users that never purchased dtc). השיוך לא אושר על ידי בעל הטסט, ולכן השורות נשארות NOT VERIFIED.",
+   "display_note_en": "DICE-1103 \"users that never\" values match tab \"1103 - Scare Screen New Users\" (title: users that never purchased dtc). The mapping is not owner-confirmed, so the rows stay NOT VERIFIED.",
+   "since": "2026-11-02",
+   "since_basis": "diff provenance audit 2026-11-02",
+   "decision_doc_ref": null
   }
  ]
 }

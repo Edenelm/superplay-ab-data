@@ -84,7 +84,7 @@
     "end": "tab A1: 21/7/26",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
    "supersedes": null,
@@ -116,15 +116,82 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B5:F5"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "D5",
+    "group_cell_range": "B5:C5",
+    "diff_cell": "D5",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "1f4b5c36af279c0d"
+   "record_hash": "451f7b0734f82eb0",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-2.71%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D5 = -2.71%), not the tab's headline diff F5 ('Diff to Diff')",
+   "superseded_by": "DICE-1109-remove-android-dtc::m01#r2"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": "DICE-1109-remove-android-dtc::m01#r1",
+   "result_id": "DICE-1109-remove-android-dtc::m01",
+   "metric": "Avg Daily Gross Rev · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$158,800",
+     "value": 158800.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$154,500",
+     "value": 154500.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 0.59,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 0.59%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "F5 (groups B5:C5)",
+    "group_cell_range": "B5:C5",
+    "diff_cell": "F5",
+    "diff_header": "Diff to Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "5afd4a66db51ad82",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "0.59%"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -137,7 +204,7 @@
     "end": "tab A1: 21/7/26",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
    "supersedes": null,
@@ -169,15 +236,82 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B6:F6"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "D6",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "D6",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "d3fe9518358a03fe"
+   "record_hash": "5a7ac5a27c2a3d26",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-4.71%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D6 = -4.71%), not the tab's headline diff F6 ('Diff to Diff')",
+   "superseded_by": "DICE-1109-remove-android-dtc::m02#r2"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": "DICE-1109-remove-android-dtc::m02#r1",
+   "result_id": "DICE-1109-remove-android-dtc::m02",
+   "metric": "Avg Daily Net Rev · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "$115,336",
+     "value": 115336.0,
+     "value_unit": "usd",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "$109,901",
+     "value": 109901.0,
+     "value_unit": "usd",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": -1.31,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff −1.31%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "F6 (groups B6:C6)",
+    "group_cell_range": "B6:C6",
+    "diff_cell": "F6",
+    "diff_header": "Diff to Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "88edddb0ef9f8866",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-1.31%"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -190,7 +324,7 @@
     "end": "tab A1: 21/7/26",
     "note": "as written in board/tab"
    },
-   "verification": "VERIFIED",
+   "verification": "NOT VERIFIED",
    "evidence_level": "directional",
    "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
    "supersedes": null,
@@ -222,15 +356,82 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B9:F9"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "D9",
+    "group_cell_range": "B9:C9",
+    "diff_cell": "D9",
+    "diff_header": null
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "90d5d55eb53caeee"
+   "record_hash": "72a791bc9551edfd",
+   "diff_method": "computed_test_vs_control",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.81%",
+   "diff_note": "superseded: this value is Test/Control-1 (equals the tab's plain diff cell D9 = 1.81%), not the tab's headline diff F9 ('Diff to Diff')",
+   "superseded_by": "DICE-1109-remove-android-dtc::m03#r2"
+  },
+  {
+   "test_id": "DICE-1109-remove-android-dtc",
+   "game": "Dice Dreams",
+   "revision": 2,
+   "is_live": false,
+   "has_results": true,
+   "measurement_window": {
+    "start": "board: empty · tab A1: 08/7/26",
+    "end": "tab A1: 21/7/26",
+    "note": "as written in board/tab"
+   },
+   "verification": "VERIFIED",
+   "evidence_level": "directional",
+   "evidence_note": "No p-value/CI in the tab → directional. Retention uplift for new players shown as J4:J8 (e.g. D3 5.80%, D7 2.70%).",
+   "supersedes": "DICE-1109-remove-android-dtc::m03#r1",
+   "result_id": "DICE-1109-remove-android-dtc::m03",
+   "metric": "Avg Daily Paying Users · all",
+   "groups": [
+    {
+     "group": "Control",
+     "value_raw": "8,163",
+     "value": 8163.0,
+     "value_unit": "count",
+     "population_size": null
+    },
+    {
+     "group": "Test",
+     "value_raw": "8,311",
+     "value": 8311.0,
+     "value_unit": "count",
+     "population_size": null
+    }
+   ],
+   "relative_diff_pct": 1.01,
+   "abs_diff_pp": null,
+   "uncertainty": {
+    "p_value": null,
+    "ci": null,
+    "note": "% · diff-to-diff 1.01%"
+   },
+   "source": {
+    "type": "results_tab",
+    "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "F9 (groups B9:C9)",
+    "group_cell_range": "B9:C9",
+    "diff_cell": "F9",
+    "diff_header": "Diff to Diff"
+   },
+   "null_reasons": {
+    "population_size": "group sizes not captured per metric row in the results tab extract",
+    "abs_diff_pp": "source shows relative % only",
+    "p_value": "no p-value/CI shown for this row in source"
+   },
+   "record_hash": "38a1c2c1c861d6ac",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "1.01%"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -275,14 +476,20 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B10:F10"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "F10 (groups B10:C10)",
+    "group_cell_range": "B10:C10",
+    "diff_cell": "F10",
+    "diff_header": "Diff to Diff"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "88b7c9d0e521f9b9"
+   "record_hash": "93f60a0d38216671",
+   "diff_method": "did_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "5.16%"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -327,15 +534,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B13:D13"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "D13 (groups B13:C13)",
+    "group_cell_range": "B13:C13",
+    "diff_cell": "D13",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "d10f1dbd6f9061c6"
+   "record_hash": "250b2f7de5401a5f",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "-7.03%"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -380,15 +593,21 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B16:D16"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "D16 (groups B16:C16)",
+    "group_cell_range": "B16:C16",
+    "diff_cell": "D16",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "abs_diff_pp": "source shows relative % only",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "0273796d72be273d"
+   "record_hash": "02692e994e6f617e",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "3.46%"
   },
   {
    "test_id": "DICE-1109-remove-android-dtc",
@@ -433,14 +652,20 @@
    "source": {
     "type": "results_tab",
     "ref": "https://docs.google.com/spreadsheets/d/1nbnI5AHr8H_i1BxD55UlJuxNFOMIKpx-4X_O1lrdySw/edit?gid=1553004359#gid=1553004359",
-    "tab": "Dice Test Results › 1109 - Remove DTC Android",
-    "cell_range": "B18:D18"
+    "tab": "1109 - Remove DTC Android",
+    "cell_range": "D18 (groups B18:C18)",
+    "group_cell_range": "B18:C18",
+    "diff_cell": "D18",
+    "diff_header": "Delta"
    },
    "null_reasons": {
     "population_size": "group sizes not captured per metric row in the results tab extract",
     "p_value": "no p-value/CI shown for this row in source"
    },
-   "record_hash": "39bed67af347a2cb"
+   "record_hash": "6d3eaa6318558d43",
+   "diff_method": "diff_from_tab",
+   "diff_checked_at": "2026-11-02",
+   "diff_value_raw": "8.10%"
   }
  ],
  "explanation_he": {
@@ -572,9 +797,9 @@
       ]
      }
     ],
-    "fingerprint": "27625004646b61a8",
+    "fingerprint": "773aafdab5771c04",
     "inputs": {
-     "results:": "5a1a6859ccf2226a",
+     "results:": "11d0cc1ed2857fd2",
      "expl:what_happened": "55304f7b0666b1a9",
      "expl:business_meaning": "94637285a8fdf7fb",
      "expl:decided": "18b263b92b82dec7",
@@ -807,6 +1032,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "260bf948d5801cb819d2849c7bc26dc423f7499f6c6bbb685e57277783187a1f",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "8d461f82ceb489cd805339e63e592274a911e93f79065d695b6d9607897dbe73",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

@@ -105,9 +105,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "0597b854f4c70b81"
+   "record_hash": "5060ec042d3f917d",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -241,9 +244,9 @@
       ]
      }
     ],
-    "fingerprint": "6001f3907f75a7bf",
+    "fingerprint": "d1efb33e78d3afb1",
     "inputs": {
-     "results:": "3f946d17471f0435",
+     "results:": "1b95f6990d10a2f8",
      "expl:what_happened": "e5fd0e2fbde68bea",
      "expl:business_meaning": "8f552d92814c87c3",
      "expl:decided": "40f2de2c136d90e2",
@@ -411,6 +414,6 @@
   "CZ",
   "DSLP / DFI"
  ],
- "content_fingerprint": "7a9cf2bd75c70e1b383691b6ded09e351d0d792d9db2937ab8ae9764b35478a3",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "c6925a1b7b15d743a37047c2c216289d1ad49a5e2dbe2a44c8a5ca5e7f5ce77b",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }

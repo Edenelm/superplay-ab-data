@@ -1,4 +1,4 @@
-# Data dictionary — provider contract v1.3.0 (v1.3 adds `open_issues`; v1.2 added the light layer; all earlier files and fields unchanged)
+# Data dictionary — provider contract v1.4.0 (v1.4 adds `test_results.diff_method` and diff-cell provenance; v1.3 added `open_issues`; v1.2 added the light layer; all earlier files and fields unchanged)
 
 **Conventions (all datasets)**
 - Files are UTF-8 JSON. Each one starts with a header: `dataset`, `contract_version`, `generated_at` (ISO 8601 with offset, Asia/Jerusalem) and `timezone`.
@@ -92,12 +92,15 @@ See METRIC_DEFINITIONS.md for the rendered table.
 | record_hash | Hash of the content (excluding updated_at), used to detect real changes |
 | metric | Metric label as written in the source, or null for summary-only rows |
 | groups[] | `{group, value_raw, value, value_unit, population_size}`. population_size is null with a reason (not captured) |
-| relative_diff_pct | Relative % change, test vs control, from the source |
+| relative_diff_pct | Relative % change **as printed in the results tab's diff cell** (Diff in Diff / Diff to Diff when present, else the tab's Diff / Test Diff / Uplift / Lift / Delta column). Never computed by us. Null with a reason when the tab has no diff cell |
+| diff_method | Where relative_diff_pct came from: `did_from_tab` (Diff-in-Diff cell), `diff_from_tab` (plain diff cell), `diff_from_doc` (Google Doc summary, not re-checked; pending approval of this value), `computed_test_vs_control` (only on superseded legacy revisions: the old value = Test÷Control−1), or null (no diff; see null_reasons.diff_method) |
+| diff_checked_at, diff_value_raw, diff_note | Date the diff cell itself was re-read against the tab, the cell text as shown, and any caveat (e.g. ambiguous header, empty DiD cell → Delta used) |
+| superseded_by | Set on an old revision that a newer revision replaced (`result_id#rN`). Readers use the highest revision |
 | abs_diff_pp | Percentage-point difference, when the source shows it |
 | uncertainty | `{p_value, ci, note}`. Only what the source shows |
 | measurement_window | Start/end as written in the source |
-| source | `{type: results_tab, ref: URL, tab, cell_range}` |
-| verification, evidence_level, evidence_note | From the review. `directional` or `insufficient` |
+| source | `{type: results_tab, ref: URL with gid, tab, cell_range, diff_cell, diff_header, group_cell_range}`. cell_range = `<diff cell> (groups <range>)` |
+| verification, evidence_level, evidence_note | From the review. VERIFIED only when diff_method is did_from_tab/diff_from_tab and the diff cell was checked (diff_checked_at), not only the group values. `directional` or `insufficient` |
 | is_live, has_results | Copied from the registry |
 | phase_decision | For phase rows: the decision written for that phase |
 | summary_text | For summary-only rows |

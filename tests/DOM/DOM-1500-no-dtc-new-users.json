@@ -117,9 +117,12 @@
     "population_size": "not captured",
     "relative_diff_pct": "see summary_text",
     "abs_diff_pp": "see summary_text",
-    "p_value": "not captured"
+    "p_value": "not captured",
+    "diff_method": "no diff column/cell in the source for this row"
    },
-   "record_hash": "d004f85c2c0cfeeb"
+   "record_hash": "8624962d29b2f277",
+   "diff_method": null,
+   "diff_checked_at": null
   }
  ],
  "explanation_he": {
@@ -230,9 +233,9 @@
       ]
      }
     ],
-    "fingerprint": "f8674e33c1af4ced",
+    "fingerprint": "be45962f0803a3f3",
     "inputs": {
-     "results:": "2b2f59ac1d53f43b",
+     "results:": "beb48249cf115b86",
      "expl:what_happened": "bf37ea8802c264c7",
      "expl:business_meaning": "8cf45702b78fb415",
      "expl:decided": "abfef71df42d17aa",
@@ -376,6 +379,6 @@
  "glossary_concepts": [
   "DTC"
  ],
- "content_fingerprint": "2941692e5b6c4daf6358327a55607ada24024d5596f75e11aa2d1f7d727aac4c",
- "last_changed_at": "2026-11-01T12:35:23+02:00"
+ "content_fingerprint": "55eeed6baea0942971c26e89779ff8a985409706bd031144640c3d716d94525e",
+ "last_changed_at": "2026-11-02T16:29:03+02:00"
 }
