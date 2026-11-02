@@ -1,9 +1,9 @@
 {
  "contract_version": "1.5.0",
- "run_id": "20261102T182708",
+ "run_id": "20261102T184218",
  "run_type": "manual",
  "scheduled_for": null,
- "generated_at": "2026-11-02T18:27:08+02:00",
+ "generated_at": "2026-11-02T18:42:18+02:00",
  "timezone": "Asia/Jerusalem",
  "producer": "Grok Bot (box /workspace/pilot/provider)",
  "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
@@ -76,8 +76,8 @@
    "file": "latest/game_metrics.json",
    "schema": "schemas/game_metrics.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-02T17:13:58+02:00",
    "stale": false,
    "sha256": "8c6495185dfc5ffb4c6b87a778cd7566b69dc6a0a7617e4348f2146dcd038eaf",
@@ -91,8 +91,8 @@
    "file": "latest/test_registry.json",
    "schema": "schemas/test_registry.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-02",
    "stale": false,
    "sha256": "bb9f74bce98b85fbb1d1deb397107cc3f5bd068bd0fd213bd6140c4d324e89be",
@@ -106,8 +106,8 @@
    "file": "latest/test_results.json",
    "schema": "schemas/test_results.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)",
    "stale": false,
    "sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24",
@@ -121,8 +121,8 @@
    "file": "latest/explanations_learnings_decisions.json",
    "schema": "schemas/explanations_learnings_decisions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-02",
    "stale": false,
    "sha256": "64da1e9c1c285bdf2a9883f501755f1b2506932fd0cca4cf2853a1a860a69312",
@@ -136,8 +136,8 @@
    "file": "latest/whatsapp_items.json",
    "schema": "schemas/whatsapp_items.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-02",
    "stale": false,
    "sha256": "da4d7cc5f928acee3a74917c14be06f881dadf05d91ac08fb588ebfbfb7f794a",
@@ -151,8 +151,8 @@
    "file": "latest/metric_definitions.json",
    "schema": "schemas/metric_definitions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-01T12:05:00+02:00",
    "stale": false,
    "sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3",
@@ -166,8 +166,8 @@
    "file": "latest/game_metrics_splits.json",
    "schema": "schemas/game_metrics_splits.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-02T17:13:58+02:00",
    "stale": false,
    "sha256": "c601e87884b4c9a2105c06e8c62ad3926bfbd7d20d0205d59e46f0b869b267fa",
@@ -181,8 +181,8 @@
    "file": "latest/game_ftd_retention.json",
    "schema": "schemas/game_ftd_retention.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "2026-11-02T17:13:58+02:00",
    "stale": false,
    "sha256": "7e4fd9160a05165497f1694b4a39767622a9d44df016b14aff2f3bdce17e473b",
@@ -196,8 +196,8 @@
    "file": "latest/glossary.json",
    "schema": "schemas/glossary.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "local sources as of 2026-11-02",
    "stale": false,
    "sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2",
@@ -211,12 +211,12 @@
    "file": "latest/open_issues.json",
    "schema": "schemas/open_issues.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "curated from saved sources as of 2026-11-02",
    "stale": false,
-   "sha256": "82775558fde77ed170349ee35cedf17d193aa4e1b35bd22c909d71d9ccc9c5ee",
-   "bytes": 26733,
+   "sha256": "5124792649c340c7f59a703ceb95c85325a545100e80e726f3e5997a20e9f150",
+   "bytes": 28003,
    "error": null,
    "is_final": null,
    "history_file": "history/2026-11-02/open_issues.json"
@@ -225,8 +225,8 @@
    "file": "latest/test_structured.json",
    "schema": "schemas/test_structured.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02",
    "stale": false,
    "sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925",
@@ -240,15 +240,30 @@
    "file": "latest/test_interim.json",
    "schema": "schemas/test_interim.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-02T18:27:08+02:00",
-   "last_attempt_at": "2026-11-02T18:27:08+02:00",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
    "source_snapshot": "Mixpanel Run-Query (read-only) 2026-11-02T18:25:17+02:00",
    "stale": false,
    "sha256": "2a7bfd901b34117cdd01f3b95a92a840277bb1bd4992d6903525c718fb198a9e",
    "bytes": 1062767,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-02/test_interim.json"
+   "history_file": "history/2026-11-02/test_interim.json",
+   "content_unchanged_since": "2026-11-02T18:27:08+02:00"
+  },
+  "game_events": {
+   "file": "latest/game_events.json",
+   "schema": "schemas/game_events.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-02T18:42:18+02:00",
+   "last_attempt_at": "2026-11-02T18:42:18+02:00",
+   "source_snapshot": "Monday boards 9494658232/18416650776/18435634714 snapshot 2026-11-02; data/whatsapp_items.json; BigQuery dim_album_season (Dice), int_album_season (Disney) 2026-11-02",
+   "stale": false,
+   "sha256": "ba37d8ddd3aaf16c05e985c88d66b4dc2b76210575c542fc70ffca9e7a68304d",
+   "bytes": 1273078,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-02/game_events.json"
   }
  },
  "counts": {
@@ -263,16 +278,17 @@
   "game_metrics_splits": 114,
   "game_ftd_retention_ftd_daily": 114,
   "game_ftd_retention_cohorts": 111,
-  "open_issues": 23,
+  "open_issues": 24,
   "test_structured": 681,
   "glossary_concepts": 58,
-  "test_interim": 594
+  "test_interim": 594,
+  "game_events": 1325
  },
  "layer": {
   "index": {
    "file": "index/tests_index.json",
    "schema": "schemas/tests_index.schema.json",
-   "sha256": "086f534ee61ff64937b4a9b4be49f40ba0cff8eba535626c02edb6f358947157",
+   "sha256": "f02005290b21e257e83916d89cfce5304f04419a647ee79b5023a7068ecf3650",
    "bytes": 642248,
    "tests": 681,
    "aggregate_fingerprint": "6902589cdc222ec453a382013f5868667cc31ef4399737d919a15951ec404907"
@@ -285,8 +301,8 @@
   "log": "PROCESSING_LOG.md"
  },
  "change_summary": {
-  "run_at": "2026-11-02T18:27:08+02:00",
-  "baseline": "2026-11-02T18:07:49+02:00",
+  "run_at": "2026-11-02T18:42:18+02:00",
+  "baseline": "2026-11-02T18:41:40+02:00",
   "tests_added": 0,
   "tests_updated": 0,
   "tests_unchanged": 681,
@@ -327,11 +343,11 @@
    }
   },
   "publish": {
-   "run_at": "2026-11-02T18:27:08+02:00",
-   "baseline_published_at": "2026-11-02T18:07:49+02:00",
+   "run_at": "2026-11-02T18:42:18+02:00",
+   "baseline_published_at": "2026-11-02T18:27:08+02:00",
    "datasets_changed": [
     "open_issues",
-    "test_interim"
+    "game_events"
    ],
    "datasets_unchanged": [
     "game_metrics",
@@ -343,7 +359,8 @@
     "game_metrics_splits",
     "game_ftd_retention",
     "glossary",
-    "test_structured"
+    "test_structured",
+    "test_interim"
    ],
    "datasets_failed_kept_last_good": [],
    "tests_added": 0,
@@ -377,7 +394,7 @@
  "publish": {
   "published": [
    "open_issues",
-   "test_interim"
+   "game_events"
   ],
   "unchanged_kept": [
    "game_metrics",
@@ -389,7 +406,8 @@
    "game_metrics_splits",
    "game_ftd_retention",
    "glossary",
-   "test_structured"
+   "test_structured",
+   "test_interim"
   ],
   "failed": [],
   "history_dir": "history/2026-11-02/",

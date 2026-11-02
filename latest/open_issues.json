@@ -1,15 +1,15 @@
 {
  "dataset": "open_issues",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T18:27:08+02:00",
+ "generated_at": "2026-11-02T18:42:18+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "status=awaiting_decision: show display_note_he/en next to every affected dataset field / test; do not hide the data",
   "OI-RULE-21D: the 21-day rule is NOT used to end or hide tests; at most a needs_review flag"
  ],
  "counts": {
-  "items": 23,
-  "awaiting_decision": 23
+  "items": 24,
+  "awaiting_decision": 24
  },
  "items": [
   {
@@ -776,6 +776,33 @@
    "since": "2026-11-02",
    "since_basis": "interim pull 2026-11-02",
    "decision_doc_ref": "docs/TEST_INTERIM_RUNBOOK.md"
+  },
+  {
+   "id": "OI-EVENTS-CALENDAR",
+   "topic": "access",
+   "games": [
+    "Dice Dreams",
+    "Domino Dreams",
+    "Disney Solitaire"
+   ],
+   "affected": {
+    "datasets": [
+     "game_events"
+    ],
+    "fields": [
+     "start_date",
+     "end_date",
+     "category"
+    ],
+    "def_ids": [],
+    "test_ids": []
+   },
+   "status": "awaiting_decision",
+   "display_note_he": "לוח האירועים חלקי: אין לוח מבצעים/הצעות לכל השחקנים, אין יומן שינויי מחיר ואין יומן השקות/דיפלוי לאף משחק, ואין לוח אלבומים ל-Domino. לוחות האלבומים של Dice ו-Disney מגיעים מטבלאות dbt וממתינים לאישורך כמקור רשמי. תאריכים מ-WhatsApp מסומנים whatsapp_unverified.",
+   "display_note_en": "The events calendar is partial: no all-player sales/offers calendar, no price-change log and no release/deploy log for any game, and no album calendar for Domino. Dice and Disney album windows come from dbt tables and need approval as the official source. WhatsApp dates are whatsapp_unverified.",
+   "since": "2026-11-02",
+   "since_basis": "game_events first build 2026-11-02",
+   "decision_doc_ref": "docs/GAME_EVENTS_RUNBOOK.md"
   }
  ]
 }

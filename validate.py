@@ -235,6 +235,30 @@ if ti:
     for g in ti['games_pending']:
         if g['status'] != 'pending': err('test_interim', f"test_interim.games_pending {g['game']}: status must be pending")
     if ti['counts']['records'] != len(ti['records']): err('test_interim', 'test_interim: counts.records mismatch')
+# ---- v1.5 game_events: no guessed dates (nulls need reasons), WhatsApp => whatsapp_unverified, refs resolve, counts match ----
+ge = docs.get('game_events')
+if ge:
+    for k, d in ge['field_definitions'].items():
+        if d['definition_status'] == 'needs_approval' and not d.get('question'): err('game_events', f'game_events.field_definitions.{k}: needs_approval without question')
+    _seen = set()
+    for x in ge['records']:
+        if x['event_id'] in _seen: err('game_events', f"game_events: duplicate {x['event_id']}")
+        _seen.add(x['event_id'])
+        for k in ('start_date', 'end_date', 'date_basis', 'name'):
+            if x[k] is None and not x['null_reasons'].get(k): err('game_events', f"{x['event_id']}: {k} null without null_reasons")
+        if x['start_date'] and x['end_date'] and x['end_date'] < x['start_date']: err('game_events', f"{x['event_id']}: end_date before start_date")
+        if x['source']['system'] == 'whatsapp' and x['verification'] != 'whatsapp_unverified': err('game_events', f"{x['event_id']}: WhatsApp event must be whatsapp_unverified")
+        if x['source']['system'] == 'monday' and not (x['source']['url'] or '').startswith('https://superplay.monday.com/boards/'): err('game_events', f"{x['event_id']}: board event without Monday item url")
+        if x['source']['system'] == 'whatsapp' and not x['source']['file']: err('game_events', f"{x['event_id']}: WhatsApp event without source file")
+        if x['source']['system'] == 'bigquery' and not x['source']['table']: err('game_events', f"{x['event_id']}: BigQuery event without source table")
+        if not x['definition_refs']: err('game_events', f"{x['event_id']}: no definition_refs")
+        for k, ref in x['definition_refs'].items():
+            if ref not in ge['field_definitions']: err('game_events', f"{x['event_id']}: definition_refs.{k} -> missing {ref}")
+    for c in ge['coverage']:
+        if c['status'] != 'ok' and not c.get('null_reason'): err('game_events', f"game_events.coverage {c['game']}/{c['category']}: status {c['status']} without null_reason")
+        n = sum(1 for x in ge['records'] if x['game'] == c['game'] and x['category'] == c['category'])
+        if n != c['events']: err('game_events', f"game_events.coverage {c['game']}/{c['category']}: events {c['events']} != {n}")
+    if ge['counts']['records'] != len(ge['records']): err('game_events', 'game_events: counts.records mismatch')
 # ---- v1.5 test_structured: each field has sources; null value => null_reason + question (stop_reason on live tests: null_reason only) ----
 ts = docs.get('test_structured')
 if ts:

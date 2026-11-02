@@ -257,3 +257,22 @@ Per live test × day × group raw totals from the test's Mixpanel dashboard. Run
 - `games_pending[]`: games not pulled yet (status `pending`, not a permanent null); empty since all three games are covered.
 - `unassigned_by_test`: "$overall" and "undefined" (no group property) totals per test and day, kept out of records.
 - Never stores differences or uplift. Rows with `scope_matches_dashboard=false` are not the test audience (cohort filter not applied).
+
+## game_events (v1.5 additive, `data/game_events.json`)
+Events calendar per game (Dice, Domino, Disney). Runbook: `docs/GAME_EVENTS_RUNBOOK.md`.
+- `records[]`:
+  - Identity and type: `event_id`, `game`, `category` (album | sale_offer | price_change | feature_launch | ab_test), `event_kind` (ab_test_window | deploy | launch_message | deploy_message | album_season), `name`.
+  - Dates: `start_date`, `end_date`, `date_basis`, `date_timezone` (source timezone, not converted).
+  - Verification and source: `verification` (board | whatsapp_unverified | bigquery_dbt), `source` {system, board_id, board_title, item_id, url, file, table}.
+  - Definitions and nulls: `definition_refs`, `null_reasons`.
+  - Scope: `scope` (test_population | all_players | all_players_assumed_needs_approval | unknown).
+  - Board extras: `board_type`, `board_status`, `board_decision`.
+  - WhatsApp extras: `announced_on`, `wa_decision`, `related_board_item`.
+  - BigQuery extras: `album_id`, `start_ts`, `end_ts` (UTC), `source_model_note`.
+- `field_definitions.<id>`: definition, source, definition_status (documented | needs_approval), question.
+- `coverage[]`: one entry per game × category, with:
+  - `status`: ok | ok_pending_approval | partial | null
+  - `events`, `events_with_start_date`, `by_verification`
+  - `calendar_source`, `eden_to_provide[]`, `null_reason`
+- `missing_sources[]`: categories without an authoritative source, and what Eden would need to provide.
+- Board windows are test windows, not all-player live-ops. WhatsApp dates are message dates, not confirmed launch times.

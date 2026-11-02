@@ -1,0 +1,280 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://contract.local/game_events.schema.json",
+ "title": "game_events",
+ "type": "object",
+ "required": [
+  "dataset",
+  "contract_version",
+  "generated_at",
+  "timezone",
+  "rules",
+  "field_definitions",
+  "categories",
+  "coverage",
+  "missing_sources",
+  "source_snapshots",
+  "counts",
+  "records"
+ ],
+ "properties": {
+  "dataset": {
+   "const": "game_events"
+  },
+  "contract_version": {
+   "type": "string"
+  },
+  "generated_at": {
+   "type": "string"
+  },
+  "timezone": {
+   "type": "string"
+  },
+  "rules": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "field_definitions": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "definition",
+     "source",
+     "definition_status",
+     "question"
+    ],
+    "properties": {
+     "definition": {
+      "type": "string"
+     },
+     "source": {
+      "type": "string"
+     },
+     "definition_status": {
+      "enum": [
+       "documented",
+       "needs_approval",
+       "approved"
+      ]
+     },
+     "question": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "categories": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "album",
+     "sale_offer",
+     "price_change",
+     "feature_launch",
+     "ab_test"
+    ]
+   }
+  },
+  "coverage": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "game",
+     "category",
+     "status",
+     "events",
+     "events_with_start_date",
+     "by_verification",
+     "calendar_source",
+     "eden_to_provide",
+     "null_reason"
+    ],
+    "properties": {
+     "status": {
+      "enum": [
+       "ok",
+       "ok_pending_approval",
+       "partial",
+       "null"
+      ]
+     },
+     "events": {
+      "type": "integer"
+     },
+     "events_with_start_date": {
+      "type": "integer"
+     },
+     "null_reason": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "calendar_source": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "missing_sources": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "category",
+     "games",
+     "what_is_missing",
+     "eden_to_provide"
+    ]
+   }
+  },
+  "source_snapshots": {
+   "type": "object"
+  },
+  "counts": {
+   "type": "object",
+   "required": [
+    "records",
+    "by_game",
+    "by_source"
+   ]
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "event_id",
+     "game",
+     "category",
+     "event_kind",
+     "name",
+     "start_date",
+     "end_date",
+     "date_basis",
+     "date_timezone",
+     "verification",
+     "source",
+     "definition_refs",
+     "null_reasons",
+     "scope"
+    ],
+    "properties": {
+     "event_id": {
+      "type": "string"
+     },
+     "game": {
+      "enum": [
+       "Dice Dreams",
+       "Domino Dreams",
+       "Disney Solitaire"
+      ]
+     },
+     "category": {
+      "enum": [
+       "album",
+       "sale_offer",
+       "price_change",
+       "feature_launch",
+       "ab_test"
+      ]
+     },
+     "event_kind": {
+      "enum": [
+       "ab_test_window",
+       "deploy",
+       "launch_message",
+       "deploy_message",
+       "album_season"
+      ]
+     },
+     "name": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "start_date": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "end_date": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+     },
+     "date_basis": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "date_timezone": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "verification": {
+      "enum": [
+       "board",
+       "whatsapp_unverified",
+       "bigquery_dbt"
+      ]
+     },
+     "source": {
+      "type": "object",
+      "required": [
+       "system",
+       "board_id",
+       "board_title",
+       "item_id",
+       "url",
+       "file",
+       "table"
+      ],
+      "properties": {
+       "system": {
+        "enum": [
+         "monday",
+         "whatsapp",
+         "bigquery"
+        ]
+       }
+      }
+     },
+     "definition_refs": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "null_reasons": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string"
+      }
+     },
+     "scope": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}
