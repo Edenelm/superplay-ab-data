@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -410,6 +410,6 @@
  "glossary_concepts": [
   "Dream Pass"
  ],
- "content_fingerprint": "7ced28afa9157616dd45c48d537ffdec2d25e97ab9df3f66234d64d4832de6ad",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "a90f1a98dc457598ece6ddecdffe9ae4115a0ef579ce4f251fb6666387d3bd75",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

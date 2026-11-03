@@ -14,15 +14,15 @@
   "board_test_number": null,
   "name": "Decrease Win Rate For Bonus Mode",
   "lifecycle": "backlog",
-  "board_status_raw": "Backlog",
-  "board_group": "Backlog",
+  "board_status_raw": "On Hold",
+  "board_group": "Working On",
   "backlog_substatus": {
    "Next Step": null
   },
   "owners": {
    "Idea Owner": "Yakov Yakov"
   },
-  "priority": null,
+  "priority": 4,
   "planned": null,
   "due": null,
   "added_date": "2026-10-20",
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "92a88a5c42b8c750a26cc5ed755ead85f175285a292f4d030c10548c996b67b6",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "3f06093e98d4203434950ec88a69ce16d67316904c9e2dadb5a99178a4f10bfb",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

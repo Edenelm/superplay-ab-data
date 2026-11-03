@@ -44,16 +44,16 @@
      "url": "https://mixpanel.com/project/2036368/app/boards#id=11296920"
     },
     {
-     "id": 11302921,
-     "title": "1104 - CZ Fix",
-     "modified": "2026-06-23",
-     "url": "https://mixpanel.com/project/2036368/app/boards#id=11302921"
-    },
-    {
      "id": 11221998,
      "title": "1104 - CZ FIX (10% Test vs. 70% Control) - Test Phase 1",
      "modified": "2026-06-23",
      "url": "https://mixpanel.com/project/2036368/app/boards#id=11221998"
+    },
+    {
+     "id": 11302921,
+     "title": "1104 - CZ Fix",
+     "modified": "2026-06-23",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11302921"
     },
     {
      "id": 11302765,
@@ -101,7 +101,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -365,8 +365,8 @@
     "url": null,
     "value": [
      "Duplicate of 1104 - CZ FIX (30% Test) - Old/New Users",
-     "1104 - CZ Fix",
      "1104 - CZ FIX (10% Test vs. 70% Control) - Test Phase 1",
+     "1104 - CZ Fix",
      "1104 - CZ FIX (20% Test vs. 70% Control) - Test Phase 2"
     ]
    },
@@ -565,6 +565,6 @@
   "CZ",
   "Phase"
  ],
- "content_fingerprint": "b858bb4dfbb3d2eed886ddadfac15f3b4d14306dba73080e0a418d94f915fa74",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "55a0f467701445e60fbd6445a7a0bc731824a0d1152b141bd42f70a3c06d351b",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

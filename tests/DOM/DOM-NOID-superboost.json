@@ -36,7 +36,7 @@
   "audience": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": "2026-11-02",
+  "start_date": "2026-11-03",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
@@ -46,11 +46,11 @@
   "conflicts": [
    {
     "type": "board",
-    "msg": "group 'Working On' but start date 2026-11-02 has passed"
+    "msg": "group 'Working On' but start date 2026-11-03 has passed"
    },
    {
     "type": "board_live_group",
-    "msg": "Status 'In Planning' but no end date (start 2026-11-02)"
+    "msg": "Status 'In Planning' but no end date (start 2026-11-03)"
    }
   ],
   "source_links": [
@@ -71,7 +71,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -135,21 +135,21 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
       ]
      }
     ],
-    "fingerprint": "a0b8997b90c95b3c",
+    "fingerprint": "a0c8d9aae8e815fc",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "bb1de3879fc3904d",
+     "registry:start_date": "d658e2a3b5597fab",
      "registry:phases": "4f53cda18c2baa0c",
      "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
@@ -176,17 +176,17 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-02 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-02) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-03 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-03) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
      {
-      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-02 has passed",
+      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-03 has passed",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
       ]
      },
      {
-      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-02)",
+      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-03)",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
@@ -200,11 +200,11 @@
       ]
      }
     ],
-    "fingerprint": "17be321573c9dafd",
+    "fingerprint": "87297eb99479b102",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "727abc23c96336b7",
+     "registry:conflicts": "7b8ae48768aaf777",
      "expl:limitations": "2f860eb2dfd6f452",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -226,8 +226,8 @@
   "why": null,
   "phases": [],
   "conflicts": [
-   "group 'Working On' but start date 2026-11-02 has passed",
-   "Status 'In Planning' but no end date (start 2026-11-02)"
+   "group 'Working On' but start date 2026-11-03 has passed",
+   "Status 'In Planning' but no end date (start 2026-11-03)"
   ],
   "source_refs": [
    {
@@ -364,6 +364,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "e8831ce3f4d8235d984eba4b79e070527adb34b52b2af988a4298284300c863a",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "d17e7673e3551993ed02e75ae59b750799ed7fa778bf1315e7e93c320dd1198f",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "DTC"
  ],
- "content_fingerprint": "ec0737dbfe287f816b9389b463c4f16a1322b3bb3ce93ca76fc1ce6d188909b8",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "4b130b13a09e215c4a213baf2bf76495dc777023641a75054196b33887c712fa",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

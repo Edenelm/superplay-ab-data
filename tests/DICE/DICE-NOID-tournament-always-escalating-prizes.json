@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Tournament"
  ],
- "content_fingerprint": "dbdc315546255ad7637e36eb2b97d31666636e8cf6c6c56660d849d54df01a9d",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "7509bc5894c77982dffa68f3136a5b35c33bcce2cddd8e733b6dbb2ef14c3171",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

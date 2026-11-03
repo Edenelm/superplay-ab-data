@@ -23,7 +23,7 @@
    "Analyst": "Brody Tal"
   },
   "priority": 5,
-  "planned": "2026-11-10",
+  "planned": null,
   "due": null,
   "added_date": "2026-10-14",
   "type": "FTUE",
@@ -36,7 +36,7 @@
   "audience": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": "2026-11-10",
+  "start_date": null,
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -126,21 +126,21 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-10, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-10, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13287169651"
       ]
      }
     ],
-    "fingerprint": "d785d56af5f6505b",
+    "fingerprint": "0e5b16bb0aa9152d",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "f67c5ec50bf3ce9b",
+     "registry:start_date": "74234e98afe7498f",
      "registry:phases": "4f53cda18c2baa0c",
      "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
@@ -219,6 +219,6 @@
   "FTUE",
   "Weekly Goals"
  ],
- "content_fingerprint": "f1758017d92781c80a7ba3ba05e0f13f82ba689732f9a047eb1141f36a082621",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "6a172523004bb379ced4ffcce06e4fe35fd4653a05162a20a6c44cb58ac41f86",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

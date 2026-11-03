@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -363,6 +363,6 @@
  "glossary_concepts": [
   "Tournament"
  ],
- "content_fingerprint": "7a98e72e91cdfadf2a03c93b5c8c123820e700a51597759fb46bad3d3943a4ee",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "8befc3ccba42a9110c0536e2ba4b0592a8edc4d8697d6da18b9de3b157830102",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

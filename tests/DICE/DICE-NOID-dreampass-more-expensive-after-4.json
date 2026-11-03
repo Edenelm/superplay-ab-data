@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Dream Pass"
  ],
- "content_fingerprint": "b20af7fb31527b26bb0dfd0ebb5fd6c38f03aad7b98ccb571a634249c899c674",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "afb8df653d58e8681d090d95787179c5805f13222a3660ce4ebe9e9b88c77bd4",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

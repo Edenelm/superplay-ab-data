@@ -39,7 +39,7 @@
     {
      "id": 11542811,
      "title": "1113 - X2 Ticks Per Hour K199 and under",
-     "modified": "2026-10-14",
+     "modified": "2026-11-02",
      "url": "https://mixpanel.com/project/2036368/app/boards#id=11542811"
     }
    ],
@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -348,20 +348,30 @@
     "null_reason": null
    },
    "recommended": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no explicit recommendation found in captured sources"
+    "text_he": "המלצה שנכתבה ב-WhatsApp: deploy (recommended)",
+    "tag": "source_fact",
+    "source_refs": [
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
+    ],
+    "null_reason": null
    },
    "decided": {
-    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: deploy (recommended)",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
      "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
     ],
-    "null_reason": null
+    "null_reason": null,
+    "conflict": [
+     "WhatsApp 2026-11-02 12:35 (Aviram): 'deploy (recommended)' · board: status Running · decision Implemented · group Live"
+    ]
    }
   },
   "question_labels_he": {
@@ -385,17 +395,26 @@
    "test_id": "DICE-1113-x2-ticks-per-hour-k199",
    "game": "Dice Dreams",
    "name": "1113 - X2 Ticks Per Hour K199 and under",
-   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_latest": "deploy (recommended)",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
-   "recommended": [],
-   "board_decision": null,
+   "recommended": [
+    "deploy (recommended)"
+   ],
+   "board_decision": "Implemented",
    "board_status": "Running",
    "numbers_quoted": [],
    "first_seen": "2026-09-23",
-   "last_seen": "2026-09-23",
-   "conflicts": [],
+   "last_seen": "2026-11-02",
+   "conflicts": [
+    {
+     "type": "contradicts",
+     "msg": "WhatsApp 2026-11-02 12:35 (Aviram): 'deploy (recommended)' · board: status Running · decision Implemented · group Live"
+    }
+   ],
    "whatsapp_item_ids": [
-    "wa185"
+    "wa185",
+    "wa334",
+    "wa335"
    ],
    "sources": [
     {
@@ -405,6 +424,22 @@
      "time": "21:19",
      "sender": "Aviram Superplay",
      "item_id": "wa185"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "12:35",
+     "sender": "Aviram",
+     "item_id": "wa334"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "12:40",
+     "sender": "Guy Perez",
+     "item_id": "wa335"
     },
     {
      "type": "monday_item",
@@ -425,6 +460,26 @@
    "text": "Launches",
    "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
    "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa334",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": "deploy (recommended)",
+   "nums": [],
+   "text": "עלייה צנועה במשלמים, ריטנשן, כמות רולים ששיחקו, כמות סשנים וירידה בזמן בינהם. כנ\"ל לגבי שחקן חדש... ממליץ להטמיע. דשבורד (Mixpanel link)",
+   "file": "2026-11-03.md",
+   "match": "id+name · 100% name tokens"
+  },
+  {
+   "id": "wa335",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": null,
+   "nums": [],
+   "text": "בעד להטמיע / גם נראה לא רע בכלל ליוזר חדש, עוזר בריטנשן",
+   "file": "2026-11-03.md",
+   "match": "id+name · 100% name tokens"
   }
  ],
  "monday_updates_fetched": {
@@ -453,6 +508,6 @@
   "K (Kingdom)",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "ff26efa33c14b94fb742aea74c9e18faafa91ffaed8e6ddf00651d37a8634a93",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "3e4bd17d32f89e9b922c224f127306c501c3ed864d0f3847703182482602c673",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

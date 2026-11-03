@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Piggy"
  ],
- "content_fingerprint": "a7acebfc64705386b6e50342289784e3c2e9a1ab0929b57032c2a4462dccf337",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "4d0854deec4d67a6a28e67918b0123df638e9c227039832ccd4eee56ca988585",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

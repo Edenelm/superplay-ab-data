@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "Trail",
   "Tournament"
  ],
- "content_fingerprint": "f103e38d011c8c1858a022d919826c84e24b12c81c2e2a7f5f4ac823f96dee02",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "f61dc8419e372425809ffa3f9fe9cdaa2ba5a8780bd5a022e13966a44f541661",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

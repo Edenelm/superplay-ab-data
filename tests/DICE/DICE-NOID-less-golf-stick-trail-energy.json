@@ -64,7 +64,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -221,6 +221,6 @@
   "CZ",
   "Trail"
  ],
- "content_fingerprint": "6c72963e385b1cef36ac5c8e5a69080b8d5b360f444df4e7201101cfe341ebda",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "71b2f765d86bcb26bf9e89334460cc34ef60282b7336351c9aef4db363575a77",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

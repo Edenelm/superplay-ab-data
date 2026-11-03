@@ -58,7 +58,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -345,6 +345,6 @@
  "glossary_concepts": [
   "DTC"
  ],
- "content_fingerprint": "91df0eb3b9175ba66b339b8802722f7a880b9da09fb9beefcb2cc5749f80156b",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "2718ef09d21c5ebb7460cd722d57079bcf8f4e1bef3cf7ccfa0c4cc9a0ca1edb",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

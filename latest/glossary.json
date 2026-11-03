@@ -1,7 +1,7 @@
 {
  "dataset": "glossary",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T16:29:03+02:00",
+ "generated_at": "2026-11-03T08:56:41+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "canonical_name = the org term as written in sources; no invented translations",
@@ -234,7 +234,7 @@
    "kind": "population",
    "aliases": [],
    "source_spellings": {
-    "FTUE": 14
+    "FTUE": 16
    },
    "per_game": {
     "DICE": {
@@ -248,12 +248,12 @@
     },
     "DOM": {
      "used": true,
-     "tests_with_term": 8,
+     "tests_with_term": 10,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "1611 - Move quest from level 32 to 200 (FTUE)",
       "1621 8 Box from 2$ to 3$ (FTUE)",
-      "Weekly goals onboarding (FTUE)"
+      "Valut vs. coins charge (FTUE)"
      ]
     },
     "DIS": {
@@ -290,8 +290,8 @@
     "test:DOM-1621-1621-8-box-from-2",
     "test:DICE-NOID-change-trail-ftue-pt-only",
     "test:DICE-NOID-add-skip-in-protocol-ftue",
-    "test:DOM-NOID-weekly-goals-onboarding-ftue",
-    "test:DOM-NOID-pb-onboarding-ftue"
+    "test:DOM-NOID-valut-vs-coins-charge-ftue",
+    "test:DOM-NOID-new-chapter-offer-ftue"
    ]
   },
   {
@@ -302,13 +302,13 @@
     "payers"
    ],
    "source_spellings": {
-    "PU": 28
+    "PU": 31
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 2,
-     "whatsapp_items_with_term": 22,
+     "whatsapp_items_with_term": 23,
      "example_names": [
       "Free Dream Passs for churners",
       "Album end period - push hard to FU only the PU"
@@ -321,9 +321,9 @@
      "example_names": []
     },
     "DIS": {
-     "used": false,
+     "used": true,
      "tests_with_term": 0,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": []
     }
    },
@@ -427,13 +427,13 @@
    "kind": "metric",
    "aliases": [],
    "source_spellings": {
-    "PAU": 9
+    "PAU": 11
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 0,
-     "whatsapp_items_with_term": 9,
+     "whatsapp_items_with_term": 10,
      "example_names": []
     },
     "DOM": {
@@ -443,9 +443,9 @@
      "example_names": []
     },
     "DIS": {
-     "used": false,
+     "used": true,
      "tests_with_term": 0,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": []
     }
    },
@@ -478,13 +478,13 @@
     "active_users_dau"
    ],
    "source_spellings": {
-    "DAU": 27
+    "DAU": 30
    },
    "per_game": {
     "DICE": {
      "used": true,
      "tests_with_term": 1,
-     "whatsapp_items_with_term": 24,
+     "whatsapp_items_with_term": 25,
      "example_names": [
       "1102 - FTD High Maturity"
      ]
@@ -496,9 +496,9 @@
      "example_names": []
     },
     "DIS": {
-     "used": false,
+     "used": true,
      "tests_with_term": 0,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": []
     }
    },
@@ -646,7 +646,7 @@
    ],
    "source_spellings": {
     "revenue": 55,
-    "Revenue": 25,
+    "Revenue": 27,
     "הכנסות": 4
    },
    "per_game": {
@@ -673,7 +673,7 @@
     "DIS": {
      "used": true,
      "tests_with_term": 1,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": [
       "125 - Make Any Purchase New Seg"
      ]
@@ -864,7 +864,7 @@
    ],
    "source_spellings": {
     "churn": 10,
-    "Churn": 5,
+    "Churn": 7,
     "churners": 2,
     "Churned": 2,
     "churned": 1
@@ -892,10 +892,11 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 1,
-     "whatsapp_items_with_term": 1,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 2,
      "example_names": [
-      "Booster for tomorrow - On Sundays and for Churn users - MTX"
+      "Booster for tomorrow - On Sundays and for Churn users - MTX",
+      "124 - Churn & Welcome Back Kit"
      ]
     }
    },
@@ -1468,20 +1469,20 @@
     "K2": 5,
     "K110+": 4,
     "K199": 3,
+    "K20": 3,
     "K94": 3,
     "K90+": 3,
     "קינגדום": 2,
     "K105": 2,
+    "K120+": 2,
     "K9": 2,
-    "K60+": 1,
-    "K60": 1,
-    "K90": 1
+    "K60+": 1
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 12,
-     "whatsapp_items_with_term": 14,
+     "tests_with_term": 13,
+     "whatsapp_items_with_term": 15,
      "example_names": [
       "1113 - limited stock offer recomp",
       "1106 - Remove AD from Segmentation",
@@ -1527,8 +1528,8 @@
     "test:DICE-1106-remove-ad-from-segmentation",
     "test:DICE-1105-increase-default-max-bet-for",
     "test:DICE-1113-x2-ticks-per-hour-k199",
-    "test:DICE-1109-limited-stock-launch-stock-progression",
-    "test:DICE-NOID-protocol-trail-with-presets-k10"
+    "test:DICE-NOID-trail-less-coins-yeladim-ktanim",
+    "test:DICE-1109-limited-stock-launch-stock-progression"
    ]
   },
   {
@@ -1976,7 +1977,7 @@
      "example_names": [
       "Trail Weekend Recomp",
       "1115 - Trail Double Wheel Better Experience",
-      "Protocol Trail with presets K10-K40 with segs based on kingdom"
+      "1115 - Trail K20 to 59 Less Coins in Chests"
      ]
     },
     "DOM": {
@@ -1984,9 +1985,9 @@
      "tests_with_term": 4,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "Choose Your Trail Test",
-      "1621 Trail Runner V2",
-      "Trail Rivals Duel"
+      "Trail Rivals Duel",
+      "*Trail- 15 tiers",
+      "Choose Your Trail Test"
      ]
     },
     "DIS": {
@@ -2020,10 +2021,10 @@
    "usage_refs": [
     "test:DICE-NOID-trail-weekend-recomp",
     "test:DICE-1115-trail-double-wheel-better-experience",
-    "test:DOM-NOID-choose-your-trail-test",
-    "test:DOM-1621-1621-trail-runner-v2",
+    "test:DICE-NOID-trail-less-coins-yeladim-ktanim",
     "test:DICE-NOID-protocol-trail-with-presets-k10",
-    "test:DICE-NOID-change-trail-ftue-pt-only"
+    "test:DICE-NOID-change-trail-ftue-pt-only",
+    "test:DICE-NOID-trail-vertical-lane-test"
    ]
   },
   {
@@ -2406,9 +2407,9 @@
    "source_spellings": {
     "Rolls": 15,
     "rolls": 12,
-    "roll": 7,
+    "roll": 8,
     "Roll": 7,
-    "רולים": 3,
+    "רולים": 5,
     "Ticks": 2,
     "Tick": 1
    },
@@ -2416,7 +2417,7 @@
     "DICE": {
      "used": true,
      "tests_with_term": 28,
-     "whatsapp_items_with_term": 11,
+     "whatsapp_items_with_term": 13,
      "example_names": [
       "1113 - X2 Ticks Per Hour K199 and under",
       "Trail Weekend Recomp",

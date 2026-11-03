@@ -82,7 +82,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -407,6 +407,6 @@
  "glossary_concepts": [
   "Genie"
  ],
- "content_fingerprint": "03483c8ef34d568cb1f3a7aadf6bacb3d6016ac9ad4da2d9ff5fd02bcc848d84",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "ff2b2c0334cf3a5e05cd14fabf5bcd1913e84016d1f4930fc2b41b437e3bcc86",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

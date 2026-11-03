@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -430,6 +430,6 @@
   "PB",
   "Low balance"
  ],
- "content_fingerprint": "3013a08e104e4411f07a70197abd862f584512c01a575bdfc9cf9c53f0b42c04",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "2b1a8b9e2bd54e04e74f5b0b58932e1f1413d0a46f8dae6cae9c5825e46316a4",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

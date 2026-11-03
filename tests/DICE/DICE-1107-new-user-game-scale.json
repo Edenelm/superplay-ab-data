@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -371,6 +371,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "cb02ab157c9980204bb9b4e177d5cb3c0359e6b36a77a81a5d71e378ea776322",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "c7f7b7313ae79e37e42a67eda700174fa6700e55aed55a947e98b5e53f78271c",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

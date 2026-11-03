@@ -36,23 +36,14 @@
   "audience": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": "2026-11-02",
+  "start_date": null,
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
   "mixpanel": null,
-  "conflicts": [
-   {
-    "type": "board",
-    "msg": "group 'Working On' but start date 2026-11-02 has passed"
-   },
-   {
-    "type": "board_live_group",
-    "msg": "Status 'In Planning' but no end date (start 2026-11-02)"
-   }
-  ],
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
@@ -71,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -135,21 +126,21 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13378612330"
       ]
      }
     ],
-    "fingerprint": "a0b8997b90c95b3c",
+    "fingerprint": "0e5b16bb0aa9152d",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "bb1de3879fc3904d",
+     "registry:start_date": "74234e98afe7498f",
      "registry:phases": "4f53cda18c2baa0c",
      "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
@@ -176,22 +167,8 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-02 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-02) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
-     {
-      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-02 has passed",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18416650776/pulses/13378612330"
-      ]
-     },
-     {
-      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-02)",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18416650776/pulses/13378612330"
-      ]
-     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -200,11 +177,11 @@
       ]
      }
     ],
-    "fingerprint": "07e5d9392d1f3536",
+    "fingerprint": "ba971aca3e191892",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "727abc23c96336b7",
+     "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -225,10 +202,7 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [
-   "group 'Working On' but start date 2026-11-02 has passed",
-   "Status 'In Planning' but no end date (start 2026-11-02)"
-  ],
+  "conflicts": [],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -244,6 +218,6 @@
  "glossary_concepts": [
   "Recompletion"
  ],
- "content_fingerprint": "d360c0863d617045c12c0d5150c7927a3d110cea15634aaf597fab26ebfb869a",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "8923100f5d4aa865b527097bf1fbf97fd1259f08a62a39ae4c2f8bf21d90cb36",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

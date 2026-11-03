@@ -69,7 +69,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -436,6 +436,6 @@
   "TE",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "162930692a491448a3f8793ff32523a105988edaf2490ef3542e000dfae1bdc1",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "6b9fafe82b7d1607252db95b794b35708623558e24de6ee23698ddd709aae202",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "15429bb86b7d466f687fabfe08d701d65473ca2f7c40100fd648e12cf47546be",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "d509852db17d18f2855451b218d8fe2580d11d53b839264c51a4dd3f73d69e98",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

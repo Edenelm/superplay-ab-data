@@ -65,7 +65,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -340,6 +340,6 @@
   "8 Box",
   "DSLP / DFI"
  ],
- "content_fingerprint": "0fe121d58ac8716e8d54806be2292e921895c8748167672260f6db7526418d28",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "8907af5084ac202afdcd0814d77089d7d702cb7f75efcd8d8d3bf1cf6b367a04",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

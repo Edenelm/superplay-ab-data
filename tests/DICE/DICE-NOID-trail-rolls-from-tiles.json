@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "Trail",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "8cf30ae176187572c42e0f4902dc96fcf5f93df00c733defb151d1485ffd058b",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "527cc554be4ae30d252d94927a53623a02749f74e6dd18b102b3b33278ee6c08",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

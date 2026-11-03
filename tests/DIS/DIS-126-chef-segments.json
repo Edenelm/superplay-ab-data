@@ -33,13 +33,19 @@
   "guardrails": null,
   "tags": [],
   "mixpanel": {
-   "state": "matched",
+   "state": "ambiguous",
    "board_link": null,
    "dashboards": [
     {
+     "id": 11625363,
+     "title": "T126 - Chef Segments - Active filter",
+     "modified": "2026-11-02",
+     "url": "https://mixpanel.com/project/3205636/app/boards#id=11625363"
+    },
+    {
      "id": 11595366,
      "title": "T126 - Chef Segments",
-     "modified": "2026-11-01",
+     "modified": "2026-11-02",
      "url": "https://mixpanel.com/project/3205636/app/boards#id=11595366"
     }
    ],
@@ -70,7 +76,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -185,12 +191,12 @@
       ]
      }
     ],
-    "fingerprint": "eda88a5b9b0e0306",
+    "fingerprint": "ab947f3a6a0d1870",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
      "registry:conflicts": "4e0184e6c0ed4d0f",
-     "expl:limitations": "94f51b4d9464e6a9",
+     "expl:limitations": "f9c5ceb2d3e853d4",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -257,7 +263,7 @@
     "null_reason": "no results yet"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: ambiguous",
     "tag": "generated_explanation",
     "source_refs": [
      "https://superplay.monday.com/boards/18435634714/pulses/13435654353"
@@ -298,6 +304,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "9a7b7a2b763d220c25124fe15bd7150aec696e3593353b5417dcd65a506c2f1f",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "540e7348e7084dd31a3557be309b50897b79662c2ecebd2b65c58e2b237c81df",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

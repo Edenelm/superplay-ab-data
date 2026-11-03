@@ -39,7 +39,7 @@
     {
      "id": 11588878,
      "title": "T126 - Challenge level reduction",
-     "modified": "2026-11-01",
+     "modified": "2026-11-02",
      "url": "https://mixpanel.com/project/3205636/app/boards#id=11588878"
     }
    ],
@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -300,6 +300,6 @@
  "glossary_concepts": [
   "PB"
  ],
- "content_fingerprint": "7531fb181115b855e1e11c2fd419bf7d8a22aa43f2219e71dd7ffc65225094c8",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "435c78d8c652ec69786426ce7ab12bf09f5904644c05ed3e25f7765b86ca7aa7",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

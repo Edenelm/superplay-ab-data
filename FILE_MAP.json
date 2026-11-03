@@ -12,47 +12,47 @@
   {
    "path": "manifest.json",
    "kind": "file",
-   "bytes": 15221,
+   "bytes": 18980,
    "contains": "run metadata, per-dataset status/sha256/stale, layer pointers, change_summary",
    "read_when": "always first; compare sha256 / aggregate_fingerprint with what you cached"
   },
   {
    "path": "FILE_MAP.json",
    "kind": "file",
-   "bytes": 15479,
+   "bytes": 16735,
    "contains": "this map (machine-readable)",
    "read_when": "second, to find files"
   },
   {
    "path": "index/tests_index.json",
    "kind": "file",
-   "bytes": 642248,
+   "bytes": 646235,
    "contains": "one entry per test: game, name, tier, status, dates, Hebrew summary, mechanism, coverage, glossary concepts, tags he/en, flags, detail_file, fingerprint",
    "read_when": "third: filter here, then open only the detail files you need",
-   "sha256": "f02005290b21e257e83916d89cfce5304f04419a647ee79b5023a7068ecf3650"
+   "sha256": "19deac23770e9c0a1bb0b403f58ac6aa9685b4bf37e71e6d7e1a7ea07ef26f2c"
   },
   {
    "path": "CHANGES.md",
    "kind": "file",
-   "bytes": 20535,
+   "bytes": 23508,
    "contains": "what changed per run (tests added/updated, sections regenerated, needs attention)",
    "read_when": "when deciding what to re-read",
-   "sha256": "85e2b99272dea0693c74dfdc52221b1e945d1a41a5a8c37891060d54ff6bfe8e"
+   "sha256": "84406c9fe6c209edac01a425fe062e48656bd0d4115d69a828847f6bc5233a01"
   },
   {
    "path": "FILE_MAP.md",
    "kind": "file",
-   "bytes": 8605,
+   "bytes": 9391,
    "contains": "this map (human-readable)",
    "read_when": "optional"
   },
   {
    "path": "PROCESSING_LOG.md",
    "kind": "file",
-   "bytes": 3811,
+   "bytes": 3823,
    "contains": "what was checked against which source version; what is still missing; accesses not retried",
    "read_when": "when a field is missing / unclear",
-   "sha256": "a624f97adda040efe6284d38690c05637fdad006b2e0af5d47d0983e183a2e83"
+   "sha256": "be4dca46872f8a73af2396d01ccc4191e0a52e6aac86322d190cd953d4392ac4"
   },
   {
    "path": "README.md",
@@ -89,10 +89,10 @@
   {
    "path": "docs/GLOSSARY.md",
    "kind": "file",
-   "bytes": 11038,
+   "bytes": 11060,
    "contains": "data dictionary, metric definitions, glossary, HQ access, Claude Code readme, game metrics runbook",
    "read_when": "reference",
-   "sha256": "2bd8d3763e9adacbd1c7a87a4d1a8e1c4e69cbfaaac2c81937c237a49f565020"
+   "sha256": "a65a47436df3b455a6617b6356acfd720445203ca9fabbea916c670212014ae5"
   },
   {
    "path": "docs/HQ_ACCESS.md",
@@ -143,52 +143,60 @@
    "read_when": "audit / diffs over time"
   },
   {
+   "path": "history/2026-11-03",
+   "kind": "dir",
+   "files": 12,
+   "bytes": 13803540,
+   "contains": "copies of datasets + manifest published that day",
+   "read_when": "audit / diffs over time"
+  },
+  {
    "path": "latest/explanations_learnings_decisions.json",
    "kind": "file",
-   "bytes": 687350,
+   "bytes": 701447,
    "contains": "legacy 8-question Hebrew explanations, decisions, cross-studio learnings",
    "read_when": "decisions / cross-studio learnings; per-test copies are in tests/",
-   "sha256": "64da1e9c1c285bdf2a9883f501755f1b2506932fd0cca4cf2853a1a860a69312"
+   "sha256": "ac5a439438082f88939778c5152f44e43e0384494a682c729d7accef723dd01a"
   },
   {
    "path": "latest/game_events.json",
    "kind": "file",
-   "bytes": 1273078,
+   "bytes": 1277586,
    "contains": "events calendar per game (Dice, Domino, Disney): album seasons (BigQuery dbt, Dice+Disney), board A/B test windows typed album/sale_offer/price_change/feature_launch/ab_test, Dice Date Implemented deploys, WhatsApp launch/deploy messages (whatsapp_unverified); coverage per game x category with null_reason, missing_sources (what Eden must provide)",
    "read_when": "event overlays on KPIs; board windows are test-population scope; never treat whatsapp_unverified dates as confirmed",
-   "sha256": "ba37d8ddd3aaf16c05e985c88d66b4dc2b76210575c542fc70ffca9e7a68304d"
+   "sha256": "7e231abe23999cd336afdaabf0f7bd8f1953140cd449e17fc2840843b34f4aee"
   },
   {
    "path": "latest/game_ftd_retention.json",
    "kind": "file",
-   "bytes": 788010,
+   "bytes": 807048,
    "contains": "per game-day FTD with two candidate rates (FTD/DAU, FTD/new users; official null), and D1/D7/D30 retention by install cohort (immature = null)",
    "read_when": "FTD and retention context; the official denominator is pending approval",
-   "sha256": "7e4fd9160a05165497f1694b4a39767622a9d44df016b14aff2f3bdce17e473b"
+   "sha256": "6724cf0c716bd32d1ec87801a36c24ff99430e6f0f310958dd0b55d2af2a78b1"
   },
   {
    "path": "latest/game_metrics.json",
    "kind": "file",
-   "bytes": 740525,
+   "bytes": 759437,
    "contains": "daily game KPIs (BigQuery) with completeness flags; 38+ days of history from 2026-09-25",
    "read_when": "game-level context",
-   "sha256": "8c6495185dfc5ffb4c6b87a778cd7566b69dc6a0a7617e4348f2146dcd038eaf"
+   "sha256": "f17e7d6881e758c544a87c24627f8a88e99234cfb199b4b4978f37649c9f5302"
   },
   {
    "path": "latest/game_metrics_splits.json",
    "kind": "file",
-   "bytes": 839644,
+   "bytes": 860120,
    "contains": "per game-day splits: new vs returning, revenue channels (store IAP, DTC/Stripe, ads separate), iOS vs Android; field_definitions with definition_status; null_reasons",
    "read_when": "game-level context by segment; check field_definitions before using a split",
-   "sha256": "c601e87884b4c9a2105c06e8c62ad3926bfbd7d20d0205d59e46f0b869b267fa"
+   "sha256": "5c71e0dafd042dd43e8161f1910b2adea4fb3c9f8b29ec5a75bbbf9648485ae2"
   },
   {
    "path": "latest/glossary.json",
    "kind": "file",
-   "bytes": 93776,
+   "bytes": 93811,
    "contains": "org glossary: canonical term, aliases, per-game usage, source spellings, definition + refs, status, open question, not_same_as",
    "read_when": "to interpret terms / build tags; check not_same_as before comparing across games",
-   "sha256": "77babb47c3f05ef077eb3131c4f94d853bf81be96b9843d8f9880955005e93a2"
+   "sha256": "7970484410e11b92b1c36876b4be22d65fe1f80bb7f899651237bc076b7284aa"
   },
   {
    "path": "latest/metric_definitions.json",
@@ -209,18 +217,18 @@
   {
    "path": "latest/test_interim.json",
    "kind": "file",
-   "bytes": 1062767,
+   "bytes": 1131184,
    "contains": "interim per test x day x group raw totals (Mixpanel): gross revenue (Dice incl. RV; Disney Purchase Amount), payers, actives; net and group size null with reasons; is_final, scope_matches_dashboard, definition_refs; coverage per Dice, Domino and Disney live test; field_definitions keyed DICE.*/DOM.*/DIS.* (plain keys = deprecated Dice aliases)",
    "read_when": "interim test reads; never compute diffs from scope_matches_dashboard=false rows without reading unapplied_filters",
-   "sha256": "2a7bfd901b34117cdd01f3b95a92a840277bb1bd4992d6903525c718fb198a9e"
+   "sha256": "01ab70687545df18b39f0bd06a8efd29dd5f8c637dfa2ffb00f167712f16e4d8"
   },
   {
    "path": "latest/test_registry.json",
    "kind": "file",
-   "bytes": 1602949,
+   "bytes": 1612616,
    "contains": "full registry (all tests, all fields)",
    "read_when": "full-data analysis; the index + per-test files are derived from it",
-   "sha256": "bb9f74bce98b85fbb1d1deb397107cc3f5bd068bd0fd213bd6140c4d324e89be"
+   "sha256": "4afe6da57db8573cf028339a82c407c7d25274811919759a99a81f769cc2bf00"
   },
   {
    "path": "latest/test_results.json",
@@ -236,15 +244,15 @@
    "bytes": 5669975,
    "contains": "structured test fields per test (change, control, audience, exposure %, lever, primary metric, guardrails, hypothesis, compliance, stop reason), each with value, definition_status, sources, null_reason, question; Stage 1: DOM-1581 only",
    "read_when": "to read what a test changes and for whom; check definition_status and question before using a value",
-   "sha256": "8460f1aeb753d430d05d84bdafcfaa77ead03347db876ebd02a81b2b6979d925"
+   "sha256": "24e9f867b00864662ae8311862e068fbc2c0052251c6625121a422de35c4e0a5"
   },
   {
    "path": "latest/whatsapp_items.json",
    "kind": "file",
-   "bytes": 217233,
+   "bytes": 225101,
    "contains": "WhatsApp extracts with match info",
    "read_when": "source checks; per-test copies are in tests/",
-   "sha256": "da4d7cc5f928acee3a74917c14be06f881dadf05d91ac08fb588ebfbfb7f794a"
+   "sha256": "63289f54eed98b80196b4848d8340d3288c5220f3b92703e7c4212d980cdfee2"
   },
   {
    "path": "schemas/explanations_learnings_decisions.schema.json",
@@ -377,32 +385,32 @@
   {
    "path": "state/processing_state.json",
    "kind": "file",
-   "bytes": 361212,
+   "bytes": 363286,
    "contains": "per-test fingerprints per section, source versions, not-retried accesses",
    "read_when": "by the producer for incremental runs; consumers rarely need it",
-   "sha256": "988415e08188c9bbe5ead521ca661efbd8ea359a84a384810d56c22645fc3638"
+   "sha256": "a484a13924deb13bc06a56f961df86dd2d7daad060e593129aab107a751df3ad"
   },
   {
    "path": "tests/DICE",
    "kind": "dir",
    "files": 292,
-   "bytes": 2675372,
+   "bytes": 2686084,
    "contains": "one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates",
    "read_when": "only for tests selected from the index; skip if fingerprint unchanged"
   },
   {
    "path": "tests/DIS",
    "kind": "dir",
-   "files": 262,
-   "bytes": 2015985,
+   "files": 263,
+   "bytes": 2029405,
    "contains": "one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates",
    "read_when": "only for tests selected from the index; skip if fingerprint unchanged"
   },
   {
    "path": "tests/DOM",
    "kind": "dir",
-   "files": 127,
-   "bytes": 1269347,
+   "files": 130,
+   "bytes": 1290372,
    "contains": "one test: registry record, results rows, 6-section Hebrew explanation (with tags, refs, fingerprints), structured understanding, legacy 8-question explanation, decisions, WhatsApp items, fetched Monday updates",
    "read_when": "only for tests selected from the index; skip if fingerprint unchanged"
   },

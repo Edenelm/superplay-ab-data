@@ -12,7 +12,7 @@
   "game": "Dice Dreams",
   "board_item_id": "13288288779",
   "board_test_number": null,
-  "name": "puzzle and golden merge tipulim",
+  "name": "Puzzle and golden merge tipulim",
   "lifecycle": "completed_board_only",
   "board_status_raw": "Deploy",
   "board_group": "Live",
@@ -58,7 +58,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -84,19 +84,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «puzzle and golden merge tipulim». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «Puzzle and golden merge tipulim». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «puzzle and golden merge tipulim». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «Puzzle and golden merge tipulim». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/13288288779"
       ]
      }
     ],
-    "fingerprint": "4995acf598cee5ff",
+    "fingerprint": "8ebc8f8ec7d2d9b3",
     "inputs": {
-     "registry:name": "8b5d808ac98884cc",
+     "registry:name": "19a9560ee156095b",
      "generator": "he6-v2"
     }
    },
@@ -112,11 +112,11 @@
       ]
      }
     ],
-    "fingerprint": "3c764eb336cac822",
+    "fingerprint": "4214e10220927a55",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "8b5d808ac98884cc",
+     "registry:name": "19a9560ee156095b",
      "generator": "he6-v2"
     }
    },
@@ -301,7 +301,7 @@
    "decision_id": "DEC-wab_13288288779",
    "test_id": "DICE-NOID-puzzle-and-golden-merge-tipulim",
    "game": "Dice Dreams",
-   "name": "puzzle and golden merge tipulim",
+   "name": "Puzzle and golden merge tipulim",
    "whatsapp_decision_latest": "deploy",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
@@ -361,6 +361,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "444f6fcbcc07b94712b5a4868a65b4177f3e1650ff67e6742f2b1640ad91e373",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "36aac871eda7bb0c6851794742798ea773a86b8cdfe76dca918a742b2b26910a",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

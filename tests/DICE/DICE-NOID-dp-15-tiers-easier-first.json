@@ -58,7 +58,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -180,12 +180,12 @@
       ]
      }
     ],
-    "fingerprint": "60aa5d7429686d52",
+    "fingerprint": "bf150a309b000a16",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
      "registry:conflicts": "345e8467a652185b",
-     "expl:limitations": "07b3fe256ac5426c",
+     "expl:limitations": "568f7473a1895f93",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -240,10 +240,15 @@
     "null_reason": "audience empty in source"
    },
    "what_happened": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): Rev עלייה של 1.13%; DAU עלייה של 0.02%; PAU עלייה של 0.63%; PU עלייה של 1.31%; Premium Purchased עלה ב-7.61%; Premium Purchased Last Season העלייה הייתה 6.97%; First time Premium Purchased עלה ב-2.89%; הפייואט של הטסט הייה נמוך ב 0.45%; keys per roll הטסט מקבל 0.93% פחות; V4$ של הדריים פס (רולים בלבד) הטסט מקבל פחות 4.76%",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-10-26.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13205121444"
+    ],
+    "null_reason": null
    },
    "business_meaning": {
     "text_he": null,
@@ -257,22 +262,31 @@
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/13205121444",
      "2026-10-26.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13205121444"
     ],
     "null_reason": null
    },
    "recommended": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no explicit recommendation found in captured sources"
+    "text_he": "המלצה שנכתבה ב-WhatsApp: deploy (recommended)",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-10-26.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13205121444"
+    ],
+    "null_reason": null
    },
    "decided": {
-    "text_he": "החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "החלטה אחרונה ב-WhatsApp: deploy (recommended)",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/13205121444",
      "2026-10-26.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13205121444"
     ],
     "null_reason": null
@@ -299,17 +313,41 @@
    "test_id": "DICE-NOID-dp-15-tiers-easier-first",
    "game": "Dice Dreams",
    "name": "DP 15 Tiers , easier first 6 tiers",
-   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_latest": "deploy (recommended)",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
-   "recommended": [],
+   "recommended": [
+    "deploy (recommended)"
+   ],
    "board_decision": null,
    "board_status": null,
-   "numbers_quoted": [],
+   "numbers_quoted": [
+    "Rev עלייה של 1.13%",
+    "DAU עלייה של 0.02%",
+    "PAU עלייה של 0.63%",
+    "PU עלייה של 1.31%",
+    "Premium Purchased עלה ב-7.61%",
+    "Premium Purchased Last Season העלייה הייתה 6.97%",
+    "First time Premium Purchased עלה ב-2.89%",
+    "הפייואט של הטסט הייה נמוך ב 0.45%",
+    "keys per roll הטסט מקבל 0.93% פחות",
+    "V4$ של הדריים פס (רולים בלבד) הטסט מקבל פחות 4.76%"
+   ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "conflicts": [],
+   "last_seen": "2026-11-02",
+   "conflicts": [
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp 2026-11-02 12:13 (Amir Harush): 'deploy (recommended)' · board: status empty · decision empty · group Live — decision not recorded on the board"
+    },
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result Rev עלייה של 1.13%; DAU עלייה של 0.02%; PAU עלייה של 0.63%; PU עלייה של 1.31%; Premium Purchased עלה ב-7.61%; Premium Purchased Last Season העלייה הייתה 6.97%; First time Premium Purchased עלה ב-2.89%; הפייואט של הטסט הייה נמוך ב 0.45%; keys per roll הטסט מקבל 0.93% פחות; V4$ של הדריים פס (רולים בלבד) הטסט מקבל פחות 4.76% — no result on the board (results/summary columns empty) and no results tab checked"
+    }
+   ],
    "whatsapp_item_ids": [
-    "wa288"
+    "wa288",
+    "wa332",
+    "wa333"
    ],
    "sources": [
     {
@@ -319,6 +357,22 @@
      "time": "16:06",
      "sender": "Amir Harush",
      "item_id": "wa288"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "12:13",
+     "sender": "Amir Harush",
+     "item_id": "wa332"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "12:16",
+     "sender": "Guy Perez",
+     "item_id": "wa333"
     },
     {
      "type": "monday_item",
@@ -339,12 +393,43 @@
    "text": "15 tiers instead of 12",
    "file": "2026-10-26.md",
    "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa332",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": "deploy (recommended)",
+   "nums": [
+    "Rev עלייה של 1.13%",
+    "DAU עלייה של 0.02%",
+    "PAU עלייה של 0.63%",
+    "PU עלייה של 1.31%",
+    "Premium Purchased עלה ב-7.61%",
+    "Premium Purchased Last Season העלייה הייתה 6.97%",
+    "First time Premium Purchased עלה ב-2.89%",
+    "הפייואט של הטסט הייה נמוך ב 0.45%",
+    "keys per roll הטסט מקבל 0.93% פחות",
+    "V4$ של הדריים פס (רולים בלבד) הטסט מקבל פחות 4.76%"
+   ],
+   "text": "[edited; test got 15 tiers instead of 12, no difficulty/reward change; 2 full seasons] Rev עלייה של 1.13%, DAU עלייה של 0.02%, PAU עלייה של 0.63%, PU עלייה של 1.31%. Premium Purchased עלה ב-7.61%. Premium Purchased Last Season העלייה הייתה 6.97%. First time Premium Purchased עלה ב-2.89%, הפייואט של הטסט הייה נמוך ב 0.45%, keys per roll הטסט מקבל 0.93% פחות, V4$ של הדריים פס (רולים בלבד) הטסט מקבל פחות 4.76%. אני ממליץ להטמיע את הטסט",
+   "file": "2026-11-03.md",
+   "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa333",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": null,
+   "nums": [],
+   "text": "טסט מעולה / שווה להפריד שורות... (Amir Harush 12:17: סידרתי את ההודעה)",
+   "file": "2026-11-03.md",
+   "match": "name · 100% name tokens"
   }
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [
   "Dream Pass"
  ],
- "content_fingerprint": "f8556665a563cda3e8a60f86f60095121e6176963c2da4f3849bff087363f5b9",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "9174692d4ad92bd09fa4b258dcd9c3c2dfd1b532444bd73104e45ead888e24aa",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

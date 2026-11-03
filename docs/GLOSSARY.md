@@ -1,22 +1,22 @@
 # Glossary (org terms)
 
-Generated 2026-11-02T18:42:18+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
+Generated 2026-11-03T08:56:41+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
 
 | Term | Status | Definition (he) | Games (tests) | Not the same as | Open question |
 |---|---|---|---|---|---|
 | FTD | inferred_from_usage | רכישה ראשונה של שחקן; גם שם ההצעה שמוצגת לפני רכישה ראשונה (FTD offer). | DICE:4, DOM:11, DIS:4 | FTD Rate (מדד המרה בלשוניות התוצאות) הוא שיעור, לא אוכלוסייה.; FTUE היא חוויית משתמש חדש, לא רכישה. | לאשר: FTD = First Time Deposit (רכישה ראשונה)? |
 | STD | unclear | — | DICE:0, DOM:1, DIS:2 | — | STD = Second Time Deposit (רכישה שנייה)? האם אותה משמעות ב-Dice, Domino ו-Disney? |
-| FTUE | inferred_from_usage | חוויית המשתמש בשלבים הראשונים (מופיע בסוגריים בשמות טסטים, למשל 'Move quest from level 32 to 200 (FTUE)'). | DICE:2, DOM:8 | FTUE מול FTD: בטסט 8 Box ב-Domino השם אומר FTUE וה-WhatsApp אומר FTD. | מה טווח ה-FTUE בכל משחק (עד איזה Level/Kingdom)? |
-| PU | inferred_from_usage | משתמשים משלמים (Paying Users); מצוטט כמדד בתוצאות ('PU +0.5%'). | DICE:2 | PAU הוא מדד נפרד שמצוטט לצד PU. | האם PU זהה ל-payers בהגדרת data/metric_definitions.json (DICE.payers וכו')? |
+| FTUE | inferred_from_usage | חוויית המשתמש בשלבים הראשונים (מופיע בסוגריים בשמות טסטים, למשל 'Move quest from level 32 to 200 (FTUE)'). | DICE:2, DOM:10 | FTUE מול FTD: בטסט 8 Box ב-Domino השם אומר FTUE וה-WhatsApp אומר FTD. | מה טווח ה-FTUE בכל משחק (עד איזה Level/Kingdom)? |
+| PU | inferred_from_usage | משתמשים משלמים (Paying Users); מצוטט כמדד בתוצאות ('PU +0.5%'). | DICE:2, DIS:0 | PAU הוא מדד נפרד שמצוטט לצד PU. | האם PU זהה ל-payers בהגדרת data/metric_definitions.json (DICE.payers וכו')? |
 | NPU | inferred_from_usage | משתמשים שלא שילמו (Non-Paying Users). | DOM:1, DIS:5 | — | האם 'לא-משלמים' זה 'אף פעם לא שילמו' או 'לא שילמו בחלון מסוים'? |
-| PAU | unclear | — | DICE:0 | לא זהה ל-PU (מצוטטים יחד עם ערכים שונים). | מה ההגדרה של PAU (Paying Active Users?) ומה ההבדל מ-PU? |
-| DAU | defined_in_source | Daily Active Users. ההגדרה לכל משחק נמצאת ב-data/metric_definitions.json (DICE.active_users_dau, DIS.active_users_dau; ב-Domino אין מקור, null). | DICE:1 | ההגדרה הטכנית שונה בין המשחקים (טבלאות שונות); ראו METRIC_DEFINITIONS.md. | — |
+| PAU | unclear | — | DICE:0, DIS:0 | לא זהה ל-PU (מצוטטים יחד עם ערכים שונים). | מה ההגדרה של PAU (Paying Active Users?) ומה ההבדל מ-PU? |
+| DAU | defined_in_source | Daily Active Users. ההגדרה לכל משחק נמצאת ב-data/metric_definitions.json (DICE.active_users_dau, DIS.active_users_dau; ב-Domino אין מקור, null). | DICE:1, DIS:0 | ההגדרה הטכנית שונה בין המשחקים (טבלאות שונות); ראו METRIC_DEFINITIONS.md. | — |
 | ARPPU | inferred_from_usage | הכנסה ממוצעת למשתמש משלם (Average Revenue Per Paying User). | DICE:0, DIS:0 | ARPDAU מחושב לפי DAU, לא לפי משלמים. | האם ARPPU מחושב על Gross או Net? |
 | ARPDAU | inferred_from_usage | הכנסה ממוצעת למשתמש פעיל יומי. | DICE:0 | — | ARPDU ו-ARPDAU הם אותו מדד? |
 | Revenue | defined_in_source | ההגדרות של Gross, Net ו-ad revenue לכל משחק נמצאות ב-data/metric_definitions.json. בתוצאות טסטים 'Revenue' הוא כפי שמופיע בלשונית התוצאות. | DICE:4, DOM:5, DIS:1 | Gross אינו בר השוואה בין המשחקים (ALL.gross_comparability). | האם 'Revenue' בלשוניות התוצאות כולל פרסומות? (needs_approval ב-METRIC_DEFINITIONS.md) |
 | VIP | unclear | — | DICE:3, DOM:3 | ב-Dice, VIP מופיע כסגמנט יעד; ב-Domino מופיעים רכיבי תוכנית VIP. אל תניחו אותה הגדרה. | מה סף ה-VIP בכל משחק? האם ב-Domino זו תוכנית (onboarding/frame) ולא רק סגמנט? |
 | Dormants | unclear | — | DICE:9, DOM:2, DIS:7 | Churn/churners מופיע כמונח נפרד; לא ידוע אם הספים זהים. | כמה ימי אי-פעילות מגדירים Dormant בכל משחק? מה זה 'dormant 3' ב-Domino? |
-| Churners | unclear | — | DICE:6, DOM:5, DIS:1 | Dormants (ראו למעלה). | האם churn = 7 ימי אי-פעילות בכל המשחקים, או רק בטסט של Domino? |
+| Churners | unclear | — | DICE:6, DOM:5, DIS:2 | Dormants (ראו למעלה). | האם churn = 7 ימי אי-פעילות בכל המשחקים, או רק בטסט של Domino? |
 | CZ | unclear | — | DICE:12, DOM:3, DIS:12 | השימוש שונה: ב-Dice כיחידת ערך להצעה, ב-Domino כבסיס לסגמנטציה של החנות. לא לאחד עד שיאושר. | מה המשמעות של CZ? האם זה אותו מנגנון בשלושת המשחקים (ערך/מחיר מותאם לשחקן)? |
 | PB | unclear | — | DICE:16, DOM:4, DIS:7 | ב-Dice ל-PB יש 'Points' ו-PPR; ב-Domino יש לו 'free entry'. ייתכן שאלה פיצ'רים שונים עם אותו קיצור. | מה זה PB בכל משחק? האם אותו פיצ'ר? |
 | RV | inferred_from_usage | Rewarded Video. ב-Dice יש 'סגמנט RV לא-משלמים', ומשתמש שרוכש יוצא ממנו לתקופה (14 יום בקונטרול של 1110). | DICE:12, DOM:3, DIS:3 | Domino 'RV Mania' ו-Disney 'RV 8box' הם פיצ'רים שונים שמבוססים על RV; הסגמנט של Dice לא בהכרח קיים בהם. | לאשר: RV = Rewarded Video? |
@@ -25,7 +25,7 @@ Generated 2026-11-02T18:42:18+02:00 from local sources. {'concepts': 58, 'unclea
 | DDJ | unclear | — | DICE:3 | — | מה זה DDJ (אירוע MTX ב-Dice)? |
 | PT | unclear | — | DICE:2 | — | מה זה PT ב-Dice? |
 | MTX | inferred_from_usage | צוות ופיצ'רי ה-live-ops (אירועים ומבצעים). 'Test scheduled ... on MTX side' (Domino). | DICE:2, DOM:1, DIS:6 | — | לאשר את ההגדרה. |
-| K (Kingdom) | defined_in_source | Dice: מספר Kingdom (התקדמות). 'X2 Ticks Per Hour K199 and under' = 'עבור קינגדום 1 עד 199'. | DICE:12 | ב-Domino ו-Disney ההתקדמות נמדדת ב-Level, לא ב-K. | — |
+| K (Kingdom) | defined_in_source | Dice: מספר Kingdom (התקדמות). 'X2 Ticks Per Hour K199 and under' = 'עבור קינגדום 1 עד 199'. | DICE:13 | ב-Domino ו-Disney ההתקדמות נמדדת ב-Level, לא ב-K. | — |
 | AD (Active Days) | defined_in_source | Active Days. הפריט '1106 - Remove AD from Segmentation' והדשבורד '1106 - Remove Active Days from Segmentation' מתייחסים לאותו טסט. | DICE:5 | 'RPS AD ECHAD' הוא כנראה צירוף אחר (ECHAD = 'אחד'?), לא בהכרח Active Days. | — |
 | Level | inferred_from_usage | שלב/רמה (Domino ו-Disney). | DICE:1, DOM:10, DIS:16 | ב-Dice ההתקדמות היא K (Kingdom). | — |
 | 3PO | defined_in_source | הצעה עם שלוש נקודות מחיר (למשל FTD 3PO $3/$5/$7). | DICE:1, DOM:0 | — | — |

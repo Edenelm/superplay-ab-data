@@ -1,0 +1,393 @@
+{
+ "test_id": "DIS-124-churn-welcome-back-kit",
+ "game": "Disney Solitaire",
+ "game_code": "DIS",
+ "tier": "backlog",
+ "coverage": "stub",
+ "registry": {
+  "test_id": "DIS-124-churn-welcome-back-kit",
+  "legacy_keys": [
+   "wab_13299935508"
+  ],
+  "game": "Disney Solitaire",
+  "board_item_id": "13299935508",
+  "board_test_number": null,
+  "name": "124 - Churn & Welcome Back Kit",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Analysis Needed",
+  "board_group": "🔍 Analysis",
+  "board_decision_raw": "Pending",
+  "board_category": "analysis",
+  "outcome_label": null,
+  "is_live": false,
+  "has_results": false,
+  "business_question": null,
+  "hypothesis": null,
+  "change": null,
+  "audience": null,
+  "control_vs_test": null,
+  "split": null,
+  "start_date": "2026-09-06",
+  "end_date": null,
+  "phases": [],
+  "primary_kpi": null,
+  "guardrails": null,
+  "tags": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "board_live_group",
+    "msg": "Status 'Analysis Needed' but no end date (start 2026-09-06)"
+   }
+  ],
+  "source_links": [
+   {
+    "label": "Monday item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+   }
+  ],
+  "sources": [
+   {
+    "type": "app_build_snapshot",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
+    "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
+   },
+   {
+    "type": "monday_item",
+    "ref": "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+   }
+  ],
+  "verification": "NOT VERIFIED",
+  "snapshot_date": "2026-11-03",
+  "null_reasons": {
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
+  }
+ },
+ "results": [],
+ "explanation_he": {
+  "structure": [
+   "מה בודקים",
+   "מה משתנה",
+   "למי ומתי",
+   "למה",
+   "מה למדנו",
+   "מה עדיין לא ברור"
+  ],
+  "sections": {
+   "what_tested": {
+    "label_he": "מה בודקים",
+    "text_he": "לפי שם הפריט ב-Monday: «124 - Churn & Welcome Back Kit». זה רק השם; המנגנון לא תואר במקור.",
+    "statements": [
+     {
+      "text_he": "לפי שם הפריט ב-Monday: «124 - Churn & Welcome Back Kit». זה רק השם; המנגנון לא תואר במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+      ]
+     }
+    ],
+    "fingerprint": "7ae8f8354e916db0",
+    "inputs": {
+     "registry:name": "24851b893c3c2743",
+     "generator": "he6-v2"
+    }
+   },
+   "what_changes": {
+    "label_he": "מה משתנה",
+    "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+    "statements": [
+     {
+      "text_he": "המנגנון טרם הובהר. שאלה פתוחה: מה משתנה בין קונטרול לטסט? (שם דשבורד או שם פריט בלבד לא מספיקים)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+      ]
+     }
+    ],
+    "fingerprint": "6825f241d1461a13",
+    "inputs": {
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:name": "24851b893c3c2743",
+     "generator": "he6-v2"
+    }
+   },
+   "who_when": {
+    "label_he": "למי ומתי",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-06, סיום: לא ידוע",
+    "statements": [
+     {
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-09-06, סיום: לא ידוע",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+      ]
+     }
+    ],
+    "fingerprint": "22877bb33487df84",
+    "inputs": {
+     "registry:audience": "74234e98afe7498f",
+     "registry:split": "74234e98afe7498f",
+     "registry:start_date": "fc27d6cc5fb62501",
+     "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "why": {
+    "label_he": "למה",
+    "text_he": "ההשערה העסקית לא נכתבה במקור.",
+    "statements": [
+     {
+      "text_he": "ההשערה העסקית לא נכתבה במקור.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+      ]
+     }
+    ],
+    "fingerprint": "2f12e35cc420874f",
+    "inputs": {
+     "registry:hypothesis": "74234e98afe7498f",
+     "registry:business_question": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   },
+   "unclear": {
+    "label_he": "מה עדיין לא ברור",
+    "text_he": "סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-06) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "statements": [
+     {
+      "text_he": "סתירה (מהמקור): Status 'Analysis Needed' but no end date (start 2026-09-06)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+      ]
+     },
+     {
+      "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+      ]
+     }
+    ],
+    "fingerprint": "5dfb79cdaa7ede1b",
+    "inputs": {
+     "curated:questions": "74234e98afe7498f",
+     "curated:conflicts": "74234e98afe7498f",
+     "registry:conflicts": "7f5d0ce565a6e058",
+     "expl:limitations": "afe58418072558a0",
+     "registry:change": "74234e98afe7498f",
+     "registry:control_vs_test": "74234e98afe7498f",
+     "registry:audience": "74234e98afe7498f",
+     "registry:hypothesis": "74234e98afe7498f",
+     "generator": "he6-v2"
+    }
+   }
+  }
+ },
+ "understanding": {
+  "mechanism_type": "unclear",
+  "mechanism_type_tag": "interpretation",
+  "control_state": null,
+  "test_state": null,
+  "audience": null,
+  "trigger": null,
+  "target_behaviour": null,
+  "why": null,
+  "phases": [],
+  "conflicts": [
+   "Status 'Analysis Needed' but no end date (start 2026-09-06)"
+  ],
+  "source_refs": [
+   {
+    "ref": "monday_item",
+    "url": "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+   }
+  ],
+  "curated": false
+ },
+ "explanation_legacy_8q": {
+  "test_id": "DIS-124-churn-welcome-back-kit",
+  "game": "Disney Solitaire",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": "מספרים שדווחו ב-WhatsApp (לא אומתו מול לשונית תוצאות): Test population: DAU +9.2% PAU +9.45% Revenue +8.6% PU +8.2%; Whole game population: DAU +1.45% PU +0.58% Revenue +0.45%",
+    "tag": "source_fact",
+    "source_refs": [
+     "2026-11-03.md",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+    ],
+    "null_reason": null
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+   },
+   "limitations": {
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299935508",
+     "2026-11-03.md",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Analysis Needed · החלטה אחרונה ב-WhatsApp: deploy",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18435634714/pulses/13299935508",
+     "2026-11-03.md",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+    ],
+    "null_reason": null,
+    "conflict": [
+     "WhatsApp 2026-11-02 15:13 (Noam Disny): 'deploy' · board: status Analysis Needed · decision Pending · group 🔍 Analysis"
+    ]
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13299935508",
+   "test_id": "DIS-124-churn-welcome-back-kit",
+   "game": "Disney Solitaire",
+   "name": "124 - Churn & Welcome Back Kit",
+   "whatsapp_decision_latest": "deploy",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": "Pending",
+   "board_status": "Analysis Needed",
+   "numbers_quoted": [
+    "Test population: DAU +9.2% PAU +9.45% Revenue +8.6% PU +8.2%",
+    "Whole game population: DAU +1.45% PU +0.58% Revenue +0.45%"
+   ],
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "conflicts": [
+    {
+     "type": "contradicts",
+     "msg": "WhatsApp 2026-11-02 15:13 (Noam Disny): 'deploy' · board: status Analysis Needed · decision Pending · group 🔍 Analysis"
+    },
+    {
+     "type": "missing on board",
+     "msg": "WhatsApp result Test population: DAU +9.2% PAU +9.45% Revenue +8.6% PU +8.2%; Whole game population: DAU +1.45% PU +0.58% Revenue +0.45% — no result on the board (numbers not in board text) and no results tab checked"
+    }
+   ],
+   "whatsapp_item_ids": [
+    "wa338",
+    "wa339"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "14:58",
+     "sender": "Jonathan",
+     "item_id": "wa338"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "15:13",
+     "sender": "Noam Disny",
+     "item_id": "wa339"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/18435634714/pulses/13299935508"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa338",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": "deploy",
+   "nums": [
+    "Test population: DAU +9.2% PAU +9.45% Revenue +8.6% PU +8.2%",
+    "Whole game population: DAU +1.45% PU +0.58% Revenue +0.45%"
+   ],
+   "text": "DECISION DEPLOY. Test population: \"DAU +9.2% PAU +9.45% Revenue +8.6% PU +8.2%\". Whole game population: \"DAU +1.45% PU +0.58% Revenue +0.45%\". (PDF \"T124 Churn + Welcome Back — Test Closure.pdf\" not opened)",
+   "file": "2026-11-03.md",
+   "match": "id+name · 100% name tokens"
+  },
+  {
+   "id": "wa339",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": "deploy",
+   "nums": [],
+   "text": "עשינו דיפלוי, יונתן מסתכל שהכל תקין",
+   "file": "2026-11-03.md",
+   "match": "id+name · 100% name tokens"
+  }
+ ],
+ "monday_updates_fetched": null,
+ "glossary_concepts": [
+  "Churners"
+ ],
+ "content_fingerprint": "d4468076b5c5d483897b38d0b50e33bc5dd46d6d40e78f5a4f3b61ae4640c9cd",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
+}

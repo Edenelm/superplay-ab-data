@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -533,6 +533,6 @@
   "Segment split notation",
   "GT"
  ],
- "content_fingerprint": "a9bb949de85f297b0df90cf83ba66b019b550d52deac6f0213974b72e8a129aa",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "8afa9cb8d772f8d193f46da4edad26862dbb2f687ab8186d8d20654e955f00ae",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

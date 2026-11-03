@@ -12,10 +12,10 @@
   "game": "Domino Dreams",
   "board_item_id": "13322850383",
   "board_test_number": null,
-  "name": "End of Chapter Offer - limited time",
+  "name": "End of Chapter Offer - limited time after end chapter 10",
   "lifecycle": "backlog",
-  "board_status_raw": "Backlog",
-  "board_group": "Backlog",
+  "board_status_raw": "In Planning",
+  "board_group": "Working On",
   "backlog_substatus": {
    "Next Step": null
   },
@@ -24,7 +24,7 @@
    "Analyst": "Diana Khayet"
   },
   "priority": 5,
-  "planned": null,
+  "planned": "2026-11-10",
   "due": null,
   "added_date": "2026-10-19",
   "type": "Offers",
@@ -37,7 +37,7 @@
   "audience": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": null,
+  "start_date": "2026-11-10",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -89,19 +89,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «End of Chapter Offer - limited time». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «End of Chapter Offer - limited time after end chapter 10». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «End of Chapter Offer - limited time». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «End of Chapter Offer - limited time after end chapter 10». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13322850383"
       ]
      }
     ],
-    "fingerprint": "ff5d01122df6e663",
+    "fingerprint": "ec9c748adf71fa51",
     "inputs": {
-     "registry:name": "148ed36da8795700",
+     "registry:name": "daa1cb855cec765b",
      "generator": "he6-v2"
     }
    },
@@ -117,31 +117,31 @@
       ]
      }
     ],
-    "fingerprint": "6f77a2b04d03c42b",
+    "fingerprint": "51e18f7e8cd88b48",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "148ed36da8795700",
+     "registry:name": "daa1cb855cec765b",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-10, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-10, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13322850383"
       ]
      }
     ],
-    "fingerprint": "0e5b16bb0aa9152d",
+    "fingerprint": "d785d56af5f6505b",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "74234e98afe7498f",
+     "registry:start_date": "f67c5ec50bf3ce9b",
      "registry:phases": "4f53cda18c2baa0c",
      "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
@@ -217,6 +217,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "97051646c203777296cb6cc32c77a41d3c2daa1effc721db7541f89b67163dac",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "0c3285b5628261f3b62e80570ab31dbc1df941d072e21fb60bd63f8b25a46336",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

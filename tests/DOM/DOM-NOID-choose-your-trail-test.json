@@ -2,28 +2,29 @@
  "test_id": "DOM-NOID-choose-your-trail-test",
  "game": "Domino Dreams",
  "game_code": "DOM",
- "tier": "live",
- "coverage": "partial",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DOM-NOID-choose-your-trail-test",
   "legacy_keys": [
-   "live_13284955937"
+   "wab_13284955937"
   ],
   "game": "Domino Dreams",
   "board_item_id": "13284955937",
-  "board_test_number": "—",
+  "board_test_number": null,
   "name": "Choose Your Trail Test",
-  "lifecycle": "live",
-  "board_status_raw": "Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "In Analysis",
   "board_group": "Live",
+  "board_decision_raw": null,
+  "board_category": "analysis",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
-  "audience_source": null,
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-10-16",
@@ -32,35 +33,23 @@
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": {
-   "state": "possible",
-   "board_link": "https://mixpanel.com/s/2kVLtd",
-   "dashboards": [],
-   "possible": [
-    {
-     "id": 11589470,
-     "title": "1591 Choose Your Trail Test",
-     "modified": "2026-10-27",
-     "url": "https://mixpanel.com/project/2735821/app/boards#id=11589470"
-    }
-   ],
-   "rule": "'possible' matches are never auto-linked"
-  },
-  "conflicts": [],
+  "mixpanel": null,
+  "conflicts": [
+   {
+    "type": "board_live_group",
+    "msg": "In 'Live' group but status 'In Analysis', start 2026-10-16, no end date"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
-   },
-   {
-    "label": "Mixpanel board (from Monday)",
-    "url": "https://mixpanel.com/s/2kVLtd"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/live_data.js",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -69,18 +58,17 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
-   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
-   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
-   "change": "live snapshot captures status/dates/audience only; results tab not read",
-   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
-   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
-   "outcome_label": "test is live; no decision yet",
-   "guardrails": "not designated in source",
-   "audience": "empty on the Monday item",
-   "split": "empty on the Monday item",
-   "end_date": "no end date on board (live)"
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
   }
  },
  "results": [],
@@ -148,10 +136,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: 'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp) | התחלה: 2026-10-16 שלב/שינוי בהרצה: התחלה 16.10.2026 (דשבורד; כמו ב-Monday). שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
+    "text_he": "קהל: 'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp) | התחלה: 2026-10-16, סיום: לא ידוע שלב/שינוי בהרצה: התחלה 16.10.2026 (דשבורד; כמו ב-Monday). שלב/שינוי בהרצה: split של 70/30 (WhatsApp).",
     "statements": [
      {
-      "text_he": "קהל: 'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp) | התחלה: 2026-10-16",
+      "text_he": "קהל: 'Users: >50' בטקסט הדשבורד / Level > 200 בפילטר; טסט 70% / קונטרול 30% ('70% מקבלים', WhatsApp) | התחלה: 2026-10-16, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "mp_dashboard:11589470#text_card[0]",
@@ -180,12 +168,13 @@
       ]
      }
     ],
-    "fingerprint": "1f66eb8fe909f8a7",
+    "fingerprint": "6ebeea565bc75668",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "de936b9b36d6a0dd",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
      "curated:audience": "413fccda8031b061",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "ab471613ca4a92f8",
@@ -218,7 +207,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה מקבל הקונטרול (Trail רגיל?) איך הפרסים מותאמים לכל רמה? סתירה: אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200.",
+    "text_he": "מה מקבל הקונטרול (Trail רגיל?) איך הפרסים מותאמים לכל רמה? סתירה: אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200. סתירה (מהמקור): In 'Live' group but status 'In Analysis', start 2026-10-16, no end date",
     "statements": [
      {
       "text_he": "מה מקבל הקונטרול (Trail רגיל?)",
@@ -243,14 +232,21 @@
        "wa:wa276",
        "monday_name"
       ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): In 'Live' group but status 'In Analysis', start 2026-10-16, no end date",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
+      ]
      }
     ],
-    "fingerprint": "031772875368db9c",
+    "fingerprint": "967c93d8a8381bbf",
     "inputs": {
      "curated:questions": "2b1134d0edfce85a",
      "curated:conflicts": "a4cbb1e344c14d1d",
-     "registry:conflicts": "4f53cda18c2baa0c",
-     "expl:limitations": "acd4bcaec61b80dc",
+     "registry:conflicts": "1bfc1989c34ef0bd",
+     "expl:limitations": "c230febf3f001bbc",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -276,7 +272,8 @@
    "split של 70/30 (WhatsApp)."
   ],
   "conflicts": [
-   "אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200."
+   "אוכלוסייה: 'Users: >50' בטקסט הדשבורד, מול פילטר Level ID > 200.",
+   "In 'Live' group but status 'In Analysis', start 2026-10-16, no end date"
   ],
   "source_refs": [
    {
@@ -311,12 +308,10 @@
   "lang": "he",
   "questions": {
    "what_changed": {
-    "text_he": "שם הבדיקה בבורד: Choose Your Trail Test",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
-    ],
-    "null_reason": null
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
    },
    "why_tested": {
     "text_he": null,
@@ -334,18 +329,21 @@
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
+    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
    },
    "business_meaning": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no results yet"
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: possible",
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
     "tag": "generated_explanation",
     "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13284955937",
+     "2026-10-26.md",
+     "2026-10-26.md",
      "https://superplay.monday.com/boards/18416650776/pulses/13284955937"
     ],
     "null_reason": null
@@ -357,7 +355,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: In Analysis · החלטה אחרונה ב-WhatsApp: launched",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/18416650776/pulses/13284955937",
@@ -393,7 +391,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": null,
-   "board_status": "Live",
+   "board_status": "In Analysis",
    "numbers_quoted": [],
    "first_seen": "2026-10-15",
    "last_seen": "2026-10-16",
@@ -458,6 +456,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "2b199519c9cc1553178856691e36a15796c3bba9314c515d5249d9176262e895",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "41be9d1b8d1cb1e940afa69b23bde4a697dd6e0d539f52846f78ccd0748af2e3",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

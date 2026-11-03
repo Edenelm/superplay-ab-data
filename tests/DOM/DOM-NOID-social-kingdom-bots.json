@@ -14,15 +14,15 @@
   "board_test_number": null,
   "name": "Social Kingdom Bots",
   "lifecycle": "backlog",
-  "board_status_raw": "Backlog",
-  "board_group": "Backlog",
+  "board_status_raw": "In Planning",
+  "board_group": "Working On",
   "backlog_substatus": {
    "Next Step": "Start Date"
   },
   "owners": {
    "Productist": "Talya Kotler",
    "Idea Owner": "Roey Weiser",
-   "Analyst": "Deleted member"
+   "Analyst": "Rotem Hashdi"
   },
   "priority": 4,
   "planned": null,
@@ -38,14 +38,23 @@
   "audience": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": null,
+  "start_date": "2026-11-03",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
   "mixpanel": null,
-  "conflicts": [],
+  "conflicts": [
+   {
+    "type": "board",
+    "msg": "group 'Working On' but start date 2026-11-03 has passed"
+   },
+   {
+    "type": "board_live_group",
+    "msg": "Status 'In Planning' but no end date (start 2026-11-03)"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
@@ -64,7 +73,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -128,21 +137,21 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/12358758065"
       ]
      }
     ],
-    "fingerprint": "0e5b16bb0aa9152d",
+    "fingerprint": "a0c8d9aae8e815fc",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "74234e98afe7498f",
+     "registry:start_date": "d658e2a3b5597fab",
      "registry:phases": "4f53cda18c2baa0c",
      "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
@@ -169,8 +178,22 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-03 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-03) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
+     {
+      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-03 has passed",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12358758065"
+      ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-03)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12358758065"
+      ]
+     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -179,11 +202,11 @@
       ]
      }
     ],
-    "fingerprint": "a5ce9d9bf80a7f54",
+    "fingerprint": "fc981d1dd40efe27",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "7b8ae48768aaf777",
      "expl:limitations": "b180623893f49d58",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -204,7 +227,10 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [],
+  "conflicts": [
+   "group 'Working On' but start date 2026-11-03 has passed",
+   "Status 'In Planning' but no end date (start 2026-11-03)"
+  ],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -265,7 +291,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Backlog · החלטה אחרונה ב-WhatsApp: pending",
+    "text_he": "בבורד: In Planning · החלטה אחרונה ב-WhatsApp: pending",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/18416650776/pulses/12358758065",
@@ -300,7 +326,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": null,
-   "board_status": "Backlog",
+   "board_status": "In Planning",
    "numbers_quoted": [],
    "first_seen": "2026-10-15",
    "last_seen": "2026-10-15",
@@ -340,6 +366,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "35374a798d273afccb3ce0847cc67e2a748f751c2bb90a7ca4539a708b824efc",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "1fb651ed817d26613aacc4278bab7e6be46e1d5a1fa32be2a0c75fa9f608cb33",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

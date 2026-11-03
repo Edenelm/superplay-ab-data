@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -362,6 +362,6 @@
   "Level",
   "Starter Pack"
  ],
- "content_fingerprint": "fbc2f179e9219b974b07377b151fd74bfe8f989624f5e06da42ec42296da5047",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "381a3889b70ee836714185258bfe2a006f88ee393990603e0c39e5b0b86d990c",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

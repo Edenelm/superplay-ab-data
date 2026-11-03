@@ -2,28 +2,29 @@
  "test_id": "DOM-1621-1621-trail-runner-v2",
  "game": "Domino Dreams",
  "game_code": "DOM",
- "tier": "live",
- "coverage": "unclear",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DOM-1621-1621-trail-runner-v2",
   "legacy_keys": [
-   "live_12659258098"
+   "wab_12659258098"
   ],
   "game": "Domino Dreams",
   "board_item_id": "12659258098",
-  "board_test_number": "1621",
+  "board_test_number": null,
   "name": "1621 Trail Runner V2",
-  "lifecycle": "live",
-  "board_status_raw": "Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "In Analysis",
   "board_group": "Live",
+  "board_decision_raw": null,
+  "board_category": "analysis",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
-  "audience_source": null,
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-10-25",
@@ -32,40 +33,23 @@
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": {
-   "state": "matched",
-   "board_link": "https://mixpanel.com/s/3ZLyiD",
-   "dashboards": [
-    {
-     "id": 11609039,
-     "title": "1621 Trail Runner V2",
-     "modified": "2026-10-26",
-     "url": "https://mixpanel.com/project/2735821/app/boards#id=11609039"
-    }
-   ],
-   "possible": [],
-   "rule": "'possible' matches are never auto-linked"
-  },
+  "mixpanel": null,
   "conflicts": [
    {
-    "type": "duplicate_test_number",
-    "msg": "test number 1621 is used by 2 board items in Domino Dreams: DOM-1621-1621-8-box-from-2"
+    "type": "board_live_group",
+    "msg": "In 'Live' group but status 'In Analysis', start 2026-10-25, no end date"
    }
   ],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/18416650776/pulses/12659258098"
-   },
-   {
-    "label": "Mixpanel board (from Monday)",
-    "url": "https://mixpanel.com/s/3ZLyiD"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/live_data.js",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -74,18 +58,17 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
-   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
-   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
-   "change": "live snapshot captures status/dates/audience only; results tab not read",
-   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
-   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
-   "outcome_label": "test is live; no decision yet",
-   "guardrails": "not designated in source",
-   "audience": "empty on the Monday item",
-   "split": "empty on the Monday item",
-   "end_date": "no end date on board (live)"
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
   }
  },
  "results": [],
@@ -151,10 +134,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: 'Users: >800' (השערה: Level > 800); קוהורט '1621 Trail Runner Population' | התחלה: 2026-10-25 שלב/שינוי בהרצה: התחלה 25.10 (בדשבורד כתוב '25.10.202'); WhatsApp ‏25/10: הטסט עלה היום (wa:wa315).",
+    "text_he": "קהל: 'Users: >800' (השערה: Level > 800); קוהורט '1621 Trail Runner Population' | התחלה: 2026-10-25, סיום: לא ידוע שלב/שינוי בהרצה: התחלה 25.10 (בדשבורד כתוב '25.10.202'); WhatsApp ‏25/10: הטסט עלה היום (wa:wa315).",
     "statements": [
      {
-      "text_he": "קהל: 'Users: >800' (השערה: Level > 800); קוהורט '1621 Trail Runner Population' | התחלה: 2026-10-25",
+      "text_he": "קהל: 'Users: >800' (השערה: Level > 800); קוהורט '1621 Trail Runner Population' | התחלה: 2026-10-25, סיום: לא ידוע",
       "tag": "interpretation",
       "source_refs": [
        "mp_dashboard:11609039#text_card[0]",
@@ -172,12 +155,13 @@
       ]
      }
     ],
-    "fingerprint": "10d5c3c763b77ab7",
+    "fingerprint": "5f8a9af7942297fe",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "4f07f33d9abd04ad",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
      "curated:audience": "99733e98e61fafe0",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "3e9b2812cb97bec3",
@@ -208,7 +192,7 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "מה עושה Trail Runner ומה מקבל הקונטרול? מה השתנה ב-V2, ומה החלוקה?",
+    "text_he": "מה עושה Trail Runner ומה מקבל הקונטרול? מה השתנה ב-V2, ומה החלוקה? סתירה (מהמקור): In 'Live' group but status 'In Analysis', start 2026-10-25, no end date",
     "statements": [
      {
       "text_he": "מה עושה Trail Runner ומה מקבל הקונטרול?",
@@ -223,14 +207,21 @@
       "source_refs": [
        "mp_dashboard:11609039#text_card[0]"
       ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): In 'Live' group but status 'In Analysis', start 2026-10-25, no end date",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/12659258098"
+      ]
      }
     ],
-    "fingerprint": "48dfb458087fb155",
+    "fingerprint": "5e7e03de45817b4c",
     "inputs": {
      "curated:questions": "e289050d87136e36",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "30a9851647903e84",
-     "expl:limitations": "3e9f24118affd60e",
+     "registry:conflicts": "ebe9f569b44b9093",
+     "expl:limitations": "335736afb593e15f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -253,7 +244,9 @@
   "phases": [
    "התחלה 25.10 (בדשבורד כתוב '25.10.202'); WhatsApp ‏25/10: הטסט עלה היום (wa:wa315)."
   ],
-  "conflicts": [],
+  "conflicts": [
+   "In 'Live' group but status 'In Analysis', start 2026-10-25, no end date"
+  ],
   "source_refs": [
    {
     "ref": "mp_dashboard:11609039#text_card[0]",
@@ -281,12 +274,10 @@
   "lang": "he",
   "questions": {
    "what_changed": {
-    "text_he": "שם הבדיקה בבורד: 1621 Trail Runner V2",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18416650776/pulses/12659258098"
-    ],
-    "null_reason": null
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
    },
    "why_tested": {
     "text_he": null,
@@ -304,18 +295,20 @@
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
+    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
    },
    "business_meaning": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no results yet"
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
     "tag": "generated_explanation",
     "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/12659258098",
+     "2026-10-26.md",
      "https://superplay.monday.com/boards/18416650776/pulses/12659258098"
     ],
     "null_reason": null
@@ -327,7 +320,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: In Analysis · החלטה אחרונה ב-WhatsApp: launched",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/18416650776/pulses/12659258098",
@@ -362,7 +355,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": null,
-   "board_status": "Live",
+   "board_status": "In Analysis",
    "numbers_quoted": [],
    "first_seen": "2026-10-25",
    "last_seen": "2026-10-25",
@@ -423,6 +416,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "df68c0d54ba31e1170caaf890f066a48cb9ed3698d92d0282fc451cc38ccd2dd",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "9ca95e6e6bb89317960ab9f6ecefe5ba1e04c753dd31e9314e157721c4124b9c",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

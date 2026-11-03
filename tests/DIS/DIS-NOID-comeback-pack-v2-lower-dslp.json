@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "glossary_concepts": [
   "DSLP / DFI"
  ],
- "content_fingerprint": "bf9389737a716d362c4d14b1481162c02dda32ee498759e174f8c18252c21318",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "3a03718e93a4e2050a1534fb4c767587337a271feb5e2041c0c64ef1c2587d10",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

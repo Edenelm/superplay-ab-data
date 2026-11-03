@@ -46,12 +46,7 @@
    ],
    "rule": "'possible' matches are never auto-linked"
   },
-  "conflicts": [
-   {
-    "type": "duplicate_test_number",
-    "msg": "test number 1621 is used by 2 board items in Domino Dreams: DOM-1621-1621-trail-runner-v2"
-   }
-  ],
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
@@ -74,7 +69,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -229,11 +224,11 @@
       ]
      }
     ],
-    "fingerprint": "c0af9e83ca8ea026",
+    "fingerprint": "e74ebc66996c8631",
     "inputs": {
      "curated:questions": "85ed711315f685e7",
      "curated:conflicts": "aa674a72031367fa",
-     "registry:conflicts": "e70225d030ad8e9e",
+     "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "f1cfaebfd722c2fc",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -410,6 +405,6 @@
   "FTUE",
   "8 Box"
  ],
- "content_fingerprint": "95332b79ba7ac49d4b669b2a84e9a71aaaa12b9bdfe3ba5d880f5f4626eeba4e",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "3cf03878c88f140620e44b41563e0ab5d44151bac06657d465362a90c07f066e",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

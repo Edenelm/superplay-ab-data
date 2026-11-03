@@ -88,7 +88,7 @@
    "end_date": "no end date on board (live)"
   },
   "carried_forward": {
-   "since": "2026-11-02",
+   "since": "2026-11-03",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -315,6 +315,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "fef3a8b542d78436dfdc929e23216ecc070e7ad85b8dbac3c04f8b6e839b619e",
- "last_changed_at": "2026-11-02T17:56:03+02:00"
+ "content_fingerprint": "8e7dd8a0bcc6db8339aef845f304e9d8f3bac8b81ebe9aca1b1787fdf3cf24ea",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

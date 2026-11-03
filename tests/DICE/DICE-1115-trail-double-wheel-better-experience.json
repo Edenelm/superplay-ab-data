@@ -39,14 +39,19 @@
     {
      "id": 11623433,
      "title": "1115 - Trail Double Wheel Better Experience",
-     "modified": "2026-11-01",
+     "modified": "2026-11-02",
      "url": "https://mixpanel.com/project/2036368/app/boards#id=11623433"
     }
    ],
    "possible": [],
    "rule": "'possible' matches are never auto-linked"
   },
-  "conflicts": [],
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1115 is used by 2 board items in Dice Dreams: DICE-NOID-trail-less-coins-yeladim-ktanim"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
@@ -69,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -184,11 +189,11 @@
       ]
      }
     ],
-    "fingerprint": "8445b75d7b454150",
+    "fingerprint": "a69d261f617963aa",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "c0732541b7ee8e9d",
      "expl:limitations": "0d11621974f68de2",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -270,12 +275,13 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: pending",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/13436680453",
      "2026-11-02.md",
      "2026-11-02.md",
+     "2026-11-03.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13436680453"
     ],
     "null_reason": null
@@ -302,18 +308,19 @@
    "test_id": "DICE-1115-trail-double-wheel-better-experience",
    "game": "Dice Dreams",
    "name": "1115 - Trail Double Wheel Better Experience",
-   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_latest": "pending",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": null,
    "board_status": "Running",
    "numbers_quoted": [],
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "conflicts": [],
    "whatsapp_item_ids": [
     "wa328",
-    "wa329"
+    "wa329",
+    "wa336"
    ],
    "sources": [
     {
@@ -331,6 +338,14 @@
      "time": "17:07",
      "sender": "Guy Perez",
      "item_id": "wa329"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "13:50",
+     "sender": "Aviram",
+     "item_id": "wa336"
     },
     {
      "type": "monday_item",
@@ -361,12 +376,22 @@
    "text": "נראה בינתיים טוב לא? (Aviram 17:08: בהחלט) [early feedback, no numbers]",
    "file": "2026-11-02.md",
    "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa336",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": "pending",
+   "nums": [],
+   "text": "התוצאות יחסית פרווה. אפשר להטמיע, ואפשר לקחת את החוויה ולנסות אותה על כלל הטריילים בטסט לארוך זמן. [result neutral, no numbers; no decision taken]",
+   "file": "2026-11-03.md",
+   "match": "id+name · 100% name tokens"
   }
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "51c1f775db8364286591ea4ee1ea881ce4bad0951c503dcbf1fe8582e0c30d94",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "3e85d7d0c647410d30ead4a9e55051850a75cdf4531c731bcfbd14024b5be488",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

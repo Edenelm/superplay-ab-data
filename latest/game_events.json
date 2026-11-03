@@ -1,7 +1,7 @@
 {
  "dataset": "game_events",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-02T18:42:18+02:00",
+ "generated_at": "2026-11-03T08:56:41+02:00",
  "timezone": "mixed: each record carries date_timezone (board dates as stored, WhatsApp Asia/Jerusalem, BigQuery UTC); not converted",
  "rules": [
   "no guessed dates: a missing date is null with null_reasons",
@@ -99,11 +99,11 @@
    "game": "Dice Dreams",
    "category": "price_change",
    "status": "partial",
-   "events": 11,
-   "events_with_start_date": 10,
+   "events": 12,
+   "events_with_start_date": 11,
    "by_verification": {
     "board": 4,
-    "whatsapp_unverified": 7
+    "whatsapp_unverified": 8
    },
    "calendar_source": null,
    "eden_to_provide": [
@@ -131,11 +131,11 @@
    "game": "Dice Dreams",
    "category": "ab_test",
    "status": "ok",
-   "events": 272,
-   "events_with_start_date": 272,
+   "events": 274,
+   "events_with_start_date": 274,
    "by_verification": {
     "board": 175,
-    "whatsapp_unverified": 97
+    "whatsapp_unverified": 99
    },
    "calendar_source": "Monday board test windows",
    "eden_to_provide": [],
@@ -262,10 +262,10 @@
    "game": "Disney Solitaire",
    "category": "feature_launch",
    "status": "partial",
-   "events": 3,
+   "events": 5,
    "events_with_start_date": 0,
    "by_verification": {
-    "whatsapp_unverified": 3
+    "whatsapp_unverified": 5
    },
    "calendar_source": null,
    "eden_to_provide": [
@@ -350,15 +350,15 @@
   ]
  },
  "counts": {
-  "records": 1325,
+  "records": 1330,
   "by_game": {
-   "Dice Dreams": 365,
+   "Dice Dreams": 368,
    "Domino Dreams": 641,
-   "Disney Solitaire": 319
+   "Disney Solitaire": 321
   },
   "by_source": {
    "monday": 1102,
-   "whatsapp": 186,
+   "whatsapp": 191,
    "bigquery": 37
   }
  },
@@ -12562,6 +12562,70 @@
    "scope": "unknown"
   },
   {
+   "event_id": "EV-65141f5d8fab",
+   "game": "Dice Dreams",
+   "category": "ab_test",
+   "event_kind": "launch_message",
+   "name": "Second-session monetization",
+   "start_date": "2026-11-02",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa340",
+    "url": null,
+    "file": "whatsapp/2026-11-03.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-02",
+   "wa_decision": "launched",
+   "related_board_item": null,
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-7c5ddca348e4",
+   "game": "Dice Dreams",
+   "category": "price_change",
+   "event_kind": "launch_message",
+   "name": "1115 - Trail K20 to 59 Less Coins in Chests",
+   "start_date": "2026-11-02",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa341",
+    "url": null,
+    "file": "whatsapp/2026-11-03.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-02",
+   "wa_decision": "launched",
+   "related_board_item": "13334198553",
+   "scope": "unknown"
+  },
+  {
    "event_id": "EV-7de619e154f9",
    "game": "Dice Dreams",
    "category": "ab_test",
@@ -12596,6 +12660,38 @@
     "end": null
    },
    "scope": "test_population"
+  },
+  {
+   "event_id": "EV-f67f5ec40e5c",
+   "game": "Dice Dreams",
+   "category": "ab_test",
+   "event_kind": "launch_message",
+   "name": "Entry Bet K120+",
+   "start_date": "2026-11-02",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa337",
+    "url": null,
+    "file": "whatsapp/2026-11-03.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-02",
+   "wa_decision": "launched",
+   "related_board_item": null,
+   "scope": "unknown"
   },
   {
    "event_id": "EV-6ded45954798",
@@ -23464,6 +23560,74 @@
     "end": null
    },
    "scope": "test_population"
+  },
+  {
+   "event_id": "EV-dff2d6511cd6",
+   "game": "Disney Solitaire",
+   "category": "feature_launch",
+   "event_kind": "deploy_message",
+   "name": "T124 Churn + Welcome Back",
+   "start_date": null,
+   "end_date": null,
+   "date_basis": null,
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Disney Business",
+    "item_id": "wa339",
+    "url": null,
+    "file": "whatsapp/2026-11-03.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_deploy",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "start_date": "deploy date not stated in the message (announced_on is the message date only)",
+    "end_date": "a deploy has no end date",
+    "date_basis": "no date stated"
+   },
+   "announced_on": "2026-11-02",
+   "wa_decision": "deploy",
+   "related_board_item": "13299935508",
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-ed5d67f37e4d",
+   "game": "Disney Solitaire",
+   "category": "feature_launch",
+   "event_kind": "deploy_message",
+   "name": "T124 Churn + Welcome Back",
+   "start_date": null,
+   "end_date": null,
+   "date_basis": null,
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Disney Business",
+    "item_id": "wa338",
+    "url": null,
+    "file": "whatsapp/2026-11-03.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_deploy",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "start_date": "deploy date not stated in the message (announced_on is the message date only)",
+    "end_date": "a deploy has no end date",
+    "date_basis": "no date stated"
+   },
+   "announced_on": "2026-11-02",
+   "wa_decision": "deploy",
+   "related_board_item": "13299935508",
+   "scope": "unknown"
   },
   {
    "event_id": "EV-0d1cd62b35a0",

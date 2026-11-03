@@ -2,58 +2,70 @@
  "test_id": "DICE-NOID-trail-less-coins-yeladim-ktanim",
  "game": "Dice Dreams",
  "game_code": "DICE",
- "tier": "backlog",
- "coverage": "stub",
+ "tier": "live",
+ "coverage": "unclear",
  "registry": {
   "test_id": "DICE-NOID-trail-less-coins-yeladim-ktanim",
   "legacy_keys": [
-   "bl_13334198553"
+   "live_13334198553"
   ],
   "game": "Dice Dreams",
   "board_item_id": "13334198553",
-  "board_test_number": null,
-  "name": "Trail Less coins Yeladim Ktanim",
-  "lifecycle": "backlog",
-  "board_status_raw": null,
-  "board_group": "Working on",
-  "backlog_substatus": {
-   "Backlog Status": "Working On"
-  },
-  "owners": {
-   "Idea Owner": "Guy Perez"
-  },
-  "priority": null,
-  "planned": null,
-  "due": null,
-  "added_date": "2026-10-20",
-  "type": null,
+  "board_test_number": "1115",
+  "name": "1115 - Trail K20 to 59 Less Coins in Chests",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
   "outcome_label": null,
-  "is_live": false,
+  "is_live": true,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
+  "audience_source": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": null,
+  "start_date": "2026-11-02",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": null,
-  "conflicts": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/Js3QD",
+   "dashboards": [
+    {
+     "id": 11624537,
+     "title": "1115 - Trail K20 to 59 Less Coins in Chests",
+     "modified": "2026-11-02",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11624537"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1115 is used by 2 board items in Dice Dreams: DICE-1115-trail-double-wheel-better-experience"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/Js3QD"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/backlog_data.js",
+    "ref": "/workspace/pilot/build/live_data.js",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -62,17 +74,18 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
-   "business_question": "backlog snapshot captures name/group/status/owners/dates only",
-   "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
-   "change": "backlog snapshot captures name/group/status/owners/dates only",
-   "audience": "backlog snapshot captures name/group/status/owners/dates only",
-   "control_vs_test": "backlog snapshot captures name/group/status/owners/dates only",
-   "split": "backlog snapshot captures name/group/status/owners/dates only",
-   "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
-   "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
-   "outcome_label": "not started"
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
   }
  },
  "results": [],
@@ -88,19 +101,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «Trail Less coins Yeladim Ktanim». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «1115 - Trail K20 to 59 Less Coins in Chests». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «Trail Less coins Yeladim Ktanim». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «1115 - Trail K20 to 59 Less Coins in Chests». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
       ]
      }
     ],
-    "fingerprint": "9f32d56aa921065d",
+    "fingerprint": "91dbcbd4f74305e2",
     "inputs": {
-     "registry:name": "3c2294eccc629143",
+     "registry:name": "72858a1559473613",
      "generator": "he6-v2"
     }
    },
@@ -116,33 +129,32 @@
       ]
      }
     ],
-    "fingerprint": "6466e13162e753f3",
+    "fingerprint": "231ec2cc5aa4ed9e",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "3c2294eccc629143",
+     "registry:name": "72858a1559473613",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
       ]
      }
     ],
-    "fingerprint": "0e5b16bb0aa9152d",
+    "fingerprint": "1b3b7c741efa9c9b",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "74234e98afe7498f",
+     "registry:start_date": "bb1de3879fc3904d",
      "registry:phases": "4f53cda18c2baa0c",
-     "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
@@ -177,12 +189,12 @@
       ]
      }
     ],
-    "fingerprint": "ba971aca3e191892",
+    "fingerprint": "9d7f98282a1e0496",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "4f53cda18c2baa0c",
-     "expl:limitations": "74234e98afe7498f",
+     "registry:conflicts": "3fe1bb48bab72d6f",
+     "expl:limitations": "6cf56b576f74d00e",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -211,13 +223,136 @@
   ],
   "curated": false
  },
- "explanation_legacy_8q": null,
- "decisions": [],
- "whatsapp": [],
+ "explanation_legacy_8q": {
+  "test_id": "DICE-NOID-trail-less-coins-yeladim-ktanim",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1115 - Trail K20 to 59 Less Coins in Chests",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13334198553",
+     "2026-11-03.md",
+     "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
+ "decisions": [
+  {
+   "decision_id": "DEC-wab_13334198553",
+   "test_id": "DICE-NOID-trail-less-coins-yeladim-ktanim",
+   "game": "Dice Dreams",
+   "name": "1115 - Trail K20 to 59 Less Coins in Chests",
+   "whatsapp_decision_latest": "launched",
+   "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
+   "recommended": [],
+   "board_decision": null,
+   "board_status": "Running",
+   "numbers_quoted": [],
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "conflicts": [],
+   "whatsapp_item_ids": [
+    "wa341"
+   ],
+   "sources": [
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-03.md",
+     "date": "2026-11-02",
+     "time": "18:25",
+     "sender": "Aviram",
+     "item_id": "wa341"
+    },
+    {
+     "type": "monday_item",
+     "ref": "https://superplay.monday.com/boards/9494658232/pulses/13334198553"
+    }
+   ],
+   "verification": "NOT VERIFIED",
+   "null_reasons": {}
+  }
+ ],
+ "whatsapp": [
+  {
+   "id": "wa341",
+   "date": "2026-11-02",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "LAUNCH: Test aligns coins regardless of segment: up to tier 7, coins enough for the price of Kingdom 40. Sanity OK. Dashboard (Mixpanel link)",
+   "file": "2026-11-03.md",
+   "match": "id+name · 100% name tokens"
+  }
+ ],
  "monday_updates_fetched": null,
  "glossary_concepts": [
+  "K (Kingdom)",
   "Trail"
  ],
- "content_fingerprint": "e104a0912642d118582bdd57fa066a69db68a8d88b2ab83efd4f43636a79cd13",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "978f7d1605cea111fa7d1b099b23b9a5519218b3feec4f15dc437a4ed8ff13a3",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }

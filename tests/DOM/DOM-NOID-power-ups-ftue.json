@@ -23,7 +23,7 @@
    "Analyst": "Rotem Hashdi"
   },
   "priority": 5,
-  "planned": null,
+  "planned": "2026-11-09",
   "due": null,
   "added_date": "2026-10-14",
   "type": "FTUE",
@@ -36,23 +36,14 @@
   "audience": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": "2026-11-01",
+  "start_date": "2026-11-09",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
   "mixpanel": null,
-  "conflicts": [
-   {
-    "type": "board",
-    "msg": "group 'Working On' but start date 2026-11-01 has passed"
-   },
-   {
-    "type": "board_live_group",
-    "msg": "Status 'In Planning' but no end date (start 2026-11-01)"
-   }
-  ],
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
@@ -71,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-02",
+  "snapshot_date": "2026-11-03",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -135,21 +126,21 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-01, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-09, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-01, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-09, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13287262026"
       ]
      }
     ],
-    "fingerprint": "61f3f37659fb561e",
+    "fingerprint": "242a22cc1255186b",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "37e17f8cbb204123",
+     "registry:start_date": "dd627efcb5b4f7a5",
      "registry:phases": "4f53cda18c2baa0c",
      "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
@@ -176,22 +167,8 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-01 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-01) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
-     {
-      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-01 has passed",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18416650776/pulses/13287262026"
-      ]
-     },
-     {
-      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-01)",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18416650776/pulses/13287262026"
-      ]
-     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -200,11 +177,11 @@
       ]
      }
     ],
-    "fingerprint": "c9a76093a7f04199",
+    "fingerprint": "ba971aca3e191892",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "68ad4815dc08c571",
+     "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -225,10 +202,7 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [
-   "group 'Working On' but start date 2026-11-01 has passed",
-   "Status 'In Planning' but no end date (start 2026-11-01)"
-  ],
+  "conflicts": [],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -244,6 +218,6 @@
  "glossary_concepts": [
   "FTUE"
  ],
- "content_fingerprint": "ad5adde4efc15a5fd020473e0c1d5a82f424f1020c0fa7e4df6e5f322f0c3759",
- "last_changed_at": "2026-11-02T08:40:18+02:00"
+ "content_fingerprint": "b62afea06ced3e70483701761737a7804fb1e42885eb3cc7482bc9360507aba5",
+ "last_changed_at": "2026-11-03T08:56:12+02:00"
 }
