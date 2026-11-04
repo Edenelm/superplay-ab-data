@@ -15,7 +15,7 @@
   "name": "150%/200% GP on top layer (golden puzzle, blast, golden merge)",
   "lifecycle": "completed_board_only",
   "board_status_raw": null,
-  "board_group": "Backlog",
+  "board_group": "Scrapped",
   "board_decision_raw": null,
   "board_category": "empty",
   "outcome_label": null,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -331,6 +331,6 @@
  "glossary_concepts": [
   "GP"
  ],
- "content_fingerprint": "a841e01ca70cd6f9fc8f17e12692cbcfa4eead93017c5f48c0e543507e803f97",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "1bf53b8dce52eaa17aded1fdb593832a3d13c38e723c878f07515fee54c105bd",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

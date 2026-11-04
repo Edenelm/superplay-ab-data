@@ -86,7 +86,7 @@
   },
   "board_decision_raw": "Deploy",
   "carried_forward": {
-   "since": "2026-11-03",
+   "since": "2026-11-04",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -287,6 +287,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "92839d7e1d2003e810adb08aab96fa5c6c59994b8a487f7d56839153732f14e9",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "857bba86c372d2f29f676b9c09a5f8e3468670bc5a2a178fee809c9ca603eda2",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

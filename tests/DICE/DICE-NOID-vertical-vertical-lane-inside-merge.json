@@ -15,9 +15,9 @@
   "name": "Vertical/Vertical lane inside merge from fragments",
   "lifecycle": "backlog",
   "board_status_raw": null,
-  "board_group": "Backlog",
+  "board_group": "Working on",
   "backlog_substatus": {
-   "Backlog Status": "Backlog"
+   "Backlog Status": "Working On"
   },
   "owners": {
    "Idea Owner": "May Dizitzer"
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "3a6a84c3cf3ea21ea4e01aacec37bf83b93290ec69a165dc84b6616cbb13d49c",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "22cbfe3473656a4569a22ab508c6e39554a47644e938f583ae5c3f50d25677aa",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

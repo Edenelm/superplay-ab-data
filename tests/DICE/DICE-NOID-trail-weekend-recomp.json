@@ -2,65 +2,49 @@
  "test_id": "DICE-NOID-trail-weekend-recomp",
  "game": "Dice Dreams",
  "game_code": "DICE",
- "tier": "live",
- "coverage": "partial",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DICE-NOID-trail-weekend-recomp",
   "legacy_keys": [
-   "live_13235807076"
+   "wab_13235807076"
   ],
   "game": "Dice Dreams",
   "board_item_id": "13235807076",
-  "board_test_number": "—",
-  "name": "Trail Weekend Recomp",
-  "lifecycle": "live",
-  "board_status_raw": "Running",
-  "board_group": "Live",
+  "board_test_number": null,
+  "name": "1114 - Weekend Trail Recomp Test",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Aborted",
+  "board_group": "Completed",
+  "board_decision_raw": "Not implemented",
+  "board_category": "stopped",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
-  "audience_source": null,
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-10-23",
-  "end_date": null,
+  "end_date": "2026-10-23",
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": {
-   "state": "possible",
-   "board_link": "https://mixpanel.com/s/2QJYzQ",
-   "dashboards": [],
-   "possible": [
-    {
-     "id": 11604213,
-     "title": "1114 - Weekend Trail Recomp Test",
-     "modified": "2026-10-25",
-     "url": "https://mixpanel.com/project/2036368/app/boards#id=11604213"
-    }
-   ],
-   "rule": "'possible' matches are never auto-linked"
-  },
+  "mixpanel": null,
   "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
-   },
-   {
-    "label": "Mixpanel board (from Monday)",
-    "url": "https://mixpanel.com/s/2QJYzQ"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/live_data.js",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -69,18 +53,17 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
-   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
-   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
-   "change": "live snapshot captures status/dates/audience only; results tab not read",
-   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
-   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
-   "outcome_label": "test is live; no decision yet",
-   "guardrails": "not designated in source",
-   "audience": "empty on the Monday item",
-   "split": "empty on the Monday item",
-   "end_date": "no end date on board (live)"
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
   }
  },
  "results": [],
@@ -148,10 +131,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | טריגר: recompletion של ה-Trail | התחלה: 2026-10-23 שלב/שינוי בהרצה: 2026-10-08: רעיון ראשוני (2 recompletions בלי משאבים מלבד TE, rolls, boosters; המשאבים עוברים ל-GP). שלב/שינוי בהרצה: התחיל 23/10/2026 12:00 UTC; split של ABTestV2(131,0,65) מול (131,66,130), בערך 50/50 (פרשנות).",
+    "text_he": "קהל: לא נכתב במקור | טריגר: recompletion של ה-Trail | התחלה: 2026-10-23, סיום: 2026-10-23 שלב/שינוי בהרצה: 2026-10-08: רעיון ראשוני (2 recompletions בלי משאבים מלבד TE, rolls, boosters; המשאבים עוברים ל-GP). שלב/שינוי בהרצה: התחיל 23/10/2026 12:00 UTC; split של ABTestV2(131,0,65) מול (131,66,130), בערך 50/50 (פרשנות).",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | טריגר: recompletion של ה-Trail | התחלה: 2026-10-23",
+      "text_he": "קהל: לא נכתב במקור | טריגר: recompletion של ה-Trail | התחלה: 2026-10-23, סיום: 2026-10-23",
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_update:5658682679",
@@ -178,12 +161,13 @@
       ]
      }
     ],
-    "fingerprint": "d2ab5cbeb1ef2ca3",
+    "fingerprint": "952dd5d1fe1498e6",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "973384eff6a5cc45",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "973384eff6a5cc45",
      "curated:audience": "74234e98afe7498f",
      "curated:trigger": "8e57f40d5ecd9a86",
      "curated:phases": "dff7feb2c8107933",
@@ -228,12 +212,12 @@
       ]
      }
     ],
-    "fingerprint": "6cca3ce2514eb80c",
+    "fingerprint": "f8ee6779d3d53de7",
     "inputs": {
      "curated:questions": "d6a8363aa5b694d2",
      "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "4f53cda18c2baa0c",
-     "expl:limitations": "1c9bfa9aecd3bf96",
+     "expl:limitations": "defd8a236ee1e659",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -286,12 +270,10 @@
   "lang": "he",
   "questions": {
    "what_changed": {
-    "text_he": "שם הבדיקה בבורד: Trail Weekend Recomp",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
-    ],
-    "null_reason": null
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
    },
    "why_tested": {
     "text_he": null,
@@ -309,18 +291,20 @@
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
+    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
    },
    "business_meaning": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no results yet"
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: possible",
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
     "tag": "generated_explanation",
     "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13235807076",
+     "2026-10-26.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13235807076"
     ],
     "null_reason": null
@@ -332,7 +316,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: launched",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/13235807076",
@@ -362,12 +346,12 @@
    "decision_id": "DEC-wab_13235807076",
    "test_id": "DICE-NOID-trail-weekend-recomp",
    "game": "Dice Dreams",
-   "name": "Trail Weekend Recomp",
+   "name": "1114 - Weekend Trail Recomp Test",
    "whatsapp_decision_latest": "launched",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": null,
-   "board_status": "Running",
+   "board_decision": "Not implemented",
+   "board_status": "Aborted",
    "numbers_quoted": [],
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
@@ -436,6 +420,6 @@
   "TE",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "6b9fafe82b7d1607252db95b794b35708623558e24de6ee23698ddd709aae202",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "c7e7dda0abb916cfd05aa5bccb9d2de0ddc78855445d6ae68576c21dad043df2",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

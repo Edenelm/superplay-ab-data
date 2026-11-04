@@ -39,7 +39,7 @@
     {
      "id": 11624537,
      "title": "1115 - Trail K20 to 59 Less Coins in Chests",
-     "modified": "2026-11-02",
+     "modified": "2026-11-03",
      "url": "https://mixpanel.com/project/2036368/app/boards#id=11624537"
     }
    ],
@@ -49,7 +49,7 @@
   "conflicts": [
    {
     "type": "duplicate_test_number",
-    "msg": "test number 1115 is used by 2 board items in Dice Dreams: DICE-1115-trail-double-wheel-better-experience"
+    "msg": "test number 1115 is used by 3 board items in Dice Dreams: DICE-1115-trail-double-wheel-better-experience, DICE-NOID-trail-harder"
    }
   ],
   "source_links": [
@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -189,11 +189,11 @@
       ]
      }
     ],
-    "fingerprint": "9d7f98282a1e0496",
+    "fingerprint": "b4971afd1e3191c7",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "3fe1bb48bab72d6f",
+     "registry:conflicts": "a3a551ecdc961301",
      "expl:limitations": "6cf56b576f74d00e",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -353,6 +353,6 @@
   "K (Kingdom)",
   "Trail"
  ],
- "content_fingerprint": "978f7d1605cea111fa7d1b099b23b9a5519218b3feec4f15dc437a4ed8ff13a3",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "ab309230f38b29929c82a3a715e2b277ab288495137336324a844c4e83869f32",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

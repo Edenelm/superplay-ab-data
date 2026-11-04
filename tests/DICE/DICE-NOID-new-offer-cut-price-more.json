@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "Dormants",
   "Churners"
  ],
- "content_fingerprint": "038ac5acf72de4e86bca42cec6cc583b22bcb35861f930f0d0637151fe0c0787",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "4205d5350aa1cc2810795d736ddc182c24baaec64feb35b5ae9b8a89776956ae",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

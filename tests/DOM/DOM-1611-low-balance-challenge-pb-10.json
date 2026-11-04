@@ -49,7 +49,7 @@
   "conflicts": [
    {
     "type": "duplicate_test_number",
-    "msg": "test number 1611 is used by 3 board items in Domino Dreams: DOM-1611-weekly-tasks-harder-tasks, DOM-1611-move-quest-from-level-32"
+    "msg": "test number 1611 is used by 2 board items in Domino Dreams: DOM-1611-move-quest-from-level-32"
    }
   ],
   "source_links": [
@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -229,11 +229,11 @@
       ]
      }
     ],
-    "fingerprint": "e5209dda356725d5",
+    "fingerprint": "0b8d0972d37ae8ea",
     "inputs": {
      "curated:questions": "e5edf378e5475877",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "c70c73cd1522ae01",
+     "registry:conflicts": "3cff3f4040bf9503",
      "expl:limitations": "88b6ac1ced8b9c31",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -430,6 +430,6 @@
   "PB",
   "Low balance"
  ],
- "content_fingerprint": "2b1a8b9e2bd54e04e74f5b0b58932e1f1413d0a46f8dae6cae9c5825e46316a4",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "e16592a80788617da79053339aff0ebf270b03865571435b56360f9d21158e89",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -361,6 +361,6 @@
   "Dormants",
   "DSLP / DFI"
  ],
- "content_fingerprint": "df3072ff590157ad1ac950095c4de69421c832d9419b320e4328290b53523a59",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "d6d87e43d0ce01019a9048f5c75b23eaab61eda90ac435c8c90c8f66e600f6e9",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

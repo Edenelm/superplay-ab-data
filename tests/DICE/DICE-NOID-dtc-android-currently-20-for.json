@@ -64,7 +64,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -221,6 +221,6 @@
   "FTD",
   "DTC"
  ],
- "content_fingerprint": "de65bc9627d8220800b2902e22c36d0dd1ce8c6da5dc2956c0312c94b24b15b9",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "4ad35e8f0176ab4f31c33fa740ae88c6a916a9d933f49ab59b1e9935cc397ab4",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

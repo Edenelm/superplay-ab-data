@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "glossary_concepts": [
   "Push"
  ],
- "content_fingerprint": "a1f98443357c346304e37a1b977122a3770593a5c15b6cc43ba36567066cec29",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "d5fec61eb2bcd49c7c7dc371ba8fb1e82743183b8d3d28accefec5bb802d5061",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

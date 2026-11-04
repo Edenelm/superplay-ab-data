@@ -2,70 +2,49 @@
  "test_id": "DICE-1113-x2-ticks-per-hour-k199",
  "game": "Dice Dreams",
  "game_code": "DICE",
- "tier": "live",
- "coverage": "partial",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DICE-1113-x2-ticks-per-hour-k199",
   "legacy_keys": [
-   "live_13101807895"
+   "wab_13101807895"
   ],
   "game": "Dice Dreams",
   "board_item_id": "13101807895",
-  "board_test_number": "1113",
+  "board_test_number": null,
   "name": "1113 - X2 Ticks Per Hour K199 and under",
-  "lifecycle": "live",
-  "board_status_raw": "Running",
-  "board_group": "Live",
+  "lifecycle": "completed_board_only",
+  "board_status_raw": "Deploy",
+  "board_group": "Completed",
+  "board_decision_raw": "Implemented",
+  "board_category": "deploy",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
-  "audience": "Kingdoms 1–199",
-  "audience_source": "update 2026-09-23",
+  "audience": null,
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-09-23",
-  "end_date": null,
+  "end_date": "2026-11-02",
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": {
-   "state": "matched",
-   "board_link": "https://mixpanel.com/s/2BdvxG",
-   "dashboards": [
-    {
-     "id": 11542811,
-     "title": "1113 - X2 Ticks Per Hour K199 and under",
-     "modified": "2026-11-02",
-     "url": "https://mixpanel.com/project/2036368/app/boards#id=11542811"
-    }
-   ],
-   "possible": [],
-   "rule": "'possible' matches are never auto-linked"
-  },
-  "conflicts": [
-   {
-    "type": "duplicate_test_number",
-    "msg": "test number 1113 is used by 2 board items in Dice Dreams: DICE-1113-limited-stock-offer-recomp"
-   }
-  ],
+  "mixpanel": null,
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
-   },
-   {
-    "label": "Mixpanel board (from Monday)",
-    "url": "https://mixpanel.com/s/2BdvxG"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/live_data.js",
+    "ref": "/workspace/pilot/build/wa_data.js (board row matched to WhatsApp)",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -74,17 +53,17 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
-   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
-   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
-   "change": "live snapshot captures status/dates/audience only; results tab not read",
-   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
-   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
-   "outcome_label": "test is live; no decision yet",
-   "guardrails": "not designated in source",
-   "split": "empty on the Monday item",
-   "end_date": "no end date on board (live)"
+   "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
+   "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
+   "change": "only the board row matched to WhatsApp was captured; results tab not read",
+   "audience": "only the board row matched to WhatsApp was captured; results tab not read",
+   "control_vs_test": "only the board row matched to WhatsApp was captured; results tab not read",
+   "split": "only the board row matched to WhatsApp was captured; results tab not read",
+   "primary_kpi": "only the board row matched to WhatsApp was captured; results tab not read",
+   "guardrails": "only the board row matched to WhatsApp was captured; results tab not read",
+   "outcome_label": "not classified: no results tab read (board decision kept raw in board_decision_raw)"
   }
  },
  "results": [],
@@ -152,10 +131,10 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: קינגדום 1 עד 199 (K199 and under) | טריגר: טיימר רולים חינמיים | התחלה: 2026-09-23 שלב/שינוי בהרצה: 2026-09-23: באותו בוקר הוטמע טסט זהה עבור K200 ומעלה; הטסט הזה הוא ההמשך ל-K1-199.",
+    "text_he": "קהל: קינגדום 1 עד 199 (K199 and under) | טריגר: טיימר רולים חינמיים | התחלה: 2026-09-23, סיום: 2026-11-02 שלב/שינוי בהרצה: 2026-09-23: באותו בוקר הוטמע טסט זהה עבור K200 ומעלה; הטסט הזה הוא ההמשך ל-K1-199.",
     "statements": [
      {
-      "text_he": "קהל: קינגדום 1 עד 199 (K199 and under) | טריגר: טיימר רולים חינמיים | התחלה: 2026-09-23",
+      "text_he": "קהל: קינגדום 1 עד 199 (K199 and under) | טריגר: טיימר רולים חינמיים | התחלה: 2026-09-23, סיום: 2026-11-02",
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_update:5573100614",
@@ -173,12 +152,13 @@
       ]
      }
     ],
-    "fingerprint": "511ae88a0e5ffa3c",
+    "fingerprint": "cc44fc53aaed588b",
     "inputs": {
-     "registry:audience": "ef67b51683415579",
+     "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "203550de69fd3224",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "bb1de3879fc3904d",
      "curated:audience": "5550324c51d99076",
      "curated:trigger": "b087db1918c454ed",
      "curated:phases": "addbd9c73125a50c",
@@ -247,15 +227,15 @@
       ]
      }
     ],
-    "fingerprint": "d348a22e1db37713",
+    "fingerprint": "73f2382650515bfa",
     "inputs": {
      "curated:questions": "b8ffcbdd5fb7bbd4",
      "curated:conflicts": "43dc7d2ccf8fc02e",
-     "registry:conflicts": "edce94350383cace",
-     "expl:limitations": "a3e8541da9e6bf52",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "d03b78b5c984d609",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:audience": "ef67b51683415579",
+     "registry:audience": "74234e98afe7498f",
      "registry:hypothesis": "74234e98afe7498f",
      "generator": "he6-v2",
      "monday_update:5573100614": "a370f6019ae6bd94",
@@ -306,12 +286,10 @@
   "lang": "he",
   "questions": {
    "what_changed": {
-    "text_he": "שם הבדיקה בבורד: 1113 - X2 Ticks Per Hour K199 and under",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
-    ],
-    "null_reason": null
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "change not stated in source"
    },
    "why_tested": {
     "text_he": null,
@@ -320,29 +298,31 @@
     "null_reason": "no business question or hypothesis stated in source"
    },
    "who": {
-    "text_he": "קהל (מהמקור): Kingdoms 1–199",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
-    ],
-    "null_reason": null
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
    },
    "what_happened": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
+    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
    },
    "business_meaning": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no results yet"
+    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
     "tag": "generated_explanation",
     "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
+     "history/dice_business_2026-06-01_to_2026-10-12.md",
+     "2026-11-03.md",
+     "2026-11-03.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
     ],
     "null_reason": null
@@ -359,7 +339,7 @@
     "null_reason": null
    },
    "decided": {
-    "text_he": "בבורד: Running · החלטה אחרונה ב-WhatsApp: deploy (recommended)",
+    "text_he": "בבורד: Deploy · החלטה אחרונה ב-WhatsApp: deploy (recommended)",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
@@ -368,10 +348,7 @@
      "2026-11-03.md",
      "https://superplay.monday.com/boards/9494658232/pulses/13101807895"
     ],
-    "null_reason": null,
-    "conflict": [
-     "WhatsApp 2026-11-02 12:35 (Aviram): 'deploy (recommended)' · board: status Running · decision Implemented · group Live"
-    ]
+    "null_reason": null
    }
   },
   "question_labels_he": {
@@ -401,16 +378,11 @@
     "deploy (recommended)"
    ],
    "board_decision": "Implemented",
-   "board_status": "Running",
+   "board_status": "Deploy",
    "numbers_quoted": [],
    "first_seen": "2026-09-23",
    "last_seen": "2026-11-02",
-   "conflicts": [
-    {
-     "type": "contradicts",
-     "msg": "WhatsApp 2026-11-02 12:35 (Aviram): 'deploy (recommended)' · board: status Running · decision Implemented · group Live"
-    }
-   ],
+   "conflicts": [],
    "whatsapp_item_ids": [
     "wa185",
     "wa334",
@@ -508,6 +480,6 @@
   "K (Kingdom)",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "3e4bd17d32f89e9b922c224f127306c501c3ed864d0f3847703182482602c673",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "43bdd98949391321026461129982248368001d64c0b7e7cfdd9e97942b5f199a",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

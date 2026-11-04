@@ -39,7 +39,7 @@
     {
      "id": 11564764,
      "title": "T125 - Dormant CZ V3",
-     "modified": "2026-11-02",
+     "modified": "2026-11-03",
      "url": "https://mixpanel.com/project/3205636/app/boards#id=11564764"
     }
    ],
@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -354,6 +354,6 @@
   "CZ",
   "DSLP / DFI"
  ],
- "content_fingerprint": "bac999e391fad8053bb22fb391dd96d50c454b1b75bb680c26155babb2b27298",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "9b69341507ba10fd5f496aaa16622ede668562f74dea70de9cecee4c0b1b945c",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

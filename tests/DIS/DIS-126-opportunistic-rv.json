@@ -39,7 +39,7 @@
     {
      "id": 11618725,
      "title": "126 - Opportunistic RV",
-     "modified": "2026-11-02",
+     "modified": "2026-11-03",
      "url": "https://mixpanel.com/project/3205636/app/boards#id=11618725"
     }
    ],
@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -300,6 +300,6 @@
  "glossary_concepts": [
   "RV"
  ],
- "content_fingerprint": "c658f30f0fbaddfb267c2ec1a725824d5f916ee6fe88c31461da93375563c7c7",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "3967befa5e62d93f13075ec36ebc30924e95dbba0bc759aff8719ab261ce1e07",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

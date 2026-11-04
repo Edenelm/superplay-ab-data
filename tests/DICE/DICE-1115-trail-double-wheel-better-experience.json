@@ -49,7 +49,7 @@
   "conflicts": [
    {
     "type": "duplicate_test_number",
-    "msg": "test number 1115 is used by 2 board items in Dice Dreams: DICE-NOID-trail-less-coins-yeladim-ktanim"
+    "msg": "test number 1115 is used by 3 board items in Dice Dreams: DICE-NOID-trail-less-coins-yeladim-ktanim, DICE-NOID-trail-harder"
    }
   ],
   "source_links": [
@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -189,11 +189,11 @@
       ]
      }
     ],
-    "fingerprint": "a69d261f617963aa",
+    "fingerprint": "df287f74a780d7f3",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "c0732541b7ee8e9d",
+     "registry:conflicts": "54bd2a9eb75511c5",
      "expl:limitations": "0d11621974f68de2",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -392,6 +392,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "3e85d7d0c647410d30ead4a9e55051850a75cdf4531c731bcfbd14024b5be488",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "488e2d2062cc0a5b3f75297cd517fddc61b9b43a1024071a3062fe21de2245da",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

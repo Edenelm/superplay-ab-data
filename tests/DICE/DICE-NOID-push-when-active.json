@@ -15,12 +15,13 @@
   "name": "Push when Active",
   "lifecycle": "backlog",
   "board_status_raw": null,
-  "board_group": "Backlog",
+  "board_group": "More Planning",
   "backlog_substatus": {
-   "Backlog Status": "Backlog"
+   "Backlog Status": "More Planning"
   },
   "owners": {
-   "Idea Owner": "Aviram Shwarzbard, Merom Clyman"
+   "Idea Owner": "Aviram Shwarzbard, Merom Clyman",
+   "Analyst": "Aviram Shwarzbard"
   },
   "priority": null,
   "planned": null,
@@ -62,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +219,6 @@
  "glossary_concepts": [
   "Push"
  ],
- "content_fingerprint": "a95426cb7cddda66e04fa2d0dae1027aea9ef8103a048e4ccda61917b819a9f7",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "dca91c07264117dd369a95f05eb36d014befaf8f1d5aaa4abbfbc6f0b9a59b5a",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

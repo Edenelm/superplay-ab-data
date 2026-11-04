@@ -76,7 +76,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -389,6 +389,6 @@
  "glossary_concepts": [
   "CZ"
  ],
- "content_fingerprint": "da2ac755b3e1ff25b74937bc0a664f464af0ede836d8f4de437dc558037df14e",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "fce3ed37403fbfc665f0e74faf00db21bcb7b582d34968c71c0a533163a731b0",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

@@ -1,6 +1,6 @@
 # Glossary (org terms)
 
-Generated 2026-11-03T08:56:41+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
+Generated 2026-11-04T08:53:06+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
 
 | Term | Status | Definition (he) | Games (tests) | Not the same as | Open question |
 |---|---|---|---|---|---|
@@ -22,10 +22,10 @@ Generated 2026-11-03T08:56:41+02:00 from local sources. {'concepts': 58, 'unclea
 | RV | inferred_from_usage | Rewarded Video. ב-Dice יש 'סגמנט RV לא-משלמים', ומשתמש שרוכש יוצא ממנו לתקופה (14 יום בקונטרול של 1110). | DICE:12, DOM:3, DIS:3 | Domino 'RV Mania' ו-Disney 'RV 8box' הם פיצ'רים שונים שמבוססים על RV; הסגמנט של Dice לא בהכרח קיים בהם. | לאשר: RV = Rewarded Video? |
 | DTC | defined_in_source | רכישה ב-web (DTC/Stripe) במקום ב-store. | DICE:9, DOM:4, DIS:2 | — | — |
 | Scare Screen | inferred_from_usage | מסך אזהרה לפני רכישת DTC (Domino 1494: 'Google warning'). | DICE:2, DOM:1 | — | האם זה אותו מסך ב-Dice (1103) וב-Domino (1494)? |
-| DDJ | unclear | — | DICE:3 | — | מה זה DDJ (אירוע MTX ב-Dice)? |
+| DDJ | unclear | — | DICE:4 | — | מה זה DDJ (אירוע MTX ב-Dice)? |
 | PT | unclear | — | DICE:2 | — | מה זה PT ב-Dice? |
 | MTX | inferred_from_usage | צוות ופיצ'רי ה-live-ops (אירועים ומבצעים). 'Test scheduled ... on MTX side' (Domino). | DICE:2, DOM:1, DIS:6 | — | לאשר את ההגדרה. |
-| K (Kingdom) | defined_in_source | Dice: מספר Kingdom (התקדמות). 'X2 Ticks Per Hour K199 and under' = 'עבור קינגדום 1 עד 199'. | DICE:13 | ב-Domino ו-Disney ההתקדמות נמדדת ב-Level, לא ב-K. | — |
+| K (Kingdom) | defined_in_source | Dice: מספר Kingdom (התקדמות). 'X2 Ticks Per Hour K199 and under' = 'עבור קינגדום 1 עד 199'. | DICE:14, DOM:0 | ב-Domino ו-Disney ההתקדמות נמדדת ב-Level, לא ב-K. | — |
 | AD (Active Days) | defined_in_source | Active Days. הפריט '1106 - Remove AD from Segmentation' והדשבורד '1106 - Remove Active Days from Segmentation' מתייחסים לאותו טסט. | DICE:5 | 'RPS AD ECHAD' הוא כנראה צירוף אחר (ECHAD = 'אחד'?), לא בהכרח Active Days. | — |
 | Level | inferred_from_usage | שלב/רמה (Domino ו-Disney). | DICE:1, DOM:10, DIS:16 | ב-Dice ההתקדמות היא K (Kingdom). | — |
 | 3PO | defined_in_source | הצעה עם שלוש נקודות מחיר (למשל FTD 3PO $3/$5/$7). | DICE:1, DOM:0 | — | — |
@@ -39,7 +39,7 @@ Generated 2026-11-03T08:56:41+02:00 from local sources. {'concepts': 58, 'unclea
 | DR | unclear | — | DICE:9, DIS:4 | DRC ב-Disney הוא מונח אחר, לא להניח קשר. | מה זה DR ב-Dice? |
 | DRC | unclear | — | DIS:4 | DR ב-Dice. | מה זה DRC ב-Disney? |
 | TE | unclear | — | DICE:2 | — | מה זה TE ב-Dice? |
-| Rolls / Ticks | defined_in_source | Dice: רולים חינמיים שמתקבלים לפי טיימר. 'X2 Ticks Per Hour' מקצר את הטיימר משעה לחצי שעה, עם אותה כמות רולים בכל איטרציה. | DICE:28, DIS:1 | — | — |
+| Rolls / Ticks | defined_in_source | Dice: רולים חינמיים שמתקבלים לפי טיימר. 'X2 Ticks Per Hour' מקצר את הטיימר משעה לחצי שעה, עם אותה כמות רולים בכל איטרציה. | DICE:29, DIS:1 | — | — |
 | Max Bet | defined_in_source | Dice: ערך ברירת המחדל של ההימור המקסימלי (100 מעל K110+ לפני הטסט 1105). | DICE:1 | — | — |
 | Duel | inferred_from_usage | אירוע של דו-קרבות מול בוטים ('Duel event 1: 4 Duels 5/15/15/15', Dice). | DICE:7, DOM:3, DIS:5 | Duel ב-Domino (1501 Duel vs Tournament Onboarding) וב-Disney (Duel Economy) לא בהכרח באותו מבנה. | מה המשמעות של 5/15/15/15? |
 | Tournament | inferred_from_usage | אירוע טורניר. ב-Dice עוברים ל-Tournament V2 ובודקים שמשחזר את הישן. | DICE:14, DOM:2, DIS:2 | — | — |
@@ -51,7 +51,7 @@ Generated 2026-11-03T08:56:41+02:00 from local sources. {'concepts': 58, 'unclea
 | FU | unclear | — | DICE:4, DOM:2, DIS:4 | — | מה זה FU? האם אותה משמעות בכל משחק? |
 | WR | unclear | — | DOM:1, DIS:7 | — | WR = Win Rate? האם זהה ב-Disney וב-Domino? |
 | ES | unclear | — | DOM:1, DIS:7 | — | ES = Extra Stock? האם אותו דבר ב-Disney? |
-| OOC / OOR | inferred_from_usage | מצב שבו השחקן נגמר לו משאב (Out Of Coins / Out Of Rolls); טריגר להצעה או לפופאפ. | DICE:6, DOM:1, DIS:3 | — | לאשר את ההרחבה (OOR = Out of Rolls?). |
+| OOC / OOR | inferred_from_usage | מצב שבו השחקן נגמר לו משאב (Out Of Coins / Out Of Rolls); טריגר להצעה או לפופאפ. | DICE:7, DOM:1, DIS:3 | — | לאשר את ההרחבה (OOR = Out of Rolls?). |
 | Low balance | unclear | — | DICE:1, DOM:2, DIS:1 | — | מה סף ה-low balance? |
 | DSLP / DFI | unclear | — | DIS:10 | — | DSLP = Days Since Last Purchase? DFI = Days From Install? |
 | Segment split notation | unclear | — | DICE:1 | ABTestV2 (Dice) ו-fn_ABTest (Domino) הן פונקציות שונות. | מה המשמעות של כל פרמטר (מודולו, טווח, salt, דגל)? האם החלוקה ל-50/50 או לשליש נכונה? |

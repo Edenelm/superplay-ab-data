@@ -33,19 +33,13 @@
   "guardrails": null,
   "tags": [],
   "mixpanel": {
-   "state": "ambiguous",
+   "state": "matched",
    "board_link": null,
    "dashboards": [
     {
-     "id": 11604133,
-     "title": "T126 - Olympus Wheel mega",
-     "modified": "2026-10-29",
-     "url": "https://mixpanel.com/project/3205636/app/boards#id=11604133"
-    },
-    {
      "id": 11625539,
-     "title": "T126 - Olympus Wheel mega - Active filter",
-     "modified": "2026-11-02",
+     "title": "T126 - Olympus Wheel mega",
+     "modified": "2026-11-03",
      "url": "https://mixpanel.com/project/3205636/app/boards#id=11625539"
     }
    ],
@@ -76,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -191,12 +185,12 @@
       ]
      }
     ],
-    "fingerprint": "17097e8c135b46d2",
+    "fingerprint": "93c00f7dfb32aaad",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
      "registry:conflicts": "74c028b6d531c274",
-     "expl:limitations": "758c93f154f15546",
+     "expl:limitations": "0d3e364299b2f96e",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -263,7 +257,7 @@
     "null_reason": "no results yet"
    },
    "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: ambiguous",
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
     "tag": "generated_explanation",
     "source_refs": [
      "https://superplay.monday.com/boards/18435634714/pulses/13435654351"
@@ -304,6 +298,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "a5724664c1cacfffd57184c38accf4467c4a54f8fdb1bdd5a10a13188a7c85ad",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "5f8b2c2d02b36d902d31832a589417d00d5289aa04ed2dc1ded2a2848df65ff8",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

@@ -1,7 +1,7 @@
 {
  "dataset": "game_events",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-03T08:56:41+02:00",
+ "generated_at": "2026-11-04T08:53:06+02:00",
  "timezone": "mixed: each record carries date_timezone (board dates as stored, WhatsApp Asia/Jerusalem, BigQuery UTC); not converted",
  "rules": [
   "no guessed dates: a missing date is null with null_reasons",
@@ -66,11 +66,11 @@
    "game": "Dice Dreams",
    "category": "album",
    "status": "ok_pending_approval",
-   "events": 29,
-   "events_with_start_date": 29,
+   "events": 30,
+   "events_with_start_date": 30,
    "by_verification": {
     "bigquery_dbt": 22,
-    "whatsapp_unverified": 5,
+    "whatsapp_unverified": 6,
     "board": 2
    },
    "calendar_source": "dice-dreams-dbt.20_core.dim_album_season",
@@ -131,11 +131,11 @@
    "game": "Dice Dreams",
    "category": "ab_test",
    "status": "ok",
-   "events": 274,
-   "events_with_start_date": 274,
+   "events": 275,
+   "events_with_start_date": 275,
    "by_verification": {
     "board": 175,
-    "whatsapp_unverified": 99
+    "whatsapp_unverified": 100
    },
    "calendar_source": "Monday board test windows",
    "eden_to_provide": [],
@@ -207,11 +207,11 @@
    "game": "Domino Dreams",
    "category": "ab_test",
    "status": "ok",
-   "events": 615,
-   "events_with_start_date": 615,
+   "events": 617,
+   "events_with_start_date": 617,
    "by_verification": {
     "board": 599,
-    "whatsapp_unverified": 16
+    "whatsapp_unverified": 18
    },
    "calendar_source": "Monday board test windows",
    "eden_to_provide": [],
@@ -350,15 +350,15 @@
   ]
  },
  "counts": {
-  "records": 1330,
+  "records": 1334,
   "by_game": {
-   "Dice Dreams": 368,
-   "Domino Dreams": 641,
+   "Dice Dreams": 370,
+   "Domino Dreams": 643,
    "Disney Solitaire": 321
   },
   "by_source": {
    "monday": 1102,
-   "whatsapp": 191,
+   "whatsapp": 195,
    "bigquery": 37
   }
  },
@@ -8033,7 +8033,7 @@
    },
    "announced_on": "2026-08-03",
    "wa_decision": "launched",
-   "related_board_item": null,
+   "related_board_item": "13451314921",
    "scope": "unknown"
   },
   {
@@ -11166,7 +11166,7 @@
    },
    "announced_on": "2026-10-12",
    "wa_decision": "launched",
-   "related_board_item": null,
+   "related_board_item": "13115158014",
    "scope": "unknown"
   },
   {
@@ -12689,6 +12689,70 @@
     "end_date": "end not stated in the launch message"
    },
    "announced_on": "2026-11-02",
+   "wa_decision": "launched",
+   "related_board_item": null,
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-a7c2d3e16148",
+   "game": "Dice Dreams",
+   "category": "ab_test",
+   "event_kind": "launch_message",
+   "name": "Pet Seg 7 No Hakla",
+   "start_date": "2026-11-03",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa344",
+    "url": null,
+    "file": "whatsapp/2026-11-04.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-03",
+   "wa_decision": "launched",
+   "related_board_item": null,
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-f5ed6deef75e",
+   "game": "Dice Dreams",
+   "category": "album",
+   "event_kind": "launch_message",
+   "name": "1114 - more value onboarding offers",
+   "start_date": "2026-11-03",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa346",
+    "url": null,
+    "file": "whatsapp/2026-11-04.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-03",
    "wa_decision": "launched",
    "related_board_item": null,
    "scope": "unknown"
@@ -45020,6 +45084,70 @@
     "end": "2026-11-26"
    },
    "scope": "test_population"
+  },
+  {
+   "event_id": "EV-8f53444b7966",
+   "game": "Domino Dreams",
+   "category": "ab_test",
+   "event_kind": "launch_message",
+   "name": "Social Kingdom Bots",
+   "start_date": "2026-11-03",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Domino Business",
+    "item_id": "wa345",
+    "url": null,
+    "file": "whatsapp/2026-11-04.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-03",
+   "wa_decision": "launched",
+   "related_board_item": "12358758065",
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-9498764fee6b",
+   "game": "Domino Dreams",
+   "category": "ab_test",
+   "event_kind": "launch_message",
+   "name": "1611 - Superboost",
+   "start_date": "2026-11-03",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Domino Business",
+    "item_id": "wa342",
+    "url": null,
+    "file": "whatsapp/2026-11-04.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-03",
+   "wa_decision": "launched",
+   "related_board_item": "13300790267",
+   "scope": "unknown"
   },
   {
    "event_id": "EV-d0a8d06665d3",

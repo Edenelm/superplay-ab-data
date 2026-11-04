@@ -15,9 +15,9 @@
   "name": "Album end period - push hard to FU only the PU",
   "lifecycle": "backlog",
   "board_status_raw": null,
-  "board_group": "Backlog",
+  "board_group": "More Planning",
   "backlog_substatus": {
-   "Backlog Status": "Backlog"
+   "Backlog Status": "More Planning"
   },
   "owners": {
    "Idea Owner": "Ron Kreinin"
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -220,6 +220,6 @@
   "FU",
   "Push"
  ],
- "content_fingerprint": "9db7241f9ed721663f4ba982c0616b6edc7d2383fbe3e2bdead2ad9f23096b7e",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "f096f7be5cdd8d664d472107f5da76a2838a0da258154b0b370aeb4617b909ee",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

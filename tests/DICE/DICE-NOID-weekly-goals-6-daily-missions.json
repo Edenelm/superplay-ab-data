@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Weekly Goals"
  ],
- "content_fingerprint": "71b2e68aa7b61a07ea996bdd31547bcb6b28dce92f762087e203c8525bd6d574",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "73d63a4e0f4a91c868243d8866b574680b78f63b12e6380b186c98fa6c3fe099",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

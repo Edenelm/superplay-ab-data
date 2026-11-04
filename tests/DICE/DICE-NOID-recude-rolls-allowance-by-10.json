@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -73,6 +73,13 @@
    "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
    "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
    "outcome_label": "not started"
+  },
+  "carried_forward": {
+   "since": "2026-11-04",
+   "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": null,
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -218,6 +225,6 @@
  "glossary_concepts": [
   "Rolls / Ticks"
  ],
- "content_fingerprint": "89b53089596b030bfaa2459beef1947dbc75b4f426f49b753dbbafca9406acdb",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "4c7f46a011b059b47b07f7646efe113d0f86cf0a73d6a98ea02add8ee6c0f8aa",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

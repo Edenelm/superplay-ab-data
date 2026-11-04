@@ -58,7 +58,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -388,6 +388,6 @@
  "glossary_concepts": [
   "Churners"
  ],
- "content_fingerprint": "d4468076b5c5d483897b38d0b50e33bc5dd46d6d40e78f5a4f3b61ae4640c9cd",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "0bf7f65be8325cc0780bf7c2982abadc061e86bbbaad35629406cfae1dbaed0e",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

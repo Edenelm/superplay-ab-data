@@ -39,7 +39,7 @@
     {
      "id": 11608929,
      "title": "1611 - Move quest from level 32 to 200 (FTUE)",
-     "modified": "2026-10-30",
+     "modified": "2026-11-03",
      "url": "https://mixpanel.com/project/2735821/app/boards#id=11608929"
     }
    ],
@@ -56,7 +56,7 @@
   "conflicts": [
    {
     "type": "duplicate_test_number",
-    "msg": "test number 1611 is used by 3 board items in Domino Dreams: DOM-1611-weekly-tasks-harder-tasks, DOM-1611-low-balance-challenge-pb-10"
+    "msg": "test number 1611 is used by 2 board items in Domino Dreams: DOM-1611-low-balance-challenge-pb-10"
    }
   ],
   "source_links": [
@@ -81,7 +81,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -213,11 +213,11 @@
       ]
      }
     ],
-    "fingerprint": "a0720229e53be713",
+    "fingerprint": "880ad5bf92708c2e",
     "inputs": {
      "curated:questions": "b4cf687e1fa0628c",
      "curated:conflicts": "4f53cda18c2baa0c",
-     "registry:conflicts": "9b059f65e2a9314d",
+     "registry:conflicts": "2bdaef69d06e99aa",
      "expl:limitations": "3d87e46ab1bb4997",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -389,6 +389,6 @@
   "FTUE",
   "Level"
  ],
- "content_fingerprint": "928e945206fdeee5afd3628de3db372a375bc522c50d565b6beb9dcb04b1913d",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "f8717b06f3b965116036933ed6d5e5373a067079d77b3f755fdffff578802c09",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

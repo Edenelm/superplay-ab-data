@@ -15,7 +15,7 @@
   "name": "Puzzle and golden merge tipulim",
   "lifecycle": "completed_board_only",
   "board_status_raw": "Deploy",
-  "board_group": "Live",
+  "board_group": "Completed",
   "board_decision_raw": "Implemented",
   "board_category": "deploy",
   "outcome_label": null,
@@ -34,12 +34,7 @@
   "guardrails": null,
   "tags": [],
   "mixpanel": null,
-  "conflicts": [
-   {
-    "type": "board_live_group",
-    "msg": "In 'Live' group but status 'Deploy', no dates"
-   }
-  ],
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
@@ -58,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -163,15 +158,8 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): In 'Live' group but status 'Deploy', no dates חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
-     {
-      "text_he": "סתירה (מהמקור): In 'Live' group but status 'Deploy', no dates",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/9494658232/pulses/13288288779"
-      ]
-     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -180,11 +168,11 @@
       ]
      }
     ],
-    "fingerprint": "516bd600e08e78a6",
+    "fingerprint": "f125b4fb0e853cfe",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "bb17ffdc654d59a3",
+     "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "8ed6f37c11655964",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -205,9 +193,7 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [
-   "In 'Live' group but status 'Deploy', no dates"
-  ],
+  "conflicts": [],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -361,6 +347,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "36aac871eda7bb0c6851794742798ea773a86b8cdfe76dca918a742b2b26910a",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "7621313bb5ff7c9220d9abb4d12c1ae23ad4c4ed3662d6ef202b58aa6e1f60b2",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

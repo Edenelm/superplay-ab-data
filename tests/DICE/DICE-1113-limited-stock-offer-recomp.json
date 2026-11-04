@@ -71,12 +71,7 @@
    "Pricing / offers"
   ],
   "mixpanel": null,
-  "conflicts": [
-   {
-    "type": "duplicate_test_number",
-    "msg": "test number 1113 is used by 2 board items in Dice Dreams: DICE-1113-x2-ticks-per-hour-k199"
-   }
-  ],
+  "conflicts": [],
   "source_links": [
    {
     "label": "Results tab v4 (final): 1113- limited stock as 0.8cz offer v4",
@@ -1254,11 +1249,11 @@
       ]
      }
     ],
-    "fingerprint": "2ae8b123c7e80ae9",
+    "fingerprint": "ffa92511a3181c45",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "0c1ede57e1439f1d",
+     "registry:conflicts": "4f53cda18c2baa0c",
      "expl:limitations": "aca1b5807015c965",
      "registry:change": "5f757da711422370",
      "registry:control_vs_test": "aca5ef7d014ed62a",
@@ -1450,6 +1445,6 @@
   "K (Kingdom)",
   "Recompletion"
  ],
- "content_fingerprint": "9be75ea286e46504daeaaa0393a50a1f77413fb8dc2d986be10640678f5fb83a",
- "last_changed_at": "2026-11-02T16:29:03+02:00"
+ "content_fingerprint": "eef1aacb065cad308a83e8a98fc4118d8f942c6ee9ebf09c369cd7bb5061ac4d",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

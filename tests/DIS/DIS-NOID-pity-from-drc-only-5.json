@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "DRC",
   "Pity"
  ],
- "content_fingerprint": "06f2600d86a5d13057d10d4ae1e6b393e84b949fcf544499cb1a7929b0bd7a42",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "7bb742463d471fd860646861bff46fa4135dd3ce0f3fff01714f9c76e9404385",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "CZ",
   "8 Box"
  ],
- "content_fingerprint": "c43b0594aac7a50421f79b98d36e458df434567eacff1651aac3ae5dc23e5f74",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "266dee721a90b59571c76a25dd4cb4174a90481603e3849b2d205f5f7ad9d227",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

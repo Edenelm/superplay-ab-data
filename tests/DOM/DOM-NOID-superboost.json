@@ -71,7 +71,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -200,12 +200,12 @@
       ]
      }
     ],
-    "fingerprint": "87297eb99479b102",
+    "fingerprint": "2d3baa7ca514e9cf",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
      "registry:conflicts": "7b8ae48768aaf777",
-     "expl:limitations": "2f860eb2dfd6f452",
+     "expl:limitations": "fee957a02ec5bc23",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -278,6 +278,7 @@
     "source_refs": [
      "https://superplay.monday.com/boards/18416650776/pulses/13300790267",
      "2026-10-26.md",
+     "2026-11-04.md",
      "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
     ],
     "null_reason": null
@@ -294,6 +295,7 @@
     "source_refs": [
      "https://superplay.monday.com/boards/18416650776/pulses/13300790267",
      "2026-10-26.md",
+     "2026-11-04.md",
      "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
     ],
     "null_reason": null
@@ -327,10 +329,11 @@
    "board_status": "In Planning",
    "numbers_quoted": [],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-11-03",
    "conflicts": [],
    "whatsapp_item_ids": [
-    "wa290"
+    "wa290",
+    "wa342"
    ],
    "sources": [
     {
@@ -340,6 +343,14 @@
      "time": "17:11",
      "sender": null,
      "item_id": "wa290"
+    },
+    {
+     "type": "whatsapp_export",
+     "ref": "2026-11-04.md",
+     "date": "2026-11-03",
+     "time": "13:28",
+     "sender": "Brody Tal",
+     "item_id": "wa342"
     },
     {
      "type": "monday_item",
@@ -360,10 +371,20 @@
    "text": "Mode 6, min level 750",
    "file": "2026-10-26.md",
    "match": "name · 100% name tokens"
+  },
+  {
+   "id": "wa342",
+   "date": "2026-11-03",
+   "kind": "test",
+   "decision": "launched",
+   "nums": [],
+   "text": "שחקנים בשלב 750+ עם באלנס גדול מ100 יקבלו סופר בוסט לשעה, ויוכלו לשחק על מולטיפלייר 25 *לסופר בוסט cooldown של 48 שעות (Mixpanel link)",
+   "file": "2026-11-04.md",
+   "match": "name · 100% name tokens"
   }
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "d17e7673e3551993ed02e75ae59b750799ed7fa778bf1315e7e93c320dd1198f",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "93f9b72575dc3bf7120596d056dda7133991c1628ace3db8862c3fbacd8cb785",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

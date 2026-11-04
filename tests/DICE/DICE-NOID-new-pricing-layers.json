@@ -15,9 +15,9 @@
   "name": "New Pricing Layers",
   "lifecycle": "backlog",
   "board_status_raw": null,
-  "board_group": "Backlog",
+  "board_group": "More Planning",
   "backlog_substatus": {
-   "Backlog Status": "Backlog"
+   "Backlog Status": "More Planning"
   },
   "owners": {
    "Idea Owner": "Or Moshe"
@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "06908fd48b68392039a18738bfcf6990146d4e19b7ce13ca0947efd2531a4540",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "b6c0d4e23c6d532735f3fedf1b6f16b0700118d38cb095b6ca993ea418da6b46",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

@@ -1,9 +1,9 @@
 {
  "dataset": "whatsapp_items",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-03T08:56:41+02:00",
+ "generated_at": "2026-11-04T08:53:06+02:00",
  "timezone": "Asia/Jerusalem",
- "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 02.11.2026 · images/PDFs not read",
+ "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 03.11.2026 · images/PDFs not read",
  "caveats": {
   "2026-10-26.md": [
    "Images, dashboard screenshots and PDFs were not read (incl. the T124 Anti Fraud PDF); long summaries cut at \"Read more\" were not expanded.",
@@ -30,6 +30,14 @@
    "Disney Business 02.11 14:40 album analysis link and 17:53 Moral \"הכובען עלה לטק\" (unclear if a test) not counted.",
    "Dream Pass 15 Tiers: the WhatsApp message says no difficulty/reward change, while the board item name is 'DP 15 Tiers , easier first 6 tiers' — matched by name only.",
    "Mixpanel links, the T124 closure PDF and media were not opened."
+  ],
+  "2026-11-04.md": [
+   "Dice Business 03.11 17:21–17:22 (Guy Perez, attribution uncertain): DDJ revenue looks very low vs the previous day (\"ה-DDJ ממש ממש נמוך מאתמול … יכולים לבדוק שעלה כמו שצריך? שלא בטעות נשארו סגמנטי טסט נגיד?\") — no test named, not attached to a test.",
+   "Pet Seg 7 No Hakla: no board item with this name; the board's 'Harder Pet segment 7 - Reduce rolls from chests' is a different treatment, so not linked.",
+   "Domino 1611 Superboost: WhatsApp says launched on 03.11 while the board still shows 'In Planning' in 'Working On' (already flagged as a board conflict: start date passed).",
+   "Sender attributions marked 'uncertain' follow the collector extract; senders shown only by number were not recorded.",
+   "Domino Business 03.11 14:22 Inbar onboarding/analysis resource site not counted.",
+   "Mixpanel links and media were not opened."
   ],
   "history/dice_business_2026-06-01_to_2026-10-12.md": [
    "Dice Business – WhatsApp history extract 01.06.2026–12.10.2026 (read-only, captured 26.10.2026 ~13:10 Asia/Jerusalem)",
@@ -825,13 +833,6 @@
      "name": "Vertical/Vertical lane inside trail",
      "item": "12658244347",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12658244347",
-     "status": null,
-     "group": "Backlog"
-    },
-    {
-     "name": "Vertical/Vertical lane inside merge from fragments",
-     "item": "13355978663",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13355978663",
      "status": null,
      "group": "Backlog"
     }
@@ -1870,11 +1871,11 @@
      "group": "Backlog"
     },
     {
-     "name": "Vertical/Vertical lane inside merge from fragments",
-     "item": "13355978663",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13355978663",
-     "status": null,
-     "group": "Backlog"
+     "name": "1107 - Last Chance Popup in Vertical Lane",
+     "item": "11524893672",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/11524893672",
+     "status": "Deploy",
+     "group": "Completed"
     }
    ],
    "posted": null,
@@ -2524,8 +2525,8 @@
    "text": "Relaunch 50/50",
    "file": "history/dice_business_2026-06-01_to_2026-10-12.md",
    "kind": "test",
-   "match": "no board item with a matching name",
-   "board_item": null,
+   "match": "name · 100% name tokens",
+   "board_item": "13451314921",
    "poss": [],
    "posted": null,
    "note": null
@@ -2876,17 +2877,17 @@
      "group": "Backlog"
     },
     {
-     "name": "1113 - limited stock offer recomp",
-     "item": "10880018146",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
-     "status": "Deploy",
-     "group": "Live"
-    },
-    {
      "name": "1109 - limited stock launch, stock progression test",
      "item": "12406508067",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12406508067",
      "status": "Running",
+     "group": "Completed"
+    },
+    {
+     "name": "1113 - limited stock offer recomp",
+     "item": "10880018146",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/10880018146",
+     "status": "Deploy",
      "group": "Completed"
     }
    ],
@@ -3857,16 +3858,16 @@
    "board_item": null,
    "poss": [
     {
-     "name": "1113 - X2 Ticks Per Hour K199 and under",
-     "item": "13101807895",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
-     "status": "Running",
-     "group": "Live"
-    },
-    {
      "name": "1112 - X2 Ticks Per Hour",
      "item": "12395466704",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12395466704",
+     "status": "Deploy",
+     "group": "Completed"
+    },
+    {
+     "name": "1113 - X2 Ticks Per Hour K199 and under",
+     "item": "13101807895",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
      "status": "Deploy",
      "group": "Completed"
     }
@@ -4206,16 +4207,16 @@
    "board_item": null,
    "poss": [
     {
-     "name": "1113 - X2 Ticks Per Hour K199 and under",
-     "item": "13101807895",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
-     "status": "Running",
-     "group": "Live"
-    },
-    {
      "name": "1112 - X2 Ticks Per Hour",
      "item": "12395466704",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12395466704",
+     "status": "Deploy",
+     "group": "Completed"
+    },
+    {
+     "name": "1113 - X2 Ticks Per Hour K199 and under",
+     "item": "13101807895",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/13101807895",
      "status": "Deploy",
      "group": "Completed"
     }
@@ -4403,7 +4404,7 @@
      "item": "13288288779",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/13288288779",
      "status": "Deploy",
-     "group": "Live"
+     "group": "Completed"
     }
    ],
    "posted": null,
@@ -4698,7 +4699,7 @@
      "item": "12771110929",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12771110929",
      "status": null,
-     "group": "Backlog"
+     "group": "Scrapped"
     }
    ],
    "posted": null,
@@ -5007,7 +5008,7 @@
      "name": "1611 - Weekly tasks harder tasks",
      "item": "13323321333",
      "url": "https://superplay.monday.com/boards/18416650776/pulses/13323321333",
-     "status": "Live",
+     "status": "In Analysis",
      "group": "Live"
     },
     {
@@ -5271,7 +5272,7 @@
      "name": "1611 - Weekly tasks harder tasks",
      "item": "13323321333",
      "url": "https://superplay.monday.com/boards/18416650776/pulses/13323321333",
-     "status": "Live",
+     "status": "In Analysis",
      "group": "Live"
     }
    ],
@@ -5417,8 +5418,8 @@
    "text": "DDJ removed for 50% until 15th",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "ambiguous: 2 board items fit the name equally",
-   "board_item": null,
+   "match": "name · 2 name ties, picked the only one that ran recently",
+   "board_item": "13115158014",
    "poss": [
     {
      "name": "Removing ddj for low tier devices",
@@ -5426,13 +5427,6 @@
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12336123148",
      "status": null,
      "group": "Backlog"
-    },
-    {
-     "name": "Remove DDJ/HR Offers",
-     "item": "13115158014",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13115158014",
-     "status": null,
-     "group": "Live"
     }
    ],
    "posted": null,
@@ -5566,7 +5560,7 @@
      "name": "1611 - Weekly tasks harder tasks",
      "item": "13323321333",
      "url": "https://superplay.monday.com/boards/18416650776/pulses/13323321333",
-     "status": "Live",
+     "status": "In Analysis",
      "group": "Live"
     }
    ],
@@ -6189,8 +6183,8 @@
    "text": "no-DDJ 50%→25%; iter 1 lost money",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "ambiguous: 2 board items fit the name equally",
-   "board_item": null,
+   "match": "name · 2 name ties, picked the only one that ran recently",
+   "board_item": "13115158014",
    "poss": [
     {
      "name": "Removing ddj for low tier devices",
@@ -6198,13 +6192,6 @@
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12336123148",
      "status": null,
      "group": "Backlog"
-    },
-    {
-     "name": "Remove DDJ/HR Offers",
-     "item": "13115158014",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13115158014",
-     "status": null,
-     "group": "Live"
     }
    ],
    "posted": null,
@@ -6341,8 +6328,8 @@
    "text": "still losing; \"מחר נחזיר את הDDJ לכולם\"",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "ambiguous: 2 board items fit the name equally",
-   "board_item": null,
+   "match": "name · 2 name ties, picked the only one that ran recently",
+   "board_item": "13115158014",
    "poss": [
     {
      "name": "Removing ddj for low tier devices",
@@ -6350,13 +6337,6 @@
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12336123148",
      "status": null,
      "group": "Backlog"
-    },
-    {
-     "name": "Remove DDJ/HR Offers",
-     "item": "13115158014",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13115158014",
-     "status": null,
-     "group": "Live"
     }
    ],
    "posted": null,
@@ -6524,7 +6504,7 @@
      "name": "1611 - Weekly tasks harder tasks",
      "item": "13323321333",
      "url": "https://superplay.monday.com/boards/18416650776/pulses/13323321333",
-     "status": "Live",
+     "status": "In Analysis",
      "group": "Live"
     }
    ],
@@ -6617,8 +6597,8 @@
    "text": "one more iteration, 25%, K90+",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "ambiguous: 2 board items fit the name equally",
-   "board_item": null,
+   "match": "name · 2 name ties, picked the only one that ran recently",
+   "board_item": "13115158014",
    "poss": [
     {
      "name": "Removing ddj for low tier devices",
@@ -6626,13 +6606,6 @@
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12336123148",
      "status": null,
      "group": "Backlog"
-    },
-    {
-     "name": "Remove DDJ/HR Offers",
-     "item": "13115158014",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13115158014",
-     "status": null,
-     "group": "Live"
     }
    ],
    "posted": null,
@@ -6983,8 +6956,8 @@
    "text": "\"מפסיד משמעותית עדיין בכל המדדים\"; DDJ back to all today",
    "file": "2026-10-26.md",
    "kind": "test",
-   "match": "ambiguous: 2 board items fit the name equally",
-   "board_item": null,
+   "match": "name · 2 name ties, picked the only one that ran recently",
+   "board_item": "13115158014",
    "poss": [
     {
      "name": "Removing ddj for low tier devices",
@@ -6992,13 +6965,6 @@
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12336123148",
      "status": null,
      "group": "Backlog"
-    },
-    {
-     "name": "Remove DDJ/HR Offers",
-     "item": "13115158014",
-     "url": "https://superplay.monday.com/boards/9494658232/pulses/13115158014",
-     "status": null,
-     "group": "Live"
     }
    ],
    "posted": null,
@@ -7782,6 +7748,109 @@
    "match": "id+name · 100% name tokens",
    "board_item": "13334198553",
    "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa342",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-03",
+   "time": "13:28",
+   "sender": "Brody Tal",
+   "test": "1611 - Superboost",
+   "decision": "launched",
+   "nums": [],
+   "text": "שחקנים בשלב 750+ עם באלנס גדול מ100 יקבלו סופר בוסט לשעה, ויוכלו לשחק על מולטיפלייר 25 *לסופר בוסט cooldown של 48 שעות (Mixpanel link)",
+   "file": "2026-11-04.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "13300790267",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa343",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-03",
+   "time": "16:42",
+   "sender": "~Amit (attribution uncertain)",
+   "test": "Pet Seg 7 No Hakla",
+   "decision": null,
+   "nums": [],
+   "text": "אנחנו רואים שבטסט יוזרים חזקים שהתחילו את הפט כבר מתקדמים מאוד כי מה הם לא מקבלים בכלל את ההקשחות אז הם עלולים לסיים מאוד מוקדם את הפט. אני רוצה שכן יוזרים בסגמנט 7 בטסט יקבלו הקשחות פשוט שנוריד להם את ההקלות (Saar 16:44: מסכים; Guy Perez 16:46: הייתי בטוח שזה הטסט / רק על ההקלות)",
+   "file": "2026-11-04.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa344",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-03",
+   "time": "16:47",
+   "sender": "Saar (attribution uncertain)",
+   "test": "Pet Seg 7 No Hakla",
+   "decision": "launched",
+   "nums": [],
+   "text": "חוב מאתמול #2 - עלינו עם טסט - Pet Seg 7 No Hakla / יוזרים שבסגמנט 7 (עונה ראשונה שלהם) - לא יקבלו הקקלות/הקשחות במהלך העונה. (Mixpanel link) (same minute: \"No hakala\", \"אבל מסכים בכל מקרה\", possibly ~Amit)",
+   "file": "2026-11-04.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa345",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-03",
+   "time": "17:11",
+   "sender": "רתם חשדי",
+   "test": "Social Kingdom Bots",
+   "decision": "launched",
+   "nums": [],
+   "text": "עלה היום הקינגדום עם בוטים בטסט מול הקווסט מצרפת דשבורד (Mixpanel link)",
+   "file": "2026-11-04.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "12358758065",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa346",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-03",
+   "time": "17:38",
+   "sender": "Amir Harush",
+   "test": "1114 - more value onboarding offers",
+   "decision": "launched",
+   "nums": [],
+   "text": "שינוי בשלוש הצעות ב K3-8 (1+1,AlbumGrandOffer,RoyalOffer) קבוצת הטסט קיבלה x2 רולים בכל שלושת ההצעות בנוסף יותר קויינס ב 1+1 (תוספת של 60%) ב AlbumGrandOffer (תוספת של 90%) ב RoyalOffer (תוספת של 50 טרייל אנרג׳י). המחיר של ההצעות לא השתנה. סניטי תקין ברמת קבלת הקמפיינים, ברגע שירכשו את ההקמפיינים תבדק גם כמות הרולים המתקבלת (Mixpanel link)",
+   "file": "2026-11-04.md",
+   "kind": "test",
+   "match": "weak: only a partial name match to a board idea with no status/start",
+   "board_item": null,
+   "poss": [
+    {
+     "name": "New Offer - Cut Price + More Value (dormants/churn)",
+     "item": "18199171417",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/18199171417",
+     "status": null,
+     "group": "Backlog"
+    }
+   ],
    "posted": null,
    "note": null
   },

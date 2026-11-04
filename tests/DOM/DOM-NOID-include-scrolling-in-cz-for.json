@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -217,6 +217,6 @@
   "Dormants",
   "CZ"
  ],
- "content_fingerprint": "c1dd88a3106081a19a79913864dd108b867420686363893ddd094f2179ad54df",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "755b1abfcbf30a83d88450213ddd06b62ce346265d88a72568d55c22e24fb4f9",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

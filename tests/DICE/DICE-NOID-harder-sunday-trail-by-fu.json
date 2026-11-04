@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "Trail",
   "FU"
  ],
- "content_fingerprint": "25ccd6e4351bb995f10f2e39089a05fd26630367532aebdfd44fe5ed2c66d9cb",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "277534e0f2bf6a6b3818b28b5c622dc787d1beb692f08ef9391f06078e8b823d",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

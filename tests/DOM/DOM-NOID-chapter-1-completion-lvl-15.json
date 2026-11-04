@@ -24,7 +24,7 @@
    "Analyst": "Brody Tal"
   },
   "priority": 5,
-  "planned": "2026-11-04",
+  "planned": null,
   "due": null,
   "added_date": "2026-10-20",
   "type": "FTUE",
@@ -44,7 +44,16 @@
   "guardrails": null,
   "tags": [],
   "mixpanel": null,
-  "conflicts": [],
+  "conflicts": [
+   {
+    "type": "board",
+    "msg": "group 'Working On' but start date 2026-11-04 has passed"
+   },
+   {
+    "type": "board_live_group",
+    "msg": "Status 'In Planning' but no end date (start 2026-11-04)"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
@@ -63,7 +72,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -168,8 +177,22 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-04 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-04) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
+     {
+      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-04 has passed",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13339561713"
+      ]
+     },
+     {
+      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-04)",
+      "tag": "explicit_in_source",
+      "source_refs": [
+       "https://superplay.monday.com/boards/18416650776/pulses/13339561713"
+      ]
+     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -178,11 +201,11 @@
       ]
      }
     ],
-    "fingerprint": "ba971aca3e191892",
+    "fingerprint": "86b42922205612dc",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "4f53cda18c2baa0c",
+     "registry:conflicts": "c3d7f99a3a9e15c5",
      "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -203,7 +226,10 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [],
+  "conflicts": [
+   "group 'Working On' but start date 2026-11-04 has passed",
+   "Status 'In Planning' but no end date (start 2026-11-04)"
+  ],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -220,6 +246,6 @@
   "FTUE",
   "Level"
  ],
- "content_fingerprint": "7bc57928bd1aace402c67c54dddba80ea53348f485910e3a763a728b52ee6511",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "6325bdf66d7845ea2019532597d9defde258dab4de6606edb7a611a514451d60",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

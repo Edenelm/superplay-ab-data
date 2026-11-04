@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -357,6 +357,6 @@
   "K (Kingdom)",
   "Max Bet"
  ],
- "content_fingerprint": "d288311aabaccbfda7dadf478306a8156a1a5630d73482e27511d134335d2ecc",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "438628a7c99982f4f18a00c465948860b63fa0c0b0242e3adc1035ff4d2fbc70",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

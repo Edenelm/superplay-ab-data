@@ -2,58 +2,70 @@
  "test_id": "DICE-NOID-trail-harder",
  "game": "Dice Dreams",
  "game_code": "DICE",
- "tier": "backlog",
- "coverage": "stub",
+ "tier": "live",
+ "coverage": "unclear",
  "registry": {
   "test_id": "DICE-NOID-trail-harder",
   "legacy_keys": [
-   "bl_13334186879"
+   "live_13334186879"
   ],
   "game": "Dice Dreams",
   "board_item_id": "13334186879",
-  "board_test_number": null,
-  "name": "Trail Harder",
-  "lifecycle": "backlog",
-  "board_status_raw": null,
-  "board_group": "Backlog",
-  "backlog_substatus": {
-   "Backlog Status": "Backlog"
-  },
-  "owners": {
-   "Idea Owner": "Aviram Shwarzbard"
-  },
-  "priority": null,
-  "planned": null,
-  "due": null,
-  "added_date": "2026-10-20",
-  "type": null,
+  "board_test_number": "1115",
+  "name": "1115 - K60 Harder Trail With Lower Payout",
+  "lifecycle": "live",
+  "board_status_raw": "Running",
+  "board_group": "Live",
   "outcome_label": null,
-  "is_live": false,
+  "is_live": true,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
+  "audience_source": null,
   "control_vs_test": null,
   "split": null,
-  "start_date": null,
+  "start_date": "2026-11-02",
   "end_date": null,
   "phases": [],
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": null,
-  "conflicts": [],
+  "mixpanel": {
+   "state": "matched",
+   "board_link": "https://mixpanel.com/s/4lAoR5",
+   "dashboards": [
+    {
+     "id": 11625054,
+     "title": "1115 - K60 Harder Trail With Lower Payout",
+     "modified": "2026-11-03",
+     "url": "https://mixpanel.com/project/2036368/app/boards#id=11625054"
+    }
+   ],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [
+   {
+    "type": "duplicate_test_number",
+    "msg": "test number 1115 is used by 3 board items in Dice Dreams: DICE-1115-trail-double-wheel-better-experience, DICE-NOID-trail-less-coins-yeladim-ktanim"
+   }
+  ],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/9494658232/pulses/13334186879"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/4lAoR5"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/backlog_data.js",
+    "ref": "/workspace/pilot/build/live_data.js",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -62,17 +74,18 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
-   "business_question": "backlog snapshot captures name/group/status/owners/dates only",
-   "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
-   "change": "backlog snapshot captures name/group/status/owners/dates only",
-   "audience": "backlog snapshot captures name/group/status/owners/dates only",
-   "control_vs_test": "backlog snapshot captures name/group/status/owners/dates only",
-   "split": "backlog snapshot captures name/group/status/owners/dates only",
-   "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
-   "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
-   "outcome_label": "not started"
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
   }
  },
  "results": [],
@@ -88,19 +101,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «Trail Harder». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «1115 - K60 Harder Trail With Lower Payout». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «Trail Harder». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «1115 - K60 Harder Trail With Lower Payout». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/13334186879"
       ]
      }
     ],
-    "fingerprint": "fc119b57a22d0c9c",
+    "fingerprint": "d7c7ce13e191d1fd",
     "inputs": {
-     "registry:name": "de70c279853a45b8",
+     "registry:name": "dff2f6c299dc87de",
      "generator": "he6-v2"
     }
    },
@@ -116,33 +129,32 @@
       ]
      }
     ],
-    "fingerprint": "597523fb17a6a01a",
+    "fingerprint": "26c9e951805f47a1",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "de70c279853a45b8",
+     "registry:name": "dff2f6c299dc87de",
      "generator": "he6-v2"
     }
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-02",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/13334186879"
       ]
      }
     ],
-    "fingerprint": "0e5b16bb0aa9152d",
+    "fingerprint": "1b3b7c741efa9c9b",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
-     "registry:start_date": "74234e98afe7498f",
+     "registry:start_date": "bb1de3879fc3904d",
      "registry:phases": "4f53cda18c2baa0c",
-     "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
@@ -177,12 +189,12 @@
       ]
      }
     ],
-    "fingerprint": "ba971aca3e191892",
+    "fingerprint": "53b59a69699a044a",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "4f53cda18c2baa0c",
-     "expl:limitations": "74234e98afe7498f",
+     "registry:conflicts": "821b0cdf05aaee83",
+     "expl:limitations": "7fcdd1b3b5ec6aa9",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -211,13 +223,88 @@
   ],
   "curated": false
  },
- "explanation_legacy_8q": null,
+ "explanation_legacy_8q": {
+  "test_id": "DICE-NOID-trail-harder",
+  "game": "Dice Dreams",
+  "lang": "he",
+  "questions": {
+   "what_changed": {
+    "text_he": "שם הבדיקה בבורד: 1115 - K60 Harder Trail With Lower Payout",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13334186879"
+    ],
+    "null_reason": null
+   },
+   "why_tested": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no business question or hypothesis stated in source"
+   },
+   "who": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "audience empty in source"
+   },
+   "what_happened": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "test is live; no results read (no interim numbers stored)"
+   },
+   "business_meaning": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no results yet"
+   },
+   "limitations": {
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: matched",
+    "tag": "generated_explanation",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13334186879"
+    ],
+    "null_reason": null
+   },
+   "recommended": {
+    "text_he": null,
+    "tag": null,
+    "source_refs": [],
+    "null_reason": "no explicit recommendation found in captured sources"
+   },
+   "decided": {
+    "text_he": "בבורד: Running",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/9494658232/pulses/13334186879"
+    ],
+    "null_reason": null
+   }
+  },
+  "question_labels_he": {
+   "what_changed": "מה שינינו?",
+   "why_tested": "למה בדקנו?",
+   "who": "על מי בדקנו?",
+   "what_happened": "מה קרה בפועל?",
+   "business_meaning": "מה המשמעות העסקית?",
+   "limitations": "מהן המגבלות?",
+   "recommended": "מה הומלץ?",
+   "decided": "מה הוחלט בפועל?"
+  },
+  "business_state_ref": null,
+  "measured_impact_ref": [],
+  "generation": "template over source fields; no free-form AI text",
+  "verification": "NOT VERIFIED"
+ },
  "decisions": [],
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [
+  "K (Kingdom)",
   "Trail"
  ],
- "content_fingerprint": "efc0755cca9a64807c177b37b509518c49504d0731ad9dc1e5bbf56560897cf5",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "63d17f910fb233ed32446222842aec051f7b4f46f59814c71f97ee6f5c406d4d",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

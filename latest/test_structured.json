@@ -1,7 +1,7 @@
 {
  "dataset": "test_structured",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-03T08:56:41+02:00",
+ "generated_at": "2026-11-04T08:53:06+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "every field is {value, definition_status, sources[], raw, null_reason, question, note}; value null => null_reason and question are set",
@@ -150,8 +150,8 @@
  },
  "counts": {
   "records": 681,
-  "tests_in_registry": 685,
-  "pending_stage2": 4,
+  "tests_in_registry": 689,
+  "pending_stage2": 8,
   "by_priority_tier": {
    "backlog": 535,
    "ended": 43,

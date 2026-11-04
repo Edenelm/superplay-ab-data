@@ -100,7 +100,7 @@
    "end_date": "no end date on board (live)"
   },
   "carried_forward": {
-   "since": "2026-11-03",
+   "since": "2026-11-04",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -310,6 +310,6 @@
  "glossary_concepts": [
   "DRC"
  ],
- "content_fingerprint": "305e9e80a434476b1b45dbfb83d365064ffaae168707770ebb46b1d2c3715be4",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "eb7b65e8a3e66ebf2386072f39b857698096d5b2784d050b96e9ec0c8d4fbf72",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

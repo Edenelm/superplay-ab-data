@@ -1,7 +1,7 @@
 {
  "dataset": "glossary",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-03T08:56:41+02:00",
+ "generated_at": "2026-11-04T08:53:06+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "canonical_name = the org term as written in sources; no invented translations",
@@ -1287,12 +1287,12 @@
    "kind": "feature",
    "aliases": [],
    "source_spellings": {
-    "DDJ": 6
+    "DDJ": 7
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 3,
+     "tests_with_term": 4,
      "whatsapp_items_with_term": 3,
      "example_names": [
       "MTX DDJ Cooldown - NOT Every Day!",
@@ -1333,7 +1333,8 @@
    "usage_refs": [
     "test:DICE-NOID-mtx-ddj-cooldown-not-every",
     "test:DICE-NOID-trail-all-or-nothing-vs",
-    "test:DICE-1113-album-specific-sticker-new-version"
+    "test:DICE-1113-album-specific-sticker-new-version",
+    "test:DICE-NOID-remove-ddj-hr-offers"
    ]
   },
   {
@@ -1468,21 +1469,21 @@
     "K40": 5,
     "K2": 5,
     "K110+": 4,
-    "K199": 3,
+    "K60": 3,
     "K20": 3,
     "K94": 3,
+    "קינגדום": 3,
     "K90+": 3,
-    "קינגדום": 2,
+    "K199": 2,
     "K105": 2,
-    "K120+": 2,
-    "K9": 2,
-    "K60+": 1
+    "K3": 2,
+    "K120+": 2
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 13,
-     "whatsapp_items_with_term": 15,
+     "tests_with_term": 14,
+     "whatsapp_items_with_term": 16,
      "example_names": [
       "1113 - limited stock offer recomp",
       "1106 - Remove AD from Segmentation",
@@ -1490,9 +1491,9 @@
      ]
     },
     "DOM": {
-     "used": false,
+     "used": true,
      "tests_with_term": 0,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": []
     },
     "DIS": {
@@ -1527,8 +1528,8 @@
     "test:DICE-1113-limited-stock-offer-recomp",
     "test:DICE-1106-remove-ad-from-segmentation",
     "test:DICE-1105-increase-default-max-bet-for",
-    "test:DICE-1113-x2-ticks-per-hour-k199",
     "test:DICE-NOID-trail-less-coins-yeladim-ktanim",
+    "test:DICE-NOID-trail-harder",
     "test:DICE-1109-limited-stock-launch-stock-progression"
    ]
   },
@@ -1967,7 +1968,7 @@
     "recomp"
    ],
    "source_spellings": {
-    "Trail": 40
+    "Trail": 41
    },
    "per_game": {
     "DICE": {
@@ -1975,9 +1976,9 @@
      "tests_with_term": 24,
      "whatsapp_items_with_term": 2,
      "example_names": [
-      "Trail Weekend Recomp",
       "1115 - Trail Double Wheel Better Experience",
-      "1115 - Trail K20 to 59 Less Coins in Chests"
+      "1115 - Trail K20 to 59 Less Coins in Chests",
+      "1115 - K60 Harder Trail With Lower Payout"
      ]
     },
     "DOM": {
@@ -2019,9 +2020,9 @@
     "event"
    ],
    "usage_refs": [
-    "test:DICE-NOID-trail-weekend-recomp",
     "test:DICE-1115-trail-double-wheel-better-experience",
     "test:DICE-NOID-trail-less-coins-yeladim-ktanim",
+    "test:DICE-NOID-trail-harder",
     "test:DICE-NOID-protocol-trail-with-presets-k10",
     "test:DICE-NOID-change-trail-ftue-pt-only",
     "test:DICE-NOID-trail-vertical-lane-test"
@@ -2037,8 +2038,8 @@
    "source_spellings": {
     "recompletion": 3,
     "recomp": 2,
-    "Recomp": 2,
-    "Recompletion": 2
+    "Recompletion": 2,
+    "Recomp": 2
    },
    "per_game": {
     "DICE": {
@@ -2047,8 +2048,8 @@
      "whatsapp_items_with_term": 1,
      "example_names": [
       "1113 - limited stock offer recomp",
-      "Trail Weekend Recomp",
-      "Remove DRs from recompletion"
+      "Remove DRs from recompletion",
+      "Pet Store by Tokens from Recompletion"
      ]
     },
     "DOM": {
@@ -2090,11 +2091,11 @@
    ],
    "usage_refs": [
     "test:DICE-1113-limited-stock-offer-recomp",
-    "test:DICE-NOID-trail-weekend-recomp",
     "test:DICE-NOID-remove-drs-from-recompletion",
     "test:DICE-NOID-pet-store-by-tokens-from",
     "test:DOM-NOID-recompletion-for-early-finishers",
-    "test:DICE-1113-trail-recomp-smaller-atw-higher"
+    "test:DICE-1113-trail-recomp-smaller-atw-higher",
+    "test:DICE-NOID-trail-weekend-recomp"
    ]
   },
   {
@@ -2111,9 +2112,9 @@
      "tests_with_term": 6,
      "whatsapp_items_with_term": 1,
      "example_names": [
-      "Trail Weekend Recomp",
       "Puzzle Finishers Vertical VS Increase GP",
-      "Pixie GP"
+      "Pixie GP",
+      "150%/200% GP on top layer (golden puzzle, blast, golden merge)"
      ]
     },
     "DOM": {
@@ -2151,12 +2152,12 @@
     "reward"
    ],
    "usage_refs": [
-    "test:DICE-NOID-trail-weekend-recomp",
     "test:DICE-NOID-puzzle-finishers-vertical-vs-increase",
     "test:DICE-NOID-pixie-gp",
     "test:DIS-NOID-high-puzzle-segment-allowance-allocation",
     "test:DIS-NOID-lower-puzzle-tiers-prizes-not",
-    "test:DIS-NOID-xxx-increased-chef-gp"
+    "test:DIS-NOID-xxx-increased-chef-gp",
+    "test:DICE-150-150-200-gp-on-top"
    ]
   },
   {
@@ -2173,9 +2174,9 @@
      "tests_with_term": 3,
      "whatsapp_items_with_term": 1,
      "example_names": [
-      "Trail Weekend Recomp",
       "1113- Lava Prizes X 5 ATW",
-      "1113 - Trail Recomp Smaller ATW Higher GP"
+      "1113 - Trail Recomp Smaller ATW Higher GP",
+      "1114 - Weekend Trail Recomp Test"
      ]
     },
     "DOM": {
@@ -2209,9 +2210,9 @@
     "reward"
    ],
    "usage_refs": [
-    "test:DICE-NOID-trail-weekend-recomp",
     "test:DICE-1113-lava-prizes-x-5-atw",
-    "test:DICE-1113-trail-recomp-smaller-atw-higher"
+    "test:DICE-1113-trail-recomp-smaller-atw-higher",
+    "test:DICE-NOID-trail-weekend-recomp"
    ]
   },
   {
@@ -2231,9 +2232,9 @@
      "tests_with_term": 9,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "Trail Weekend Recomp",
       "Increase prizes & decrease DR in honeyroad (similar to ddj test)",
-      "BWF -Out of DRs – Show DT Offer or Not"
+      "BWF -Out of DRs – Show DT Offer or Not",
+      "Peonball rewards change for higher kingdoms (Increase the rewards/ change to other DRs)"
      ]
     },
     "DOM": {
@@ -2276,12 +2277,12 @@
     "economy"
    ],
    "usage_refs": [
-    "test:DICE-NOID-trail-weekend-recomp",
     "test:DICE-NOID-increase-prizes-decrease-dr-in",
     "test:DICE-NOID-bwf-out-of-drs-show",
     "test:DICE-NOID-peonball-rewards-change-for-higher",
     "test:DICE-NOID-out-of-dr-decoy-offer",
-    "test:DICE-NOID-user-sensitivity-dr-vs-rolls"
+    "test:DICE-NOID-user-sensitivity-dr-vs-rolls",
+    "test:DICE-NOID-remove-drs-from-recompletion"
    ]
   },
   {
@@ -2356,8 +2357,8 @@
      "tests_with_term": 2,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "Trail Weekend Recomp",
-      "Rolls+TE in offers by habit seg not CZ"
+      "Rolls+TE in offers by habit seg not CZ",
+      "1114 - Weekend Trail Recomp Test"
      ]
     },
     "DOM": {
@@ -2391,8 +2392,8 @@
     "reward"
    ],
    "usage_refs": [
-    "test:DICE-NOID-trail-weekend-recomp",
-    "test:DICE-NOID-te-in-offers-by-habit"
+    "test:DICE-NOID-te-in-offers-by-habit",
+    "test:DICE-NOID-trail-weekend-recomp"
    ]
   },
   {
@@ -2405,23 +2406,23 @@
     "Ticks Per Hour"
    ],
    "source_spellings": {
-    "Rolls": 15,
+    "Rolls": 16,
     "rolls": 12,
     "roll": 8,
     "Roll": 7,
-    "רולים": 5,
-    "Ticks": 2,
-    "Tick": 1
+    "רולים": 7,
+    "Tick": 1,
+    "Ticks": 1
    },
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 28,
-     "whatsapp_items_with_term": 13,
+     "tests_with_term": 29,
+     "whatsapp_items_with_term": 14,
      "example_names": [
-      "1113 - X2 Ticks Per Hour K199 and under",
-      "Trail Weekend Recomp",
-      "Recude rolls allowance by 10%"
+      "Add roll bucket 3rd day (for default bucket)",
+      "No Roll Reward for Roll Quests",
+      "Roll Bucket Reform  -Much Less attack & steal chances = bigger rewards & more points for MTX events per instance"
      ]
     },
     "DOM": {
@@ -2462,12 +2463,12 @@
     "timing"
    ],
    "usage_refs": [
-    "test:DICE-1113-x2-ticks-per-hour-k199",
-    "test:DICE-NOID-trail-weekend-recomp",
-    "test:DICE-NOID-recude-rolls-allowance-by-10",
     "test:DICE-NOID-add-roll-bucket-3rd-day",
     "test:DICE-NOID-no-roll-reward-for-roll",
-    "test:DICE-NOID-roll-bucket-reform-much-less"
+    "test:DICE-NOID-roll-bucket-reform-much-less",
+    "test:DICE-NOID-reduce-rolls-reduction-pricing",
+    "test:DICE-NOID-remove-cards-joker-rolls",
+    "test:DICE-NOID-remove-shields-from-first-roll"
    ]
   },
   {
@@ -2686,8 +2687,8 @@
    "source_spellings": {
     "Weekly Goals": 7,
     "weekly goals": 7,
-    "Weekly tasks": 3,
     "Weekly goals": 2,
+    "Weekly tasks": 2,
     "Weekly Tasks": 1
    },
    "per_game": {
@@ -2706,9 +2707,9 @@
      "tests_with_term": 4,
      "whatsapp_items_with_term": 0,
      "example_names": [
-      "1611 - Weekly tasks harder tasks",
       "Weekly goals onboarding (FTUE)",
-      "VIP stamp card as weekly goals"
+      "VIP stamp card as weekly goals",
+      "Weekly Tasks"
      ]
     },
     "DIS": {
@@ -2740,11 +2741,11 @@
    ],
    "usage_refs": [
     "test:DICE-1108-weekly-goals-pb-points-distribution",
-    "test:DOM-1611-weekly-tasks-harder-tasks",
     "test:DICE-NOID-weekly-goals-controlled-progression",
     "test:DICE-NOID-weekly-goals-6-daily-missions",
     "test:DICE-NOID-replace-daily-calendar-with-weekly",
-    "test:DICE-NOID-weekly-goals-let-s-do"
+    "test:DICE-NOID-weekly-goals-let-s-do",
+    "test:DICE-NOID-weekly-goals-for-users-who"
    ]
   },
   {
@@ -3006,9 +3007,9 @@
      "tests_with_term": 4,
      "whatsapp_items_with_term": 2,
      "example_names": [
-      "Album end period - push hard to FU only the PU",
       "SKU Segmented by FU",
-      "Harder Sunday Trail by FU"
+      "Harder Sunday Trail by FU",
+      "Album end period - push hard to FU only the PU"
      ]
     },
     "DOM": {
@@ -3049,9 +3050,9 @@
     "population"
    ],
    "usage_refs": [
-    "test:DICE-NOID-album-end-period-push-hard",
     "test:DICE-NOID-sku-segmented-by-fu",
     "test:DICE-NOID-harder-sunday-trail-by-fu",
+    "test:DICE-NOID-album-end-period-push-hard",
     "test:DOM-NOID-pixie-fu-2-vs-3",
     "test:DIS-NOID-album-pitty-for-fu-1",
     "test:DIS-NOID-6box-progress-bar-fu"
@@ -3188,7 +3189,7 @@
     "OOTE"
    ],
    "source_spellings": {
-    "OOR": 5,
+    "OOR": 6,
     "OOC": 4,
     "OOCoins": 1,
     "OOTE": 1
@@ -3196,7 +3197,7 @@
    "per_game": {
     "DICE": {
      "used": true,
-     "tests_with_term": 6,
+     "tests_with_term": 7,
      "whatsapp_items_with_term": 0,
      "example_names": [
       "first OOR & OOCoins after K2",
@@ -3251,8 +3252,8 @@
     "test:DICE-NOID-first-oor-oocoins-after-k2",
     "test:DICE-NOID-auto-practice-mode-instead-of",
     "test:DICE-NOID-add-cooldown-disable-oor-placement",
-    "test:DICE-NOID-betmania-pb-multiplier-for-oor",
-    "test:DICE-NOID-more-pb-boosters-on-oor"
+    "test:DICE-NOID-bet-mania-oor",
+    "test:DICE-NOID-betmania-pb-multiplier-for-oor"
    ]
   },
   {

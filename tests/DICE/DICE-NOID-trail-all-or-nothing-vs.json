@@ -15,12 +15,13 @@
   "name": "Trail All or Nothing vs Disco Road/ DDJ/...",
   "lifecycle": "backlog",
   "board_status_raw": null,
-  "board_group": "Backlog",
+  "board_group": "Working on",
   "backlog_substatus": {
-   "Backlog Status": "Backlog"
+   "Backlog Status": "Working On"
   },
   "owners": {
    "Idea Owner": "Amit Pontch, Merom Clyman",
+   "Analyst": "Aviram Shwarzbard",
    "Economist": "Amit Pontch"
   },
   "priority": null,
@@ -63,7 +64,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -220,6 +221,6 @@
   "DDJ",
   "Trail"
  ],
- "content_fingerprint": "923a0b9f238fda6487308b67c5186ae8303dd4c03d09d9cf2e74d1acb0d5d6e4",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "34b4ab5916631dc44667c9e6e16734ce8bfe78ba65c284abde37eea15c4a6179",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }

@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Dormants"
  ],
- "content_fingerprint": "802a51c5b7a3c02b8082c3b5f72c3e2f79636d68d724ec1c2d08719086c17ca2",
- "last_changed_at": "2026-11-03T08:56:12+02:00"
+ "content_fingerprint": "d8e73fc9db8a9cb46f3453b6832f798dd60ead39fa4c542d574d660c35694d13",
+ "last_changed_at": "2026-11-04T08:53:06+02:00"
 }
