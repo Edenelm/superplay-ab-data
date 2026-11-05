@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "Dormants",
   "Trail"
  ],
- "content_fingerprint": "d9bce74d6f989297cd9d9bdd438d25980d0bffbf0d7b2cb631f4ff461b1e0b88",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "088055285d0e259c7e9e9667fe02c9a5dc80669f0ca91d40b75dd53f06eb10f6",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

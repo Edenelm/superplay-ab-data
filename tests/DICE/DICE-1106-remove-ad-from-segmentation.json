@@ -69,7 +69,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -384,6 +384,6 @@
   "K (Kingdom)",
   "AD (Active Days)"
  ],
- "content_fingerprint": "f971c3692a249579bf0e243a0dc93b7534608d4ece80427e495b429a1131188c",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "6de9a8d61a4269aacae6c4a2dd3519b377068a8fc53961616222298325353001",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

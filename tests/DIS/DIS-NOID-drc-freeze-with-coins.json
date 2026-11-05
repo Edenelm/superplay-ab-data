@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "DRC"
  ],
- "content_fingerprint": "022f2769af83ea8569573da7633d25345ebde07cfdf1126b9e1a6e81a3e2595a",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "4a0c5d49f02d016a5067dc93d75acace2eb87a877fdb7abc80eb86c83c3612a8",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

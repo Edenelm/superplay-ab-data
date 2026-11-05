@@ -12,7 +12,7 @@
   "game": "Disney Solitaire",
   "board_item_id": "13300144840",
   "board_test_number": null,
-  "name": "Harder momentum during weekends",
+  "name": "Harder Momentum During weekends",
   "lifecycle": "backlog",
   "board_status_raw": "Backlog",
   "board_group": "💡 Ideas / Backlog",
@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -86,19 +86,19 @@
   "sections": {
    "what_tested": {
     "label_he": "מה בודקים",
-    "text_he": "לפי שם הפריט ב-Monday: «Harder momentum during weekends». זה רק השם; המנגנון לא תואר במקור.",
+    "text_he": "לפי שם הפריט ב-Monday: «Harder Momentum During weekends». זה רק השם; המנגנון לא תואר במקור.",
     "statements": [
      {
-      "text_he": "לפי שם הפריט ב-Monday: «Harder momentum during weekends». זה רק השם; המנגנון לא תואר במקור.",
+      "text_he": "לפי שם הפריט ב-Monday: «Harder Momentum During weekends». זה רק השם; המנגנון לא תואר במקור.",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18435634714/pulses/13300144840"
       ]
      }
     ],
-    "fingerprint": "22a908ee406ecfc3",
+    "fingerprint": "6af3d8d08db19ee5",
     "inputs": {
-     "registry:name": "949914a3c0d27828",
+     "registry:name": "67f6979ed183e3f2",
      "generator": "he6-v2"
     }
    },
@@ -114,11 +114,11 @@
       ]
      }
     ],
-    "fingerprint": "7223fb9b979260b2",
+    "fingerprint": "069809dc32c20c73",
     "inputs": {
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
-     "registry:name": "949914a3c0d27828",
+     "registry:name": "67f6979ed183e3f2",
      "generator": "he6-v2"
     }
    },
@@ -214,6 +214,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "63949d79be112f38ba40e5cd8ebe7e53e6bcd85adcd6fe262ad5b979fd2939ce",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "0f3bcb67fcf02e407b19a953e6229ac46f7b3e97be40600beb6b8d52c2e38a7e",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

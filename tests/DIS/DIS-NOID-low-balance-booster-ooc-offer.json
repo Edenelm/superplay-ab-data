@@ -60,7 +60,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -217,6 +217,6 @@
   "OOC / OOR",
   "Low balance"
  ],
- "content_fingerprint": "54c53137e708517d13d9f5d7a7c04367685a26e6c2285829ac2fd40d0aea8a79",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "2419bd372c9f1c7dcdea4469e758c1f7b2699024d0cbf5b9aa95c4a3bf558d36",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "K (Kingdom)",
   "Trail"
  ],
- "content_fingerprint": "f4d7f4f9e4c91f1950599baafbbac3667385e563b748e02f2980dc3e658ea05c",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "32d767b2fafc76bb998e0bf75c846c3aebf188871d8e715be64522496aeb9df7",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -76,7 +76,7 @@
   },
   "board_decision_raw": "Pending",
   "carried_forward": {
-   "since": "2026-11-04",
+   "since": "2026-11-05",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -226,6 +226,6 @@
  "glossary_concepts": [
   "WR"
  ],
- "content_fingerprint": "0abb1f73d55c39cf11db966a4dd879437fd552aab29cccb0214672111888971e",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "5aece9d2e65cbae7ada3c55014d17401e87668ea355e259cd9b7d4862d455744",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

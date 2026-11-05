@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "MTX",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "7752f42b44b1a72eba57b9c1c5b5c19172ace9889260f0c1f0e428611c6879f1",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "e539f4c2c1babbd8be3ae9889e2e155dbd4f67a2c22816b3b120a791b33b41e2",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

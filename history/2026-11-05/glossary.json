@@ -1,0 +1,3823 @@
+{
+ "dataset": "glossary",
+ "contract_version": "1.5.0",
+ "generated_at": "2026-11-05T08:48:09+02:00",
+ "timezone": "Asia/Jerusalem",
+ "rules": [
+  "canonical_name = the org term as written in sources; no invented translations",
+  "definition only when a source states it (explicit_in_source) or usage makes it evident (interpretation)",
+  "unclear = meaning not found in sources; see question",
+  "not_same_as = similar-looking concepts that may work differently across games; never merged"
+ ],
+ "sources_used": [
+  "Monday item names/updates (test_registry + tools/source_cache)",
+  "WhatsApp extracts (whatsapp_items)",
+  "Mixpanel dashboard titles (test_registry.mixpanel)",
+  "metric_definitions"
+ ],
+ "counts": {
+  "concepts": 58,
+  "unclear": 31,
+  "inferred_from_usage": 19,
+  "defined_in_source": 8
+ },
+ "topics": {
+  "price": {
+   "he": "תמחור",
+   "en": "price"
+  },
+  "reward": {
+   "he": "תגמול",
+   "en": "reward"
+  },
+  "difficulty": {
+   "he": "קושי",
+   "en": "difficulty"
+  },
+  "timing": {
+   "he": "תזמון",
+   "en": "timing"
+  },
+  "eligibility": {
+   "he": "זכאות/סגמנט",
+   "en": "eligibility"
+  },
+  "display": {
+   "he": "תצוגה",
+   "en": "display"
+  },
+  "offer": {
+   "he": "הצעה",
+   "en": "offer"
+  },
+  "event": {
+   "he": "אירוע",
+   "en": "event"
+  },
+  "population": {
+   "he": "אוכלוסייה",
+   "en": "population"
+  },
+  "metric": {
+   "he": "מדד",
+   "en": "metric"
+  },
+  "payments": {
+   "he": "תשלומים",
+   "en": "payments"
+  },
+  "ads": {
+   "he": "פרסומות",
+   "en": "ads"
+  },
+  "onboarding": {
+   "he": "אונבורדינג",
+   "en": "onboarding"
+  },
+  "retention": {
+   "he": "שימור",
+   "en": "retention"
+  },
+  "messaging": {
+   "he": "הודעות/פוש",
+   "en": "messaging"
+  },
+  "economy": {
+   "he": "כלכלה",
+   "en": "economy"
+  }
+ },
+ "concepts": [
+  {
+   "concept_id": "FTD",
+   "canonical_name": "FTD",
+   "kind": "population",
+   "aliases": [
+    "FTDs",
+    "FTD offer"
+   ],
+   "source_spellings": {
+    "FTD": 48,
+    "FTDs": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 6,
+     "example_names": [
+      "1102 - FTD High Maturity",
+      "195 - FTD offer 3PO",
+      "DTC - Android - Currently 20% for Stripe FTD - consider moving to 32% like iOS"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 11,
+     "whatsapp_items_with_term": 3,
+     "example_names": [
+      "1570 - High Win Rate After Purchase",
+      "1501 - Duel vs. Tournament Onboarding",
+      "FTD Offer - Add a $20 price point & 2 New STD Offers"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "124 - AYS offer for FTD and dormant",
+      "043 - D01 Min Price",
+      "Have 5 Tiers of Discounts Instead of 4 (FTD and Default stays the same)"
+     ]
+    }
+   },
+   "monday_updates_with_term": 2,
+   "status": "inferred_from_usage",
+   "definition_he": "רכישה ראשונה של שחקן; גם שם ההצעה שמוצגת לפני רכישה ראשונה (FTD offer).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:11235688371/4911501286 ('users who FTD at AD 30+')",
+    "monday_update:13210931762/5606314044 (FTD offer → STD offer)"
+   ],
+   "usage_examples": null,
+   "question": "לאשר: FTD = First Time Deposit (רכישה ראשונה)?",
+   "not_same_as": [
+    "FTD Rate (מדד המרה בלשוניות התוצאות) הוא שיעור, לא אוכלוסייה.",
+    "FTUE היא חוויית משתמש חדש, לא רכישה."
+   ],
+   "topics": [
+    "payments",
+    "offer"
+   ],
+   "tags_he": [
+    "תשלומים",
+    "הצעה"
+   ],
+   "tags_en": [
+    "payments",
+    "offer"
+   ],
+   "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and",
+    "test:DICE-1102-ftd-high-maturity",
+    "test:DICE-195-ftd-offer-3po",
+    "test:DOM-1570-high-win-rate-after-purchase",
+    "test:DOM-1501-duel-vs-tournament-onboarding",
+    "test:DOM-NOID-ftd-offer-add-a-20"
+   ]
+  },
+  {
+   "concept_id": "STD",
+   "canonical_name": "STD",
+   "kind": "offer",
+   "aliases": [
+    "STD Offer"
+   ],
+   "source_spellings": {
+    "STD": 12
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 2,
+     "example_names": []
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "FTD Offer - Add a $20 price point & 2 New STD Offers"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "101 - STD Expensive Offer V4 ($15)",
+      "Protocol make any purchase after STD - Protocol"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "הצעה שמגיעה אחרי FTD (Domino: 'A player who purchases the $20 FTD offer will receive the STD Offer at $25').",
+   "question": "STD = Second Time Deposit (רכישה שנייה)? האם אותה משמעות ב-Dice, Domino ו-Disney?",
+   "not_same_as": [],
+   "topics": [
+    "payments",
+    "offer"
+   ],
+   "tags_he": [
+    "תשלומים",
+    "הצעה"
+   ],
+   "tags_en": [
+    "payments",
+    "offer"
+   ],
+   "usage_refs": [
+    "test:DIS-101-std-expensive-offer-v4-15",
+    "test:DOM-NOID-ftd-offer-add-a-20",
+    "test:DIS-NOID-protocol-make-any-purchase-after"
+   ]
+  },
+  {
+   "concept_id": "FTUE",
+   "canonical_name": "FTUE",
+   "kind": "population",
+   "aliases": [],
+   "source_spellings": {
+    "FTUE": 16
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Change Trail FTUE PT (only steal/attack)",
+      "Add skip in protocol FTUE trail"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 10,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1611 - Move quest from level 32 to 200 (FTUE)",
+      "1621 8 Box from 2$ to 3$ (FTUE)",
+      "Valut vs. coins charge (FTUE)"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "חוויית המשתמש בשלבים הראשונים (מופיע בסוגריים בשמות טסטים, למשל 'Move quest from level 32 to 200 (FTUE)').",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_name:DOM-1611-move-quest-from-level-32",
+    "monday_name:DOM-1621-1621-8-box-from-2"
+   ],
+   "usage_examples": null,
+   "question": "מה טווח ה-FTUE בכל משחק (עד איזה Level/Kingdom)?",
+   "not_same_as": [
+    "FTUE מול FTD: בטסט 8 Box ב-Domino השם אומר FTUE וה-WhatsApp אומר FTD."
+   ],
+   "topics": [
+    "onboarding"
+   ],
+   "tags_he": [
+    "אונבורדינג"
+   ],
+   "tags_en": [
+    "onboarding"
+   ],
+   "usage_refs": [
+    "test:DOM-1611-move-quest-from-level-32",
+    "test:DOM-1621-1621-8-box-from-2",
+    "test:DICE-NOID-change-trail-ftue-pt-only",
+    "test:DICE-NOID-add-skip-in-protocol-ftue",
+    "test:DOM-NOID-valut-vs-coins-charge-ftue",
+    "test:DOM-NOID-new-chapter-offer-ftue"
+   ]
+  },
+  {
+   "concept_id": "PU",
+   "canonical_name": "PU",
+   "kind": "metric",
+   "aliases": [
+    "payers"
+   ],
+   "source_spellings": {
+    "PU": 31
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 23,
+     "example_names": [
+      "Free Dream Passs for churners",
+      "Album end period - push hard to FU only the PU"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "משתמשים משלמים (Paying Users); מצוטט כמדד בתוצאות ('PU +0.5%').",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "wa:wa004"
+   ],
+   "usage_examples": null,
+   "question": "האם PU זהה ל-payers בהגדרת data/metric_definitions.json (DICE.payers וכו')?",
+   "not_same_as": [
+    "PAU הוא מדד נפרד שמצוטט לצד PU."
+   ],
+   "topics": [
+    "metric",
+    "payments"
+   ],
+   "tags_he": [
+    "מדד",
+    "תשלומים"
+   ],
+   "tags_en": [
+    "metric",
+    "payments"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-free-dream-passs-for-churners",
+    "test:DICE-NOID-album-end-period-push-hard"
+   ]
+  },
+  {
+   "concept_id": "NPU",
+   "canonical_name": "NPU",
+   "kind": "population",
+   "aliases": [
+    "non-paying users",
+    "לא-משלמים"
+   ],
+   "source_spellings": {
+    "NPU": 10
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1460 - RV Mania V2"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "124 - AYS offer for FTD and dormant",
+      "120 - RV 8box with purchase V2",
+      "124 - RV extend segment"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "משתמשים שלא שילמו (Non-Paying Users).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "registry:DOM-1460-rv-mania-v2 ('medium-activity NPU users')"
+   ],
+   "usage_examples": null,
+   "question": "האם 'לא-משלמים' זה 'אף פעם לא שילמו' או 'לא שילמו בחלון מסוים'?",
+   "not_same_as": [],
+   "topics": [
+    "population"
+   ],
+   "tags_he": [
+    "אוכלוסייה"
+   ],
+   "tags_en": [
+    "population"
+   ],
+   "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and",
+    "test:DOM-1460-rv-mania-v2",
+    "test:DIS-120-rv-8box-with-purchase-v2",
+    "test:DIS-124-rv-extend-segment",
+    "test:DIS-118-dormant-scene-boost",
+    "test:DIS-NOID-flat-sale-for-npu-dormant"
+   ]
+  },
+  {
+   "concept_id": "PAU",
+   "canonical_name": "PAU",
+   "kind": "metric",
+   "aliases": [],
+   "source_spellings": {
+    "PAU": 11
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 10,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "מצוטט ב-WhatsApp של Dice לצד DAU ו-PU ('DAU +1%, PAU +6.5%, PU +2.7%').",
+   "question": "מה ההגדרה של PAU (Paying Active Users?) ומה ההבדל מ-PU?",
+   "not_same_as": [
+    "לא זהה ל-PU (מצוטטים יחד עם ערכים שונים)."
+   ],
+   "topics": [
+    "metric"
+   ],
+   "tags_he": [
+    "מדד"
+   ],
+   "tags_en": [
+    "metric"
+   ],
+   "usage_refs": []
+  },
+  {
+   "concept_id": "DAU",
+   "canonical_name": "DAU",
+   "kind": "metric",
+   "aliases": [
+    "active_users_dau"
+   ],
+   "source_spellings": {
+    "DAU": 30
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 25,
+     "example_names": [
+      "1102 - FTD High Maturity"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "defined_in_source",
+   "definition_he": "Daily Active Users. ההגדרה לכל משחק נמצאת ב-data/metric_definitions.json (DICE.active_users_dau, DIS.active_users_dau; ב-Domino אין מקור, null).",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "metric_definitions:DICE.active_users_dau",
+    "metric_definitions:DOM.active_users_dau",
+    "metric_definitions:DIS.active_users_dau"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [
+    "ההגדרה הטכנית שונה בין המשחקים (טבלאות שונות); ראו METRIC_DEFINITIONS.md."
+   ],
+   "topics": [
+    "metric"
+   ],
+   "tags_he": [
+    "מדד"
+   ],
+   "tags_en": [
+    "metric"
+   ],
+   "usage_refs": [
+    "test:DICE-1102-ftd-high-maturity"
+   ]
+  },
+  {
+   "concept_id": "ARPPU",
+   "canonical_name": "ARPPU",
+   "kind": "metric",
+   "aliases": [],
+   "source_spellings": {
+    "ARPPU": 7
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 6,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "הכנסה ממוצעת למשתמש משלם (Average Revenue Per Paying User).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "wa:wa098"
+   ],
+   "usage_examples": null,
+   "question": "האם ARPPU מחושב על Gross או Net?",
+   "not_same_as": [
+    "ARPDAU מחושב לפי DAU, לא לפי משלמים."
+   ],
+   "topics": [
+    "metric",
+    "payments"
+   ],
+   "tags_he": [
+    "מדד",
+    "תשלומים"
+   ],
+   "tags_en": [
+    "metric",
+    "payments"
+   ],
+   "usage_refs": []
+  },
+  {
+   "concept_id": "ARPDAU",
+   "canonical_name": "ARPDAU",
+   "kind": "metric",
+   "aliases": [
+    "ARPDU"
+   ],
+   "source_spellings": {
+    "ARPDAU": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "הכנסה ממוצעת למשתמש פעיל יומי.",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "wa:wa029"
+   ],
+   "usage_examples": null,
+   "question": "ARPDU ו-ARPDAU הם אותו מדד?",
+   "not_same_as": [],
+   "topics": [
+    "metric"
+   ],
+   "tags_he": [
+    "מדד"
+   ],
+   "tags_en": [
+    "metric"
+   ],
+   "usage_refs": []
+  },
+  {
+   "concept_id": "Revenue",
+   "canonical_name": "Revenue",
+   "kind": "metric",
+   "aliases": [
+    "revenue_gross_usd",
+    "revenue_net_usd",
+    "Net",
+    "Net IAP"
+   ],
+   "source_spellings": {
+    "revenue": 55,
+    "Revenue": 27,
+    "הכנסות": 4
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 62,
+     "example_names": [
+      "199 - DTC from 1st purchase (Android) stripe",
+      "1113 - limited stock offer recomp",
+      "1109 - Remove Android DTC"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 3,
+     "example_names": [
+      "1550 - Inflation of wild cost",
+      "1533- Daily Calendar Session Extension",
+      "1460 - RV Mania V2"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "125 - Make Any Purchase New Seg"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "defined_in_source",
+   "definition_he": "ההגדרות של Gross, Net ו-ad revenue לכל משחק נמצאות ב-data/metric_definitions.json. בתוצאות טסטים 'Revenue' הוא כפי שמופיע בלשונית התוצאות.",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "metric_definitions:ALL.revenue_includes_ads",
+    "metric_definitions:ALL.gross_comparability"
+   ],
+   "usage_examples": null,
+   "question": "האם 'Revenue' בלשוניות התוצאות כולל פרסומות? (needs_approval ב-METRIC_DEFINITIONS.md)",
+   "not_same_as": [
+    "Gross אינו בר השוואה בין המשחקים (ALL.gross_comparability)."
+   ],
+   "topics": [
+    "metric"
+   ],
+   "tags_he": [
+    "מדד"
+   ],
+   "tags_en": [
+    "metric"
+   ],
+   "usage_refs": [
+    "test:DICE-199-dtc-from-1st-purchase-android",
+    "test:DICE-1113-limited-stock-offer-recomp",
+    "test:DOM-1550-inflation-of-wild-cost",
+    "test:DOM-1533-daily-calendar-session-extension",
+    "test:DIS-125-make-any-purchase-new-seg",
+    "test:DICE-1109-remove-android-dtc"
+   ]
+  },
+  {
+   "concept_id": "VIP",
+   "canonical_name": "VIP",
+   "kind": "population",
+   "aliases": [
+    "VIPs"
+   ],
+   "source_spellings": {
+    "VIP": 13,
+    "VIPs": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1104 - VIP Braze Push (churners)",
+      "VIP teams events",
+      "Badge container for VIPs - all extra content in badge container with fancy art"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "Give VIP Frame as part of VIP Onboarding",
+      "VIP stamp card as weekly goals",
+      "VIP Early Access"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Churned VIP users' (push); Domino: 'VIP Onboarding', 'VIP Frame', 'VIP stamp card'.",
+   "question": "מה סף ה-VIP בכל משחק? האם ב-Domino זו תוכנית (onboarding/frame) ולא רק סגמנט?",
+   "not_same_as": [
+    "ב-Dice, VIP מופיע כסגמנט יעד; ב-Domino מופיעים רכיבי תוכנית VIP. אל תניחו אותה הגדרה."
+   ],
+   "topics": [
+    "population"
+   ],
+   "tags_he": [
+    "אוכלוסייה"
+   ],
+   "tags_en": [
+    "population"
+   ],
+   "usage_refs": [
+    "test:DICE-1104-vip-braze-push-churners",
+    "test:DICE-NOID-vip-teams-events",
+    "test:DICE-NOID-badge-container-for-vips-all",
+    "test:DOM-NOID-give-vip-frame-as-part",
+    "test:DOM-NOID-vip-stamp-card-as-weekly",
+    "test:DOM-NOID-vip-early-access"
+   ]
+  },
+  {
+   "concept_id": "Dormants",
+   "canonical_name": "Dormants",
+   "kind": "population",
+   "aliases": [
+    "dormant",
+    "Dormant"
+   ],
+   "source_spellings": {
+    "Dormant": 11,
+    "dormant": 5,
+    "Dormants": 3,
+    "dormants": 3
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 9,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Dormant Scrolling Therapy Removal",
+      "Dormants V2 - Vertical Challenge Protocol",
+      "Dormant Payer By Level - Reactivation Test"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1543 - RV Opportunistic for Completers Dormants",
+      "Include scrolling in CZ for dormant 3"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 7,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "124 - AYS offer for FTD and dormant",
+      "125 - Dormant CZ V3",
+      "118 - Dormant Scene Boost"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'AYS offer for FTD and dormant', 'Dormant CZ V3'; Dice: 'Dormant Payer By Level'; Domino: 'dormant 3'.",
+   "question": "כמה ימי אי-פעילות מגדירים Dormant בכל משחק? מה זה 'dormant 3' ב-Domino?",
+   "not_same_as": [
+    "Churn/churners מופיע כמונח נפרד; לא ידוע אם הספים זהים."
+   ],
+   "topics": [
+    "population",
+    "retention"
+   ],
+   "tags_he": [
+    "אוכלוסייה",
+    "שימור"
+   ],
+   "tags_en": [
+    "population",
+    "retention"
+   ],
+   "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and",
+    "test:DOM-1543-rv-opportunistic-for-completers-dormants",
+    "test:DIS-125-dormant-cz-v3",
+    "test:DIS-118-dormant-scene-boost",
+    "test:DICE-NOID-dormant-scrolling-therapy-removal",
+    "test:DICE-NOID-dormants-v2-vertical-challenge-protocol"
+   ]
+  },
+  {
+   "concept_id": "Churners",
+   "canonical_name": "Churners",
+   "kind": "population",
+   "aliases": [
+    "churn",
+    "churned",
+    "back from churn"
+   ],
+   "source_spellings": {
+    "churn": 10,
+    "Churn": 7,
+    "churners": 2,
+    "Churned": 2,
+    "churned": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 6,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1104 - VIP Braze Push (churners)",
+      "Free Dream Passs for churners",
+      "New Offer - Cut Price + More Value (dormants/churn)"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "give premium dream pass for back from churn",
+      "Give free dreampass for users that are back from 7 days churn",
+      "Back from Churn Retention Bonus"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "Booster for tomorrow - On Sundays and for Churn users - MTX",
+      "124 - Churn & Welcome Back Kit"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Domino: 'back from 7 days churn'; Dice: 'Churned VIP users', 'Back From Churn - PHASE 2'.",
+   "question": "האם churn = 7 ימי אי-פעילות בכל המשחקים, או רק בטסט של Domino?",
+   "not_same_as": [
+    "Dormants (ראו למעלה)."
+   ],
+   "topics": [
+    "population",
+    "retention"
+   ],
+   "tags_he": [
+    "אוכלוסייה",
+    "שימור"
+   ],
+   "tags_en": [
+    "population",
+    "retention"
+   ],
+   "usage_refs": [
+    "test:DICE-1104-vip-braze-push-churners",
+    "test:DICE-NOID-free-dream-passs-for-churners",
+    "test:DICE-NOID-new-offer-cut-price-more",
+    "test:DICE-NOID-back-from-churn-phase-2",
+    "test:DICE-NOID-weekly-goals-for-users-who",
+    "test:DICE-NOID-roll-bucket-churn-users"
+   ]
+  },
+  {
+   "concept_id": "CZ",
+   "canonical_name": "CZ",
+   "kind": "mechanism",
+   "aliases": [],
+   "source_spellings": {
+    "CZ": 53
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 12,
+     "whatsapp_items_with_term": 8,
+     "example_names": [
+      "1113 - limited stock offer recomp",
+      "1104 - CZ FIX",
+      "1109 - limited stock launch, stock progression test"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "CZ test - Adding factor for USD2",
+      "Store segmentation by CZ",
+      "Include scrolling in CZ for dormant 3"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 12,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "125 - Make Any Purchase New Seg",
+      "125 - End Of Puzzle Offer",
+      "125 - Dormant CZ V3"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'CZ FIX', 'limited-stock 0.8 CZ offer, value >1 CZ' (CZ כיחידת ערך); Disney: 'Dormant CZ V3', 'items above CZ'; Domino: 'Store segmentation by CZ', 'CZ test - Adding factor for USD2'.",
+   "question": "מה המשמעות של CZ? האם זה אותו מנגנון בשלושת המשחקים (ערך/מחיר מותאם לשחקן)?",
+   "not_same_as": [
+    "השימוש שונה: ב-Dice כיחידת ערך להצעה, ב-Domino כבסיס לסגמנטציה של החנות. לא לאחד עד שיאושר."
+   ],
+   "topics": [
+    "economy",
+    "price",
+    "eligibility"
+   ],
+   "tags_he": [
+    "כלכלה",
+    "תמחור",
+    "זכאות/סגמנט"
+   ],
+   "tags_en": [
+    "economy",
+    "price",
+    "eligibility"
+   ],
+   "usage_refs": [
+    "test:DICE-1113-limited-stock-offer-recomp",
+    "test:DIS-125-make-any-purchase-new-seg",
+    "test:DICE-1104-cz-fix",
+    "test:DIS-125-t125-end-of-puzzle-offer",
+    "test:DIS-125-dormant-cz-v3",
+    "test:DICE-1109-limited-stock-launch-stock-progression"
+   ]
+  },
+  {
+   "concept_id": "PB",
+   "canonical_name": "PB",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "PB": 40
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 16,
+     "whatsapp_items_with_term": 5,
+     "example_names": [
+      "1108 - Weekly Goals PB Points Distribution Change",
+      "PB Points increment after purchase",
+      "Add segments to PB"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1611 - Low balance challenge PB - 10 min free entry",
+      "Test PB plus cc abilities (rr // x2 prizes// x2 points)",
+      "PB onboarding (FTUE)"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 7,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "126 - PB Level Reduction",
+      "FU Tier 2 PB",
+      "PB for 2 days"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Weekly Goals PB Points', 'PB Points increment after purchase', 'The PPR of the PB'; Domino: 'Low balance challenge PB - 10 min free entry'; Disney: 'PB for 2 days', 'FU Tier 2 PB'.",
+   "question": "מה זה PB בכל משחק? האם אותו פיצ'ר?",
+   "not_same_as": [
+    "ב-Dice ל-PB יש 'Points' ו-PPR; ב-Domino יש לו 'free entry'. ייתכן שאלה פיצ'רים שונים עם אותו קיצור."
+   ],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DICE-1108-weekly-goals-pb-points-distribution",
+    "test:DOM-1611-low-balance-challenge-pb-10",
+    "test:DIS-NOID-pb-level-reduction",
+    "test:DICE-NOID-pb-points-increment-after-purchase",
+    "test:DICE-NOID-add-segments-to-pb",
+    "test:DICE-NOID-pb-decrease-tier-amount-increase"
+   ]
+  },
+  {
+   "concept_id": "RV",
+   "canonical_name": "RV",
+   "kind": "feature",
+   "aliases": [
+    "Rewarded Video",
+    "RV segment"
+   ],
+   "source_spellings": {
+    "RV": 42
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 12,
+     "whatsapp_items_with_term": 5,
+     "example_names": [
+      "1110 - RV purchase penalty",
+      "RV - New Opportunistic segments",
+      "RV - Honey Road -  pay/watch VS daily Promo (6BOX/SCROLING)"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "RV Stuck in Funnel Users 8BOX Test",
+      "1460 - RV Mania V2",
+      "1543 - RV Opportunistic for Completers Dormants"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "120 - RV 8box with purchase V2",
+      "124 - RV extend segment",
+      "126 - opportunistic rv"
+     ]
+    }
+   },
+   "monday_updates_with_term": 3,
+   "status": "inferred_from_usage",
+   "definition_he": "Rewarded Video. ב-Dice יש 'סגמנט RV לא-משלמים', ומשתמש שרוכש יוצא ממנו לתקופה (14 יום בקונטרול של 1110).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:11235688371/5387412846"
+   ],
+   "usage_examples": null,
+   "question": "לאשר: RV = Rewarded Video?",
+   "not_same_as": [
+    "Domino 'RV Mania' ו-Disney 'RV 8box' הם פיצ'רים שונים שמבוססים על RV; הסגמנט של Dice לא בהכרח קיים בהם."
+   ],
+   "topics": [
+    "ads",
+    "eligibility"
+   ],
+   "tags_he": [
+    "פרסומות",
+    "זכאות/סגמנט"
+   ],
+   "tags_en": [
+    "ads",
+    "eligibility"
+   ],
+   "usage_refs": [
+    "test:DOM-1543-rv-stuck-in-funnel-users",
+    "test:DOM-1460-rv-mania-v2",
+    "test:DOM-1543-rv-opportunistic-for-completers-dormants",
+    "test:DICE-1110-rv-purchase-penalty",
+    "test:DIS-120-rv-8box-with-purchase-v2",
+    "test:DIS-124-rv-extend-segment"
+   ]
+  },
+  {
+   "concept_id": "DTC",
+   "canonical_name": "DTC",
+   "kind": "mechanism",
+   "aliases": [
+    "Stripe",
+    "web purchase"
+   ],
+   "source_spellings": {
+    "DTC": 49
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 9,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "199 - DTC from 1st purchase (Android) stripe",
+      "1103 - Scare Screen New Users",
+      "1109 - Remove Android DTC"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "1494- DTC Scare Screen Tech Launch",
+      "1500- No DTC - New Users",
+      "1512- DTC +20% value for expensive offers"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "More DTC value for non DTC users after long time",
+      "124 - +15%/+20% Coins in DTC"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "defined_in_source",
+   "definition_he": "רכישה ב-web (DTC/Stripe) במקום ב-store.",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "registry:DICE-199-dtc-from-1st-purchase-android ('allowing web (DTC/Stripe) purchase')"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "payments"
+   ],
+   "tags_he": [
+    "תשלומים"
+   ],
+   "tags_en": [
+    "payments"
+   ],
+   "usage_refs": [
+    "test:DICE-199-dtc-from-1st-purchase-android",
+    "test:DICE-1103-scare-screen-new-users",
+    "test:DICE-1109-remove-android-dtc",
+    "test:DICE-1104-bingo-vs-native",
+    "test:DICE-197-dtc-from-1st-purchase-apple",
+    "test:DICE-1103-scare-screen-users-that-never"
+   ]
+  },
+  {
+   "concept_id": "Scare Screen",
+   "canonical_name": "Scare Screen",
+   "kind": "display",
+   "aliases": [],
+   "source_spellings": {
+    "Scare Screen": 7,
+    "scare screen": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1103 - Scare Screen New Users",
+      "1103 - Scare Screen - Users That Never Bought DTC"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1494- DTC Scare Screen Tech Launch"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "מסך אזהרה לפני רכישת DTC (Domino 1494: 'Google warning').",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "registry:DOM-1494-dtc-scare-screen-te"
+   ],
+   "usage_examples": null,
+   "question": "האם זה אותו מסך ב-Dice (1103) וב-Domino (1494)?",
+   "not_same_as": [],
+   "topics": [
+    "display",
+    "payments"
+   ],
+   "tags_he": [
+    "תצוגה",
+    "תשלומים"
+   ],
+   "tags_en": [
+    "display",
+    "payments"
+   ],
+   "usage_refs": [
+    "test:DICE-1103-scare-screen-new-users",
+    "test:DICE-1103-scare-screen-users-that-never",
+    "test:DOM-1494-dtc-scare-screen-tech-launch"
+   ]
+  },
+  {
+   "concept_id": "DDJ",
+   "canonical_name": "DDJ",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "DDJ": 7
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 3,
+     "example_names": [
+      "MTX DDJ Cooldown - NOT Every Day!",
+      "Trail All or Nothing vs Disco Road/ DDJ/...",
+      "1113 - Album - Specific Sticker (new version) In DDJ"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'MTX DDJ Cooldown', 'Trail All or Nothing vs Disco Road/ DDJ'.",
+   "question": "מה זה DDJ (אירוע MTX ב-Dice)?",
+   "not_same_as": [],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-mtx-ddj-cooldown-not-every",
+    "test:DICE-NOID-trail-all-or-nothing-vs",
+    "test:DICE-1113-album-specific-sticker-new-version",
+    "test:DICE-NOID-remove-ddj-hr-offers"
+   ]
+  },
+  {
+   "concept_id": "PT",
+   "canonical_name": "PT",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "PT": 3
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "Change Trail FTUE PT (only steal/attack)",
+      "Remove PT in tournaments"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Remove PT in tournaments', 'Change Trail FTUE PT (only steal/attack)'.",
+   "question": "מה זה PT ב-Dice?",
+   "not_same_as": [],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-change-trail-ftue-pt-only",
+    "test:DICE-NOID-remove-pt-in-tournaments"
+   ]
+  },
+  {
+   "concept_id": "MTX",
+   "canonical_name": "MTX",
+   "kind": "abbreviation",
+   "aliases": [],
+   "source_spellings": {
+    "MTX": 11
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "Roll Bucket Reform  -Much Less attack & steal chances = bigger rewards & more points for MTX events per instance",
+      "MTX DDJ Cooldown - NOT Every Day!"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "MTX offers inside level as badge"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 6,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Booster for tomorrow - On Sundays and for Churn users - MTX",
+      "MTX Promo of decrese level cost(entry/resources) in Mode 2 & 3 for segment that is rich and playing on mode 1",
+      "MTX - Max Price Offers"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "צוות ופיצ'רי ה-live-ops (אירועים ומבצעים). 'Test scheduled ... on MTX side' (Domino).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:13179408516 reply"
+   ],
+   "usage_examples": null,
+   "question": "לאשר את ההגדרה.",
+   "not_same_as": [],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-roll-bucket-reform-much-less",
+    "test:DICE-NOID-mtx-ddj-cooldown-not-every",
+    "test:DOM-NOID-mtx-offers-inside-level-as",
+    "test:DIS-NOID-booster-for-tomorrow-on-sundays",
+    "test:DIS-NOID-mtx-promo-of-decrese-level",
+    "test:DIS-NOID-mtx-max-price-offers"
+   ]
+  },
+  {
+   "concept_id": "K (Kingdom)",
+   "canonical_name": "K (Kingdom)",
+   "kind": "population",
+   "aliases": [
+    "K110+",
+    "K199",
+    "Kingdom",
+    "קינגדום"
+   ],
+   "source_spellings": {
+    "K2": 7,
+    "K40": 5,
+    "K110+": 4,
+    "K60": 3,
+    "K20": 3,
+    "K94": 3,
+    "קינגדום": 3,
+    "K90+": 3,
+    "K199": 2,
+    "K105": 2,
+    "K3": 2,
+    "K120+": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 14,
+     "whatsapp_items_with_term": 18,
+     "example_names": [
+      "1113 - limited stock offer recomp",
+      "1106 - Remove AD from Segmentation",
+      "1105 - Increase Default Max Bet for K110+"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 5,
+   "status": "defined_in_source",
+   "definition_he": "Dice: מספר Kingdom (התקדמות). 'X2 Ticks Per Hour K199 and under' = 'עבור קינגדום 1 עד 199'.",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "monday_update:13101807895/5573100614"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [
+    "ב-Domino ו-Disney ההתקדמות נמדדת ב-Level, לא ב-K."
+   ],
+   "topics": [
+    "population"
+   ],
+   "tags_he": [
+    "אוכלוסייה"
+   ],
+   "tags_en": [
+    "population"
+   ],
+   "usage_refs": [
+    "test:DICE-1113-limited-stock-offer-recomp",
+    "test:DICE-1106-remove-ad-from-segmentation",
+    "test:DICE-1105-increase-default-max-bet-for",
+    "test:DICE-NOID-trail-less-coins-yeladim-ktanim",
+    "test:DICE-NOID-trail-harder",
+    "test:DICE-1109-limited-stock-launch-stock-progression"
+   ]
+  },
+  {
+   "concept_id": "AD (Active Days)",
+   "canonical_name": "AD (Active Days)",
+   "kind": "population",
+   "aliases": [
+    "AD30+",
+    "AD240+",
+    "Active Days"
+   ],
+   "source_spellings": {
+    "AD": 6,
+    "AD240+": 2,
+    "AD30+": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1102 - FTD High Maturity",
+      "1106 - Remove AD from Segmentation",
+      "Free Dream Passs for churners"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 3,
+   "status": "defined_in_source",
+   "definition_he": "Active Days. הפריט '1106 - Remove AD from Segmentation' והדשבורד '1106 - Remove Active Days from Segmentation' מתייחסים לאותו טסט.",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "monday_name:DICE-1106-remove-ad-from-segmentation",
+    "mp_dashboard_title:1106"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [
+    "'RPS AD ECHAD' הוא כנראה צירוף אחר (ECHAD = 'אחד'?), לא בהכרח Active Days."
+   ],
+   "topics": [
+    "population",
+    "eligibility"
+   ],
+   "tags_he": [
+    "אוכלוסייה",
+    "זכאות/סגמנט"
+   ],
+   "tags_en": [
+    "population",
+    "eligibility"
+   ],
+   "usage_refs": [
+    "test:DICE-1102-ftd-high-maturity",
+    "test:DICE-1106-remove-ad-from-segmentation",
+    "test:DICE-NOID-free-dream-passs-for-churners",
+    "test:DICE-1110-rv-purchase-penalty",
+    "test:DICE-NOID-rps-ad-echad"
+   ]
+  },
+  {
+   "concept_id": "Level",
+   "canonical_name": "Level",
+   "kind": "population",
+   "aliases": [
+    "LVL",
+    "level"
+   ],
+   "source_spellings": {
+    "level 250": 3,
+    "level 30": 3,
+    "level 350": 3,
+    "level 32": 3,
+    "Level 20": 3,
+    "Level 40": 2,
+    "level 40": 2,
+    "Level 30": 2,
+    "level 10": 2,
+    "level 74": 2,
+    "Level 32": 2,
+    "Level 200": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1107 - Pet lvl 9 no reset"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 10,
+     "whatsapp_items_with_term": 6,
+     "example_names": [
+      "1551 Scrolling Under 250",
+      "1494 - Romantic Treats",
+      "1501 - Duel vs. Tournament Onboarding"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 16,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "041 - Starter Pack to Level 75",
+      "101 - Boost Your Puzzle (Mistake)",
+      "043 - D01 Min Price"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "inferred_from_usage",
+   "definition_he": "שלב/רמה (Domino ו-Disney).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:13210931762/5606314044"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [
+    "ב-Dice ההתקדמות היא K (Kingdom)."
+   ],
+   "topics": [
+    "population"
+   ],
+   "tags_he": [
+    "אוכלוסייה"
+   ],
+   "tags_en": [
+    "population"
+   ],
+   "usage_refs": [
+    "test:DIS-041-starter-pack-to-level-75",
+    "test:DOM-1551-1551-scrolling-under-250",
+    "test:DOM-1494-romantic-treats",
+    "test:DOM-1501-duel-vs-tournament-onboarding",
+    "test:DOM-1492-popup-win-level-30-in",
+    "test:DOM-NOID-ftd-offer-add-a-20"
+   ]
+  },
+  {
+   "concept_id": "3PO",
+   "canonical_name": "3PO",
+   "kind": "offer",
+   "aliases": [
+    "three price points"
+   ],
+   "source_spellings": {
+    "3PO": 4
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "195 - FTD offer 3PO"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "defined_in_source",
+   "definition_he": "הצעה עם שלוש נקודות מחיר (למשל FTD 3PO $3/$5/$7).",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "wa:wa221",
+    "monday_update:13210931762/5606314044 ('three price points')"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "offer",
+    "price"
+   ],
+   "tags_he": [
+    "הצעה",
+    "תמחור"
+   ],
+   "tags_en": [
+    "offer",
+    "price"
+   ],
+   "usage_refs": [
+    "test:DICE-195-ftd-offer-3po"
+   ]
+  },
+  {
+   "concept_id": "8 Box",
+   "canonical_name": "8 Box",
+   "kind": "offer",
+   "aliases": [
+    "8box",
+    "8BOX",
+    "8 בוקס"
+   ],
+   "source_spellings": {
+    "8box": 7,
+    "8 Box": 4,
+    "8Box": 3,
+    "8 בוקס": 2,
+    "8BOX": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "RV Stuck in Funnel Users 8BOX Test",
+      "1621 8 Box from 2$ to 3$ (FTUE)"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "120 - RV 8box with purchase V2",
+      "8Box Stagnant Prices for Brokens",
+      "Gameplay 8Box Segmentation V2"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Domino: '8 Box from 2$ to 3$ (FTUE)', 'RV 8box offer'; Disney: 'RV 8box with purchase', '8box Segments'.",
+   "question": "מה המבנה של 8 Box (8 קופסאות/שלבים)? האם זהה ב-Domino וב-Disney?",
+   "not_same_as": [
+    "6Box (Disney/Dice) הוא פורמט אחר."
+   ],
+   "topics": [
+    "offer",
+    "price"
+   ],
+   "tags_he": [
+    "הצעה",
+    "תמחור"
+   ],
+   "tags_en": [
+    "offer",
+    "price"
+   ],
+   "usage_refs": [
+    "test:DOM-1543-rv-stuck-in-funnel-users",
+    "test:DOM-1621-1621-8-box-from-2",
+    "test:DIS-120-rv-8box-with-purchase-v2",
+    "test:DIS-NOID-8box-stagnant-prices-for-brokens",
+    "test:DIS-NOID-gameplay-8box-segmentation-v2",
+    "test:DIS-NOID-lower-2nd-8box-cz-higher"
+   ]
+  },
+  {
+   "concept_id": "Starter Pack",
+   "canonical_name": "Starter Pack",
+   "kind": "offer",
+   "aliases": [],
+   "source_spellings": {
+    "Starter Pack": 5,
+    "starter pack": 3
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "Give bigger starter pack at K2"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "FTD Offer - Add a $20 price point & 2 New STD Offers"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "041 - Starter Pack to Level 75",
+      "111 - Starter Pack",
+      "043 - D01 Min Price"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "inferred_from_usage",
+   "definition_he": "הצעת פתיחה לשחקנים חדשים. ב-Domino היא חלק מ-FTD offer.",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:13210931762/5606314044"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "offer"
+   ],
+   "tags_he": [
+    "הצעה"
+   ],
+   "tags_en": [
+    "offer"
+   ],
+   "usage_refs": [
+    "test:DIS-041-starter-pack-to-level-75",
+    "test:DIS-111-starter-pack",
+    "test:DOM-NOID-ftd-offer-add-a-20",
+    "test:DIS-043-d01-min-price",
+    "test:DICE-NOID-give-bigger-starter-pack-at"
+   ]
+  },
+  {
+   "concept_id": "Dream Pass",
+   "canonical_name": "Dream Pass",
+   "kind": "feature",
+   "aliases": [
+    "DP",
+    "Premium Pass",
+    "dreampass"
+   ],
+   "source_spellings": {
+    "Dream Pass": 7,
+    "DP": 5,
+    "dreampass": 4,
+    "dream pass": 3,
+    "Dream pass": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 9,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "Free Dream Passs for churners",
+      "Dream Pass –Reward Rush",
+      "Dream pass Mission 12th routine"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Remove DP pop up when try to enter level but OOC",
+      "Dream Pass reward rush",
+      "give premium dream pass for back from churn"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "inferred_from_usage",
+   "definition_he": "Pass עם משימות ותגמולים, ויש לו גרסת Premium בתשלום ('encourage players to buy the Premium Pass').",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:18269690223/4612116795"
+   ],
+   "usage_examples": null,
+   "question": "DP ב-Domino ('Remove DP pop up ... OOC') הוא אותו Dream Pass?",
+   "not_same_as": [],
+   "topics": [
+    "event",
+    "payments"
+   ],
+   "tags_he": [
+    "אירוע",
+    "תשלומים"
+   ],
+   "tags_en": [
+    "event",
+    "payments"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-free-dream-passs-for-churners",
+    "test:DICE-NOID-dream-pass-reward-rush",
+    "test:DICE-NOID-dream-pass-mission-12th-routine",
+    "test:DICE-NOID-golden-mission-in-dp-enjoy",
+    "test:DICE-NOID-dreampass-more-expensive-after-4",
+    "test:DICE-NOID-dreampass-purchase-and-get-x"
+   ]
+  },
+  {
+   "concept_id": "Trail",
+   "canonical_name": "Trail",
+   "kind": "feature",
+   "aliases": [
+    "Trail Runner",
+    "Choose Your Trail",
+    "recomp"
+   ],
+   "source_spellings": {
+    "Trail": 42
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 24,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "1115 - Trail Double Wheel Better Experience",
+      "1115 - Trail K20 to 59 Less Coins in Chests",
+      "1115 - K60 Harder Trail With Lower Payout"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Trail Rivals Duel",
+      "*Trail- 15 tiers",
+      "Choose Your Trail Test"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Lightyear Trail – More Golf Sticky",
+      "124 - Trail again (3rd try 🍦)"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Trail Weekend Recomp' ('10 tier trail', 'Double wheel + all or nothing'); Domino: 'Trail Runner V2', 'Choose Your Trail'; Disney: 'Trail again'.",
+   "question": "האם Trail הוא אותו סוג אירוע בשלושת המשחקים?",
+   "not_same_as": [
+    "מבנה ה-Trail ב-Dice (tiers, wheel, GP) לא ידוע ב-Domino וב-Disney."
+   ],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DICE-1115-trail-double-wheel-better-experience",
+    "test:DICE-NOID-trail-less-coins-yeladim-ktanim",
+    "test:DICE-NOID-trail-harder",
+    "test:DICE-NOID-protocol-trail-with-presets-k10",
+    "test:DICE-NOID-change-trail-ftue-pt-only",
+    "test:DICE-NOID-trail-vertical-lane-test"
+   ]
+  },
+  {
+   "concept_id": "Recompletion",
+   "canonical_name": "Recompletion",
+   "kind": "mechanism",
+   "aliases": [
+    "Recomp"
+   ],
+   "source_spellings": {
+    "recompletion": 3,
+    "recomp": 2,
+    "Recompletion": 2,
+    "Recomp": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1113 - limited stock offer recomp",
+      "Remove DRs from recompletion",
+      "Pet Store by Tokens from Recompletion"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Recompletion for Early Finishers"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 2,
+   "status": "inferred_from_usage",
+   "definition_he": "השלמה חוזרת של אירוע (למשל Trail) אחרי ההשלמה הראשונה.",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:13235807076/5658682679"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "event",
+    "reward"
+   ],
+   "tags_he": [
+    "אירוע",
+    "תגמול"
+   ],
+   "tags_en": [
+    "event",
+    "reward"
+   ],
+   "usage_refs": [
+    "test:DICE-1113-limited-stock-offer-recomp",
+    "test:DOM-NOID-recompletion-for-early-finishers",
+    "test:DICE-NOID-remove-drs-from-recompletion",
+    "test:DICE-NOID-pet-store-by-tokens-from",
+    "test:DICE-1113-trail-recomp-smaller-atw-higher",
+    "test:DICE-NOID-trail-weekend-recomp"
+   ]
+  },
+  {
+   "concept_id": "GP",
+   "canonical_name": "GP",
+   "kind": "reward",
+   "aliases": [],
+   "source_spellings": {
+    "GP": 10
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 6,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "Puzzle Finishers Vertical VS Increase GP",
+      "Pixie GP",
+      "150%/200% GP on top layer (golden puzzle, blast, golden merge)"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "High Puzzle Segment allowance allocation - divert towards GP",
+      "Lower puzzle tiers prizes (not GP) - בעיה אופרטיבית",
+      "XXX - Increased chef GP"
+     ]
+    }
+   },
+   "monday_updates_with_term": 2,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'GP is 1.5 better', 'The resources will be in the GP instead'; Disney: 'divert towards GP'.",
+   "question": "GP = Grand Prize? האם זהה ב-Dice וב-Disney?",
+   "not_same_as": [],
+   "topics": [
+    "reward"
+   ],
+   "tags_he": [
+    "תגמול"
+   ],
+   "tags_en": [
+    "reward"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-puzzle-finishers-vertical-vs-increase",
+    "test:DICE-NOID-pixie-gp",
+    "test:DIS-NOID-high-puzzle-segment-allowance-allocation",
+    "test:DIS-NOID-lower-puzzle-tiers-prizes-not",
+    "test:DIS-NOID-xxx-increased-chef-gp",
+    "test:DICE-150-150-200-gp-on-top"
+   ]
+  },
+  {
+   "concept_id": "ATW",
+   "canonical_name": "ATW",
+   "kind": "reward",
+   "aliases": [],
+   "source_spellings": {
+    "ATW": 4
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1113- Lava Prizes X 5 ATW",
+      "1113 - Trail Recomp Smaller ATW Higher GP",
+      "1114 - Weekend Trail Recomp Test"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'No DRs ATW, only booster, rolls, TE', 'Lava Prizes X 5 ATW'.",
+   "question": "ATW = Along The Way (תגמולי ביניים)?",
+   "not_same_as": [],
+   "topics": [
+    "reward"
+   ],
+   "tags_he": [
+    "תגמול"
+   ],
+   "tags_en": [
+    "reward"
+   ],
+   "usage_refs": [
+    "test:DICE-1113-lava-prizes-x-5-atw",
+    "test:DICE-1113-trail-recomp-smaller-atw-higher",
+    "test:DICE-NOID-trail-weekend-recomp"
+   ]
+  },
+  {
+   "concept_id": "DR",
+   "canonical_name": "DR",
+   "kind": "reward",
+   "aliases": [
+    "DRs"
+   ],
+   "source_spellings": {
+    "DRs": 7,
+    "DR": 6
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 9,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Increase prizes & decrease DR in honeyroad (similar to ddj test)",
+      "BWF -Out of DRs – Show DT Offer or Not",
+      "Peonball rewards change for higher kingdoms (Increase the rewards/ change to other DRs)"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Puzzle Locked - With/DR .vs. Nothing .vs. Regular Unlock",
+      "Multiplier on Tournament DR from levels (in the last hour) (Promo)",
+      "Wheel for daily DRs in PB"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'No DRs ATW', 'decrease DR in honeyroad', 'Out of DR Decoy Offer'.",
+   "question": "מה זה DR ב-Dice?",
+   "not_same_as": [
+    "DRC ב-Disney הוא מונח אחר, לא להניח קשר."
+   ],
+   "topics": [
+    "reward",
+    "economy"
+   ],
+   "tags_he": [
+    "תגמול",
+    "כלכלה"
+   ],
+   "tags_en": [
+    "reward",
+    "economy"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-increase-prizes-decrease-dr-in",
+    "test:DICE-NOID-bwf-out-of-drs-show",
+    "test:DICE-NOID-peonball-rewards-change-for-higher",
+    "test:DICE-NOID-out-of-dr-decoy-offer",
+    "test:DICE-NOID-user-sensitivity-dr-vs-rolls",
+    "test:DICE-NOID-remove-drs-from-recompletion"
+   ]
+  },
+  {
+   "concept_id": "DRC",
+   "canonical_name": "DRC",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "DRC": 8
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "DRC new agenda - by mod",
+      "DRC Freeze with Coins",
+      "Pity from DRC - only 5 days per week? remove HH? add HB?"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'DRC New Economy V5.2', 'DRC new agenda - by mod', 'Pity from DRC'.",
+   "question": "מה זה DRC ב-Disney?",
+   "not_same_as": [
+    "DR ב-Dice."
+   ],
+   "topics": [
+    "economy"
+   ],
+   "tags_he": [
+    "כלכלה"
+   ],
+   "tags_en": [
+    "economy"
+   ],
+   "usage_refs": [
+    "test:DIS-NOID-drc-new-agenda-by-mod",
+    "test:DIS-NOID-drc-freeze-with-coins",
+    "test:DIS-NOID-pity-from-drc-only-5",
+    "test:DIS-125-drc-new-economy-v5-2"
+   ]
+  },
+  {
+   "concept_id": "TE",
+   "canonical_name": "TE",
+   "kind": "reward",
+   "aliases": [],
+   "source_spellings": {
+    "TE": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Rolls+TE in offers by habit seg not CZ",
+      "1114 - Weekend Trail Recomp Test"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 2,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'only booster, rolls, TE', 'TE in offers by habit seg not CZ'.",
+   "question": "מה זה TE ב-Dice?",
+   "not_same_as": [],
+   "topics": [
+    "reward"
+   ],
+   "tags_he": [
+    "תגמול"
+   ],
+   "tags_en": [
+    "reward"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-te-in-offers-by-habit",
+    "test:DICE-NOID-trail-weekend-recomp"
+   ]
+  },
+  {
+   "concept_id": "Rolls / Ticks",
+   "canonical_name": "Rolls / Ticks",
+   "kind": "economy",
+   "aliases": [
+    "free rolls",
+    "רולים חינמיים",
+    "Ticks Per Hour"
+   ],
+   "source_spellings": {
+    "Rolls": 16,
+    "rolls": 12,
+    "רולים": 9,
+    "roll": 8,
+    "Roll": 7,
+    "Tick": 1,
+    "Ticks": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 29,
+     "whatsapp_items_with_term": 15,
+     "example_names": [
+      "Add roll bucket 3rd day (for default bucket)",
+      "No Roll Reward for Roll Quests",
+      "Roll Bucket Reform  -Much Less attack & steal chances = bigger rewards & more points for MTX events per instance"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Tick Tock Economy"
+     ]
+    }
+   },
+   "monday_updates_with_term": 4,
+   "status": "defined_in_source",
+   "definition_he": "Dice: רולים חינמיים שמתקבלים לפי טיימר. 'X2 Ticks Per Hour' מקצר את הטיימר משעה לחצי שעה, עם אותה כמות רולים בכל איטרציה.",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "monday_update:13101807895/5573100614"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "economy",
+    "timing"
+   ],
+   "tags_he": [
+    "כלכלה",
+    "תזמון"
+   ],
+   "tags_en": [
+    "economy",
+    "timing"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-add-roll-bucket-3rd-day",
+    "test:DICE-NOID-no-roll-reward-for-roll",
+    "test:DICE-NOID-roll-bucket-reform-much-less",
+    "test:DICE-NOID-reduce-rolls-reduction-pricing",
+    "test:DICE-NOID-remove-cards-joker-rolls",
+    "test:DICE-NOID-remove-shields-from-first-roll"
+   ]
+  },
+  {
+   "concept_id": "Max Bet",
+   "canonical_name": "Max Bet",
+   "kind": "economy",
+   "aliases": [
+    "default max bet"
+   ],
+   "source_spellings": {
+    "Max Bet": 1,
+    "max bet": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1105 - Increase Default Max Bet for K110+"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "defined_in_source",
+   "definition_he": "Dice: ערך ברירת המחדל של ההימור המקסימלי (100 מעל K110+ לפני הטסט 1105).",
+   "definition_tag": "explicit_in_source",
+   "definition_refs": [
+    "monday_update:11744178109/5097764134"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "economy"
+   ],
+   "tags_he": [
+    "כלכלה"
+   ],
+   "tags_en": [
+    "economy"
+   ],
+   "usage_refs": [
+    "test:DICE-1105-increase-default-max-bet-for"
+   ]
+  },
+  {
+   "concept_id": "Duel",
+   "canonical_name": "Duel",
+   "kind": "feature",
+   "aliases": [
+    "Duel Time",
+    "Duel event"
+   ],
+   "source_spellings": {
+    "Duel": 23,
+    "Duels": 3
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 7,
+     "whatsapp_items_with_term": 4,
+     "example_names": [
+      "1114 - Duel Time Easier Bots",
+      "Make Duels longer",
+      "Duel VS Task Momentum"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1501 - Duel vs. Tournament Onboarding",
+      "Trail Rivals Duel",
+      "Duel/Paw Draw/Race Bots Slow Down"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 5,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Social layer onboarding with Duel - Onboarding event",
+      "Duel Economy",
+      "Duel/Paw Draw/Race Bots Slow Down"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "inferred_from_usage",
+   "definition_he": "אירוע של דו-קרבות מול בוטים ('Duel event 1: 4 Duels 5/15/15/15', Dice).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:13348978080/5652766627"
+   ],
+   "usage_examples": null,
+   "question": "מה המשמעות של 5/15/15/15?",
+   "not_same_as": [
+    "Duel ב-Domino (1501 Duel vs Tournament Onboarding) וב-Disney (Duel Economy) לא בהכרח באותו מבנה."
+   ],
+   "topics": [
+    "event",
+    "difficulty"
+   ],
+   "tags_he": [
+    "אירוע",
+    "קושי"
+   ],
+   "tags_en": [
+    "event",
+    "difficulty"
+   ],
+   "usage_refs": [
+    "test:DOM-1501-duel-vs-tournament-onboarding",
+    "test:DICE-1114-duel-time-easier-bots",
+    "test:DICE-NOID-make-duels-longer",
+    "test:DICE-NOID-duel-vs-task-momentum",
+    "test:DOM-NOID-trail-rivals-duel",
+    "test:DOM-NOID-duel-paw-draw-race-bots"
+   ]
+  },
+  {
+   "concept_id": "Tournament",
+   "canonical_name": "Tournament",
+   "kind": "feature",
+   "aliases": [
+    "Tournament V2",
+    "טורנירים"
+   ],
+   "source_spellings": {
+    "Tournament": 16,
+    "טורניר": 8,
+    "Tournaments": 4,
+    "tournament": 3,
+    "tournaments": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 14,
+     "whatsapp_items_with_term": 4,
+     "example_names": [
+      "1114 - Tournament V2 After Fix Round",
+      "Back From Churn - PHASE 2 (Tournaments, Injection, YCR)",
+      "Tournaments New economy strategy"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1501 - Duel vs. Tournament Onboarding",
+      "calendar related booster/events to enter with coins (tournament, etc.)"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Shorter tournaments in peak hours",
+      "Multiplier on Tournament DR from levels (in the last hour) (Promo)"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "inferred_from_usage",
+   "definition_he": "אירוע טורניר. ב-Dice עוברים ל-Tournament V2 ובודקים שמשחזר את הישן.",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:13384095320/5663891148"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DOM-1501-duel-vs-tournament-onboarding",
+    "test:DICE-1114-tournament-v2-after-fix-round",
+    "test:DICE-NOID-back-from-churn-phase-2",
+    "test:DICE-NOID-tournaments-new-economy-strategy",
+    "test:DICE-NOID-new-tournaments-economy-strategy",
+    "test:DICE-NOID-make-tournament-more-exciting-by"
+   ]
+  },
+  {
+   "concept_id": "Weekly Goals",
+   "canonical_name": "Weekly Goals",
+   "kind": "feature",
+   "aliases": [
+    "Weekly tasks"
+   ],
+   "source_spellings": {
+    "Weekly Goals": 7,
+    "weekly goals": 7,
+    "Weekly goals": 2,
+    "Weekly tasks": 2,
+    "Weekly Tasks": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 8,
+     "whatsapp_items_with_term": 4,
+     "example_names": [
+      "1108 - Weekly Goals PB Points Distribution Change",
+      "weekly goals controlled progression",
+      "weekly goals 6 daily missions"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Weekly goals onboarding (FTUE)",
+      "VIP stamp card as weekly goals",
+      "Weekly Tasks"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Weekly Goals PB Points Distribution'; Domino: 'Weekly tasks harder tasks', 'VIP stamp card as weekly goals'.",
+   "question": "האם Weekly Goals (Dice) ו-Weekly tasks (Domino) הם אותו פיצ'ר?",
+   "not_same_as": [],
+   "topics": [
+    "event",
+    "difficulty"
+   ],
+   "tags_he": [
+    "אירוע",
+    "קושי"
+   ],
+   "tags_en": [
+    "event",
+    "difficulty"
+   ],
+   "usage_refs": [
+    "test:DICE-1108-weekly-goals-pb-points-distribution",
+    "test:DICE-NOID-weekly-goals-controlled-progression",
+    "test:DICE-NOID-weekly-goals-6-daily-missions",
+    "test:DICE-NOID-replace-daily-calendar-with-weekly",
+    "test:DICE-NOID-weekly-goals-let-s-do",
+    "test:DICE-NOID-weekly-goals-for-users-who"
+   ]
+  },
+  {
+   "concept_id": "Genie",
+   "canonical_name": "Genie",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "Genie": 5
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "1590 - Genie New Agenda V3"
+     ]
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Domino: 'Genie New Agenda V3', 'genie unlock experience --> not all helps together'.",
+   "question": "מה זה Genie ב-Domino ומה זה 'agenda' שלו?",
+   "not_same_as": [],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DOM-1590-genie-new-agenda-v3"
+   ]
+  },
+  {
+   "concept_id": "Whammy",
+   "canonical_name": "Whammy",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "Whammy": 8
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1109 - Whammy For DT Finishers",
+      "Whammy vs. Fortune Wheel - in Extra Layer"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Whammy For DT Finishers', 'Whammy vs. Fortune Wheel - in Extra Layer'.",
+   "question": "מה זה Whammy, ומה זה DT finishers?",
+   "not_same_as": [],
+   "topics": [
+    "event"
+   ],
+   "tags_he": [
+    "אירוע"
+   ],
+   "tags_en": [
+    "event"
+   ],
+   "usage_refs": [
+    "test:DICE-1109-whammy-for-dt-finishers",
+    "test:DICE-NOID-whammy-vs-fortune-wheel-in"
+   ]
+  },
+  {
+   "concept_id": "Piggy",
+   "canonical_name": "Piggy",
+   "kind": "feature",
+   "aliases": [
+    "Piggie",
+    "PIggie",
+    "piggy"
+   ],
+   "source_spellings": {
+    "Piggy": 3,
+    "PIggie": 1,
+    "piggy": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 3,
+     "example_names": [
+      "Piggy - high majurity - with or without",
+      "1107 - New PIggie Pricing"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: '1107 - New PIggie Pricing'; WhatsApp: 'piggy purchases −14.01%'.",
+   "question": "Piggy Bank? האם קשור ל-PB?",
+   "not_same_as": [],
+   "topics": [
+    "offer",
+    "payments"
+   ],
+   "tags_he": [
+    "הצעה",
+    "תשלומים"
+   ],
+   "tags_en": [
+    "offer",
+    "payments"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-piggy-high-majurity-with-or",
+    "test:DICE-1107-new-piggie-pricing"
+   ]
+  },
+  {
+   "concept_id": "Pity",
+   "canonical_name": "Pity",
+   "kind": "mechanism",
+   "aliases": [
+    "Pitty"
+   ],
+   "source_spellings": {
+    "Pity": 19,
+    "pity": 15,
+    "Pitty": 1,
+    "pitty": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "DT Pity",
+      "Kingdoms Pity Counter",
+      "1107 - Tournament V1 no pity"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 8,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1570 - High Win Rate After Purchase",
+      "Pity for return users- exclude balance",
+      "change pity for high balance users as protocol"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 19,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "quest pity",
+      "Increase Pity Levels FWR",
+      "Momentum Pity V2 (Change discount to cut loss within pity)"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'Increase Pity Levels FWR', 'Album Pitty for FU'; Domino: 'ES Pity'.",
+   "question": "מה מנגנון ה-Pity בכל משחק?",
+   "not_same_as": [],
+   "topics": [
+    "difficulty",
+    "reward"
+   ],
+   "tags_he": [
+    "קושי",
+    "תגמול"
+   ],
+   "tags_en": [
+    "difficulty",
+    "reward"
+   ],
+   "usage_refs": [
+    "test:DOM-1570-high-win-rate-after-purchase",
+    "test:DICE-NOID-dt-pity",
+    "test:DICE-NOID-kingdoms-pity-counter",
+    "test:DOM-NOID-pity-for-return-users-exclude",
+    "test:DOM-NOID-change-pity-for-high-balance",
+    "test:DOM-NOID-pity-in-minigame-for-users"
+   ]
+  },
+  {
+   "concept_id": "FU",
+   "canonical_name": "FU",
+   "kind": "abbreviation",
+   "aliases": [
+    "FU1",
+    "FU2"
+   ],
+   "source_spellings": {
+    "FU": 13,
+    "FU1": 1,
+    "FU2": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "SKU Segmented by FU",
+      "Harder Sunday Trail by FU",
+      "Album end period - push hard to FU only the PU"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "Pixie FU 2 VS. 3",
+      "1591 - FU Joker Offers Pricing"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 4,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Album Pitty™ for FU - סט 1 חינם / רסג כפול 3",
+      "6Box Progress Bar - FU",
+      "FU Tier 2 PB"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'push hard to FU only the PU', 'SKU Segmented by FU'; Domino: 'Pixie FU 2 VS. 3', 'FU Joker Offers'; Disney: 'FU Tier 2 PB'.",
+   "question": "מה זה FU? האם אותה משמעות בכל משחק?",
+   "not_same_as": [],
+   "topics": [
+    "population"
+   ],
+   "tags_he": [
+    "אוכלוסייה"
+   ],
+   "tags_en": [
+    "population"
+   ],
+   "usage_refs": [
+    "test:DICE-NOID-sku-segmented-by-fu",
+    "test:DICE-NOID-harder-sunday-trail-by-fu",
+    "test:DICE-NOID-album-end-period-push-hard",
+    "test:DOM-NOID-pixie-fu-2-vs-3",
+    "test:DIS-NOID-album-pitty-for-fu-1",
+    "test:DIS-NOID-6box-progress-bar-fu"
+   ]
+  },
+  {
+   "concept_id": "WR",
+   "canonical_name": "WR",
+   "kind": "mechanism",
+   "aliases": [],
+   "source_spellings": {
+    "WR": 11
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "WR change durring day"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 7,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "126 - WR V3",
+      "WR Reduction after album/chef completed",
+      "Decrease WR Mode 1 When HB V3 - Only Remove treatment if player purchased"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'WR V2', 'WR Reduction after album/chef completed', 'Decrease WR Mode 1'; Domino: 'WR change during day'.",
+   "question": "WR = Win Rate? האם זהה ב-Disney וב-Domino?",
+   "not_same_as": [],
+   "topics": [
+    "difficulty"
+   ],
+   "tags_he": [
+    "קושי"
+   ],
+   "tags_en": [
+    "difficulty"
+   ],
+   "usage_refs": [
+    "test:DIS-126-wr-v3",
+    "test:DOM-NOID-wr-change-durring-day",
+    "test:DIS-NOID-wr-reduction-after-album-chef",
+    "test:DIS-NOID-decrease-wr-mode-1-when",
+    "test:DIS-NOID-wr-v2-agenda-after-analysis",
+    "test:DIS-NOID-momentum-segmentation-bw-x-wr"
+   ]
+  },
+  {
+   "concept_id": "ES",
+   "canonical_name": "ES",
+   "kind": "abbreviation",
+   "aliases": [],
+   "source_spellings": {
+    "ES": 9
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "ES Pity - Dynamic Extra Stock Difficulty"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 7,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "126 - ES V3",
+      "ES segmented by ES balance",
+      "ES Price Increase"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'ES Price Increase', 'ES segmented by ES balance'; Domino: 'ES Pity - Dynamic Extra Stock Difficulty'.",
+   "question": "ES = Extra Stock? האם אותו דבר ב-Disney?",
+   "not_same_as": [],
+   "topics": [
+    "economy"
+   ],
+   "tags_he": [
+    "כלכלה"
+   ],
+   "tags_en": [
+    "economy"
+   ],
+   "usage_refs": [
+    "test:DIS-126-es-v3",
+    "test:DOM-NOID-es-pity-dynamic-extra-stock",
+    "test:DIS-NOID-es-segmented-by-es-balance",
+    "test:DIS-NOID-es-price-increase",
+    "test:DIS-NOID-pity-and-es-protocol-v2",
+    "test:DIS-NOID-es-pity-v3-only-technical"
+   ]
+  },
+  {
+   "concept_id": "OOC / OOR",
+   "canonical_name": "OOC / OOR",
+   "kind": "population",
+   "aliases": [
+    "OOC",
+    "OOR",
+    "OOCoins",
+    "OOTE"
+   ],
+   "source_spellings": {
+    "OOR": 6,
+    "OOC": 4,
+    "OOCoins": 1,
+    "OOTE": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 7,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "first OOR & OOCoins after K2",
+      "Auto practice mode instead of OOR popup",
+      "Add Cooldown/Disable OOR placement for friends invite (By maturity/kingdom)"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "Remove DP pop up when try to enter level but OOC"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "124 - AYS offer for FTD and dormant",
+      "OOC Offer with pressure for Dormant users",
+      "low balance booster + OOC offer"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "מצב שבו השחקן נגמר לו משאב (Out Of Coins / Out Of Rolls); טריגר להצעה או לפופאפ.",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "registry:DICE-NOID-first-oor-oocoins-",
+    "registry:DOM-NOID-remove-dp-pop-up-wh"
+   ],
+   "usage_examples": null,
+   "question": "לאשר את ההרחבה (OOR = Out of Rolls?).",
+   "not_same_as": [],
+   "topics": [
+    "economy",
+    "eligibility"
+   ],
+   "tags_he": [
+    "כלכלה",
+    "זכאות/סגמנט"
+   ],
+   "tags_en": [
+    "economy",
+    "eligibility"
+   ],
+   "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and",
+    "test:DICE-NOID-first-oor-oocoins-after-k2",
+    "test:DICE-NOID-auto-practice-mode-instead-of",
+    "test:DICE-NOID-add-cooldown-disable-oor-placement",
+    "test:DICE-NOID-bet-mania-oor",
+    "test:DICE-NOID-betmania-pb-multiplier-for-oor"
+   ]
+  },
+  {
+   "concept_id": "Low balance",
+   "canonical_name": "Low balance",
+   "kind": "population",
+   "aliases": [],
+   "source_spellings": {
+    "Low balance": 3,
+    "low balance": 2,
+    "Low Balance": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1109 - Low balance roll injection K300+"
+     ]
+    },
+    "DOM": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1611 - Low balance challenge PB - 10 min free entry",
+      "3 Pity LVL For Low Balance - For Real"
+     ]
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "low balance booster + OOC offer"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Domino: 'Low balance challenge PB'; Disney: 'low balance booster + OOC offer'.",
+   "question": "מה סף ה-low balance?",
+   "not_same_as": [],
+   "topics": [
+    "eligibility"
+   ],
+   "tags_he": [
+    "זכאות/סגמנט"
+   ],
+   "tags_en": [
+    "eligibility"
+   ],
+   "usage_refs": [
+    "test:DOM-1611-low-balance-challenge-pb-10",
+    "test:DOM-NOID-3-pity-lvl-for-low",
+    "test:DIS-NOID-low-balance-booster-ooc-offer",
+    "test:DICE-1109-low-balance-roll-injection-k300"
+   ]
+  },
+  {
+   "concept_id": "DSLP / DFI",
+   "canonical_name": "DSLP / DFI",
+   "kind": "population",
+   "aliases": [
+    "DSLP",
+    "DFI"
+   ],
+   "source_spellings": {
+    "DSLP": 14,
+    "DFI": 8
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 10,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "125 - Make Any Purchase New Seg",
+      "124 - AYS offer for FTD and dormant",
+      "120 - RV 8box with purchase V2"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'Segmented Sale by DSLP', 'lower DSLP/DFI', 'DFI<20'.",
+   "question": "DSLP = Days Since Last Purchase? DFI = Days From Install?",
+   "not_same_as": [],
+   "topics": [
+    "population"
+   ],
+   "tags_he": [
+    "אוכלוסייה"
+   ],
+   "tags_en": [
+    "population"
+   ],
+   "usage_refs": [
+    "test:DIS-125-make-any-purchase-new-seg",
+    "test:DIS-124-ays-offer-for-ftd-and",
+    "test:DIS-120-rv-8box-with-purchase-v2",
+    "test:DIS-124-rv-extend-segment",
+    "test:DIS-125-dormant-cz-v3",
+    "test:DIS-118-dormant-scene-boost"
+   ]
+  },
+  {
+   "concept_id": "Segment split notation",
+   "canonical_name": "Segment split notation",
+   "kind": "notation",
+   "aliases": [
+    "ABTestV2(...)",
+    "fn_ABTest(...)",
+    "seg_TEST:"
+   ],
+   "source_spellings": {
+    "ABTestV2(": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1110 - Puzzle onboarding GT V4"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 4,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'seg_TEST:1114_...;Group:1 - ABTestV2(181,0,90,133,0)'; Domino: 'fn_ABTest(647,0,213,0,1)'.",
+   "question": "מה המשמעות של כל פרמטר (מודולו, טווח, salt, דגל)? האם החלוקה ל-50/50 או לשליש נכונה?",
+   "not_same_as": [
+    "ABTestV2 (Dice) ו-fn_ABTest (Domino) הן פונקציות שונות."
+   ],
+   "topics": [],
+   "tags_he": [],
+   "tags_en": [],
+   "usage_refs": [
+    "test:DICE-1110-puzzle-onboarding-gt-v4"
+   ]
+  },
+  {
+   "concept_id": "Phase",
+   "canonical_name": "Phase",
+   "kind": "notation",
+   "aliases": [
+    "Test Phase 1",
+    "PHASE 2"
+   ],
+   "source_spellings": {
+    "Phase 2": 4,
+    "phase 2": 2,
+    "Phase 1": 1,
+    "PHASE": 1,
+    "Phase 4": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 6,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "1104 - CZ FIX",
+      "Lava Quest Phase 2 - Quest Vs. Lava",
+      "Back From Churn - PHASE 2 (Tournaments, Injection, YCR)"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "שלב בהרצה של אותו טסט (למשל שינוי גודל הטסט 10%→20%/30%).",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "mp_dashboard_title:1104 CZ FIX Phase 1/2"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [],
+   "tags_he": [],
+   "tags_en": [],
+   "usage_refs": [
+    "test:DICE-1104-cz-fix",
+    "test:DICE-NOID-lava-quest-phase-2-quest",
+    "test:DICE-NOID-back-from-churn-phase-2",
+    "test:DICE-NOID-lava-quest-phase-2",
+    "test:DICE-NOID-pop-up-reduce-test-phase",
+    "test:DICE-1109-lava-quest-phase-4"
+   ]
+  },
+  {
+   "concept_id": "Braze",
+   "canonical_name": "Braze",
+   "kind": "tool",
+   "aliases": [],
+   "source_spellings": {
+    "Braze": 3
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1104 - VIP Braze Push (churners)"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "inferred_from_usage",
+   "definition_he": "כלי שליחת push/הודעות ('VIP Braze Push').",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_name:DICE-1104-vip-braze-push-churners"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [],
+   "topics": [
+    "messaging"
+   ],
+   "tags_he": [
+    "הודעות/פוש"
+   ],
+   "tags_en": [
+    "messaging"
+   ],
+   "usage_refs": [
+    "test:DICE-1104-vip-braze-push-churners"
+   ]
+  },
+  {
+   "concept_id": "Push",
+   "canonical_name": "Push",
+   "kind": "mechanism",
+   "aliases": [
+    "push notification"
+   ],
+   "source_spellings": {
+    "Push": 6,
+    "push": 3,
+    "פוש": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 3,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "1104 - VIP Braze Push (churners)",
+      "Album end period - push hard to FU only the PU",
+      "Push when Active"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 2,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "125 - Push notification increase by lvl",
+      "Push + Mini event for Players who havent played in the last X days"
+     ]
+    }
+   },
+   "monday_updates_with_term": 1,
+   "status": "inferred_from_usage",
+   "definition_he": "הודעת push לשחקן.",
+   "definition_tag": "interpretation",
+   "definition_refs": [
+    "monday_update:11579356355/5036880157"
+   ],
+   "usage_examples": null,
+   "question": null,
+   "not_same_as": [
+    "'push hard to FU' (Dice) זה ביטוי, לא push notification."
+   ],
+   "topics": [
+    "messaging"
+   ],
+   "tags_he": [
+    "הודעות/פוש"
+   ],
+   "tags_en": [
+    "messaging"
+   ],
+   "usage_refs": [
+    "test:DICE-1104-vip-braze-push-churners",
+    "test:DIS-125-push-notification-increase-by-lvl",
+    "test:DICE-NOID-album-end-period-push-hard",
+    "test:DICE-NOID-push-when-active",
+    "test:DIS-NOID-push-mini-event-for-players"
+   ]
+  },
+  {
+   "concept_id": "AYS",
+   "canonical_name": "AYS",
+   "kind": "offer",
+   "aliases": [],
+   "source_spellings": {
+    "AYS": 2
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 0,
+     "example_names": [
+      "124 - AYS offer for FTD and dormant"
+     ]
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: '124 - AYS offer for FTD and dormant'.",
+   "question": "מה זה AYS offer?",
+   "not_same_as": [],
+   "topics": [
+    "offer"
+   ],
+   "tags_he": [
+    "הצעה"
+   ],
+   "tags_en": [
+    "offer"
+   ],
+   "usage_refs": [
+    "test:DIS-124-ays-offer-for-ftd-and"
+   ]
+  },
+  {
+   "concept_id": "CC",
+   "canonical_name": "CC",
+   "kind": "abbreviation",
+   "aliases": [],
+   "source_spellings": {
+    "CC": 1
+   },
+   "per_game": {
+    "DICE": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": true,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 1,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Disney: 'Zeus Launch & Level List CC'; WhatsApp: 'CC contains crashing level'; Domino: 'PB plus cc abilities'.",
+   "question": "מה זה CC בכל הקשר? (ב-Disney זו כנראה רשימת levels; ב-Domino 'cc abilities' כנראה משהו אחר)",
+   "not_same_as": [
+    "CC ב-Disney (Level List) מול 'cc abilities' ב-Domino."
+   ],
+   "topics": [],
+   "tags_he": [],
+   "tags_en": [],
+   "usage_refs": []
+  },
+  {
+   "concept_id": "GT",
+   "canonical_name": "GT",
+   "kind": "abbreviation",
+   "aliases": [],
+   "source_spellings": {
+    "GT": 7
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 1,
+     "whatsapp_items_with_term": 2,
+     "example_names": [
+      "1110 - Puzzle onboarding GT V4"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'Puzzle onboarding GT V4', 'Test gets new GT puzzle'.",
+   "question": "מה זה GT?",
+   "not_same_as": [],
+   "topics": [
+    "onboarding"
+   ],
+   "tags_he": [
+    "אונבורדינג"
+   ],
+   "tags_en": [
+    "onboarding"
+   ],
+   "usage_refs": [
+    "test:DICE-1110-puzzle-onboarding-gt-v4"
+   ]
+  },
+  {
+   "concept_id": "BWF",
+   "canonical_name": "BWF",
+   "kind": "feature",
+   "aliases": [],
+   "source_spellings": {
+    "BWF": 7
+   },
+   "per_game": {
+    "DICE": {
+     "used": true,
+     "tests_with_term": 6,
+     "whatsapp_items_with_term": 1,
+     "example_names": [
+      "1109 - Whammy For DT Finishers",
+      "BWF Bot Difficulty Segmentation Test",
+      "Increase BWF economy (Increase golf stick curve & difficulty in high tiers)"
+     ]
+    },
+    "DOM": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    },
+    "DIS": {
+     "used": false,
+     "tests_with_term": 0,
+     "whatsapp_items_with_term": 0,
+     "example_names": []
+    }
+   },
+   "monday_updates_with_term": 0,
+   "status": "unclear",
+   "definition_he": null,
+   "definition_tag": null,
+   "definition_refs": [],
+   "usage_examples": "Dice: 'BWF Bot Difficulty Segmentation', 'Increase BWF economy (golf stick curve)'.",
+   "question": "מה זה BWF?",
+   "not_same_as": [],
+   "topics": [
+    "event",
+    "difficulty"
+   ],
+   "tags_he": [
+    "אירוע",
+    "קושי"
+   ],
+   "tags_en": [
+    "event",
+    "difficulty"
+   ],
+   "usage_refs": [
+    "test:DICE-1109-whammy-for-dt-finishers",
+    "test:DICE-NOID-bwf-bot-difficulty-segmentation-test",
+    "test:DICE-NOID-increase-bwf-economy-increase-golf",
+    "test:DICE-NOID-bwf-out-of-drs-show",
+    "test:DICE-NOID-bwf-friend-wedge-frequency",
+    "test:DICE-1113-bwf-bots-same-config-as"
+   ]
+  }
+ ]
+}

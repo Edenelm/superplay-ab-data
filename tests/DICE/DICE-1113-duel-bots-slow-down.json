@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -352,6 +352,6 @@
  "glossary_concepts": [
   "Duel"
  ],
- "content_fingerprint": "dafb13fe40349897ba4d681008bebdc1e8e4909557c57969945ab0119763e501",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "f224ff884e20b84127fa398cc28b7c2737caefd30f1e96740b015fd3cfa92430",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

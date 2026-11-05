@@ -39,7 +39,7 @@
     {
      "id": 11608929,
      "title": "1611 - Move quest from level 32 to 200 (FTUE)",
-     "modified": "2026-11-03",
+     "modified": "2026-11-04",
      "url": "https://mixpanel.com/project/2735821/app/boards#id=11608929"
     }
    ],
@@ -81,7 +81,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -389,6 +389,6 @@
   "FTUE",
   "Level"
  ],
- "content_fingerprint": "f8717b06f3b965116036933ed6d5e5373a067079d77b3f755fdffff578802c09",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "70eadf043e685cef52ec42c908b94373f83d7fe1fefe43c2937998e7a51cf06c",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

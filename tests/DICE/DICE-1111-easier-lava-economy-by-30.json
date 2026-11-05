@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "1111 - Easier Lava Economy By 30%",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Deploy",
   "board_group": "Completed",
   "board_decision_raw": "Implemented",
   "board_category": "deploy",
@@ -37,7 +37,7 @@
   "conflicts": [
    {
     "type": "board_live_group",
-    "msg": "Status 'Done' but no end date (start 2026-08-13)"
+    "msg": "Status 'Deploy' but no end date (start 2026-08-13)"
    }
   ],
   "source_links": [
@@ -58,7 +58,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -163,10 +163,10 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): Status 'Done' but no end date (start 2026-08-13) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "סתירה (מהמקור): Status 'Deploy' but no end date (start 2026-08-13) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
      {
-      "text_he": "סתירה (מהמקור): Status 'Done' but no end date (start 2026-08-13)",
+      "text_he": "סתירה (מהמקור): Status 'Deploy' but no end date (start 2026-08-13)",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/9494658232/pulses/12956951931"
@@ -180,11 +180,11 @@
       ]
      }
     ],
-    "fingerprint": "9819847ab6e0abb4",
+    "fingerprint": "9b6d85ec0d4a7ab0",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "b2befc65317f43ac",
+     "registry:conflicts": "701fc2d8c04bcebc",
      "expl:limitations": "b02ba58cfd98d035",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
@@ -206,7 +206,7 @@
   "why": null,
   "phases": [],
   "conflicts": [
-   "Status 'Done' but no end date (start 2026-08-13)"
+   "Status 'Deploy' but no end date (start 2026-08-13)"
   ],
   "source_refs": [
    {
@@ -268,7 +268,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: deploy",
+    "text_he": "בבורד: Deploy · החלטה אחרונה ב-WhatsApp: deploy",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/12956951931",
@@ -303,7 +303,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Implemented",
-   "board_status": "Done",
+   "board_status": "Deploy",
    "numbers_quoted": [],
    "first_seen": "2026-08-24",
    "last_seen": "2026-08-24",
@@ -343,6 +343,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "de5f187bac97955c43e44fc1a4821a2de14c31d64ff9a85a6f51c85fd2b63625",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "6fa6717459b60fe0f565395ffc9ed697153ad061073aef9ab175b3a42cdc522e",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

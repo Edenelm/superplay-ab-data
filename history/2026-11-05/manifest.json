@@ -1,0 +1,668 @@
+{
+ "contract_version": "1.5.0",
+ "run_id": "20261105T084809",
+ "run_type": "scheduled",
+ "scheduled_for": "2026-11-05T08:30:00+02:00",
+ "generated_at": "2026-11-05T08:48:09+02:00",
+ "timezone": "Asia/Jerusalem",
+ "producer": "Grok Bot (box /workspace/pilot/provider)",
+ "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
+ "schedule": {
+  "planned": "Sun-Thu 08:30 Asia/Jerusalem",
+  "days": [
+   "Sun",
+   "Mon",
+   "Tue",
+   "Wed",
+   "Thu"
+  ],
+  "time": "08:30",
+  "active": true,
+  "next_scheduled_for_if_active": "2026-11-08T08:30:00+02:00"
+ },
+ "stale_after_hours": 26,
+ "weekend_rule": "Fri/Sat: not stale until Sun 11:00 Asia/Jerusalem (no runs Fri/Sat)",
+ "definitions": {
+  "file": "data/metric_definitions.json",
+  "documented": 8,
+  "needs_approval": 19,
+  "date_timezones": {
+   "Dice Dreams": "undocumented",
+   "Domino Dreams": "undocumented",
+   "Disney Solitaire": "UTC"
+  }
+ },
+ "completeness_rules": [
+  {
+   "rule_id": "DICE.lookback",
+   "game": "Dice Dreams",
+   "fields": "*",
+   "provisional_if": "date >= reference_day - 7",
+   "rule_basis": "source_documented",
+   "source": "dice-dreams-dbt.40_mart.user_daily_metrics_all_users table description: 'Filters: date_dim >= 2026-01-01, excludes current day data' and 'start_date var controls source lookback (default 7 days)'"
+  },
+  {
+   "rule_id": "DOM.default",
+   "game": "Domino Dreams",
+   "fields": "*",
+   "provisional_if": "date >= reference_day - 7",
+   "rule_basis": "default_assumption",
+   "source": "no refresh/late-arrival window documented for domino-dreams-dbt.prod_40_mart.user_daily_metrics (no table description); 7 days mirrors the other two games; needs approval (DOM.completeness)"
+  },
+  {
+   "rule_id": "DIS.rebuild_window",
+   "game": "Disney Solitaire",
+   "fields": "*",
+   "provisional_if": "date >= reference_day - 8",
+   "rule_basis": "source_documented",
+   "source": "solitaire-dreams-dbt.40_mart.user_daily_metrics table description: 'the last purchase_late_arrival_days + 1 (8) days on incremental runs' and 'The current UTC date is included, so the latest day is partial until the next run rebuilds it.'"
+  },
+  {
+   "rule_id": "DIS.ad_estimate",
+   "game": "Disney Solitaire",
+   "fields": [
+    "ad_revenue_usd"
+   ],
+   "provisional_if": "date >= reference_day - 3",
+   "status": "provisional_estimate",
+   "rule_basis": "source_documented",
+   "source": "solitaire-dreams-dbt.40_mart.user_daily_metrics.ad_revenue: 'The latest 1-3 days usually carry the rewarded-ad estimate (~10% low) and switch to AppLovin on a later run.'",
+   "observation": "31.10 ad_revenue 4,768 and 01.11 10,771 vs 13,744 / 14,187 on 29-30.10 (pull of 2026-11-02)"
+  }
+ ],
+ "completeness_reference_day_utc": "2026-11-05",
+ "datasets": {
+  "game_metrics": {
+   "file": "latest/game_metrics.json",
+   "schema": "schemas/game_metrics.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05T08:34:03+02:00",
+   "stale": false,
+   "sha256": "b56be5b60cd3314b98c48b6eaec670c7e6d010daa251815fb452417a34a9fd58",
+   "bytes": 797262,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-05/game_metrics.json"
+  },
+  "test_registry": {
+   "file": "latest/test_registry.json",
+   "schema": "schemas/test_registry.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05",
+   "stale": false,
+   "sha256": "fde280a6af474e6b00997d88a6a46369a2fbba16eaab12a3d6661b17b4bce099",
+   "bytes": 1617375,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-05/test_registry.json"
+  },
+  "test_results": {
+   "file": "latest/test_results.json",
+   "schema": "schemas/test_results.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)",
+   "stale": false,
+   "sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24",
+   "bytes": 336203,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-02/test_results.json",
+   "content_unchanged_since": "2026-11-02T17:03:33+02:00"
+  },
+  "explanations_learnings_decisions": {
+   "file": "latest/explanations_learnings_decisions.json",
+   "schema": "schemas/explanations_learnings_decisions.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05",
+   "stale": false,
+   "sha256": "56dee380450d91adb475e52e8c6275f960fe9635ed872655f3f60ea851096f83",
+   "bytes": 721149,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-05/explanations_learnings_decisions.json"
+  },
+  "whatsapp_items": {
+   "file": "latest/whatsapp_items.json",
+   "schema": "schemas/whatsapp_items.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05",
+   "stale": false,
+   "sha256": "c4d62b158d2373f243d6c0da95c37afd83901c57415557d42fa11f8b927d6923",
+   "bytes": 237111,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-05/whatsapp_items.json"
+  },
+  "metric_definitions": {
+   "file": "latest/metric_definitions.json",
+   "schema": "schemas/metric_definitions.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-01T12:05:00+02:00",
+   "stale": false,
+   "sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3",
+   "bytes": 34779,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-02/metric_definitions.json",
+   "content_unchanged_since": "2026-11-02T16:26:00+02:00"
+  },
+  "game_metrics_splits": {
+   "file": "latest/game_metrics_splits.json",
+   "schema": "schemas/game_metrics_splits.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05T08:34:03+02:00",
+   "stale": false,
+   "sha256": "c8bd263e67b1456391d0425006c1ed41166af2d4ad80524b8f887b6f5b1f2a43",
+   "bytes": 901955,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-05/game_metrics_splits.json"
+  },
+  "game_ftd_retention": {
+   "file": "latest/game_ftd_retention.json",
+   "schema": "schemas/game_ftd_retention.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05T08:34:03+02:00",
+   "stale": false,
+   "sha256": "ab67f8a9969d37edc684d9537cf89f5b5f4bfdf306a80e66d87325c9f82c1eea",
+   "bytes": 846330,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-05/game_ftd_retention.json"
+  },
+  "glossary": {
+   "file": "latest/glossary.json",
+   "schema": "schemas/glossary.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "local sources as of 2026-11-05",
+   "stale": false,
+   "sha256": "169868c3925091693ad22a4a9de585adfe65df7fb248bd06c0a055dcb95b693a",
+   "bytes": 94139,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-05/glossary.json"
+  },
+  "open_issues": {
+   "file": "latest/open_issues.json",
+   "schema": "schemas/open_issues.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "curated from saved sources as of 2026-11-05",
+   "stale": false,
+   "sha256": "5124792649c340c7f59a703ceb95c85325a545100e80e726f3e5997a20e9f150",
+   "bytes": 28003,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-02/open_issues.json",
+   "content_unchanged_since": "2026-11-02T18:42:18+02:00"
+  },
+  "test_structured": {
+   "file": "latest/test_structured.json",
+   "schema": "schemas/test_structured.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02",
+   "stale": false,
+   "sha256": "0672d98638d0b28e7c8da8c2318d2a863fce21eb2a5f7c2d6120eb3d13fbd68a",
+   "bytes": 5669976,
+   "error": null,
+   "is_final": null,
+   "history_file": "history/2026-11-05/test_structured.json"
+  },
+  "test_interim": {
+   "file": "latest/test_interim.json",
+   "schema": "schemas/test_interim.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "Mixpanel Run-Query (read-only) 2026-11-05T08:47:59+02:00",
+   "stale": false,
+   "sha256": "fc2685426359a0297582e0743215b4600e58f21a94dccb18547ee30931f27bfb",
+   "bytes": 1267710,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-05/test_interim.json"
+  },
+  "game_events": {
+   "file": "latest/game_events.json",
+   "schema": "schemas/game_events.schema.json",
+   "status": "ok",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "Monday boards 9494658232/18416650776/18435634714 snapshot 2026-11-02; data/whatsapp_items.json; BigQuery dim_album_season (Dice), int_album_season (Disney) 2026-11-02",
+   "stale": false,
+   "sha256": "4f7c3033f379cd9edab68c243e3668a6909e50f90f491b1be78ff4fd98755bf0",
+   "bytes": 1283678,
+   "error": null,
+   "is_final": false,
+   "history_file": "history/2026-11-05/game_events.json"
+  }
+ },
+ "counts": {
+  "game_metrics": 123,
+  "test_registry": 691,
+  "test_results": 137,
+  "explanations": 154,
+  "decisions": 236,
+  "cross_studio_learnings": 4,
+  "whatsapp_items": 370,
+  "metric_definitions": 27,
+  "game_metrics_splits": 123,
+  "game_ftd_retention_ftd_daily": 123,
+  "game_ftd_retention_cohorts": 120,
+  "open_issues": 24,
+  "test_structured": 681,
+  "glossary_concepts": 58,
+  "test_interim": 708,
+  "game_events": 1337
+ },
+ "layer": {
+  "index": {
+   "file": "index/tests_index.json",
+   "schema": "schemas/tests_index.schema.json",
+   "sha256": "e44ec28fa189fddf211badad5ce6a1c2834f7f9b0fab9e2110f74a543ea8240f",
+   "bytes": 652013,
+   "tests": 691,
+   "aggregate_fingerprint": "8bde9000a7925a06846ddc37510deff2d5c51bc492dfb592ee041d3a71680af1"
+  },
+  "tests_dir": "tests/<GAME>/<test_id>.json",
+  "detail_schema": "schemas/test_detail.schema.json",
+  "state": "state/processing_state.json",
+  "file_map": "FILE_MAP.json",
+  "changes": "CHANGES.md",
+  "log": "PROCESSING_LOG.md"
+ },
+ "change_summary": {
+  "run_at": "2026-11-05T08:48:09+02:00",
+  "baseline": "2026-11-04T08:53:06+02:00",
+  "tests_added": 2,
+  "tests_updated": 653,
+  "tests_unchanged": 36,
+  "tests_removed": 0,
+  "updated_detail": {
+   "DICE-1109-remove-android-dtc": [
+    "data"
+   ],
+   "DICE-1104-cz-fix": [
+    "data"
+   ],
+   "DICE-1104-vip-braze-push-churners": [
+    "data"
+   ],
+   "DICE-1106-remove-ad-from-segmentation": [
+    "data"
+   ],
+   "DICE-1108-weekly-goals-pb-points-distribution": [
+    "data"
+   ],
+   "DICE-NOID-free-dream-passs-for-churners": [
+    "data"
+   ],
+   "DICE-1110-puzzle-onboarding-gt-v4": [
+    "data"
+   ],
+   "DICE-1105-increase-default-max-bet-for": [
+    "data"
+   ],
+   "DICE-1110-rv-purchase-penalty": [
+    "data"
+   ],
+   "DICE-1114-duel-time-easier-bots": [
+    "data"
+   ],
+   "DICE-1114-tournament-v2-after-fix-round": [
+    "data"
+   ],
+   "DICE-1115-trail-double-wheel-better-experience": [
+    "data"
+   ],
+   "DICE-NOID-trail-less-coins-yeladim-ktanim": [
+    "data"
+   ],
+   "DICE-NOID-trail-harder": [
+    "data"
+   ],
+   "DICE-NOID-scrolling-and-6-box-later": [
+    "data"
+   ],
+   "DOM-1590-genie-new-agenda-v3": [
+    "data"
+   ],
+   "DOM-1581-1581-dtc-remove-for-android": [
+    "data"
+   ],
+   "DOM-1611-low-balance-challenge-pb-10": [
+    "data"
+   ],
+   "DOM-1611-move-quest-from-level-32": [
+    "data"
+   ],
+   "DOM-1621-1621-8-box-from-2": [
+    "data"
+   ],
+   "DOM-NOID-social-kingdom-bots": [
+    "data"
+   ],
+   "DOM-NOID-superboost": [
+    "who_when",
+    "unclear"
+   ],
+   "DOM-NOID-recompletion-for-early-finishers": [
+    "who_when",
+    "unclear"
+   ],
+   "DIS-125-t125-end-of-puzzle-offer": [
+    "data"
+   ],
+   "DIS-120-rv-8box-with-purchase-v2": [
+    "data"
+   ],
+   "DIS-124-rv-extend-segment": [
+    "data"
+   ],
+   "DIS-125-push-notification-increase-by-lvl": [
+    "data"
+   ],
+   "DIS-125-dormant-cz-v3": [
+    "data"
+   ],
+   "DIS-125-potion-bonus": [
+    "data"
+   ],
+   "DIS-112-google-integrity": [
+    "data"
+   ],
+   "DIS-122-free-resources-pop-up": [
+    "data"
+   ],
+   "DIS-101-boost-your-puzzle-mistake": [
+    "data"
+   ],
+   "DIS-NOID-pb-level-reduction": [
+    "data"
+   ],
+   "DIS-126-olympus-wheel-mega": [
+    "data"
+   ],
+   "DIS-126-chef-segments": [
+    "data"
+   ],
+   "DIS-127-3po-halloween": [
+    "data"
+   ],
+   "DIS-126-es-v3": [
+    "data"
+   ],
+   "DIS-126-wr-v3": [
+    "data"
+   ],
+   "DIS-126-opportunistic-rv": [
+    "data"
+   ],
+   "DIS-126-1-1-test": [
+    "data"
+   ],
+   "DICE-1109-whammy-for-dt-finishers": [
+    "data"
+   ],
+   "DICE-NOID-pet-dynamic-requirements": [
+    "data"
+   ],
+   "DICE-NOID-dream-pass-reward-rush": [
+    "data"
+   ],
+   "DICE-1109-limited-stock-launch-stock-progression": [
+    "data"
+   ],
+   "DIS-118-dormant-scene-boost": [
+    "data"
+   ],
+   "DIS-043-d01-min-price": [
+    "data"
+   ],
+   "DICE-NOID-protocol-trail-with-presets-k10": [
+    "data"
+   ],
+   "DICE-NOID-rps-ad-echad": [
+    "data"
+   ],
+   "DICE-NOID-new-nice-badge-container-for": [
+    "data"
+   ],
+   "DICE-NOID-wheel-pass": [
+    "data"
+   ]
+  },
+  "sections_regenerated": 22,
+  "sections_reused": 3473,
+  "needs_attention": [
+   "DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)",
+   "DICE-NOID-trail-less-coins-yeladim-ktanim: המנגנון טרם הובהר (live)",
+   "DICE-NOID-trail-harder: המנגנון טרם הובהר (live)",
+   "DICE-NOID-scrolling-and-6-box-later: המנגנון טרם הובהר (live)",
+   "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
+   "DOM-NOID-social-kingdom-bots: המנגנון טרם הובהר (live)",
+   "DOM-NOID-superboost: המנגנון טרם הובהר (live)",
+   "DOM-NOID-recompletion-for-early-finishers: המנגנון טרם הובהר (live)",
+   "DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)",
+   "DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)",
+   "DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)",
+   "DIS-126-chef-segments: המנגנון טרם הובהר (live)",
+   "DIS-127-3po-halloween: המנגנון טרם הובהר (live)",
+   "DIS-126-es-v3: המנגנון טרם הובהר (live)",
+   "DIS-126-wr-v3: המנגנון טרם הובהר (live)",
+   "DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)",
+   "DIS-126-1-1-test: המנגנון טרם הובהר (live)"
+  ],
+  "needs_attention_count": 17,
+  "coverage": {
+   "live": {
+    "partial": 25,
+    "full": 5,
+    "unclear": 17
+   },
+   "results": {
+    "partial": 9,
+    "full": 20,
+    "unclear": 6
+   },
+   "backlog": {
+    "stub": 609
+   }
+  },
+  "publish": {
+   "run_at": "2026-11-05T08:48:09+02:00",
+   "baseline_published_at": "2026-11-04T08:53:06+02:00",
+   "datasets_changed": [
+    "game_metrics",
+    "test_registry",
+    "explanations_learnings_decisions",
+    "whatsapp_items",
+    "game_metrics_splits",
+    "game_ftd_retention",
+    "glossary",
+    "test_structured",
+    "test_interim",
+    "game_events"
+   ],
+   "datasets_unchanged": [
+    "test_results",
+    "metric_definitions",
+    "open_issues"
+   ],
+   "datasets_failed_kept_last_good": [],
+   "tests_added": 2,
+   "tests_updated": 653,
+   "tests_unchanged": 36,
+   "tests_removed_kept": 0,
+   "updated_test_ids": [
+    "DICE-1109-remove-android-dtc",
+    "DICE-1104-cz-fix",
+    "DICE-1104-vip-braze-push-churners",
+    "DICE-1106-remove-ad-from-segmentation",
+    "DICE-1108-weekly-goals-pb-points-distribution",
+    "DICE-NOID-free-dream-passs-for-churners",
+    "DICE-1110-puzzle-onboarding-gt-v4",
+    "DICE-1105-increase-default-max-bet-for",
+    "DICE-1110-rv-purchase-penalty",
+    "DICE-1114-duel-time-easier-bots",
+    "DICE-1114-tournament-v2-after-fix-round",
+    "DICE-1115-trail-double-wheel-better-experience",
+    "DICE-NOID-trail-less-coins-yeladim-ktanim",
+    "DICE-NOID-trail-harder",
+    "DICE-NOID-scrolling-and-6-box-later",
+    "DOM-1590-genie-new-agenda-v3",
+    "DOM-1581-1581-dtc-remove-for-android",
+    "DOM-1611-low-balance-challenge-pb-10",
+    "DOM-1611-move-quest-from-level-32",
+    "DOM-1621-1621-8-box-from-2",
+    "DOM-NOID-social-kingdom-bots",
+    "DOM-NOID-superboost",
+    "DOM-NOID-recompletion-for-early-finishers",
+    "DIS-125-t125-end-of-puzzle-offer",
+    "DIS-120-rv-8box-with-purchase-v2",
+    "DIS-124-rv-extend-segment",
+    "DIS-125-push-notification-increase-by-lvl",
+    "DIS-125-dormant-cz-v3",
+    "DIS-125-potion-bonus",
+    "DIS-112-google-integrity",
+    "DIS-122-free-resources-pop-up",
+    "DIS-101-boost-your-puzzle-mistake",
+    "DIS-NOID-pb-level-reduction",
+    "DIS-126-olympus-wheel-mega",
+    "DIS-126-chef-segments",
+    "DIS-127-3po-halloween",
+    "DIS-126-es-v3",
+    "DIS-126-wr-v3",
+    "DIS-126-opportunistic-rv",
+    "DIS-126-1-1-test",
+    "DICE-1109-whammy-for-dt-finishers",
+    "DICE-NOID-pet-dynamic-requirements",
+    "DICE-NOID-dream-pass-reward-rush",
+    "DICE-1109-limited-stock-launch-stock-progression",
+    "DIS-118-dormant-scene-boost",
+    "DIS-043-d01-min-price",
+    "DICE-NOID-protocol-trail-with-presets-k10",
+    "DICE-NOID-rps-ad-echad",
+    "DICE-NOID-new-nice-badge-container-for",
+    "DICE-NOID-wheel-pass",
+    "DICE-NOID-pet-pricing-per-level-segment",
+    "DICE-NOID-inside-trail-offer",
+    "DICE-NOID-prop-magic-color",
+    "DICE-NOID-peonball-every-3-kingdom-increased",
+    "DICE-NOID-dormant-scrolling-therapy-removal",
+    "DICE-NOID-add-roll-bucket-3rd-day",
+    "DICE-NOID-pb-points-increment-after-purchase",
+    "DICE-NOID-add-segments-to-pb",
+    "DICE-NOID-dream-pass-mission-12th-routine",
+    "DICE-NOID-late-session-offer-test",
+    "DICE-NOID-purchase-frequency-multiplier-for-dt",
+    "DICE-NOID-rv-new-opportunistic-segments",
+    "DICE-NOID-change-the-kingdom-not-completed",
+    "DICE-NOID-post-event-value-pack-offer",
+    "DICE-NOID-progress-bar-6th-segment",
+    "DICE-NOID-rv-honey-road-pay-watch",
+    "DICE-NOID-out-of-resource-momentum-offer",
+    "DICE-NOID-bwf-bot-difficulty-segmentation-test",
+    "DICE-NOID-invite-friends-popup-order-change",
+    "DICE-NOID-daily-calendar-cc-prizes-depending",
+    "DICE-NOID-building-blitz-protocol-seg-by",
+    "DICE-NOID-golden-mission-in-dp-enjoy",
+    "DICE-NOID-extra-cz-formula-based-on",
+    "DICE-NOID-change-trail-ftue-pt-only",
+    "DICE-NOID-dt-pity",
+    "DICE-NOID-no-roll-reward-for-roll",
+    "DICE-NOID-increase-bwf-economy-increase-golf",
+    "DICE-NOID-pb-decrease-tier-amount-increase",
+    "DICE-NOID-roll-bucket-reform-much-less",
+    "DICE-NOID-coin-rush-pb-vs-regular",
+    "DICE-NOID-kingdoms-pity-counter",
+    "DICE-NOID-extend-content-unlock-kill-active",
+    "DICE-NOID-reduce-prices-all-offers",
+    "DICE-NOID-first-oor-oocoins-after-k2",
+    "DICE-NOID-dormants-v2-vertical-challenge-protocol",
+    "DICE-NOID-dormant-payer-by-level-reactivation",
+    "DICE-NOID-post-purchase-wheel",
+    "DICE-NOID-give-bigger-starter-pack-at",
+    "DICE-NOID-increase-prizes-decrease-dr-in",
+    "DICE-NOID-bwf-out-of-drs-show",
+    "DICE-NOID-bwf-friend-wedge-frequency",
+    "DICE-NOID-progress-bar-x2-points-booster",
+    "DICE-NOID-decrease-payout-for-users-between",
+    "DICE-NOID-share-brag-make-the-prize",
+    "DICE-NOID-continuous-rv-opportunistic-floors",
+    "DICE-NOID-personalized-anniversary-offers-veteran-users",
+    "DICE-NOID-new-offer-cut-price-more",
+    "DICE-NOID-bonus-kingdom-every-5-kingdoms",
+    "DICE-NOID-open-a-feature-make-a",
+    "DICE-NOID-decoy-panel-pricing-test"
+   ],
+   "detail_files_written": 655,
+   "sections_regenerated": 22,
+   "sections_reused": 3473,
+   "needs_attention": [
+    "DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)",
+    "DICE-NOID-trail-less-coins-yeladim-ktanim: המנגנון טרם הובהר (live)",
+    "DICE-NOID-trail-harder: המנגנון טרם הובהר (live)",
+    "DICE-NOID-scrolling-and-6-box-later: המנגנון טרם הובהר (live)",
+    "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
+    "DOM-NOID-social-kingdom-bots: המנגנון טרם הובהר (live)",
+    "DOM-NOID-superboost: המנגנון טרם הובהר (live)",
+    "DOM-NOID-recompletion-for-early-finishers: המנגנון טרם הובהר (live)",
+    "DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)",
+    "DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)",
+    "DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)",
+    "DIS-126-chef-segments: המנגנון טרם הובהר (live)",
+    "DIS-127-3po-halloween: המנגנון טרם הובהר (live)",
+    "DIS-126-es-v3: המנגנון טרם הובהר (live)",
+    "DIS-126-wr-v3: המנגנון טרם הובהר (live)",
+    "DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)",
+    "DIS-126-1-1-test: המנגנון טרם הובהר (live)"
+   ],
+   "needs_attention_count": 17
+  }
+ },
+ "counts_basis": "this run's export; a failed dataset keeps its previous file, so its count may differ",
+ "publish": {
+  "published": [
+   "game_metrics",
+   "test_registry",
+   "explanations_learnings_decisions",
+   "whatsapp_items",
+   "game_metrics_splits",
+   "game_ftd_retention",
+   "glossary",
+   "test_structured",
+   "test_interim",
+   "game_events"
+  ],
+  "unchanged_kept": [
+   "test_results",
+   "metric_definitions",
+   "open_issues"
+  ],
+  "failed": [],
+  "history_dir": "history/2026-11-05/",
+  "retention": "keep all (no deletions)"
+ }
+}

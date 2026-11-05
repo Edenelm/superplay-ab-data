@@ -1,9 +1,9 @@
 {
  "contract_version": "1.5.0",
- "run_id": "20261104T085306",
+ "run_id": "20261105T084809",
  "run_type": "scheduled",
- "scheduled_for": "2026-11-04T08:30:00+02:00",
- "generated_at": "2026-11-04T08:53:06+02:00",
+ "scheduled_for": "2026-11-05T08:30:00+02:00",
+ "generated_at": "2026-11-05T08:48:09+02:00",
  "timezone": "Asia/Jerusalem",
  "producer": "Grok Bot (box /workspace/pilot/provider)",
  "delivery": "GitHub data repo (private); layout latest/ history/ schemas/ manifest.json",
@@ -18,7 +18,7 @@
   ],
   "time": "08:30",
   "active": true,
-  "next_scheduled_for_if_active": "2026-11-05T08:30:00+02:00"
+  "next_scheduled_for_if_active": "2026-11-08T08:30:00+02:00"
  },
  "stale_after_hours": 26,
  "weekend_rule": "Fri/Sat: not stale until Sun 11:00 Asia/Jerusalem (no runs Fri/Sat)",
@@ -70,42 +70,42 @@
    "observation": "31.10 ad_revenue 4,768 and 01.11 10,771 vs 13,744 / 14,187 on 29-30.10 (pull of 2026-11-02)"
   }
  ],
- "completeness_reference_day_utc": "2026-11-04",
+ "completeness_reference_day_utc": "2026-11-05",
  "datasets": {
   "game_metrics": {
    "file": "latest/game_metrics.json",
    "schema": "schemas/game_metrics.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "2026-11-04T08:40:01+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05T08:34:03+02:00",
    "stale": false,
-   "sha256": "045de1b5931a285af6d391ed5e285d2ba1d9e31dacc566639fd944dfc0d00f5f",
-   "bytes": 778349,
+   "sha256": "b56be5b60cd3314b98c48b6eaec670c7e6d010daa251815fb452417a34a9fd58",
+   "bytes": 797262,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-04/game_metrics.json"
+   "history_file": "history/2026-11-05/game_metrics.json"
   },
   "test_registry": {
    "file": "latest/test_registry.json",
    "schema": "schemas/test_registry.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "2026-11-04",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05",
    "stale": false,
-   "sha256": "f4207fc448a2c7f346e62fa2c38e3e49960351961c59768b2517a207c2d9a437",
-   "bytes": 1611747,
+   "sha256": "fde280a6af474e6b00997d88a6a46369a2fbba16eaab12a3d6661b17b4bce099",
+   "bytes": 1617375,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-04/test_registry.json"
+   "history_file": "history/2026-11-05/test_registry.json"
   },
   "test_results": {
    "file": "latest/test_results.json",
    "schema": "schemas/test_results.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
    "source_snapshot": "2026-10-18..2026-11-02 (diff cells re-read 2026-11-02)",
    "stale": false,
    "sha256": "7b2af9c91d912f5090a19a8afcbee3aef207f0764ce8ab736d7d9262bd2d9b24",
@@ -119,36 +119,36 @@
    "file": "latest/explanations_learnings_decisions.json",
    "schema": "schemas/explanations_learnings_decisions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "2026-11-04",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05",
    "stale": false,
-   "sha256": "ec33a9cc9dc0d5324935a8bc3850bb21baba37fbdddd074aca7e7fc083094032",
-   "bytes": 713461,
+   "sha256": "56dee380450d91adb475e52e8c6275f960fe9635ed872655f3f60ea851096f83",
+   "bytes": 721149,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-04/explanations_learnings_decisions.json"
+   "history_file": "history/2026-11-05/explanations_learnings_decisions.json"
   },
   "whatsapp_items": {
    "file": "latest/whatsapp_items.json",
    "schema": "schemas/whatsapp_items.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "2026-11-04",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05",
    "stale": false,
-   "sha256": "43141303bb3545d754d08f31a4a81c927cbad4be590012ad9c0225e67bbd06c2",
-   "bytes": 229002,
+   "sha256": "c4d62b158d2373f243d6c0da95c37afd83901c57415557d42fa11f8b927d6923",
+   "bytes": 237111,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-04/whatsapp_items.json"
+   "history_file": "history/2026-11-05/whatsapp_items.json"
   },
   "metric_definitions": {
    "file": "latest/metric_definitions.json",
    "schema": "schemas/metric_definitions.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
    "source_snapshot": "2026-11-01T12:05:00+02:00",
    "stale": false,
    "sha256": "4e05558bb6cc22f8f41987070fe236b90d5fbe0bb9575d75472668cf1e1679f3",
@@ -162,51 +162,51 @@
    "file": "latest/game_metrics_splits.json",
    "schema": "schemas/game_metrics_splits.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "2026-11-04T08:40:01+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05T08:34:03+02:00",
    "stale": false,
-   "sha256": "6b239fe564a523f4638fb4e751d5dac8c4fa59ba959d0a795f93ace8c6485389",
-   "bytes": 881034,
+   "sha256": "c8bd263e67b1456391d0425006c1ed41166af2d4ad80524b8f887b6f5b1f2a43",
+   "bytes": 901955,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-04/game_metrics_splits.json"
+   "history_file": "history/2026-11-05/game_metrics_splits.json"
   },
   "game_ftd_retention": {
    "file": "latest/game_ftd_retention.json",
    "schema": "schemas/game_ftd_retention.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "2026-11-04T08:40:01+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "2026-11-05T08:34:03+02:00",
    "stale": false,
-   "sha256": "7a50e67ac85ac3f18af07b351110157221121b378b7314f5cabf02c2e0f476e3",
-   "bytes": 826687,
+   "sha256": "ab67f8a9969d37edc684d9537cf89f5b5f4bfdf306a80e66d87325c9f82c1eea",
+   "bytes": 846330,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-04/game_ftd_retention.json"
+   "history_file": "history/2026-11-05/game_ftd_retention.json"
   },
   "glossary": {
    "file": "latest/glossary.json",
    "schema": "schemas/glossary.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "local sources as of 2026-11-04",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "local sources as of 2026-11-05",
    "stale": false,
-   "sha256": "1a9f3d21379600b989ee5138e8a07b266c448f00adc0c105118ac884ccfacd4e",
-   "bytes": 94093,
+   "sha256": "169868c3925091693ad22a4a9de585adfe65df7fb248bd06c0a055dcb95b693a",
+   "bytes": 94139,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-04/glossary.json"
+   "history_file": "history/2026-11-05/glossary.json"
   },
   "open_issues": {
    "file": "latest/open_issues.json",
    "schema": "schemas/open_issues.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "curated from saved sources as of 2026-11-04",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "curated from saved sources as of 2026-11-05",
    "stale": false,
    "sha256": "5124792649c340c7f59a703ceb95c85325a545100e80e726f3e5997a20e9f150",
    "bytes": 28003,
@@ -219,71 +219,71 @@
    "file": "latest/test_structured.json",
    "schema": "schemas/test_structured.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
    "source_snapshot": "curated from read-only Monday/Mixpanel/WhatsApp-extract reads as of 2026-11-02",
    "stale": false,
-   "sha256": "9d8242ad25436d11aaafaff29f0cdb76166a48cfc8c5c31f554bd3704abe5aef",
-   "bytes": 5669975,
+   "sha256": "0672d98638d0b28e7c8da8c2318d2a863fce21eb2a5f7c2d6120eb3d13fbd68a",
+   "bytes": 5669976,
    "error": null,
    "is_final": null,
-   "history_file": "history/2026-11-04/test_structured.json"
+   "history_file": "history/2026-11-05/test_structured.json"
   },
   "test_interim": {
    "file": "latest/test_interim.json",
    "schema": "schemas/test_interim.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
-   "source_snapshot": "Mixpanel Run-Query (read-only) 2026-11-04T08:52:34+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
+   "source_snapshot": "Mixpanel Run-Query (read-only) 2026-11-05T08:47:59+02:00",
    "stale": false,
-   "sha256": "a43636410ff2c5af51dd5201cdb5b624f51b9c46b94beb79314949ca047267a7",
-   "bytes": 1199458,
+   "sha256": "fc2685426359a0297582e0743215b4600e58f21a94dccb18547ee30931f27bfb",
+   "bytes": 1267710,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-04/test_interim.json"
+   "history_file": "history/2026-11-05/test_interim.json"
   },
   "game_events": {
    "file": "latest/game_events.json",
    "schema": "schemas/game_events.schema.json",
    "status": "ok",
-   "last_success_at": "2026-11-04T08:53:06+02:00",
-   "last_attempt_at": "2026-11-04T08:53:06+02:00",
+   "last_success_at": "2026-11-05T08:48:09+02:00",
+   "last_attempt_at": "2026-11-05T08:48:09+02:00",
    "source_snapshot": "Monday boards 9494658232/18416650776/18435634714 snapshot 2026-11-02; data/whatsapp_items.json; BigQuery dim_album_season (Dice), int_album_season (Disney) 2026-11-02",
    "stale": false,
-   "sha256": "403212e8d5a34b84b018fe9c46915b3eda42c6674ca6a2084dfb70a1630d0897",
-   "bytes": 1281018,
+   "sha256": "4f7c3033f379cd9edab68c243e3668a6909e50f90f491b1be78ff4fd98755bf0",
+   "bytes": 1283678,
    "error": null,
    "is_final": false,
-   "history_file": "history/2026-11-04/game_events.json"
+   "history_file": "history/2026-11-05/game_events.json"
   }
  },
  "counts": {
-  "game_metrics": 120,
-  "test_registry": 689,
+  "game_metrics": 123,
+  "test_registry": 691,
   "test_results": 137,
   "explanations": 154,
-  "decisions": 229,
+  "decisions": 236,
   "cross_studio_learnings": 4,
-  "whatsapp_items": 361,
+  "whatsapp_items": 370,
   "metric_definitions": 27,
-  "game_metrics_splits": 120,
-  "game_ftd_retention_ftd_daily": 120,
-  "game_ftd_retention_cohorts": 117,
+  "game_metrics_splits": 123,
+  "game_ftd_retention_ftd_daily": 123,
+  "game_ftd_retention_cohorts": 120,
   "open_issues": 24,
   "test_structured": 681,
   "glossary_concepts": 58,
-  "test_interim": 670,
-  "game_events": 1334
+  "test_interim": 708,
+  "game_events": 1337
  },
  "layer": {
   "index": {
    "file": "index/tests_index.json",
    "schema": "schemas/tests_index.schema.json",
-   "sha256": "9f5aa26b859203a0a92558fd56a48c3e2892dedd360869c3fab174ac05da7d59",
-   "bytes": 650173,
-   "tests": 689,
-   "aggregate_fingerprint": "672cfe409304c6372e1c45dd2d7f6c54d1b5f1c6beedab9b197bf6685a598e14"
+   "sha256": "e44ec28fa189fddf211badad5ce6a1c2834f7f9b0fab9e2110f74a543ea8240f",
+   "bytes": 652013,
+   "tests": 691,
+   "aggregate_fingerprint": "8bde9000a7925a06846ddc37510deff2d5c51bc492dfb592ee041d3a71680af1"
   },
   "tests_dir": "tests/<GAME>/<test_id>.json",
   "detail_schema": "schemas/test_detail.schema.json",
@@ -293,15 +293,15 @@
   "log": "PROCESSING_LOG.md"
  },
  "change_summary": {
-  "run_at": "2026-11-04T08:53:06+02:00",
-  "baseline": "2026-11-03T08:56:41+02:00",
-  "tests_added": 4,
-  "tests_updated": 649,
+  "run_at": "2026-11-05T08:48:09+02:00",
+  "baseline": "2026-11-04T08:53:06+02:00",
+  "tests_added": 2,
+  "tests_updated": 653,
   "tests_unchanged": 36,
   "tests_removed": 0,
   "updated_detail": {
-   "DICE-1113-limited-stock-offer-recomp": [
-    "unclear"
+   "DICE-1109-remove-android-dtc": [
+    "data"
    ],
    "DICE-1104-cz-fix": [
     "data"
@@ -334,16 +334,16 @@
     "data"
    ],
    "DICE-1115-trail-double-wheel-better-experience": [
-    "unclear"
+    "data"
    ],
    "DICE-NOID-trail-less-coins-yeladim-ktanim": [
-    "unclear"
+    "data"
    ],
    "DICE-NOID-trail-harder": [
-    "what_tested",
-    "what_changes",
-    "who_when",
-    "unclear"
+    "data"
+   ],
+   "DICE-NOID-scrolling-and-6-box-later": [
+    "data"
    ],
    "DOM-1590-genie-new-agenda-v3": [
     "data"
@@ -352,15 +352,22 @@
     "data"
    ],
    "DOM-1611-low-balance-challenge-pb-10": [
-    "unclear"
+    "data"
    ],
    "DOM-1611-move-quest-from-level-32": [
-    "unclear"
+    "data"
    ],
    "DOM-1621-1621-8-box-from-2": [
     "data"
    ],
    "DOM-NOID-social-kingdom-bots": [
+    "data"
+   ],
+   "DOM-NOID-superboost": [
+    "who_when",
+    "unclear"
+   ],
+   "DOM-NOID-recompletion-for-early-finishers": [
     "who_when",
     "unclear"
    ],
@@ -395,10 +402,10 @@
     "data"
    ],
    "DIS-126-olympus-wheel-mega": [
-    "unclear"
+    "data"
    ],
    "DIS-126-chef-segments": [
-    "unclear"
+    "data"
    ],
    "DIS-127-3po-halloween": [
     "data"
@@ -433,12 +440,6 @@
    "DIS-043-d01-min-price": [
     "data"
    ],
-   "DIS-NOID-live-test": [
-    "data"
-   ],
-   "DIS-NOID-live-test-2": [
-    "data"
-   ],
    "DICE-NOID-protocol-trail-with-presets-k10": [
     "data"
    ],
@@ -450,13 +451,10 @@
    ],
    "DICE-NOID-wheel-pass": [
     "data"
-   ],
-   "DICE-NOID-pet-pricing-per-level-segment": [
-    "data"
    ]
   },
-  "sections_regenerated": 44,
-  "sections_reused": 3441,
+  "sections_regenerated": 22,
+  "sections_reused": 3473,
   "needs_attention": [
    "DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)",
    "DICE-NOID-trail-less-coins-yeladim-ktanim: המנגנון טרם הובהר (live)",
@@ -464,6 +462,8 @@
    "DICE-NOID-scrolling-and-6-box-later: המנגנון טרם הובהר (live)",
    "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
    "DOM-NOID-social-kingdom-bots: המנגנון טרם הובהר (live)",
+   "DOM-NOID-superboost: המנגנון טרם הובהר (live)",
+   "DOM-NOID-recompletion-for-early-finishers: המנגנון טרם הובהר (live)",
    "DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)",
    "DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)",
    "DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)",
@@ -472,9 +472,7 @@
    "DIS-126-es-v3: המנגנון טרם הובהר (live)",
    "DIS-126-wr-v3: המנגנון טרם הובהר (live)",
    "DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)",
-   "DIS-126-1-1-test: המנגנון טרם הובהר (live)",
-   "DIS-NOID-live-test: המנגנון טרם הובהר (live)",
-   "DIS-NOID-live-test-2: המנגנון טרם הובהר (live)"
+   "DIS-126-1-1-test: המנגנון טרם הובהר (live)"
   ],
   "needs_attention_count": 17,
   "coverage": {
@@ -489,12 +487,12 @@
     "unclear": 6
    },
    "backlog": {
-    "stub": 607
+    "stub": 609
    }
   },
   "publish": {
-   "run_at": "2026-11-04T08:53:06+02:00",
-   "baseline_published_at": "2026-11-03T08:56:41+02:00",
+   "run_at": "2026-11-05T08:48:09+02:00",
+   "baseline_published_at": "2026-11-04T08:53:06+02:00",
    "datasets_changed": [
     "game_metrics",
     "test_registry",
@@ -513,12 +511,12 @@
     "open_issues"
    ],
    "datasets_failed_kept_last_good": [],
-   "tests_added": 4,
-   "tests_updated": 649,
+   "tests_added": 2,
+   "tests_updated": 653,
    "tests_unchanged": 36,
    "tests_removed_kept": 0,
    "updated_test_ids": [
-    "DICE-1113-limited-stock-offer-recomp",
+    "DICE-1109-remove-android-dtc",
     "DICE-1104-cz-fix",
     "DICE-1104-vip-braze-push-churners",
     "DICE-1106-remove-ad-from-segmentation",
@@ -532,12 +530,15 @@
     "DICE-1115-trail-double-wheel-better-experience",
     "DICE-NOID-trail-less-coins-yeladim-ktanim",
     "DICE-NOID-trail-harder",
+    "DICE-NOID-scrolling-and-6-box-later",
     "DOM-1590-genie-new-agenda-v3",
     "DOM-1581-1581-dtc-remove-for-android",
     "DOM-1611-low-balance-challenge-pb-10",
     "DOM-1611-move-quest-from-level-32",
     "DOM-1621-1621-8-box-from-2",
     "DOM-NOID-social-kingdom-bots",
+    "DOM-NOID-superboost",
+    "DOM-NOID-recompletion-for-early-finishers",
     "DIS-125-t125-end-of-puzzle-offer",
     "DIS-120-rv-8box-with-purchase-v2",
     "DIS-124-rv-extend-segment",
@@ -561,8 +562,6 @@
     "DICE-1109-limited-stock-launch-stock-progression",
     "DIS-118-dormant-scene-boost",
     "DIS-043-d01-min-price",
-    "DIS-NOID-live-test",
-    "DIS-NOID-live-test-2",
     "DICE-NOID-protocol-trail-with-presets-k10",
     "DICE-NOID-rps-ad-echad",
     "DICE-NOID-new-nice-badge-container-for",
@@ -616,12 +615,11 @@
     "DICE-NOID-new-offer-cut-price-more",
     "DICE-NOID-bonus-kingdom-every-5-kingdoms",
     "DICE-NOID-open-a-feature-make-a",
-    "DICE-NOID-decoy-panel-pricing-test",
-    "DICE-NOID-lava-quest-phase-2-quest"
+    "DICE-NOID-decoy-panel-pricing-test"
    ],
-   "detail_files_written": 653,
-   "sections_regenerated": 44,
-   "sections_reused": 3441,
+   "detail_files_written": 655,
+   "sections_regenerated": 22,
+   "sections_reused": 3473,
    "needs_attention": [
     "DICE-1115-trail-double-wheel-better-experience: המנגנון טרם הובהר (live)",
     "DICE-NOID-trail-less-coins-yeladim-ktanim: המנגנון טרם הובהר (live)",
@@ -629,6 +627,8 @@
     "DICE-NOID-scrolling-and-6-box-later: המנגנון טרם הובהר (live)",
     "DOM-1590-genie-new-agenda-v3: המנגנון טרם הובהר (live)",
     "DOM-NOID-social-kingdom-bots: המנגנון טרם הובהר (live)",
+    "DOM-NOID-superboost: המנגנון טרם הובהר (live)",
+    "DOM-NOID-recompletion-for-early-finishers: המנגנון טרם הובהר (live)",
     "DIS-120-rv-8box-with-purchase-v2: המנגנון טרם הובהר (live)",
     "DIS-NOID-pb-level-reduction: המנגנון טרם הובהר (live)",
     "DIS-126-olympus-wheel-mega: המנגנון טרם הובהר (live)",
@@ -637,9 +637,7 @@
     "DIS-126-es-v3: המנגנון טרם הובהר (live)",
     "DIS-126-wr-v3: המנגנון טרם הובהר (live)",
     "DIS-126-opportunistic-rv: המנגנון טרם הובהר (live)",
-    "DIS-126-1-1-test: המנגנון טרם הובהר (live)",
-    "DIS-NOID-live-test: המנגנון טרם הובהר (live)",
-    "DIS-NOID-live-test-2: המנגנון טרם הובהר (live)"
+    "DIS-126-1-1-test: המנגנון טרם הובהר (live)"
    ],
    "needs_attention_count": 17
   }
@@ -664,7 +662,7 @@
    "open_issues"
   ],
   "failed": [],
-  "history_dir": "history/2026-11-04/",
+  "history_dir": "history/2026-11-05/",
   "retention": "keep all (no deletions)"
  }
 }

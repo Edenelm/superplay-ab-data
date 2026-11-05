@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -331,6 +331,6 @@
  "glossary_concepts": [
   "K (Kingdom)"
  ],
- "content_fingerprint": "b6afab43ac90e0c1e9f1342606f0805de5581a5f8e648566826fdd359dc392fd",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "19a355f973dc6d682dfa49e93f335913983e2250189153af06e3f126719837d2",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

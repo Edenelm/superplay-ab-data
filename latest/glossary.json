@@ -1,7 +1,7 @@
 {
  "dataset": "glossary",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-04T08:53:06+02:00",
+ "generated_at": "2026-11-05T08:48:09+02:00",
  "timezone": "Asia/Jerusalem",
  "rules": [
   "canonical_name = the org term as written in sources; no invented translations",
@@ -1396,7 +1396,7 @@
    "kind": "abbreviation",
    "aliases": [],
    "source_spellings": {
-    "MTX": 10
+    "MTX": 11
    },
    "per_game": {
     "DICE": {
@@ -1411,7 +1411,7 @@
     "DOM": {
      "used": true,
      "tests_with_term": 1,
-     "whatsapp_items_with_term": 0,
+     "whatsapp_items_with_term": 1,
      "example_names": [
       "MTX offers inside level as badge"
      ]
@@ -1466,8 +1466,8 @@
     "קינגדום"
    ],
    "source_spellings": {
+    "K2": 7,
     "K40": 5,
-    "K2": 5,
     "K110+": 4,
     "K60": 3,
     "K20": 3,
@@ -1483,7 +1483,7 @@
     "DICE": {
      "used": true,
      "tests_with_term": 14,
-     "whatsapp_items_with_term": 16,
+     "whatsapp_items_with_term": 18,
      "example_names": [
       "1113 - limited stock offer recomp",
       "1106 - Remove AD from Segmentation",
@@ -1968,7 +1968,7 @@
     "recomp"
    ],
    "source_spellings": {
-    "Trail": 41
+    "Trail": 42
    },
    "per_game": {
     "DICE": {
@@ -1993,9 +1993,10 @@
     },
     "DIS": {
      "used": true,
-     "tests_with_term": 1,
+     "tests_with_term": 2,
      "whatsapp_items_with_term": 0,
      "example_names": [
+      "Lightyear Trail – More Golf Sticky",
       "124 - Trail again (3rd try 🍦)"
      ]
     }
@@ -2091,9 +2092,9 @@
    ],
    "usage_refs": [
     "test:DICE-1113-limited-stock-offer-recomp",
+    "test:DOM-NOID-recompletion-for-early-finishers",
     "test:DICE-NOID-remove-drs-from-recompletion",
     "test:DICE-NOID-pet-store-by-tokens-from",
-    "test:DOM-NOID-recompletion-for-early-finishers",
     "test:DICE-1113-trail-recomp-smaller-atw-higher",
     "test:DICE-NOID-trail-weekend-recomp"
    ]
@@ -2408,9 +2409,9 @@
    "source_spellings": {
     "Rolls": 16,
     "rolls": 12,
+    "רולים": 9,
     "roll": 8,
     "Roll": 7,
-    "רולים": 7,
     "Tick": 1,
     "Ticks": 1
    },
@@ -2418,7 +2419,7 @@
     "DICE": {
      "used": true,
      "tests_with_term": 29,
-     "whatsapp_items_with_term": 14,
+     "whatsapp_items_with_term": 15,
      "example_names": [
       "Add roll bucket 3rd day (for default bucket)",
       "No Roll Reward for Roll Quests",

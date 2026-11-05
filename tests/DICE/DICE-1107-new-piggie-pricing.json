@@ -16,7 +16,7 @@
   "lifecycle": "completed_board_only",
   "board_status_raw": "Aborted",
   "board_group": "Completed",
-  "board_decision_raw": null,
+  "board_decision_raw": "Not implemented",
   "board_category": "stopped",
   "outcome_label": null,
   "is_live": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -291,7 +291,7 @@
    "whatsapp_decision_latest": "not deploy",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": null,
+   "board_decision": "Not implemented",
    "board_status": "Aborted",
    "numbers_quoted": [
     "DAU −0.43%",
@@ -353,6 +353,6 @@
  "glossary_concepts": [
   "Piggy"
  ],
- "content_fingerprint": "cb4ee9a495f75d7fceea2c4795bce4c6f0891a8640de3d9e34fe3a20137a6b5b",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "156dc0cae2272464a7f1cc98483a5b9d87be646c9f06a32abef8aba9c6ee6db3",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -14,10 +14,10 @@
   "board_test_number": null,
   "name": "1109 - Less Trail energy in OOTE RV",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Aborted",
   "board_group": "Completed",
   "board_decision_raw": "Not implemented",
-  "board_category": "lost",
+  "board_category": "stopped",
   "outcome_label": null,
   "is_live": false,
   "has_results": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -259,7 +259,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: abort",
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: abort",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/12405436050",
@@ -295,7 +295,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Not implemented",
-   "board_status": "Done",
+   "board_status": "Aborted",
    "numbers_quoted": [
     "trail finishers −14%"
    ],
@@ -367,6 +367,6 @@
   "Trail",
   "OOC / OOR"
  ],
- "content_fingerprint": "e63d97f8fae8d7486e0974ee7751bd0e25d417dafd3630a7af1ee9a268af0a74",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "3496bdfe8c1b90a6fade5048a81bb3bfc3337891b878ceda8a20da9372bcc449",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

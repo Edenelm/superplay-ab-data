@@ -1,7 +1,7 @@
 {
  "dataset": "game_events",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-04T08:53:06+02:00",
+ "generated_at": "2026-11-05T08:48:09+02:00",
  "timezone": "mixed: each record carries date_timezone (board dates as stored, WhatsApp Asia/Jerusalem, BigQuery UTC); not converted",
  "rules": [
   "no guessed dates: a missing date is null with null_reasons",
@@ -66,11 +66,11 @@
    "game": "Dice Dreams",
    "category": "album",
    "status": "ok_pending_approval",
-   "events": 30,
+   "events": 31,
    "events_with_start_date": 30,
    "by_verification": {
     "bigquery_dbt": 22,
-    "whatsapp_unverified": 6,
+    "whatsapp_unverified": 7,
     "board": 2
    },
    "calendar_source": "dice-dreams-dbt.20_core.dim_album_season",
@@ -83,11 +83,11 @@
    "game": "Dice Dreams",
    "category": "sale_offer",
    "status": "partial",
-   "events": 8,
-   "events_with_start_date": 6,
+   "events": 9,
+   "events_with_start_date": 7,
    "by_verification": {
     "board": 1,
-    "whatsapp_unverified": 7
+    "whatsapp_unverified": 8
    },
    "calendar_source": null,
    "eden_to_provide": [
@@ -207,11 +207,11 @@
    "game": "Domino Dreams",
    "category": "ab_test",
    "status": "ok",
-   "events": 617,
-   "events_with_start_date": 617,
+   "events": 618,
+   "events_with_start_date": 618,
    "by_verification": {
     "board": 599,
-    "whatsapp_unverified": 18
+    "whatsapp_unverified": 19
    },
    "calendar_source": "Monday board test windows",
    "eden_to_provide": [],
@@ -350,15 +350,15 @@
   ]
  },
  "counts": {
-  "records": 1334,
+  "records": 1337,
   "by_game": {
-   "Dice Dreams": 370,
-   "Domino Dreams": 643,
+   "Dice Dreams": 372,
+   "Domino Dreams": 644,
    "Disney Solitaire": 321
   },
   "by_source": {
    "monday": 1102,
-   "whatsapp": 195,
+   "whatsapp": 198,
    "bigquery": 37
   }
  },
@@ -12753,6 +12753,72 @@
     "end_date": "end not stated in the launch message"
    },
    "announced_on": "2026-11-03",
+   "wa_decision": "launched",
+   "related_board_item": null,
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-207b8d1747fd",
+   "game": "Dice Dreams",
+   "category": "album",
+   "event_kind": "deploy_message",
+   "name": "Social Set bots config (album 67)",
+   "start_date": null,
+   "end_date": null,
+   "date_basis": null,
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa351",
+    "url": null,
+    "file": "whatsapp/2026-11-05.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_deploy",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "start_date": "deploy date not stated in the message (announced_on is the message date only)",
+    "end_date": "a deploy has no end date",
+    "date_basis": "no date stated"
+   },
+   "announced_on": "2026-11-04",
+   "wa_decision": "deploy",
+   "related_board_item": null,
+   "scope": "unknown"
+  },
+  {
+   "event_id": "EV-75e73beeeaa0",
+   "game": "Dice Dreams",
+   "category": "sale_offer",
+   "event_kind": "launch_message",
+   "name": "1114 scrolling K2 Groups",
+   "start_date": "2026-11-04",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Dice Business",
+    "item_id": "wa348",
+    "url": null,
+    "file": "whatsapp/2026-11-05.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-04",
    "wa_decision": "launched",
    "related_board_item": null,
    "scope": "unknown"
@@ -45220,6 +45286,38 @@
     "end": null
    },
    "scope": "test_population"
+  },
+  {
+   "event_id": "EV-1bc43d19191a",
+   "game": "Domino Dreams",
+   "category": "ab_test",
+   "event_kind": "launch_message",
+   "name": "Harder RC for event finishers",
+   "start_date": "2026-11-04",
+   "end_date": null,
+   "date_basis": "whatsapp_message_date",
+   "date_timezone": "Asia/Jerusalem",
+   "verification": "whatsapp_unverified",
+   "source": {
+    "system": "whatsapp",
+    "board_id": null,
+    "board_title": "Domino Business",
+    "item_id": "wa355",
+    "url": null,
+    "file": "whatsapp/2026-11-05.md",
+    "table": null
+   },
+   "definition_refs": {
+    "dates": "whatsapp_launch",
+    "category": "whatsapp_keyword_category"
+   },
+   "null_reasons": {
+    "end_date": "end not stated in the launch message"
+   },
+   "announced_on": "2026-11-04",
+   "wa_decision": "launched",
+   "related_board_item": null,
+   "scope": "unknown"
   },
   {
    "event_id": "EV-aa965bbfb054",

@@ -14,10 +14,10 @@
   "board_test_number": null,
   "name": "Whammy vs. Fortune Wheel - in Extra Layer",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Aborted",
   "board_group": "Completed",
   "board_decision_raw": "Not implemented",
-  "board_category": "lost",
+  "board_category": "stopped",
   "outcome_label": null,
   "is_live": false,
   "has_results": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -261,7 +261,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: launched",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/12993932905",
@@ -298,7 +298,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Not implemented",
-   "board_status": "Done",
+   "board_status": "Aborted",
    "numbers_quoted": [
     "payers \"+1.37%\"",
     "revenue \"−1.58%\"",
@@ -391,6 +391,6 @@
  "glossary_concepts": [
   "Whammy"
  ],
- "content_fingerprint": "8f9df1764535e8977434e9ca89949700d1b64984c782b891b3931f4e6866e973",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "70570c2a8f593f7fedeaab54264829ad661fd586e76f44428017e8866ed4b617",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

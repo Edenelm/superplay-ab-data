@@ -14,10 +14,10 @@
   "board_test_number": null,
   "name": "1110 - Roll Bucket VHB to 100",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Aborted",
   "board_group": "Completed",
   "board_decision_raw": "Not implemented",
-  "board_category": "lost",
+  "board_category": "stopped",
   "outcome_label": null,
   "is_live": false,
   "has_results": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -255,7 +255,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: not deploy",
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: not deploy",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/12527116341",
@@ -291,7 +291,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Not implemented",
-   "board_status": "Done",
+   "board_status": "Aborted",
    "numbers_quoted": [],
    "first_seen": "2026-07-20",
    "last_seen": "2026-08-23",
@@ -352,6 +352,6 @@
  "glossary_concepts": [
   "Rolls / Ticks"
  ],
- "content_fingerprint": "e0a6066a0a6f89a32a1143938f2b04dea4ddc8a5cb511a2e78e9bd824a6e8cb2",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "aa3cb408d0df60aaac60e9c3d8e3d4882a4f3d31bd1798882fce0f5644721ee3",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

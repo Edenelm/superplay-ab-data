@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "CZ",
   "MTX"
  ],
- "content_fingerprint": "818e2abb4768521f01a0830c32ebe25abd0d94e42cfce6430cf7f18b8968b35b",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "beffc0c3ee9033668a00a8128f29cfaf39347ac38c1f18cd45d3723aa5c8e8be",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

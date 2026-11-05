@@ -70,7 +70,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -354,6 +354,6 @@
   "RV",
   "DSLP / DFI"
  ],
- "content_fingerprint": "8019f99623a085ee0174f9ee6dfecc425ea43fb61b8fb2d4c1b4c987b97f4c0b",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "a444e3e8ca3dfebd9e73862e97d359f3631734ddc848bb8784b3a2c2fc3c8289",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

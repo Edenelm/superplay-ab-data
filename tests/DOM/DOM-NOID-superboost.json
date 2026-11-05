@@ -2,38 +2,28 @@
  "test_id": "DOM-NOID-superboost",
  "game": "Domino Dreams",
  "game_code": "DOM",
- "tier": "backlog",
- "coverage": "stub",
+ "tier": "live",
+ "coverage": "unclear",
  "registry": {
   "test_id": "DOM-NOID-superboost",
   "legacy_keys": [
-   "bl_13300790267"
+   "live_13300790267"
   ],
   "game": "Domino Dreams",
   "board_item_id": "13300790267",
-  "board_test_number": null,
+  "board_test_number": "—",
   "name": "Superboost",
-  "lifecycle": "backlog",
-  "board_status_raw": "In Planning",
-  "board_group": "Working On",
-  "backlog_substatus": {
-   "Next Step": null
-  },
-  "owners": {
-   "Analyst": "Brody Tal"
-  },
-  "priority": 5,
-  "planned": null,
-  "due": null,
-  "added_date": "2026-10-15",
-  "type": "Core/Economy",
+  "lifecycle": "live",
+  "board_status_raw": "Live",
+  "board_group": "Live",
   "outcome_label": null,
-  "is_live": false,
+  "is_live": true,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
   "change": null,
   "audience": null,
+  "audience_source": null,
   "control_vs_test": null,
   "split": null,
   "start_date": "2026-11-03",
@@ -42,27 +32,28 @@
   "primary_kpi": null,
   "guardrails": null,
   "tags": [],
-  "mixpanel": null,
-  "conflicts": [
-   {
-    "type": "board",
-    "msg": "group 'Working On' but start date 2026-11-03 has passed"
-   },
-   {
-    "type": "board_live_group",
-    "msg": "Status 'In Planning' but no end date (start 2026-11-03)"
-   }
-  ],
+  "mixpanel": {
+   "state": "none",
+   "board_link": "https://mixpanel.com/s/4QkU5",
+   "dashboards": [],
+   "possible": [],
+   "rule": "'possible' matches are never auto-linked"
+  },
+  "conflicts": [],
   "source_links": [
    {
     "label": "Monday item",
     "url": "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
+   },
+   {
+    "label": "Mixpanel board (from Monday)",
+    "url": "https://mixpanel.com/s/4QkU5"
    }
   ],
   "sources": [
    {
     "type": "app_build_snapshot",
-    "ref": "/workspace/pilot/build/backlog_data.js",
+    "ref": "/workspace/pilot/build/live_data.js",
     "note": "compiled from read-only Monday/Sheets/Docs/Mixpanel/WhatsApp reads"
    },
    {
@@ -71,17 +62,18 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
-   "business_question": "backlog snapshot captures name/group/status/owners/dates only",
-   "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
-   "change": "backlog snapshot captures name/group/status/owners/dates only",
-   "audience": "backlog snapshot captures name/group/status/owners/dates only",
-   "control_vs_test": "backlog snapshot captures name/group/status/owners/dates only",
-   "split": "backlog snapshot captures name/group/status/owners/dates only",
-   "primary_kpi": "backlog snapshot captures name/group/status/owners/dates only",
-   "guardrails": "backlog snapshot captures name/group/status/owners/dates only",
-   "outcome_label": "not started"
+   "business_question": "live snapshot captures status/dates/audience only; results tab not read",
+   "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
+   "change": "live snapshot captures status/dates/audience only; results tab not read",
+   "control_vs_test": "live snapshot captures status/dates/audience only; results tab not read",
+   "primary_kpi": "live snapshot captures status/dates/audience only; results tab not read",
+   "outcome_label": "test is live; no decision yet",
+   "guardrails": "not designated in source",
+   "audience": "empty on the Monday item",
+   "split": "empty on the Monday item",
+   "end_date": "no end date on board (live)"
   }
  },
  "results": [],
@@ -135,23 +127,22 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03, סיום: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03, סיום: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: 2026-11-03",
       "tag": "explicit_in_source",
       "source_refs": [
        "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
       ]
      }
     ],
-    "fingerprint": "a0c8d9aae8e815fc",
+    "fingerprint": "4b31079cdd0fc922",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "d658e2a3b5597fab",
      "registry:phases": "4f53cda18c2baa0c",
-     "registry:end_date": "74234e98afe7498f",
      "generator": "he6-v2"
     }
    },
@@ -176,22 +167,8 @@
    },
    "unclear": {
     "label_he": "מה עדיין לא ברור",
-    "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-03 has passed סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-03) חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
+    "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
     "statements": [
-     {
-      "text_he": "סתירה (מהמקור): group 'Working On' but start date 2026-11-03 has passed",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
-      ]
-     },
-     {
-      "text_he": "סתירה (מהמקור): Status 'In Planning' but no end date (start 2026-11-03)",
-      "tag": "explicit_in_source",
-      "source_refs": [
-       "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
-      ]
-     },
      {
       "text_he": "חסר במקור: מה משתנה, מה מקבל הקונטרול, למי, מה ההשערה.",
       "tag": "explicit_in_source",
@@ -200,12 +177,12 @@
       ]
      }
     ],
-    "fingerprint": "2d3baa7ca514e9cf",
+    "fingerprint": "1e4ff38c3ec74dd2",
     "inputs": {
      "curated:questions": "74234e98afe7498f",
      "curated:conflicts": "74234e98afe7498f",
-     "registry:conflicts": "7b8ae48768aaf777",
-     "expl:limitations": "fee957a02ec5bc23",
+     "registry:conflicts": "4f53cda18c2baa0c",
+     "expl:limitations": "4615b5a038c8c95d",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -225,10 +202,7 @@
   "target_behaviour": null,
   "why": null,
   "phases": [],
-  "conflicts": [
-   "group 'Working On' but start date 2026-11-03 has passed",
-   "Status 'In Planning' but no end date (start 2026-11-03)"
-  ],
+  "conflicts": [],
   "source_refs": [
    {
     "ref": "monday_item",
@@ -243,10 +217,12 @@
   "lang": "he",
   "questions": {
    "what_changed": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "change not stated in source"
+    "text_he": "שם הבדיקה בבורד: Superboost",
+    "tag": "source_fact",
+    "source_refs": [
+     "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
+    ],
+    "null_reason": null
    },
    "why_tested": {
     "text_he": null,
@@ -264,21 +240,18 @@
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no results tab read and no numbers quoted in WhatsApp"
+    "null_reason": "test is live; no results read (no interim numbers stored)"
    },
    "business_meaning": {
     "text_he": null,
     "tag": null,
     "source_refs": [],
-    "null_reason": "no verified results; meaning not derived from WhatsApp numbers alone"
+    "null_reason": "no results yet"
    },
    "limitations": {
-    "text_he": "אין לשונית תוצאות באפליקציה; המידע מגיע משורת הבורד ומהודעות WhatsApp בלבד ולא אומת.",
+    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
     "tag": "generated_explanation",
     "source_refs": [
-     "https://superplay.monday.com/boards/18416650776/pulses/13300790267",
-     "2026-10-26.md",
-     "2026-11-04.md",
      "https://superplay.monday.com/boards/18416650776/pulses/13300790267"
     ],
     "null_reason": null
@@ -290,7 +263,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: In Planning · החלטה אחרונה ב-WhatsApp: launched",
+    "text_he": "בבורד: Live · החלטה אחרונה ב-WhatsApp: launched",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/18416650776/pulses/13300790267",
@@ -326,7 +299,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": null,
-   "board_status": "In Planning",
+   "board_status": "Live",
    "numbers_quoted": [],
    "first_seen": "2026-10-19",
    "last_seen": "2026-11-03",
@@ -385,6 +358,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "93f9b72575dc3bf7120596d056dda7133991c1628ace3db8862c3fbacd8cb785",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "c16c8436d7d3e81e00059cee472f1e0148ed9a4725f2b888fd6ef81ded3caf17",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -397,6 +397,6 @@
   "PB",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "bf8e6d4c217cbe1b4238e1cebef4b2d5b0eb837f73b4b76c2da85cdb667cb4e4",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "94cedf0c1ec9cbda77ed485234b1ecbc0265677a7bcbab72354451d5ea0acf48",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

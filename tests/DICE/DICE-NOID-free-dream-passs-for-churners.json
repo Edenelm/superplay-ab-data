@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -380,6 +380,6 @@
   "AD (Active Days)",
   "Dream Pass"
  ],
- "content_fingerprint": "118d3b70c6c6f6015ec6eda94b86521fd77286d7772ebc77989b41d332ac9aba",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "b4012fcfa12d4bf2e2f5875e0dbc707d462d1394a114406236ffcad2d3a137d3",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

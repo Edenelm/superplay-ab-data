@@ -75,7 +75,7 @@
    "outcome_label": "not started"
   },
   "carried_forward": {
-   "since": "2026-11-04",
+   "since": "2026-11-05",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-04",
@@ -223,6 +223,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "ccd36a6e42326f15099f6a457a8e3bee190c850c0aee754baa82ef17d1666e62",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "093bc687bf00161049cb82dd5600a98392085adaabe33edede9773e2b9f6572f",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

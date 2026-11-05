@@ -97,7 +97,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -594,6 +594,6 @@
   "Whammy",
   "BWF"
  ],
- "content_fingerprint": "e4f2ff98ac2037287d3ff2c0d45f27a45d506cae50e3b92598eb3457d41e7021",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "c987eb5775f478980fd89fc7f667c89a0bd116217739990501bafa6545a73f08",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

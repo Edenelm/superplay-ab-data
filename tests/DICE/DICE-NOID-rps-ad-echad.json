@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
  "glossary_concepts": [
   "AD (Active Days)"
  ],
- "content_fingerprint": "3aef71f17a95fb892db5ab5f3a33e08611e3aff2a6b70b3a82f328457e71c68b",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "6ecc00d51cca1ffb0634f0ed95ab8790c615c69584629e60e0345e9a19278628",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

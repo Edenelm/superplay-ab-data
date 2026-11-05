@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "Pity"
  ],
- "content_fingerprint": "ed0938ec17893cd84a23cd2dfaad4b58f2db146287d2a65f27ebf9c20f9d4040",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "f61aa7b4e3d463f67f84398396dfa76fc328f9b94bcfc1ebdfd7c92540f93130",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

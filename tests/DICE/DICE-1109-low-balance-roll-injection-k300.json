@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "1109 - Low balance roll injection K300+",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Deploy",
   "board_group": "Completed",
   "board_decision_raw": "Implemented",
   "board_category": "deploy",
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -254,7 +254,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: deploy (partial)",
+    "text_he": "בבורד: Deploy · החלטה אחרונה ב-WhatsApp: deploy (partial)",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/11304870252",
@@ -289,7 +289,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Implemented",
-   "board_status": "Done",
+   "board_status": "Deploy",
    "numbers_quoted": [],
    "first_seen": "2026-09-06",
    "last_seen": "2026-09-06",
@@ -333,6 +333,6 @@
   "Rolls / Ticks",
   "Low balance"
  ],
- "content_fingerprint": "cefb6db9113cdc55a39d5a9e930965dfdedfa38434f073cd892c9c312fcd381e",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "f7eb776a64328f67381fc0154fe7c788e4a3f7f5bb5b1c0e2b061d02cc0fd4d4",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

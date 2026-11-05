@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -218,6 +218,6 @@
  "glossary_concepts": [
   "RV"
  ],
- "content_fingerprint": "acf66c67cb3d6e381bb01fa4fd35998979656ff4c0bc4816813e73b89fb25d32",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "36abf00674964b2bfbcd1ad61ffaa326eb826d21181a0256622b3235856b6371",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -14,7 +14,7 @@
   "board_test_number": null,
   "name": "1109 - Lava Quest Phase 4",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Deploy",
   "board_group": "Completed",
   "board_decision_raw": "Implemented",
   "board_category": "deploy",
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -257,7 +257,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: deploy",
+    "text_he": "בבורד: Deploy · החלטה אחרונה ב-WhatsApp: deploy",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/12650737121",
@@ -292,7 +292,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Implemented",
-   "board_status": "Done",
+   "board_status": "Deploy",
    "numbers_quoted": [
     "Revenue +1.4%",
     "ARPPU +1.1%",
@@ -347,6 +347,6 @@
  "glossary_concepts": [
   "Phase"
  ],
- "content_fingerprint": "1978594d7a9c9c2aebbc793e5e674906c85a7d0e62ea1fe35cb760ca5d14667c",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "113a7e76970330ce7e93e910a3799159c94fdca8e7ea6ce849c0158faf0d5cf7",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

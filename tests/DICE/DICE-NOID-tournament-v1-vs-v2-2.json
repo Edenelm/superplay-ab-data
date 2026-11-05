@@ -14,10 +14,10 @@
   "board_test_number": null,
   "name": "Tournament V1 vs. V2 2.0",
   "lifecycle": "completed_board_only",
-  "board_status_raw": "Done",
+  "board_status_raw": "Aborted",
   "board_group": "Completed",
   "board_decision_raw": "Not implemented",
-  "board_category": "lost",
+  "board_category": "stopped",
   "outcome_label": null,
   "is_live": false,
   "has_results": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -257,7 +257,7 @@
     "null_reason": "no explicit recommendation found in captured sources"
    },
    "decided": {
-    "text_he": "בבורד: Done · החלטה אחרונה ב-WhatsApp: continue",
+    "text_he": "בבורד: Aborted · החלטה אחרונה ב-WhatsApp: continue",
     "tag": "source_fact",
     "source_refs": [
      "https://superplay.monday.com/boards/9494658232/pulses/12346465111",
@@ -292,7 +292,7 @@
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
    "board_decision": "Not implemented",
-   "board_status": "Done",
+   "board_status": "Aborted",
    "numbers_quoted": [
     "final-prize recipients −2%",
     "crashes +1.5%"
@@ -345,6 +345,6 @@
  "glossary_concepts": [
   "Tournament"
  ],
- "content_fingerprint": "710c80d7daddf7d9f45a86129520061a45d26fcf3b4724d007d06423f47dc346",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "89eafc283059f86cb19f957c781ec89a7e843783df951d1ddbc851f850e75eb3",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

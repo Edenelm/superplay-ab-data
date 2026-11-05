@@ -16,7 +16,7 @@
   "lifecycle": "completed_board_only",
   "board_status_raw": "Aborted",
   "board_group": "Completed",
-  "board_decision_raw": null,
+  "board_decision_raw": "Not implemented",
   "board_category": "stopped",
   "outcome_label": null,
   "is_live": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -300,7 +300,7 @@
    "whatsapp_decision_latest": "not deploy",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": null,
+   "board_decision": "Not implemented",
    "board_status": "Aborted",
    "numbers_quoted": [
     "Revenue −0.66%",
@@ -420,6 +420,6 @@
  ],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "4758015fa564f2aad20c384cc2e4b91243a63395cd76589016ef9ab08a0fe896",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "e6c1e739a514ec4201e67600f8b8d6f6e2c15c40b32e347e4f0a0c798d05ad73",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

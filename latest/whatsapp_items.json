@@ -1,9 +1,9 @@
 {
  "dataset": "whatsapp_items",
  "contract_version": "1.5.0",
- "generated_at": "2026-11-04T08:53:06+02:00",
+ "generated_at": "2026-11-05T08:48:09+02:00",
  "timezone": "Asia/Jerusalem",
- "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 03.11.2026 · images/PDFs not read",
+ "coverage": "Coverage: Dice from 01.06.2026 (keyword-filtered capture) · Domino only from 05.10.2026 · Disney only from 15.09.2026 (WhatsApp Web history limit) · to 04.11.2026 · images/PDFs not read",
  "caveats": {
   "2026-10-26.md": [
    "Images, dashboard screenshots and PDFs were not read (incl. the T124 Anti Fraud PDF); long summaries cut at \"Read more\" were not expanded.",
@@ -38,6 +38,16 @@
    "Sender attributions marked 'uncertain' follow the collector extract; senders shown only by number were not recorded.",
    "Domino Business 03.11 14:22 Inbar onboarding/analysis resource site not counted.",
    "Mixpanel links and media were not opened."
+  ],
+  "2026-11-05.md": [
+   "Ante-bet iterations: link uncertain — likely the Kingdom 120 ante-bet test from 03.11; board name may differ; not verified against a board item.",
+   "Harder RC for event finishers: no name/number on the board yet; Domino board has 'Recompletion for Early Finishers' Live from 04.11 which may be the same treatment (uncertain link).",
+   "High Level Cost for High-Balance Users: link uncertain; Eden's question may relate to a new backlog idea, not a named live test.",
+   "Dice Business 04.11 18:13–19:51 DDJ low (Guy Perez, sahar, Saar, Mor Atias): asked if leftover test segments; sahar: 98.5% of users who connected from 2.11 got the live DDJ campaign; cause per Mor Atias: קינגדום 0 בסיסי — no test named, not attached.",
+   "Domino Business 04.11 16:30 Brody Tal: tests meeting postponed — not a test update.",
+   "Disney 04.11 11:39 Tap to skip: borderline plan / meeting note, not a launched test.",
+   "Sender attributions follow the collector extract; Mixpanel links and media were not opened.",
+   "No messages on 2026-11-05 itself in any approved group."
   ],
   "history/dice_business_2026-06-01_to_2026-10-12.md": [
    "Dice Business – WhatsApp history extract 01.06.2026–12.10.2026 (read-only, captured 26.10.2026 ~13:10 Asia/Jerusalem)",
@@ -1733,6 +1743,13 @@
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12166642547",
      "status": "Aborted",
      "group": "Completed"
+    },
+    {
+     "name": "Pricing DT decrease",
+     "item": "12345733381",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/12345733381",
+     "status": "Aborted",
+     "group": "Completed"
     }
    ],
    "posted": null,
@@ -2336,14 +2353,14 @@
      "name": "196 -  Lava Quest Test - Phase 1",
      "item": "18371364875",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/18371364875",
-     "status": "Done",
+     "status": "Aborted",
      "group": "Completed"
     },
     {
      "name": "1109 - Lava Quest Phase 4",
      "item": "12650737121",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12650737121",
-     "status": "Done",
+     "status": "Deploy",
      "group": "Completed"
     }
    ],
@@ -2498,7 +2515,7 @@
      "name": "1110/1 - Tournament New Model",
      "item": "12598984623",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12598984623",
-     "status": "Done",
+     "status": "Aborted",
      "group": "Completed"
     },
     {
@@ -2572,6 +2589,13 @@
      "name": "Decrease DT amount in pricing",
      "item": "12166642547",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12166642547",
+     "status": "Aborted",
+     "group": "Completed"
+    },
+    {
+     "name": "Pricing DT decrease",
+     "item": "12345733381",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/12345733381",
      "status": "Aborted",
      "group": "Completed"
     }
@@ -2976,7 +3000,7 @@
      "name": "196 -  Lava Quest Test - Phase 1",
      "item": "18371364875",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/18371364875",
-     "status": "Done",
+     "status": "Aborted",
      "group": "Completed"
     },
     {
@@ -3921,7 +3945,7 @@
      "name": "Whammy vs. Fortune Wheel - in Extra Layer",
      "item": "12993932905",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12993932905",
-     "status": "Done",
+     "status": "Aborted",
      "group": "Completed"
     }
    ],
@@ -7385,7 +7409,7 @@
      "name": "Tournament V1 vs. V2 2.0",
      "item": "12346465111",
      "url": "https://superplay.monday.com/boards/9494658232/pulses/12346465111",
-     "status": "Done",
+     "status": "Aborted",
      "group": "Completed"
     }
    ],
@@ -7851,6 +7875,203 @@
      "group": "Backlog"
     }
    ],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa347",
+   "game": "Disney Solitaire",
+   "group": "Disney Business",
+   "date": "2026-11-04",
+   "time": "11:39",
+   "sender": "Ido Slutsky",
+   "test": "Tap to skip",
+   "decision": "plan",
+   "nums": [],
+   "text": "Sunday meeting incl. test plan for Tap-to-skip feature in 9.11 version",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa348",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-04",
+   "time": "15:07",
+   "sender": "Amir Harush",
+   "test": "1114 scrolling K2 Groups",
+   "decision": "launched",
+   "nums": [
+    "+10 rolls",
+    "style card",
+    "same price"
+   ],
+   "text": "עלינו היום בטסט חדש לשחקן חדש - 1114 - scrolling K2 Groups / שינוי בהצעה של ה first timer offer / קבוצת הטסט קיבלה הצעה של סקרוליג במקום ההצעה הנוכחית, מבחינת כלכלה, קבוצת הטסט מקבל +10 רולים, ועוד קארד של סטייל מעבר לקבוצת הקונטרול. אין שינוי במחיר. / סניטי תקין ברמת קבלת הקמפיינים, ברגע שירכשו את ההצעה תבדק גם כמות הרולים המתקבלת והסטייל (Mixpanel link https://mixpanel.com/s/23Ne4P)",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa349",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-04",
+   "time": "15:48",
+   "sender": "Mor Atias",
+   "test": "1114 scrolling K2 Groups",
+   "decision": "issue",
+   "nums": [],
+   "text": "קפצה התראה על פירסט טיימר קופון בגלל טסט של דרורי אני אעדכן את ההתראה",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa350",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-04",
+   "time": "16:30",
+   "sender": "Brody Tal",
+   "test": "—",
+   "decision": "plan",
+   "nums": [],
+   "text": "פגישת טסטים נדחתה למחר",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa351",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-04",
+   "time": "17:04",
+   "sender": "Daniella Emodi",
+   "test": "Social Set bots config (album 67)",
+   "decision": "deploy",
+   "nums": [],
+   "text": "קונפיגורציית הבוטים החדשה שניצחה בטסט הוטמעה עכשיו לכל השחקנים; until 08.11 12:00 UTC (Mixpanel https://mixpanel.com/s/2QzAbx ; Looker social_set_campaign_monitor)",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name (partial-name candidates listed as possible)",
+   "board_item": null,
+   "poss": [
+    {
+     "name": "Social Set Bot Config Test: reactivity & contribution",
+     "item": "13103076747",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/13103076747",
+     "status": "Deploy",
+     "group": "Completed"
+    },
+    {
+     "name": "1113 - BWF Bots -Same Config as Social Set Bots",
+     "item": "13236305210",
+     "url": "https://superplay.monday.com/boards/9494658232/pulses/13236305210",
+     "status": "Deploy",
+     "group": "Completed"
+    }
+   ],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa352",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-04",
+   "time": "17:11",
+   "sender": "Guy Perez / עמית דרורי",
+   "test": "1114 scrolling K2 Groups",
+   "decision": "Q&A",
+   "nums": [],
+   "text": "calendar-based, relaunches daily with scrolling/6box; event duplicated k2-4; duration sometimes short depending on when user reached K2",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa353",
+   "game": "Dice Dreams",
+   "group": "Dice Business",
+   "date": "2026-11-04",
+   "time": "20:03",
+   "sender": "sahar",
+   "test": "Ante-bet iterations",
+   "decision": "pending",
+   "nums": [
+    "money 7%→3%→0.25% (30.10 iter)",
+    "6%→1% (Mon iter)",
+    "purchases 1%",
+    "1.8% for test"
+   ],
+   "text": "האנטהבט iterations: 30.10 iteration won money same day 7%, next day 3%, after 5 days 0.25%; Monday iteration won 6% same day, 1% after a day. Purchases: 30.10 iteration +1% for test after 5 days; Monday version +1.8% for test a day after iteration ended. Will re-check both Monday; if not negative, implement (pre-planned non-weekend day with expected high payout, or prepared economy launched as treatment same day). Test this Friday raising ante-bet for same test group 50/50; decision after weekend.",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa354",
+   "game": "Disney Solitaire",
+   "group": "Disney Business",
+   "date": "2026-11-04",
+   "time": "20:09",
+   "sender": "Eden",
+   "test": "High Level Cost for High-Balance Users",
+   "decision": "question",
+   "nums": [],
+   "text": "שאלה טכנית- קונפיגורבילית / אתם יכולים לשנות את עלות השלב לפי טריגר מסוים ? (image not read); Ido 20:11: כן",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "name · 100% name tokens",
+   "board_item": "13467044035",
+   "poss": [],
+   "posted": null,
+   "note": null
+  },
+  {
+   "id": "wa355",
+   "game": "Domino Dreams",
+   "group": "Domino Business",
+   "date": "2026-11-04",
+   "time": "20:27",
+   "sender": "Yael",
+   "test": "Harder RC for event finishers",
+   "decision": "launched",
+   "nums": [
+    "~20% harder RC"
+   ],
+   "text": "~20% harder RC for fast finishers of minigame / Momentum / MTX; goal delay strong users, prevent blow-up due to Superboost; sanity OK (Mixpanel https://mixpanel.com/s/2fsCl2)",
+   "file": "2026-11-05.md",
+   "kind": "test",
+   "match": "no board item with a matching name",
+   "board_item": null,
+   "poss": [],
    "posted": null,
    "note": null
   },

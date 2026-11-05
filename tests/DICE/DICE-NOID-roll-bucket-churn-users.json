@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -220,6 +220,6 @@
   "Churners",
   "Rolls / Ticks"
  ],
- "content_fingerprint": "2c8692f444d22a4b56839608189158d1cf854f0ac40a3e3a09590b785182f2ba",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "0dc06b3a6a1a9b46d4dd9970478511efd297afd1950aad19dba3f1a982898b3d",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

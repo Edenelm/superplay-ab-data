@@ -1,6 +1,6 @@
 # Glossary (org terms)
 
-Generated 2026-11-04T08:53:06+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
+Generated 2026-11-05T08:48:09+02:00 from local sources. {'concepts': 58, 'unclear': 31, 'inferred_from_usage': 19, 'defined_in_source': 8}. Canonical names are the org's own terms. `unclear` = needs an answer from the team.
 
 | Term | Status | Definition (he) | Games (tests) | Not the same as | Open question |
 |---|---|---|---|---|---|
@@ -32,7 +32,7 @@ Generated 2026-11-04T08:53:06+02:00 from local sources. {'concepts': 58, 'unclea
 | 8 Box | unclear | — | DOM:2, DIS:5 | 6Box (Disney/Dice) הוא פורמט אחר. | מה המבנה של 8 Box (8 קופסאות/שלבים)? האם זהה ב-Domino וב-Disney? |
 | Starter Pack | inferred_from_usage | הצעת פתיחה לשחקנים חדשים. ב-Domino היא חלק מ-FTD offer. | DICE:1, DOM:1, DIS:3 | — | — |
 | Dream Pass | inferred_from_usage | Pass עם משימות ותגמולים, ויש לו גרסת Premium בתשלום ('encourage players to buy the Premium Pass'). | DICE:9, DOM:4 | — | DP ב-Domino ('Remove DP pop up ... OOC') הוא אותו Dream Pass? |
-| Trail | unclear | — | DICE:24, DOM:4, DIS:1 | מבנה ה-Trail ב-Dice (tiers, wheel, GP) לא ידוע ב-Domino וב-Disney. | האם Trail הוא אותו סוג אירוע בשלושת המשחקים? |
+| Trail | unclear | — | DICE:24, DOM:4, DIS:2 | מבנה ה-Trail ב-Dice (tiers, wheel, GP) לא ידוע ב-Domino וב-Disney. | האם Trail הוא אותו סוג אירוע בשלושת המשחקים? |
 | Recompletion | inferred_from_usage | השלמה חוזרת של אירוע (למשל Trail) אחרי ההשלמה הראשונה. | DICE:5, DOM:1 | — | — |
 | GP | unclear | — | DICE:6, DIS:3 | — | GP = Grand Prize? האם זהה ב-Dice וב-Disney? |
 | ATW | unclear | — | DICE:3 | — | ATW = Along The Way (תגמולי ביניים)? |

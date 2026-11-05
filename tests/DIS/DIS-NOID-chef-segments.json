@@ -74,7 +74,7 @@
   },
   "board_decision_raw": "Pending",
   "carried_forward": {
-   "since": "2026-11-04",
+   "since": "2026-11-05",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -222,6 +222,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "cb1fd993529562f7dd3476be1c3a7090845643b80d543f93d289786d6c321c5e",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "c27738d29eb8525569f88b6d280d1f6c02059b0fb982d6203375f3b994466c4e",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

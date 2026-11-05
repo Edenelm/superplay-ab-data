@@ -2,8 +2,8 @@
  "test_id": "DIS-NOID-live-test-2",
  "game": "Disney Solitaire",
  "game_code": "DIS",
- "tier": "live",
- "coverage": "unclear",
+ "tier": "backlog",
+ "coverage": "stub",
  "registry": {
   "test_id": "DIS-NOID-live-test-2",
   "legacy_keys": [
@@ -13,11 +13,11 @@
   "board_item_id": "13300163111",
   "board_test_number": "—",
   "name": "Live Test 2",
-  "lifecycle": "live",
+  "lifecycle": "completed_board_only",
   "board_status_raw": "Active",
   "board_group": "🟢 Live",
   "outcome_label": null,
-  "is_live": true,
+  "is_live": false,
   "has_results": false,
   "business_question": null,
   "hypothesis": null,
@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-02",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -76,6 +76,14 @@
    "split": "empty on the Monday item",
    "start_date": "empty on the Monday item",
    "end_date": "no end date on board (live)"
+  },
+  "board_decision_raw": "Pending",
+  "carried_forward": {
+   "since": "2026-11-05",
+   "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
+   "reason": "no longer in the app build (left the Live group or not on the captured board views)",
+   "board_changes_from": "daily refresh diff 2026-11-02",
+   "note": "board fields updated only from the daily refresh diff; outcome not classified here"
   }
  },
  "results": [],
@@ -136,22 +144,23 @@
    },
    "who_when": {
     "label_he": "למי ומתי",
-    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+    "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
     "statements": [
      {
-      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע",
+      "text_he": "קהל: לא נכתב במקור | התחלה: לא ידוע, סיום: לא ידוע",
       "tag": "explicit_in_source",
       "source_refs": [
        "monday_name"
       ]
      }
     ],
-    "fingerprint": "6622899ef33a2582",
+    "fingerprint": "6665e6e24d1d67c7",
     "inputs": {
      "registry:audience": "74234e98afe7498f",
      "registry:split": "74234e98afe7498f",
      "registry:start_date": "74234e98afe7498f",
      "registry:phases": "4f53cda18c2baa0c",
+     "registry:end_date": "74234e98afe7498f",
      "curated:audience": "74234e98afe7498f",
      "curated:trigger": "74234e98afe7498f",
      "curated:phases": "4f53cda18c2baa0c",
@@ -196,12 +205,12 @@
       ]
      }
     ],
-    "fingerprint": "6a291753ef302619",
+    "fingerprint": "262020157fefc32a",
     "inputs": {
      "curated:questions": "6f1322e4433b2575",
      "curated:conflicts": "4f53cda18c2baa0c",
      "registry:conflicts": "67a9421f4b6fb97f",
-     "expl:limitations": "0d25648a84b00e18",
+     "expl:limitations": "74234e98afe7498f",
      "registry:change": "74234e98afe7498f",
      "registry:control_vs_test": "74234e98afe7498f",
      "registry:audience": "74234e98afe7498f",
@@ -233,81 +242,7 @@
   ],
   "curated": true
  },
- "explanation_legacy_8q": {
-  "test_id": "DIS-NOID-live-test-2",
-  "game": "Disney Solitaire",
-  "lang": "he",
-  "questions": {
-   "what_changed": {
-    "text_he": "שם הבדיקה בבורד: Live Test 2",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13300163111"
-    ],
-    "null_reason": null
-   },
-   "why_tested": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no business question or hypothesis stated in source"
-   },
-   "who": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "audience empty in source"
-   },
-   "what_happened": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "test is live; no results read (no interim numbers stored)"
-   },
-   "business_meaning": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no results yet"
-   },
-   "limitations": {
-    "text_he": "הבדיקה רצה; אין נתוני ביניים. התאמת Mixpanel: none",
-    "tag": "generated_explanation",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13300163111"
-    ],
-    "null_reason": null
-   },
-   "recommended": {
-    "text_he": null,
-    "tag": null,
-    "source_refs": [],
-    "null_reason": "no explicit recommendation found in captured sources"
-   },
-   "decided": {
-    "text_he": "בבורד: Active",
-    "tag": "source_fact",
-    "source_refs": [
-     "https://superplay.monday.com/boards/18435634714/pulses/13300163111"
-    ],
-    "null_reason": null
-   }
-  },
-  "question_labels_he": {
-   "what_changed": "מה שינינו?",
-   "why_tested": "למה בדקנו?",
-   "who": "על מי בדקנו?",
-   "what_happened": "מה קרה בפועל?",
-   "business_meaning": "מה המשמעות העסקית?",
-   "limitations": "מהן המגבלות?",
-   "recommended": "מה הומלץ?",
-   "decided": "מה הוחלט בפועל?"
-  },
-  "business_state_ref": null,
-  "measured_impact_ref": [],
-  "generation": "template over source fields; no free-form AI text",
-  "verification": "NOT VERIFIED"
- },
+ "explanation_legacy_8q": null,
  "decisions": [],
  "whatsapp": [],
  "monday_updates_fetched": {
@@ -316,6 +251,6 @@
   "updates": []
  },
  "glossary_concepts": [],
- "content_fingerprint": "893596cb123963989bb93283ad9a0d1a21a936342cc3e91f6195570f379a1653",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "1a35f9378385e4ff5086cca38b0bfb66d0e4143b62fadbdaf33302abd687355b",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

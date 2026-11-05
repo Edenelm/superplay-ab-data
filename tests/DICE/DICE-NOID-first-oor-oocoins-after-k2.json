@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "K (Kingdom)",
   "OOC / OOR"
  ],
- "content_fingerprint": "8b0bdd4dee71f38fd9ef7b4b45176230d1526989a87a91295190a18dbce69f1d",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "9cd3a3b5c5b5a5dd74b8a68abe38ac8b0b6a2ce8e4b048ef2c651f6720199a44",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

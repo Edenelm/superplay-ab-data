@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -216,6 +216,6 @@
  "whatsapp": [],
  "monday_updates_fetched": null,
  "glossary_concepts": [],
- "content_fingerprint": "ae2b39e29b686ce624b37e6feb99c6ac9003b997df639a767e41adee2e0f077d",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "f8023cc1bd72bf47814604742f5ccd77ca44aab279fda6f9f0d6f816bd4e8c17",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

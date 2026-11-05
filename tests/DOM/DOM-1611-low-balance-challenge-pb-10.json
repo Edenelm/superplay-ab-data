@@ -39,7 +39,7 @@
     {
      "id": 11595722,
      "title": "1611 - Low balance challenge PB - 10 min free entry",
-     "modified": "2026-10-20",
+     "modified": "2026-11-04",
      "url": "https://mixpanel.com/project/2735821/app/boards#id=11595722"
     }
    ],
@@ -74,7 +74,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "live snapshot captures status/dates/audience only; results tab not read",
    "hypothesis": "live snapshot captures status/dates/audience only; results tab not read",
@@ -430,6 +430,6 @@
   "PB",
   "Low balance"
  ],
- "content_fingerprint": "e16592a80788617da79053339aff0ebf270b03865571435b56360f9d21158e89",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "7d59ad9e3a78802412287e9ec1a169bc1e0bc4426c0b6fb2dff8fd91a7274929",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -93,7 +93,7 @@
   },
   "board_decision_raw": "Reject",
   "carried_forward": {
-   "since": "2026-11-04",
+   "since": "2026-11-05",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -285,6 +285,6 @@
  "glossary_concepts": [
   "8 Box"
  ],
- "content_fingerprint": "0535d91b1c7b30440869e3605f5a3693b4f02ebfd0209c765cda57d34f65384b",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "281112ac948d61067e224e6fb5aface8e591fe7c82c73763841155b5ecde6e9a",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

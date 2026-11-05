@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -352,6 +352,6 @@
  "glossary_concepts": [
   "Trail"
  ],
- "content_fingerprint": "daaf854e56c617a14a27dc7833a1f2814b229e7afb99f4113329e056c7ff29bc",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "24e48545311a0c7112a2c67037b76fc4d2c7768af406577eacf70b686541ea0e",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

@@ -1150,7 +1150,7 @@
     "abort (recommended)"
    ],
    "board_decision": "Not implemented",
-   "board_status": "Done",
+   "board_status": "Aborted",
    "numbers_quoted": [],
    "first_seen": "2026-07-08",
    "last_seen": "2026-07-21",
@@ -1212,6 +1212,6 @@
   "Revenue",
   "DTC"
  ],
- "content_fingerprint": "c9eb1da86b4b48aa05fed4259158e981ebe43958e4e2082d228a0ed15c8fe9db",
- "last_changed_at": "2026-11-02T16:29:03+02:00"
+ "content_fingerprint": "814a8c8400483d98edfa8eb395ec2ef41e5bebc833b1e20094d4b9b0ae22880d",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

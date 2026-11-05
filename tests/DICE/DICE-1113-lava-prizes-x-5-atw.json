@@ -16,7 +16,7 @@
   "lifecycle": "completed_board_only",
   "board_status_raw": "Deploy",
   "board_group": "Completed",
-  "board_decision_raw": null,
+  "board_decision_raw": "Implemented",
   "board_category": "deploy",
   "outcome_label": null,
   "is_live": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -300,7 +300,7 @@
    "recommended": [
     "deploy (recommended)"
    ],
-   "board_decision": null,
+   "board_decision": "Implemented",
    "board_status": "Deploy",
    "numbers_quoted": [
     "Rev −0.25%",
@@ -385,6 +385,6 @@
  "glossary_concepts": [
   "ATW"
  ],
- "content_fingerprint": "485cdc99cd6756d64904a0ad0b342df674086979f01b573aff619be7af52f41d",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "c0a5ac7af5d96f2a7f0e030fb9dbfb07df61c3845713da33e4873e19d1f872b8",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

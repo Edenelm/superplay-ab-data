@@ -16,7 +16,7 @@
   "lifecycle": "completed_board_only",
   "board_status_raw": "Deploy",
   "board_group": "Completed",
-  "board_decision_raw": null,
+  "board_decision_raw": "Implemented",
   "board_category": "deploy",
   "outcome_label": null,
   "is_live": false,
@@ -53,7 +53,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "only the board row matched to WhatsApp was captured; results tab not read",
    "hypothesis": "only the board row matched to WhatsApp was captured; results tab not read",
@@ -297,7 +297,7 @@
    "whatsapp_decision_latest": "deploy",
    "whatsapp_decision_rule": "latest WhatsApp decision wins; a launch is not a decision",
    "recommended": [],
-   "board_decision": null,
+   "board_decision": "Implemented",
    "board_status": "Deploy",
    "numbers_quoted": [
     "Revenue +3.4%",
@@ -391,6 +391,6 @@
  "glossary_concepts": [
   "BWF"
  ],
- "content_fingerprint": "8f111c0170c01c8cbf0418b605978eea98e138a88cd3b8d776613fb2f227c1d6",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "bb7cde739fb8861b1c8c3f5f5bf47e310ef9e65b7c406ba4948771fd20337ef6",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

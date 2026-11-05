@@ -63,7 +63,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
  "glossary_concepts": [
   "K (Kingdom)"
  ],
- "content_fingerprint": "892e168042205079e1c5235b8cb524e136178f01feee874a958ac81a8c3d4526",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "828e2bc8cedfa9fb6cba48d7acc94118f3ff5c15ef291555f9ada958426c6d90",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

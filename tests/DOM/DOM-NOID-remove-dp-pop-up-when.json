@@ -62,7 +62,7 @@
    }
   ],
   "verification": "NOT VERIFIED",
-  "snapshot_date": "2026-11-04",
+  "snapshot_date": "2026-11-05",
   "null_reasons": {
    "business_question": "backlog snapshot captures name/group/status/owners/dates only",
    "hypothesis": "backlog snapshot captures name/group/status/owners/dates only",
@@ -219,6 +219,6 @@
   "Dream Pass",
   "OOC / OOR"
  ],
- "content_fingerprint": "dd7a2c06780d9182f7b0df46bd6257b42956c0f7ad9d3488ffab5d808f30dd9f",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "32d9d58b8b85970502081d2c0feaad8a2157b6323d5eaa3e743c74d54704cc50",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }

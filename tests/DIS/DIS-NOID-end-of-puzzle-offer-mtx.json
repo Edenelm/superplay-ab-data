@@ -74,7 +74,7 @@
   },
   "board_decision_raw": "Pending",
   "carried_forward": {
-   "since": "2026-11-04",
+   "since": "2026-11-05",
    "last_seen_in_sources": "2026-11-02T08:40:18+02:00",
    "reason": "no longer in the app build (left the Live group or not on the captured board views)",
    "board_changes_from": "daily refresh diff 2026-11-02",
@@ -224,6 +224,6 @@
  "glossary_concepts": [
   "MTX"
  ],
- "content_fingerprint": "46ad504eda76a6fd9d89be4996a67327dfdd4cbbc491b0ce4aa39b0ec6b6c744",
- "last_changed_at": "2026-11-04T08:53:06+02:00"
+ "content_fingerprint": "684db338d040e23f9c12a38ece119dc0320c113e556657f31e3669afc0ca1f17",
+ "last_changed_at": "2026-11-05T08:48:09+02:00"
 }
